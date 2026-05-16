@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Alexandrie, Alexandra",
+    "artist": "M. Pokora",
+    "album": "My Way",
+    "year": "2022",
+    "spotifyId": "3fXBWHOB8iiaSYBXp4GwyJ",
+    "isrc": "FRP431600190",
+    "image": "https://i.scdn.co/image/ab67616d00004851fd4f70f3b8e37a3f09ecd28e",
+    "reason": "not_found"
+  },
+  {
+    "title": "Joyeux anniversaire AMBRE",
+    "artist": "Canell 'Sun",
+    "album": "Joyeux anniversaire avec ton prénom (Volume 4)",
+    "year": "2025",
+    "spotifyId": "4EEW2qMJ0EnoxphMDuIpF4",
+    "isrc": "FRY402590386",
+    "image": "https://i.scdn.co/image/ab67616d00004851bf1d8406e5dd80007e4fcb74",
+    "reason": "not_found"
+  },
+  {
+    "title": "NEW Joyeux anniversaire Ambre Jazz Manouche",
+    "artist": "Jazzy Birthday",
+    "album": "Jazzy Birthday, Vol. 1",
+    "year": "2021",
+    "spotifyId": "7otXuVEPvqX8HTOtNw6kVR",
+    "isrc": "QZNWW2117525",
+    "image": "https://i.scdn.co/image/ab67616d000048512bff504ee980d94796cccbac",
+    "reason": "not_found"
+  }
+]
