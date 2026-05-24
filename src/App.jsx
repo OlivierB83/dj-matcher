@@ -443,6 +443,7 @@ export default function App() {
   const [hidden, setHidden] = useState(() => loadStoredSet(STORAGE_HIDDEN));
   const [favorites, setFavorites] = useState(() => loadStoredSet(STORAGE_FAVORITES));
   const [activeFamilies, setActiveFamilies] = useState(() => new Set());
+  const [filtersCollapsed, setFiltersCollapsed] = useState(true);
   const [view, setView] = useState("main");
   const [forgetStack, setForgetStack] = useState([]);
 
@@ -775,7 +776,7 @@ export default function App() {
       >
         <div />
 
-        <h1 style={{ margin: 0, textAlign: "center" }}>DJ Matcher V7.1 🎧</h1>
+        <h1 style={{ margin: 0, textAlign: "center" }}>DJ Matcher V7.2 🎧</h1>
 
         <div
           style={{
@@ -1161,53 +1162,85 @@ export default function App() {
                 alignItems: "center",
               }}
             >
-              <span style={{ fontSize: 12, color: "#666", marginRight: 4 }}>
-                Filtrer par style :
-              </span>
+              {(() => {
+                const allFamilyIds = [
+                  ...GENRE_FAMILIES.map((f) => f.id),
+                  FAMILY_SANS_GENRE,
+                  FAMILY_AUTRE,
+                ].filter((id) => (familyCounts.get(id) || 0) > 0);
 
-              {[...GENRE_FAMILIES.map((f) => f.id), FAMILY_SANS_GENRE, FAMILY_AUTRE]
-                .filter((id) => (familyCounts.get(id) || 0) > 0)
-                .map((id) => {
-                  const active = activeFamilies.has(id);
-                  const count = familyCounts.get(id) || 0;
-                  return (
-                    <button
-                      key={id}
-                      type="button"
-                      onClick={() => toggleFamily(id)}
-                      style={{
-                        padding: "4px 10px",
-                        borderRadius: 14,
-                        border: active ? "1px solid #2962ff" : "1px solid #ccc",
-                        background: active ? "#2962ff" : "white",
-                        color: active ? "white" : "#444",
-                        fontSize: 12,
-                        cursor: "pointer",
-                      }}
-                    >
-                      {FAMILY_LABELS[id] || id}{" "}
-                      <span style={{ opacity: 0.7 }}>({count})</span>
-                    </button>
-                  );
-                })}
+                const visibleIds = filtersCollapsed
+                  ? allFamilyIds.filter((id) => activeFamilies.has(id))
+                  : allFamilyIds;
 
-              {activeFamilies.size > 0 && (
-                <button
-                  type="button"
-                  onClick={() => setActiveFamilies(new Set())}
-                  style={{
-                    padding: "4px 10px",
-                    borderRadius: 14,
-                    border: "1px solid #ddd",
-                    background: "white",
-                    color: "#888",
-                    fontSize: 12,
-                    cursor: "pointer",
-                  }}
-                >
-                  Réinitialiser
-                </button>
-              )}
+                const hiddenCount = allFamilyIds.length - visibleIds.length;
+
+                return (
+                  <>
+                    {visibleIds.map((id) => {
+                      const active = activeFamilies.has(id);
+                      const count = familyCounts.get(id) || 0;
+                      return (
+                        <button
+                          key={id}
+                          type="button"
+                          onClick={() => toggleFamily(id)}
+                          style={{
+                            padding: "4px 10px",
+                            borderRadius: 14,
+                            border: active ? "1px solid #2962ff" : "1px solid #ccc",
+                            background: active ? "#2962ff" : "white",
+                            color: active ? "white" : "#444",
+                            fontSize: 12,
+                            cursor: "pointer",
+                          }}
+                        >
+                          {FAMILY_LABELS[id] || id}{" "}
+                          <span style={{ opacity: 0.7 }}>({count})</span>
+                        </button>
+                      );
+                    })}
+
+                    {allFamilyIds.length > 0 && (
+                      <button
+                        type="button"
+                        onClick={() => setFiltersCollapsed((v) => !v)}
+                        style={{
+                          padding: "4px 10px",
+                          borderRadius: 14,
+                          border: "1px dashed #ccc",
+                          background: "white",
+                          color: "#666",
+                          fontSize: 12,
+                          cursor: "pointer",
+                        }}
+                      >
+                        {filtersCollapsed
+                          ? `Filtrer par style${hiddenCount > 0 ? ` (${hiddenCount})` : ""}`
+                          : "Masquer inactifs"}
+                      </button>
+                    )}
+
+                    {activeFamilies.size > 0 && (
+                      <button
+                        type="button"
+                        onClick={() => setActiveFamilies(new Set())}
+                        style={{
+                          padding: "4px 10px",
+                          borderRadius: 14,
+                          border: "1px solid #ddd",
+                          background: "white",
+                          color: "#888",
+                          fontSize: 12,
+                          cursor: "pointer",
+                        }}
+                      >
+                        Réinitialiser
+                      </button>
+                    )}
+                  </>
+                );
+              })()}
             </div>
           )}
 
@@ -1258,19 +1291,28 @@ export default function App() {
                   {renderReasonTags(track.reason, track.isFavorite)}
                 </div>
 
-                <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: 6,
+                    alignSelf: "stretch",
+                    alignItems: "flex-end",
+                  }}
+                >
                   <button
                     type="button"
                     onClick={() => toggleFavorite(track.trackKey)}
                     title={track.isFavorite ? "Retirer des favoris" : "Ajouter aux favoris"}
                     style={{
-                      padding: "4px 8px",
+                      padding: "4px 10px",
                       border: "1px solid #ddd",
                       background: track.isFavorite ? "#ffd6e8" : "white",
                       color: track.isFavorite ? "#a8225d" : "#888",
                       cursor: "pointer",
                       borderRadius: 6,
                       fontSize: 16,
+                      width: 90,
                     }}
                   >
                     {track.isFavorite ? "♥" : "♡"}
@@ -1278,27 +1320,40 @@ export default function App() {
 
                   <button
                     type="button"
-                    onClick={() => forgetTrack(track.trackKey)}
-                    title="Ne plus me proposer ce titre"
+                    onClick={() => selectTrack(track)}
                     style={{
-                      padding: "4px 8px",
-                      border: "1px solid #ddd",
-                      background: "white",
-                      color: "#888",
+                      padding: "8px 16px",
+                      border: "1px solid #2962ff",
+                      background: "#2962ff",
+                      color: "white",
                       cursor: "pointer",
                       borderRadius: 6,
-                      fontSize: 12,
+                      fontSize: 14,
+                      fontWeight: "bold",
+                      width: 90,
                     }}
                   >
-                    Oublier
+                    Choisir
                   </button>
+
+                  <div style={{ flex: 1, minHeight: 24 }} />
 
                   <button
                     type="button"
-                    onClick={() => selectTrack(track)}
-                    style={{ padding: "4px 8px" }}
+                    onClick={() => forgetTrack(track.trackKey)}
+                    title="Ne plus me proposer ce titre"
+                    style={{
+                      padding: "2px 8px",
+                      border: "none",
+                      background: "transparent",
+                      color: "#aaa",
+                      cursor: "pointer",
+                      fontSize: 11,
+                      fontStyle: "italic",
+                      textDecoration: "underline",
+                    }}
                   >
-                    Choisir
+                    oublier
                   </button>
                 </div>
               </div>
