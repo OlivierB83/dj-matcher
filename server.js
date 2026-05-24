@@ -275,7 +275,7 @@ app.get("/api/import-playlist/:playlistId", async (req, res) => {
       return res.status(response.status).json(data);
     }
 
-    spotifyTotal = data.total;
+    spotifyTotal ??= data.total;
     const items = data.items || [];
     rawItemsTotal += items.length;
 

@@ -270,7 +270,17 @@ export default function App() {
   }
 
   useEffect(() => {
-    loadKnownTracks();
+    let active = true;
+
+    fetch(`${API}/api/known-tracks`)
+      .then((res) => res.json())
+      .then((data) => {
+        if (active) setKnownTracks(data);
+      });
+
+    return () => {
+      active = false;
+    };
   }, []);
 
   async function enrichTrack(track) {
@@ -406,7 +416,7 @@ export default function App() {
     }
   }
 
-  function useTrack(track) {
+  function selectTrack(track) {
     setStatus("");
 
     setCurrent({
@@ -475,7 +485,7 @@ export default function App() {
         maxWidth: 1100,
       }}
     >
-      <h1>DJ Matcher V6.4 🎧</h1>
+      <h1>DJ Matcher V7.0 🎧</h1>
 
       <h2>Recherche Spotify</h2>
 
@@ -599,7 +609,7 @@ export default function App() {
 
               <button
                 onClick={() =>
-                  useTrack(track)
+                  selectTrack(track)
                 }
                 disabled={
                   !track.bpm ||
@@ -736,7 +746,7 @@ export default function App() {
 
                 <button
                   onClick={() =>
-                    useTrack(track)
+                    selectTrack(track)
                   }
                 >
                   Choisir
