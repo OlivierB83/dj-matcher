@@ -274,29 +274,11 @@ export default function App() {
   }, []);
 
   async function enrichTrack(track) {
-    const isrc = track.external_ids?.isrc;
-
-    if (!isrc) {
-      return {
-        ...track,
-        enriched: false,
-        enrichMessage: "pas d'ISRC",
-      };
-    }
-
     try {
       const res = await fetch(
         `${API}/api/enrich?artist=${encodeURIComponent(
           track.artists?.[0]?.name || ""
-        )}&title=${encodeURIComponent(
-          track.name
-        )}&album=${encodeURIComponent(
-          track.album?.name || ""
-        )}&year=${encodeURIComponent(
-          track.album?.release_date?.slice(0, 4) || ""
-        )}&image=${encodeURIComponent(
-          track.album?.images?.[2]?.url || ""
-        )}&isrc=${encodeURIComponent(isrc)}`
+        )}&title=${encodeURIComponent(track.name)}`
       );
 
       const data = await res.json();
@@ -610,7 +592,7 @@ export default function App() {
                   <>
                     Non enrichi ·{" "}
                     {track.enrichMessage ||
-                      "hors base/API"}
+                      "hors catalogue"}
                   </>
                 )}
               </div>
