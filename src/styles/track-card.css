@@ -192,11 +192,21 @@
   .track-score-col {
     grid-area: actions;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
     width: 100%;
     padding-top: var(--space-sm);
     border-top: 1px solid var(--border-subtle);
     margin-top: var(--space-xs);
+  }
+
+  /* Push fav + forget to the right, keep score on the left */
+  .track-score-col .btn-fav { margin-left: auto; }
+
+  .track-score-col .btn-forget {
+    margin-top: 0;
+    align-self: center;
   }
 
   .score {
