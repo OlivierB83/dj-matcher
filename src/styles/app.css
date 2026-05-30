@@ -1,8 +1,23 @@
 /* ===== App layout ===== */
 .app {
-  max-width: 880px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: var(--space-2xl) var(--space-lg);
+}
+
+/* ===== Larger viewports: bump base sizes to match the "zoomed" feel ===== */
+@media (min-width: 900px) {
+  body { font-size: 17px; }
+  .header-title { font-size: 19px; }
+  .header-action { font-size: 15px; padding: 9px 16px; }
+  .search-input { font-size: 17px; padding: 14px 14px 14px 44px; }
+  .search-button { font-size: 17px; padding: 14px 26px; }
+  .search-input-icon { left: 14px; }
+  .current-title { font-size: 22px; }
+  .current-label { font-size: 12px; }
+  .suggestions-title h3 { font-size: 18px; }
+  .suggestions-count { font-size: 14px; }
+  .suggestions-filter { font-size: 15px; padding: 9px 16px; }
 }
 
 /* ===== Header ===== */

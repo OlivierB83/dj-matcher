@@ -110,22 +110,23 @@
 
 .track-row {
   display: grid;
-  grid-template-columns: 80px 1fr auto;
-  gap: 16px;
-  align-items: center;
+  grid-template-columns: 140px 1fr auto;
+  gap: 18px;
+  align-items: stretch;
 }
 
 .track-cover {
-  width: 80px;
-  height: 80px;
+  width: 140px;
+  min-height: 140px;
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  font-size: 32px;
+  font-size: 40px;
   overflow: hidden;
   background: #1f2937;
+  align-self: stretch;
 }
 .track-cover img { width: 100%; height: 100%; object-fit: cover; }
 
@@ -168,17 +169,39 @@
 .tcard-m-cover {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 200px;
   background: #1a1a2e;
-}
-.tcard-m-cover-img {
-  width: 100%;
-  height: 100%;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 52px;
+}
+
+/* Blurred copy of the cover, used as a coloured halo behind the sharp one */
+.tcard-m-cover-halo {
+  position: absolute;
+  inset: -30px;
+  background-size: cover;
+  background-position: center;
+  filter: blur(32px) saturate(1.5);
+  opacity: 0.75;
+  transform: scale(1.15);
+  z-index: 0;
+}
+
+.tcard-m-cover-img {
+  position: relative;
+  z-index: 1;
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
   overflow: hidden;
+  background: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 44px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.55);
 }
 .tcard-m-cover-img img { width: 100%; height: 100%; object-fit: cover; }
 
@@ -239,7 +262,6 @@
 
 .tcard-m-actions {
   display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-top: 14px;
+  justify-content: flex-end;
+  margin-top: 8px;
 }

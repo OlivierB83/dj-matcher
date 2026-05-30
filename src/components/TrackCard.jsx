@@ -84,7 +84,21 @@ function TrackCardMobile({ track, compat, featured, isFavorite, onChoose, onTogg
       onKeyDown={handleKeyDown}
     >
       <div className="tcard-m-cover">
-        <Cover track={track} className="tcard-m-cover-img" />
+        {track.coverUrl && (
+          <div
+            className="tcard-m-cover-halo"
+            style={{ backgroundImage: `url(${track.coverUrl})` }}
+            aria-hidden
+          />
+        )}
+
+        <div className="tcard-m-cover-img">
+          {track.coverUrl ? (
+            <img src={track.coverUrl} alt="" />
+          ) : (
+            <span aria-hidden>🎵</span>
+          )}
+        </div>
 
         <button
           className={`tcard-m-fav${isFavorite ? " is-fav" : ""}`}
@@ -109,15 +123,6 @@ function TrackCardMobile({ track, compat, featured, isFavorite, onChoose, onTogg
         <MetaRow track={track} compat={compat} />
         <BadgeRow compat={compat} />
         <div className="tcard-m-actions">
-          <button
-            className="btn-choisir-lg"
-            onClick={(e) => {
-              e.stopPropagation();
-              onChoose?.();
-            }}
-          >
-            Choisir
-          </button>
           <button
             className="btn-forget"
             onClick={(e) => {
