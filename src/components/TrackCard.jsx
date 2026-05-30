@@ -53,7 +53,7 @@ export function TrackCard({
         }
       }}
     >
-      <div className="track-row">
+      <div className="track-main">
         <div className="track-cover">
           {track.coverUrl ? (
             <img src={track.coverUrl} alt="" />
@@ -67,10 +67,10 @@ export function TrackCard({
             {track.title}
             {isFavorite && (
               <Heart
-                size={13}
+                size={14}
                 fill="currentColor"
                 color="var(--fav-fg)"
-                style={{ marginLeft: 6, verticalAlign: "-1px" }}
+                style={{ marginLeft: 6, verticalAlign: "-2px" }}
               />
             )}
           </div>
@@ -107,40 +107,40 @@ export function TrackCard({
           </div>
         </div>
 
-        <div className="track-score-col">
-          <motion.div
-            className="score"
-            initial={{ scale: 0.9 }}
-            animate={{ scale: 1 }}
-            transition={{ type: "spring", stiffness: 300, damping: 20 }}
-          >
-            <div className={`score-num ${scoreColorClass(track.score)}`}>
-              {track.score}
-            </div>
-            <div className="score-label">score</div>
-          </motion.div>
+        <button
+          className={`btn-fav${isFavorite ? " is-fav" : ""}`}
+          onClick={(e) => {
+            e.stopPropagation();
+            onToggleFavorite?.();
+          }}
+          aria-label={isFavorite ? "Retirer des favoris" : "Ajouter aux favoris"}
+        >
+          <Heart size={18} fill={isFavorite ? "currentColor" : "none"} />
+        </button>
+      </div>
 
-          <button
-            className={`btn-fav${isFavorite ? " is-fav" : ""}`}
-            onClick={(e) => {
-              e.stopPropagation();
-              onToggleFavorite?.();
-            }}
-            aria-label={isFavorite ? "Retirer des favoris" : "Ajouter aux favoris"}
-          >
-            <Heart size={14} fill={isFavorite ? "currentColor" : "none"} />
-          </button>
+      <div className="track-footer">
+        <motion.div
+          className="score"
+          initial={{ scale: 0.9 }}
+          animate={{ scale: 1 }}
+          transition={{ type: "spring", stiffness: 300, damping: 20 }}
+        >
+          <span className={`score-num ${scoreColorClass(track.score)}`}>
+            {track.score}
+          </span>
+          <span className="score-label">score</span>
+        </motion.div>
 
-          <button
-            className="btn-forget"
-            onClick={(e) => {
-              e.stopPropagation();
-              onForget?.();
-            }}
-          >
-            oublier
-          </button>
-        </div>
+        <button
+          className="btn-forget"
+          onClick={(e) => {
+            e.stopPropagation();
+            onForget?.();
+          }}
+        >
+          oublier ce titre
+        </button>
       </div>
     </motion.div>
   );

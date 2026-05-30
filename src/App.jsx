@@ -793,10 +793,7 @@ export default function App() {
                   }}
                   style={!enriched ? { opacity: 0.55 } : undefined}
                 >
-                  <div
-                    className="track-row"
-                    style={{ gridTemplateColumns: "56px 1fr auto" }}
-                  >
+                  <div className="track-main">
                     <div className="track-cover">
                       {cover ? <img src={cover} alt="" /> : <span aria-hidden>🎵</span>}
                     </div>
@@ -829,7 +826,7 @@ export default function App() {
                         }}
                         aria-label={isFav ? "Retirer des favoris" : "Ajouter aux favoris"}
                       >
-                        <Heart size={14} fill={isFav ? "currentColor" : "none"} />
+                        <Heart size={18} fill={isFav ? "currentColor" : "none"} />
                       </button>
                     )}
                   </div>

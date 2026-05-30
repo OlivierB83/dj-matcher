@@ -4,7 +4,7 @@
   gap: var(--space-md);
   flex-wrap: wrap;
   font-family: var(--font-mono);
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-muted);
   margin-bottom: var(--space-sm);
 }
@@ -21,8 +21,8 @@
 }
 
 .badge {
-  font-size: 12px;
-  padding: 3px 9px;
+  font-size: 14px;
+  padding: 4px 10px;
   border-radius: var(--radius-sm);
   font-weight: 500;
   white-space: nowrap;
@@ -37,7 +37,7 @@
   color: var(--fav-fg);
   display: inline-flex;
   align-items: center;
-  gap: 3px;
+  gap: 4px;
 }
 
 /* ===== Track card ===== */
@@ -62,61 +62,82 @@
 
 .track-card.featured { border-color: var(--border-accent); }
 
-.track-row {
-  display: grid;
-  grid-template-columns: 56px 1fr auto;
+/* ===== Main row: cover + info + heart (centered right) ===== */
+.track-main {
+  display: flex;
   gap: var(--space-md);
   align-items: center;
 }
 
 .track-cover {
-  width: 56px;
-  height: 56px;
+  width: 80px;
+  height: 80px;
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  font-size: 24px;
+  font-size: 32px;
   overflow: hidden;
   background: #1f2937;
 }
 
 .track-cover img { width: 100%; height: 100%; object-fit: cover; }
 
-.track-info { min-width: 0; }
+.track-info {
+  flex: 1;
+  min-width: 0;
+}
 
 .track-title {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 500;
   color: var(--text-primary);
   margin-bottom: 3px;
 }
 
 .track-artist {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-muted);
   margin-bottom: var(--space-sm);
 }
 
-/* ===== Score + action column ===== */
-.track-score-col {
-  display: flex;
-  flex-direction: column;
+/* ===== Heart button ===== */
+.btn-fav {
+  background: transparent;
+  border: 1px solid var(--border-strong);
+  color: var(--text-muted);
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
   align-items: center;
-  gap: var(--space-sm);
+  justify-content: center;
   flex-shrink: 0;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.btn-fav:hover { color: var(--fav-fg); border-color: var(--fav-fg); }
+.btn-fav.is-fav { color: var(--fav-fg); border-color: var(--fav-fg); }
+
+/* ===== Footer row: score + oublier ===== */
+.track-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--border-subtle);
 }
 
 .score {
-  text-align: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: baseline;
+  gap: 8px;
 }
 
 .score-num {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 500;
   line-height: 1;
   font-family: var(--font-mono);
@@ -127,94 +148,36 @@
 .score-num.score-low  { color: var(--score-low); }
 
 .score-label {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text-dim);
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  margin-top: 3px;
 }
-
-.btn-choisir {
-  background: var(--brand);
-  border: none;
-  color: white;
-  padding: 8px 16px;
-  border-radius: var(--radius-sm);
-  font-size: 14px;
-  font-weight: 500;
-  transition: background 0.15s;
-}
-
-.btn-choisir:hover { background: var(--brand-dark); }
-
-.btn-fav {
-  background: transparent;
-  border: 1px solid var(--border-strong);
-  color: var(--text-muted);
-  width: 34px;
-  height: 34px;
-  border-radius: var(--radius-sm);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  transition: color 0.15s, border-color 0.15s;
-}
-
-.btn-fav:hover { color: var(--fav-fg); border-color: var(--fav-fg); }
-.btn-fav.is-fav { color: var(--fav-fg); border-color: var(--fav-fg); }
 
 .btn-forget {
   background: transparent;
   border: none;
   color: var(--text-dim);
-  font-size: 13px;
+  font-size: 14px;
   text-decoration: underline;
-  padding: 4px 2px;
-  margin-top: var(--space-sm);
-  align-self: flex-end;
+  padding: 6px 4px;
 }
 
 .btn-forget:hover { color: var(--text-muted); }
 
-/* ===== Responsive: mobile card layout ===== */
+/* ===== Responsive ===== */
 @media (max-width: 600px) {
-  .track-row {
-    grid-template-columns: 48px 1fr;
-    grid-template-areas:
-      "cover info"
-      "actions actions";
-    gap: 10px;
-  }
+  .track-card { padding: 14px; }
 
-  .track-cover { grid-area: cover; width: 52px; height: 52px; font-size: 22px; }
-  .track-info  { grid-area: info; }
+  .track-main { gap: 14px; }
 
-  .track-score-col {
-    grid-area: actions;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
-    width: 100%;
-    padding-top: var(--space-sm);
-    border-top: 1px solid var(--border-subtle);
-    margin-top: var(--space-xs);
-  }
+  .track-cover { width: 92px; height: 92px; font-size: 36px; }
 
-  /* Push fav + forget to the right, keep score on the left */
-  .track-score-col .btn-fav { margin-left: auto; }
+  .track-title { font-size: 18px; }
+  .track-artist { font-size: 15px; }
 
-  .track-score-col .btn-forget {
-    margin-top: 0;
-    align-self: center;
-  }
+  .meta-row { font-size: 14px; gap: 10px; }
+  .badge { font-size: 14px; padding: 4px 10px; }
 
-  .score {
-    flex-direction: row;
-    align-items: baseline;
-    gap: 6px;
-  }
-
-  .score-num { font-size: 26px; }
-  .score-label { margin-top: 0; }
+  .score-num { font-size: 28px; }
 }
