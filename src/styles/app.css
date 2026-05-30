@@ -33,13 +33,13 @@
 }
 
 .header-title {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
   letter-spacing: -0.01em;
 }
 
 .header-version {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text-dim);
   font-family: var(--font-mono);
 }
@@ -48,9 +48,9 @@
   background: var(--bg-input);
   border: 1px solid var(--border-subtle);
   color: var(--text-secondary);
-  padding: 7px 13px;
+  padding: 8px 14px;
   border-radius: var(--radius-md);
-  font-size: 12px;
+  font-size: 14px;
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -64,7 +64,7 @@
 .search-section { margin-bottom: var(--space-xl); }
 
 .search-label {
-  font-size: 10px;
+  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--text-dim);
@@ -91,9 +91,9 @@
   background: var(--bg-input);
   border: 1px solid var(--border-subtle);
   color: var(--text-primary);
-  padding: 10px 12px 10px 38px;
+  padding: 12px 12px 12px 40px;
   border-radius: var(--radius-md);
-  font-size: 14px;
+  font-size: 16px;
   transition: border-color 0.15s, background 0.15s;
 }
 
@@ -109,9 +109,9 @@
   background: var(--brand);
   border: none;
   color: white;
-  padding: 10px 20px;
+  padding: 12px 22px;
   border-radius: var(--radius-md);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   transition: background 0.15s;
 }
@@ -137,9 +137,9 @@
 }
 
 .autocomplete-item {
-  padding: 8px 10px;
+  padding: 10px 12px;
   border-radius: var(--radius-sm);
-  font-size: 13px;
+  font-size: 15px;
   cursor: pointer;
   color: var(--text-secondary);
   transition: background 0.1s;
@@ -147,7 +147,7 @@
 
 .autocomplete-item:hover { background: var(--bg-card-hover); }
 .autocomplete-artist { color: var(--text-muted); }
-.autocomplete-meta { color: var(--text-dim); font-family: var(--font-mono); font-size: 11px; }
+.autocomplete-meta { color: var(--text-dim); font-family: var(--font-mono); font-size: 13px; }
 
 /* ===== Current track ===== */
 .current-track {
@@ -178,7 +178,7 @@
 .current-info { flex: 1; min-width: 0; }
 
 .current-label {
-  font-size: 10px;
+  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--brand);
@@ -187,7 +187,7 @@
 }
 
 .current-title {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 500;
   margin-bottom: 6px;
   letter-spacing: -0.01em;
@@ -211,12 +211,12 @@
 
 .suggestions-title h3 {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 
 .suggestions-count {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-dim);
   font-family: var(--font-mono);
 }
@@ -225,9 +225,9 @@
   background: transparent;
   border: 1px solid var(--border-strong);
   color: var(--text-secondary);
-  padding: 6px 12px;
+  padding: 8px 14px;
   border-radius: var(--radius-sm);
-  font-size: 12px;
+  font-size: 14px;
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -252,9 +252,9 @@
   background: transparent;
   border: 1px solid var(--border-strong);
   color: var(--text-secondary);
-  padding: 4px 10px;
-  border-radius: 14px;
-  font-size: 11px;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 13px;
   transition: background 0.15s, border-color 0.15s;
 }
 
@@ -282,7 +282,7 @@
 
 .suggestions-empty {
   color: var(--text-dim);
-  font-size: 13px;
+  font-size: 15px;
   padding: var(--space-lg) 0;
   text-align: center;
 }
@@ -290,7 +290,7 @@
 /* ===== Forgotten view ===== */
 .forgotten-empty {
   color: var(--text-muted);
-  font-size: 13px;
+  font-size: 15px;
   padding: var(--space-xl);
   text-align: center;
   background: var(--bg-card);
@@ -327,25 +327,25 @@
 .forgotten-info { flex: 1; min-width: 0; }
 
 .forgotten-title {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   color: var(--text-primary);
 }
 
 .forgotten-meta {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--text-muted);
   font-family: var(--font-mono);
-  margin-top: 2px;
+  margin-top: 3px;
 }
 
 .btn-restore {
   background: transparent;
   border: 1px solid var(--border-strong);
   color: var(--text-secondary);
-  padding: 6px 14px;
+  padding: 8px 16px;
   border-radius: var(--radius-sm);
-  font-size: 12px;
+  font-size: 14px;
   transition: border-color 0.15s, color 0.15s;
 }
 
@@ -355,9 +355,9 @@
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
   color: var(--text-muted);
-  padding: 10px 12px;
+  padding: 12px 14px;
   border-radius: var(--radius-md);
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: var(--space-md);
 }
 
@@ -366,14 +366,9 @@
   .app { padding: var(--space-lg) var(--space-md); }
 
   .header { margin-bottom: var(--space-lg); padding-bottom: var(--space-md); }
-  .header-title { font-size: 14px; }
 
   .current-track { gap: var(--space-md); padding: var(--space-md); }
   .current-cover { width: 52px; height: 52px; }
-  .current-title { font-size: 15px; }
 
-  .search-button { padding: 10px 14px; font-size: 13px; }
-
-  /* Prevent iOS Safari auto-zoom on focus (triggers when font-size < 16px) */
-  .search-input { font-size: 16px; }
+  .search-button { padding: 12px 16px; }
 }

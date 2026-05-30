@@ -4,25 +4,25 @@
   gap: var(--space-md);
   flex-wrap: wrap;
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 13px;
   color: var(--text-muted);
   margin-bottom: var(--space-sm);
 }
 
-.meta-label { color: var(--text-dim); margin-right: 3px; }
+.meta-label { color: var(--text-dim); margin-right: 4px; }
 .meta-camelot-perfect { color: var(--compat-perfect-fg); }
 .meta-camelot-close { color: var(--compat-close-fg); }
 
 /* ===== Badges ===== */
 .badges {
   display: flex;
-  gap: 5px;
+  gap: 6px;
   flex-wrap: wrap;
 }
 
 .badge {
-  font-size: 10px;
-  padding: 2px 7px;
+  font-size: 12px;
+  padding: 3px 9px;
   border-radius: var(--radius-sm);
   font-weight: 500;
   white-space: nowrap;
@@ -87,14 +87,14 @@
 .track-info { min-width: 0; }
 
 .track-title {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--text-primary);
-  margin-bottom: 2px;
+  margin-bottom: 3px;
 }
 
 .track-artist {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-muted);
   margin-bottom: var(--space-sm);
 }
@@ -116,7 +116,7 @@
 }
 
 .score-num {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 1;
   font-family: var(--font-mono);
@@ -127,20 +127,20 @@
 .score-num.score-low  { color: var(--score-low); }
 
 .score-label {
-  font-size: 9px;
+  font-size: 11px;
   color: var(--text-dim);
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  margin-top: 2px;
+  margin-top: 3px;
 }
 
 .btn-choisir {
   background: var(--brand);
   border: none;
   color: white;
-  padding: 6px 14px;
+  padding: 8px 16px;
   border-radius: var(--radius-sm);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   transition: background 0.15s;
 }
@@ -151,8 +151,8 @@
   background: transparent;
   border: 1px solid var(--border-strong);
   color: var(--text-muted);
-  width: 28px;
-  height: 28px;
+  width: 34px;
+  height: 34px;
   border-radius: var(--radius-sm);
   display: inline-flex;
   align-items: center;
@@ -167,9 +167,9 @@
   background: transparent;
   border: none;
   color: var(--text-dim);
-  font-size: 11px;
+  font-size: 13px;
   text-decoration: underline;
-  padding: 0;
+  padding: 4px 2px;
   margin-top: var(--space-sm);
   align-self: flex-end;
 }
@@ -186,7 +186,7 @@
     gap: 10px;
   }
 
-  .track-cover { grid-area: cover; width: 48px; height: 48px; font-size: 20px; }
+  .track-cover { grid-area: cover; width: 52px; height: 52px; font-size: 22px; }
   .track-info  { grid-area: info; }
 
   .track-score-col {
@@ -215,8 +215,6 @@
     gap: 6px;
   }
 
-  .score-num { font-size: 20px; }
+  .score-num { font-size: 26px; }
   .score-label { margin-top: 0; }
-
-  .btn-choisir { padding: 8px 16px; font-size: 13px; }
 }

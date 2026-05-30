@@ -680,9 +680,9 @@ export default function App() {
           onBack={() => setView("main")}
         />
 
-        <h2 style={{ margin: "0 0 16px", fontSize: 18, fontWeight: 500 }}>
+        <h2 style={{ margin: "0 0 16px", fontSize: 20, fontWeight: 500 }}>
           Titres oubliés{" "}
-          <span style={{ color: "var(--text-dim)", fontFamily: "var(--font-mono)", fontSize: 13 }}>
+          <span style={{ color: "var(--text-dim)", fontFamily: "var(--font-mono)", fontSize: 15 }}>
             {forgottenTracks.length}
           </span>
         </h2>
@@ -768,7 +768,7 @@ export default function App() {
 
       {spotifyResults.length > 0 && (
         <>
-          <h3 style={{ margin: "0 0 12px", fontSize: 14, fontWeight: 500 }}>
+          <h3 style={{ margin: "0 0 12px", fontSize: 16, fontWeight: 500 }}>
             Résultats Spotify
           </h3>
           <div className="suggestions-list" style={{ marginBottom: 24 }}>
