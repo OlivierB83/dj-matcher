@@ -445,6 +445,16 @@ export default function App() {
     };
   }, []);
 
+  // Scroll to top after the new `current` track has been committed to the DOM
+  // (doing it inside selectTrack races with the re-layout and can leave the
+  // page stranded mid-scroll when the new content is shorter than the previous).
+  useEffect(() => {
+    if (!current) return;
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }, [current]);
+
   async function enrichTrack(track) {
     try {
       const res = await fetch(
@@ -562,8 +572,6 @@ export default function App() {
     setSpotifyResults([]);
     setQuery("");
     setAutocompleteOpen(false);
-
-    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   const allScored = useMemo(() => {

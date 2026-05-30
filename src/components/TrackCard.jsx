@@ -180,27 +180,16 @@ function TrackCardDesktop({ track, compat, featured, isFavorite, onChoose, onTog
             <div className={`score-num ${scoreColorClass(track.score)}`}>{track.score}</div>
             <div className="score-label">score</div>
           </div>
-          <div style={{ display: "flex", gap: 6 }}>
-            <button
-              className={`btn-fav${isFavorite ? " is-fav" : ""}`}
-              onClick={(e) => {
-                e.stopPropagation();
-                onToggleFavorite?.();
-              }}
-              aria-label={isFavorite ? "Retirer des favoris" : "Ajouter aux favoris"}
-            >
-              <Heart size={18} fill={isFavorite ? "currentColor" : "none"} />
-            </button>
-            <button
-              className="btn-choisir"
-              onClick={(e) => {
-                e.stopPropagation();
-                onChoose?.();
-              }}
-            >
-              Choisir
-            </button>
-          </div>
+          <button
+            className={`btn-fav${isFavorite ? " is-fav" : ""}`}
+            onClick={(e) => {
+              e.stopPropagation();
+              onToggleFavorite?.();
+            }}
+            aria-label={isFavorite ? "Retirer des favoris" : "Ajouter aux favoris"}
+          >
+            <Heart size={18} fill={isFavorite ? "currentColor" : "none"} />
+          </button>
           <button
             className="btn-forget"
             onClick={(e) => {

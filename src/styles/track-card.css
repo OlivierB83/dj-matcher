@@ -77,14 +77,17 @@
 
 .btn-forget {
   background: transparent;
-  border: none;
-  color: var(--text-dim);
-  font-size: 14px;
-  text-decoration: underline;
-  padding: 8px;
-  transition: color 0.15s;
+  border: 1px solid var(--border-strong);
+  color: var(--text-muted);
+  font-size: 13px;
+  padding: 7px 14px;
+  border-radius: var(--radius-md);
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
 }
-.btn-forget:hover { color: var(--text-muted); }
+.btn-forget:hover {
+  color: var(--fav-fg);
+  border-color: var(--fav-fg);
+}
 
 
 /* ===================================================================
@@ -159,7 +162,7 @@
    MOBILE layout — hero cover (16:9) with score overlay
    =================================================================== */
 .tcard-m {
-  background: var(--bg-card);
+  background: rgba(255, 255, 255, 0.055);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-xl);
   overflow: hidden;
@@ -169,7 +172,7 @@
 .tcard-m-cover {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 180px;
   background: #1a1a2e;
   overflow: hidden;
   display: flex;
@@ -192,15 +195,15 @@
 .tcard-m-cover-img {
   position: relative;
   z-index: 1;
-  width: 140px;
-  height: 140px;
+  width: 124px;
+  height: 124px;
   border-radius: 10px;
   overflow: hidden;
   background: #1f2937;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 44px;
+  font-size: 40px;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.55);
 }
 .tcard-m-cover-img img { width: 100%; height: 100%; object-fit: cover; }
@@ -208,7 +211,7 @@
 .tcard-m-score {
   position: absolute;
   top: 12px;
-  right: 12px;
+  left: 12px;
   background: rgba(15, 17, 21, 0.78);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
@@ -218,6 +221,7 @@
   flex-direction: column;
   align-items: center;
   line-height: 1;
+  z-index: 2;
 }
 .tcard-m-score-num { font-size: 32px; font-weight: 500; font-family: var(--font-mono); }
 .tcard-m-score-num.score-high { color: var(--score-high); }
@@ -234,7 +238,7 @@
 .tcard-m-fav {
   position: absolute;
   top: 12px;
-  left: 12px;
+  right: 12px;
   width: 44px;
   height: 44px;
   border-radius: var(--radius-lg);
@@ -246,6 +250,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
   transition: color 0.15s;
 }
 .tcard-m-fav.is-fav { color: var(--fav-fg); }
@@ -263,5 +268,7 @@
 .tcard-m-actions {
   display: flex;
   justify-content: flex-end;
-  margin-top: 8px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-subtle);
 }
