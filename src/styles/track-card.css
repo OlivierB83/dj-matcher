@@ -1,37 +1,30 @@
-/* ===== Track meta line (BPM, KEY, Camelot…) ===== */
+/* ===================================================================
+   Shared: meta line + badges (used by both desktop & mobile layouts)
+   =================================================================== */
 .meta-row {
   display: flex;
-  gap: var(--space-md);
+  gap: 14px;
   flex-wrap: wrap;
   font-family: var(--font-mono);
   font-size: 14px;
   color: var(--text-muted);
-  margin-bottom: var(--space-sm);
+  margin-bottom: 10px;
 }
-
 .meta-label { color: var(--text-dim); margin-right: 4px; }
 .meta-camelot-perfect { color: var(--compat-perfect-fg); }
-.meta-camelot-close { color: var(--compat-close-fg); }
+.meta-camelot-close   { color: var(--compat-close-fg); }
 
-/* ===== Badges ===== */
-.badges {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-
+.badges { display: flex; gap: 6px; flex-wrap: wrap; }
 .badge {
   font-size: 14px;
   padding: 4px 10px;
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-md);
   font-weight: 500;
   white-space: nowrap;
 }
-
 .badge-perfect { background: var(--compat-perfect-bg); color: var(--compat-perfect-fg); }
 .badge-close   { background: var(--compat-close-bg);   color: var(--compat-close-fg); }
 .badge-far     { background: var(--compat-far-bg);     color: var(--compat-far-fg); }
-
 .badge-fav {
   background: var(--fav-bg);
   color: var(--fav-fg);
@@ -40,32 +33,85 @@
   gap: 4px;
 }
 
-/* ===== Track card ===== */
+/* Shared buttons */
+.btn-choisir {
+  background: var(--brand);
+  border: none;
+  color: white;
+  padding: 9px 18px;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+.btn-choisir:hover { background: var(--brand-dark); }
+
+.btn-choisir-lg {
+  flex: 1;
+  background: var(--brand);
+  border: none;
+  color: white;
+  padding: 14px;
+  border-radius: var(--radius-lg);
+  font-size: 17px;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+.btn-choisir-lg:hover { background: var(--brand-dark); }
+
+.btn-fav {
+  background: transparent;
+  border: 1px solid var(--border-strong);
+  color: var(--text-muted);
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: color 0.15s, border-color 0.15s;
+}
+.btn-fav:hover,
+.btn-fav.is-fav { color: var(--fav-fg); border-color: var(--fav-fg); }
+
+.btn-forget {
+  background: transparent;
+  border: none;
+  color: var(--text-dim);
+  font-size: 14px;
+  text-decoration: underline;
+  padding: 8px;
+  transition: color 0.15s;
+}
+.btn-forget:hover { color: var(--text-muted); }
+
+
+/* ===================================================================
+   DESKTOP layout — compact horizontal row
+   =================================================================== */
 .track-card {
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
-  padding: var(--space-md);
+  padding: 14px;
   transition: background 0.15s, border-color 0.15s;
 }
+.track-card:hover { background: var(--bg-card-hover); border-color: var(--border-strong); }
+.track-card.featured { border-color: var(--border-accent); }
 
-.track-card:hover {
-  background: var(--bg-card-hover);
-  border-color: var(--border-strong);
-}
-
-.track-card.is-clickable { cursor: pointer; }
-.track-card.is-clickable:focus-visible {
+.track-card.is-clickable,
+.tcard-m.is-clickable { cursor: pointer; }
+.track-card.is-clickable:focus-visible,
+.tcard-m.is-clickable:focus-visible {
   outline: 2px solid var(--brand);
   outline-offset: 2px;
 }
 
-.track-card.featured { border-color: var(--border-accent); }
-
-/* ===== Main row: cover + info + heart (centered right) ===== */
-.track-main {
-  display: flex;
-  gap: var(--space-md);
+.track-row {
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+  gap: 16px;
   align-items: center;
 }
 
@@ -81,103 +127,119 @@
   overflow: hidden;
   background: #1f2937;
 }
-
 .track-cover img { width: 100%; height: 100%; object-fit: cover; }
 
-.track-info {
-  flex: 1;
-  min-width: 0;
-}
+.track-info { min-width: 0; }
+.track-title { font-size: 17px; font-weight: 500; color: var(--text-primary); margin-bottom: 3px; }
+.track-artist { font-size: 15px; color: var(--text-muted); margin-bottom: 10px; }
 
-.track-title {
-  font-size: 17px;
-  font-weight: 500;
-  color: var(--text-primary);
-  margin-bottom: 3px;
-}
-
-.track-artist {
-  font-size: 15px;
-  color: var(--text-muted);
-  margin-bottom: var(--space-sm);
-}
-
-/* ===== Heart button ===== */
-.btn-fav {
-  background: transparent;
-  border: 1px solid var(--border-strong);
-  color: var(--text-muted);
-  width: 40px;
-  height: 40px;
-  border-radius: var(--radius-sm);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  transition: color 0.15s, border-color 0.15s;
-}
-
-.btn-fav:hover { color: var(--fav-fg); border-color: var(--fav-fg); }
-.btn-fav.is-fav { color: var(--fav-fg); border-color: var(--fav-fg); }
-
-/* ===== Footer row: score + oublier ===== */
-.track-footer {
+.track-score-col {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  margin-top: var(--space-md);
-  padding-top: var(--space-md);
-  border-top: 1px solid var(--border-subtle);
-}
-
-.score {
-  display: flex;
-  align-items: baseline;
   gap: 8px;
+  flex-shrink: 0;
 }
-
-.score-num {
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 1;
-  font-family: var(--font-mono);
-}
-
+.score { display: flex; flex-direction: column; align-items: center; }
+.score-num { font-size: 32px; font-weight: 500; line-height: 1; font-family: var(--font-mono); }
 .score-num.score-high { color: var(--score-high); }
 .score-num.score-mid  { color: var(--score-mid); }
 .score-num.score-low  { color: var(--score-low); }
-
 .score-label {
   font-size: 12px;
   color: var(--text-dim);
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  margin-top: 3px;
 }
 
-.btn-forget {
-  background: transparent;
-  border: none;
-  color: var(--text-dim);
-  font-size: 14px;
-  text-decoration: underline;
-  padding: 6px 4px;
+
+/* ===================================================================
+   MOBILE layout — hero cover (16:9) with score overlay
+   =================================================================== */
+.tcard-m {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+}
+.tcard-m.featured { border-color: var(--border-accent); }
+
+.tcard-m-cover {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #1a1a2e;
+}
+.tcard-m-cover-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 52px;
+  overflow: hidden;
+}
+.tcard-m-cover-img img { width: 100%; height: 100%; object-fit: cover; }
+
+.tcard-m-score {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(15, 17, 21, 0.78);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: var(--radius-lg);
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+}
+.tcard-m-score-num { font-size: 32px; font-weight: 500; font-family: var(--font-mono); }
+.tcard-m-score-num.score-high { color: var(--score-high); }
+.tcard-m-score-num.score-mid  { color: var(--score-mid); }
+.tcard-m-score-num.score-low  { color: var(--score-low); }
+.tcard-m-score-label {
+  font-size: 11px;
+  color: #b4b2a9;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 2px;
 }
 
-.btn-forget:hover { color: var(--text-muted); }
+.tcard-m-fav {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-lg);
+  background: rgba(15, 17, 21, 0.70);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s;
+}
+.tcard-m-fav.is-fav { color: var(--fav-fg); }
 
-/* ===== Responsive ===== */
-@media (max-width: 600px) {
-  .track-card { padding: 14px; }
+.tcard-m-body { padding: 16px 18px 18px; }
+.tcard-m-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+.tcard-m-artist { font-size: 16px; color: var(--text-muted); margin-top: 3px; margin-bottom: 14px; }
 
-  .track-main { gap: 14px; }
-
-  .track-cover { width: 92px; height: 92px; font-size: 36px; }
-
-  .track-title { font-size: 18px; }
-  .track-artist { font-size: 15px; }
-
-  .meta-row { font-size: 14px; gap: 10px; }
-  .badge { font-size: 14px; padding: 4px 10px; }
-
-  .score-num { font-size: 28px; }
+.tcard-m-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 14px;
 }

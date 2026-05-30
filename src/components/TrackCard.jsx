@@ -1,41 +1,147 @@
 import { motion } from "framer-motion";
 import { Heart } from "lucide-react";
-import { CompatBadge, FavBadge } from "./Badges";
+import { CompatBadge } from "./Badges";
+import { useIsMobile } from "../hooks/useIsMobile";
 
+/* ===== Shared helpers ===== */
+
+/** Score color band: 85+ vivid green · 70-84 pale green · <70 amber */
 function scoreColorClass(score) {
   if (score >= 85) return "score-high";
   if (score >= 70) return "score-mid";
   return "score-low";
 }
 
+/** Camelot color follows the same compatibility logic as the badges. */
 function camelotClass(level) {
   if (level === "perfect") return "meta-camelot-perfect";
   if (level === "close") return "meta-camelot-close";
   return "";
 }
 
-const bpmLabel = (l) =>
-  ({ perfect: "BPM parfait", close: "BPM proche", far: "BPM éloigné" })[l];
-const keyLabel = (l) =>
-  ({
-    perfect: "tonalité parfaite",
-    close: "tonalité proche",
-    far: "tonalité éloignée",
-  })[l];
-const styleLabel = (l) =>
-  ({ perfect: "style parfait", close: "style proche", far: "style éloigné" })[l];
-const danceLabel = (l) =>
-  ({ perfect: "dance parfait", close: "dance proche", far: "dance éloigné" })[l];
+const bpmLabel   = (l) => ({ perfect: "BPM parfait",       close: "BPM proche",       far: "BPM éloigné" })[l];
+const keyLabel   = (l) => ({ perfect: "tonalité parfaite", close: "tonalité proche",  far: "tonalité éloignée" })[l];
+const styleLabel = (l) => ({ perfect: "style parfait",     close: "style proche",     far: "style éloigné" })[l];
+const danceLabel = (l) => ({ perfect: "dance parfait",     close: "dance proche",     far: "dance éloigné" })[l];
 
-export function TrackCard({
-  track,
-  compat,
-  featured = false,
-  isFavorite = false,
-  onChoose,
-  onToggleFavorite,
-  onForget,
-}) {
+/** Meta line (BPM / KEY / Camelot / Year / Dance), shared by both layouts. */
+function MetaRow({ track, compat }) {
+  return (
+    <div className="meta-row">
+      <span><span className="meta-label">BPM</span>{track.bpm ?? "—"}</span>
+      <span><span className="meta-label">KEY</span>{track.key ?? "—"}</span>
+      <span className={camelotClass(compat.camelot)}>{track.camelot ?? "—"}</span>
+      {track.year != null && (
+        <span><span className="meta-label">YEAR</span>{track.year}</span>
+      )}
+      {track.dance != null && (
+        <span><span className="meta-label">DANCE</span>{track.dance}%</span>
+      )}
+    </div>
+  );
+}
+
+/** The four compatibility badges, shared by both layouts. */
+function BadgeRow({ compat }) {
+  return (
+    <div className="badges">
+      <CompatBadge level={compat.bpm}   label={bpmLabel(compat.bpm)} />
+      <CompatBadge level={compat.key}   label={keyLabel(compat.key)} />
+      <CompatBadge level={compat.style} label={styleLabel(compat.style)} />
+      <CompatBadge level={compat.dance} label={danceLabel(compat.dance)} />
+    </div>
+  );
+}
+
+/** Cover image with emoji/disc fallback. */
+function Cover({ track, className }) {
+  return (
+    <div className={className}>
+      {track.coverUrl ? <img src={track.coverUrl} alt="" /> : <span aria-hidden>🎵</span>}
+    </div>
+  );
+}
+
+/* ===== Mobile layout — hero cover, score overlay ===== */
+
+function TrackCardMobile({ track, compat, featured, isFavorite, onChoose, onToggleFavorite, onForget }) {
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      onChoose?.();
+    }
+  };
+  return (
+    <motion.div
+      className={`tcard-m is-clickable${featured ? " featured" : ""}`}
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.2 }}
+      layout
+      onClick={onChoose}
+      role="button"
+      tabIndex={0}
+      onKeyDown={handleKeyDown}
+    >
+      <div className="tcard-m-cover">
+        <Cover track={track} className="tcard-m-cover-img" />
+
+        <button
+          className={`tcard-m-fav${isFavorite ? " is-fav" : ""}`}
+          onClick={(e) => {
+            e.stopPropagation();
+            onToggleFavorite?.();
+          }}
+          aria-label={isFavorite ? "Retirer des favoris" : "Ajouter aux favoris"}
+        >
+          <Heart size={20} fill={isFavorite ? "currentColor" : "none"} />
+        </button>
+
+        <div className="tcard-m-score">
+          <div className={`tcard-m-score-num ${scoreColorClass(track.score)}`}>{track.score}</div>
+          <div className="tcard-m-score-label">score</div>
+        </div>
+      </div>
+
+      <div className="tcard-m-body">
+        <div className="tcard-m-title">{track.title}</div>
+        <div className="tcard-m-artist">{track.artist}</div>
+        <MetaRow track={track} compat={compat} />
+        <BadgeRow compat={compat} />
+        <div className="tcard-m-actions">
+          <button
+            className="btn-choisir-lg"
+            onClick={(e) => {
+              e.stopPropagation();
+              onChoose?.();
+            }}
+          >
+            Choisir
+          </button>
+          <button
+            className="btn-forget"
+            onClick={(e) => {
+              e.stopPropagation();
+              onForget?.();
+            }}
+          >
+            oublier ce titre
+          </button>
+        </div>
+      </div>
+    </motion.div>
+  );
+}
+
+/* ===== Desktop layout — compact horizontal row ===== */
+
+function TrackCardDesktop({ track, compat, featured, isFavorite, onChoose, onToggleFavorite, onForget }) {
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      onChoose?.();
+    }
+  };
   return (
     <motion.div
       className={`track-card is-clickable${featured ? " featured" : ""}`}
@@ -46,102 +152,68 @@ export function TrackCard({
       onClick={onChoose}
       role="button"
       tabIndex={0}
-      onKeyDown={(e) => {
-        if (e.key === "Enter" || e.key === " ") {
-          e.preventDefault();
-          onChoose?.();
-        }
-      }}
+      onKeyDown={handleKeyDown}
     >
-      <div className="track-main">
-        <div className="track-cover">
-          {track.coverUrl ? (
-            <img src={track.coverUrl} alt="" />
-          ) : (
-            <span aria-hidden>🎵</span>
-          )}
-        </div>
+      <div className="track-row">
+        <Cover track={track} className="track-cover" />
 
         <div className="track-info">
           <div className="track-title">
             {track.title}
             {isFavorite && (
-              <Heart
-                size={14}
-                fill="currentColor"
-                color="var(--fav-fg)"
-                style={{ marginLeft: 6, verticalAlign: "-2px" }}
-              />
+              <Heart size={16} fill="currentColor" color="var(--fav-fg)"
+                     style={{ marginLeft: 6, verticalAlign: "-2px" }} />
             )}
           </div>
           <div className="track-artist">{track.artist}</div>
-
-          <div className="meta-row">
-            <span>
-              <span className="meta-label">BPM</span>
-              {track.bpm ?? "—"}
-            </span>
-            <span>
-              <span className="meta-label">KEY</span>
-              {track.key ?? "—"}
-            </span>
-            <span className={camelotClass(compat.camelot)}>
-              {track.camelot ?? "—"}
-            </span>
-            <span>
-              <span className="meta-label">YEAR</span>
-              {track.year ?? "—"}
-            </span>
-            <span>
-              <span className="meta-label">DANCE</span>
-              {track.dance != null ? `${track.dance}%` : "—"}
-            </span>
-          </div>
-
-          <div className="badges">
-            {isFavorite && <FavBadge />}
-            <CompatBadge level={compat.bpm} label={bpmLabel(compat.bpm)} />
-            <CompatBadge level={compat.key} label={keyLabel(compat.key)} />
-            <CompatBadge level={compat.style} label={styleLabel(compat.style)} />
-            <CompatBadge level={compat.dance} label={danceLabel(compat.dance)} />
-          </div>
+          <MetaRow track={track} compat={compat} />
+          <BadgeRow compat={compat} />
         </div>
 
-        <button
-          className={`btn-fav${isFavorite ? " is-fav" : ""}`}
-          onClick={(e) => {
-            e.stopPropagation();
-            onToggleFavorite?.();
-          }}
-          aria-label={isFavorite ? "Retirer des favoris" : "Ajouter aux favoris"}
-        >
-          <Heart size={18} fill={isFavorite ? "currentColor" : "none"} />
-        </button>
-      </div>
-
-      <div className="track-footer">
-        <motion.div
-          className="score"
-          initial={{ scale: 0.9 }}
-          animate={{ scale: 1 }}
-          transition={{ type: "spring", stiffness: 300, damping: 20 }}
-        >
-          <span className={`score-num ${scoreColorClass(track.score)}`}>
-            {track.score}
-          </span>
-          <span className="score-label">score</span>
-        </motion.div>
-
-        <button
-          className="btn-forget"
-          onClick={(e) => {
-            e.stopPropagation();
-            onForget?.();
-          }}
-        >
-          oublier ce titre
-        </button>
+        <div className="track-score-col">
+          <div className="score">
+            <div className={`score-num ${scoreColorClass(track.score)}`}>{track.score}</div>
+            <div className="score-label">score</div>
+          </div>
+          <div style={{ display: "flex", gap: 6 }}>
+            <button
+              className={`btn-fav${isFavorite ? " is-fav" : ""}`}
+              onClick={(e) => {
+                e.stopPropagation();
+                onToggleFavorite?.();
+              }}
+              aria-label={isFavorite ? "Retirer des favoris" : "Ajouter aux favoris"}
+            >
+              <Heart size={18} fill={isFavorite ? "currentColor" : "none"} />
+            </button>
+            <button
+              className="btn-choisir"
+              onClick={(e) => {
+                e.stopPropagation();
+                onChoose?.();
+              }}
+            >
+              Choisir
+            </button>
+          </div>
+          <button
+            className="btn-forget"
+            onClick={(e) => {
+              e.stopPropagation();
+              onForget?.();
+            }}
+          >
+            oublier ce titre
+          </button>
+        </div>
       </div>
     </motion.div>
   );
+}
+
+/* ===== Public component — picks the layout ===== */
+
+export function TrackCard(props) {
+  const isMobile = useIsMobile(600);
+  return isMobile ? <TrackCardMobile {...props} /> : <TrackCardDesktop {...props} />;
 }
