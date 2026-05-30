@@ -14,7 +14,16 @@
 .meta-camelot-perfect { color: var(--compat-perfect-fg); }
 .meta-camelot-close   { color: var(--compat-close-fg); }
 
-.badges { display: flex; gap: 6px; flex-wrap: wrap; }
+.badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Push the forget action to the right of the badges row — it joins the
+   last line if there's room, wraps to its own (right-aligned) line if not. */
+.badges .btn-forget { margin-left: auto; }
 .badge {
   font-size: 14px;
   padding: 4px 10px;
@@ -169,88 +178,95 @@
 }
 .tcard-m.featured { border-color: var(--border-accent); }
 
-.tcard-m-cover {
-  position: relative;
-  width: 100%;
-  height: 180px;
+/* Top row: cover at top-left + overlay (halo + score + heart) on the right */
+.tcard-m-top {
+  display: grid;
+  grid-template-columns: 124px 1fr;
+  height: 124px;
   background: #1a1a2e;
-  overflow: hidden;
+}
+
+.tcard-m-cover-img {
+  width: 124px;
+  height: 124px;
+  background: #1f2937;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  font-size: 40px;
+}
+.tcard-m-cover-img img { width: 100%; height: 100%; object-fit: cover; }
+
+.tcard-m-overlay {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+  overflow: hidden;
 }
 
-/* Blurred copy of the cover, used as a coloured halo behind the sharp one */
-.tcard-m-cover-halo {
+/* Blurred copy of the cover, only on the right side */
+.tcard-m-halo {
   position: absolute;
   inset: -30px;
   background-size: cover;
   background-position: center;
   filter: blur(32px) saturate(1.5);
-  opacity: 0.75;
-  transform: scale(1.15);
+  opacity: 0.8;
+  transform: scale(1.2);
   z-index: 0;
 }
 
-.tcard-m-cover-img {
+/* Score and heart share the same visual frame (height, radius, backdrop) so
+   they read as a matched pair. Score is pushed to the centre of the available
+   space via margin:auto; heart sits at the right end of the row. */
+.tcard-m-score {
   position: relative;
   z-index: 1;
-  width: 124px;
-  height: 124px;
-  border-radius: 10px;
-  overflow: hidden;
-  background: #1f2937;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 40px;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.55);
-}
-.tcard-m-cover-img img { width: 100%; height: 100%; object-fit: cover; }
-
-.tcard-m-score {
-  position: absolute;
-  top: 12px;
-  left: 12px;
+  margin: 0 auto;
+  height: 56px;
+  min-width: 70px;
+  padding: 0 14px;
   background: rgba(15, 17, 21, 0.78);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-radius: var(--radius-lg);
-  padding: 8px 12px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: var(--radius-md);
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   line-height: 1;
-  z-index: 2;
 }
-.tcard-m-score-num { font-size: 32px; font-weight: 500; font-family: var(--font-mono); }
+.tcard-m-score-num { font-size: 26px; font-weight: 500; font-family: var(--font-mono); }
 .tcard-m-score-num.score-high { color: var(--score-high); }
 .tcard-m-score-num.score-mid  { color: var(--score-mid); }
 .tcard-m-score-num.score-low  { color: var(--score-low); }
 .tcard-m-score-label {
-  font-size: 11px;
+  font-size: 10px;
   color: #b4b2a9;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin-top: 2px;
+  margin-top: 3px;
 }
 
 .tcard-m-fav {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  width: 44px;
-  height: 44px;
-  border-radius: var(--radius-lg);
-  background: rgba(15, 17, 21, 0.70);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  position: relative;
+  z-index: 1;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-md);
+  background: rgba(15, 17, 21, 0.78);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 2;
+  flex-shrink: 0;
   transition: color 0.15s;
 }
 .tcard-m-fav.is-fav { color: var(--fav-fg); }
@@ -264,11 +280,3 @@
   line-height: 1.2;
 }
 .tcard-m-artist { font-size: 16px; color: var(--text-muted); margin-top: 3px; margin-bottom: 14px; }
-
-.tcard-m-actions {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 14px;
-  padding-top: 12px;
-  border-top: 1px solid var(--border-subtle);
-}

@@ -41,14 +41,30 @@ function MetaRow({ track, compat }) {
   );
 }
 
-/** The four compatibility badges, shared by both layouts. */
-function BadgeRow({ compat }) {
+/**
+ * Compatibility badges + the "oublier ce titre" action.
+ * The forget button shares the same flex row via margin-left:auto, so it
+ * sits at the right of the last badge line (or wraps to its own line on the
+ * right if there's no room).
+ */
+function BadgeRow({ compat, onForget }) {
   return (
     <div className="badges">
       <CompatBadge level={compat.bpm}   label={bpmLabel(compat.bpm)} />
       <CompatBadge level={compat.key}   label={keyLabel(compat.key)} />
       <CompatBadge level={compat.style} label={styleLabel(compat.style)} />
       <CompatBadge level={compat.dance} label={danceLabel(compat.dance)} />
+      {onForget && (
+        <button
+          className="btn-forget"
+          onClick={(e) => {
+            e.stopPropagation();
+            onForget();
+          }}
+        >
+          oublier ce titre
+        </button>
+      )}
     </div>
   );
 }
@@ -83,15 +99,7 @@ function TrackCardMobile({ track, compat, featured, isFavorite, onChoose, onTogg
       tabIndex={0}
       onKeyDown={handleKeyDown}
     >
-      <div className="tcard-m-cover">
-        {track.coverUrl && (
-          <div
-            className="tcard-m-cover-halo"
-            style={{ backgroundImage: `url(${track.coverUrl})` }}
-            aria-hidden
-          />
-        )}
-
+      <div className="tcard-m-top">
         <div className="tcard-m-cover-img">
           {track.coverUrl ? (
             <img src={track.coverUrl} alt="" />
@@ -100,20 +108,30 @@ function TrackCardMobile({ track, compat, featured, isFavorite, onChoose, onTogg
           )}
         </div>
 
-        <button
-          className={`tcard-m-fav${isFavorite ? " is-fav" : ""}`}
-          onClick={(e) => {
-            e.stopPropagation();
-            onToggleFavorite?.();
-          }}
-          aria-label={isFavorite ? "Retirer des favoris" : "Ajouter aux favoris"}
-        >
-          <Heart size={20} fill={isFavorite ? "currentColor" : "none"} />
-        </button>
+        <div className="tcard-m-overlay">
+          {track.coverUrl && (
+            <div
+              className="tcard-m-halo"
+              style={{ backgroundImage: `url(${track.coverUrl})` }}
+              aria-hidden
+            />
+          )}
 
-        <div className="tcard-m-score">
-          <div className={`tcard-m-score-num ${scoreColorClass(track.score)}`}>{track.score}</div>
-          <div className="tcard-m-score-label">score</div>
+          <div className="tcard-m-score">
+            <div className={`tcard-m-score-num ${scoreColorClass(track.score)}`}>{track.score}</div>
+            <div className="tcard-m-score-label">score</div>
+          </div>
+
+          <button
+            className={`tcard-m-fav${isFavorite ? " is-fav" : ""}`}
+            onClick={(e) => {
+              e.stopPropagation();
+              onToggleFavorite?.();
+            }}
+            aria-label={isFavorite ? "Retirer des favoris" : "Ajouter aux favoris"}
+          >
+            <Heart size={22} fill={isFavorite ? "currentColor" : "none"} />
+          </button>
         </div>
       </div>
 
@@ -121,18 +139,7 @@ function TrackCardMobile({ track, compat, featured, isFavorite, onChoose, onTogg
         <div className="tcard-m-title">{track.title}</div>
         <div className="tcard-m-artist">{track.artist}</div>
         <MetaRow track={track} compat={compat} />
-        <BadgeRow compat={compat} />
-        <div className="tcard-m-actions">
-          <button
-            className="btn-forget"
-            onClick={(e) => {
-              e.stopPropagation();
-              onForget?.();
-            }}
-          >
-            oublier ce titre
-          </button>
-        </div>
+        <BadgeRow compat={compat} onForget={onForget} />
       </div>
     </motion.div>
   );
@@ -172,7 +179,7 @@ function TrackCardDesktop({ track, compat, featured, isFavorite, onChoose, onTog
           </div>
           <div className="track-artist">{track.artist}</div>
           <MetaRow track={track} compat={compat} />
-          <BadgeRow compat={compat} />
+          <BadgeRow compat={compat} onForget={onForget} />
         </div>
 
         <div className="track-score-col">
@@ -189,15 +196,6 @@ function TrackCardDesktop({ track, compat, featured, isFavorite, onChoose, onTog
             aria-label={isFavorite ? "Retirer des favoris" : "Ajouter aux favoris"}
           >
             <Heart size={18} fill={isFavorite ? "currentColor" : "none"} />
-          </button>
-          <button
-            className="btn-forget"
-            onClick={(e) => {
-              e.stopPropagation();
-              onForget?.();
-            }}
-          >
-            oublier ce titre
           </button>
         </div>
       </div>
