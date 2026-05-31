@@ -3,7 +3,7 @@ import { Heart } from "lucide-react";
 import { useIsMobile } from "../hooks/useIsMobile";
 import { useCoverColor } from "../hooks/useCoverColor";
 
-const FALLBACK_BORDER = "#ffffff";
+const FALLBACK_BORDER = "#7f77dd"; // DJ Matcher brand purple
 
 function formatGenres(genres) {
   if (!Array.isArray(genres) || genres.length === 0) return null;
@@ -39,10 +39,9 @@ function SearchResultCardMobile({
       onChoose?.();
     }
   };
-  const cardStyle = {
-    boxShadow: `0 0 0 2px ${accent}`,
-    opacity: enriched ? undefined : 0.6,
-  };
+  const cardStyle = enriched
+    ? { boxShadow: `0 0 0 2px ${accent}` }
+    : { boxShadow: "0 0 0 1px rgba(255, 255, 255, 0.08)", opacity: 0.45 };
   return (
     <motion.div
       className={`tcard-m${enriched ? " is-clickable" : ""}`}
@@ -127,10 +126,9 @@ function SearchResultCardDesktop({
       onChoose?.();
     }
   };
-  const cardStyle = {
-    boxShadow: `0 0 0 2px ${accent}`,
-    opacity: enriched ? undefined : 0.6,
-  };
+  const cardStyle = enriched
+    ? { boxShadow: `0 0 0 2px ${accent}` }
+    : { boxShadow: "0 0 0 1px rgba(255, 255, 255, 0.08)", opacity: 0.45 };
   return (
     <motion.div
       className={`track-card${enriched ? " is-clickable" : ""}`}

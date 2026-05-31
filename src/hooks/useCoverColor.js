@@ -43,7 +43,20 @@ export function useCoverColor(coverUrl) {
           setColor(null);
           return;
         }
-        setColor(`rgb(${Math.round(r / n)}, ${Math.round(g / n)}, ${Math.round(b / n)})`);
+        let avgR = Math.round(r / n);
+        let avgG = Math.round(g / n);
+        let avgB = Math.round(b / n);
+        // Brightness floor: if the average is dull/dark (e.g. a mostly-dark
+        // cover), scale the channels up so the border reads as vivid rather
+        // than "grayed out". This prevents enriched tiles from looking dim.
+        const max = Math.max(avgR, avgG, avgB);
+        if (max < 190) {
+          const factor = 190 / Math.max(max, 1);
+          avgR = Math.min(255, Math.round(avgR * factor));
+          avgG = Math.min(255, Math.round(avgG * factor));
+          avgB = Math.min(255, Math.round(avgB * factor));
+        }
+        setColor(`rgb(${avgR}, ${avgG}, ${avgB})`);
       } catch {
         setColor(null);
       }

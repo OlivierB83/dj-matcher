@@ -4,7 +4,7 @@ import { CompatBadge } from "./Badges";
 import { useIsMobile } from "../hooks/useIsMobile";
 import { useCoverColor } from "../hooks/useCoverColor";
 
-const FALLBACK_BORDER = "#ffffff";
+const FALLBACK_BORDER = "#7f77dd"; // DJ Matcher brand purple
 
 /* ===== Shared helpers ===== */
 

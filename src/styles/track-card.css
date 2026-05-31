@@ -323,21 +323,21 @@
 .tcard-m .badges:last-of-type { margin-bottom: 0; }
 .tcard-m .badge { font-size: 13px; padding: 3px 8px; }
 
-/* "oublier ce titre" looks like a real neutral tag — same shape, padding,
-   weight and feel as a compat-far badge, just a distinct grey tone so it
-   doesn't look like a compatibility result. */
+/* "oublier ce titre" — same tag-like shape as the compat badges, but white
+   text on near-black so it reads as a destructive action and doesn't blend
+   with the green compatibility tags. */
 .tcard-m .btn-forget {
   font-size: 13px;
-  padding: 3px 8px;
+  padding: 3px 10px;
   border-radius: var(--radius-md);
-  background: var(--compat-far-bg);
-  color: var(--compat-far-fg);
-  border: none;
+  background: #15171b;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.10);
   font-weight: 500;
   font-style: normal;
   text-decoration: none;
 }
 .tcard-m .btn-forget:hover {
-  background: rgba(180, 178, 169, 0.18);
-  color: #c4c3bd;
+  background: #1f2128;
+  border-color: rgba(255, 255, 255, 0.20);
 }

@@ -76,7 +76,7 @@ export function Header({
         </div>
         <div>
           <div className="header-title">DJ Matcher</div>
-          <div className="header-version">v7.4</div>
+          <div className="header-version">v7.5</div>
         </div>
       </div>
 
