@@ -15283,7 +15283,7 @@
     "isrc": "USPR38100044",
     "image": "https://i.scdn.co/image/ab67616d00004851cddc25435cb94483d4b7bb45",
     "bpm": 112,
-    "key": "A",
+    "key": "Bm",
     "danceability": 0.847,
     "energy": 0.389,
     "valence": 0.968,
@@ -15296,7 +15296,7 @@
       "Pop",
       "Dance"
     ],
-    "source": "songstats"
+    "source": "getsongbpm"
   },
   {
     "title": "Flashdance...What a Feeling",
@@ -17142,8 +17142,8 @@
     "spotifyId": "60ZRKTMc94bcjiN4FI0XDm",
     "isrc": "GBGYY0400010",
     "image": "https://i.scdn.co/image/ab67616d00004851397213f8b850b24ab8652bd5",
-    "bpm": 124,
-    "key": "F",
+    "bpm": 123,
+    "key": "Fm",
     "danceability": 0.753,
     "energy": 0.835,
     "valence": 0.669,
@@ -17156,7 +17156,7 @@
       "Pop",
       "Club"
     ],
-    "source": "songstats"
+    "source": "getsongbpm"
   },
   {
     "title": "Crazy In Love (feat. JAY-Z)",
@@ -26447,8 +26447,8 @@
     "spotifyId": "2zYzyRzz6pRmhPzyfMEC8s",
     "isrc": "AUAP07900028",
     "image": "https://i.scdn.co/image/ab67616d0000485143058ea096fa35ac33c43587",
-    "bpm": 116,
-    "key": "F#",
+    "bpm": 117,
+    "key": "A",
     "danceability": 0.574,
     "energy": 0.913,
     "valence": 0.423,
@@ -26461,7 +26461,7 @@
       "Arena Rock",
       "Australia"
     ],
-    "source": "songstats"
+    "source": "getsongbpm"
   },
   {
     "title": "Come and Get Your Love - Single Version",
@@ -26808,7 +26808,7 @@
     "isrc": "USRC19901795",
     "image": "https://i.scdn.co/image/ab67616d000048517da9435d2319778e315ebdd4",
     "bpm": 92,
-    "key": "F",
+    "key": "Gm",
     "danceability": 0.59,
     "energy": 0.868,
     "valence": 0.798,
@@ -26821,7 +26821,7 @@
       "R&B/Soul",
       "Soul"
     ],
-    "source": "songstats"
+    "source": "getsongbpm"
   },
   {
     "title": "Another Brick in the Wall, Pt. 2",
@@ -27203,7 +27203,7 @@
     "spotifyId": "1P37gwlsx2ghfr8tGzJsRE",
     "isrc": "FR89P0904100",
     "image": "https://i.scdn.co/image/ab67616d00004851e54310ebbe74fad4b74991c8",
-    "bpm": 130,
+    "bpm": 129,
     "key": "C",
     "danceability": 0.658,
     "energy": 0.851,
@@ -27217,7 +27217,7 @@
       "Christmas",
       "Holiday"
     ],
-    "source": "songstats"
+    "source": "getsongbpm"
   },
   {
     "title": "Mambo No. 5 (A Little Bit of...)",
@@ -28247,7 +28247,7 @@
     "isrc": "USRC19901795",
     "image": "https://i.scdn.co/image/ab67616d00004851d05a17254ea76550ecd591b9",
     "bpm": 92,
-    "key": "F",
+    "key": "Gm",
     "danceability": 0.59,
     "energy": 0.868,
     "valence": 0.798,
@@ -28260,7 +28260,7 @@
       "R&B/Soul",
       "Soul"
     ],
-    "source": "songstats"
+    "source": "getsongbpm"
   },
   {
     "title": "Sweet Dreams (Are Made of This) - 2005 Remaster",
@@ -28671,8 +28671,8 @@
     "spotifyId": "0FLoA3AE99fNhUdnFaCHnG",
     "isrc": "USJT10200038",
     "image": "https://i.scdn.co/image/ab67616d0000485198dc2963e511c2ff25475d03",
-    "bpm": 115,
-    "key": "A#",
+    "bpm": 114,
+    "key": "A♯m",
     "danceability": 0.654,
     "energy": 0.743,
     "valence": 0.632,
@@ -28685,7 +28685,7 @@
       "Pop",
       "Arena Rock"
     ],
-    "source": "songstats"
+    "source": "getsongbpm"
   },
   {
     "title": "Every Time You Go Away",
@@ -29199,7 +29199,7 @@
     "spotifyId": "1gihuPhrLraKYrJMAEONyc",
     "isrc": "GBARL1100748",
     "image": "https://i.scdn.co/image/ab67616d00004851dcef905cb144d4867119850b",
-    "bpm": 128,
+    "bpm": 129,
     "key": "G",
     "danceability": 0.707,
     "energy": 0.924,
@@ -29213,7 +29213,7 @@
       "Pop",
       "Rock"
     ],
-    "source": "songstats"
+    "source": "getsongbpm"
   },
   {
     "title": "Tié la famille !",
@@ -29639,7 +29639,7 @@
     "isrc": "FRZ058500080",
     "image": "https://i.scdn.co/image/ab67616d000048514f9ce7c576b76e477d2cae3e",
     "bpm": 137,
-    "key": "A",
+    "key": "Am",
     "danceability": 0.74,
     "energy": 0.783,
     "valence": 0.906,
@@ -29652,7 +29652,7 @@
       "French Pop",
       "Worldwide"
     ],
-    "source": "songstats"
+    "source": "getsongbpm"
   },
   {
     "title": "À nos souvenirs",
@@ -30893,8 +30893,8 @@
     "spotifyId": "3WFP6beklK0c62PrsBp2Mc",
     "isrc": "FR42W0600846",
     "image": "https://i.scdn.co/image/ab67616d00004851f607fd527d2dee688c2eb344",
-    "bpm": 96,
-    "key": "G",
+    "bpm": 95,
+    "key": "Am",
     "danceability": 0.694,
     "energy": 0.817,
     "valence": 0.902,
@@ -30907,7 +30907,7 @@
       "French Pop",
       "Chanson"
     ],
-    "source": "songstats"
+    "source": "getsongbpm"
   },
   {
     "title": "Chandon et Moët (feat. Heuss l'Enfoiré)",
@@ -32924,7 +32924,7 @@
     "spotifyId": "2OFNudaD0TiwN4PAjLudtm",
     "isrc": "DEG129700451",
     "image": "https://i.scdn.co/image/ab67616d00004851fb9d78440c431b0c2a5168dd",
-    "bpm": 133,
+    "bpm": 132,
     "key": "D",
     "danceability": 0.655,
     "energy": 0.975,
@@ -32938,7 +32938,7 @@
       "Cedm",
       "Fussball"
     ],
-    "source": "songstats"
+    "source": "getsongbpm"
   },
   {
     "title": "Jealousy",
@@ -32970,7 +32970,7 @@
     "spotifyId": "4abEcEslcRjBS6xSZh9naQ",
     "isrc": "IT00D9829205",
     "image": "https://i.scdn.co/image/ab67616d00004851a590afcf80cb1000a94a57a8",
-    "bpm": 130,
+    "bpm": 129,
     "key": "C",
     "danceability": 0.849,
     "energy": 0.875,
@@ -32984,7 +32984,7 @@
       "Pop",
       "Rock"
     ],
-    "source": "songstats"
+    "source": "getsongbpm"
   },
   {
     "title": "Rejection",
@@ -33041,7 +33041,7 @@
     "isrc": "FISGC9900002",
     "image": "https://i.scdn.co/image/ab67616d0000485103146014a54025872e4f1bc7",
     "bpm": 136,
-    "key": "B",
+    "key": "Em",
     "danceability": 0.528,
     "energy": 0.965,
     "valence": 0.587,
@@ -33054,7 +33054,7 @@
       "Electronic",
       "House"
     ],
-    "source": "songstats"
+    "source": "getsongbpm"
   },
   {
     "title": "Bla Bla Bla (Drammentenza mix)",
@@ -33270,8 +33270,8 @@
     "spotifyId": "3s3DWOPtKQSgJVDRKu85Tt",
     "isrc": "FRQ380500331",
     "image": "https://i.scdn.co/image/ab67616d00004851c85d7c32101f59472c252471",
-    "bpm": 128,
-    "key": "C#",
+    "bpm": 129,
+    "key": "C♯",
     "danceability": 0.723,
     "energy": 0.856,
     "valence": 0.553,
@@ -33284,7 +33284,7 @@
       "Classic Dance",
       "French House"
     ],
-    "source": "songstats"
+    "source": "getsongbpm"
   },
   {
     "title": "Make Luv",
@@ -34218,7 +34218,7 @@
     "isrc": "USPR38007166",
     "image": "https://i.scdn.co/image/ab67616d000048518a69fee00426f311d0056151",
     "bpm": 122,
-    "key": "C#",
+    "key": "C♯",
     "danceability": 0.885,
     "energy": 0.664,
     "valence": 0.906,
@@ -34231,7 +34231,7 @@
       "R&B/Soul",
       "Pop"
     ],
-    "source": "songstats"
+    "source": "getsongbpm"
   },
   {
     "title": "María - Pablo Flores Spanglish Radio Edit",
