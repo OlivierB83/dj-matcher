@@ -41,12 +41,12 @@ function SearchResultCardMobile({
   };
   const cardStyle = enriched
     ? { boxShadow: `0 0 0 2px ${accent}` }
-    : { boxShadow: "0 0 0 1px rgba(255, 255, 255, 0.08)", opacity: 0.45 };
+    : { boxShadow: "0 0 0 1px rgba(255, 255, 255, 0.08)" };
   return (
     <motion.div
       className={`tcard-m${enriched ? " is-clickable" : ""}`}
       initial={{ opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
+      animate={{ opacity: enriched ? 1 : 0.45, y: 0 }}
       transition={{ duration: 0.2 }}
       layout
       onClick={enriched ? onChoose : undefined}
@@ -101,7 +101,7 @@ function SearchResultCardMobile({
           </>
         ) : (
           <div className="srcard-not-enriched">
-            Non enrichi · {track.enrichMessage || "hors catalogue"}
+            Titre absent du catalogue DJ-Matcher
           </div>
         )}
       </div>
@@ -128,12 +128,12 @@ function SearchResultCardDesktop({
   };
   const cardStyle = enriched
     ? { boxShadow: `0 0 0 2px ${accent}` }
-    : { boxShadow: "0 0 0 1px rgba(255, 255, 255, 0.08)", opacity: 0.45 };
+    : { boxShadow: "0 0 0 1px rgba(255, 255, 255, 0.08)" };
   return (
     <motion.div
       className={`track-card${enriched ? " is-clickable" : ""}`}
       initial={{ opacity: 0, y: 8 }}
-      animate={{ opacity: 1, y: 0 }}
+      animate={{ opacity: enriched ? 1 : 0.45, y: 0 }}
       transition={{ duration: 0.2 }}
       layout
       onClick={enriched ? onChoose : undefined}
