@@ -625,19 +625,24 @@ export default function App() {
     return filtered.slice(0, MAX_SUGGESTIONS);
   }, [allScored, activeFamilies, hidden]);
 
-  // After a favorite toggle, the re-ranked suggestions have rendered: if
-  // the moved card is now off-screen, scroll it back into view. Using
-  // block:"nearest" avoids the previous bug where a still-visible card was
-  // re-centred, scrolling the page DOWN to put a near-top card mid-screen.
+  // After a favorite toggle, the re-ranked suggestions render AND framer-motion
+  // animates the card to its new position (~300ms). We wait for that to settle,
+  // then scroll the page so the moved card sits ~100px from the top — always
+  // visibly moves so the user can confirm where the track landed.
   useEffect(() => {
     if (!scrollToKey) return;
-    requestAnimationFrame(() => {
+    const t = setTimeout(() => {
       const el = document.querySelector(
         `[data-track-key="${CSS.escape(scrollToKey)}"]`
       );
-      if (el) el.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      if (el) {
+        const rect = el.getBoundingClientRect();
+        const top = Math.max(0, rect.top + window.scrollY - 100);
+        window.scrollTo({ top, behavior: "smooth" });
+      }
       setScrollToKey(null);
-    });
+    }, 380);
+    return () => clearTimeout(t);
   }, [scrollToKey, suggestions]);
 
   const forgottenTracks = useMemo(() => {

@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 import { Heart } from "lucide-react";
 import { useIsMobile } from "../hooks/useIsMobile";
+import { useCoverColor } from "../hooks/useCoverColor";
+
+const FALLBACK_BORDER = "#ffffff";
 
 function formatGenres(genres) {
   if (!Array.isArray(genres) || genres.length === 0) return null;
@@ -27,6 +30,7 @@ function SearchResultCardMobile({
   onToggleFavorite,
 }) {
   const enriched = track.enriched;
+  const accent = useCoverColor(track.coverUrl) || FALLBACK_BORDER;
   const style = formatGenres(track.genres);
   const handleKeyDown = (e) => {
     if (!enriched) return;
@@ -34,6 +38,10 @@ function SearchResultCardMobile({
       e.preventDefault();
       onChoose?.();
     }
+  };
+  const cardStyle = {
+    boxShadow: `0 0 0 2px ${accent}`,
+    opacity: enriched ? undefined : 0.6,
   };
   return (
     <motion.div
@@ -46,7 +54,7 @@ function SearchResultCardMobile({
       role={enriched ? "button" : undefined}
       tabIndex={enriched ? 0 : undefined}
       onKeyDown={handleKeyDown}
-      style={!enriched ? { opacity: 0.6 } : undefined}
+      style={cardStyle}
     >
       <div className="tcard-m-top">
         <Cover track={track} className="tcard-m-cover-img" />
@@ -110,6 +118,7 @@ function SearchResultCardDesktop({
   onToggleFavorite,
 }) {
   const enriched = track.enriched;
+  const accent = useCoverColor(track.coverUrl) || FALLBACK_BORDER;
   const style = formatGenres(track.genres);
   const handleKeyDown = (e) => {
     if (!enriched) return;
@@ -117,6 +126,10 @@ function SearchResultCardDesktop({
       e.preventDefault();
       onChoose?.();
     }
+  };
+  const cardStyle = {
+    boxShadow: `0 0 0 2px ${accent}`,
+    opacity: enriched ? undefined : 0.6,
   };
   return (
     <motion.div
@@ -129,7 +142,7 @@ function SearchResultCardDesktop({
       role={enriched ? "button" : undefined}
       tabIndex={enriched ? 0 : undefined}
       onKeyDown={handleKeyDown}
-      style={!enriched ? { opacity: 0.6 } : undefined}
+      style={cardStyle}
     >
       <div className="track-row">
         <Cover track={track} className="track-cover" />

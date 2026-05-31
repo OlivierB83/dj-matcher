@@ -311,24 +311,33 @@
 }
 .tcard-m-artist { font-size: 16px; color: var(--text-muted); margin-top: 3px; margin-bottom: 14px; }
 
-/* Mobile-specific badge sizing so 3 fit on the first line (BPM, tonalité,
-   dance), leaving style + forget on the second line. */
-.tcard-m .badges { gap: 6px; margin-bottom: 6px; }
+/* Mobile-specific badge layout: each row uses justify-content:space-between
+   so the 3 tags on row 1 (BPM, tonalité, dance) distribute evenly across the
+   width, and row 2 puts style on the left and "oublier ce titre" on the
+   right. No more asymmetric margin-left:auto gaps. */
+.tcard-m .badges {
+  gap: 6px;
+  margin-bottom: 6px;
+  justify-content: space-between;
+}
 .tcard-m .badges:last-of-type { margin-bottom: 0; }
 .tcard-m .badge { font-size: 13px; padding: 3px 8px; }
 
-/* Mobile "oublier ce titre" deliberately understated — no border, lighter
-   gray text, regular weight, italic so it reads as a quiet link instead of
-   a primary action. */
+/* "oublier ce titre" looks like a real neutral tag — same shape, padding,
+   weight and feel as a compat-far badge, just a distinct grey tone so it
+   doesn't look like a compatibility result. */
 .tcard-m .btn-forget {
+  font-size: 13px;
+  padding: 3px 8px;
+  border-radius: var(--radius-md);
+  background: var(--compat-far-bg);
+  color: var(--compat-far-fg);
   border: none;
-  background: transparent;
-  color: var(--text-dim);
-  font-style: italic;
-  font-weight: 400;
-  padding: 4px 0;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
 }
 .tcard-m .btn-forget:hover {
-  color: var(--text-secondary);
-  border-color: transparent;
+  background: rgba(180, 178, 169, 0.18);
+  color: #c4c3bd;
 }

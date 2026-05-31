@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 import { Heart } from "lucide-react";
 import { CompatBadge } from "./Badges";
 import { useIsMobile } from "../hooks/useIsMobile";
+import { useCoverColor } from "../hooks/useCoverColor";
+
+const FALLBACK_BORDER = "#ffffff";
 
 /* ===== Shared helpers ===== */
 
@@ -81,6 +84,7 @@ function Cover({ track, className }) {
 /* ===== Mobile layout — hero cover, score overlay ===== */
 
 function TrackCardMobile({ track, compat, featured, isFavorite, onChoose, onToggleFavorite, onForget }) {
+  const accent = useCoverColor(track.coverUrl) || FALLBACK_BORDER;
   const handleKeyDown = (e) => {
     if (e.key === "Enter" || e.key === " ") {
       e.preventDefault();
@@ -91,6 +95,7 @@ function TrackCardMobile({ track, compat, featured, isFavorite, onChoose, onTogg
     <motion.div
       className={`tcard-m is-clickable${featured ? " featured" : ""}`}
       data-track-key={track.id}
+      style={{ boxShadow: `0 0 0 2px ${accent}` }}
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.2 }}
@@ -144,16 +149,12 @@ function TrackCardMobile({ track, compat, featured, isFavorite, onChoose, onTogg
         <div className="badges">
           <CompatBadge level={compat.bpm} label={bpmLabel(compat.bpm)} />
           <CompatBadge level={compat.key} label={keyLabel(compat.key)} />
-          <CompatBadge
-            level={compat.dance}
-            label={danceLabel(compat.dance)}
-            className="badges-push-right"
-          />
+          <CompatBadge level={compat.dance} label={danceLabel(compat.dance)} />
         </div>
         <div className="badges">
           <CompatBadge level={compat.style} label={styleLabel(compat.style)} />
           <button
-            className="btn-forget badges-push-right"
+            className="btn-forget"
             onClick={(e) => {
               e.stopPropagation();
               onForget?.();
@@ -170,6 +171,7 @@ function TrackCardMobile({ track, compat, featured, isFavorite, onChoose, onTogg
 /* ===== Desktop layout — compact horizontal row ===== */
 
 function TrackCardDesktop({ track, compat, featured, isFavorite, onChoose, onToggleFavorite, onForget }) {
+  const accent = useCoverColor(track.coverUrl) || FALLBACK_BORDER;
   const handleKeyDown = (e) => {
     if (e.key === "Enter" || e.key === " ") {
       e.preventDefault();
@@ -180,6 +182,7 @@ function TrackCardDesktop({ track, compat, featured, isFavorite, onChoose, onTog
     <motion.div
       className={`track-card is-clickable${featured ? " featured" : ""}`}
       data-track-key={track.id}
+      style={{ boxShadow: `0 0 0 2px ${accent}` }}
       initial={{ opacity: 0, y: 8 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.2 }}

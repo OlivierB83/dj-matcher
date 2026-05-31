@@ -80,7 +80,7 @@ export function Header({
         </div>
       </div>
 
-      <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+      <div className="header-actions">
         {isForgottenView ? (
           <button className="header-action" onClick={onBack}>
             <ArrowLeft size={14} />
