@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import {
-  Headphones,
   Archive,
   Search,
   Filter,
@@ -8,6 +7,59 @@ import {
   ArrowLeft,
   Heart,
 } from "lucide-react";
+
+/**
+ * Two overlapping vinyl discs (Claude design). The right disc sits on top of
+ * the left one — the visual cue for "matching two tracks".
+ */
+function DiscPair({ size = 40 }) {
+  return (
+    <svg
+      viewBox="0 0 100 100"
+      width={size}
+      height={size}
+      role="img"
+      aria-label="DJ Matcher logo"
+    >
+      <defs>
+        <linearGradient id="dm-bg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stopColor="#7f77dd" />
+          <stop offset="100%" stopColor="#534ab7" />
+        </linearGradient>
+        <radialGradient id="dm-disc" cx="0.5" cy="0.45" r="0.55">
+          <stop offset="0%" stopColor="#2c2748" />
+          <stop offset="100%" stopColor="#0e0814" />
+        </radialGradient>
+        <radialGradient id="dm-label" cx="0.5" cy="0.45" r="0.5">
+          <stop offset="0%" stopColor="#c0b3ff" />
+          <stop offset="100%" stopColor="#7f77dd" />
+        </radialGradient>
+      </defs>
+
+      <rect width="100" height="100" rx="22" fill="url(#dm-bg)" />
+
+      {/* Left disc */}
+      <g>
+        <circle cx="40" cy="52" r="26" fill="url(#dm-disc)" stroke="#0e0814" strokeWidth="0.5" />
+        <circle cx="40" cy="52" r="22" fill="none" stroke="#ffffff" strokeWidth="0.5" opacity="0.18" />
+        <circle cx="40" cy="52" r="17" fill="none" stroke="#ffffff" strokeWidth="0.5" opacity="0.12" />
+        <circle cx="40" cy="52" r="12" fill="none" stroke="#ffffff" strokeWidth="0.5" opacity="0.18" />
+        <circle cx="40" cy="52" r="8" fill="url(#dm-label)" />
+        <circle cx="40" cy="52" r="1.7" fill="#160e1e" />
+      </g>
+
+      {/* Right disc (on top) */}
+      <g>
+        <circle cx="60" cy="52" r="26" fill="url(#dm-disc)" stroke="#0e0814" strokeWidth="0.5" />
+        <circle cx="60" cy="52" r="22" fill="none" stroke="#ffffff" strokeWidth="0.5" opacity="0.18" />
+        <circle cx="60" cy="52" r="17" fill="none" stroke="#ffffff" strokeWidth="0.5" opacity="0.12" />
+        <circle cx="60" cy="52" r="12" fill="none" stroke="#ffffff" strokeWidth="0.5" opacity="0.18" />
+        <circle cx="60" cy="52" r="8" fill="url(#dm-label)" />
+        <circle cx="60" cy="52" r="1.7" fill="#160e1e" />
+      </g>
+    </svg>
+  );
+}
 
 export function Header({
   forgottenCount = 0,
@@ -20,11 +72,11 @@ export function Header({
     <header className="header">
       <div className="header-brand">
         <div className="header-logo">
-          <Headphones size={20} />
+          <DiscPair size="100%" />
         </div>
         <div>
           <div className="header-title">DJ Matcher</div>
-          <div className="header-version">v7.3</div>
+          <div className="header-version">v7.4</div>
         </div>
       </div>
 

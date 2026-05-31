@@ -1,11 +1,13 @@
 import { Heart } from "lucide-react";
 
-export function CompatBadge({ level, label }) {
-  const cls = {
+export function CompatBadge({ level, label, className }) {
+  const base = {
     perfect: "badge badge-perfect",
     close: "badge badge-close",
     far: "badge badge-far",
   }[level];
+
+  const cls = className ? `${base} ${className}` : base;
 
   return <span className={cls}>{label}</span>;
 }

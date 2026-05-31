@@ -140,7 +140,28 @@ function TrackCardMobile({ track, compat, featured, isFavorite, onChoose, onTogg
         <div className="tcard-m-title">{track.title}</div>
         <div className="tcard-m-artist">{track.artist}</div>
         <MetaRow track={track} compat={compat} />
-        <BadgeRow compat={compat} onForget={onForget} />
+
+        <div className="badges">
+          <CompatBadge level={compat.bpm} label={bpmLabel(compat.bpm)} />
+          <CompatBadge level={compat.key} label={keyLabel(compat.key)} />
+          <CompatBadge
+            level={compat.dance}
+            label={danceLabel(compat.dance)}
+            className="badges-push-right"
+          />
+        </div>
+        <div className="badges">
+          <CompatBadge level={compat.style} label={styleLabel(compat.style)} />
+          <button
+            className="btn-forget badges-push-right"
+            onClick={(e) => {
+              e.stopPropagation();
+              onForget?.();
+            }}
+          >
+            oublier ce titre
+          </button>
+        </div>
       </div>
     </motion.div>
   );

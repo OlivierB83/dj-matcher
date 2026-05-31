@@ -8,8 +8,9 @@
 /* ===== Larger viewports: bump base sizes to match the "zoomed" feel ===== */
 @media (min-width: 900px) {
   body { font-size: 17px; }
-  .header-title { font-size: 22px; }
+  .header-title { font-size: 28px; }
   .header-version { font-size: 13px; }
+  .header-logo { width: 50px; height: 50px; }
   .header-action { font-size: 15px; padding: 9px 16px; }
   .search-input { font-size: 17px; padding: 14px 14px 14px 44px; }
   .search-button { font-size: 17px; padding: 14px 26px; }
@@ -39,20 +40,19 @@
 }
 
 .header-logo {
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   border-radius: var(--radius-lg);
-  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  overflow: hidden;
 }
 
 .header-title {
-  font-size: 17px;
-  font-weight: 500;
-  letter-spacing: -0.01em;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.015em;
 }
 
 .header-version {
@@ -234,8 +234,9 @@
   .app { padding: var(--space-lg) var(--space-md); }
 
   .header { margin-bottom: var(--space-lg); padding-bottom: var(--space-md); }
-  .header-title { font-size: 20px; }
+  .header-title { font-size: 24px; }
   .header-version { font-size: 13px; }
+  .header-logo { width: 42px; height: 42px; }
 
   .current-track { gap: var(--space-md); padding: var(--space-md); }
   .current-cover { width: 78px; height: 78px; }

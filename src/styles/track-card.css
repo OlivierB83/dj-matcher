@@ -7,10 +7,10 @@
   flex-wrap: wrap;
   font-family: var(--font-mono);
   font-size: 14px;
-  color: var(--text-muted);
+  color: #f0f1f5;
   margin-bottom: 10px;
 }
-.meta-label { color: var(--text-dim); margin-right: 4px; }
+.meta-label { color: #a3a7b0; margin-right: 4px; }
 .meta-camelot-perfect { color: var(--compat-perfect-fg); }
 .meta-camelot-close   { color: var(--compat-close-fg); }
 
@@ -24,6 +24,11 @@
 /* Push the forget action to the right of the badges row — it joins the
    last line if there's room, wraps to its own (right-aligned) line if not. */
 .badges .btn-forget { margin-left: auto; }
+
+/* Generic "push to right of current flex line" helper used by the explicit
+   2-row mobile layout (dance on the right of row 1, forget on the right of
+   row 2). */
+.badges-push-right { margin-left: auto; }
 .badge {
   font-size: 14px;
   padding: 4px 10px;
@@ -308,5 +313,22 @@
 
 /* Mobile-specific badge sizing so 3 fit on the first line (BPM, tonalité,
    dance), leaving style + forget on the second line. */
-.tcard-m .badges { gap: 6px; }
+.tcard-m .badges { gap: 6px; margin-bottom: 6px; }
+.tcard-m .badges:last-of-type { margin-bottom: 0; }
 .tcard-m .badge { font-size: 13px; padding: 3px 8px; }
+
+/* Mobile "oublier ce titre" deliberately understated — no border, lighter
+   gray text, regular weight, italic so it reads as a quiet link instead of
+   a primary action. */
+.tcard-m .btn-forget {
+  border: none;
+  background: transparent;
+  color: var(--text-dim);
+  font-style: italic;
+  font-weight: 400;
+  padding: 4px 0;
+}
+.tcard-m .btn-forget:hover {
+  color: var(--text-secondary);
+  border-color: transparent;
+}

@@ -625,15 +625,17 @@ export default function App() {
     return filtered.slice(0, MAX_SUGGESTIONS);
   }, [allScored, activeFamilies, hidden]);
 
-  // After a favorite toggle, the re-ranked suggestions have rendered: scroll
-  // the moved card into view so the user can see where it landed.
+  // After a favorite toggle, the re-ranked suggestions have rendered: if
+  // the moved card is now off-screen, scroll it back into view. Using
+  // block:"nearest" avoids the previous bug where a still-visible card was
+  // re-centred, scrolling the page DOWN to put a near-top card mid-screen.
   useEffect(() => {
     if (!scrollToKey) return;
     requestAnimationFrame(() => {
       const el = document.querySelector(
         `[data-track-key="${CSS.escape(scrollToKey)}"]`
       );
-      if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "nearest" });
       setScrollToKey(null);
     });
   }, [scrollToKey, suggestions]);
