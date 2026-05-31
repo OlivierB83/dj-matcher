@@ -29,3 +29,6 @@ dist
 
 # Backups produced by normalize-catalog-bpm.js etc.
 knownTracks.bak.*.json
+
+# Compiled Swift OCR binary (rebuild locally: swiftc djay-ocr.swift -O -o djay-ocr)
+/djay-ocr
