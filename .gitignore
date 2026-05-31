@@ -26,3 +26,6 @@ dist-ssr
 .spotify-token.json
 node_modules
 dist
+
+# Backups produced by normalize-catalog-bpm.js etc.
+knownTracks.bak.*.json
