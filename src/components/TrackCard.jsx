@@ -52,8 +52,8 @@ function BadgeRow({ compat, onForget }) {
     <div className="badges">
       <CompatBadge level={compat.bpm}   label={bpmLabel(compat.bpm)} />
       <CompatBadge level={compat.key}   label={keyLabel(compat.key)} />
-      <CompatBadge level={compat.style} label={styleLabel(compat.style)} />
       <CompatBadge level={compat.dance} label={danceLabel(compat.dance)} />
+      <CompatBadge level={compat.style} label={styleLabel(compat.style)} />
       {onForget && (
         <button
           className="btn-forget"
@@ -90,6 +90,7 @@ function TrackCardMobile({ track, compat, featured, isFavorite, onChoose, onTogg
   return (
     <motion.div
       className={`tcard-m is-clickable${featured ? " featured" : ""}`}
+      data-track-key={track.id}
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.2 }}
@@ -157,6 +158,7 @@ function TrackCardDesktop({ track, compat, featured, isFavorite, onChoose, onTog
   return (
     <motion.div
       className={`track-card is-clickable${featured ? " featured" : ""}`}
+      data-track-key={track.id}
       initial={{ opacity: 0, y: 8 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.2 }}
@@ -179,13 +181,24 @@ function TrackCardDesktop({ track, compat, featured, isFavorite, onChoose, onTog
           </div>
           <div className="track-artist">{track.artist}</div>
           <MetaRow track={track} compat={compat} />
-          <BadgeRow compat={compat} onForget={onForget} />
+          <BadgeRow compat={compat} />
         </div>
 
         <div className="track-score-col">
-          <div className="score">
-            <div className={`score-num ${scoreColorClass(track.score)}`}>{track.score}</div>
-            <div className="score-label">score</div>
+          <div className="track-score-top">
+            <button
+              className="btn-forget"
+              onClick={(e) => {
+                e.stopPropagation();
+                onForget?.();
+              }}
+            >
+              oublier ce titre
+            </button>
+            <div className="score">
+              <div className={`score-num ${scoreColorClass(track.score)}`}>{track.score}</div>
+              <div className="score-label">score</div>
+            </div>
           </div>
           <button
             className={`btn-fav${isFavorite ? " is-fav" : ""}`}

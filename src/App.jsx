@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence } from "framer-motion";
-import { Heart } from "lucide-react";
 import {
   Header,
   SearchBar,
@@ -8,6 +7,7 @@ import {
   SuggestionsHeader,
 } from "./components/Layout";
 import { TrackCard } from "./components/TrackCard";
+import { SearchResultCard } from "./components/SearchResultCard";
 
 import "./styles/tokens.css";
 import "./styles/app.css";
@@ -366,6 +366,7 @@ export default function App() {
   const [history, setHistory] = useState([]);
 
   const [autocompleteOpen, setAutocompleteOpen] = useState(false);
+  const [scrollToKey, setScrollToKey] = useState(null);
 
   function forgetTrack(key) {
     if (hidden.has(key)) return;
@@ -415,6 +416,9 @@ export default function App() {
       persistSet(STORAGE_FAVORITES, next);
       return next;
     });
+    // After the re-sort, scroll the track to its new position so the user
+    // can see where it ended up.
+    setScrollToKey(key);
   }
 
   function toggleFamily(id) {
@@ -621,6 +625,19 @@ export default function App() {
     return filtered.slice(0, MAX_SUGGESTIONS);
   }, [allScored, activeFamilies, hidden]);
 
+  // After a favorite toggle, the re-ranked suggestions have rendered: scroll
+  // the moved card into view so the user can see where it landed.
+  useEffect(() => {
+    if (!scrollToKey) return;
+    requestAnimationFrame(() => {
+      const el = document.querySelector(
+        `[data-track-key="${CSS.escape(scrollToKey)}"]`
+      );
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
+      setScrollToKey(null);
+    });
+  }, [scrollToKey, suggestions]);
+
   const forgottenTracks = useMemo(() => {
     if (hidden.size === 0) return [];
     return knownTracks
@@ -781,64 +798,33 @@ export default function App() {
           </h3>
           <div className="suggestions-list" style={{ marginBottom: 24 }}>
             {spotifyResults.map((t) => {
-              const cover = pickCover(t);
               const enriched = !!(t.bpm && t.key);
               const artist = t.artists?.[0]?.name || "";
               const tKey = trackKey(artist, t.name);
               const isFav = enriched && favorites.has(tKey);
+              const normalized = {
+                id: t.id,
+                title: t.name,
+                artist,
+                album: t.album?.name,
+                coverUrl: pickCover(t),
+                bpm: t.bpm,
+                key: t.key,
+                camelot: toCamelot(t.key),
+                year:
+                  t.year || t.album?.release_date?.slice(0, 4) || null,
+                genres: t.genres,
+                enriched,
+                enrichMessage: t.enrichMessage,
+              };
               return (
-                <div
+                <SearchResultCard
                   key={t.id}
-                  className={`track-card${enriched ? " is-clickable" : ""}`}
-                  onClick={enriched ? () => selectTrack(t) : undefined}
-                  role={enriched ? "button" : undefined}
-                  tabIndex={enriched ? 0 : undefined}
-                  onKeyDown={(e) => {
-                    if (enriched && (e.key === "Enter" || e.key === " ")) {
-                      e.preventDefault();
-                      selectTrack(t);
-                    }
-                  }}
-                  style={!enriched ? { opacity: 0.55 } : undefined}
-                >
-                  <div className="track-row">
-                    <div className="track-cover">
-                      {cover ? <img src={cover} alt="" /> : <span aria-hidden>🎵</span>}
-                    </div>
-                    <div className="track-info">
-                      <div className="track-title">{t.name}</div>
-                      <div className="track-artist">
-                        {artist} · {t.album?.name}
-                      </div>
-                      <div className="meta-row">
-                        {enriched ? (
-                          <>
-                            <span><span className="meta-label">BPM</span>{t.bpm}</span>
-                            <span><span className="meta-label">KEY</span>{t.key}</span>
-                            <span><span className="meta-label">CAMELOT</span>{toCamelot(t.key) || "?"}</span>
-                            <span><span className="meta-label">YEAR</span>{t.year || t.album?.release_date?.slice(0, 4) || "?"}</span>
-                          </>
-                        ) : (
-                          <span style={{ color: "var(--text-dim)" }}>
-                            Non enrichi · {t.enrichMessage || "hors catalogue"}
-                          </span>
-                        )}
-                      </div>
-                    </div>
-                    {enriched && (
-                      <button
-                        className={`btn-fav${isFav ? " is-fav" : ""}`}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          toggleFavorite(tKey);
-                        }}
-                        aria-label={isFav ? "Retirer des favoris" : "Ajouter aux favoris"}
-                      >
-                        <Heart size={14} fill={isFav ? "currentColor" : "none"} />
-                      </button>
-                    )}
-                  </div>
-                </div>
+                  track={normalized}
+                  isFavorite={isFav}
+                  onChoose={() => selectTrack(t)}
+                  onToggleFavorite={() => toggleFavorite(tKey)}
+                />
               );
             })}
           </div>

@@ -149,10 +149,19 @@
 .track-score-col {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 8px;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 12px;
   flex-shrink: 0;
+  align-self: stretch;
 }
+
+.track-score-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
 .score { display: flex; flex-direction: column; align-items: center; }
 .score-num { font-size: 32px; font-weight: 500; line-height: 1; font-family: var(--font-mono); }
 .score-num.score-high { color: var(--score-high); }
@@ -171,7 +180,7 @@
    MOBILE layout — hero cover (16:9) with score overlay
    =================================================================== */
 .tcard-m {
-  background: rgba(255, 255, 255, 0.055);
+  background: var(--bg-card);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-xl);
   overflow: hidden;
@@ -181,20 +190,20 @@
 /* Top row: cover at top-left + overlay (halo + score + heart) on the right */
 .tcard-m-top {
   display: grid;
-  grid-template-columns: 124px 1fr;
-  height: 124px;
+  grid-template-columns: 110px 1fr;
+  height: 110px;
   background: #1a1a2e;
 }
 
 .tcard-m-cover-img {
-  width: 124px;
-  height: 124px;
+  width: 110px;
+  height: 110px;
   background: #1f2937;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  font-size: 40px;
+  font-size: 36px;
 }
 .tcard-m-cover-img img { width: 100%; height: 100%; object-fit: cover; }
 
@@ -202,21 +211,23 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 14px;
+  gap: 10px;
+  padding: 0 12px;
   overflow: hidden;
 }
 
-/* Blurred copy of the cover, only on the right side */
+/* Blurred copy of the cover, vivid near the sharp pochette and gradually
+   fading toward the right edge of the card. */
 .tcard-m-halo {
   position: absolute;
   inset: -30px;
   background-size: cover;
   background-position: center;
-  filter: blur(32px) saturate(1.5);
-  opacity: 0.8;
+  filter: blur(28px) saturate(1.5);
   transform: scale(1.2);
   z-index: 0;
+  -webkit-mask-image: linear-gradient(to right, #000 0%, #000 25%, rgba(0, 0, 0, 0.35) 75%, transparent 100%);
+          mask-image: linear-gradient(to right, #000 0%, #000 25%, rgba(0, 0, 0, 0.35) 75%, transparent 100%);
 }
 
 /* Score and heart share the same visual frame (height, radius, backdrop) so
@@ -225,10 +236,10 @@
 .tcard-m-score {
   position: relative;
   z-index: 1;
-  margin: 0 auto;
-  height: 56px;
-  min-width: 70px;
-  padding: 0 14px;
+  margin-left: auto;
+  height: 52px;
+  min-width: 64px;
+  padding: 0 12px;
   background: rgba(15, 17, 21, 0.78);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -240,7 +251,7 @@
   justify-content: center;
   line-height: 1;
 }
-.tcard-m-score-num { font-size: 26px; font-weight: 500; font-family: var(--font-mono); }
+.tcard-m-score-num { font-size: 24px; font-weight: 500; font-family: var(--font-mono); }
 .tcard-m-score-num.score-high { color: var(--score-high); }
 .tcard-m-score-num.score-mid  { color: var(--score-mid); }
 .tcard-m-score-num.score-low  { color: var(--score-low); }
@@ -255,8 +266,8 @@
 .tcard-m-fav {
   position: relative;
   z-index: 1;
-  width: 56px;
-  height: 56px;
+  width: 52px;
+  height: 52px;
   border-radius: var(--radius-md);
   background: rgba(15, 17, 21, 0.78);
   backdrop-filter: blur(10px);
@@ -271,6 +282,20 @@
 }
 .tcard-m-fav.is-fav { color: var(--fav-fg); }
 
+/* Search-result variant: style/genres line + not-enriched warning */
+.srcard-style {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 6px;
+}
+
+.srcard-not-enriched {
+  font-size: 13px;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-top: 6px;
+}
+
 .tcard-m-body { padding: 16px 18px 18px; }
 .tcard-m-title {
   font-size: 20px;
@@ -280,3 +305,8 @@
   line-height: 1.2;
 }
 .tcard-m-artist { font-size: 16px; color: var(--text-muted); margin-top: 3px; margin-bottom: 14px; }
+
+/* Mobile-specific badge sizing so 3 fit on the first line (BPM, tonalité,
+   dance), leaving style + forget on the second line. */
+.tcard-m .badges { gap: 6px; }
+.tcard-m .badge { font-size: 13px; padding: 3px 8px; }
