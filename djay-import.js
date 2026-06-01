@@ -5,8 +5,8 @@
  *   node djay-import.js capture.png [...more.png] --commit     # apply to catalog
  *   node djay-import.js capture.png --debug                    # raw OCR rows
  *
- * Compile the Swift OCR tool once (it's gitignored):
- *   swiftc djay-ocr.swift -O -o djay-ocr
+ * Requires Tesseract (Apple Vision proved unreliable on dense tables):
+ *   brew install tesseract tesseract-lang
  *
  * Behaviour:
  *   - djay is treated as the ground-truth source for BPM and key.
@@ -103,69 +103,100 @@ function classify(text) {
   return { kind: "text", value: t };
 }
 
-function runOCR(imagePath) {
-  const res = spawnSync("./djay-ocr", [imagePath], {
-    encoding: "utf8",
-    maxBuffer: 128 * 1024 * 1024,
-  });
-  if (res.status !== 0) {
-    throw new Error(`OCR failed on ${imagePath}: ${res.stderr || res.stdout}`);
+/**
+ * Resolve the tesseract binary. Homebrew typically puts it at
+ *   /opt/homebrew/bin/tesseract  (Apple Silicon)
+ *   /usr/local/bin/tesseract     (Intel)
+ * but if the user opened the shell with a clean PATH, plain "tesseract" may
+ * not resolve — so we look in both standard spots before giving up.
+ */
+function resolveTesseract() {
+  for (const p of ["tesseract", "/opt/homebrew/bin/tesseract", "/usr/local/bin/tesseract"]) {
+    const r = spawnSync(p, ["--version"], { encoding: "utf8" });
+    if (r.status === 0) return p;
   }
-  return JSON.parse(res.stdout);
+  console.error("❌ tesseract introuvable. Installation :");
+  console.error("    brew install tesseract tesseract-lang");
+  process.exit(127);
 }
 
+const TESSERACT_BIN = resolveTesseract();
+
 /**
- * Second OCR pass on the right-most strip of the capture, after we resize it
- * 3× via sips so Vision picks up single-letter Camelot keys (G, B, C, D, F)
- * which it drops at native resolution. Returns fragments with X/Y already
- * mapped back to the FULL image's normalised coordinates.
+ * OCR an image with Tesseract in TSV mode. Returns fragments in the same
+ * { text, confidence, x, y, w, h } shape Vision used: normalised 0–1 to
+ * the image extent, with Y measured from the BOTTOM (the parser flips it).
+ *
+ * --psm 6  →  "Assume a single uniform block of vertically aligned text".
+ *             That's exactly what djay's library table is.
+ * -l fra+eng → covers the French column headers (Titre / Artiste / Album /
+ *             Durée / BPM / Clé) and English/French track text.
  */
-function runOCRRightStrip(imagePath) {
-  // 1. Image dimensions
+function runOCR(imagePath) {
   const dim = spawnSync("sips", ["-g", "pixelWidth", "-g", "pixelHeight", imagePath], { encoding: "utf8" });
-  const w = Number(dim.stdout.match(/pixelWidth:\s*(\d+)/)?.[1]);
-  const h = Number(dim.stdout.match(/pixelHeight:\s*(\d+)/)?.[1]);
-  if (!w || !h) return [];
+  const W = Number(dim.stdout.match(/pixelWidth:\s*(\d+)/)?.[1]);
+  const H = Number(dim.stdout.match(/pixelHeight:\s*(\d+)/)?.[1]);
+  if (!W || !H) throw new Error(`Cannot read dimensions of ${imagePath}`);
 
-  const STRIP_FRACTION = 0.17;          // rightmost 17 % of the width
-  const ZOOM = 3;                       // pixel-resample factor
-  const stripPxW = Math.round(w * STRIP_FRACTION);
-  const stripOffsetX = w - stripPxW;    // sips --cropOffset uses (y, x)
-
-  // 2. sips: crop the strip into a temp file, then resize 3x
-  const tmpStrip = `/tmp/djay-strip-${process.pid}.png`;
-  const tmpZoomed = `/tmp/djay-strip-zoomed-${process.pid}.png`;
-  spawnSync("sips", ["--cropToHeightWidth", String(h), String(stripPxW), "--cropOffset", "0", String(stripOffsetX), imagePath, "--out", tmpStrip], { encoding: "utf8" });
-  spawnSync("sips", ["--resampleHeight", String(h * ZOOM), tmpStrip, "--out", tmpZoomed], { encoding: "utf8" });
-
-  // 3. OCR the zoomed strip
-  let fragments;
-  try {
-    fragments = runOCR(tmpZoomed);
-  } catch {
-    return [];
-  } finally {
-    try { fs.unlinkSync(tmpStrip); } catch { /* ignore */ }
-    try { fs.unlinkSync(tmpZoomed); } catch { /* ignore */ }
+  const res = spawnSync(
+    TESSERACT_BIN,
+    [imagePath, "-", "-l", "fra+eng", "--psm", "6", "tsv"],
+    { encoding: "utf8", maxBuffer: 128 * 1024 * 1024 }
+  );
+  if (res.status !== 0) {
+    throw new Error(`Tesseract failed on ${imagePath}: ${res.stderr || res.stdout}`);
   }
 
-  // 4. Map normalised strip coords back to the FULL image
-  //    X in strip [0,1] → X in image: STRIP_FRACTION * x + (1 - STRIP_FRACTION)
-  //    Width same scaling
-  //    Y unchanged (strip occupies full height)
-  //    Height unchanged
-  return fragments.map((f) => ({
-    text: f.text,
-    confidence: f.confidence,
-    x: (1 - STRIP_FRACTION) + f.x * STRIP_FRACTION,
-    y: f.y,
-    w: f.w * STRIP_FRACTION,
-    h: f.h,
-  }));
+  // TSV columns:
+  //   level  page  block  par  line  word  left  top  width  height  conf  text
+  const lines = res.stdout.split("\n");
+  const fragments = [];
+  for (let i = 1; i < lines.length; i++) {
+    const row = lines[i].split("\t");
+    if (row.length < 12) continue;
+    const text = row[11];
+    if (!text || !text.trim()) continue;
+    const left = Number(row[6]);
+    const top = Number(row[7]);
+    const width = Number(row[8]);
+    const height = Number(row[9]);
+    const conf = Number(row[10]) / 100;
+    if (!isFinite(left) || !isFinite(top) || width <= 0 || height <= 0) continue;
+    fragments.push({
+      text: text.trim(),
+      confidence: conf,
+      x: left / W,
+      // Flip to bottom-origin so the parser sees the same convention Vision used
+      y: 1 - (top + height) / H,
+      w: width / W,
+      h: height / H,
+    });
+  }
+  return fragments;
 }
 
 function parseImage(imagePath) {
-  const fragments = [...runOCR(imagePath), ...runOCRRightStrip(imagePath)];
+  let fragments = runOCR(imagePath);
+
+  // Compute Q1 height across ALL fragments BEFORE filtering — the cover-art
+  // outliers are exactly what we want to spot relative to the typical row
+  // text height. Real djay row glyphs cluster at Q1; cover-art blobs run
+  // 2–4× taller.
+  const allHeights = [...fragments.map((f) => f.h)].sort((a, b) => a - b);
+  const q1H = allHeights[Math.floor(allHeights.length * 0.25)] || 0.005;
+  const TALL_FRAGMENT = q1H * 2.5;
+
+  // Strip cover-art OCR noise. Three orthogonal signals, any one drops the
+  // fragment:
+  //   (1) low confidence (Tesseract self-reported < 55 %)
+  //   (2) ends inside the leftmost ~7 % of the image — the thumbnail band
+  //   (3) over 2.5× the typical row text height — oversized blob
+  fragments = fragments.filter((f) => {
+    if (f.confidence < 0.55) return false;
+    if (f.x + f.w < 0.07) return false;
+    if (f.h > TALL_FRAGMENT) return false;
+    return true;
+  });
 
   for (const f of fragments) {
     f.y = 1 - f.y - f.h;
@@ -173,16 +204,13 @@ function parseImage(imagePath) {
   }
   fragments.sort((a, b) => a.cy - b.cy || a.x - b.x);
 
-  // Row clustering tolerance based on the *typical* OCR text height, not a
-  // fixed percentage of image height — otherwise tall scrolling captures
-  // (20 000+ px) end up merging every visible row into one giant cluster.
-  // Empirical sweet spot ≈ 2.5 × median text height: tight enough to keep
-  // adjacent rows separate, loose enough to keep title/BPM/key fragments
-  // (which sit on slightly different baselines because of font metrics)
-  // in the same cluster.
-  const heights = [...fragments.map((f) => f.h)].sort((a, b) => a - b);
-  const medianH = heights[Math.floor(heights.length / 2)] || 0.005;
-  const ROW_TOL = Math.max(medianH * 2.5, 0.0012);
+  // Row clustering tolerance: 1.8 × Q1 of the FILTERED fragments. After
+  // we've evicted the giant cover-art blobs the remaining heights cluster
+  // tightly around the row-text glyph height, so the row tolerance lands
+  // at ~1.5–2 line heights — enough slack for tiny per-glyph baseline
+  // variation, tight enough to keep adjacent rows separate even on long
+  // scrolling captures.
+  const ROW_TOL = Math.max(q1H * 1.8, 0.0012);
 
   const rows = [];
   let cur = null;
@@ -212,7 +240,9 @@ function parseImage(imagePath) {
       const c = classify(item.text);
       if (c.kind === "bpm") bpms.push({ value: c.value, x: item.x });
       else if (c.kind === "key") keys.push({ value: c.value, x: item.x });
-      else if (c.kind === "text" && c.value.length > 1) texts.push({ text: c.value, x: item.x });
+      else if (c.kind === "text" && c.value.length > 0) {
+        texts.push({ text: c.value, x: item.x, w: item.w });
+      }
     }
 
     // Rightmost wins for BPM and Key (djay puts them at the far right)
@@ -224,9 +254,30 @@ function parseImage(imagePath) {
       continue;
     }
 
+    // Tesseract returns word-level fragments — "Buddy Holly" comes back as
+    // two entries [Buddy] and [Holly]. Group adjacent fragments (small X
+    // gap) into a single cell so titles like "The Shock Of The Lightning"
+    // survive whole. Big X gaps mean we crossed a column boundary
+    // (Title → Artist → Album → Durée).
+    const sorted = [...texts].sort((a, b) => a.x - b.x);
+    const cells = [];
+    const GAP_THRESHOLD = 0.012; // gap between djay columns is ≥ 0.017, intra-word gaps ≤ 0.010
+    for (const t of sorted) {
+      const last = cells[cells.length - 1];
+      if (!last) {
+        cells.push({ words: [t.text], endX: t.x + t.w });
+      } else if (t.x - last.endX > GAP_THRESHOLD) {
+        cells.push({ words: [t.text], endX: t.x + t.w });
+      } else {
+        last.words.push(t.text);
+        last.endX = Math.max(last.endX, t.x + t.w);
+      }
+    }
+    const cellTexts = cells.map((c) => c.words.join(" "));
+
     let title = "", artist = "";
-    if (texts.length >= 1) title = texts[0].text;
-    if (texts.length >= 2) artist = texts[1].text;
+    if (cellTexts.length >= 1) title = cellTexts[0];
+    if (cellTexts.length >= 2) artist = cellTexts[1];
     if (!title) { ignored.push({ texts: [], missing: "title" }); continue; }
     parsed.push({ title, artist, bpm, key });
   }
