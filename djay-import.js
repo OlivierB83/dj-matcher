@@ -186,14 +186,16 @@ function parseImage(imagePath) {
   const q1H = allHeights[Math.floor(allHeights.length * 0.25)] || 0.005;
   const TALL_FRAGMENT = q1H * 2.5;
 
-  // Strip cover-art OCR noise. Three orthogonal signals, any one drops the
+  // Strip cover-art OCR noise. Two orthogonal signals, either drops the
   // fragment:
   //   (1) low confidence (Tesseract self-reported < 55 %)
-  //   (2) ends inside the leftmost ~7 % of the image — the thumbnail band
-  //   (3) over 2.5× the typical row text height — oversized blob
+  //   (2) over 2.5× the typical row text height — oversized blob
+  // We deliberately do NOT filter on x position: when the user hides the
+  // Album column, titles start at x ≈ 0.03, and a "leftmost band" filter
+  // would eat short leading words like "A", "Sans", "Ella", losing the
+  // first part of titles like "A caus' des garçons" or "Sans contrefaçon".
   fragments = fragments.filter((f) => {
     if (f.confidence < 0.55) return false;
-    if (f.x + f.w < 0.07) return false;
     if (f.h > TALL_FRAGMENT) return false;
     return true;
   });
