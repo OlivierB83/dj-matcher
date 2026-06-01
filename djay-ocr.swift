@@ -78,16 +78,29 @@ func ocrTile(_ tile: CIImage, tileY: CGFloat, tileH: CGFloat) throws -> [[String
         ])
     }
 
-    // Pass C: crop right 17 %, magnify 3×, OCR. Then re-base coordinates back
-    // to the parent TILE frame and to global image space.
+    // Pass C: crop right 17 %, magnify 3× with REAL pixel resampling
+    // (Lanczos), then OCR. Vision's text detector won't fire on single-
+    // letter keys at native resolution but does at 3× upsampled.
+    // CGAffineTransform(scaleX:) alone only changes the CIImage's logical
+    // extent, not the pixel buffer — Lanczos creates fresh interpolated
+    // pixels.
     let stripStartX = tile.extent.minX + tileW * CGFloat(0.83)
     let stripWidth = tileW * CGFloat(0.17)
     let stripRect = CGRect(x: stripStartX, y: tile.extent.minY, width: stripWidth, height: tileH)
     let strip = tile.cropped(to: stripRect)
-    let zoom: CGFloat = 3.0
-    let zoomed = strip
         .transformed(by: CGAffineTransform(translationX: -stripStartX, y: -tile.extent.minY))
-        .transformed(by: CGAffineTransform(scaleX: zoom, y: zoom))
+
+    let lanczos = CIFilter(name: "CILanczosScaleTransform")!
+    lanczos.setValue(strip, forKey: kCIInputImageKey)
+    lanczos.setValue(NSNumber(value: 3.0), forKey: kCIInputScaleKey)
+    lanczos.setValue(NSNumber(value: 1.0), forKey: kCIInputAspectRatioKey)
+    guard let zoomedLazy = lanczos.outputImage else { return out }
+    // CIImage transforms are lazy — Vision still operates on the source
+    // pixel buffer unless we force the render. Materialise to a CGImage
+    // so the Vision pass actually sees the upsampled pixel grid.
+    let ctx = CIContext(options: nil)
+    guard let zoomedCG = ctx.createCGImage(zoomedLazy, from: zoomedLazy.extent) else { return out }
+    let zoomed = CIImage(cgImage: zoomedCG)
 
     let resultsC = try runPass(on: zoomed, languageCorrection: false, langs: [])
 

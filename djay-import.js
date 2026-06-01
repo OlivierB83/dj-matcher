@@ -114,8 +114,58 @@ function runOCR(imagePath) {
   return JSON.parse(res.stdout);
 }
 
+/**
+ * Second OCR pass on the right-most strip of the capture, after we resize it
+ * 3× via sips so Vision picks up single-letter Camelot keys (G, B, C, D, F)
+ * which it drops at native resolution. Returns fragments with X/Y already
+ * mapped back to the FULL image's normalised coordinates.
+ */
+function runOCRRightStrip(imagePath) {
+  // 1. Image dimensions
+  const dim = spawnSync("sips", ["-g", "pixelWidth", "-g", "pixelHeight", imagePath], { encoding: "utf8" });
+  const w = Number(dim.stdout.match(/pixelWidth:\s*(\d+)/)?.[1]);
+  const h = Number(dim.stdout.match(/pixelHeight:\s*(\d+)/)?.[1]);
+  if (!w || !h) return [];
+
+  const STRIP_FRACTION = 0.17;          // rightmost 17 % of the width
+  const ZOOM = 3;                       // pixel-resample factor
+  const stripPxW = Math.round(w * STRIP_FRACTION);
+  const stripOffsetX = w - stripPxW;    // sips --cropOffset uses (y, x)
+
+  // 2. sips: crop the strip into a temp file, then resize 3x
+  const tmpStrip = `/tmp/djay-strip-${process.pid}.png`;
+  const tmpZoomed = `/tmp/djay-strip-zoomed-${process.pid}.png`;
+  spawnSync("sips", ["--cropToHeightWidth", String(h), String(stripPxW), "--cropOffset", "0", String(stripOffsetX), imagePath, "--out", tmpStrip], { encoding: "utf8" });
+  spawnSync("sips", ["--resampleHeight", String(h * ZOOM), tmpStrip, "--out", tmpZoomed], { encoding: "utf8" });
+
+  // 3. OCR the zoomed strip
+  let fragments;
+  try {
+    fragments = runOCR(tmpZoomed);
+  } catch {
+    return [];
+  } finally {
+    try { fs.unlinkSync(tmpStrip); } catch { /* ignore */ }
+    try { fs.unlinkSync(tmpZoomed); } catch { /* ignore */ }
+  }
+
+  // 4. Map normalised strip coords back to the FULL image
+  //    X in strip [0,1] → X in image: STRIP_FRACTION * x + (1 - STRIP_FRACTION)
+  //    Width same scaling
+  //    Y unchanged (strip occupies full height)
+  //    Height unchanged
+  return fragments.map((f) => ({
+    text: f.text,
+    confidence: f.confidence,
+    x: (1 - STRIP_FRACTION) + f.x * STRIP_FRACTION,
+    y: f.y,
+    w: f.w * STRIP_FRACTION,
+    h: f.h,
+  }));
+}
+
 function parseImage(imagePath) {
-  const fragments = runOCR(imagePath);
+  const fragments = [...runOCR(imagePath), ...runOCRRightStrip(imagePath)];
 
   for (const f of fragments) {
     f.y = 1 - f.y - f.h;
