@@ -17,6 +17,7 @@
 
 import { spawnSync } from "child_process";
 import fs from "fs";
+import path from "path";
 
 const ROW_TOL = 0.012;   // y-tolerance to cluster fragments into one row (1.2 % of image height)
 const BPM_MIN = 50;
@@ -25,14 +26,41 @@ const BPM_MAX = 220;
 const BPM_RE = /^\d{2,3}(\.\d+)?$/;
 const CAMELOT_RE = /^(\d{1,2})\s?([AaBb])$/;
 
+// djay (Mac Catalyst) displays keys in traditional sharp/flat notation
+// ("Ab", "Db", "F#m", "Bbm"…) — convert to Camelot to stay compatible with the
+// catalog. Includes enharmonic equivalents so both A# and Bb resolve to 6B.
+const TRAD_TO_CAMELOT = {
+  C: "8B",  Am: "8A",
+  G: "9B",  Em: "9A",
+  D: "10B", Bm: "10A",
+  A: "11B", "F#m": "11A",
+  E: "12B", "C#m": "12A",
+  B: "1B",  "G#m": "1A",
+  "F#": "2B", "D#m": "2A",
+  "C#": "3B", "A#m": "3A",
+  "G#": "4B", Fm: "4A",
+  "D#": "5B", Cm: "5A",
+  "A#": "6B", Gm: "6A",
+  F: "7B",  Dm: "7A",
+  // Flat enharmonics
+  Bb: "6B",  Eb: "5B",  Ab: "4B",  Gb: "2B",  Db: "3B",
+  Bbm: "3A", Ebm: "2A", Abm: "1A", Gbm: "11A", Dbm: "12A",
+};
+const TRAD_KEY_RE = /^[A-G][#b♯♭]?m?$/;
+
 const args = process.argv.slice(2);
 const imagePath = args[0];
 const debug = args.includes("--debug");
 const commit = args.includes("--commit");
 
-if (!imagePath || !fs.existsSync(imagePath)) {
+if (!imagePath) {
   console.error("Usage: node djay-import.js <image.png> [--debug] [--commit]");
   process.exit(64);
+}
+if (!fs.existsSync(imagePath)) {
+  console.error(`❌ Fichier introuvable : ${imagePath}`);
+  console.error("Chemin résolu absolu :", path.resolve(imagePath));
+  process.exit(66);
 }
 
 /* ---- 1. Run Swift OCR ---- */
@@ -84,9 +112,14 @@ function classify(text) {
     const n = parseFloat(t);
     if (n >= BPM_MIN && n <= BPM_MAX) return { kind: "bpm", value: Math.round(n) };
   }
+  // Camelot first (8A, 10B…)
   const c = CAMELOT_RE.exec(t);
-  if (c) {
-    return { kind: "key", value: `${c[1]}${c[2].toUpperCase()}` };
+  if (c) return { kind: "key", value: `${c[1]}${c[2].toUpperCase()}` };
+  // Traditional notation (Ab, Db, F#m, Bbm…) — normalise unicode flats/sharps
+  // then look up in the conversion table
+  const normalized = t.replace(/♯/g, "#").replace(/♭/g, "b");
+  if (TRAD_KEY_RE.test(normalized) && TRAD_TO_CAMELOT[normalized]) {
+    return { kind: "key", value: TRAD_TO_CAMELOT[normalized] };
   }
   return { kind: "text", value: t };
 }
@@ -95,34 +128,37 @@ const parsed = [];
 const rejected = [];
 
 for (const row of rows) {
-  let bpm = null, key = null;
+  const bpmCandidates = [];
+  const keyCandidates = [];
   const texts = [];
   for (const item of row.items) {
     const c = classify(item.text);
-    if (c.kind === "bpm" && !bpm) bpm = c.value;
-    else if (c.kind === "key" && !key) key = c.value;
+    if (c.kind === "bpm") bpmCandidates.push({ value: c.value, x: item.x });
+    else if (c.kind === "key") keyCandidates.push({ value: c.value, x: item.x });
     else if (c.kind === "text" && c.value.length > 1) texts.push({ text: c.value, x: item.x });
   }
+
+  // djay places BPM and Clé in the rightmost columns. A track title containing
+  // a number ("1999"), or the small explicit "E" badge between title and
+  // artist, would otherwise hijack these fields — pick the right-most match.
+  const bpm = bpmCandidates.length
+    ? [...bpmCandidates].sort((a, b) => b.x - a.x)[0].value
+    : null;
+  const key = keyCandidates.length
+    ? [...keyCandidates].sort((a, b) => b.x - a.x)[0].value
+    : null;
+
   if (!bpm || !key) {
     if (texts.length) rejected.push({ texts: texts.map((t) => t.text), missing: !bpm ? "bpm" : "key" });
     continue;
   }
 
-  // Heuristic for title vs artist:
-  //   In djay's library list, title sits left of BPM. Artist is the next
-  //   text fragment (often visually below the title within the same row,
-  //   but Vision often returns them on the same logical row).
-  //   We just take the longest fragment as title; remaining join as artist.
+  // texts are already sorted by x ascending. Title is the leftmost text,
+  // artist the next. Album + duration columns are dropped (not stored in
+  // knownTracks.json).
   let title = "", artist = "";
-  if (texts.length === 0) {
-    /* nothing usable */
-  } else if (texts.length === 1) {
-    title = texts[0].text;
-  } else {
-    // Sort by x (already done) and assume leftmost is title (djay layout)
-    title = texts[0].text;
-    artist = texts.slice(1).map((t) => t.text).join(" · ").trim();
-  }
+  if (texts.length >= 1) title = texts[0].text;
+  if (texts.length >= 2) artist = texts[1].text;
 
   if (!title) { rejected.push({ texts: texts.map((t) => t.text), missing: "title" }); continue; }
   parsed.push({ title, artist, bpm, key });
