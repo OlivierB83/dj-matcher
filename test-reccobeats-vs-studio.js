@@ -84,9 +84,8 @@ async function main() {
       continue;
     }
     const feat = await reccoFeatures(cat.spotifyId);
-    let recoStr = "—";
-    let bpmStr = "—";
-    let verdict = "?";
+    let recoStr;
+    let verdict;
     if (!feat) {
       recoStr = "API error";
       verdict = "❌ no data";
@@ -99,7 +98,6 @@ async function main() {
       const recoKey = keyFromSpotify(feat.key, feat.mode);
       const recoBpm = Math.round(feat.tempo);
       recoStr = `${recoBpm} / ${recoKey} (k=${feat.key},m=${feat.mode})`;
-      bpmStr = `${recoBpm} vs ${t.studio.bpm}`;
       const bpmDiff = Math.abs(recoBpm - t.studio.bpm);
       const halfDiff = Math.abs(recoBpm * 2 - t.studio.bpm);
       const doubleDiff = Math.abs(recoBpm / 2 - t.studio.bpm);

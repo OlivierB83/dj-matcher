@@ -821,6 +821,7 @@ export default function App() {
                 year:
                   t.year || t.album?.release_date?.slice(0, 4) || null,
                 genres: t.genres,
+                popularity: t.popularity ?? null,
                 enriched,
                 enrichMessage: t.enrichMessage,
               };
@@ -906,6 +907,7 @@ export default function App() {
                       year: t.year || null,
                       dance: dancePercent(t.danceability),
                       score: t.score,
+                      popularity: t.popularity ?? null,
                     }}
                     compat={t.compat}
                     featured={t.isFavorite}

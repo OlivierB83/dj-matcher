@@ -1,9 +1,20 @@
 import { motion } from "framer-motion";
-import { Heart } from "lucide-react";
+import { Heart, Flame } from "lucide-react";
 import { useIsMobile } from "../hooks/useIsMobile";
 import { useCoverColor } from "../hooks/useCoverColor";
 
 const FALLBACK_BORDER = "#7f77dd"; // DJ Matcher brand purple
+const VIRAL_THRESHOLD = 75;
+
+function ViralBadge({ popularity }) {
+  if (popularity == null || popularity < VIRAL_THRESHOLD) return null;
+  return (
+    <span className="viral-badge" title={`Popularité Spotify : ${popularity}/100`}>
+      <Flame size={12} strokeWidth={2.4} />
+      {popularity}
+    </span>
+  );
+}
 
 function formatGenres(genres) {
   if (!Array.isArray(genres) || genres.length === 0) return null;
@@ -84,7 +95,10 @@ function SearchResultCardMobile({
       </div>
 
       <div className="tcard-m-body">
-        <div className="tcard-m-title">{track.title}</div>
+        <div className="tcard-m-title">
+          {track.title}
+          <ViralBadge popularity={track.popularity} />
+        </div>
         <div className="tcard-m-artist">{track.artist}</div>
 
         {enriched ? (
@@ -146,7 +160,10 @@ function SearchResultCardDesktop({
         <Cover track={track} className="track-cover" />
 
         <div className="track-info">
-          <div className="track-title">{track.title}</div>
+          <div className="track-title">
+            {track.title}
+            <ViralBadge popularity={track.popularity} />
+          </div>
           <div className="track-artist">
             {track.artist}
             {track.album ? ` · ${track.album}` : ""}

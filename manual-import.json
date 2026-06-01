@@ -1,66 +1,590 @@
 [
-  { "title": "Get Lucky", "artist": "Daft Punk, Pharrell Williams, Nile Rodgers", "bpm": 116, "key": "10A", "source": "djay_pro" },
-  { "title": "greedy", "artist": "Tate McRae", "bpm": 111, "key": "11A", "source": "djay_pro" },
-  { "title": "La Mamá de la Mamá", "artist": "El Alfa, El Cherry Scom, CJ", "bpm": 130, "key": "5A", "source": "djay_pro" },
-  { "title": "Y Que Fue?", "artist": "Don Miguelo", "bpm": 133, "key": "1A", "source": "djay_pro" },
-  { "title": "I Follow Rivers - The Magician Remix", "artist": "Lykke Li, The Magician", "bpm": 122, "key": "8A", "source": "djay_pro" },
-  { "title": "This Is What You Came For", "artist": "Calvin Harris, Rihanna", "bpm": 124, "key": "8B", "source": "djay_pro" },
-  { "title": "End of Beginning", "artist": "Djo", "bpm": 160, "key": "10B", "source": "djay_pro" },
-  { "title": "Bitter Sweet Symphony", "artist": "The Verve", "bpm": 171, "key": "12B", "source": "djay_pro" },
-  { "title": "Shut Up And Drive", "artist": "Rihanna", "bpm": 133, "key": "3B", "source": "djay_pro" },
-  { "title": "Maneater", "artist": "Nelly Furtado", "bpm": 133, "key": "3A", "source": "djay_pro" },
-  { "title": "BREAK MY SOUL", "artist": "Beyoncé", "bpm": 115, "key": "1A", "source": "djay_pro" },
-  { "title": "Show Me Love", "artist": "Robin S", "bpm": 120, "key": "7B", "source": "djay_pro" },
-  { "title": "Garden Of Eden", "artist": "Lady Gaga", "bpm": 125, "key": "2A", "source": "djay_pro" },
-  { "title": "S&M", "artist": "Rihanna", "bpm": 128, "key": "2A", "source": "djay_pro" },
-  { "title": "Aperture", "artist": "Harry Styles", "bpm": 128, "key": "10B", "source": "djay_pro" },
-  { "title": "Dancing On My Own", "artist": "Robyn", "bpm": 117, "key": "2B", "source": "djay_pro" },
-  { "title": "Stateside", "artist": "PinkPantheress, Zara Larsson", "bpm": 123, "key": "3A", "source": "djay_pro" },
-  { "title": "SexyBack", "artist": "Justin Timberlake, Timbaland", "bpm": 117, "key": "11B", "source": "djay_pro" },
-  { "title": "Don't Start Now", "artist": "Dua Lipa", "bpm": 124, "key": "10A", "source": "djay_pro" },
-  { "title": "One Kiss", "artist": "Calvin Harris, Dua Lipa", "bpm": 124, "key": "8A", "source": "djay_pro" },
-  { "title": "Dirty Cash (Money Talks)", "artist": "PAWSA", "bpm": 132, "key": "5A", "source": "djay_pro" },
-  { "title": "Heads Will Roll - A-Trak Remix", "artist": "Yeah Yeah Yeahs, A-Trak", "bpm": 132, "key": "1A", "source": "djay_pro" },
-  { "title": "Love Me Again", "artist": "John Newman", "bpm": 126, "key": "6A", "source": "djay_pro" },
-  { "title": "Outside", "artist": "Calvin Harris, Ellie Goulding", "bpm": 128, "key": "7A", "source": "djay_pro" },
-  { "title": "Break Free", "artist": "Ariana Grande, Zedd", "bpm": 130, "key": "6B", "source": "djay_pro" },
-  { "title": "Rush", "artist": "Troye Sivan", "bpm": 126, "key": "5A", "source": "djay_pro" },
-  { "title": "Lean On", "artist": "Major Lazer, MØ, DJ Snake", "bpm": 98, "key": "6A", "source": "djay_pro" },
-  { "title": "Lush Life", "artist": "Zara Larsson", "bpm": 98, "key": "8B", "source": "djay_pro" },
-  { "title": "WAP", "artist": "Cardi B, Megan Thee Stallion", "bpm": 133, "key": "1B", "source": "djay_pro" },
-  { "title": "I Like To Move It", "artist": "will.i.am", "bpm": 127, "key": "8B", "source": "djay_pro" },
-  { "title": "Party Rock Anthem", "artist": "LMFAO", "bpm": 130, "key": "4A", "source": "djay_pro" },
-  { "title": "Memories (Extended)", "artist": "David Guetta, Kid Cudi", "bpm": 130, "key": "3A", "source": "djay_pro" },
-  { "title": "Cake By The Ocean", "artist": "DNCE", "bpm": 119, "key": "9A", "source": "djay_pro" },
-  { "title": "Uptown Funk", "artist": "Mark Ronson, Bruno Mars", "bpm": 115, "key": "7A", "source": "djay_pro" },
-  { "title": "Amores Como el Nuestro", "artist": "Jerry Rivera", "bpm": 179, "key": "8B", "source": "djay_pro" },
-  { "title": "Baile Inolvidable", "artist": "Bad Bunny", "bpm": 90, "key": "8A", "source": "djay_pro" },
-  { "title": "The Weekend - Radio Edit", "artist": "Michael Gray", "bpm": 127, "key": "9A", "source": "djay_pro" },
-  { "title": "Voyager", "artist": "Daft Punk", "bpm": 120, "key": "9A", "source": "djay_pro" },
-  { "title": "Sing Hallelujah!", "artist": "Dr. Alban", "bpm": 125, "key": "4A", "source": "djay_pro" },
-  { "title": "Let's Get Loud", "artist": "Jennifer Lopez", "bpm": 131, "key": "5A", "source": "djay_pro" },
-  { "title": "Animals", "artist": "Martin Garrix", "bpm": 128, "key": "7B", "source": "djay_pro" },
-  { "title": "33 Max Verstappen", "artist": "Carte Blanq, Nils Van Zandt", "bpm": 128, "key": "8A", "source": "djay_pro" },
-  { "title": "See You Again", "artist": "Tyler, The Creator, Kali Uchis", "bpm": 79, "key": "3A", "source": "djay_pro" },
-  { "title": "party 4 u", "artist": "Charli xcx", "bpm": 79, "key": "3B", "source": "djay_pro" },
-  { "title": "No Lie", "artist": "Sean Paul, Dua Lipa", "bpm": 102, "key": "8A", "source": "djay_pro" },
-  { "title": "Adventure of a Lifetime", "artist": "Coldplay", "bpm": 112, "key": "8A", "source": "djay_pro" },
-  { "title": "Get Busy", "artist": "Sean Paul", "bpm": 100, "key": "4A", "source": "djay_pro" },
-  { "title": "Gasolina", "artist": "Daddy Yankee", "bpm": 96, "key": "7B", "source": "djay_pro" },
-  { "title": "Satisfaction", "artist": "David Guetta, Benny Benassi", "bpm": 126, "key": "6B", "source": "djay_pro" },
-  { "title": "Rock That Body", "artist": "Black Eyed Peas", "bpm": 125, "key": "7A", "source": "djay_pro" },
-  { "title": "Kids", "artist": "MGMT", "bpm": 123, "key": "11B", "source": "djay_pro" },
-  { "title": "The Spins", "artist": "Mac Miller, Empire Of The Sun", "bpm": 127, "key": "8B", "source": "djay_pro" },
-  { "title": "Wanna Be Startin' Somethin'", "artist": "Michael Jackson", "bpm": 122, "key": "10B", "source": "djay_pro" },
-  { "title": "Don't Stop The Music", "artist": "Rihanna", "bpm": 123, "key": "11A", "source": "djay_pro" },
-  { "title": "Misery", "artist": "Maroon 5", "bpm": 103, "key": "9A", "source": "djay_pro" },
-  { "title": "Rock Your Body", "artist": "Justin Timberlake", "bpm": 101, "key": "9A", "source": "djay_pro" },
-  { "title": "EoO", "artist": "Bad Bunny", "bpm": 102, "key": "12A", "source": "djay_pro" },
-  { "title": "Femininomenon", "artist": "Chappell Roan", "bpm": 125, "key": "5B", "source": "djay_pro" },
-  { "title": "Von dutch", "artist": "Charli xcx", "bpm": 130, "key": "7B", "source": "djay_pro" },
-  { "title": "Money Pull Up", "artist": "Blaiz Fayah, Maureen, Dj Glad", "bpm": 100, "key": "11A", "source": "djay_pro" },
-  { "title": "Ran Out", "artist": "JT", "bpm": 130, "key": "9A", "source": "djay_pro" },
-  { "title": "Dancing Queen", "artist": "ABBA", "bpm": 101, "key": "11B", "source": "djay_pro" },
-  { "title": "Where Have You Been", "artist": "Rihanna", "bpm": 128, "key": "5A", "source": "djay_pro" },
-  { "title": "Alors la zone", "artist": "Jul", "bpm": 125, "key": "5A", "source": "djay_pro" }
+  {
+    "title": "Get Lucky",
+    "artist": "Daft Punk, Pharrell Williams, Nile Rodgers",
+    "bpm": 116,
+    "key": "10A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "greedy",
+    "artist": "Tate McRae",
+    "bpm": 111,
+    "key": "11A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "La Mamá de la Mamá",
+    "artist": "El Alfa, El Cherry Scom, CJ",
+    "bpm": 130,
+    "key": "5A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Y Que Fue?",
+    "artist": "Don Miguelo",
+    "bpm": 133,
+    "key": "1A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "I Follow Rivers - The Magician Remix",
+    "artist": "Lykke Li, The Magician",
+    "bpm": 122,
+    "key": "8A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "This Is What You Came For",
+    "artist": "Calvin Harris, Rihanna",
+    "bpm": 124,
+    "key": "8B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "End of Beginning",
+    "artist": "Djo",
+    "bpm": 160,
+    "key": "10B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Bitter Sweet Symphony",
+    "artist": "The Verve",
+    "bpm": 171,
+    "key": "12B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Shut Up And Drive",
+    "artist": "Rihanna",
+    "bpm": 133,
+    "key": "3B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Maneater",
+    "artist": "Nelly Furtado",
+    "bpm": 133,
+    "key": "3A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "BREAK MY SOUL",
+    "artist": "Beyoncé",
+    "bpm": 115,
+    "key": "1A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Show Me Love",
+    "artist": "Robin S",
+    "bpm": 120,
+    "key": "7B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Garden Of Eden",
+    "artist": "Lady Gaga",
+    "bpm": 125,
+    "key": "2A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "S&M",
+    "artist": "Rihanna",
+    "bpm": 128,
+    "key": "2A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Aperture",
+    "artist": "Harry Styles",
+    "bpm": 128,
+    "key": "10B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Dancing On My Own",
+    "artist": "Robyn",
+    "bpm": 117,
+    "key": "2B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Stateside",
+    "artist": "PinkPantheress, Zara Larsson",
+    "bpm": 123,
+    "key": "3A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "SexyBack",
+    "artist": "Justin Timberlake, Timbaland",
+    "bpm": 117,
+    "key": "11B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Don't Start Now",
+    "artist": "Dua Lipa",
+    "bpm": 124,
+    "key": "10A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "One Kiss",
+    "artist": "Calvin Harris, Dua Lipa",
+    "bpm": 124,
+    "key": "8A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Dirty Cash (Money Talks)",
+    "artist": "PAWSA",
+    "bpm": 132,
+    "key": "5A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Heads Will Roll - A-Trak Remix",
+    "artist": "Yeah Yeah Yeahs, A-Trak",
+    "bpm": 132,
+    "key": "1A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Love Me Again",
+    "artist": "John Newman",
+    "bpm": 126,
+    "key": "6A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Outside",
+    "artist": "Calvin Harris, Ellie Goulding",
+    "bpm": 128,
+    "key": "7A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Break Free",
+    "artist": "Ariana Grande, Zedd",
+    "bpm": 130,
+    "key": "6B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Rush",
+    "artist": "Troye Sivan",
+    "bpm": 126,
+    "key": "5A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Lean On",
+    "artist": "Major Lazer, MØ, DJ Snake",
+    "bpm": 98,
+    "key": "6A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Lush Life",
+    "artist": "Zara Larsson",
+    "bpm": 98,
+    "key": "8B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "WAP",
+    "artist": "Cardi B, Megan Thee Stallion",
+    "bpm": 133,
+    "key": "1B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "I Like To Move It",
+    "artist": "will.i.am",
+    "bpm": 127,
+    "key": "8B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Party Rock Anthem",
+    "artist": "LMFAO",
+    "bpm": 130,
+    "key": "4A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Memories (Extended)",
+    "artist": "David Guetta, Kid Cudi",
+    "bpm": 130,
+    "key": "3A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Cake By The Ocean",
+    "artist": "DNCE",
+    "bpm": 119,
+    "key": "9A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Uptown Funk",
+    "artist": "Mark Ronson, Bruno Mars",
+    "bpm": 115,
+    "key": "7A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Amores Como el Nuestro",
+    "artist": "Jerry Rivera",
+    "bpm": 179,
+    "key": "8B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Baile Inolvidable",
+    "artist": "Bad Bunny",
+    "bpm": 90,
+    "key": "8A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "The Weekend - Radio Edit",
+    "artist": "Michael Gray",
+    "bpm": 127,
+    "key": "9A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Voyager",
+    "artist": "Daft Punk",
+    "bpm": 120,
+    "key": "9A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Sing Hallelujah!",
+    "artist": "Dr. Alban",
+    "bpm": 125,
+    "key": "4A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Let's Get Loud",
+    "artist": "Jennifer Lopez",
+    "bpm": 131,
+    "key": "5A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Animals",
+    "artist": "Martin Garrix",
+    "bpm": 128,
+    "key": "7B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "33 Max Verstappen",
+    "artist": "Carte Blanq, Nils Van Zandt",
+    "bpm": 128,
+    "key": "8A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "See You Again",
+    "artist": "Tyler, The Creator, Kali Uchis",
+    "bpm": 79,
+    "key": "3A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "party 4 u",
+    "artist": "Charli xcx",
+    "bpm": 79,
+    "key": "3B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "No Lie",
+    "artist": "Sean Paul, Dua Lipa",
+    "bpm": 102,
+    "key": "8A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Adventure of a Lifetime",
+    "artist": "Coldplay",
+    "bpm": 112,
+    "key": "8A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Get Busy",
+    "artist": "Sean Paul",
+    "bpm": 100,
+    "key": "4A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Gasolina",
+    "artist": "Daddy Yankee",
+    "bpm": 96,
+    "key": "7B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Satisfaction",
+    "artist": "David Guetta, Benny Benassi",
+    "bpm": 126,
+    "key": "6B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Rock That Body",
+    "artist": "Black Eyed Peas",
+    "bpm": 125,
+    "key": "7A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Kids",
+    "artist": "MGMT",
+    "bpm": 123,
+    "key": "11B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "The Spins",
+    "artist": "Mac Miller, Empire Of The Sun",
+    "bpm": 127,
+    "key": "8B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Wanna Be Startin' Somethin'",
+    "artist": "Michael Jackson",
+    "bpm": 122,
+    "key": "10B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Don't Stop The Music",
+    "artist": "Rihanna",
+    "bpm": 123,
+    "key": "11A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Misery",
+    "artist": "Maroon 5",
+    "bpm": 103,
+    "key": "9A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Rock Your Body",
+    "artist": "Justin Timberlake",
+    "bpm": 101,
+    "key": "9A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "EoO",
+    "artist": "Bad Bunny",
+    "bpm": 102,
+    "key": "12A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Femininomenon",
+    "artist": "Chappell Roan",
+    "bpm": 125,
+    "key": "5B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Von dutch",
+    "artist": "Charli xcx",
+    "bpm": 130,
+    "key": "7B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Money Pull Up",
+    "artist": "Blaiz Fayah, Maureen, Dj Glad",
+    "bpm": 100,
+    "key": "11A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Ran Out",
+    "artist": "JT",
+    "bpm": 130,
+    "key": "9A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Dancing Queen",
+    "artist": "ABBA",
+    "bpm": 101,
+    "key": "11B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Where Have You Been",
+    "artist": "Rihanna",
+    "bpm": 128,
+    "key": "5A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Alors la zone",
+    "artist": "Jul",
+    "bpm": 125,
+    "key": "5A",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Buddy Holly",
+    "artist": "Weezer",
+    "bpm": 121,
+    "key": "4B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Turquoise Boy",
+    "artist": "Sonic Youth",
+    "bpm": 124,
+    "key": "9B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "The Shock Of The Ligh...",
+    "artist": "Oasis",
+    "bpm": 137,
+    "key": "1B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "No More Tears - live fr...",
+    "artist": "Avery Anna",
+    "bpm": 204,
+    "key": "3B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Going Shopping",
+    "artist": "The Strokes",
+    "bpm": 151,
+    "key": "12B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "The Heart is a Lonely...",
+    "artist": "The Divine Comedy",
+    "bpm": 96,
+    "key": "1B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "When I Had Hope, I Ha...",
+    "artist": "Hannah Grae",
+    "bpm": 132,
+    "key": "2B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "End of Beginning",
+    "artist": "Djo",
+    "bpm": 80,
+    "key": "10B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "The Narcissist",
+    "artist": "Blur",
+    "bpm": 128,
+    "key": "12B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Moving Along (2023)",
+    "artist": "Lions in the Street",
+    "bpm": 127,
+    "key": "10B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Have You Ever Needed...",
+    "artist": "Def Leppard",
+    "bpm": 137,
+    "key": "12B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Svefn-g-englar",
+    "artist": "Sigur Rós",
+    "bpm": 110,
+    "key": "12B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Midnight Song (Live) -...",
+    "artist": "Wolf Alice",
+    "bpm": 120,
+    "key": "7B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Come Save Us",
+    "artist": "The Warlocks",
+    "bpm": 205,
+    "key": "12B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "The Less I Know Th...",
+    "artist": "Tame Impala",
+    "bpm": 117,
+    "key": "12B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Wreckage",
+    "artist": "Pearl Jam",
+    "bpm": 104,
+    "key": "9B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Won't Tell",
+    "artist": "Pearl Jam",
+    "bpm": 174,
+    "key": "1B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Leave Me Alone",
+    "artist": "Reneé Rapp",
+    "bpm": 131,
+    "key": "6B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Ain't It Fun",
+    "artist": "Guns N' Roses",
+    "bpm": 119,
+    "key": "3B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Sick As A Dog",
+    "artist": "Aerosmith",
+    "bpm": 138,
+    "key": "12B",
+    "source": "djay_pro"
+  }
 ]

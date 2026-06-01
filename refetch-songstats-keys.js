@@ -41,10 +41,6 @@ function normalizeBpm(bpm) {
   return Math.round(v);
 }
 
-const KEY_LETTER_MAP = {
-  C: "C", D: "D", E: "E", F: "F", G: "G", A: "A", B: "B",
-};
-
 function normalizeKey(rawKey) {
   if (!rawKey) return null;
   const cleaned = String(rawKey).trim();

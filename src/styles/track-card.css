@@ -47,6 +47,25 @@
   gap: 4px;
 }
 
+/* "Buzz" indicator on tracks with Spotify popularity >= 75. Small inline
+   pill next to the title — visible without dominating. */
+.viral-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  margin-left: 8px;
+  padding: 1px 7px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #ffb066;
+  background: rgba(255, 130, 40, 0.14);
+  border: 1px solid rgba(255, 130, 40, 0.30);
+  border-radius: 10px;
+  vertical-align: 2px;
+  letter-spacing: 0.02em;
+}
+.viral-badge svg { flex-shrink: 0; }
+
 /* Shared buttons */
 .btn-choisir {
   background: var(--brand);

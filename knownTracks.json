@@ -41310,5 +41310,54 @@
     "source": "songstats",
     "danceabilitySource": "reccobeats",
     "popularity": 67
+  },
+  {
+    "title": "The Shock Of The Ligh...",
+    "artist": "Oasis",
+    "bpm": 137,
+    "key": "1B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "No More Tears - live fr...",
+    "artist": "Avery Anna",
+    "bpm": 204,
+    "key": "3B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "The Heart is a Lonely...",
+    "artist": "The Divine Comedy",
+    "bpm": 96,
+    "key": "1B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "When I Had Hope, I Ha...",
+    "artist": "Hannah Grae",
+    "bpm": 132,
+    "key": "2B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Have You Ever Needed...",
+    "artist": "Def Leppard",
+    "bpm": 137,
+    "key": "12B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "Midnight Song (Live) -...",
+    "artist": "Wolf Alice",
+    "bpm": 120,
+    "key": "7B",
+    "source": "djay_pro"
+  },
+  {
+    "title": "The Less I Know Th...",
+    "artist": "Tame Impala",
+    "bpm": 117,
+    "key": "12B",
+    "source": "djay_pro"
   }
 ]

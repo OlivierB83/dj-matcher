@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
-import { Heart } from "lucide-react";
+import { Heart, Flame } from "lucide-react";
 import { CompatBadge } from "./Badges";
 import { useIsMobile } from "../hooks/useIsMobile";
 import { useCoverColor } from "../hooks/useCoverColor";
 
 const FALLBACK_BORDER = "#7f77dd"; // DJ Matcher brand purple
+const VIRAL_THRESHOLD = 75; // popularity 0-100 from Spotify; ≥ 75 = "buzz"
 
 /* ===== Shared helpers ===== */
 
@@ -81,6 +82,17 @@ function Cover({ track, className }) {
   );
 }
 
+/** Small inline flame badge for tracks currently buzzing on Spotify. */
+function ViralBadge({ popularity }) {
+  if (popularity == null || popularity < VIRAL_THRESHOLD) return null;
+  return (
+    <span className="viral-badge" title={`Popularité Spotify : ${popularity}/100`}>
+      <Flame size={12} strokeWidth={2.4} />
+      {popularity}
+    </span>
+  );
+}
+
 /* ===== Mobile layout — hero cover, score overlay ===== */
 
 function TrackCardMobile({ track, compat, featured, isFavorite, onChoose, onToggleFavorite, onForget }) {
@@ -142,7 +154,10 @@ function TrackCardMobile({ track, compat, featured, isFavorite, onChoose, onTogg
       </div>
 
       <div className="tcard-m-body">
-        <div className="tcard-m-title">{track.title}</div>
+        <div className="tcard-m-title">
+          {track.title}
+          <ViralBadge popularity={track.popularity} />
+        </div>
         <div className="tcard-m-artist">{track.artist}</div>
         <MetaRow track={track} compat={compat} />
 
@@ -202,6 +217,7 @@ function TrackCardDesktop({ track, compat, featured, isFavorite, onChoose, onTog
               <Heart size={16} fill="currentColor" color="var(--fav-fg)"
                      style={{ marginLeft: 6, verticalAlign: "-2px" }} />
             )}
+            <ViralBadge popularity={track.popularity} />
           </div>
           <div className="track-artist">{track.artist}</div>
           <MetaRow track={track} compat={compat} />
