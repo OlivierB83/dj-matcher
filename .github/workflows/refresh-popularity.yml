@@ -1,19 +1,19 @@
 name: Refresh Spotify popularity
 
-# Refreshes the `popularity` field of every catalog entry via ReccoBeats
+# Re-snapshots the `popularity` field of every catalog entry via ReccoBeats
 # (which proxies Spotify's official Track endpoint). Commits the diff back
 # to main — Vercel + Render then redeploy automatically.
 #
-# Schedule: Sundays at 03:00 UTC. Also triggerable on demand via the
-# "Run workflow" button in the GitHub Actions UI.
+# Schedule: Sundays at 03:00 UTC. Also triggerable manually via the
+# "Run workflow" button in the Actions tab.
 
 on:
   schedule:
-    - cron: "0 3 * * 0"   # weekly, Sunday 03:00 UTC
-  workflow_dispatch: {}    # allow manual trigger
+    - cron: "0 3 * * 0"
+  workflow_dispatch:
 
 permissions:
-  contents: write          # needed to push back the catalog update
+  contents: write
 
 jobs:
   refresh:
@@ -21,10 +21,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          # we need a token that can push back — the default GITHUB_TOKEN
-          # has write access when `permissions.contents: write` is set
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -43,8 +39,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add knownTracks.json
-          git commit -m "chore: weekly Spotify popularity refresh
-
-Auto-update of the \`popularity\` field on catalog entries via ReccoBeats.
-Triggered by the .github/workflows/refresh-popularity.yml cron."
+          git commit -m "chore: weekly Spotify popularity refresh"
           git push origin main
