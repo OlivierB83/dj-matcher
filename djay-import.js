@@ -27,7 +27,6 @@ import path from "path";
 
 const KNOWN_FILE = "./knownTracks.json";
 
-const ROW_TOL = 0.012;
 const BPM_MIN = 50;
 const BPM_MAX = 220;
 
@@ -123,6 +122,17 @@ function parseImage(imagePath) {
     f.cy = f.y + f.h / 2;
   }
   fragments.sort((a, b) => a.cy - b.cy || a.x - b.x);
+
+  // Row clustering tolerance based on the *typical* OCR text height, not a
+  // fixed percentage of image height — otherwise tall scrolling captures
+  // (20 000+ px) end up merging every visible row into one giant cluster.
+  // Empirical sweet spot ≈ 2.5 × median text height: tight enough to keep
+  // adjacent rows separate, loose enough to keep title/BPM/key fragments
+  // (which sit on slightly different baselines because of font metrics)
+  // in the same cluster.
+  const heights = [...fragments.map((f) => f.h)].sort((a, b) => a - b);
+  const medianH = heights[Math.floor(heights.length / 2)] || 0.005;
+  const ROW_TOL = Math.max(medianH * 2.5, 0.0012);
 
   const rows = [];
   let cur = null;
