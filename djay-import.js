@@ -173,9 +173,11 @@ parsed.forEach((t, i) => {
 });
 
 if (rejected.length) {
-  console.log(`\n⚠ ${rejected.length} rows rejected (missing field):`);
+  console.log(
+    `\nℹ ${rejected.length} lignes ignorées (en-tête du tableau ou OCR de texte dans les pochettes — c'est normal) :`
+  );
   rejected.slice(0, 20).forEach((r) =>
-    console.log(`     missing=${r.missing}   texts=${JSON.stringify(r.texts)}`)
+    console.log(`     manquant=${r.missing}   texts=${JSON.stringify(r.texts)}`)
   );
   if (rejected.length > 20) console.log(`     … et ${rejected.length - 20} autres`);
 }
