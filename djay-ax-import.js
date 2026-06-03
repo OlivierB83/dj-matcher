@@ -189,11 +189,15 @@ function main() {
 
   const updates = [];
   const adds = [];
+  let alreadyMatching = 0;
   for (const djay of deduped) {
     const m = findMatch(byArtist, djay);
     if (m) {
       const before = { bpm: m.entry.bpm, key: m.entry.key };
-      if (before.bpm === djay.bpm && before.key === djay.key) continue;
+      if (before.bpm === djay.bpm && before.key === djay.key) {
+        alreadyMatching++;
+        continue;
+      }
       updates.push({ catIndex: m.index, before, djay, catEntry: m.entry });
     } else {
       adds.push(djay);
@@ -204,8 +208,9 @@ function main() {
   console.log(`Rows OCR-free parsées : ${parsed.length}`);
   console.log(`  après dédup        : ${deduped.length}`);
   console.log(`Rows rejetées        : no-bpm=${rejected["no-bpm"]} · no-key=${rejected["no-key"]} · no-title=${rejected["no-title"]}`);
-  console.log(`Catalogue à mettre à jour : ${updates.length}`);
-  console.log(`Nouvelles entrées à ajouter : ${adds.length}`);
+  console.log(`Déjà à jour (BPM+key identiques) : ${alreadyMatching}`);
+  console.log(`Catalogue à mettre à jour       : ${updates.length}`);
+  console.log(`Nouvelles entrées à ajouter      : ${adds.length}`);
 
   if (updates.length) {
     console.log(`\nÉchantillon mises à jour (max 20) :`);
