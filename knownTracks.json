@@ -122,8 +122,8 @@
     "artist": "Gala",
     "album": "Come Into My Life",
     "year": "1997",
-    "bpm": 102,
-    "key": "C#m",
+    "bpm": 129,
+    "key": "7B",
     "danceability": 0.81,
     "acousticness": 0.2,
     "genres": [
@@ -135,7 +135,9 @@
     "country": "IT",
     "mbid": "cd34e8ed-2f44-4031-849e-e56034b02cf9",
     "uri": "https://getsongbpm.com/song/freed-from-desire-slow-version/nrGoA7",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Blinding Lights",
@@ -184,8 +186,8 @@
     "artist": "Rednex",
     "album": "Cotton Eye Joe",
     "year": "2003",
-    "bpm": 129,
-    "key": "A",
+    "bpm": 132,
+    "key": "8B",
     "danceability": 0.74,
     "acousticness": 0.02,
     "genres": [
@@ -197,7 +199,9 @@
     "country": "SE",
     "mbid": "64585ad9-a908-422f-b675-8ab7386d5164",
     "uri": "https://getsongbpm.com/song/cotton-eye-joe/W7E2Xo",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Nightcall",
@@ -1643,8 +1647,8 @@
     "artist": "Début de Soirée",
     "album": "Jardins d'enfants",
     "year": "1989",
-    "bpm": 123,
-    "key": "D#m",
+    "bpm": 122,
+    "key": "2B",
     "danceability": 0.79,
     "acousticness": 0.04,
     "genres": [
@@ -1653,7 +1657,9 @@
     "country": "FR",
     "mbid": "e6953224-2e63-47fd-9334-5d38ce39fa28",
     "uri": "https://getsongbpm.com/song/nuit-de-folie/Px891",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Chocolat (feat. Awa Imani)",
@@ -1711,8 +1717,8 @@
     "artist": "Plastic Bertrand",
     "album": "An 1",
     "year": "1978",
-    "bpm": 165,
-    "key": "A#",
+    "bpm": 166,
+    "key": "6B",
     "danceability": 0.43,
     "acousticness": 0.08,
     "genres": [
@@ -1723,7 +1729,9 @@
     "country": "BE",
     "mbid": "39cf1c51-8e6a-4d7a-a1f5-9ea212e66699",
     "uri": "https://getsongbpm.com/song/ca-plane-pour-moi/Xro59g",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Logobitombo",
@@ -1952,7 +1960,7 @@
     "album": "Magnolias for Ever",
     "year": "1977",
     "bpm": 126,
-    "key": "A",
+    "key": "10B",
     "danceability": 0.68,
     "acousticness": 0.01,
     "genres": [
@@ -1961,7 +1969,9 @@
     "country": "FR",
     "mbid": "1cfbf85c-dc74-42d6-915e-77033afd0204",
     "uri": "https://getsongbpm.com/song/alexandrie-alexandra/xPEYE",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "TiK ToK",
@@ -3032,8 +3042,8 @@
     "artist": "Stromae",
     "album": "Cheese",
     "year": "2010",
-    "bpm": 119,
-    "key": "C#m",
+    "bpm": 120,
+    "key": "1B",
     "danceability": 0.79,
     "acousticness": 0.09,
     "genres": [
@@ -3048,7 +3058,9 @@
     "image": "https://i.scdn.co/image/ab67616d00004851ae373174b14e3eac81554402",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 76
+    "popularity": 76,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "The Lazy Song",
@@ -4225,8 +4237,8 @@
     "artist": "Michael Sembello",
     "album": "Bossa Nova Hotel",
     "year": "1983",
-    "bpm": 161,
-    "key": "D#m",
+    "bpm": 159,
+    "key": "2B",
     "danceability": 0.605,
     "acousticness": 0.06,
     "genres": [
@@ -4241,7 +4253,9 @@
     "image": "https://i.scdn.co/image/ab67616d000048512d7a0e06683de6bcc91b82f4",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 2
+    "popularity": 2,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Smooth Criminal",
@@ -5587,7 +5601,7 @@
     "album": "Spice",
     "year": "1996",
     "bpm": 110,
-    "key": "B",
+    "key": "1B",
     "danceability": 0.768,
     "acousticness": 0.11,
     "genres": [
@@ -5601,7 +5615,9 @@
     "image": "https://i.scdn.co/image/ab67616d0000485163facc42e4a35eb3aa182b59",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 79
+    "popularity": 79,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Maneater",
@@ -6253,8 +6269,8 @@
     "artist": "Patrick Sébastien",
     "album": "À l'attaque",
     "year": "2013",
-    "bpm": 154,
-    "key": "F",
+    "bpm": 77,
+    "key": "7B",
     "danceability": 0.772,
     "acousticness": 0.01,
     "genres": [],
@@ -6266,7 +6282,9 @@
     "image": "https://i.scdn.co/image/ab67616d0000485196bb90149b37c96791752e45",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 48
+    "popularity": 48,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "International Love",
@@ -6491,8 +6509,8 @@
     "artist": "Laurent Wolf",
     "album": "Wash My World",
     "year": "2008",
-    "bpm": 129,
-    "key": "D#m",
+    "bpm": 130,
+    "key": "2B",
     "danceability": 0.76,
     "acousticness": 0.22,
     "genres": [
@@ -6504,7 +6522,9 @@
     "spotifyId": "4UMPPga9jtAqvZSKjxeJ29",
     "isrc": "FRYEY0700560",
     "image": "https://i.scdn.co/image/ab67616d00004851db88b8865c0c54bac64fe3f1",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Run the Show",
@@ -8285,7 +8305,7 @@
     "artist": "Jean-Pierre Mader",
     "album": "Macumba",
     "year": "1985",
-    "bpm": 131,
+    "bpm": 129,
     "key": "9B",
     "danceability": 0.857,
     "acousticness": 0.04,
@@ -8301,8 +8321,8 @@
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
     "popularity": 55,
-    "bpmSource": "djay_pro",
-    "keySource": "djay_pro"
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Plus près des étoiles",
@@ -13204,8 +13224,10 @@
     "title": "Sing Hallelujah!",
     "artist": "Dr. Alban",
     "bpm": 125,
-    "key": "4A",
-    "source": "djay_pro"
+    "key": "4B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Let's Get Loud",
@@ -13827,7 +13849,7 @@
     "spotifyId": "53NWOfQXdEmbHqg5FGeXlG",
     "isrc": "USRC18203285",
     "image": "https://i.scdn.co/image/ab67616d00004851db56ceff816b668b7b6f04ff",
-    "bpm": 92,
+    "bpm": 184,
     "key": "6B",
     "danceability": 0.683,
     "acousticness": 0.11,
@@ -13843,8 +13865,8 @@
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
     "popularity": 51,
-    "bpmSource": "djay_pro",
-    "keySource": "djay_pro"
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "My Favourite Things",
@@ -17115,7 +17137,7 @@
     "spotifyId": "030RDC2ayPOUM32F9IH7eE",
     "isrc": "USAR10300661",
     "image": "https://i.scdn.co/image/ab67616d00004851fa2b556c0bfe0598828944e0",
-    "bpm": 153,
+    "bpm": 154,
     "key": "5B",
     "danceability": 0.687,
     "energy": 0.847,
@@ -17132,8 +17154,8 @@
     "source": "songstats",
     "danceabilitySource": "reccobeats",
     "popularity": 56,
-    "bpmSource": "djay_pro",
-    "keySource": "djay_pro"
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Born to Be Alive - The Original",
@@ -29412,7 +29434,7 @@
     "isrc": "CAC229500010",
     "image": "https://i.scdn.co/image/ab67616d0000485194aed748a59358927f3fb269",
     "bpm": 175,
-    "key": "G",
+    "key": "9B",
     "danceability": 0.597,
     "energy": 0.962,
     "valence": 0.717,
@@ -29427,7 +29449,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 59
+    "popularity": 59,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Sweet Dreams (Are Made of This) - 2005 Remaster",
@@ -30353,12 +30377,14 @@
     "spotifyId": "6x4tKaOzfNJpEJHySoiJcs",
     "isrc": "DEH259900010",
     "image": "https://i.scdn.co/image/ab67616d00004851cf505191afa6a1978418fdf8",
-    "bpm": 172,
-    "key": "Fm",
+    "bpm": 174,
+    "key": "6B",
     "source": "getsongbpm",
     "danceability": 0.622,
     "danceabilitySource": "reccobeats",
-    "popularity": 74
+    "popularity": 74,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Just Give Me a Reason (feat. Nate Ruess)",
@@ -34539,11 +34565,13 @@
     "isrc": "FRZ089000450",
     "image": "https://i.scdn.co/image/ab67616d00004851cae06735476654ebcb3ef8b5",
     "bpm": 133,
-    "key": "A#",
+    "key": "4B",
     "source": "getsongbpm",
     "danceability": 0.755,
     "danceabilitySource": "reccobeats",
-    "popularity": 55
+    "popularity": 55,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "MAMACITA",
@@ -35398,7 +35426,7 @@
     "isrc": "FRQ550030001",
     "image": "https://i.scdn.co/image/ab67616d000048510a1b0156ade410a0ffb5621e",
     "bpm": 121,
-    "key": "G",
+    "key": "9B",
     "danceability": 0.806,
     "energy": 0.926,
     "valence": 0.965,
@@ -35413,7 +35441,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 47
+    "popularity": 47,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "APT.",
@@ -35880,7 +35910,7 @@
     "isrc": "GBANR9800212",
     "image": "https://i.scdn.co/image/ab67616d00004851ec3955270932c556b5505726",
     "bpm": 130,
-    "key": "A#",
+    "key": "7B",
     "danceability": 0.772,
     "energy": 0.682,
     "valence": 0.868,
@@ -35893,7 +35923,9 @@
       "Disco",
       "R&B/Soul"
     ],
-    "source": "songstats"
+    "source": "songstats",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Missing",
@@ -35904,7 +35936,7 @@
     "isrc": "GBAHT0500521",
     "image": "https://i.scdn.co/image/ab67616d00004851ec3955270932c556b5505726",
     "bpm": 123,
-    "key": "Am",
+    "key": "8B",
     "danceability": 0.68,
     "acousticness": 0.08,
     "genres": [
@@ -35914,7 +35946,9 @@
     "country": "GB",
     "mbid": "959cf5bf-ee29-4af6-a85a-0b480181d988",
     "uri": "https://getsongbpm.com/song/missing/1WQ2G",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Sexbomb",
@@ -35973,7 +36007,7 @@
     "isrc": "FRR848122601",
     "image": "https://i.scdn.co/image/ab67616d00004851ec3955270932c556b5505726",
     "bpm": 129,
-    "key": "F#",
+    "key": "3B",
     "danceability": 0.68,
     "acousticness": 0.01,
     "genres": [
@@ -35983,7 +36017,9 @@
     "country": "IT",
     "mbid": "6f153633-03d0-4dab-b0a2-4ae8e9fd179a",
     "uri": "https://getsongbpm.com/song/point-of-view/rlRBB",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Shined On Me",
@@ -35994,7 +36030,7 @@
     "isrc": "FR6V80655947",
     "image": "https://i.scdn.co/image/ab67616d00004851ec3955270932c556b5505726",
     "bpm": 132,
-    "key": "C#",
+    "key": "4B",
     "danceability": 0.777,
     "energy": 0.86,
     "valence": 0.943,
@@ -36009,7 +36045,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 0
+    "popularity": 0,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Feel It",
@@ -36044,8 +36082,8 @@
     "spotifyId": "7bynWKD8LmG4WGUcV5CLr8",
     "isrc": "FR6V80655956",
     "image": "https://i.scdn.co/image/ab67616d00004851ec3955270932c556b5505726",
-    "bpm": 124,
-    "key": "G#",
+    "bpm": 125,
+    "key": "5B",
     "danceability": 0.85,
     "acousticness": 0.01,
     "genres": [
@@ -36056,7 +36094,9 @@
     "country": "GB",
     "mbid": "4b4ccac9-a6d0-4e33-b21a-9d7579ec9a56",
     "uri": "https://getsongbpm.com/song/cada-vez/DkK7Ny",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Pasilda",
@@ -36067,7 +36107,7 @@
     "isrc": "FR6V80005053",
     "image": "https://i.scdn.co/image/ab67616d00004851ec3955270932c556b5505726",
     "bpm": 127,
-    "key": "F",
+    "key": "5B",
     "danceability": 0.671,
     "energy": 0.741,
     "valence": 0.421,
@@ -36080,7 +36120,9 @@
       "Club",
       "Electronica"
     ],
-    "source": "songstats"
+    "source": "songstats",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Easy Love (radio version)",
@@ -36090,8 +36132,8 @@
     "spotifyId": "3iOPSgisQIGiXsjrOpWhKU",
     "isrc": "FR6V80655957",
     "image": "https://i.scdn.co/image/ab67616d00004851ec3955270932c556b5505726",
-    "bpm": 120,
-    "key": "F",
+    "bpm": 122,
+    "key": "9B",
     "danceability": 0.91,
     "acousticness": 0.06,
     "genres": [
@@ -36104,7 +36146,9 @@
     "country": "BR",
     "mbid": "f73c68ba-c09a-45ab-9c51-239f97575753",
     "uri": "https://getsongbpm.com/song/easy-love-radio-version/lY0015",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Say It Again",
@@ -36114,8 +36158,8 @@
     "spotifyId": "5SMgD0wfARGDAWf9bEN8yA",
     "isrc": "FR6V80655958",
     "image": "https://i.scdn.co/image/ab67616d00004851ec3955270932c556b5505726",
-    "bpm": 117,
-    "key": "C#",
+    "bpm": 118,
+    "key": "1B",
     "danceability": 0.903,
     "acousticness": 0.01,
     "genres": [
@@ -36129,7 +36173,9 @@
     "uri": "https://getsongbpm.com/song/say-it-again/58VpK",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 0
+    "popularity": 0,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Children (Dream version)",
@@ -36160,7 +36206,7 @@
     "isrc": "USSR39751201",
     "image": "https://i.scdn.co/image/ab67616d000048515fbcc3ce0842f4eb77c80b18",
     "bpm": 125,
-    "key": "G#",
+    "key": "4B",
     "danceability": 0.755,
     "energy": 0.914,
     "valence": 0.736,
@@ -36173,7 +36219,9 @@
       "Disco",
       "Electronic"
     ],
-    "source": "songstats"
+    "source": "songstats",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Luv 4 Luv",
@@ -36183,8 +36231,8 @@
     "spotifyId": "4F2wlXKpVrQZ6nk2oMeTPI",
     "isrc": "GBBXG9820004",
     "image": "https://i.scdn.co/image/ab67616d00004851ad389fff270052718cb405a5",
-    "bpm": 117,
-    "key": "C",
+    "bpm": 118,
+    "key": "8B",
     "danceability": 0.755,
     "acousticness": 0.01,
     "genres": [
@@ -36198,7 +36246,9 @@
     "uri": "https://getsongbpm.com/song/luv-4-luv/l5lRv6",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 41
+    "popularity": 41,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Sunshine & Happiness",
@@ -36232,8 +36282,8 @@
     "spotifyId": "09FJEa2qcXKD5EUkd9o06n",
     "isrc": "GBTYZ0800214",
     "image": "https://i.scdn.co/image/ab67616d00004851823a113f8976148e3ee32fd7",
-    "bpm": 129,
-    "key": "Bm",
+    "bpm": 130,
+    "key": "10B",
     "danceability": 0.807,
     "acousticness": 0.02,
     "genres": [
@@ -36245,7 +36295,9 @@
     "uri": "https://getsongbpm.com/song/feel-good/n7x84",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 41
+    "popularity": 41,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Sing It Back - Boris Musical Mix",
@@ -36279,8 +36331,8 @@
     "spotifyId": "5Wt1AxOij0QzGOf8mwSUlO",
     "isrc": "GBENL1501315",
     "image": "https://i.scdn.co/image/ab67616d0000485106234013c72dfc056329bed0",
-    "bpm": 124,
-    "key": "G",
+    "bpm": 125,
+    "key": "5B",
     "danceability": 0.635,
     "acousticness": 0.01,
     "genres": [
@@ -36291,7 +36343,9 @@
     "uri": "https://getsongbpm.com/song/e-samba/w8GAX",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 44
+    "popularity": 44,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "My Only Love",
@@ -36395,7 +36449,7 @@
     "isrc": "FR6V80523850",
     "image": "https://i.scdn.co/image/ab67616d0000485105e26fb12f2d0c1ede613cb2",
     "bpm": 128,
-    "key": "Em",
+    "key": "12B",
     "danceability": 0.75,
     "acousticness": 0.02,
     "genres": [
@@ -36406,7 +36460,9 @@
     "country": "FR",
     "mbid": "449c7223-7ab1-4b33-aba5-6da9dac3497c",
     "uri": "https://getsongbpm.com/song/outro-lugar/WQZOJ",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Can't Get Enough!",
@@ -36417,7 +36473,7 @@
     "isrc": "GBCPZ9900007",
     "image": "https://i.scdn.co/image/ab67616d00004851af40610f775826fa87137a93",
     "bpm": 128,
-    "key": "E",
+    "key": "9B",
     "danceability": 0.739,
     "energy": 0.988,
     "valence": 0.988,
@@ -36432,7 +36488,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 40
+    "popularity": 40,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "So, I Begin",
@@ -36443,7 +36501,7 @@
     "isrc": "FR2SV0100001",
     "image": "https://i.scdn.co/image/ab67616d00004851cbb6826ca180cf37ed91a3d8",
     "bpm": 124,
-    "key": "B",
+    "key": "10B",
     "danceability": 0.713,
     "energy": 0.707,
     "valence": 0.884,
@@ -36452,7 +36510,9 @@
     "genres": [],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 31
+    "popularity": 31,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Four to the Floor - Thin White Duke Mix; Short Version",
@@ -36514,8 +36574,8 @@
     "spotifyId": "6ukJXqRAorZSchjW4NawEf",
     "isrc": "USUR10000051",
     "image": "https://i.scdn.co/image/ab67616d000048514f01f0b33ea6b0bafd512a1a",
-    "bpm": 136,
-    "key": "F#",
+    "bpm": 135,
+    "key": "4B",
     "danceability": 0.58,
     "acousticness": 0.02,
     "genres": [
@@ -36525,7 +36585,9 @@
     "country": "GB",
     "mbid": "e8b37da4-6cb2-4641-ab53-da42f02fbdfb",
     "uri": "https://getsongbpm.com/song/it-feels-so-good/WL9pn",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Call on Me",
@@ -36561,8 +36623,8 @@
     "spotifyId": "7gQAFGUyHPcY0cQNPsjMf0",
     "isrc": "SEBMA0065010",
     "image": "https://i.scdn.co/image/ab67616d0000485185e78df7d2c89c311bcd567b",
-    "bpm": 136,
-    "key": "Am",
+    "bpm": 138,
+    "key": "8B",
     "danceability": 0.705,
     "acousticness": 0.03,
     "genres": [
@@ -36574,7 +36636,9 @@
     "uri": "https://getsongbpm.com/song/crying-at-the-discoteque/MxM9P",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 59
+    "popularity": 59,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Samba de Janeiro",
@@ -36609,7 +36673,7 @@
     "isrc": "FRU240500019",
     "image": "https://i.scdn.co/image/ab67616d000048515c284d3349f69ab23d9a0160",
     "bpm": 125,
-    "key": "F",
+    "key": "6B",
     "danceability": 0.79,
     "acousticness": 0.01,
     "genres": [
@@ -36620,7 +36684,9 @@
     "country": "FR",
     "mbid": "06db73fd-57e2-4a6f-bcd3-699fb7bb7af4",
     "uri": "https://getsongbpm.com/song/jealousy/6roER",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "2 Times",
@@ -36657,7 +36723,7 @@
     "isrc": "FRU240500015",
     "image": "https://i.scdn.co/image/ab67616d000048515c284d3349f69ab23d9a0160",
     "bpm": 125,
-    "key": "C#",
+    "key": "2B",
     "danceability": 0.81,
     "acousticness": 0.01,
     "genres": [
@@ -36668,7 +36734,9 @@
     "country": "FR",
     "mbid": "06db73fd-57e2-4a6f-bcd3-699fb7bb7af4",
     "uri": "https://getsongbpm.com/song/rejection/2n4Mz",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Stereo Love",
@@ -36727,7 +36795,7 @@
     "isrc": "DEA310908770",
     "image": "https://i.scdn.co/image/ab67616d0000485161efd24f599a0751e2416ca8",
     "bpm": 133,
-    "key": "m",
+    "key": "2B",
     "danceability": 0.812,
     "acousticness": 0,
     "genres": [
@@ -36737,9 +36805,10 @@
     "mbid": "57c1e5ea-e08f-413a-bcb1-f4e4b675bead",
     "uri": "https://getsongbpm.com/song/bla-bla-bla-drammentenza-mix/K8YvY",
     "source": "getsongbpm",
-    "bpmSource": "reccobeats",
+    "bpmSource": "djay_pro_ax",
     "danceabilitySource": "reccobeats",
-    "popularity": 37
+    "popularity": 37,
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Mr. Saxobeat",
@@ -36852,7 +36921,7 @@
     "isrc": "GBDUW0000057",
     "image": "https://i.scdn.co/image/ab67616d000048511e81bff9807a9e629fce5ade",
     "bpm": 123,
-    "key": "G",
+    "key": "10B",
     "danceability": 0.624,
     "acousticness": 0.33,
     "genres": [
@@ -36865,7 +36934,9 @@
     "uri": "https://getsongbpm.com/song/aerodynamic/X6l3W",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 61
+    "popularity": 61,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Meet Her at the Loveparade",
@@ -36899,7 +36970,7 @@
     "isrc": "ITT019810102",
     "image": "https://i.scdn.co/image/ab67616d00004851810117c8f9bbc79800076b3a",
     "bpm": 128,
-    "key": "Gm",
+    "key": "6B",
     "danceability": 0.83,
     "acousticness": 0.26,
     "genres": [
@@ -36909,7 +36980,9 @@
     "country": "IT",
     "mbid": "6ee7a715-e0c0-46d0-a215-2e17001699fc",
     "uri": "https://getsongbpm.com/song/blue-da-ba-dee/Z61Rw",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Rise Up - Original Radio",
@@ -36991,7 +37064,7 @@
     "isrc": "FRZID0450100",
     "image": "https://i.scdn.co/image/ab67616d00004851591558125e5710a3b724242a",
     "bpm": 128,
-    "key": "B",
+    "key": "11B",
     "danceability": 0.659,
     "energy": 0.93,
     "valence": 0.46,
@@ -37002,7 +37075,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 43
+    "popularity": 43,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Red Alert - Jaxx Radio Mix",
@@ -37013,7 +37088,7 @@
     "isrc": "GBBKS9900011",
     "image": "https://i.scdn.co/image/ab67616d00004851ef7e58e21abcb13adaa67d37",
     "bpm": 127,
-    "key": "A#",
+    "key": "4B",
     "danceability": 0.648,
     "energy": 0.956,
     "valence": 0.821,
@@ -37028,7 +37103,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 41
+    "popularity": 41,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "World, Hold On",
@@ -37080,7 +37157,7 @@
     "isrc": "GBDUW0000059",
     "image": "https://i.scdn.co/image/ab67616d000048511e81bff9807a9e629fce5ade",
     "bpm": 123,
-    "key": "F#m",
+    "key": "11B",
     "danceability": 0.817,
     "acousticness": 0.05,
     "genres": [
@@ -37093,7 +37170,9 @@
     "uri": "https://getsongbpm.com/song/harder-better-faster-stronger/Z4n5J",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 72
+    "popularity": 72,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "My Heart Goes Boom (La Di Da Da) - Radio Version / Reloaded",
@@ -37156,7 +37235,7 @@
     "isrc": "FRU700700092",
     "image": "https://i.scdn.co/image/ab67616d00004851d74f9cf7419f48a017e336b3",
     "bpm": 128,
-    "key": "D",
+    "key": "7B",
     "danceability": 0.676,
     "energy": 0.842,
     "valence": 0.964,
@@ -37169,7 +37248,9 @@
       "Club",
       "Dance"
     ],
-    "source": "songstats"
+    "source": "songstats",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Chillin'",
@@ -37179,8 +37260,8 @@
     "spotifyId": "3Nxw6eeFpBwUbxVuSY6NC0",
     "isrc": "FR9W10100534",
     "image": "https://i.scdn.co/image/ab67616d0000485154c5c304064df85d61253ac7",
-    "bpm": 124,
-    "key": "F#",
+    "bpm": 125,
+    "key": "3B",
     "danceability": 0.58,
     "acousticness": 0.01,
     "genres": [
@@ -37192,7 +37273,9 @@
     "uri": "https://getsongbpm.com/song/chillin/ER8EP0",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 55
+    "popularity": 55,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Drop the Pressure",
@@ -37202,8 +37285,8 @@
     "spotifyId": "0IVVCvZYhPEWzAvp6ZMhUh",
     "isrc": "GBHFF0400006",
     "image": "https://i.scdn.co/image/ab67616d000048515a1066074e058c28a91c3569",
-    "bpm": 124,
-    "key": "G#",
+    "bpm": 129,
+    "key": "10B",
     "danceability": 0.7,
     "acousticness": 0.11,
     "genres": [
@@ -37212,7 +37295,9 @@
     "country": "GB",
     "mbid": "a066b730-3809-4b39-a091-2297d40b51db",
     "uri": "https://getsongbpm.com/song/drop-the-pressure/86RMnr",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Enola Gay - Remastered 2003",
@@ -37300,8 +37385,8 @@
     "spotifyId": "5ZrDlcxIDZyjOzHdYW1ydr",
     "isrc": "DKBKA9700403",
     "image": "https://i.scdn.co/image/ab67616d00004851f5768db89dd8ac30fd0e414f",
-    "bpm": 129,
-    "key": "C#m",
+    "bpm": 130,
+    "key": "1B",
     "danceability": 0.812,
     "acousticness": 0.02,
     "genres": [
@@ -37314,7 +37399,9 @@
     "uri": "https://getsongbpm.com/song/barbie-girl/4zG4x",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 74
+    "popularity": 74,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "J'irai où tu iras (with Jean-Jacques Goldman)",
@@ -37350,8 +37437,8 @@
     "spotifyId": "0Wr98MVkENZXddiLB3bPb0",
     "isrc": "FR5E79700050",
     "image": "https://i.scdn.co/image/ab67616d000048510197f123ed91c8f333920ff1",
-    "bpm": 136,
-    "key": "F#",
+    "bpm": 138,
+    "key": "1B",
     "danceability": 0.567,
     "acousticness": 0.27,
     "genres": [
@@ -37363,7 +37450,9 @@
     "uri": "https://getsongbpm.com/song/j-t-emmene-au-vent/7LXgZO",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 65
+    "popularity": 65,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Fruit de la passion",
@@ -37374,7 +37463,7 @@
     "isrc": "FR9H49100050",
     "image": "https://i.scdn.co/image/ab67616d00004851052a606ea436c725fab7be4b",
     "bpm": 102,
-    "key": "D",
+    "key": "11B",
     "danceability": 0.82,
     "acousticness": 0.16,
     "genres": [
@@ -37384,7 +37473,9 @@
     "country": "FR",
     "mbid": "21dcc22d-afa9-49af-8548-b116ed818ffa",
     "uri": "https://getsongbpm.com/song/fruit-de-la-passion/zvoYMy",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Tomber la chemise",
@@ -37395,7 +37486,7 @@
     "isrc": "FRZ019800920",
     "image": "https://i.scdn.co/image/ab67616d00004851ff873db6713a6cbbc0a47d34",
     "bpm": 133,
-    "key": "A#m",
+    "key": "6B",
     "danceability": 0.92,
     "acousticness": 0.23,
     "genres": [
@@ -37406,7 +37497,9 @@
     "country": "FR",
     "mbid": "8eebc0a9-653e-4b12-bfb6-471a95f8cf73",
     "uri": "https://getsongbpm.com/song/tomber-la-chemise/yrgg",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Je danse le mia - Le Terrible Funk Remix; Radio Edit",
@@ -37442,8 +37535,8 @@
     "spotifyId": "4QlC4HmIyo2nO0l0bRrgdm",
     "isrc": "FRZ169500150",
     "image": "https://i.scdn.co/image/ab67616d00004851ce4bf1da315f49db8261b53f",
-    "bpm": 107,
-    "key": "F",
+    "bpm": 108,
+    "key": "7B",
     "danceability": 0.757,
     "acousticness": 0.02,
     "genres": [
@@ -37456,7 +37549,9 @@
     "uri": "https://getsongbpm.com/song/dieu-m-a-donne-la-foi/mzQP3",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 45
+    "popularity": 45,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Knock on Wood",
@@ -37466,8 +37561,8 @@
     "spotifyId": "6120uJUyg6QDzaAJUosTx5",
     "isrc": "USA561379853",
     "image": "https://i.scdn.co/image/ab67616d000048517962998d8941673c1cea3083",
-    "bpm": 144,
-    "key": "D",
+    "bpm": 141,
+    "key": "10B",
     "danceability": 0.689,
     "acousticness": 0.01,
     "genres": [
@@ -37482,7 +37577,9 @@
     "uri": "https://getsongbpm.com/song/knock-on-wood/OBnKG",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 51
+    "popularity": 51,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Tarzan Boy",
@@ -37569,7 +37666,7 @@
     "isrc": "FR9W11415243",
     "image": "https://i.scdn.co/image/ab67616d000048518621a1ec9f23a37ca6e47de9",
     "bpm": 114,
-    "key": "E",
+    "key": "12B",
     "danceability": 0.68,
     "acousticness": 0.08,
     "genres": [
@@ -37579,7 +37676,9 @@
     "country": "FR",
     "mbid": "af3ec750-88ec-4943-be9d-d14a740cf54d",
     "uri": "https://getsongbpm.com/song/daniela/lYWP9J",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "I Will Survive (Lalala)",
@@ -37639,8 +37738,8 @@
     "spotifyId": "6uL9PbqxSJYAnpRoavsRma",
     "isrc": "FR6T50501907",
     "image": "https://i.scdn.co/image/ab67616d000048517fb33e69515b134329687925",
-    "bpm": 157,
-    "key": "D",
+    "bpm": 158,
+    "key": "10B",
     "danceability": 0.507,
     "acousticness": 0.13,
     "genres": [
@@ -37652,7 +37751,9 @@
     "uri": "https://getsongbpm.com/song/fallait-pas-commencer/M85LB5",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 7
+    "popularity": 7,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "You Make Me Feel (Mighty Real)",
@@ -37662,8 +37763,8 @@
     "spotifyId": "3lwNHGO5yJLNpHsMlvL9IF",
     "isrc": "GBAAP0000547",
     "image": "https://i.scdn.co/image/ab67616d000048513a2a2090165282b7d5a00524",
-    "bpm": 134,
-    "key": "A#",
+    "bpm": 135,
+    "key": "7B",
     "danceability": 0.62,
     "acousticness": 0.02,
     "genres": [
@@ -37675,7 +37776,9 @@
     "uri": "https://getsongbpm.com/song/you-make-me-feel-mighty-real/o8JpB",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 45
+    "popularity": 45,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Maldòn - Version originale",
@@ -37686,7 +37789,7 @@
     "isrc": "FR6V80245847",
     "image": "https://i.scdn.co/image/ab67616d000048511f5959a67260f6e206dca85c",
     "bpm": 133,
-    "key": "A",
+    "key": "7B",
     "danceability": 0.779,
     "energy": 0.639,
     "valence": 0.848,
@@ -37700,7 +37803,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 53
+    "popularity": 53,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Sweet Dreams (Are Made of This) - 2005 Remaster",
@@ -37737,7 +37842,7 @@
     "isrc": "DKELA9610005",
     "image": "https://i.scdn.co/image/ab67616d00004851c7ed51b9dc1014285cae2ae2",
     "bpm": 136,
-    "key": "Fm",
+    "key": "5B",
     "danceability": 0.65,
     "acousticness": 0.07,
     "genres": [
@@ -37750,7 +37855,9 @@
     "uri": "https://getsongbpm.com/song/scatman-ski-ba-bop-ba-dop-bop/xlAlz",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 68
+    "popularity": 68,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Devil Inside",
@@ -37760,8 +37867,8 @@
     "spotifyId": "0sTnQus7pGewDC0UHSyRDS",
     "isrc": "GBAMX8700004",
     "image": "https://i.scdn.co/image/ab67616d00004851dac4efc0ebdfd9d92f127129",
-    "bpm": 75,
-    "key": "C",
+    "bpm": 151,
+    "key": "8B",
     "danceability": 0.589,
     "acousticness": 0.01,
     "genres": [
@@ -37773,7 +37880,9 @@
     "uri": "https://getsongbpm.com/song/devil-inside/mZ1zE",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 53
+    "popularity": 53,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Original Sin",
@@ -37784,7 +37893,7 @@
     "isrc": "NLF050190259",
     "image": "https://i.scdn.co/image/ab67616d000048519f41eabd4e8f9ba656f4f995",
     "bpm": 131,
-    "key": "A",
+    "key": "10B",
     "danceability": 0.685,
     "acousticness": 0.02,
     "genres": [
@@ -37796,7 +37905,9 @@
     "uri": "https://getsongbpm.com/song/original-sin/rgXAK",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 57
+    "popularity": 57,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Ghostbusters",
@@ -37832,8 +37943,8 @@
     "spotifyId": "5jkFvD4UJrmdoezzT1FRoP",
     "isrc": "DED167800008",
     "image": "https://i.scdn.co/image/ab67616d000048519e77d65619f80436b5cc9d12",
-    "bpm": 128,
-    "key": "B",
+    "bpm": 126,
+    "key": "10B",
     "danceability": 0.639,
     "acousticness": 0.29,
     "genres": [
@@ -37845,7 +37956,9 @@
     "uri": "https://getsongbpm.com/song/rasputin/yrk1Dz",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 62
+    "popularity": 62,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Swing The Mood",
@@ -37881,8 +37994,8 @@
     "spotifyId": "1yY8uOUeZn39PUNrzpEa6R",
     "isrc": "FR6V80334046",
     "image": "https://i.scdn.co/image/ab67616d0000485172e0114835954079984829f7",
-    "bpm": 111,
-    "key": "D",
+    "bpm": 102,
+    "key": "10B",
     "danceability": 0.82,
     "acousticness": 0.06,
     "genres": [
@@ -37893,7 +38006,9 @@
     "country": "GB",
     "mbid": "c5b9c6e1-3aa2-4ff5-a89a-d4e86b09fcdf",
     "uri": "https://getsongbpm.com/song/wot/mYZ9vA",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Gimme Hope Jo'Anna",
@@ -37903,8 +38018,8 @@
     "spotifyId": "6295Cr4SGdjJgnJ6DLtZFn",
     "isrc": "GBQRF0846342",
     "image": "https://i.scdn.co/image/ab67616d000048511756db0c56865a4814382316",
-    "bpm": 128,
-    "key": "A#",
+    "bpm": 129,
+    "key": "6B",
     "danceability": 0.896,
     "acousticness": 0.41,
     "genres": [
@@ -37918,7 +38033,9 @@
     "uri": "https://getsongbpm.com/song/gimme-hope-jo-anna/NlJrK",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 49
+    "popularity": 49,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "A Dios le pido",
@@ -37929,7 +38046,7 @@
     "isrc": "USUL10200158",
     "image": "https://i.scdn.co/image/ab67616d0000485123a1613112c1ecf946f51177",
     "bpm": 97,
-    "key": "G",
+    "key": "8B",
     "danceability": 0.673,
     "acousticness": 0.06,
     "genres": [
@@ -37942,7 +38059,9 @@
     "uri": "https://getsongbpm.com/song/a-dios-le-pido/ojOYX",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 72
+    "popularity": 72,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Celebration",
@@ -37979,7 +38098,7 @@
     "isrc": "MXF149600343",
     "image": "https://i.scdn.co/image/ab67616d00004851e7e9b85cc1f021ec12130d80",
     "bpm": 127,
-    "key": "A",
+    "key": "7B",
     "danceability": 0.707,
     "energy": 0.921,
     "valence": 0.675,
@@ -37994,7 +38113,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 53
+    "popularity": 53,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Yeh Yeh",
@@ -38004,8 +38125,8 @@
     "spotifyId": "25HoIYF1StH86SX0VjpM4E",
     "isrc": "GBAHS0104637",
     "image": "https://i.scdn.co/image/ab67616d0000485111294ae003de6c166e3338a8",
-    "bpm": 89,
-    "key": "A#m",
+    "bpm": 90,
+    "key": "5B",
     "danceability": 0.662,
     "acousticness": 0.07,
     "genres": [
@@ -38018,7 +38139,9 @@
     "uri": "https://getsongbpm.com/song/yeh-yeh/PAOzw",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 25
+    "popularity": 25,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "What You Waiting For?",
@@ -38029,7 +38152,7 @@
     "isrc": "USIR10400692",
     "image": "https://i.scdn.co/image/ab67616d00004851f049fc9322f0c93646cdcc77",
     "bpm": 136,
-    "key": "Dm",
+    "key": "6B",
     "danceability": 0.676,
     "acousticness": 0.05,
     "genres": [
@@ -38042,7 +38165,9 @@
     "uri": "https://getsongbpm.com/song/what-you-waiting-forquestion/DjlPA",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 63
+    "popularity": 63,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Macarena",
@@ -38077,7 +38202,7 @@
     "isrc": "NLB630100324",
     "image": "https://i.scdn.co/image/ab67616d000048511f400a1f4d821b00824cf58f",
     "bpm": 108,
-    "key": "C#m",
+    "key": "12B",
     "danceability": 0.794,
     "acousticness": 0.24,
     "genres": [
@@ -38091,7 +38216,9 @@
     "uri": "https://getsongbpm.com/song/whenever-wherever/PZlkn",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 74
+    "popularity": 74,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "I Gotta Feeling",
@@ -38130,7 +38257,7 @@
     "isrc": "USLF20800067",
     "image": "https://i.scdn.co/image/ab67616d000048515a45d5041e4ffcb9f756f740",
     "bpm": 126,
-    "key": "B",
+    "key": "11B",
     "danceability": 0.534,
     "acousticness": 0.01,
     "genres": [
@@ -38142,7 +38269,9 @@
     "uri": "https://getsongbpm.com/song/so-what/ADw0oO",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 75
+    "popularity": 75,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "I Like to Move It (feat. The Mad Stuntman) - Erick \"More\" Album Mix",
@@ -38177,7 +38306,7 @@
     "isrc": "BEAA11301362",
     "image": "https://i.scdn.co/image/ab67616d00004851aa1cd2b4814f0235a14da4a7",
     "bpm": 125,
-    "key": "A",
+    "key": "12B",
     "danceability": 0.77,
     "energy": 0.875,
     "valence": 0.809,
@@ -38192,7 +38321,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 60
+    "popularity": 60,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "No Limit",
@@ -38202,8 +38333,8 @@
     "spotifyId": "7voHUmPNDuYZ1SW1mwRu26",
     "isrc": "BEAA19305003",
     "image": "https://i.scdn.co/image/ab67616d000048519c4e4d6cc6065d732aaa7ba1",
-    "bpm": 144,
-    "key": "D#",
+    "bpm": 141,
+    "key": "6B",
     "danceability": 0.65,
     "acousticness": 0.02,
     "genres": [
@@ -38215,7 +38346,9 @@
     "uri": "https://getsongbpm.com/song/no-limit/27Qlj",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 64
+    "popularity": 64,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Lili voulait aller danser",
@@ -38225,8 +38358,8 @@
     "spotifyId": "5W8DHtd2JOU9q7X3pvzafw",
     "isrc": "FRR498200020",
     "image": "https://i.scdn.co/image/ab67616d0000485150cdca8425d12427c18c06af",
-    "bpm": 160,
-    "key": "C",
+    "bpm": 80,
+    "key": "8B",
     "danceability": 0.528,
     "acousticness": 0.08,
     "genres": [
@@ -38237,7 +38370,9 @@
     "uri": "https://getsongbpm.com/song/lili-voulait-aller-danser/qYGXx3",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 37
+    "popularity": 37,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Eins Zwei Polizei",
@@ -38317,8 +38452,8 @@
     "spotifyId": "6vGW3d8X48CBaLdU0PQbey",
     "isrc": "GBARL9300289",
     "image": "https://i.scdn.co/image/ab67616d00004851e82ad9b3f6f1490f24add099",
-    "bpm": 123,
-    "key": "Cm",
+    "bpm": 125,
+    "key": "5B",
     "danceability": 0.9,
     "acousticness": 0.05,
     "genres": [
@@ -38330,7 +38465,9 @@
     "country": "GB",
     "mbid": "f6f69dba-4c49-4f1b-a6bc-678c1154f32d",
     "uri": "https://getsongbpm.com/song/moving-on-up/my5AA",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Kids In America",
@@ -38417,7 +38554,7 @@
     "isrc": "FRR849723000",
     "image": "https://i.scdn.co/image/ab67616d00004851766a66dd3f909dc795f11fde",
     "bpm": 136,
-    "key": "F#",
+    "key": "3B",
     "danceability": 0.795,
     "acousticness": 0.01,
     "genres": [],
@@ -38425,9 +38562,10 @@
     "mbid": "bf3d936d-9c00-41e1-bbfa-27a6d1d40f9a",
     "uri": "https://getsongbpm.com/song/delirium-edit-club-mix/kJ8ZJ",
     "source": "getsongbpm",
-    "bpmSource": "reccobeats",
+    "bpmSource": "djay_pro_ax",
     "danceabilitySource": "reccobeats",
-    "popularity": 17
+    "popularity": 17,
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Alarma!",
@@ -38437,8 +38575,8 @@
     "spotifyId": "5ezKbpPGtVHwUzKo3rdywi",
     "isrc": "DEBL61242381",
     "image": "https://i.scdn.co/image/ab67616d00004851d6a3ef651fd380a9e02d1263",
-    "bpm": 129,
-    "key": "C#",
+    "bpm": 130,
+    "key": "5B",
     "danceability": 0.733,
     "acousticness": 0.01,
     "genres": [
@@ -38449,7 +38587,9 @@
     "uri": "https://getsongbpm.com/song/alarmaexclamation/7Xvpw",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 45
+    "popularity": 45,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "U Can't Touch This",
@@ -38459,8 +38599,8 @@
     "spotifyId": "1B75hgRqe7A4fwee3g3Wmu",
     "isrc": "USCA29000294",
     "image": "https://i.scdn.co/image/ab67616d00004851f5e5babccf665ef8c912b190",
-    "bpm": 136,
-    "key": "Am",
+    "bpm": 133,
+    "key": "10B",
     "danceability": 0.867,
     "acousticness": 0.01,
     "genres": [
@@ -38473,7 +38613,9 @@
     "uri": "https://getsongbpm.com/song/u-can-t-touch-this/71XEB",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 71
+    "popularity": 71,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "All The Stars (with SZA) - From \"Black Panther: The Album\"",
@@ -46774,6 +46916,564 @@
     "title": "Tiësto, Tate McRae",
     "bpm": 120,
     "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Sabrina Firda Firda Firda Firda",
+    "title": "Boys",
+    "bpm": 120,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Les Inconnus",
+    "title": "C'est toi que je t'aime - Negra bouch' beat",
+    "bpm": 170,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Boys Town Gang",
+    "title": "Can't Take My Eyes Off Of You - Original Radio Edit",
+    "bpm": 129,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Kool & The Gang",
+    "title": "Celebration - Single Version",
+    "bpm": 121,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Mo-Do",
+    "title": "Eins Zwei Polizei - Albm Version",
+    "bpm": 145,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "The Tamperer, Get Far, Alex Farolfi, Maya",
+    "title": "Feel It - Radio Version",
+    "bpm": 125,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Ray Parker Jr.",
+    "title": "Ghostbusters",
+    "bpm": 116,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Reel 2 Real, The Mad Stuntman, Erick Morillo",
+    "title": "I Like To Move It (feat. The Mad Stuntman) - Erick \"More\" Album Mix",
+    "bpm": 123,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Hermes House Band",
+    "title": "I Will Survive (Lalala), Original Radio Edit",
+    "bpm": 130,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "IAM",
+    "title": "Je danse le Mia - Le terrible Funk Remix Extended",
+    "bpm": 103,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Kim Wilde",
+    "title": "Kids In America - 2020 Remaster",
+    "bpm": 160,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Le Grand Orchestre du Splendid",
+    "title": "La salsa du démon",
+    "bpm": 142,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Los Del Mar",
+    "title": "Macarena",
+    "bpm": 103,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Technotronic, Felly",
+    "title": "Pump Up The Jam - Edit",
+    "bpm": 125,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Bob Sinclar, Cutee B., DollarMan, Big Ali, Makedah",
+    "title": "Rock This Party - Everybody Dance Now",
+    "bpm": 128,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Jive Bunny and the Mastermixers",
+    "title": "Swing The Mood",
+    "bpm": 93,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Baltimora",
+    "title": "Tarzan Boy - Original Version",
+    "bpm": 109,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Village People",
+    "title": "YMCA - Original Version 1978",
+    "bpm": 127,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "John Travolta, Olivia Newton-John",
+    "title": "You're The One That I Want - From “Grease”",
+    "bpm": 107,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Cleptomaniacs",
+    "title": "All I Do",
+    "bpm": 126,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Daft Punk",
+    "title": "Around the World - Radio Edit",
+    "bpm": 121,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Soulsearcher",
+    "title": "Can't Get Enough (Original Mix)",
+    "bpm": 127,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Zhi-Vago",
+    "title": "Celebrate (The Love) - Radio Version",
+    "bpm": 135,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Alex Gaudino, Crystal Waters",
+    "title": "Destination Calabria - Radio Edit",
+    "bpm": 128,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Gusto",
+    "title": "Disco's Revenge",
+    "bpm": 126,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "The Tamperer, Maya",
+    "title": "Feel It",
+    "bpm": 125,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "3 Jays",
+    "title": "Feeling It Too",
+    "bpm": 132,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Double Dee",
+    "title": "Found Love",
+    "bpm": 130,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Starsailor",
+    "title": "Four to the Floor - Thin White Duke Mix; Short Version",
+    "bpm": 123,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Sunscreen",
+    "title": "Groovejet (If This Ain't Love)",
+    "bpm": 123,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Martin Solveig, Dragonette",
+    "title": "Hello",
+    "bpm": 128,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Mousse T.",
+    "title": "Horny 98",
+    "bpm": 123,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Keycorporation",
+    "title": "La La Funkie - Radio Edit",
+    "bpm": 128,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Bob Sinclar, Gary Pine",
+    "title": "Love Generation - Radio Edit",
+    "bpm": 128,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Juice T",
+    "title": "Love U for Life",
+    "bpm": 127,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Superfunk, Ron Carroll",
+    "title": "Lucky Star (feat. Ron Carroll) [Radio Edit]",
+    "bpm": 126,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Room 5, Oliver Cheatham",
+    "title": "Make Luv",
+    "bpm": 125,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Da Hool",
+    "title": "Meet Her At The Loveparade - Radio Edit",
+    "bpm": 132,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "French Affair",
+    "title": "My Heart Goes Boom - Radio Version 'Reloaded'",
+    "bpm": 130,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Bob Sinclar",
+    "title": "My only love - Original",
+    "bpm": 123,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Danzel",
+    "title": "Put Your Hands Up",
+    "bpm": 130,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Blue Boy",
+    "title": "Remember Me",
+    "bpm": 101,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Yves Larock",
+    "title": "Rise up - Radio Edit",
+    "bpm": 128,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Bellini",
+    "title": "Samba De Janeiro - Radio Edit",
+    "bpm": 133,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Darude",
+    "title": "Sandstorm - Original Mix",
+    "bpm": 136,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Cunnie Williams",
+    "title": "Saturday - Mousse T Remix",
+    "bpm": 123,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Tom Jones, Mousse T.",
+    "title": "Sex Bomb",
+    "bpm": 123,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Moloko, Boris Dlugosch, Michael Lange",
+    "title": "Sing It Back - Boris Dlugosch Mix",
+    "bpm": 123,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Duke",
+    "title": "So In Love With You (Funky Engine Vocal Remix)",
+    "bpm": 131,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Edward Maya, Vika Jigulina",
+    "title": "Stereo Love - Original",
+    "bpm": 127,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Nerio's Dubwork feat. Darryl Pandy",
+    "title": "Sunshine & Happiness - Radio Edit",
+    "bpm": 124,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Nightcrawlers, John Reid",
+    "title": "Surrender Your Love (feat. John Reid) - MK Radio Edit",
+    "bpm": 122,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Bob Sinclar",
+    "title": "The Beat Goes On - Radio Edit",
+    "bpm": 128,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "The Last Minister",
+    "title": "Tribute to the J.B Family",
+    "bpm": 116,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Phats & Small, Toney Lee",
+    "title": "Turn Around - Radio Edit",
+    "bpm": 132,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Heller 'n' Farley Project",
+    "title": "Ultra Flava",
+    "bpm": 125,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Yolanda Be Cool, DCup",
+    "title": "We No Speak Americano (Edit)",
+    "bpm": 125,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Powerhouse, Duane Harden",
+    "title": "What You Need (feat. Duane Harden) - Full Intention Radio Edit",
+    "bpm": 126,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Bob Sinclair, Steve Edwards",
+    "title": "World, Hold On",
+    "bpm": 127,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Black Legend",
+    "title": "You See the Trouble With Me",
+    "bpm": 125,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Black Legend",
+    "title": "You See the Trouble with Me - We'll Be In Trouble Radio Edit",
+    "bpm": 125,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Ann Lee",
+    "title": "2 Times - Original",
+    "bpm": 130,
+    "key": "7B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax"
