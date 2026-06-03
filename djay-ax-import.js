@@ -28,6 +28,7 @@
  */
 
 import fs from "fs";
+import { enrichTrack } from "./djay-enrich.js";
 
 const KNOWN_FILE = "./knownTracks.json";
 
@@ -156,7 +157,7 @@ function findMatch(byArtist, djayTrack) {
 
 /* ===== main ===== */
 
-function main() {
+async function main() {
   const rowsRaw = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
   if (!Array.isArray(rowsRaw)) {
     console.error("❌ Format inattendu : on attend un tableau de rows");
@@ -239,7 +240,10 @@ function main() {
 
   const backupFile = `./knownTracks.bak.${Date.now()}.json`;
   fs.copyFileSync(KNOWN_FILE, backupFile);
+  console.log(`\n💾 Backup : ${backupFile}`);
 
+  // Update existing matches (BPM + key only; never overwrite enrichment
+  // that earlier runs put in place).
   for (const u of updates) {
     catalog[u.catIndex] = {
       ...catalog[u.catIndex],
@@ -249,8 +253,18 @@ function main() {
       keySource: "djay_pro_ax",
     };
   }
-  for (const a of adds) {
-    catalog.push({
+
+  // Build the new entries first, with djay's ground-truth fields, then
+  // enrich them via Spotify / ReccoBeats / getsongbpm / songstats before
+  // pushing into the catalog. We persist after each enrichment so the
+  // catalog ends up with partial progress if the user aborts mid-run.
+  console.log(`\n=== Enrichissement des ${adds.length} nouvelles entrées ===`);
+  const enrichStats = { spotify: 0, popularity: 0, danceability: 0, genres: 0 };
+  const newEntries = [];
+
+  for (let i = 0; i < adds.length; i++) {
+    const a = adds[i];
+    const base = {
       artist: a.artist,
       title: a.title,
       bpm: a.bpm,
@@ -258,12 +272,46 @@ function main() {
       source: "djay_pro_ax",
       bpmSource: "djay_pro_ax",
       keySource: "djay_pro_ax",
-    });
+    };
+    try {
+      await enrichTrack(base);
+    } catch (e) {
+      console.error(`   ⚠️  enrich erreur ${a.artist} — ${a.title} : ${e.message}`);
+    }
+    if (base.spotifyId) enrichStats.spotify++;
+    if (base.popularity != null) enrichStats.popularity++;
+    if (base.danceability != null) enrichStats.danceability++;
+    if (base.genres?.length) enrichStats.genres++;
+    newEntries.push(base);
+    catalog.push(base);
+
+    if ((i + 1) % 10 === 0 || i === adds.length - 1) {
+      // Persist incrementally so a Ctrl-C doesn't lose minutes of API work
+      fs.writeFileSync(KNOWN_FILE, JSON.stringify(catalog, null, 2));
+      console.log(
+        `   [${String(i + 1).padStart(3)}/${adds.length}] · ` +
+          `spotify=${enrichStats.spotify} · pop=${enrichStats.popularity} · ` +
+          `dance=${enrichStats.danceability} · genres=${enrichStats.genres}`
+      );
+    }
   }
+
+  // Final write (covers the case where adds.length wasn't a multiple of 10
+  // and also the no-adds case where the updates above haven't been flushed)
   fs.writeFileSync(KNOWN_FILE, JSON.stringify(catalog, null, 2));
 
-  console.log(`\n💾 Backup : ${backupFile}`);
-  console.log(`✓ ${KNOWN_FILE} mis à jour : ${updates.length} pistes corrigées, ${adds.length} ajoutées`);
+  console.log(
+    `\n✓ ${KNOWN_FILE} : ${updates.length} pistes corrigées, ${adds.length} ajoutées, ${catalog.length} au total`
+  );
+  console.log(
+    `   Enrichissement : spotifyId=${enrichStats.spotify}/${adds.length} · ` +
+      `pop=${enrichStats.popularity}/${adds.length} · ` +
+      `dance=${enrichStats.danceability}/${adds.length} · ` +
+      `genres=${enrichStats.genres}/${adds.length}`
+  );
 }
 
-main();
+main().catch((e) => {
+  console.error("❌", e);
+  process.exit(1);
+});

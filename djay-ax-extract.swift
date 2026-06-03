@@ -23,7 +23,9 @@ import AppKit
 import ApplicationServices
 
 let BUNDLE_ID = "com.algoriddim.djay-iphone-free"
-let FOREGROUND_DELAY = 3.0  // seconds — gives user time to flip back to djay
+// (The 3 s countdown that used to live here is now handled by the wrapper
+// djay-import-all.sh — it shows the message BEFORE the user is told to flip
+// to djay, which is the only sensible order.)
 
 func findDjay() -> NSRunningApplication? {
     NSWorkspace.shared.runningApplications.first { $0.bundleIdentifier == BUNDLE_ID }
@@ -112,9 +114,6 @@ if !trusted {
     FileHandle.standardError.write(Data("⚠️  Accessibility refusée — autorise dans System Settings → Privacy & Security → Accessibility puis relance.\n".utf8))
     exit(2)
 }
-
-FileHandle.standardError.write(Data("⏳ \(Int(FOREGROUND_DELAY)) s — passe djay au foreground et SCROLLE jusqu'à la position souhaitée\n".utf8))
-Thread.sleep(forTimeInterval: FOREGROUND_DELAY)
 
 let app = AXUIElementCreateApplication(djay.processIdentifier)
 
