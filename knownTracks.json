@@ -1770,8 +1770,8 @@
     "artist": "Sexion d'Assaut",
     "album": "L'Apogée",
     "year": "2012",
-    "bpm": 106,
-    "key": "Em",
+    "bpm": 107,
+    "key": "9B",
     "danceability": 0.87,
     "acousticness": 0.1,
     "genres": [
@@ -1781,7 +1781,9 @@
     "country": "FR",
     "mbid": "129249d7-4521-4b1e-b48d-88e21b8eeca5",
     "uri": "https://getsongbpm.com/song/ma-direction/7LOno1",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Fallait Pas",
@@ -1818,8 +1820,8 @@
     "artist": "PZK",
     "album": "La Loi de la jungle",
     "year": "2012",
-    "bpm": 127,
-    "key": "A#m",
+    "bpm": 128,
+    "key": "6B",
     "danceability": 0.71,
     "acousticness": 0.03,
     "genres": [
@@ -1829,7 +1831,9 @@
     "country": "FR",
     "mbid": "de900610-04d4-4151-bfb2-0b23414021f9",
     "uri": "https://getsongbpm.com/song/chuis-bo-exclamation/BLG2L2",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Chérie Coco",
@@ -1941,8 +1945,8 @@
     "artist": "Salut c'est cool",
     "album": "Lot de Fichiers",
     "year": "2013",
-    "bpm": 158,
-    "key": "B",
+    "bpm": 159,
+    "key": "2B",
     "danceability": 0.67,
     "acousticness": 0.26,
     "genres": [
@@ -1952,7 +1956,9 @@
     "country": "FR",
     "mbid": "70c0cd8b-a942-4b8f-b421-b2b5218e23b6",
     "uri": "https://getsongbpm.com/song/techno-toujours-pareil/ZYZOYJ",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Alexandrie Alexandra",
@@ -2293,8 +2299,8 @@
     "artist": "Armin van Buuren",
     "album": "A State of Trance, Ibiza 2018 (Mixed by Armin Van Buuren)",
     "year": "2018",
-    "bpm": 136,
-    "key": "Em",
+    "bpm": 138,
+    "key": "4B",
     "danceability": 0.46,
     "acousticness": 0.01,
     "genres": [
@@ -2303,7 +2309,9 @@
     "country": "NL",
     "mbid": "477b8c0c-c5fc-4ad2-b5b2-191f0bf2a9df",
     "uri": "https://getsongbpm.com/song/blah-blah-blah-mix-cut/gplE7j",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Taki Taki (feat. Selena Gomez, Ozuna & Cardi B)",
@@ -2326,14 +2334,16 @@
     "album": "Nakamura",
     "year": "2018",
     "bpm": 98,
-    "key": "F#m",
+    "key": "12B",
     "danceability": 0.92,
     "acousticness": 0.08,
     "genres": [],
     "country": "FR",
     "mbid": "cf580d82-3f3e-4b86-8874-7e0fbe794f01",
     "uri": "https://getsongbpm.com/song/pookie/w0QyQ8",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Sucette (feat. Niska)",
@@ -3270,7 +3280,7 @@
     "album": "Dozo",
     "year": "2017",
     "bpm": 101,
-    "key": "Cm",
+    "key": "5B",
     "danceability": 0.832,
     "acousticness": 0.27,
     "genres": [],
@@ -3282,7 +3292,9 @@
     "image": "https://i.scdn.co/image/ab67616d00004851bae4b271924a2d75fa0be594",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 55
+    "popularity": 55,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Cala Boca",
@@ -3524,8 +3536,8 @@
     "artist": "Sexion d'Assaut",
     "album": "L'École des points vitaux",
     "year": "2010",
-    "bpm": 114,
-    "key": "D",
+    "bpm": 115,
+    "key": "9B",
     "danceability": 0.932,
     "acousticness": 0.15,
     "genres": [
@@ -3540,7 +3552,9 @@
     "image": "https://i.scdn.co/image/ab67616d0000485199d53d8504478066f858f544",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 63
+    "popularity": 63,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Cosmo",
@@ -3548,7 +3562,7 @@
     "album": "Cosmopolitanie",
     "year": "2014",
     "bpm": 146,
-    "key": "Fm",
+    "key": "4B",
     "danceability": 0.693,
     "acousticness": 0.01,
     "genres": [
@@ -3563,7 +3577,9 @@
     "image": "https://i.scdn.co/image/ab67616d0000485120224ac0714054cd2ca38388",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 57
+    "popularity": 57,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Watch Out for This (Bumaye)",
@@ -4101,7 +4117,7 @@
     "album": "Unorthodox Jukebox",
     "year": "2012",
     "bpm": 144,
-    "key": "Dm",
+    "key": "7B",
     "danceability": 0.73,
     "acousticness": 0.05,
     "genres": [
@@ -4116,7 +4132,9 @@
     "spotifyId": "3RMhDlYRbbpOOcn0NLYXZY",
     "isrc": "USAT21203287",
     "image": "https://i.scdn.co/image/ab67616d000048513f71b0373d4640700ff960e6",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Want to Want Me",
@@ -4622,8 +4640,8 @@
     "artist": "Matthew Wilder",
     "album": "I Don't Speak the Language",
     "year": "1983",
-    "bpm": 112,
-    "key": "A#",
+    "bpm": 110,
+    "key": "7B",
     "danceability": 0.917,
     "acousticness": 0.2,
     "genres": [
@@ -4638,7 +4656,9 @@
     "image": "https://i.scdn.co/image/ab67616d000048519824c6e084b02d24b2e22e94",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 69
+    "popularity": 69,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Right Round",
@@ -5137,7 +5157,7 @@
     "album": "Barrio fino",
     "year": "2004",
     "bpm": 96,
-    "key": "C",
+    "key": "4B",
     "danceability": 0.852,
     "acousticness": 0.34,
     "genres": [
@@ -5153,7 +5173,9 @@
     "image": "https://i.scdn.co/image/ab67616d000048516bdcdf82ecce36bff808a40c",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 79
+    "popularity": 79,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "The Sweet Escape",
@@ -5267,7 +5289,7 @@
     "album": "L'Apogée",
     "year": "2012",
     "bpm": 125,
-    "key": "Fm",
+    "key": "4B",
     "danceability": 0.948,
     "acousticness": 0.15,
     "genres": [
@@ -5282,15 +5304,17 @@
     "image": "https://i.scdn.co/image/ab67616d0000485181e6951f23e0a64449c9e975",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 54
+    "popularity": 54,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Womanizer",
     "artist": "Britney Spears",
     "album": "Circus",
     "year": "2008",
-    "bpm": 136,
-    "key": "Dm",
+    "bpm": 139,
+    "key": "12B",
     "danceability": 0.724,
     "acousticness": 0.08,
     "genres": [
@@ -5305,7 +5329,9 @@
     "image": "https://i.scdn.co/image/ab67616d000048511abb421ac1fbbe52c127015e",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 77
+    "popularity": 77,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Poker Face",
@@ -13067,8 +13093,10 @@
     "title": "S&M",
     "artist": "Rihanna",
     "bpm": 128,
-    "key": "2A",
-    "source": "djay_pro"
+    "key": "2B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Aperture",
@@ -13347,8 +13375,10 @@
     "title": "Alors la zone",
     "artist": "Jul",
     "bpm": 125,
-    "key": "5A",
-    "source": "djay_pro"
+    "key": "5B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "My Favourite Things",
@@ -15219,7 +15249,7 @@
     "isrc": "USQY51798087",
     "image": "https://i.scdn.co/image/ab67616d0000485181376e47003d45f6513b5657",
     "bpm": 123,
-    "key": "F",
+    "key": "5B",
     "danceability": 0.727,
     "energy": 0.681,
     "valence": 0.448,
@@ -15234,7 +15264,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 67
+    "popularity": 67,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Petit génie",
@@ -29503,7 +29535,7 @@
     "isrc": "AUAP07900028",
     "image": "https://i.scdn.co/image/ab67616d0000485143058ea096fa35ac33c43587",
     "bpm": 117,
-    "key": "A",
+    "key": "11B",
     "danceability": 0.574,
     "energy": 0.913,
     "valence": 0.423,
@@ -29518,7 +29550,9 @@
     ],
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 83
+    "popularity": 83,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Come and Get Your Love - Single Version",
@@ -29661,7 +29695,7 @@
     "isrc": "FR7U61400704",
     "image": "https://i.scdn.co/image/ab67616d00004851e524693aba8849958b1f7e39",
     "bpm": 120,
-    "key": "F#",
+    "key": "11B",
     "danceability": 0.842,
     "energy": 0.777,
     "valence": 0.751,
@@ -29674,7 +29708,9 @@
       "Children's Music",
       "French Music"
     ],
-    "source": "songstats"
+    "source": "songstats",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Footloose",
@@ -29710,12 +29746,14 @@
     "spotifyId": "3MjUtNVVq3C8Fn0MP3zhXa",
     "isrc": "USJI19810404",
     "image": "https://i.scdn.co/image/ab67616d0000485136cf58e3e7cf36a145b1da18",
-    "bpm": 92,
-    "key": "Cm",
+    "bpm": 93,
+    "key": "5B",
     "source": "getsongbpm",
     "danceability": 0.759,
     "danceabilitySource": "reccobeats",
-    "popularity": 81
+    "popularity": 81,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Hips Don't Lie (feat. Wyclef Jean)",
@@ -30938,11 +30976,13 @@
     "isrc": "FRZ050400283",
     "image": "https://i.scdn.co/image/ab67616d00004851d5382545823cd591aa6b9ba4",
     "bpm": 100,
-    "key": "Em",
+    "key": "9B",
     "source": "getsongbpm",
     "danceability": 0.75,
     "danceabilitySource": "reccobeats",
-    "popularity": 30
+    "popularity": 30,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "4 mots sur un piano",
@@ -32336,7 +32376,7 @@
     "isrc": "FR10S2128331",
     "image": "https://i.scdn.co/image/ab67616d00004851ddf003a3f1fc7e12579e2eea",
     "bpm": 140,
-    "key": "F#",
+    "key": "2B",
     "danceability": 0.806,
     "energy": 0.637,
     "valence": 0.678,
@@ -32351,7 +32391,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 56
+    "popularity": 56,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Ce matin va être une pure soirée (feat. Big Ali, PZK, Dogg Soso et DJ Chris Prolls)",
@@ -32439,7 +32481,7 @@
     "isrc": "FRZ082000085",
     "image": "https://i.scdn.co/image/ab67616d0000485156be447302aeced38fd3c72c",
     "bpm": 122,
-    "key": "A#",
+    "key": "8B",
     "danceability": 0.891,
     "energy": 0.836,
     "valence": 0.315,
@@ -32453,7 +32495,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 47
+    "popularity": 47,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Closer",
@@ -32464,7 +32508,7 @@
     "isrc": "USUM71508235",
     "image": "https://i.scdn.co/image/ab67616d000048513d032d3653955186330aab1b",
     "bpm": 92,
-    "key": "D",
+    "key": "7B",
     "danceability": 0.583,
     "energy": 0.785,
     "valence": 0.355,
@@ -32479,7 +32523,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 54
+    "popularity": 54,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Better Now",
@@ -32489,12 +32535,14 @@
     "spotifyId": "7dt6x5M1jzdTEt8oCbisTK",
     "isrc": "USUM71805170",
     "image": "https://i.scdn.co/image/ab67616d00004851b1c4b76e23414c9f20242268",
-    "bpm": 144,
-    "key": "A#",
+    "bpm": 145,
+    "key": "6B",
     "source": "getsongbpm",
     "danceability": 0.674,
     "danceabilitySource": "reccobeats",
-    "popularity": 77
+    "popularity": 77,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Friday (feat. Mufasa & Hypeman) - Dopamine Re-Edit",
@@ -32531,7 +32579,7 @@
     "isrc": "USGOT0203017",
     "image": "https://i.scdn.co/image/ab67616d00004851c421502c2124683b7e7a100d",
     "bpm": 99,
-    "key": "D",
+    "key": "11B",
     "danceability": 0.757,
     "energy": 0.862,
     "valence": 0.823,
@@ -32546,7 +32594,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 69
+    "popularity": 69,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Alive - PH Electro Mix Radio",
@@ -32609,7 +32659,7 @@
     "isrc": "FRUM71700645",
     "image": "https://i.scdn.co/image/ab67616d000048518869c27805b30b6096a747dc",
     "bpm": 111,
-    "key": "D#",
+    "key": "2B",
     "danceability": 0.838,
     "energy": 0.853,
     "valence": 0.861,
@@ -32620,7 +32670,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 44
+    "popularity": 44,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Sexy Bitch (feat. Akon)",
@@ -32683,7 +32735,7 @@
     "isrc": "QMRSZ1800990",
     "image": "https://i.scdn.co/image/ab67616d000048514d77a0fda3414d90e6ecc367",
     "bpm": 123,
-    "key": "F",
+    "key": "5B",
     "danceability": 0.863,
     "energy": 0.781,
     "valence": 0.764,
@@ -32698,7 +32750,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 64
+    "popularity": 64,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Don't Stop Me Now - Remastered 2011",
@@ -32709,7 +32763,7 @@
     "isrc": "GBUM71029610",
     "image": "https://i.scdn.co/image/ab67616d000048517c39dd133836c2c1c87e34d6",
     "bpm": 156,
-    "key": "F",
+    "key": "7B",
     "danceability": 0.559,
     "energy": 0.868,
     "valence": 0.609,
@@ -32724,7 +32778,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 81
+    "popularity": 81,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "We Are Family - 1995 Remaster",
@@ -32761,7 +32817,7 @@
     "isrc": "FRZ052000117",
     "image": "https://i.scdn.co/image/ab67616d0000485147176351829920744e93bed4",
     "bpm": 123,
-    "key": "C#",
+    "key": "3B",
     "danceability": 0.945,
     "energy": 0.676,
     "valence": 0.631,
@@ -32776,7 +32832,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 52
+    "popularity": 52,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Cabeza",
@@ -32787,7 +32845,7 @@
     "isrc": "FR9OD2000170",
     "image": "https://i.scdn.co/image/ab67616d000048517eff5db797a21263e3d9b741",
     "bpm": 107,
-    "key": "F",
+    "key": "4B",
     "danceability": 0.884,
     "energy": 0.566,
     "valence": 0.565,
@@ -32799,7 +32857,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 63
+    "popularity": 63,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Petrouchka (feat. PLK)",
@@ -32810,7 +32870,7 @@
     "isrc": "FR9W12041647",
     "image": "https://i.scdn.co/image/ab67616d00004851cebb98909d6837d2b73f0331",
     "bpm": 134,
-    "key": "F#",
+    "key": "2B",
     "danceability": 0.624,
     "energy": 0.802,
     "valence": 0.818,
@@ -32825,7 +32885,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 54
+    "popularity": 54,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Daddy chocolat",
@@ -32836,7 +32898,7 @@
     "isrc": "FRUM72100976",
     "image": "https://i.scdn.co/image/ab67616d00004851dac67e9984128b3262cf643b",
     "bpm": 141,
-    "key": "G",
+    "key": "10B",
     "danceability": 0.721,
     "energy": 0.523,
     "valence": 0.757,
@@ -32848,7 +32910,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 61
+    "popularity": 61,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Alicante",
@@ -32883,7 +32947,7 @@
     "isrc": "FRX281968933",
     "image": "https://i.scdn.co/image/ab67616d00004851aafad46d1e7be4011d0c4e6b",
     "bpm": 120,
-    "key": "D#",
+    "key": "2B",
     "danceability": 0.875,
     "energy": 0.613,
     "valence": 0.752,
@@ -32894,7 +32958,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 32
+    "popularity": 32,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "La Seleçao",
@@ -32943,7 +33009,7 @@
     "isrc": "FRD1C1800120",
     "image": "https://i.scdn.co/image/ab67616d00004851546a87c8bba9d409808fede9",
     "bpm": 117,
-    "key": "C#",
+    "key": "12B",
     "danceability": 0.935,
     "energy": 0.613,
     "valence": 0.626,
@@ -32955,7 +33021,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 56
+    "popularity": 56,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Khapta",
@@ -32966,7 +33034,7 @@
     "isrc": "FRD1C1800150",
     "image": "https://i.scdn.co/image/ab67616d00004851546a87c8bba9d409808fede9",
     "bpm": 125,
-    "key": "E",
+    "key": "8B",
     "danceability": 0.811,
     "energy": 0.692,
     "valence": 0.817,
@@ -32978,7 +33046,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 54
+    "popularity": 54,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Dans l'espace (feat. Heuss l'Enfoiré)",
@@ -32989,7 +33059,7 @@
     "isrc": "FRZ042000004",
     "image": "https://i.scdn.co/image/ab67616d00004851e2dbd0642a19634ae9524e43",
     "bpm": 110,
-    "key": "C#",
+    "key": "1B",
     "danceability": 0.916,
     "energy": 0.57,
     "valence": 0.7,
@@ -33004,7 +33074,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 54
+    "popularity": 54,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "En détente",
@@ -33015,7 +33087,7 @@
     "isrc": "FR59R1914721",
     "image": "https://i.scdn.co/image/ab67616d00004851d187f172e01dc2b9d5942348",
     "bpm": 140,
-    "key": "A",
+    "key": "8B",
     "danceability": 0.926,
     "energy": 0.662,
     "valence": 0.725,
@@ -33027,7 +33099,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 55
+    "popularity": 55,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "C'est la night",
@@ -33038,7 +33112,7 @@
     "isrc": "FRUM72002083",
     "image": "https://i.scdn.co/image/ab67616d000048515e1e05eba32814387f078c10",
     "bpm": 120,
-    "key": "A",
+    "key": "8B",
     "danceability": 0.732,
     "energy": 0.878,
     "valence": 0.502,
@@ -33052,7 +33126,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 35
+    "popularity": 35,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Trois nuits par semaine",
@@ -33089,7 +33165,7 @@
     "isrc": "FR9W11621446",
     "image": "https://i.scdn.co/image/ab67616d000048513dd46d9da83967032af3155c",
     "bpm": 134,
-    "key": "C#",
+    "key": "12B",
     "danceability": 0.674,
     "energy": 0.856,
     "valence": 0.455,
@@ -33104,7 +33180,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 13
+    "popularity": 13,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Laissez passer - Pilule bleue",
@@ -33115,7 +33193,7 @@
     "isrc": "FR7U61400682",
     "image": "https://i.scdn.co/image/ab67616d000048513f8461ee3e57bce8783760cd",
     "bpm": 130,
-    "key": "G",
+    "key": "6B",
     "danceability": 0.494,
     "energy": 0.741,
     "valence": 0.774,
@@ -33130,7 +33208,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 37
+    "popularity": 37,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Bella",
@@ -33156,7 +33236,7 @@
     "isrc": "SEYOK1406001",
     "image": "https://i.scdn.co/image/ab67616d000048518fe4ef2f0d1f1ec85aa91987",
     "bpm": 128,
-    "key": "C",
+    "key": "8B",
     "danceability": 0.883,
     "energy": 0.817,
     "valence": 0.595,
@@ -33171,7 +33251,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 31
+    "popularity": 31,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Macarena",
@@ -33329,7 +33411,7 @@
     "isrc": "GBUM71003721",
     "image": "https://i.scdn.co/image/ab67616d00004851c434f98f315c12a0f4d049a0",
     "bpm": 120,
-    "key": "E",
+    "key": "12B",
     "danceability": 0.751,
     "energy": 0.781,
     "valence": 0.814,
@@ -33344,7 +33426,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 69
+    "popularity": 69,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Dancin - Krono Remix",
@@ -33522,7 +33606,7 @@
     "isrc": "FRDCN2100020",
     "image": "https://i.scdn.co/image/ab67616d00004851968b37b3e29f9c90170bce7e",
     "bpm": 102,
-    "key": "E",
+    "key": "8B",
     "danceability": 0.853,
     "energy": 0.641,
     "valence": 0.629,
@@ -33536,7 +33620,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 15
+    "popularity": 15,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Les menottes",
@@ -33547,7 +33633,7 @@
     "isrc": "FR2MX1800270",
     "image": "https://i.scdn.co/image/ab67616d00004851465f5083f3224254b88f6e68",
     "bpm": 95,
-    "key": "D",
+    "key": "8B",
     "danceability": 0.866,
     "energy": 0.8,
     "valence": 0.814,
@@ -33560,7 +33646,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 20
+    "popularity": 20,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Va Bene - Extrait de la BOF de \"Taxi 5\"",
@@ -33571,7 +33659,7 @@
     "isrc": "FRUM71800285",
     "image": "https://i.scdn.co/image/ab67616d00004851465f5083f3224254b88f6e68",
     "bpm": 100,
-    "key": "C",
+    "key": "6B",
     "danceability": 0.793,
     "energy": 0.946,
     "valence": 0.742,
@@ -33584,7 +33672,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 26
+    "popularity": 26,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Sapés comme jamais (feat. Niska) - Pilule bleue",
@@ -33621,11 +33711,13 @@
     "isrc": "FR0U91501885",
     "image": "https://i.scdn.co/image/ab67616d000048519619db1287681309e4afdeb0",
     "bpm": 127,
-    "key": "B",
+    "key": "10B",
     "source": "getsongbpm",
     "danceability": 0.882,
     "danceabilitySource": "reccobeats",
-    "popularity": 50
+    "popularity": 50,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Con Calma",
@@ -33661,12 +33753,14 @@
     "spotifyId": "6bXd0YhKLCTvlLVc4tErH9",
     "isrc": "FR0U91601184",
     "image": "https://i.scdn.co/image/ab67616d000048519bc3e80d5e9fb9bde9df0e71",
-    "bpm": 110,
-    "key": "Em",
+    "bpm": 111,
+    "key": "9B",
     "source": "getsongbpm",
     "danceability": 0.95,
     "danceabilitySource": "reccobeats",
-    "popularity": 57
+    "popularity": 57,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "All Around The World (La La La)",
@@ -33701,7 +33795,7 @@
     "isrc": "FRX282131336",
     "image": "https://i.scdn.co/image/ab67616d000048511253bb13501effd541bdbe1e",
     "bpm": 138,
-    "key": "G",
+    "key": "6B",
     "danceability": 0.919,
     "energy": 0.779,
     "valence": 0.941,
@@ -33716,7 +33810,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 52
+    "popularity": 52,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Instagram",
@@ -33753,11 +33849,13 @@
     "isrc": "FR7IX1900100",
     "image": "https://i.scdn.co/image/ab67616d000048511293919e912b68090f27b237",
     "bpm": 122,
-    "key": "C",
+    "key": "8B",
     "source": "getsongbpm",
     "danceability": 0.93,
     "danceabilitySource": "reccobeats",
-    "popularity": 48
+    "popularity": 48,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "On Fleek",
@@ -33829,7 +33927,7 @@
     "isrc": "FXQ021900346",
     "image": "https://i.scdn.co/image/ab67616d00004851a030657ace6d420ba6d1c8f3",
     "bpm": 100,
-    "key": "G",
+    "key": "7B",
     "danceability": 0.773,
     "energy": 0.731,
     "valence": 0.521,
@@ -33840,7 +33938,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 24
+    "popularity": 24,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Oops!...I Did It Again",
@@ -33851,7 +33951,7 @@
     "isrc": "USJI10000100",
     "image": "https://i.scdn.co/image/ab67616d00004851c50b7d96737041f4bfd844d6",
     "bpm": 95,
-    "key": "C#",
+    "key": "12B",
     "danceability": 0.751,
     "energy": 0.834,
     "valence": 0.894,
@@ -33866,7 +33966,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 79
+    "popularity": 79,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Mamasita",
@@ -33876,12 +33978,14 @@
     "spotifyId": "4tCkMthFVBrLqT2H4Td3gV",
     "isrc": "FR0U91501877",
     "image": "https://i.scdn.co/image/ab67616d000048519619db1287681309e4afdeb0",
-    "bpm": 129,
-    "key": "A#m",
+    "bpm": 130,
+    "key": "4B",
     "source": "getsongbpm",
     "danceability": 0.767,
     "danceabilitySource": "reccobeats",
-    "popularity": 48
+    "popularity": 48,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Drôle de dame",
@@ -33892,11 +33996,13 @@
     "isrc": "FR0U91701010",
     "image": "https://i.scdn.co/image/ab67616d0000485118260dfae50297106d8c9e47",
     "bpm": 134,
-    "key": "Em",
+    "key": "9B",
     "source": "getsongbpm",
     "danceability": 0.855,
     "danceabilitySource": "reccobeats",
-    "popularity": 57
+    "popularity": 57,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "D O D O",
@@ -33907,7 +34013,7 @@
     "isrc": "FR8FB2123550",
     "image": "https://i.scdn.co/image/ab67616d000048514001bb26221b4b41ff58d0f4",
     "bpm": 99,
-    "key": "F",
+    "key": "4B",
     "danceability": 0.678,
     "energy": 0.646,
     "valence": 0.582,
@@ -33922,7 +34028,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 65
+    "popularity": 65,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "This Girl (Kungs Vs. Cookin' On 3 Burners) - Kungs Vs. Cookin' On 3 Burners",
@@ -33988,9 +34096,11 @@
     "spotifyId": "005lwxGU1tms6HGELIcUv9",
     "isrc": "USCA20801738",
     "image": "https://i.scdn.co/image/ab67616d00004851cd3978ebe35d93a07249b97f",
-    "bpm": 129,
-    "key": "Am",
-    "source": "getsongbpm"
+    "bpm": 130,
+    "key": "8B",
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Whistle",
@@ -34000,12 +34110,14 @@
     "spotifyId": "7q0cXzFMcNVmCvBU3mZveQ",
     "isrc": "USAT21201745",
     "image": "https://i.scdn.co/image/ab67616d0000485187be2cd7396e138e74cb347c",
-    "bpm": 103,
-    "key": "C",
+    "bpm": 104,
+    "key": "8B",
     "source": "getsongbpm",
     "danceability": 0.747,
     "danceabilitySource": "reccobeats",
-    "popularity": 42
+    "popularity": 42,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Call on Me",
@@ -34042,11 +34154,13 @@
     "isrc": "FR0U91900070",
     "image": "https://i.scdn.co/image/ab67616d000048513c505b5ddcbdf80c7dff5a1f",
     "bpm": 130,
-    "key": "Gm",
+    "key": "6B",
     "source": "getsongbpm",
     "danceability": 0.847,
     "danceabilitySource": "reccobeats",
-    "popularity": 63
+    "popularity": 63,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Lettre à une femme",
@@ -34057,7 +34171,7 @@
     "isrc": "FR9W12003586",
     "image": "https://i.scdn.co/image/ab67616d00004851c87301272483342e22c8233c",
     "bpm": 149,
-    "key": "C#",
+    "key": "12B",
     "danceability": 0.487,
     "energy": 0.398,
     "valence": 0.905,
@@ -34070,7 +34184,9 @@
       "French Hip Hop",
       "French Music"
     ],
-    "source": "songstats"
+    "source": "songstats",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Meleğim",
@@ -34080,8 +34196,8 @@
     "spotifyId": "5XMT0AjgaDznasVZFSNrP5",
     "isrc": "FR9KQ2000560",
     "image": "https://i.scdn.co/image/ab67616d00004851be0b9627d24d21ecf0fe95bb",
-    "bpm": 95,
-    "key": "D#",
+    "bpm": 94,
+    "key": "2B",
     "danceability": 0.461,
     "energy": 0.697,
     "valence": 0.57,
@@ -34096,7 +34212,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 16
+    "popularity": 16,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Distant",
@@ -34107,7 +34225,7 @@
     "isrc": "FR9W11928287",
     "image": "https://i.scdn.co/image/ab67616d000048517773c21a97dccbf3215eada4",
     "bpm": 105,
-    "key": "E",
+    "key": "9B",
     "danceability": 0.781,
     "energy": 0.732,
     "valence": 0.447,
@@ -34122,7 +34240,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 39
+    "popularity": 39,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Slide",
@@ -34133,7 +34253,7 @@
     "isrc": "FRZ052000514",
     "image": "https://i.scdn.co/image/ab67616d000048514291cefe47eedf553cd72c09",
     "bpm": 124,
-    "key": "F#",
+    "key": "12B",
     "danceability": 0.906,
     "energy": 0.588,
     "valence": 0.785,
@@ -34143,7 +34263,9 @@
       "Hip Hop/Rap",
       "Rap"
     ],
-    "source": "songstats"
+    "source": "songstats",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Toto et Ninetta",
@@ -34154,11 +34276,13 @@
     "isrc": "FR0U91800184",
     "image": "https://i.scdn.co/image/ab67616d00004851f3e8990652f0a336ae55f26a",
     "bpm": 112,
-    "key": "C",
+    "key": "8B",
     "source": "getsongbpm",
     "danceability": 0.801,
     "danceabilitySource": "reccobeats",
-    "popularity": 63
+    "popularity": 63,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Run the World (Girls)",
@@ -34169,8 +34293,10 @@
     "isrc": "USSM11102447",
     "image": "https://i.scdn.co/image/ab67616d000048519dcb7f938130fc270ab2da4a",
     "bpm": 127,
-    "key": "C",
-    "source": "getsongbpm"
+    "key": "8B",
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Work Bitch",
@@ -34181,11 +34307,13 @@
     "isrc": "USRC11301398",
     "image": "https://i.scdn.co/image/ab67616d000048513c9f7b8faf039c7607d12255",
     "bpm": 128,
-    "key": "A",
+    "key": "12B",
     "source": "getsongbpm",
     "danceability": 0.629,
     "danceabilitySource": "reccobeats",
-    "popularity": 66
+    "popularity": 66,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Applause",
@@ -34195,9 +34323,11 @@
     "spotifyId": "0y6eiIzqeTFUGhwlIB0be9",
     "isrc": "USUM71310271",
     "image": "https://i.scdn.co/image/ab67616d00004851a7c9fc43ec247a0b0fa74824",
-    "bpm": 139,
-    "key": "Gm",
-    "source": "getsongbpm"
+    "bpm": 140,
+    "key": "6B",
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "WAP (feat. Megan Thee Stallion)",
@@ -34234,7 +34364,7 @@
     "isrc": "FRZ042000460",
     "image": "https://i.scdn.co/image/ab67616d000048517ae6f60c9407183522815516",
     "bpm": 123,
-    "key": "F",
+    "key": "7B",
     "danceability": 0.851,
     "energy": 0.567,
     "valence": 0.338,
@@ -34249,7 +34379,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 45
+    "popularity": 45,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "POPOPOP",
@@ -34260,7 +34392,7 @@
     "isrc": "FRZ041901856",
     "image": "https://i.scdn.co/image/ab67616d000048517ae6f60c9407183522815516",
     "bpm": 130,
-    "key": "C",
+    "key": "5B",
     "danceability": 0.839,
     "energy": 0.643,
     "valence": 0.45,
@@ -34275,7 +34407,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 60
+    "popularity": 60,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Mother Fuck",
@@ -34312,7 +34446,7 @@
     "isrc": "FR9W11815781",
     "image": "https://i.scdn.co/image/ab67616d0000485185141f12480a9725b80c1c72",
     "bpm": 98,
-    "key": "D#",
+    "key": "1B",
     "danceability": 0.851,
     "energy": 0.626,
     "valence": 0.718,
@@ -34326,7 +34460,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 60
+    "popularity": 60,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Elle est bonne sa mère",
@@ -34337,7 +34473,7 @@
     "isrc": "FR9W11909218",
     "image": "https://i.scdn.co/image/ab67616d00004851df2cc28c1b054d1e4d2b3491",
     "bpm": 105,
-    "key": "E",
+    "key": "9B",
     "danceability": 0.783,
     "energy": 0.741,
     "valence": 0.466,
@@ -34352,7 +34488,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 42
+    "popularity": 42,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Can't Hold Us (feat. Ray Dalton)",
@@ -34389,7 +34527,7 @@
     "isrc": "QZES71982312",
     "image": "https://i.scdn.co/image/ab67616d0000485177585db2f9a5cd4e2d096ad4",
     "bpm": 98,
-    "key": "F#",
+    "key": "11B",
     "danceability": 0.824,
     "energy": 0.587,
     "valence": 0.514,
@@ -34402,7 +34540,9 @@
       "Dance Pop",
       "Dance"
     ],
-    "source": "songstats"
+    "source": "songstats",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "L'alcool c'est de l'eau",
@@ -34413,7 +34553,7 @@
     "isrc": "FR2O01300007",
     "image": "https://i.scdn.co/image/ab67616d000048512db40504e3245aca6b9d5501",
     "bpm": 128,
-    "key": "C",
+    "key": "7B",
     "danceability": 0.891,
     "energy": 0.951,
     "valence": 0.765,
@@ -34427,7 +34567,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 43
+    "popularity": 43,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Fous ta cagoule",
@@ -34464,7 +34606,7 @@
     "isrc": "FR7O52000480",
     "image": "https://i.scdn.co/image/ab67616d00004851ab779f2adb1007f0321ecab8",
     "bpm": 127,
-    "key": "B",
+    "key": "10B",
     "danceability": 0.748,
     "energy": 0.731,
     "valence": 0.686,
@@ -34479,7 +34621,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 51
+    "popularity": 51,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Bimbo",
@@ -34490,7 +34634,7 @@
     "isrc": "FR7IX2100210",
     "image": "https://i.scdn.co/image/ab67616d0000485136cc19f8c1279def342701de",
     "bpm": 113,
-    "key": "D",
+    "key": "10B",
     "danceability": 0.976,
     "energy": 0.578,
     "valence": 0.803,
@@ -34504,7 +34648,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 38
+    "popularity": 38,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Calabria 2007",
@@ -34657,7 +34803,7 @@
     "isrc": "FRZ160400064",
     "image": "https://i.scdn.co/image/ab67616d000048512eab60771a1f915eea2fdd39",
     "bpm": 117,
-    "key": "D#",
+    "key": "2B",
     "danceability": 0.751,
     "energy": 0.746,
     "valence": 0.734,
@@ -34669,7 +34815,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 65
+    "popularity": 65,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Dans tes yeux",
@@ -34680,11 +34828,13 @@
     "isrc": "FR0U91800498",
     "image": "https://i.scdn.co/image/ab67616d00004851160968e91c16801cf89f2275",
     "bpm": 123,
-    "key": "Em",
+    "key": "10B",
     "source": "getsongbpm",
     "danceability": 0.831,
     "danceabilitySource": "reccobeats",
-    "popularity": 54
+    "popularity": 54,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Dégaine (feat. Damso)",
@@ -34695,7 +34845,7 @@
     "isrc": "FRZ042200253",
     "image": "https://i.scdn.co/image/ab67616d00004851082f7d6628daeb0aa83cafec",
     "bpm": 178,
-    "key": "A#",
+    "key": "4B",
     "danceability": 0.618,
     "energy": 0.698,
     "valence": 0.784,
@@ -34707,7 +34857,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 56
+    "popularity": 56,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Putana",
@@ -34718,7 +34870,7 @@
     "isrc": "FR9W11903549",
     "image": "https://i.scdn.co/image/ab67616d000048518c7e885a89abd9500f39a1d0",
     "bpm": 104,
-    "key": "D",
+    "key": "7B",
     "danceability": 0.717,
     "energy": 0.774,
     "valence": 0.511,
@@ -34732,7 +34884,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 69
+    "popularity": 69,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Maman ne le sait pas (feat. Niska)",
@@ -34793,12 +34947,14 @@
     "spotifyId": "0SKNkEMV313mE6oYsgVCgm",
     "isrc": "FR2MX1300150",
     "image": "https://i.scdn.co/image/ab67616d0000485185d9fb2e7833cb239769c02d",
-    "bpm": 119,
-    "key": "Cm",
+    "bpm": 120,
+    "key": "6B",
     "source": "getsongbpm",
     "danceability": 0.959,
     "danceabilitySource": "reccobeats",
-    "popularity": 64
+    "popularity": 64,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Parle à ma main (feat. Yelle & Christelle)",
@@ -34835,7 +34991,7 @@
     "isrc": "USSM11901941",
     "image": "https://i.scdn.co/image/ab67616d000048516239187793c9e492e687db01",
     "bpm": 136,
-    "key": "C#",
+    "key": "1B",
     "danceability": 0.907,
     "energy": 0.53,
     "valence": 0.507,
@@ -34850,7 +35006,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 70
+    "popularity": 70,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Déconnectés",
@@ -34913,7 +35071,7 @@
     "isrc": "DEN061800398",
     "image": "https://i.scdn.co/image/ab67616d00004851ba3c9ac5529172132ae4f589",
     "bpm": 126,
-    "key": "D",
+    "key": "10B",
     "danceability": 0.756,
     "energy": 0.756,
     "valence": 0.27,
@@ -34928,7 +35086,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 46
+    "popularity": 46,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "La Isla Bonita",
@@ -34939,7 +35099,7 @@
     "isrc": "DEPX11900015",
     "image": "https://i.scdn.co/image/ab67616d00004851503ad4097349b4dca59de11e",
     "bpm": 108,
-    "key": "C#",
+    "key": "12B",
     "danceability": 0.733,
     "energy": 0.86,
     "valence": 0.599,
@@ -34950,7 +35110,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 41
+    "popularity": 41,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "OK",
@@ -34976,7 +35138,7 @@
     "isrc": "BEK011800078",
     "image": "https://i.scdn.co/image/ab67616d000048516770c93a5dec31a4c7ca0f0c",
     "bpm": 128,
-    "key": "A",
+    "key": "8B",
     "danceability": 0.665,
     "energy": 0.972,
     "valence": 0.165,
@@ -34991,7 +35153,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 35
+    "popularity": 35,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "In My Mind",
@@ -35080,7 +35244,7 @@
     "isrc": "CH3131900832",
     "image": "https://i.scdn.co/image/ab67616d00004851ea83d2d21d254a9a7a757393",
     "bpm": 126,
-    "key": "A#",
+    "key": "7B",
     "danceability": 0.873,
     "energy": 0.924,
     "valence": 0.537,
@@ -35095,7 +35259,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 42
+    "popularity": 42,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Great Spirit",
@@ -35158,8 +35324,10 @@
     "isrc": "FR6V80873210",
     "image": "https://i.scdn.co/image/ab67616d000048518ed2d2d3e57eeaedd5d818ad",
     "bpm": 129,
-    "key": "Bm",
-    "source": "getsongbpm"
+    "key": "10B",
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Drop That Low (When I Dip)",
@@ -35170,7 +35338,7 @@
     "isrc": "NLZ541501187",
     "image": "https://i.scdn.co/image/ab67616d00004851bd431f060eff67633a72ffb3",
     "bpm": 126,
-    "key": "F",
+    "key": "6B",
     "danceability": 0.586,
     "energy": 0.896,
     "valence": 0.103,
@@ -35185,7 +35353,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 64
+    "popularity": 64,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Sun Is Up",
@@ -35221,12 +35391,14 @@
     "spotifyId": "49qQQcd8wONsOy3PwnZKHB",
     "isrc": "FR0U91700595",
     "image": "https://i.scdn.co/image/ab67616d00004851554900f75e6e959bdfa49f74",
-    "bpm": 127,
-    "key": "C#m",
+    "bpm": 128,
+    "key": "12B",
     "source": "getsongbpm",
     "danceability": 0.828,
     "danceabilitySource": "reccobeats",
-    "popularity": 61
+    "popularity": 61,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Katchi - Ofenbach vs. Nick Waterhouse",
@@ -35326,7 +35498,7 @@
     "isrc": "FR2MX2200010",
     "image": "https://i.scdn.co/image/ab67616d000048518c6878139a067548bc0a213c",
     "bpm": 134,
-    "key": "F",
+    "key": "4B",
     "danceability": 0.785,
     "energy": 0.834,
     "valence": 0.686,
@@ -35341,7 +35513,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 31
+    "popularity": 31,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Quevedo: Bzrp Music Sessions, Vol. 52/66",
@@ -47473,6 +47647,636 @@
     "artist": "Ann Lee",
     "title": "2 Times - Original",
     "bpm": 130,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Ninho, Fally Ipupa",
+    "title": "À Kinshasa (feat. Fally Ipupa)",
+    "bpm": 133,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "La Bande à Basile",
+    "title": "A la queue leu leu",
+    "bpm": 137,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "DJ Vielo, DJ Anilson, Le D",
+    "title": "A ma table - Original version",
+    "bpm": 128,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Gambino",
+    "title": "Alicante",
+    "bpm": 135,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Mondotek",
+    "title": "Alive - PH Electro Mix Radio",
+    "bpm": 130,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Jul",
+    "title": "Avant la douane",
+    "bpm": 138,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "David Guetta, Showtek, VASSY",
+    "title": "Bad (feat. Vassy) - Radio Edit",
+    "bpm": 128,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "13 Organisé, SCH, Kofs, Jul, Naps, Soso Maness, Elams, Solda, Houari",
+    "title": "Bande organisée",
+    "bpm": 143,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Madcon",
+    "title": "Beggin (original version)",
+    "bpm": 129,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "GIMS",
+    "title": "Bella",
+    "bpm": 103,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "SweetSounds4You",
+    "title": "Blue",
+    "bpm": 101,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Taïro",
+    "title": "Bonne weed",
+    "bpm": 72,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Helmut Fritz",
+    "title": "Ça m'énerve - Radio Edit",
+    "bpm": 130,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Enur, Natasja",
+    "title": "Calabria 2008 (feat. Natasja)",
+    "bpm": 126,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Fatal Bazooka, Big Ali, Chris Prolls, Dogg Soso, PZK",
+    "title": "Ce matin va être une pure soirée (feat. Big Ali, PZK, Dogg SoSo, Chris Prolls)",
+    "bpm": 134,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Lartiste, Awa Imani",
+    "title": "Chocolat (feat. Awa Imani)",
+    "bpm": 109,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Flo Rida, David Guetta",
+    "title": "Club Can't Handle Me (feat. David Guetta)",
+    "bpm": 128,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Diam's, Vitaa",
+    "title": "Confessions Nocturnes",
+    "bpm": 82,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Aaron Smith, Krono, Luvli",
+    "title": "Dancin (feat. Luvli) - Krono Remix",
+    "bpm": 120,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "DJ Hamida, Lartiste, Kayna Samet, Rim'K",
+    "title": "Déconnectés",
+    "bpm": 108,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Imany, Filatov & Karas",
+    "title": "Don't Be so Shy - Filatov & Karas Remix",
+    "bpm": 120,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Calvin Harris",
+    "title": "Feel So Close - Radio Edit",
+    "bpm": 128,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "DJ Kayz, Jul",
+    "title": "Fidèle à ma team (feat. Jul)",
+    "bpm": 120,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Eva",
+    "title": "Flex",
+    "bpm": 130,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Fatal Bazooka",
+    "title": "Fous ta cagoule - Radio Edit",
+    "bpm": 96,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Armin van Buuren, Vini Vici, Hilight Tribe",
+    "title": "Great Spirit",
+    "bpm": 104,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Dimitri Vegas & Like Mike, David Guetta, Daddy Yankee, Afro Bros, NATTI NATASHA, Dimitri Vegas, Like Mike",
+    "title": "Instagram",
+    "bpm": 96,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Lorenz Büffel",
+    "title": "Johnny Däpp",
+    "bpm": 132,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Lady Gaga, Colby O'Donis",
+    "title": "Just Dance",
+    "bpm": 119,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Ofenbach, Nick Waterhouse",
+    "title": "Katchi - Ofenbach vs. Nick Waterhouse",
+    "bpm": 125,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Eva, KeBlack, Naza",
+    "title": "Kitoko",
+    "bpm": 116,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Diam's",
+    "title": "La Boulette (Génération Nan Nan)",
+    "bpm": 99,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Alonzo, Jul, Naps",
+    "title": "La Seleçao",
+    "bpm": 127,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Madison's Band",
+    "title": "Last Night",
+    "bpm": 124,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "The Prince Karma",
+    "title": "Later Bitches",
+    "bpm": 121,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Major Lazer, DJ Snake, MØ",
+    "title": "Lean On",
+    "bpm": 98,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "DJ Snake, J Balvin, Tyga",
+    "title": "Loco Contigo (feat. J. Balvin & Tyga)",
+    "bpm": 96,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Lartiste, Caroliina",
+    "title": "Mafiosa (feat. Caroliina)",
+    "bpm": 129,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Magic System, Chawki",
+    "title": "Magic in the Air (feat. Ahmed Chawki)",
+    "bpm": 128,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Black Eyed Peas, Ozuna, J. Rey Soul",
+    "title": "MAMACITA",
+    "bpm": 105,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Ninho, Niska",
+    "title": "Maman ne le sait pas (feat. Niska)",
+    "bpm": 145,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Jul, SCH",
+    "title": "Mother Fuck",
+    "bpm": 140,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Heuss L'enfoiré, Jul",
+    "title": "Moulaga",
+    "bpm": 125,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Gradur, Heuss L'enfoiré",
+    "title": "Ne reviens pas",
+    "bpm": 125,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Robin Schulz, James Blunt",
+    "title": "OK",
+    "bpm": 122,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Eva, Lartiste",
+    "title": "On Fleek",
+    "bpm": 97,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Zola, Ninho",
+    "title": "Papers",
+    "bpm": 134,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Fatal Bazooka, Christelle, Yelle",
+    "title": "Parle à ma main (feat. Yelle et Christelle)",
+    "bpm": 124,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "LMFAO, Lauren Bennett, GoonRock",
+    "title": "Party Rock Anthem",
+    "bpm": 130,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Eva Simons, Konshens",
+    "title": "Policeman",
+    "bpm": 105,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Ninocess, Alrima, Le D, Canardo, Sultan, Leck",
+    "title": "Provoquer",
+    "bpm": 128,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Black Eyed Peas",
+    "title": "Pump It",
+    "bpm": 154,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Vegedream",
+    "title": "Ramenez la coupe à la maison",
+    "bpm": 108,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Flo Rida, Kesha",
+    "title": "Right Round",
+    "bpm": 125,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Clean Bandit, Sean Paul, Anne-Marie",
+    "title": "Rockabye",
+    "bpm": 102,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Jul",
+    "title": "Rosé jetski playa",
+    "bpm": 138,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "David Guetta, Akon",
+    "title": "Sexy Bitch (feat. Akon)",
+    "bpm": 130,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Justin Timberlake, Timbaland",
+    "title": "SexyBack (feat. Timbaland)",
+    "bpm": 117,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Garou, Céline Dion",
+    "title": "Sous le vent",
+    "bpm": 141,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "INNA",
+    "title": "Sun Is Up - Play & Win Radio Version",
+    "bpm": 128,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Jul",
+    "title": "Superstar",
+    "bpm": 124,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "DJ Snake, Selena Gomez, Ozuna, Cardi B",
+    "title": "Taki Taki (feat. Selena Gomez, Ozuna & Cardi B)",
+    "bpm": 96,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Fly Project",
+    "title": "Toca Toca - Radio Edit",
+    "bpm": 126,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Alonzo, Ninho, Naps",
+    "title": "TOUT VA BIEN (feat. Ninho & Naps)",
+    "bpm": 100,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Riton, Oliver Heldens, Vula",
+    "title": "Turn Me On (feat. Vula)",
+    "bpm": 124,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Dj Leska, Vegedream, KGS",
+    "title": "Vay",
+    "bpm": 98,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Cardi B, Megan Thee Stallion",
+    "title": "WAP (feat. Megan Thee Stallion)",
+    "bpm": 133,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Sister Sledge",
+    "title": "We Are Family - 1995 Remaster",
+    "bpm": 119,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Queen",
+    "title": "We Will Rock You - Remastered 2011",
+    "bpm": 81,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Indochine",
+    "title": "3 nuits par semaine",
+    "bpm": 138,
     "key": "7B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
