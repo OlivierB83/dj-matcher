@@ -63,6 +63,15 @@ echo "  Ctrl-C pour annuler."
 echo "============================================================"
 read -r _confirm
 
+# Snapshot Songstats usage BEFORE the commit so we can show "this run
+# burned N requests" at the end. Songstats is billed per call (~0.01 €).
+SONGSTATS_BEFORE=$(node -e "
+const fs = require('fs');
+if (!fs.existsSync('./songstats-usage-log.json')) { console.log(0); process.exit(0); }
+const c = fs.readFileSync('./songstats-usage-log.json', 'utf8').trim();
+console.log(c ? JSON.parse(c).length : 0);
+")
+
 echo
 echo "============================================================"
 echo "  COMMIT 1/2 : djay-ax-import.js --commit (avec enrichment)"
@@ -76,11 +85,21 @@ echo "============================================================"
 node dedup-versions.js --commit
 
 CATALOG_COUNT=$(node -e "console.log(require('./knownTracks.json').length)")
+SONGSTATS_AFTER=$(node -e "
+const fs = require('fs');
+if (!fs.existsSync('./songstats-usage-log.json')) { console.log(0); process.exit(0); }
+const c = fs.readFileSync('./songstats-usage-log.json', 'utf8').trim();
+console.log(c ? JSON.parse(c).length : 0);
+")
+SONGSTATS_DELTA=$((SONGSTATS_AFTER - SONGSTATS_BEFORE))
+SONGSTATS_COST=$(node -e "console.log(($SONGSTATS_DELTA * 0.01).toFixed(2))")
 
 echo
 echo "============================================================"
 echo "  📚 Catalogue : ${CATALOG_COUNT} titres"
+echo "  💸 Songstats sur ce run : ${SONGSTATS_DELTA} requêtes (~${SONGSTATS_COST} €)"
 echo "============================================================"
+node songstats-usage-report.js
 echo
 
 # git: only commit + push if knownTracks.json actually changed.
