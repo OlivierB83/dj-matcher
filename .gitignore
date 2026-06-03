@@ -30,5 +30,7 @@ dist
 # Backups produced by normalize-catalog-bpm.js etc.
 knownTracks.bak.*.json
 
-# Compiled Swift OCR binary (rebuild locally: swiftc djay-ocr.swift -O -o djay-ocr)
+# Compiled Swift binaries (rebuild locally — they're arm64 Mach-O and don't belong in git)
 /djay-ocr
+/djay-ax-probe
+/djay-ax-extract
