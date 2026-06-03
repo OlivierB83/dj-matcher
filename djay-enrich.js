@@ -19,13 +19,38 @@
  */
 
 import "dotenv/config";
+import fs from "fs";
 
 const CID = process.env.SPOTIFY_CLIENT_ID;
 const CSECRET = process.env.SPOTIFY_CLIENT_SECRET;
 const GETSONGBPM_API_KEY = process.env.GETSONGBPM_API_KEY;
 const SONGSTATS_API_KEY = process.env.SONGSTATS_API_KEY;
 
+const SONGSTATS_USAGE_LOG_FILE = "./songstats-usage-log.json";
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// Mirrors catalog-builder.js — every Songstats call is paid (~0.01 €),
+// so every call gets a journal entry. `node songstats-usage-report.js`
+// reads this file to show monthly + lifetime totals.
+function logSongstatsRequest(track) {
+  let logs = [];
+  if (fs.existsSync(SONGSTATS_USAGE_LOG_FILE)) {
+    const content = fs.readFileSync(SONGSTATS_USAGE_LOG_FILE, "utf8").trim();
+    if (content) logs = JSON.parse(content);
+  }
+  const now = new Date();
+  logs.push({
+    date: now.toISOString(),
+    month: now.toISOString().slice(0, 7),
+    title: track.title,
+    artist: track.artist,
+    spotifyId: track.spotifyId || null,
+    isrc: track.isrc || null,
+    caller: "djay-enrich",
+  });
+  fs.writeFileSync(SONGSTATS_USAGE_LOG_FILE, JSON.stringify(logs, null, 2));
+}
 
 let _spToken = null;
 let _spTokenExp = 0;
@@ -108,11 +133,15 @@ async function getsongbpmGenres(artist, title) {
   return best?.artist?.genres?.length ? best.artist.genres : null;
 }
 
-async function songstatsGenres(spotifyId) {
-  if (!SONGSTATS_API_KEY || !spotifyId) return null;
+async function songstatsGenres(track) {
+  if (!SONGSTATS_API_KEY || !track.spotifyId) return null;
+  // Log BEFORE the call so even network failures count (Songstats bills
+  // any request that left the wire). The journal entry is what feeds
+  // `node songstats-usage-report.js`.
+  logSongstatsRequest(track);
   const url =
     `https://api.songstats.com/enterprise/v1/tracks/info` +
-    `?spotify_track_id=${encodeURIComponent(spotifyId)}`;
+    `?spotify_track_id=${encodeURIComponent(track.spotifyId)}`;
   const r = await fetch(url, {
     headers: { Accept: "application/json", apikey: SONGSTATS_API_KEY },
   });
@@ -181,7 +210,7 @@ export async function enrichTrack(track, opts = {}) {
   // 4. Songstats fallback for genres (paid, only when getsongbpm misses)
   if (!resolvedGenres && track.spotifyId) {
     try {
-      const g = await songstatsGenres(track.spotifyId);
+      const g = await songstatsGenres(track);
       if (g) {
         resolvedGenres = g;
         genresSource = "songstats";
