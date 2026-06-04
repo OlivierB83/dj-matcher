@@ -324,8 +324,8 @@
     "artist": "AC/DC",
     "album": "Back in Black",
     "year": "1980",
-    "bpm": 92,
-    "key": "A",
+    "bpm": 93,
+    "key": "9B",
     "danceability": 0.31,
     "acousticness": 0.02,
     "genres": [
@@ -335,7 +335,9 @@
     "country": "AU",
     "mbid": "66c662b6-6e2f-4930-8610-912e24c63ed1",
     "uri": "https://getsongbpm.com/song/back-in-black/gLmkR6",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Les Sunlights des tropiques",
@@ -382,29 +384,33 @@
     "album": "Kendji",
     "year": "2014",
     "bpm": 112,
-    "key": "Am",
+    "key": "4B",
     "danceability": 0.66,
     "acousticness": 0.35,
     "genres": [],
     "country": "FR",
     "mbid": "8326a5ca-96f0-41ec-8f38-9bec3708e4ce",
     "uri": "https://getsongbpm.com/song/andalouse/Mwn3A5",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "bad guy",
     "artist": "Billie Eilish",
     "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
     "year": "2019",
-    "bpm": 136,
-    "key": "Gm",
+    "bpm": 135,
+    "key": "6B",
     "danceability": 0.7,
     "acousticness": 0.33,
     "genres": [],
     "country": "US",
     "mbid": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533",
     "uri": "https://getsongbpm.com/song/bad-guy/XQZzVA",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Murder on the Dancefloor",
@@ -474,8 +480,8 @@
     "artist": "Ricchi e Poveri",
     "album": "Parla col cuore",
     "year": "1999",
-    "bpm": 120,
-    "key": "E",
+    "bpm": 121,
+    "key": "12B",
     "danceability": 0.83,
     "acousticness": 0.09,
     "genres": [
@@ -484,7 +490,9 @@
     "country": "IT",
     "mbid": "706fe5d6-96df-4c64-ad42-894db061e3da",
     "uri": "https://getsongbpm.com/song/sara-perche-ti-amo/p8AgLQ",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Africa",
@@ -1692,7 +1700,7 @@
     "album": "Commando",
     "year": "2017",
     "bpm": 150,
-    "key": "C#",
+    "key": "1B",
     "danceability": 0.8,
     "acousticness": 0.17,
     "genres": [
@@ -1701,7 +1709,9 @@
     "country": null,
     "mbid": "e369e789-6f07-4ce8-a70f-e136bc57bf3b",
     "uri": "https://getsongbpm.com/song/reseaux/x6DDrz",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Ça plane pour moi",
@@ -2914,8 +2924,8 @@
     "artist": "Aya Nakamura",
     "album": "Nakamura",
     "year": "2018",
-    "bpm": 180,
-    "key": "G#m",
+    "bpm": 90,
+    "key": "1B",
     "danceability": 0.701,
     "acousticness": 0.27,
     "genres": [],
@@ -2927,7 +2937,9 @@
     "image": "https://i.scdn.co/image/ab67616d0000485156feea19a0436ec52a9217c9",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 71
+    "popularity": 71,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Work",
@@ -33644,7 +33656,7 @@
     "isrc": "FRZ042200045",
     "image": "https://i.scdn.co/image/ab67616d00004851c2ad3af38a425cd824e05686",
     "bpm": 130,
-    "key": "A",
+    "key": "9B",
     "danceability": 0.624,
     "energy": 0.944,
     "valence": 0.362,
@@ -33656,7 +33668,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 55
+    "popularity": 55,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "La grenade",
@@ -33667,7 +33681,7 @@
     "isrc": "FRUM71702162",
     "image": "https://i.scdn.co/image/ab67616d000048516de908475396d444b724165b",
     "bpm": 130,
-    "key": "B",
+    "key": "11B",
     "danceability": 0.724,
     "energy": 0.697,
     "valence": 0.961,
@@ -33682,7 +33696,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 61
+    "popularity": 61,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Gimme! Gimme! Gimme! - Freejak Remix",
@@ -33722,7 +33738,7 @@
     "isrc": "FRUM72101697",
     "image": "https://i.scdn.co/image/ab67616d0000485190c0ac936a56843681a1e235",
     "bpm": 142,
-    "key": "G",
+    "key": "6B",
     "danceability": 0.63,
     "energy": 0.895,
     "valence": 0.44,
@@ -33737,7 +33753,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 47
+    "popularity": 47,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "B2b",
@@ -33748,7 +33766,7 @@
     "isrc": "USAT22401351",
     "image": "https://i.scdn.co/image/ab67616d00004851f88b43d15fd14e9525338b59",
     "bpm": 116,
-    "key": "C#",
+    "key": "3B",
     "danceability": 0.769,
     "energy": 0.771,
     "valence": 0.37,
@@ -33763,7 +33781,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 66
+    "popularity": 66,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "365",
@@ -33774,7 +33794,7 @@
     "isrc": "USAT22401354",
     "image": "https://i.scdn.co/image/ab67616d00004851f88b43d15fd14e9525338b59",
     "bpm": 127,
-    "key": "C#",
+    "key": "3B",
     "danceability": 0.761,
     "energy": 0.856,
     "valence": 0.729,
@@ -33789,7 +33809,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 75
+    "popularity": 75,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Popcorn Salé",
@@ -33828,7 +33850,7 @@
     "isrc": "USSM12200047",
     "image": "https://i.scdn.co/image/ab67616d00004851370ed6a9ced20874385fb147",
     "bpm": 95,
-    "key": "G#",
+    "key": "4B",
     "danceability": 0.756,
     "energy": 0.697,
     "valence": 0.956,
@@ -33845,8 +33867,8 @@
     "danceabilitySource": "reccobeats",
     "popularity": 67,
     "_idx": 1555,
-    "bpmSource": "songstats",
-    "keySource": "songstats"
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "You Don't Know Me (feat. Duane Harden)",
@@ -39414,7 +39436,7 @@
     "isrc": "FRZ052000475",
     "image": "https://i.scdn.co/image/ab67616d000048519783ced303885a883ad5c093",
     "bpm": 138,
-    "key": "A",
+    "key": "7B",
     "danceability": 0.641,
     "energy": 0.927,
     "valence": 0.753,
@@ -39428,7 +39450,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 23
+    "popularity": 23,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "L'aventurier - Mix 2020",
@@ -39438,8 +39462,8 @@
     "spotifyId": "0vdrS2mBhwvWBcwzJmxuVq",
     "isrc": "FRZ052000470",
     "image": "https://i.scdn.co/image/ab67616d000048519783ced303885a883ad5c093",
-    "bpm": 167,
-    "key": "C#",
+    "bpm": 83,
+    "key": "1B",
     "danceability": 0.497,
     "energy": 0.962,
     "valence": 0.363,
@@ -39451,7 +39475,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 40
+    "popularity": 40,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "The Shock Of The Ligh...",
@@ -47472,5 +47498,591 @@
       "world"
     ],
     "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "M. Pokora",
+    "title": "Alexandrie, Alexandra",
+    "bpm": 118,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3fXBWHOB8iiaSYBXp4GwyJ",
+    "album": "My Way",
+    "year": "2022",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fd4f70f3b8e37a3f09ecd28e",
+    "popularity": 28,
+    "danceability": 0.823,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "French Pop",
+      "Chanson",
+      "Children's Music",
+      "Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "ROSÉ, Bruno Mars",
+    "title": "APT.",
+    "bpm": 149,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "5vNRhkKd0yEAg8suGBpjeY",
+    "album": "APT.",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b27346085aa1855bd888abc51a5a",
+    "popularity": 95,
+    "danceability": 0.777,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "K Pop",
+      "Latin",
+      "Urbano Latino",
+      "Bubblegum Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Frankie Valli",
+    "title": "Can't Take My Eyes off You",
+    "bpm": 123,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6ft9PAgNOjmZ2kFVP7LGqb",
+    "album": "The Very Best of Frankie Valli & The 4 Seasons",
+    "year": "2003",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b96c21e15c091eb98a6c88a4",
+    "popularity": 68,
+    "danceability": 0.575,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "pop",
+      "rock",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "DJ Kawest, Attachingboy",
+    "title": "Chambre 04",
+    "bpm": 100,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6IichHAgWdiX16ALiAD1Ir",
+    "album": "Hybride",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b6dc57f0b819a06909da047f",
+    "genres": [
+      "Worldwide",
+      "Dancehall",
+      "Rap"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "GIMS",
+    "title": "CIEL",
+    "bpm": 130,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "78FNSZkI1968KTtyf2s315",
+    "album": "CIEL",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730a6599b6a35006a541a01b52",
+    "popularity": 78,
+    "danceability": 0.812,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Hip Hop/Rap"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Harmonie de Pomarez",
+    "title": "Dans les yeux d'Émilie",
+    "bpm": 148,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2bojq9bN2WXE3nzI9foLxG",
+    "album": "Dans les yeux d'Émilie",
+    "year": "2016",
+    "image": "https://i.scdn.co/image/ab67616d0000b27380dcc402105879439057042d",
+    "genres": [
+      "Spoken Word",
+      "Chanson",
+      "Dance"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "K2S",
+    "title": "Dougie",
+    "bpm": 80,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3u4YjYq448qqRkUfJsbrnM",
+    "album": "Dougie",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b273302022c87829f0713608b45d",
+    "popularity": 65,
+    "danceability": 0.728,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Hip Hop/Rap",
+      "R&B/Soul",
+      "French Hip Hop",
+      "Rap"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Ninho, Niska",
+    "title": "Elle a mal (feat. Niska)",
+    "bpm": 140,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2ct8sYE8u8UZT229rWvXwL",
+    "album": "M.I.L.S",
+    "year": "2016",
+    "image": "https://i.scdn.co/image/ab67616d0000b273775d5bf4358f40d20471fafe",
+    "popularity": 60,
+    "danceability": 0.816,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "France",
+      "Hip Hop/Rap",
+      "Worldwide"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Soprano",
+    "title": "En feu",
+    "bpm": 140,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6FxIFhVlOvI1wcXWe8LKei",
+    "album": "L'Everest (Deluxe Edition)",
+    "year": "2016",
+    "image": "https://i.scdn.co/image/ab67616d0000b27339505eb7ec495325624dabee",
+    "popularity": 60,
+    "danceability": 0.588,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "hip hop",
+      "rap"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "David Guetta, Alphaville, Ava Max",
+    "title": "Forever Young",
+    "bpm": 130,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3bg2qahpZmsg5wV2EMPXIk",
+    "album": "Forever Young",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d6ed60b145c43485415f6aa9",
+    "popularity": 80,
+    "danceability": 0.558,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Pop",
+      "Electronic",
+      "Dance / Pop",
+      "Dance Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Sgt Slick, Freejak",
+    "title": "Gimme! Gimme! Gimme! - Freejak Remix - Edit",
+    "bpm": 125,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "5a0YOqhphYlKlGs4w6G8Pe",
+    "album": "Gimme! Gimme! Gimme! (Freejak Remix)",
+    "year": "2020",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a3be2fc4b857785e0dd6856b",
+    "popularity": 43,
+    "danceability": 0.681,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "House",
+      "Dance",
+      "Electronic",
+      "Dance / Pop",
+      "Disco House"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Dj Sad, La Traine, Ninocess, pitroipa",
+    "title": "Il est marié",
+    "bpm": 130,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "7Iz8Q4p8lvkFOREZSwqWp8",
+    "album": "Il est marié",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b27366d42f577553197fe9805664",
+    "popularity": 59,
+    "danceability": 0.824,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Hip Hop/Rap",
+      "Bouyon",
+      "Shatta"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Theodora, Jeez Suave",
+    "title": "KONGOLESE SOUS BBL",
+    "bpm": 78,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "5dBRz6giSIBDkXOhOD80KF",
+    "album": "KONGOLESE SOUS BBL",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c1715faffc4273a630d4d386",
+    "popularity": 67,
+    "danceability": 0.812,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Hip Hop/Rap",
+      "Bouyon",
+      "Shatta",
+      "French Pop",
+      "French R&B"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Soprano, Vincenzo",
+    "title": "Le coach (feat. Vincenzo)",
+    "bpm": 128,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "1RighqmKZNqLP9rklJ4HCz",
+    "album": "Phoenix",
+    "year": "2018",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ef427499519942ecd7812a13",
+    "popularity": 56,
+    "danceability": 0.909,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "France",
+      "Hip Hop/Rap",
+      "Worldwide",
+      "Chanson",
+      "Children's Music"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Yann Muller",
+    "title": "Les Oies Sauvages",
+    "bpm": 121,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2mRITVpmTXjwK38msknvSu",
+    "album": "Les Oies Sauvages",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b27330e6d50737c3084242d409f1",
+    "popularity": 42,
+    "danceability": 0.75,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "French Pop",
+      "Indie Dance",
+      "French House",
+      "French Classical"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Jaden Bojsen, Sami Brielle",
+    "title": "LET'S GO",
+    "bpm": 129,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6Qr4ufjYXdEd0KNFd7sJxx",
+    "album": "Let's Go",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734ca5a25396f69be24fabfd42",
+    "popularity": 75,
+    "danceability": 0.679,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "House",
+      "Dance / Pop",
+      "Club"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "P.L.L",
+    "title": "MAYA",
+    "bpm": 105,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6cqJJDfbciv7LUVB384DHw",
+    "album": "MAYA",
+    "year": "2023",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f8257001fae2b5c2e3fbf00e",
+    "popularity": 53,
+    "danceability": 0.919,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Modern Dancehall",
+      "Reggae"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "David Guetta, Kid Cudi, Fuck Me I'm Famous",
+    "title": "Memories (feat. Kid Cudi) - F*** Me I'm Famous ! Remix Edit",
+    "bpm": 130,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "7hsKKvZIdM2mdblDcU4kH9",
+    "album": "One More Love (Deluxe)",
+    "year": "2010",
+    "image": "https://i.scdn.co/image/ab67616d0000b273909ed9cd12fa1b5fc75ae674",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Pop",
+      "Dance / Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Kavinsky, Angèle, Phoenix",
+    "title": "Nightcall",
+    "bpm": 97,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2KejCKgm7l3uefW9cFt8cH",
+    "album": "Nightcall",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b27382e856e42426e69b8bb43461",
+    "popularity": 72,
+    "danceability": 0.567,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Electronic",
+      "Electronica",
+      "Belpop",
+      "French House",
+      "Synthwave"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "SANTA",
+    "title": "Popcorn Salé",
+    "bpm": 171,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6IyY7st5UooM84lDO3odza",
+    "album": "RECOMMENCE-MOI",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b27358329d191ebade270736a8d7",
+    "popularity": 64,
+    "danceability": 0.355,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "French Pop",
+      "Chanson",
+      "Variete Francaise",
+      "Varit Franaise"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Anyme023, Shaydee's",
+    "title": "Shamballa",
+    "bpm": 104,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6FhaGsnnv8HeXtwRyp3seR",
+    "album": "Shamballa",
+    "year": "2025",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739ade75380f440759b5127d26",
+    "genres": [
+      "Hip Hop/Rap",
+      "African",
+      "Afro Pop",
+      "Alternative",
+      "Dancehall"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Jul",
+    "title": "Sous la lune",
+    "bpm": 120,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6hKkzk8UlVUj9ioPCyeH1O",
+    "album": "Rien 100 Rien",
+    "year": "2019",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733c505b5ddcbdf80c7dff5a1f",
+    "popularity": 73,
+    "danceability": 0.939,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Hip Hop/Rap",
+      "Rap"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "GIMS, DYSTINCT",
+    "title": "SPIDER",
+    "bpm": 120,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4oVMLxxYpQLYx8gx4JjuuY",
+    "album": "LE NORD SE SOUVIENT",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733a7b3cdcbffe0e5733ab5509",
+    "popularity": 78,
+    "danceability": 0.823,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Hip Hop/Rap",
+      "Hip Hop",
+      "French Music",
+      "French Rap",
+      "Pop Urbaine"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Soolking",
+    "title": "Suavemente",
+    "bpm": 140,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4KHXk0rTD80mEf7bbdK29j",
+    "album": "Suavemente",
+    "year": "2022",
+    "image": "https://i.scdn.co/image/ab67616d0000b27324287bb30cf3d09581dff13b",
+    "popularity": 58,
+    "danceability": 0.865,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Hip Hop/Rap",
+      "French Music",
+      "Chanson",
+      "Rap",
+      "Dance"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Macklemore & Ryan Lewis, Macklemore, Ryan Lewis, Wanz",
+    "title": "Thrift Shop (feat. Wanz)",
+    "bpm": 95,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "1CmUZGtH29Kx36C1Hleqlz",
+    "album": "Thrift Shop (feat. Wanz)",
+    "year": "2013",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731cdc7eab166fcbfcaf8be8f6",
+    "popularity": 62,
+    "danceability": 0.781,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Hip Hop/Rap",
+      "Hip Hop",
+      "Trap / Future Bass",
+      "Hip Hop",
+      "Club"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Shakira",
+    "title": "Waka Waka (This Time for Africa) - K-Mix",
+    "bpm": 127,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "63Tl9k1sH8tznn3bqoMuyF",
+    "album": "Sale el Sol",
+    "year": "2010",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734214ddc9e33e76de6a8ee888",
+    "popularity": 60,
+    "danceability": 0.71,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Latin",
+      "Pop Latino",
+      "Worldwide",
+      "Dance Pop"
+    ],
+    "genresSource": "songstats"
   }
 ]
