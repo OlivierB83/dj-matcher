@@ -36623,8 +36623,8 @@
     "spotifyId": "2LMkwUfqC6S6s6qDVlEuzV",
     "isrc": "QZ5C81600014",
     "image": "https://i.scdn.co/image/ab67616d00004851c5649add07ed3720be9d5526",
-    "bpm": 108,
-    "key": "C",
+    "bpm": 109,
+    "key": "8B",
     "danceability": 0.501,
     "acousticness": 0.79,
     "genres": [
@@ -36638,7 +36638,9 @@
     "uri": "https://getsongbpm.com/song/white-ferrari/nR4xER",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 84
+    "popularity": 84,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Godspeed",
@@ -62114,6 +62116,41 @@
     "genres": [
       "Electronic",
       "Dance / Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Kofs, Soso Maness, Elams, Jul, SCH, Naps, Solda, Houari, 13 Organisé",
+    "title": "Bande organisée",
+    "bpm": 143,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Jungeli, Imen Es, Alonzo, Abou Debeing, Lossa",
+    "title": "Petit génie",
+    "bpm": 126,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Theodora, Jul",
+    "title": "ZOU BISOU",
+    "bpm": 150,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Fast",
+      "French Music",
+      "Pop Urbaine",
+      "Rap"
     ],
     "genresSource": "cached:songstats"
   }
