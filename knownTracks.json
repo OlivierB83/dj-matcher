@@ -59480,5 +59480,342 @@
       "Rock And Roll"
     ],
     "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Jennifer Lopez",
+    "title": "Ain't Your Mama",
+    "bpm": 120,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "latin",
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Møme, Merryn Jeann",
+    "title": "Aloha",
+    "bpm": 100,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Enrique Iglesias, Descemer Bueno, Gente De Zona",
+    "title": "Bailando - Spanish Version",
+    "bpm": 91,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Latin",
+      "Pop Latino",
+      "Reggaeton",
+      "Pachanga"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Deorro, Elvis Crespo",
+    "title": "Bailar",
+    "bpm": 128,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Calvin Harris, John Newman",
+    "title": "Blame (feat. John Newman)",
+    "bpm": 128,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Justin Bieber",
+    "title": "Company",
+    "bpm": 95,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Kendji Girac",
+    "title": "Cool",
+    "bpm": 108,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "French Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Kungs, Jamie N Commons",
+    "title": "Don't You Know - Radio Edit",
+    "bpm": 120,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Kygo, Conrad Sewell",
+    "title": "Firestone",
+    "bpm": 114,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Pop",
+      "Club",
+      "Dance Pop",
+      "Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "David Guetta, AFROJACK, Bebe Rexha, Nicki Minaj",
+    "title": "Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack)",
+    "bpm": 86,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Amir",
+    "title": "J'ai cherché",
+    "bpm": 120,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Major Lazer, DJ Snake, MØ, Diplo",
+    "title": "Lean On",
+    "bpm": 98,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "reggae"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Feder, Alex Aiono",
+    "title": "Lordly (feat. Alex Aiono)",
+    "bpm": 120,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "House"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "X-Man, Elegant, Teeyah, Admiral T",
+    "title": "Madinina Kuduro",
+    "bpm": 140,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Amir",
+    "title": "On dirait",
+    "bpm": 124,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "El General, Anayka",
+    "title": "Rica y Apretadita (feat. Anayka)",
+    "bpm": 115,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "latin",
+      "reggae"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Tiësto, KSHMR, VASSY",
+    "title": "Secrets",
+    "bpm": 128,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Alvaro Soler",
+    "title": "Sofia",
+    "bpm": 128,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Maroon 5",
+    "title": "Sugar",
+    "bpm": 120,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Children's Music",
+      "Club",
+      "Dance Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Costuleta",
+    "title": "Tchiriri",
+    "bpm": 140,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "DJ Snake, Lil Jon",
+    "title": "Turn Down for What",
+    "bpm": 100,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Dance / Pop",
+      "Trap / Future Bass",
+      "Dance Pop",
+      "Electropop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Justin Bieber",
+    "title": "What Do You Mean?",
+    "bpm": 125,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Klaas meets Haddaway",
+    "title": "What Is Love - Klaas Club Version",
+    "bpm": 128,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Jack Ü, Skrillex, Diplo, Justin Bieber",
+    "title": "Where Are Ü Now (with Justin Bieber)",
+    "bpm": 139,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Fifth Harmony, Kid Ink",
+    "title": "Worth It (feat. Kid Ink)",
+    "bpm": 100,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "The Chainsmokers",
+    "title": "#SELFIE",
+    "bpm": 128,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
   }
 ]
