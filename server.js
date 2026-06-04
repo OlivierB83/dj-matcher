@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import fs from "fs";
+import { canonicalKey } from "./track-identity.js";
 
 dotenv.config();
 
@@ -217,16 +218,34 @@ app.get("/api/known-tracks", (req, res) => {
 });
 
 app.get("/api/enrich", async (req, res) => {
-  const artist = normalize(req.query.artist || "");
-  const title = normalize(req.query.title || "");
+  const rawArtist = req.query.artist || "";
+  const rawTitle = req.query.title || "";
+  const artist = normalize(rawArtist);
+  const title = normalize(rawTitle);
+  const canonQuery = canonicalKey(rawArtist, rawTitle);
 
   const tracks = readKnownTracks();
 
-  const localMatch = tracks.find(
+  // Try exact match first (handles the case where the Spotify title has
+  // a real distinguishing suffix that the catalog also stores, like a
+  // proper named remix).
+  let localMatch = tracks.find(
     (track) =>
       normalize(track.artist) === artist &&
       normalize(track.title) === title
   );
+
+  // Fall back to canonical-key match: post-dedup the catalog only stores
+  // "Ça m'énerve", but the Spotify result coming through here may still
+  // say "Ça m'énerve - Radio Edit". Both should resolve to the canonical
+  // entry. canonicalKey strips cosmetic version suffixes ("- Radio Edit",
+  // "- Extended Mix", "- Remastered YYYY", etc.) but preserves named
+  // remixes.
+  if (!localMatch) {
+    localMatch = tracks.find(
+      (track) => canonicalKey(track.artist, track.title) === canonQuery
+    );
+  }
 
   if (localMatch) {
     return res.json({

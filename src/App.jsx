@@ -21,6 +21,13 @@ const FAVORITE_RANKING_BOOST = 25;
 const STORAGE_HIDDEN = "djmatcher.hidden";
 const STORAGE_FAVORITES = "djmatcher.favorites";
 
+import { canonicalKey } from "../track-identity.js";
+
+// Local space-stripped normalise used by the substring search filters
+// further down (e.g. typing "helmutfritz" should still hit "Helmut
+// Fritz"). The "same song" question — which is structurally different,
+// because it cares about version suffixes like "- Radio Edit" — is
+// answered by trackKey via the shared canonicalKey helper.
 function normalize(value) {
   return String(value || "")
     .toLowerCase()
@@ -34,7 +41,7 @@ function normalize(value) {
 }
 
 function trackKey(artist, title) {
-  return `${normalize(artist)}|${normalize(title)}`;
+  return canonicalKey(artist, title);
 }
 
 const GENRE_FAMILIES = [
@@ -529,17 +536,27 @@ export default function App() {
       const spotifyData = await spotifyRes.json();
       const spotifyItems = spotifyData.tracks?.items || [];
 
-      const localKeys = new Set(
-        localItems.map(
-          (t) =>
-            `${t.name?.toLowerCase()}|||${t.artists?.[0]?.name?.toLowerCase()}`
+      // Canonical-key dedup. Two-stage:
+      //   1. drop Spotify results whose canonical key (= same song,
+      //      ignoring "- Radio Edit", "- Extended Mix", etc.) is already
+      //      represented in the local catalog
+      //   2. collapse remaining Spotify versions of the same song into
+      //      one card so the UI doesn't show "Ça m'énerve" AND
+      //      "Ça m'énerve - Radio Edit" side by side
+      const localCanonical = new Set(
+        localItems.map((t) =>
+          canonicalKey(t.artists?.[0]?.name || "", t.name || "")
         )
       );
 
-      const spotifyFiltered = spotifyItems.filter((t) => {
-        const key = `${t.name?.toLowerCase()}|||${t.artists?.[0]?.name?.toLowerCase()}`;
-        return !localKeys.has(key);
-      });
+      const seenCanonical = new Set(localCanonical);
+      const spotifyFiltered = [];
+      for (const t of spotifyItems) {
+        const k = canonicalKey(t.artists?.[0]?.name || "", t.name || "");
+        if (seenCanonical.has(k)) continue;
+        seenCanonical.add(k);
+        spotifyFiltered.push(t);
+      }
 
       const enrichedSpotifyItems = await Promise.all(
         spotifyFiltered.map(enrichTrack)

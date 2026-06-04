@@ -29,6 +29,12 @@
 
 import fs from "fs";
 import { enrichTrack } from "./djay-enrich.js";
+import {
+  normalize,
+  stripTrunc,
+  coreTitle,
+  canonicalKey,
+} from "./track-identity.js";
 
 const KNOWN_FILE = "./knownTracks.json";
 
@@ -75,21 +81,7 @@ if (!fs.existsSync(jsonPath)) {
   process.exit(66);
 }
 
-/* ===== normalisation + matching (mirroring djay-import.js) ===== */
-
-function normalize(text) {
-  return String(text || "")
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .toLowerCase()
-    .replace(/[^\p{L}\p{N}\s]/gu, "")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function stripTrunc(text) {
-  return String(text || "").replace(/\s*[.…]{1,}$/u, "").trim();
-}
+/* ===== cell classification + parsing ===== */
 
 function classifyCell(text) {
   const t = (text || "").trim();
@@ -134,24 +126,60 @@ function parseRow(cells) {
 /* ===== catalog index ===== */
 
 function buildIndex(catalog) {
+  // Two indexes: by-artist lets us scope candidates fast; by-canonical
+  // lets findMatch fall back when "Ça m'énerve - Radio Edit" needs to
+  // collide with a catalog "Ça m'énerve".
   const byArtist = new Map();
+  const byCanonical = new Map();
   catalog.forEach((entry, index) => {
     const a = normalize(entry.artist);
+    const item = {
+      entry,
+      index,
+      normTitle: normalize(entry.title),
+      canonNormTitle: normalize(coreTitle(entry.title)),
+    };
     if (!byArtist.has(a)) byArtist.set(a, []);
-    byArtist.get(a).push({ entry, index, normTitle: normalize(entry.title) });
+    byArtist.get(a).push(item);
+    byCanonical.set(canonicalKey(entry.artist, entry.title), item);
   });
-  return byArtist;
+  return { byArtist, byCanonical };
 }
 
-function findMatch(byArtist, djayTrack) {
+function findMatch({ byArtist, byCanonical }, djayTrack) {
   const a = normalize(djayTrack.artist);
   const tTrunc = normalize(stripTrunc(djayTrack.title));
   if (!a || !tTrunc) return null;
+
   const list = byArtist.get(a);
-  if (!list) return null;
+  if (!list) {
+    // Last-ditch: catalog might know this song under a different version
+    // suffix (post-dedup catalog has the canonical title only).
+    return byCanonical.get(canonicalKey(djayTrack.artist, djayTrack.title)) || null;
+  }
+
+  // Pass 1 — exact normalised title (cheap, covers most matches)
   let m = list.find((c) => c.normTitle === tTrunc);
   if (m) return m;
-  m = list.find((c) => c.normTitle.startsWith(tTrunc + " ") || c.normTitle.startsWith(tTrunc));
+
+  // Pass 2 — catalog title is a prefix of djay's (catalog "Ça m'énerve" vs
+  // djay "Ça m'énerve - Radio Edit"), or djay's is a prefix of catalog's
+  // (djay-side column truncation "Ça m'éner…" vs catalog "Ça m'énerve").
+  m = list.find(
+    (c) =>
+      c.normTitle.startsWith(tTrunc + " ") ||
+      c.normTitle.startsWith(tTrunc) ||
+      tTrunc.startsWith(c.normTitle + " ") ||
+      tTrunc.startsWith(c.normTitle)
+  );
+  if (m) return m;
+
+  // Pass 3 — canonical key (suffix-stripped on both sides). The previous
+  // passes miss when djay says "Ça m'énerve - Radio Edit" but the catalog
+  // says "Ça m'énerve - Single Version" — both should collapse to the
+  // same canonical "Ça m'énerve".
+  const djayCanon = normalize(coreTitle(stripTrunc(djayTrack.title)));
+  m = list.find((c) => c.canonNormTitle === djayCanon);
   return m || null;
 }
 
@@ -179,20 +207,21 @@ async function main() {
     parsed.push({ title: r.title, artist: r.artist, bpm: r.bpm, key: r.key });
   }
 
-  // Dedup by (artist, title) — last wins
-  const dedupKey = (t) => normalize(t.artist) + "|" + normalize(stripTrunc(t.title));
+  // Dedup the djay rows themselves by canonical key so we don't try to
+  // import "Ça m'énerve" AND "Ça m'énerve - Radio Edit" as separate
+  // candidates when djay's library shows both. Last wins.
   const dedup = new Map();
-  for (const t of parsed) dedup.set(dedupKey(t), t);
+  for (const t of parsed) dedup.set(canonicalKey(t.artist, t.title), t);
   const deduped = [...dedup.values()];
 
   const catalog = JSON.parse(fs.readFileSync(KNOWN_FILE, "utf8"));
-  const byArtist = buildIndex(catalog);
+  const indexes = buildIndex(catalog);
 
   const updates = [];
   const adds = [];
   let alreadyMatching = 0;
   for (const djay of deduped) {
-    const m = findMatch(byArtist, djay);
+    const m = findMatch(indexes, djay);
     if (m) {
       const before = { bpm: m.entry.bpm, key: m.entry.key };
       if (before.bpm === djay.bpm && before.key === djay.key) {

@@ -23,73 +23,11 @@
  */
 
 import fs from "fs";
+import { canonicalKey } from "./track-identity.js";
 
 const KNOWN_FILE = "./knownTracks.json";
 
 const commit = process.argv.includes("--commit");
-
-// Cosmetic suffixes — anything matching these is treated as the same song.
-// The list is intentionally conservative: bare "- Remix" or "- Mix" stays
-// because those usually indicate a genuinely different version when the
-// artist string also carries the remixer.
-const SUFFIX_PATTERNS = [
-  / - radio edit$/i,
-  / - radio mix$/i,
-  / - radio version$/i,
-  / - radio cut$/i,
-  / - single edit$/i,
-  / - single version$/i,
-  / - album version$/i,
-  / - extended$/i,
-  / - extended version$/i,
-  / - extended mix$/i,
-  / - original$/i,
-  / - original mix$/i,
-  / - original version$/i,
-  / - remastered( \d{4})?$/i,
-  / - remaster( \d{4})?$/i,
-  / - remasteris[ée]e?( en \d{4})?$/i,
-  / - \d{4} remaster(ed)?$/i,
-  / - \d{4} remix$/i,
-  / - mono( version)?$/i,
-  / - stereo( version)?$/i,
-  / - clean( version)?$/i,
-  / - explicit( version)?$/i,
-  / - bonus track$/i,
-];
-
-function normalize(s) {
-  return String(s || "")
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .toLowerCase()
-    .replace(/[^\p{L}\p{N}\s]/gu, "")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function coreTitle(title) {
-  let t = String(title || "").trim();
-  // Strip at most one suffix per pass; loop a couple of times to handle
-  // "Track - Radio Edit - Remastered 2020" without nesting risk.
-  for (let pass = 0; pass < 3; pass++) {
-    let changed = false;
-    for (const p of SUFFIX_PATTERNS) {
-      const newT = t.replace(p, "").trim();
-      if (newT !== t) {
-        t = newT;
-        changed = true;
-        break;
-      }
-    }
-    if (!changed) break;
-  }
-  return t;
-}
-
-function groupKey(artist, title) {
-  return normalize(artist) + "|" + normalize(coreTitle(title));
-}
 
 // BPM + key authority: djay is the ground-truth Mixed-In-Key algorithm,
 // so a djay-sourced entry always wins the BPM + key columns even when
@@ -166,10 +104,10 @@ function mergeGroup(entries) {
 function main() {
   const catalog = JSON.parse(fs.readFileSync(KNOWN_FILE, "utf8"));
 
-  const groups = new Map(); // groupKey → catalog indices
+  const groups = new Map(); // canonicalKey → catalog indices
   catalog.forEach((entry, i) => {
     if (!entry.artist || !entry.title) return;
-    const k = groupKey(entry.artist, entry.title);
+    const k = canonicalKey(entry.artist, entry.title);
     if (!groups.has(k)) groups.set(k, []);
     groups.get(k).push(i);
   });
