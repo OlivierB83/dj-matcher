@@ -38,8 +38,10 @@
   {
     "artist": "Prince",
     "title": "Purple Rain",
-    "bpm": 113,
-    "key": "A#"
+    "bpm": 104,
+    "key": "6B",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Blue Monday",
@@ -621,8 +623,8 @@
     "artist": "Jimmy Cliff",
     "album": "The Power and the Glory",
     "year": "1983",
-    "bpm": 108,
-    "key": "C",
+    "bpm": 109,
+    "key": "8B",
     "danceability": 0.86,
     "acousticness": 0.29,
     "genres": [
@@ -632,7 +634,9 @@
     "country": "JM",
     "mbid": "2caa54a7-b08c-41da-b892-3a41abe778be",
     "uri": "https://getsongbpm.com/song/reggae-night/xNBoq",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Girls Just Want to Have Fun",
@@ -680,7 +684,7 @@
     "album": "Répression",
     "year": "1980",
     "bpm": 90,
-    "key": "C",
+    "key": "9B",
     "danceability": 0.45,
     "acousticness": 0.13,
     "genres": [
@@ -692,7 +696,9 @@
     "country": "FR",
     "mbid": "33d281da-d36f-4d22-9c4f-fa39f9718302",
     "uri": "https://getsongbpm.com/song/antisocial/WzAE4",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Smalltown Boy",
@@ -783,7 +789,7 @@
     "album": "White Feathers",
     "year": "1983",
     "bpm": 108,
-    "key": "Fm",
+    "key": "3B",
     "danceability": 0.72,
     "acousticness": 0.11,
     "genres": [
@@ -792,7 +798,9 @@
     "country": "GB",
     "mbid": "7bc51021-6a84-4a04-ada3-0541615a97bc",
     "uri": "https://getsongbpm.com/song/too-shy/qME10",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Let's Groove",
@@ -844,7 +852,7 @@
     "album": "Hounds of Love",
     "year": "1985",
     "bpm": 108,
-    "key": "Cm",
+    "key": "5B",
     "danceability": 0.63,
     "acousticness": 0.72,
     "genres": [
@@ -854,7 +862,9 @@
     "country": "GB",
     "mbid": "4b585938-f271-45e2-b19a-91c634b5e396",
     "uri": "https://getsongbpm.com/song/running-up-that-hill-a-deal-with-god/nZ8m5",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Everybody Wants to Rule the World",
@@ -882,8 +892,8 @@
     "artist": "Jean-Jacques Goldman",
     "album": "Démodé",
     "year": "1981",
-    "bpm": 127,
-    "key": "Cm",
+    "bpm": 125,
+    "key": "7B",
     "danceability": 0.32,
     "acousticness": 0.01,
     "genres": [
@@ -893,7 +903,9 @@
     "country": "FR",
     "mbid": "0b3819e6-3fa1-4a50-a84c-f2a62643185d",
     "uri": "https://getsongbpm.com/song/il-suffira-d-un-signe/ZVxppg",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Sexual Healing",
@@ -941,7 +953,7 @@
     "artist": "The Weather Girls",
     "album": "Double Tons of Fun",
     "year": "1993",
-    "bpm": 136,
+    "bpm": 137,
     "key": "4B",
     "danceability": 0.61,
     "acousticness": 0.01,
@@ -962,8 +974,8 @@
     "artist": "Modern Talking",
     "album": "Back for Good: The 7th Album",
     "year": "1998",
-    "bpm": 112,
-    "key": "G",
+    "bpm": 114,
+    "key": "7B",
     "danceability": 0.67,
     "acousticness": 0.08,
     "genres": [
@@ -973,7 +985,9 @@
     "country": "DE",
     "mbid": "98913495-8867-43b3-aa8d-db88ee4d4cdc",
     "uri": "https://getsongbpm.com/song/cheri-cheri-lady-new-version/k5Z8Y",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Just Can't Get Enough (Schizo mix)",
@@ -1001,8 +1015,8 @@
     "artist": "Billy Ocean",
     "album": "Suddenly",
     "year": "1984",
-    "bpm": 113,
-    "key": "Dm",
+    "bpm": 114,
+    "key": "8B",
     "danceability": 0.82,
     "acousticness": 0.3,
     "genres": [
@@ -1014,14 +1028,16 @@
     "country": "GB",
     "mbid": "0e422e91-a42a-4b4d-8413-9baff67350f2",
     "uri": "https://getsongbpm.com/song/caribbean-queen-no-more-love-on-the-run/xokxr",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Elle a les yeux revolver",
     "artist": "Marc Lavoine",
     "album": "Marc Lavoine",
     "year": "1985",
-    "bpm": 161,
+    "bpm": 80,
     "key": "7B",
     "danceability": 0.57,
     "acousticness": 0.5,
@@ -1042,7 +1058,7 @@
     "album": "Eye in the Sky",
     "year": "1982",
     "bpm": 112,
-    "key": "D",
+    "key": "10B",
     "danceability": 0.83,
     "acousticness": 0.57,
     "genres": [
@@ -1053,7 +1069,9 @@
     "country": "GB",
     "mbid": "f98711e5-06f7-43ed-8239-da0f61a9c460",
     "uri": "https://getsongbpm.com/song/eye-in-the-sky/zM2Bq",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Beds Are Burning - Remastered",
@@ -1061,7 +1079,7 @@
     "album": "Midnight Oil",
     "year": "1978",
     "bpm": 119,
-    "key": "E",
+    "key": "9B",
     "danceability": 0.76,
     "acousticness": 0.01,
     "genres": [
@@ -1071,15 +1089,17 @@
     "country": "AU",
     "mbid": "05072650-4b05-4e8b-83d0-dba2576e306a",
     "uri": "https://getsongbpm.com/song/beds-are-burning-remastered/r21Ngk",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Una storia importante",
     "artist": "Eros Ramazzotti",
     "album": "Cuori agitati",
     "year": "1987",
-    "bpm": 125,
-    "key": "A#m",
+    "bpm": 126,
+    "key": "3B",
     "danceability": 0.59,
     "acousticness": 0.16,
     "genres": [
@@ -1089,7 +1109,9 @@
     "country": "IT",
     "mbid": "3ab7295a-54ac-40e8-b1b2-3d110a143550",
     "uri": "https://getsongbpm.com/song/una-storia-importante/zy1KO",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "The Promise You Made",
@@ -1097,7 +1119,7 @@
     "album": "Cock Robin",
     "year": "1985",
     "bpm": 117,
-    "key": "C",
+    "key": "8B",
     "danceability": 0.71,
     "acousticness": 0.39,
     "genres": [
@@ -1109,15 +1131,17 @@
     "country": "US",
     "mbid": "a58d4ccf-341d-4f2d-a7c8-52828ce89ad2",
     "uri": "https://getsongbpm.com/song/the-promise-you-made/3QjJr",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Time After Time",
     "artist": "Cyndi Lauper",
     "album": "She's So Unusual",
     "year": "1983",
-    "bpm": 129,
-    "key": "C",
+    "bpm": 130,
+    "key": "8B",
     "danceability": 0.73,
     "acousticness": 0.58,
     "genres": [
@@ -1127,15 +1151,17 @@
     "country": "US",
     "mbid": "7bd9e20e-74b9-446a-a2ed-a223f82a36e7",
     "uri": "https://getsongbpm.com/song/time-after-time/q5p",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Girl You Know It's True",
     "artist": "Milli Vanilli",
     "album": "Girl You Know It's True",
     "year": "1989",
-    "bpm": 99,
-    "key": "A#m",
+    "bpm": 98,
+    "key": "4B",
     "danceability": 0.78,
     "acousticness": 0.01,
     "genres": [
@@ -1145,7 +1171,9 @@
     "country": "DE",
     "mbid": "d3d83a98-4a2e-433c-903c-5b4c79ccb42e",
     "uri": "https://getsongbpm.com/song/girl-you-know-it-s-true/AM09p",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Fresh",
@@ -1197,7 +1225,7 @@
     "album": "Like a Virgin",
     "year": "1984",
     "bpm": 136,
-    "key": "C",
+    "key": "8B",
     "danceability": 0.75,
     "acousticness": 0.34,
     "genres": [
@@ -1208,7 +1236,9 @@
     "country": "US",
     "mbid": "79239441-bfd5-4981-a70c-55c3f15c1287",
     "uri": "https://getsongbpm.com/song/material-girl/vowQm5",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Easy Lover",
@@ -1236,8 +1266,8 @@
     "artist": "Miami Sound Machine",
     "album": "A Toda Maquina",
     "year": "1984",
-    "bpm": 116,
-    "key": "C",
+    "bpm": 118,
+    "key": "9B",
     "danceability": 0.9,
     "acousticness": 0.22,
     "genres": [
@@ -1247,7 +1277,9 @@
     "country": null,
     "mbid": "72b3b981-92b7-4b5c-8a83-35717358b76e",
     "uri": "https://getsongbpm.com/song/drpoint-beat/y8ZjqP",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "I'm Still Standing",
@@ -1314,7 +1346,7 @@
     "album": "Music From the Edge of Heaven",
     "year": "1986",
     "bpm": 108,
-    "key": "D",
+    "key": "10B",
     "danceability": 0.74,
     "acousticness": 0.28,
     "genres": [
@@ -1324,15 +1356,17 @@
     "country": "GB",
     "mbid": "d570bb31-b9ca-45a4-a2d9-11b186d9c159",
     "uri": "https://getsongbpm.com/song/last-christmas/WpmQg",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "This Is The Day",
     "artist": "The The",
     "album": "Soul Mining",
     "year": "1983",
-    "bpm": 144,
-    "key": "A#",
+    "bpm": 142,
+    "key": "6B",
     "danceability": 0.57,
     "acousticness": 0.02,
     "genres": [
@@ -1343,15 +1377,17 @@
     "country": "GB",
     "mbid": "a7409219-a681-4072-adb2-5285106ce6f2",
     "uri": "https://getsongbpm.com/song/this-is-the-day/Y78nzp",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Your Love",
     "artist": "The Outfield",
     "album": "Play Deep",
     "year": "1985",
-    "bpm": 128,
-    "key": "C#m",
+    "bpm": 129,
+    "key": "12B",
     "danceability": 0.56,
     "acousticness": 0.11,
     "genres": [
@@ -1361,7 +1397,9 @@
     "country": "GB",
     "mbid": "5d400869-0471-42ee-afda-3addd73d0418",
     "uri": "https://getsongbpm.com/song/your-love/l59Z5",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Tribute (Right On)",
@@ -1369,7 +1407,7 @@
     "album": "To Whom It May Concern",
     "year": "1988",
     "bpm": 107,
-    "key": "Bm",
+    "key": "11B",
     "danceability": 0.7,
     "acousticness": 0.12,
     "genres": [
@@ -1383,7 +1421,9 @@
     "country": "GB",
     "mbid": "dd446ae0-372f-4087-981b-1b9832c6a818",
     "uri": "https://getsongbpm.com/song/tribute-right-on/ZBx6w",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Don't Stop Believin'",
@@ -1430,8 +1470,8 @@
     "artist": "Klaus Nomi",
     "album": "Klaus Nomi",
     "year": "1981",
-    "bpm": 75,
-    "key": "C",
+    "bpm": 72,
+    "key": "8B",
     "danceability": 0.29,
     "acousticness": 0.76,
     "genres": [
@@ -1441,7 +1481,9 @@
     "country": "DE",
     "mbid": "80d7d849-181d-4de4-b154-77318efc0648",
     "uri": "https://getsongbpm.com/song/the-cold-song/Ro4ArR",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Uptown Girl",
@@ -1468,8 +1510,8 @@
     "artist": "Men at Work",
     "album": "Business as Usual",
     "year": "1981",
-    "bpm": 108,
-    "key": "Bm",
+    "bpm": 107,
+    "key": "10B",
     "danceability": 0.75,
     "acousticness": 0.05,
     "genres": [
@@ -1480,7 +1522,9 @@
     "country": "AU",
     "mbid": "395cc503-63b5-4a0b-a20a-604e3fcacea2",
     "uri": "https://getsongbpm.com/song/down-under/Y7Z3W",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Marcia Baïla",
@@ -1526,8 +1570,8 @@
     "artist": "Jeanette",
     "album": "Corazón de poeta",
     "year": "1981",
-    "bpm": 112,
-    "key": "A",
+    "bpm": 113,
+    "key": "11B",
     "danceability": 0.69,
     "acousticness": 0.46,
     "genres": [
@@ -1538,7 +1582,9 @@
     "country": "ES",
     "mbid": "327a9b38-0817-4cce-858e-84ce8f56864b",
     "uri": "https://getsongbpm.com/song/el-muchacho-de-los-ojos-tristes/BBlRl2",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Need You Tonight",
@@ -1565,8 +1611,8 @@
     "artist": "Iván",
     "album": "Baila",
     "year": "1985",
-    "bpm": 119,
-    "key": "Am",
+    "bpm": 120,
+    "key": "9B",
     "danceability": 0.67,
     "acousticness": 0.14,
     "genres": [
@@ -1579,8 +1625,8 @@
     "uri": "https://getsongbpm.com/song/fotonovela-chapter-1-remasterizado/ngAOV5",
     "source": "getsongbpm",
     "_idx": 84,
-    "bpmSource": "getsongbpm",
-    "keySource": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
     "spotifyId": "437MUs4kWnpM79CIwCHiRP",
     "image": "https://i.scdn.co/image/ab67616d00004851f0500276c620b60f97515b4b",
     "danceabilitySource": "reccobeats",
@@ -4207,7 +4253,7 @@
     "artist": "Michael Sembello",
     "album": "Bossa Nova Hotel",
     "year": "1983",
-    "bpm": 159,
+    "bpm": 158,
     "key": "2B",
     "danceability": 0.605,
     "acousticness": 0.06,
@@ -4233,8 +4279,8 @@
     "artist": "Michael Jackson",
     "album": "Bad",
     "year": "1987",
-    "bpm": 117,
-    "key": "Am",
+    "bpm": 118,
+    "key": "8B",
     "danceability": 0.854,
     "acousticness": 0.25,
     "genres": [
@@ -4251,7 +4297,9 @@
     "image": "https://i.scdn.co/image/ab67616d00004851eb15b69407230b713423d3cb",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 40
+    "popularity": 40,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Conga",
@@ -4309,7 +4357,7 @@
     "album": "In Heat",
     "year": "1983",
     "bpm": 129,
-    "key": "Am",
+    "key": "7B",
     "danceability": 0.7,
     "acousticness": 0.03,
     "genres": [
@@ -4325,15 +4373,17 @@
     "image": "https://i.scdn.co/image/ab67616d0000485101d93acc198ee0f9154b5b1c",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 66
+    "popularity": 66,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Separate Ways (Worlds Apart)",
     "artist": "Journey",
     "album": "Frontiers",
     "year": "1983",
-    "bpm": 129,
-    "key": "Em",
+    "bpm": 132,
+    "key": "9B",
     "danceability": 0.469,
     "acousticness": 0.02,
     "genres": [
@@ -4348,15 +4398,17 @@
     "image": "https://i.scdn.co/image/ab67616d000048519675b338e1be8f2bf4dae480",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 70
+    "popularity": 70,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Woman in Love",
     "artist": "Barbra Streisand",
     "album": "Guilty",
     "year": "1980",
-    "bpm": 169,
-    "key": "D#m",
+    "bpm": 170,
+    "key": "2B",
     "danceability": 0.469,
     "acousticness": 0.49,
     "genres": [
@@ -4371,15 +4423,17 @@
     "image": "https://i.scdn.co/image/ab67616d00004851af1bb86907b4457c4e83390f",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 66
+    "popularity": 66,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Never Let Me Down Again",
     "artist": "Depeche Mode",
     "album": "Music for the Masses",
     "year": "1987",
-    "bpm": 108,
-    "key": "C",
+    "bpm": 106,
+    "key": "8B",
     "danceability": 0.584,
     "acousticness": 0.32,
     "genres": [
@@ -4395,15 +4449,17 @@
     "image": "https://i.scdn.co/image/ab67616d0000485113ccc3e363f27a4a3d06d1b1",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 63
+    "popularity": 63,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Learning to Fly",
     "artist": "Pink Floyd",
     "album": "A Momentary Lapse of Reason",
     "year": "1987",
-    "bpm": 166,
-    "key": "G",
+    "bpm": 167,
+    "key": "9B",
     "danceability": 0.442,
     "acousticness": 0.25,
     "genres": [
@@ -4417,15 +4473,17 @@
     "image": "https://i.scdn.co/image/ab67616d00004851e45dcb36f58a912127dc77b4",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 63
+    "popularity": 63,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "You Can Call Me Al",
     "artist": "Paul Simon",
     "album": "Graceland",
     "year": "1986",
-    "bpm": 129,
-    "key": "F",
+    "bpm": 128,
+    "key": "8B",
     "danceability": 0.777,
     "acousticness": 0.19,
     "genres": [
@@ -4441,7 +4499,9 @@
     "image": "https://i.scdn.co/image/ab67616d00004851a561ebb45326bae60310f10f",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 50
+    "popularity": 50,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Psycho Killer",
@@ -4449,7 +4509,7 @@
     "album": "Talking Heads: 77",
     "year": "1977",
     "bpm": 123,
-    "key": "A",
+    "key": "8B",
     "danceability": 0.721,
     "acousticness": 0.08,
     "genres": [
@@ -4466,15 +4526,17 @@
     "image": "https://i.scdn.co/image/ab67616d00004851b74dc29f68a36438421a9f1d",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 58
+    "popularity": 58,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Future Brain",
     "artist": "Den Harrow",
     "album": "Back From the Future",
     "year": "1999",
-    "bpm": 123,
-    "key": "F#",
+    "bpm": 121,
+    "key": "4B",
     "danceability": 0.778,
     "acousticness": 0.01,
     "genres": [
@@ -4489,7 +4551,9 @@
     "image": "https://i.scdn.co/image/ab67616d000048519acc70040b3425d4912bab4c",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 33
+    "popularity": 33,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "You Spin Me Round (Like a Record) (Sugar Pumpers radio mix)",
@@ -4523,7 +4587,7 @@
     "album": "Dreamtime",
     "year": "1986",
     "bpm": 133,
-    "key": "D",
+    "key": "10B",
     "danceability": 0.685,
     "acousticness": 0.01,
     "genres": [
@@ -4539,7 +4603,9 @@
     "image": "https://i.scdn.co/image/ab67616d000048511230c2cb2dfc9becc788b8f1",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 28
+    "popularity": 28,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Break My Stride",
@@ -15936,7 +16002,7 @@
     "spotifyId": "0vLwL4xuJ3s7SeaCdvMqkY",
     "isrc": "USCH38900008",
     "image": "https://i.scdn.co/image/ab67616d000048518cf86a9be38868f1d73cdb58",
-    "bpm": 142,
+    "bpm": 143,
     "key": "7B",
     "danceability": 0.551,
     "energy": 0.628,
@@ -16323,7 +16389,7 @@
     "isrc": "USSM19803320",
     "image": "https://i.scdn.co/image/ab67616d00004851e74fe3e17166fb970f9e84cc",
     "bpm": 174,
-    "key": "6B",
+    "key": "11B",
     "danceability": 0.564,
     "energy": 0.895,
     "valence": 0.494,
@@ -30500,7 +30566,7 @@
     "isrc": "GBARL1000856",
     "image": "https://i.scdn.co/image/ab67616d000048516f93ee36c1e428e3c7a8616d",
     "bpm": 102,
-    "key": "D#",
+    "key": "6B",
     "danceability": 0.684,
     "energy": 0.333,
     "valence": 0.284,
@@ -30515,7 +30581,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 17
+    "popularity": 17,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "You're My Heart, You're My Soul - So80's Edit",
@@ -30526,7 +30594,7 @@
     "isrc": "DEC731300202",
     "image": "https://i.scdn.co/image/ab67616d0000485199aab0b95eb4bb1e7e24c795",
     "bpm": 117,
-    "key": "C#",
+    "key": "12B",
     "danceability": 0.849,
     "energy": 0.597,
     "valence": 0.872,
@@ -30535,7 +30603,9 @@
     "genres": [],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 43
+    "popularity": 43,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Burning Heart - From \"Rocky IV\" Soundtrack",
@@ -30546,7 +30616,7 @@
     "isrc": "USVR19300003",
     "image": "https://i.scdn.co/image/ab67616d000048516a47c765d24dd8669edc7626",
     "bpm": 98,
-    "key": "A",
+    "key": "8B",
     "danceability": 0.652,
     "energy": 0.609,
     "valence": 0.646,
@@ -30561,7 +30631,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 8
+    "popularity": 8,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Can You Feel It - 7\" Version",
@@ -30621,8 +30693,8 @@
     "spotifyId": "2fv6Qeb7Z3uaqBeYINvJ0f",
     "isrc": "ITB008400442",
     "image": "https://i.scdn.co/image/ab67616d00004851d3d5e5ab5786e450e8a46128",
-    "bpm": 122,
-    "key": "F",
+    "bpm": 121,
+    "key": "3B",
     "danceability": 0.869,
     "energy": 0.738,
     "valence": 0.958,
@@ -30636,7 +30708,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 48
+    "popularity": 48,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Faith - Remastered",
@@ -30647,7 +30721,7 @@
     "isrc": "GBARL1000855",
     "image": "https://i.scdn.co/image/ab67616d00004851700d76fa52fb2ea37ef699cb",
     "bpm": 96,
-    "key": "B",
+    "key": "1B",
     "danceability": 0.887,
     "energy": 0.48,
     "valence": 0.607,
@@ -30662,7 +30736,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 57
+    "popularity": 57,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Don't Let the Sun Go Down on Me",
@@ -30725,7 +30801,7 @@
     "isrc": "GBBBN8700004",
     "image": "https://i.scdn.co/image/ab67616d00004851e4297423c8f4d8adfd3b7f12",
     "bpm": 109,
-    "key": "E",
+    "key": "11B",
     "danceability": 0.899,
     "energy": 0.422,
     "valence": 0.852,
@@ -30740,7 +30816,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 57
+    "popularity": 57,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Every Time You Go Away",
@@ -30857,7 +30935,7 @@
     "isrc": "GBARL0300125",
     "image": "https://i.scdn.co/image/ab67616d00004851726252efa2c5bef822576f1b",
     "bpm": 101,
-    "key": "C#",
+    "key": "3B",
     "danceability": 0.436,
     "energy": 0.914,
     "valence": 0.806,
@@ -30872,7 +30950,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 38
+    "popularity": 38,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "I'm Gonna Miss You",
@@ -30882,12 +30962,14 @@
     "spotifyId": "1ffAMndLMFbKHpXuIDBwc1",
     "isrc": "DED168800007",
     "image": "https://i.scdn.co/image/ab67616d00004851ece39be98348e2f4dbead00a",
-    "bpm": 75,
-    "key": "A",
+    "bpm": 151,
+    "key": "12B",
     "source": "getsongbpm",
     "danceability": 0.754,
     "danceabilitySource": "reccobeats",
-    "popularity": 38
+    "popularity": 38,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Never Ending Story",
@@ -30898,7 +30980,7 @@
     "isrc": "QZ8BZ1900350",
     "image": "https://i.scdn.co/image/ab67616d00004851de95344a3bafbaed194ea4be",
     "bpm": 136,
-    "key": "C",
+    "key": "5B",
     "danceability": 0.438,
     "energy": 0.489,
     "valence": 0.182,
@@ -30912,7 +30994,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 54
+    "popularity": 54,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Rock This Party",
@@ -44142,7 +44226,7 @@
   {
     "artist": "Kim Wilde",
     "title": "Kids in America",
-    "bpm": 160,
+    "bpm": 80,
     "key": "10B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
@@ -47142,8 +47226,8 @@
   {
     "artist": "Sade",
     "title": "Smooth Operator",
-    "bpm": 119,
-    "key": "7B",
+    "bpm": 120,
+    "key": "8B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
@@ -59205,5 +59289,196 @@
       "electronic"
     ],
     "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Ivana Spagna",
+    "title": "Call Me",
+    "bpm": 113,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4px3BBdAHTvLfAdIRParrx",
+    "album": "Dance Collection",
+    "year": "1997",
+    "image": "https://i.scdn.co/image/ab67616d0000b273011f3b70a93f607f7d11139c",
+    "popularity": 44,
+    "danceability": 0.771,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Pop",
+      "Worldwide",
+      "Electronic",
+      "Dance Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "The Jacksons",
+    "title": "Can You Feel It - 7\" Version",
+    "bpm": 126,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4qv7YSyt5UV8LvrXyE8sGn",
+    "album": "The Essential Michael Jackson",
+    "year": "2005",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736c1748b440eb462a19f24eec",
+    "popularity": 46,
+    "danceability": 0.843,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Disco",
+      "Funk",
+      "Soul",
+      "Dance",
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Falco",
+    "title": "Der Kommissar",
+    "bpm": 118,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3TBRJsLCcwroEkA3tD4u2N",
+    "album": "Einzelhaft",
+    "year": "1982",
+    "image": "https://i.scdn.co/image/ab67616d0000b27329f65bfb3f064e1879c47fed",
+    "popularity": 60,
+    "danceability": 0.93,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "electronic",
+      "pop",
+      "rap",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "George Michael, Elton John",
+    "title": "Don't Let the Sun Go Down on Me",
+    "bpm": 135,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "7xGOvQukPKKQVLiJOPSmt0",
+    "album": "Ladies & Gentlemen",
+    "year": "1998",
+    "image": "https://i.scdn.co/image/ab67616d0000b273813629baee66b2ec5f90ebee",
+    "popularity": 64,
+    "danceability": 0.435,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Soft Rock",
+      "Adult Contemporary",
+      "Dance",
+      "Pop/Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Ivana Spagna",
+    "title": "Easy Lady",
+    "bpm": 113,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0oUbxgJDJKwmfVYUsn4Qkk",
+    "album": "Dance Collection",
+    "year": "1997",
+    "image": "https://i.scdn.co/image/ab67616d0000b273011f3b70a93f607f7d11139c",
+    "popularity": 44,
+    "danceability": 0.805,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Pop",
+      "Worldwide",
+      "Electronic",
+      "Dance Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Paul Young",
+    "title": "Every Time You Go Away",
+    "bpm": 164,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "05fHQeRbCSjKVS6z0WbQKJ",
+    "album": "From Time To Time - The Singles Collection",
+    "year": "1991",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e0126da84b670e4f81afc75e",
+    "popularity": 68,
+    "danceability": 0.572,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "New Wave",
+      "Alternative",
+      "Pop/Rock",
+      "Rock"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Al Bano And Romina Power",
+    "title": "Felicità",
+    "bpm": 108,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Pop",
+      "Worldwide",
+      "Europe",
+      "Dance"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Marc Lavoine, Catherine Ringer",
+    "title": "Qu'est-ce que t'es belle",
+    "bpm": 142,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Queen, David Bowie",
+    "title": "Under Pressure - Remastered 2011 / New Master",
+    "bpm": 113,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Pop",
+      "Classic Rock",
+      "Pop Rock",
+      "Rock And Roll"
+    ],
+    "genresSource": "cached:songstats"
   }
 ]
