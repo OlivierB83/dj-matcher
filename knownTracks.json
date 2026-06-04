@@ -4142,7 +4142,8 @@
     "danceabilitySource": "reccobeats",
     "popularity": 2,
     "bpmSource": "djay_pro_ax",
-    "keySource": "djay_pro_ax"
+    "keySource": "djay_pro_ax",
+    "_idx": 204
   },
   {
     "title": "Smooth Criminal",
@@ -5802,30 +5803,6 @@
     "danceabilitySource": "reccobeats",
     "popularity": 64,
     "keySource": "djay_pro_ax"
-  },
-  {
-    "title": "Men in Black",
-    "artist": "Will Smith",
-    "album": "Big Willie Style",
-    "year": "1997",
-    "bpm": 107,
-    "key": "Fm",
-    "danceability": 0.801,
-    "acousticness": 0.1,
-    "genres": [
-      "hip hop",
-      "pop",
-      "rap"
-    ],
-    "country": "US",
-    "mbid": "5bae7081-64ef-4473-825a-38d310deb14c",
-    "uri": "https://getsongbpm.com/song/men-in-black/xvozRr",
-    "spotifyId": "2FK7fxjzQEXD7Z32HSF0Hl",
-    "isrc": "USSM19700762",
-    "image": "https://i.scdn.co/image/ab67616d00004851ddf2f9edabd166c60047e3c4",
-    "source": "getsongbpm",
-    "danceabilitySource": "reccobeats",
-    "popularity": 61
   },
   {
     "title": "Good Feeling",
@@ -7490,27 +7467,6 @@
     "popularity": 53
   },
   {
-    "title": "Physical",
-    "artist": "Olivia Newton-John",
-    "album": "Physical",
-    "year": "1981",
-    "bpm": 123,
-    "key": "Em",
-    "danceability": 0.84,
-    "acousticness": 0.08,
-    "genres": [
-      "country",
-      "pop"
-    ],
-    "country": "AU",
-    "mbid": "10ccb5d8-f9d5-4954-9441-3419b522a214",
-    "uri": "https://getsongbpm.com/song/physical/JqXVrv",
-    "spotifyId": "0bB0aRsAB2CTYRCeoMOFHU",
-    "isrc": "US86A2100406",
-    "image": "https://i.scdn.co/image/ab67616d000048513b741185c5115ef4454f99bf",
-    "source": "getsongbpm"
-  },
-  {
     "title": "Relax",
     "artist": "Frankie Goes to Hollywood",
     "album": "Welcome to the Pleasuredome",
@@ -8491,7 +8447,8 @@
     "danceabilitySource": "reccobeats",
     "popularity": 62,
     "bpmSource": "djay_pro_ax",
-    "keySource": "djay_pro_ax"
+    "keySource": "djay_pro_ax",
+    "_idx": 380
   },
   {
     "title": "Unbelievable",
@@ -16118,34 +16075,6 @@
     "keySource": "djay_pro_ax"
   },
   {
-    "title": "Maniac - From \"Flashdance\"",
-    "artist": "Michael Sembello",
-    "album": "'80s Pop #1's",
-    "year": "2026",
-    "spotifyId": "4jqCold0GXW9c40QyOGD8S",
-    "isrc": "USF078300090",
-    "image": "https://i.scdn.co/image/ab67616d000048510225711dc520d382bf0d0b45",
-    "bpm": 158,
-    "key": "2B",
-    "danceability": 0.647,
-    "energy": 0.757,
-    "valence": 0.828,
-    "acousticness": 0.0396,
-    "loudness": -5.897,
-    "genres": [
-      "Soundtrack",
-      "Jazz",
-      "Pop",
-      "Fitness & Workout",
-      "Latin"
-    ],
-    "source": "songstats",
-    "danceabilitySource": "reccobeats",
-    "popularity": 51,
-    "bpmSource": "djay_pro",
-    "keySource": "djay_pro"
-  },
-  {
     "title": "Purple Rain",
     "artist": "Prince, The Revolution, Prince & The Revolution",
     "album": "Purple Rain (Deluxe Expanded Edition)",
@@ -16329,7 +16258,7 @@
     "popularity": 60,
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
-    "_idx": 782
+    "_idx": 742
   },
   {
     "title": "Words - Original Version 1983",
@@ -34442,7 +34371,8 @@
     "danceabilitySource": "reccobeats",
     "popularity": 40,
     "bpmSource": "djay_pro_ax",
-    "keySource": "djay_pro_ax"
+    "keySource": "djay_pro_ax",
+    "_idx": 1461
   },
   {
     "title": "So, I Begin",
@@ -40383,15 +40313,6 @@
     "keySource": "djay_pro"
   },
   {
-    "artist": "Kenny Loggins",
-    "title": "Footloose - From \"Foo...",
-    "bpm": 174,
-    "key": "11B",
-    "source": "djay_pro",
-    "bpmSource": "djay_pro",
-    "keySource": "djay_pro"
-  },
-  {
     "artist": "F.R. David",
     "title": "Words - Original Versio...",
     "bpm": 124,
@@ -42156,15 +42077,6 @@
     "keySource": "djay_pro_ax"
   },
   {
-    "artist": "Fatboy Slim",
-    "title": "Praise You (Radio Edit)",
-    "bpm": 110,
-    "key": "4B",
-    "source": "djay_pro_ax",
-    "bpmSource": "djay_pro_ax",
-    "keySource": "djay_pro_ax"
-  },
-  {
     "artist": "Everything But The Girl",
     "title": "Missing - Todd Terry Remix / Radio Edit",
     "bpm": 124,
@@ -42722,21 +42634,23 @@
   },
   {
     "artist": "Olivia Newton-John",
-    "title": "Physical (Remastered 2021)",
+    "title": "Physical",
     "bpm": 124,
     "key": "9B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
-    "keySource": "djay_pro_ax"
-  },
-  {
-    "artist": "Michael Sembello",
-    "title": "Maniac - From \"Flashdance\" Soundtrack",
-    "bpm": 158,
-    "key": "2B",
-    "source": "djay_pro_ax",
-    "bpmSource": "djay_pro_ax",
-    "keySource": "djay_pro_ax"
+    "keySource": "djay_pro_ax",
+    "_idx": 2016,
+    "spotifyId": "0bB0aRsAB2CTYRCeoMOFHU",
+    "album": "Physical",
+    "year": "1981",
+    "image": "https://i.scdn.co/image/ab67616d000048513b741185c5115ef4454f99bf",
+    "genres": [
+      "country",
+      "pop"
+    ],
+    "danceability": 0.84,
+    "isrc": "US86A2100406"
   },
   {
     "artist": "Prince",
@@ -42752,15 +42666,6 @@
     "title": "I Want To Break Free - Single Remix",
     "bpm": 109,
     "key": "12B",
-    "source": "djay_pro_ax",
-    "bpmSource": "djay_pro_ax",
-    "keySource": "djay_pro_ax"
-  },
-  {
-    "artist": "Kenny Loggins",
-    "title": "Footloose - From \"Footloose\" Soundtrack",
-    "bpm": 174,
-    "key": "6B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax"
@@ -44215,15 +44120,6 @@
     "title": "All I Do",
     "bpm": 126,
     "key": "1B",
-    "source": "djay_pro_ax",
-    "bpmSource": "djay_pro_ax",
-    "keySource": "djay_pro_ax"
-  },
-  {
-    "artist": "Soulsearcher",
-    "title": "Can't Get Enough (Original Mix)",
-    "bpm": 127,
-    "key": "9B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax"
@@ -46858,7 +46754,7 @@
   },
   {
     "artist": "Will Smith",
-    "title": "Men In Black - From \"Men In Black\" Soundtrack",
+    "title": "Men in Black",
     "bpm": 108,
     "key": "4B",
     "source": "djay_pro_ax",
@@ -46878,7 +46774,9 @@
       "Hip Hop",
       "R&B/Soul"
     ],
-    "genresSource": "songstats"
+    "genresSource": "songstats",
+    "_idx": 2343,
+    "isrc": "USSM19700762"
   },
   {
     "artist": "Alizée",
@@ -47556,5 +47454,23 @@
       "Edm"
     ],
     "genresSource": "songstats"
+  },
+  {
+    "artist": "Tryo",
+    "title": "Désolé pour hier soir",
+    "bpm": 99,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4pI3b2w9WACkH3Wx5gM7ag",
+    "album": "Grain de sable",
+    "year": "2003",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d00a1c12837dcede74f612f5",
+    "genres": [
+      "reggae",
+      "world"
+    ],
+    "genresSource": "getsongbpm"
   }
 ]
