@@ -45948,7 +45948,7 @@
   {
     "artist": "Run–D.M.C., Aerosmith",
     "title": "Walk This Way (feat. Aerosmith)",
-    "bpm": 105,
+    "bpm": 106,
     "key": "8B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
@@ -62587,5 +62587,971 @@
       "Dance / Electro Pop"
     ],
     "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Motörhead",
+    "title": "Ace of Spades",
+    "bpm": 140,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Robert Palmer, Eric 'ET' Thorngren",
+    "title": "Addicted To Love",
+    "bpm": 112,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Journey",
+    "title": "Any Way You Want It",
+    "bpm": 138,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Ozzy Osbourne",
+    "title": "Crazy Train",
+    "bpm": 138,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Bruce Springsteen",
+    "title": "Dancing In the Dark",
+    "bpm": 149,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "INXS",
+    "title": "Don't Change",
+    "bpm": 164,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The Police",
+    "title": "Don't Stand So Close To Me",
+    "bpm": 140,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "punk",
+      "reggae",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Simple Minds",
+    "title": "Don't You (Forget About Me)",
+    "bpm": 111,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Stevie Nicks",
+    "title": "Edge of Seventeen - 2016 Remaster",
+    "bpm": 111,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Faith No More",
+    "title": "Epic",
+    "bpm": 174,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "The Police",
+    "title": "Every Little Thing She Does Is Magic",
+    "bpm": 82,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "punk",
+      "reggae",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Metallica",
+    "title": "Fade To Black - Remastered",
+    "bpm": 114,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Beastie Boys",
+    "title": "Fight For Your Right",
+    "bpm": 134,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "hip hop",
+      "punk",
+      "rap",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Tom Petty",
+    "title": "Free Fallin'",
+    "bpm": 84,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Bruce Springsteen",
+    "title": "Glory Days",
+    "bpm": 117,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Pat Benatar",
+    "title": "Hit Me With Your Best Shot",
+    "bpm": 127,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "The Smiths",
+    "title": "How Soon Is Now? - 2011 Remaster",
+    "bpm": 191,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Duran Duran",
+    "title": "Hungry Like the Wolf - 2009 Remaster",
+    "bpm": 128,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Def Leppard",
+    "title": "Hysteria",
+    "bpm": 107,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Joan Jett & the Blackhearts",
+    "title": "I Hate Myself for Loving You",
+    "bpm": 118,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Pop",
+      "Glam Punk",
+      "Golden Oldies",
+      "Vintage Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "U2",
+    "title": "I Still Haven't Found What I'm Looking For - Remastered 2007",
+    "bpm": 101,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "College Rock",
+      "Adult Alternative",
+      "Alternative",
+      "Arena Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Tom Petty",
+    "title": "I Won't Back Down",
+    "bpm": 114,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "R.E.M.",
+    "title": "It's The End Of The World As We Know It (And I Feel Fine)",
+    "bpm": 103,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Jane's Addiction",
+    "title": "Jane Says",
+    "bpm": 82,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Rick Springfield",
+    "title": "Jessie's Girl",
+    "bpm": 132,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "The Cure",
+    "title": "Just Like Heaven",
+    "bpm": 151,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Mötley Crüe",
+    "title": "Kickstart My Heart",
+    "bpm": 179,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Tom Petty",
+    "title": "Love Is A Long Road",
+    "bpm": 116,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Dire Straits",
+    "title": "Money For Nothing - Remastered 1996",
+    "bpm": 134,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Danzig",
+    "title": "Mother",
+    "bpm": 148,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "heavy metal",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Talking Heads",
+    "title": "Once in a Lifetime - 2005 Remaster",
+    "bpm": 117,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Metallica",
+    "title": "One",
+    "bpm": 103,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Guns N' Roses",
+    "title": "Paradise City",
+    "bpm": 100,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Alice Cooper",
+    "title": "Poison",
+    "bpm": 119,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Def Leppard",
+    "title": "Pour Some Sugar On Me - Remastered 2017",
+    "bpm": 85,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "U2",
+    "title": "Pride (In The Name Of Love) - Remastered 2009",
+    "bpm": 106,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "College Rock",
+      "Adult Alternative",
+      "Alternative",
+      "Arena Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Billy Idol",
+    "title": "Rebel Yell",
+    "bpm": 166,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "The Clash",
+    "title": "Rock the Casbah - Remastered",
+    "bpm": 130,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Punk",
+      "New Wave",
+      "Electronic",
+      "Hard Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Scorpions",
+    "title": "Rock You Like a Hurricane - 2015 - Remaster",
+    "bpm": 125,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Bryan Adams",
+    "title": "Run To You",
+    "bpm": 127,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2RWFncSWZEhSRRifqiDNVV",
+    "album": "Reckless (30th Anniversary / Deluxe Edition)",
+    "year": "1984",
+    "image": "https://i.scdn.co/image/ab67616d0000b273cf1fee2a55e98e22bf358512",
+    "popularity": 72,
+    "danceability": 0.561,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Bon Jovi",
+    "title": "Runaway",
+    "bpm": 152,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0X1sqQ652p1sceKM2nJlIJ",
+    "album": "Bon Jovi",
+    "year": "1984",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ede118b5f0e159dd18d42b90",
+    "popularity": 72,
+    "danceability": 0.475,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Tom Petty",
+    "title": "Runnin' Down A Dream",
+    "bpm": 170,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4AiMaeCXwsldpwvA5wu5gM",
+    "album": "Full Moon Fever",
+    "year": "1989",
+    "image": "https://i.scdn.co/image/ab67616d0000b27336572e6726714544f5bed456",
+    "popularity": 57,
+    "danceability": 0.456,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "folk",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The Cult",
+    "title": "She Sells Sanctuary",
+    "bpm": 139,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3qLZ866ZfaK0B0R5FIqXLG",
+    "album": "Love",
+    "year": "1985",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735c5dbd89210073351c9a6fdd",
+    "popularity": 66,
+    "danceability": 0.55,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Tears For Fears",
+    "title": "Shout",
+    "bpm": 98,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2gQaQUhDCNGfBVXTvxAmXQ",
+    "album": "Songs From The Big Chair",
+    "year": "1985",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739565c4df27be4aee5edc8009",
+    "popularity": 72,
+    "danceability": 0.511,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "electronic",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The Rolling Stones",
+    "title": "Start Me Up - Remastered 2009",
+    "bpm": 122,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "7HKez549fwJQDzx3zLjHKC",
+    "album": "Tattoo You (2009 Re-Mastered)",
+    "year": "1981",
+    "image": "https://i.scdn.co/image/ab67616d0000b27308fc42e575043a753f60d675",
+    "popularity": 76,
+    "danceability": 0.631,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Bryan Adams",
+    "title": "Summer Of '69",
+    "bpm": 139,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0GONea6G2XdnHWjNZd6zt3",
+    "album": "Reckless (30th Anniversary / Deluxe Edition)",
+    "year": "1984",
+    "image": "https://i.scdn.co/image/ab67616d0000b273cf1fee2a55e98e22bf358512",
+    "popularity": 80,
+    "danceability": 0.509,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Guns N' Roses",
+    "title": "Sweet Child O' Mine",
+    "bpm": 126,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "7snQQk1zcKl8gZ92AnueZW",
+    "album": "Appetite For Destruction",
+    "year": "1987",
+    "image": "https://i.scdn.co/image/ab67616d0000b27321ebf49b3292c3f0f575f0f5",
+    "popularity": 84,
+    "danceability": 0.445,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Don Henley",
+    "title": "The Boys Of Summer - Remastered 2024",
+    "bpm": 177,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4Q3ERWBrb4lhDvAPyANjY5",
+    "album": "Building The Perfect Beast (Remastered 2024)",
+    "year": "1984",
+    "image": "https://i.scdn.co/image/ab67616d0000b27338a8040723d47a318341e87c",
+    "popularity": 73,
+    "danceability": 0.523,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Rock",
+      "Yacht Rock",
+      "Classic Rock",
+      "Arena Rock",
+      "Golden Oldies"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Iron Maiden",
+    "title": "The Trooper - 2015 Remaster",
+    "bpm": 160,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4OROzZUy6gOWN4UGQVaZMF",
+    "album": "Piece of Mind (2015 Remaster)",
+    "year": "1983",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
+    "popularity": 71,
+    "danceability": 0.285,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Rock",
+      "Metal",
+      "Hard Rock",
+      "Heavy Metal",
+      "Rock And Roll"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Rush",
+    "title": "Tom Sawyer",
+    "bpm": 88,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3QZ7uX97s82HFYSmQUAN1D",
+    "album": "Moving Pictures (2011 Remaster)",
+    "year": "1981",
+    "image": "https://i.scdn.co/image/ab67616d0000b27372833c1ae3343cbfb4617073",
+    "popularity": 67,
+    "danceability": 0.536,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Bon Jovi",
+    "title": "Wanted Dead Or Alive",
+    "bpm": 150,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0oerlffJSzhRVvtDfLcp3N",
+    "album": "Slippery When Wet",
+    "year": "1986",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
+    "popularity": 72,
+    "danceability": 0.253,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Guns N' Roses",
+    "title": "Welcome To The Jungle",
+    "bpm": 124,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0G21yYKMZoHa30cYVi1iA8",
+    "album": "Appetite For Destruction",
+    "year": "1987",
+    "image": "https://i.scdn.co/image/ab67616d0000b27321ebf49b3292c3f0f575f0f5",
+    "popularity": 80,
+    "danceability": 0.454,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Prince",
+    "title": "When Doves Cry",
+    "bpm": 126,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6sby78fghipoXHQLeeZFFH",
+    "album": "Purple Rain",
+    "year": "1984",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738a2ce3f148f57584269c3782",
+    "popularity": 68,
+    "danceability": 0.729,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Funk",
+      "Soundtrack",
+      "Soul",
+      "Rock",
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "U2",
+    "title": "Where The Streets Have No Name - Remastered",
+    "bpm": 126,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4qgZs0RNjdzKAS22lP0QjY",
+    "album": "The Joshua Tree (Super Deluxe)",
+    "year": "1987",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b7bea3d01f04e6d0408d2afe",
+    "popularity": 66,
+    "danceability": 0.49,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Rock",
+      "College Rock",
+      "Adult Alternative",
+      "Alternative",
+      "Arena Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Loverboy",
+    "title": "Working for the Weekend",
+    "bpm": 147,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6pY88I8vkB0sY3Za4LuTYE",
+    "album": "Get Lucky",
+    "year": "1981",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c4536505a0b3f7ce434f46ff",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Bon Jovi",
+    "title": "You Give Love A Bad Name",
+    "bpm": 123,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0rmGAIH9LNJewFw7nKzZnc",
+    "album": "Slippery When Wet",
+    "year": "1986",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
+    "popularity": 80,
+    "danceability": 0.541,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "AC/DC",
+    "title": "You Shook Me All Night Long",
+    "bpm": 127,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2SiXAy7TuUkycRVbbWDEpo",
+    "album": "Back In Black",
+    "year": "1980",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
+    "popularity": 81,
+    "danceability": 0.532,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "David Bowie",
+    "title": "\"Heroes\" - 2017 Remaster",
+    "bpm": 112,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "7Jh1bpe76CNTCgdgAdBw4Z",
+    "album": "\"Heroes\" (2017 Remaster)",
+    "year": "1977",
+    "image": "https://i.scdn.co/image/ab67616d0000b273204f41d52743c6a9efd62985",
+    "popularity": 72,
+    "danceability": 0.489,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
   }
 ]
