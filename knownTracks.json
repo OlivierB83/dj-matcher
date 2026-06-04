@@ -36823,8 +36823,8 @@
     "spotifyId": "51eSHglvG1RJXtL3qI5trr",
     "isrc": "USWB12400913",
     "image": "https://i.scdn.co/image/ab67616d00004851831949037a1db10b87b005fa",
-    "bpm": 91,
-    "key": "G#",
+    "bpm": 183,
+    "key": "4B",
     "danceability": 0.432,
     "energy": 0.583,
     "valence": 0.544,
@@ -36839,7 +36839,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 84
+    "popularity": 84,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Breathe",
@@ -61993,5 +61995,126 @@
       "rock"
     ],
     "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Videoclub, Adèle Castillon, Mattyeux",
+    "title": "Amour plastique",
+    "bpm": 120,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Declan McKenna",
+    "title": "Brazil",
+    "bpm": 121,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Coldplay",
+    "title": "feelslikeimfallinginlove",
+    "bpm": 121,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Charli xcx, Lorde",
+    "title": "Girl, so confusing featuring lorde",
+    "bpm": 125,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "House",
+      "Dance",
+      "Club",
+      "Dance Pop",
+      "Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Phoenix",
+    "title": "Lisztomania",
+    "bpm": 98,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Fitz and The Tantrums",
+    "title": "Out of My League",
+    "bpm": 170,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "sombr",
+    "title": "undressed",
+    "bpm": 116,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Indie Rock",
+      "Alternative",
+      "Pop",
+      "Alternative Pop",
+      "Dance Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Daft Punk",
+    "title": "Veridis Quo",
+    "bpm": 107,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Electronic",
+      "Dance",
+      "Electronica",
+      "House",
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Empire Of The Sun",
+    "title": "We Are The People",
+    "bpm": 123,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Electronic",
+      "Dance / Pop"
+    ],
+    "genresSource": "cached:songstats"
   }
 ]
