@@ -20,6 +20,7 @@
 
 import "dotenv/config";
 import fs from "fs";
+import { normalize, primaryArtist } from "./track-identity.js";
 
 const CID = process.env.SPOTIFY_CLIENT_ID;
 const CSECRET = process.env.SPOTIFY_CLIENT_SECRET;
@@ -84,6 +85,32 @@ function cleanForQuery(s) {
     .trim();
 }
 
+/**
+ * Build a Map<normalised primary artist, { genres, source }> from the
+ * catalog. Used to short-circuit the API cascade when we already know
+ * an artist's genres from a previous enrichment — typically the case
+ * after the first run: most multi-artist djay tracks share their
+ * primary artist with an existing single-artist catalog entry.
+ *
+ * Songstats spend reduction is the whole point. Once "Camila Cabello"
+ * is in the catalog with genres, every future track of hers — solo or
+ * collab — gets her genres for free.
+ */
+export function buildArtistGenresCache(catalog) {
+  const cache = new Map();
+  for (const t of catalog) {
+    if (!t.genres?.length || !t.artist) continue;
+    const key = normalize(primaryArtist(t.artist));
+    if (!key) continue;
+    // Don't overwrite. The first hit wins — usually fine, and avoids
+    // making the cache depend on catalog ordering.
+    if (!cache.has(key)) {
+      cache.set(key, { genres: t.genres, source: t.genresSource || t.source || "catalog" });
+    }
+  }
+  return cache;
+}
+
 async function spotifySearchTrack(token, artist, title) {
   const cleanArtist = cleanForQuery(artist);
   const cleanTitle = cleanForQuery(title);
@@ -122,7 +149,9 @@ async function reccobeatsAudioFeatures(rbId) {
 
 async function getsongbpmGenres(artist, title) {
   if (!GETSONGBPM_API_KEY) return null;
-  const lookup = `song:${cleanForQuery(title)} artist:${cleanForQuery(artist)}`;
+  // Use the primary artist — getsongbpm doesn't understand
+  // comma-separated multi-artist strings and silently returns nothing.
+  const lookup = `song:${cleanForQuery(title)} artist:${primaryArtist(cleanForQuery(artist))}`;
   const url =
     `https://api.getsong.co/search/?api_key=${GETSONGBPM_API_KEY}` +
     `&type=both&lookup=${encodeURIComponent(lookup)}&limit=3`;
@@ -132,6 +161,13 @@ async function getsongbpmGenres(artist, title) {
   const best = (data.search || [])[0];
   return best?.artist?.genres?.length ? best.artist.genres : null;
 }
+
+// (Spotify artist search USED to live here as a free fallback before
+// Songstats, but as of 2024-2025 the /v1/search?type=artist endpoint
+// returns empty `genres` arrays for the same client-credentials reason
+// /v1/artists/{id} returns 403 — Spotify has been progressively
+// stripping genre data from our access tier. So it's no longer worth
+// the round-trip. We jump straight from getsongbpm to Songstats.)
 
 async function songstatsGenres(track) {
   if (!SONGSTATS_API_KEY || !track.spotifyId) return null;
@@ -156,6 +192,7 @@ async function songstatsGenres(track) {
  */
 export async function enrichTrack(track, opts = {}) {
   const throttle = opts.throttleMs ?? 200;
+  const artistGenresCache = opts.artistGenresCache;
 
   // 1. Spotify search → spotifyId / album / year / image
   try {
@@ -193,21 +230,37 @@ export async function enrichTrack(track, opts = {}) {
     }
   }
 
-  // 3. getsongbpm → genres
+  // 3. Local artist-genres cache (free, instant). Most multi-artist
+  // tracks djay imports share their primary artist with a single-artist
+  // catalog entry that was already enriched in a prior run — so we
+  // skip the entire API cascade.
   let resolvedGenres = null;
   let genresSource = null;
-  try {
-    const g = await getsongbpmGenres(track.artist, track.title);
-    if (g) {
-      resolvedGenres = g;
-      genresSource = "getsongbpm";
+  if (artistGenresCache) {
+    const cached = artistGenresCache.get(normalize(primaryArtist(track.artist)));
+    if (cached?.genres?.length) {
+      resolvedGenres = cached.genres;
+      genresSource = `cached:${cached.source}`;
     }
-    await sleep(throttle);
-  } catch {
-    // best-effort, ignore
   }
 
-  // 4. Songstats fallback for genres (paid, only when getsongbpm misses)
+  // 4. getsongbpm → genres (free; queried with primaryArtist so the
+  // multi-artist djay strings actually resolve)
+  if (!resolvedGenres) {
+    try {
+      const g = await getsongbpmGenres(track.artist, track.title);
+      if (g) {
+        resolvedGenres = g;
+        genresSource = "getsongbpm";
+      }
+      await sleep(throttle);
+    } catch {
+      // best-effort, ignore
+    }
+  }
+
+  // 5. Songstats fallback for genres (PAID, ~0.01 € per call). Only
+  // reached when the cache and getsongbpm both came back empty.
   if (!resolvedGenres && track.spotifyId) {
     try {
       const g = await songstatsGenres(track);
@@ -224,6 +277,15 @@ export async function enrichTrack(track, opts = {}) {
   if (resolvedGenres) {
     track.genres = resolvedGenres;
     track.genresSource = genresSource;
+    // Feed the result back into the live cache so the very next track
+    // for the same primary artist in this run gets it for free, even if
+    // the first hit had to pay Songstats.
+    if (artistGenresCache) {
+      const key = normalize(primaryArtist(track.artist));
+      if (key && !artistGenresCache.has(key)) {
+        artistGenresCache.set(key, { genres: resolvedGenres, source: genresSource });
+      }
+    }
   }
 
   return track;

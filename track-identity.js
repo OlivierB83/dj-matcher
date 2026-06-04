@@ -101,3 +101,11 @@ export function coreTitle(title) {
 export function canonicalKey(artist, title) {
   return normalize(artist) + "|" + normalize(coreTitle(stripTrunc(title)));
 }
+
+/** "Major Lazer, Justin Bieber, MØ" → "Major Lazer". The split delimiters
+ *  cover every separator Spotify / djay use for collaborations. */
+export function primaryArtist(s) {
+  return String(s || "")
+    .split(/,| & |\bfeat\.?|\bft\.?|\bwith\b|\bvs\.?/i)[0]
+    .trim();
+}

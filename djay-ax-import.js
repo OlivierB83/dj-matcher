@@ -28,7 +28,7 @@
  */
 
 import fs from "fs";
-import { enrichTrack } from "./djay-enrich.js";
+import { enrichTrack, buildArtistGenresCache } from "./djay-enrich.js";
 import {
   normalize,
   stripTrunc,
@@ -287,8 +287,24 @@ async function main() {
   // enrich them via Spotify / ReccoBeats / getsongbpm / songstats before
   // pushing into the catalog. We persist after each enrichment so the
   // catalog ends up with partial progress if the user aborts mid-run.
+  //
+  // The artist-genres cache is the main lever for keeping Songstats
+  // spend under control. Pre-seed it from every catalog entry that
+  // already has genres; the cascade in enrichTrack will then short-
+  // circuit for any new track whose primary artist we already know.
+  // We pass the same Map by reference, so genres resolved mid-run also
+  // benefit subsequent same-artist tracks in this same run.
   console.log(`\n=== Enrichissement des ${adds.length} nouvelles entrées ===`);
-  const enrichStats = { spotify: 0, popularity: 0, danceability: 0, genres: 0 };
+  const artistGenresCache = buildArtistGenresCache(catalog);
+  console.log(`   cache artistes pré-chargé : ${artistGenresCache.size} artistes`);
+  const enrichStats = {
+    spotify: 0,
+    popularity: 0,
+    danceability: 0,
+    genres: 0,
+    cacheHit: 0,
+    songstats: 0,
+  };
   const newEntries = [];
 
   for (let i = 0; i < adds.length; i++) {
@@ -303,7 +319,7 @@ async function main() {
       keySource: "djay_pro_ax",
     };
     try {
-      await enrichTrack(base);
+      await enrichTrack(base, { artistGenresCache });
     } catch (e) {
       console.error(`   ⚠️  enrich erreur ${a.artist} — ${a.title} : ${e.message}`);
     }
@@ -311,6 +327,8 @@ async function main() {
     if (base.popularity != null) enrichStats.popularity++;
     if (base.danceability != null) enrichStats.danceability++;
     if (base.genres?.length) enrichStats.genres++;
+    if (base.genresSource?.startsWith("cached:")) enrichStats.cacheHit++;
+    if (base.genresSource === "songstats") enrichStats.songstats++;
     newEntries.push(base);
     catalog.push(base);
 
@@ -320,7 +338,8 @@ async function main() {
       console.log(
         `   [${String(i + 1).padStart(3)}/${adds.length}] · ` +
           `spotify=${enrichStats.spotify} · pop=${enrichStats.popularity} · ` +
-          `dance=${enrichStats.danceability} · genres=${enrichStats.genres}`
+          `dance=${enrichStats.danceability} · ` +
+          `genres=${enrichStats.genres} (cache=${enrichStats.cacheHit} · songstats=${enrichStats.songstats})`
       );
     }
   }
