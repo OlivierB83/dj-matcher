@@ -62535,5 +62535,57 @@
       "soul"
     ],
     "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Camilla Sparksss",
+    "title": "Backflip",
+    "bpm": 122,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Purple Disco Machine, EYLR",
+    "title": "Dopamine (feat. EYLR)",
+    "bpm": 118,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "House",
+      "Dance",
+      "Electronic",
+      "Dance Pop",
+      "Disco House"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Ciné Folies",
+    "title": "Rabbi Jacob : Danse de la joie",
+    "bpm": 86,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "DJ Antoine, Timati, Kalenna, Mad Mark",
+    "title": "Welcome To St. Tropez - DJ Antoine vs. Timati / DJ Antoine vs. Mad Mark Radio Edit",
+    "bpm": 125,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "House",
+      "Progressive House",
+      "Dance / Pop",
+      "Dance / Electro Pop"
+    ],
+    "genresSource": "cached:songstats"
   }
 ]
