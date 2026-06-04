@@ -36550,7 +36550,7 @@
     "isrc": "USAT21703896",
     "image": "https://i.scdn.co/image/ab67616d00004851cf6e41c933cfc7694da6e6d4",
     "bpm": 158,
-    "key": "E",
+    "key": "8B",
     "danceability": 0.715,
     "energy": 0.624,
     "valence": 0.412,
@@ -36565,7 +36565,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 68
+    "popularity": 68,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Lover",
@@ -37257,7 +37259,7 @@
     "isrc": "USUM71207186",
     "image": "https://i.scdn.co/image/ab67616d000048517aede4855f6d0d738012e2e5",
     "bpm": 123,
-    "key": "A#m",
+    "key": "6B",
     "danceability": 0.913,
     "acousticness": 0.03,
     "genres": [
@@ -37271,7 +37273,9 @@
     "uri": "https://getsongbpm.com/song/lost/qYXW9R",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 81
+    "popularity": 81,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Like Him (feat. Lola Young)",
@@ -62153,5 +62157,383 @@
       "Rap"
     ],
     "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Big Mountain",
+    "title": "Baby, I Love Your Way",
+    "bpm": 148,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "reggae"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Jungle",
+    "title": "Back On 74",
+    "bpm": 146,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Lost Frequencies, Tom Odell",
+    "title": "Black Friday (pretty like the sun)",
+    "bpm": 126,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Tame Impala",
+    "title": "Borderline",
+    "bpm": 98,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "House",
+      "Dance",
+      "Electronic",
+      "Edm",
+      "Electro"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "2Pac, Roger, Dr. Dre",
+    "title": "California Love - Original Version",
+    "bpm": 92,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Post Malone",
+    "title": "Circles",
+    "bpm": 120,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "The Knocks, POWERS",
+    "title": "Classic (feat. POWERS)",
+    "bpm": 102,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "punk"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Bananarama",
+    "title": "Cruel Summer",
+    "bpm": 109,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Snoop Dogg, Pharrell Williams",
+    "title": "Drop It Like It's Hot",
+    "bpm": 92,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "rap"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Crystal Waters, The Basement Boys",
+    "title": "Gypsy Woman (She's Homeless) (La Da Dee La Da Da) - Basement Boy Strip To The Bone Mix",
+    "bpm": 120,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "JAWNY",
+    "title": "Honeypie",
+    "bpm": 115,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "ANOTR, Leven Kali, Erik Bandt",
+    "title": "How You Feel (ft Leven Kali)",
+    "bpm": 128,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "House",
+      "Dance",
+      "Club",
+      "Dance Pop",
+      "Deep House"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "bbno$",
+    "title": "it boy",
+    "bpm": 130,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Electronic",
+      "Electronica",
+      "Hip Hop/Rap",
+      "English Hip Hop",
+      "Pop Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Pharrell Williams",
+    "title": "Just A Cloud Away",
+    "bpm": 113,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "funk",
+      "hip hop",
+      "pop",
+      "r&b",
+      "rap",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Jorja Smith",
+    "title": "Little Things x Gypsy Woman - L BEATS MASHUP",
+    "bpm": 127,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "rusowsky",
+    "title": "malibU",
+    "bpm": 126,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Orville Peck, Kylie Minogue, Diplo",
+    "title": "Midnight Ride",
+    "bpm": 118,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "The Notorious B.I.G., Mase, Diddy",
+    "title": "Mo Money Mo Problems (feat. Puff Daddy & Mase) - 2014 Remaster",
+    "bpm": 105,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Chaka Demus & Pliers",
+    "title": "Murder She Wrote",
+    "bpm": 95,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "reggae"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Dennis Lloyd",
+    "title": "Nevermind",
+    "bpm": 100,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Drake",
+    "title": "Passionfruit",
+    "bpm": 112,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Hip Hop",
+      "American Hip Hop",
+      "American Trap",
+      "Clean Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Ritt Momney",
+    "title": "Put Your Records On",
+    "bpm": 91,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Paul Oakenfold, Shifty Shellshock, Crazy Town",
+    "title": "Starry Eyed Surprise",
+    "bpm": 103,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "DJ Jazzy Jeff & The Fresh Prince",
+    "title": "Summertime",
+    "bpm": 95,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "rap"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Surfaces",
+    "title": "Sunday Best",
+    "bpm": 112,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Petit Biscuit",
+    "title": "Sunset Lover",
+    "bpm": 91,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Bruno Mars",
+    "title": "That's What I Like",
+    "bpm": 134,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "r&b",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "AnnenMayKantereit, Giant Rooks",
+    "title": "Tom's Diner",
+    "bpm": 98,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Empire Of The Sun",
+    "title": "Walking On A Dream",
+    "bpm": 127,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Electronic",
+      "Dance / Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Charles & Eddie",
+    "title": "Would I Lie To You?",
+    "bpm": 202,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "r&b",
+      "rock",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
   }
 ]
