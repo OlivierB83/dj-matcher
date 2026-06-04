@@ -33547,7 +33547,7 @@
     "isrc": "FRZ052400361",
     "image": "https://i.scdn.co/image/ab67616d000048512540bbf718002d150f36c673",
     "bpm": 107,
-    "key": "F",
+    "key": "7B",
     "danceability": 0.746,
     "energy": 0.797,
     "valence": 0.426,
@@ -33558,7 +33558,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 49
+    "popularity": 49,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Last Night - Official Madison Song",
@@ -48127,6 +48129,43 @@
       "Hip Hop/Rap",
       "Dance / Pop",
       "Chanson"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Canell 'Sun",
+    "title": "Joyeux anniversaire AMBRE",
+    "bpm": 124,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4EEW2qMJ0EnoxphMDuIpF4",
+    "album": "Joyeux anniversaire avec ton prénom (Volume 4)",
+    "year": "2025",
+    "image": "https://i.scdn.co/image/ab67616d0000b273bf1d8406e5dd80007e4fcb74",
+    "genres": [
+      "Chanson",
+      "Children's Music"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Jazzy Birthday",
+    "title": "NEW Joyeux anniversaire Ambre Jazz Manouche",
+    "bpm": 110,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "7otXuVEPvqX8HTOtNw6kVR",
+    "album": "Jazzy Birthday, Vol. 1",
+    "year": "2021",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732bff504ee980d94796cccbac",
+    "genres": [
+      "Chanson",
+      "Children's Music",
+      "Lullaby"
     ],
     "genresSource": "songstats"
   }
