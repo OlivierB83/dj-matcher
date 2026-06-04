@@ -2419,7 +2419,7 @@
     "album": "A Head Full of Dreams",
     "year": "2015",
     "bpm": 112,
-    "key": "Am",
+    "key": "8B",
     "danceability": 0.64,
     "acousticness": 0.01,
     "genres": [
@@ -2432,7 +2432,9 @@
     "spotifyId": "6XRthTV7Mu1LmZB58Kx305",
     "isrc": "GBAYE1500981",
     "image": "https://i.scdn.co/image/ab67616d0000485198d9c9392b8d1d65e51ae34b",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Gimme Gimme Gimme (Definitive mix)",
@@ -12728,15 +12730,19 @@
     "title": "La Mamá de la Mamá",
     "artist": "El Alfa, El Cherry Scom, CJ",
     "bpm": 130,
-    "key": "5A",
-    "source": "djay_pro"
+    "key": "5B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Y Que Fue?",
     "artist": "Don Miguelo",
     "bpm": 133,
-    "key": "1A",
-    "source": "djay_pro"
+    "key": "1B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "I Follow Rivers - The Magician Remix",
@@ -12771,16 +12777,11 @@
   {
     "title": "End of Beginning",
     "artist": "Djo",
-    "bpm": 160,
+    "bpm": 80,
     "key": "10B",
-    "source": "djay_pro"
-  },
-  {
-    "title": "Bitter Sweet Symphony",
-    "artist": "The Verve",
-    "bpm": 171,
-    "key": "12B",
-    "source": "djay_pro"
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Shut Up And Drive",
@@ -12793,15 +12794,19 @@
     "title": "BREAK MY SOUL",
     "artist": "Beyoncé",
     "bpm": 115,
-    "key": "1A",
-    "source": "djay_pro"
+    "key": "1B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Garden Of Eden",
     "artist": "Lady Gaga",
     "bpm": 125,
-    "key": "2A",
-    "source": "djay_pro"
+    "key": "2B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "S&M",
@@ -12869,8 +12874,10 @@
     "title": "Love Me Again",
     "artist": "John Newman",
     "bpm": 126,
-    "key": "6A",
-    "source": "djay_pro"
+    "key": "6B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Outside",
@@ -12899,8 +12906,10 @@
     "title": "Lean On",
     "artist": "Major Lazer, MØ, DJ Snake",
     "bpm": 98,
-    "key": "6A",
-    "source": "djay_pro"
+    "key": "6B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "WAP",
@@ -12950,8 +12959,10 @@
     "title": "Baile Inolvidable",
     "artist": "Bad Bunny",
     "bpm": 90,
-    "key": "8A",
-    "source": "djay_pro"
+    "key": "8B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "The Weekend",
@@ -12961,7 +12972,7 @@
     "source": "djay_pro",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
-    "_idx": 616,
+    "_idx": 598,
     "spotifyId": "4c2wdAMuL7KkGVeyRqmYQu",
     "album": "Analog Is On",
     "year": "2007",
@@ -12973,7 +12984,8 @@
     "danceability": 0.686,
     "danceabilitySource": "reccobeats",
     "popularity": 52,
-    "isrc": "GBBFR0400137"
+    "isrc": "GBBFR0400137",
+    "genresSource": "songstats"
   },
   {
     "title": "Sing Hallelujah!",
@@ -12988,8 +13000,10 @@
     "title": "Let's Get Loud",
     "artist": "Jennifer Lopez",
     "bpm": 131,
-    "key": "5A",
-    "source": "djay_pro"
+    "key": "5B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Animals",
@@ -13016,8 +13030,10 @@
     "title": "No Lie",
     "artist": "Sean Paul, Dua Lipa",
     "bpm": 102,
-    "key": "8A",
-    "source": "djay_pro"
+    "key": "8B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Satisfaction",
@@ -13030,8 +13046,10 @@
     "title": "Rock That Body",
     "artist": "Black Eyed Peas",
     "bpm": 125,
-    "key": "7A",
-    "source": "djay_pro"
+    "key": "7B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Kids",
@@ -13058,8 +13076,10 @@
     "title": "Misery",
     "artist": "Maroon 5",
     "bpm": 103,
-    "key": "9A",
-    "source": "djay_pro"
+    "key": "9B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "EoO",
@@ -13081,22 +13101,28 @@
     "title": "Von dutch",
     "artist": "Charli xcx",
     "bpm": 130,
-    "key": "7B",
-    "source": "djay_pro"
+    "key": "4B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Money Pull Up",
     "artist": "Blaiz Fayah, Maureen, Dj Glad",
     "bpm": 100,
-    "key": "11A",
-    "source": "djay_pro"
+    "key": "11B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Ran Out",
     "artist": "JT",
-    "bpm": 130,
-    "key": "9A",
-    "source": "djay_pro"
+    "bpm": 98,
+    "key": "9B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Alors la zone",
@@ -36605,7 +36631,7 @@
     "isrc": "USQX91701275",
     "image": "https://i.scdn.co/image/ab67616d000048518940ac99f49e44f59e6f7fb3",
     "bpm": 79,
-    "key": "F#",
+    "key": "3B",
     "danceability": 0.558,
     "energy": 0.559,
     "valence": 0.62,
@@ -36620,7 +36646,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 89
+    "popularity": 89,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "sure thing",
@@ -42475,8 +42503,22 @@
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
-    "_idx": 2157,
-    "album": "Memories"
+    "_idx": 2001,
+    "album": "Memories",
+    "spotifyId": "3mVXDesOrTDitI8Uvog77C",
+    "year": "2009",
+    "image": "https://i.scdn.co/image/ab67616d0000b273530f41ffd5a9bf22943d1be8",
+    "genres": [
+      "Electronica",
+      "Electronic",
+      "Dance",
+      "House",
+      "Dance / Pop"
+    ],
+    "genresSource": "songstats",
+    "danceability": 0.759,
+    "danceabilitySource": "reccobeats",
+    "popularity": 46
   },
   {
     "artist": "Black Eyed Peas",
@@ -45845,6 +45887,95 @@
       "Worldbeat",
       "Worldwide",
       "Adult Alternative"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "The Verve",
+    "title": "Bitter Sweet Symphony",
+    "bpm": 171,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "57iDDD9N9tTWe75x6qhStw",
+    "album": "Urban Hymns (Remastered 2016)",
+    "year": "1997",
+    "image": "https://i.scdn.co/image/ab67616d0000b273707d13d3f87652e737e94d45",
+    "popularity": 80,
+    "danceability": 0.356,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Britpop",
+      "Alternative",
+      "Indie Rock",
+      "Rock",
+      "Pop"
+    ],
+    "genresSource": "songstats",
+    "_idx": 2304
+  },
+  {
+    "artist": "Daft Punk, Pharrell Williams, Nile Rodgers",
+    "title": "Get Lucky (feat. Pharrell Williams and Nile Rodgers)",
+    "bpm": 116,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "69kOkLUCkxIZYexIgSG8rq",
+    "album": "Random Access Memories",
+    "year": "2013",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739b9b36b0e22870b9f542d937",
+    "popularity": 72,
+    "danceability": 0.81,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Pop",
+      "Electronic",
+      "Electronica",
+      "House"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Antonio Vivaldi, Orchestre de chambre de Paris, Jean-Pierre Wallez",
+    "title": "Les quatre saisons: Le printemps",
+    "bpm": 95,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "5S1i0sESZ7DETebCD8BLdI",
+    "album": "Antonio Vivaldi : Les quatre saisons - Concerto pour hautbois et cordes en Ré mineur",
+    "year": "2010",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d333cd44edafe85c40e23286",
+    "popularity": 23,
+    "danceability": 0.282,
+    "danceabilitySource": "reccobeats"
+  },
+  {
+    "artist": "Carte Blanq, Nils Van Zandt, Maxx Power",
+    "title": "33 Max Verstappen",
+    "bpm": 128,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4nKRZAONxGgcKCMin730Ai",
+    "album": "33 Max Verstappen",
+    "year": "2023",
+    "image": "https://i.scdn.co/image/ab67616d0000b27304d9f288ce2368d96acf306a",
+    "popularity": 62,
+    "danceability": 0.711,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Dance / Pop",
+      "Edm",
+      "Electro",
+      "Electronica"
     ],
     "genresSource": "songstats"
   }
