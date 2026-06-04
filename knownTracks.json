@@ -30345,7 +30345,7 @@
     "isrc": "USSM16401131",
     "image": "https://i.scdn.co/image/ab67616d00004851661f1377769612251d3f3fee",
     "bpm": 107,
-    "key": "F#",
+    "key": "2B",
     "danceability": 0.426,
     "energy": 0.216,
     "valence": 0.328,
@@ -30360,7 +30360,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 21
+    "popularity": 21,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "I'm Your Man",
@@ -44394,7 +44396,7 @@
   {
     "artist": "Starsailor",
     "title": "Four to the Floor - Thin White Duke Mix; Short Version",
-    "bpm": 123,
+    "bpm": 93,
     "key": "12B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
@@ -59817,5 +59819,2179 @@
       "pop"
     ],
     "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Pearl Jam",
+    "title": "Alive",
+    "bpm": 75,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Adult Alternative",
+      "Grunge",
+      "Chill Rock",
+      "Chillout Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Supergrass",
+    "title": "Alright",
+    "bpm": 146,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Lenny Kravitz",
+    "title": "Always On The Run",
+    "bpm": 169,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "rock",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Yves Simon",
+    "title": "Amazoniaque",
+    "bpm": 143,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Lenny Kravitz",
+    "title": "American Woman",
+    "bpm": 84,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "rock",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Jet",
+    "title": "Are You Gonna Be My Girl",
+    "bpm": 105,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Téléphone",
+    "title": "Au coeur de la nuit",
+    "bpm": 161,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Chanson",
+      "Pop Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Björk",
+    "title": "Bachelorette",
+    "bpm": 97,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Asaf Avidan",
+    "title": "Bang Bang",
+    "bpm": 190,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Minimal / Deep Tech",
+      "Chillwave",
+      "Club",
+      "Dance Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Asaf Avidan",
+    "title": "Bang Bang - In a Box Version",
+    "bpm": 96,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Minimal / Deep Tech",
+      "Chillwave",
+      "Club",
+      "Dance Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Audioslave",
+    "title": "Be Yourself",
+    "bpm": 117,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Pearl Jam",
+    "title": "Black",
+    "bpm": 76,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Adult Alternative",
+      "Grunge",
+      "Chill Rock",
+      "Chillout Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Red Hot Chili Peppers",
+    "title": "Black Summer",
+    "bpm": 106,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "No Money Kids",
+    "title": "Brother",
+    "bpm": 130,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "The Smashing Pumpkins",
+    "title": "Bullet With Butterfly Wings - Remastered 2012",
+    "bpm": 122,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Stromae",
+    "title": "carmen",
+    "bpm": 150,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "hip hop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Francis Cabrel",
+    "title": "Carte postale - Remastered",
+    "bpm": 76,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "French Pop",
+      "Blues Rock",
+      "Contemporary Folk",
+      "Rock",
+      "Singer/Songwriter"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Tarmac",
+    "title": "Ce Sourire Est Pour Moi",
+    "bpm": 130,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Noir Désir",
+    "title": "Ces gens-là - Live / 2002",
+    "bpm": 140,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Lamomali, -M-, Toumani Diabaté, Sidiki Diabaté, Fatoumata Diawara",
+    "title": "Cet Air",
+    "bpm": 166,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Noir Désir",
+    "title": "Charlie",
+    "bpm": 133,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Noir Désir",
+    "title": "Charlie 2",
+    "bpm": 123,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Snow Patrol",
+    "title": "Chasing Cars - Live In Toronto",
+    "bpm": 106,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Deep Purple",
+    "title": "Child in Time - 1995 Remaster",
+    "bpm": 128,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Black Pumas",
+    "title": "Colors",
+    "bpm": 91,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Simply Red",
+    "title": "Come to My Aid - 2008 Remaster",
+    "bpm": 116,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "David Guetta, Sam Martin",
+    "title": "Dangerous (feat. Sam Martin)",
+    "bpm": 92,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Red Hot Chili Peppers",
+    "title": "Dani California",
+    "bpm": 96,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Stephan Eicher",
+    "title": "Des hauts, des bas",
+    "bpm": 111,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Daran Et Les Chaises",
+    "title": "Dormir dehors",
+    "bpm": 109,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Scott Bradlee's Postmodern Jukebox, Morgan James",
+    "title": "Dream On",
+    "bpm": 96,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "R.E.M.",
+    "title": "Drive",
+    "bpm": 143,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "François Valéry",
+    "title": "Elle Danse Marie",
+    "bpm": 115,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Metallica",
+    "title": "Enter Sandman",
+    "bpm": 125,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Variété Française",
+    "title": "Etienne",
+    "bpm": 99,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Pearl Jam",
+    "title": "Even Flow",
+    "bpm": 105,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Adult Alternative",
+      "Grunge",
+      "Chill Rock",
+      "Chillout Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Placebo",
+    "title": "Every You Every Me",
+    "bpm": 133,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Yodelice",
+    "title": "Fade Away",
+    "bpm": 154,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Crowded House",
+    "title": "Fall At Your Feet",
+    "bpm": 103,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Crowded House",
+    "title": "Fall At Your Feet (Live at Sydney Opera House) - 2006 - Remaster",
+    "bpm": 106,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Tracy Chapman",
+    "title": "Fast Car",
+    "bpm": 104,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "folk",
+      "pop",
+      "rock",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Muse",
+    "title": "Feeling Good",
+    "bpm": 109,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "The Waterboys",
+    "title": "Fisherman's Blues - 2006 Remaster",
+    "bpm": 138,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "YUNGBLUD",
+    "title": "fleabag",
+    "bpm": 98,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Téléphone",
+    "title": "Flipper - Remasterisé en 2015",
+    "bpm": 94,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Chanson",
+      "Pop Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Lenny Kravitz",
+    "title": "Fly Away",
+    "bpm": 160,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "rock",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Grant Lee Buffalo",
+    "title": "Fuzzy",
+    "bpm": 82,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "James",
+    "title": "Getting Away With It (All Messed Up)",
+    "bpm": 135,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "The Rolling Stones",
+    "title": "Gimme Shelter",
+    "bpm": 119,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Sinéad O'Connor",
+    "title": "He Moved Through the Fair",
+    "bpm": 107,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Neil Young",
+    "title": "Heart of Gold - 2009 Remaster",
+    "bpm": 171,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "AC/DC",
+    "title": "Hells Bells",
+    "bpm": 107,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Noir Désir",
+    "title": "Here It Comes Slowly",
+    "bpm": 140,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Simply Red",
+    "title": "Holding Back the Years - 2008 Remaster",
+    "bpm": 86,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "a-ha",
+    "title": "Hunting High and Low",
+    "bpm": 117,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Garbage",
+    "title": "I Think I'm Paranoid - 2018 - Remaster",
+    "bpm": 114,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "U2",
+    "title": "I Will Follow - Remastered 2008",
+    "bpm": 155,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "College Rock",
+      "Adult Alternative",
+      "Alternative",
+      "Arena Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Stevie Wonder",
+    "title": "I Wish",
+    "bpm": 106,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Phil Collins",
+    "title": "I Wish It Would Rain Down - 2016 Remaster",
+    "bpm": 126,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "80s Pop",
+      "Feel Good",
+      "Oldies",
+      "Uptown Vibes",
+      "Vintage"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Bernard Lavilliers, Nicoletta",
+    "title": "Idées noires",
+    "bpm": 105,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "reggae",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "U2",
+    "title": "In God's Country - Remastered 2007",
+    "bpm": 126,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "College Rock",
+      "Adult Alternative",
+      "Alternative",
+      "Arena Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Woodkid",
+    "title": "Iron",
+    "bpm": 130,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Woodkid",
+    "title": "Iron - Acoustic",
+    "bpm": 86,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Sade",
+    "title": "Is It a Crime",
+    "bpm": 122,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "R&B/Soul",
+      "Vocal",
+      "Vocal Pop",
+      "Adult Contemporary"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Calibro 35, Marina Maximilian",
+    "title": "It's a Man's Man's Man's World",
+    "bpm": 190,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Christophe Willem",
+    "title": "J'tomberai pas",
+    "bpm": 90,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Iggy Pop",
+    "title": "James Bond",
+    "bpm": 120,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Alain Bashung",
+    "title": "Je fume pour oublier que tu bois - Remix 1992",
+    "bpm": 131,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Radiohead",
+    "title": "Karma Police",
+    "bpm": 75,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "3 Doors Down",
+    "title": "Kryptonite",
+    "bpm": 99,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Tarmac",
+    "title": "La ballade des gens qui sont nés quelque part",
+    "bpm": 109,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "No One Is Innocent",
+    "title": "La peau",
+    "bpm": 108,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Hubert-Félix Thiéfaine",
+    "title": "La vierge au Dodge 51 - Remastered 2018",
+    "bpm": 122,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "ESTHER GALIL",
+    "title": "LE JOUR SE LEVE",
+    "bpm": 172,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Arno",
+    "title": "Les yeux de ma mère",
+    "bpm": 95,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "new age",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Madonna",
+    "title": "Like a Virgin",
+    "bpm": 120,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Madonna",
+    "title": "Live to Tell",
+    "bpm": 110,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Moriarty",
+    "title": "Long Live the (D)Evil",
+    "bpm": 115,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "country",
+      "folk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Noir Désir",
+    "title": "Lost",
+    "bpm": 100,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Pat Benatar",
+    "title": "Love Is A Battlefield - Remastered 2005",
+    "bpm": 91,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Killing Joke",
+    "title": "Love Like Blood",
+    "bpm": 125,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Century",
+    "title": "Lover Why - 1985",
+    "bpm": 135,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "XTC",
+    "title": "Making Plans For Nigel",
+    "bpm": 150,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Simple Minds",
+    "title": "Mandela Day - Remastered 2002",
+    "bpm": 94,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Lamomali, -M-, Toumani Diabaté, Sidiki Diabaté, Fatoumata Diawara",
+    "title": "Manitoumani",
+    "bpm": 115,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Scott Bradlee's Postmodern Jukebox, Morgan James",
+    "title": "Maps",
+    "bpm": 102,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Stevie Wonder",
+    "title": "Master Blaster (Jammin')",
+    "bpm": 131,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Téléphone",
+    "title": "Métro (c'est trop) - Remasterisé en 2015",
+    "bpm": 156,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Chanson",
+      "Pop Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Simply Red",
+    "title": "Money's Too Tight (To Mention) - 2008 Remaster",
+    "bpm": 113,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Black Pumas",
+    "title": "More Than a Love Song",
+    "bpm": 94,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Extreme",
+    "title": "More Than Words",
+    "bpm": 92,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Sade",
+    "title": "Never as Good as the First Time",
+    "bpm": 108,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "R&B/Soul",
+      "Vocal",
+      "Vocal Pop",
+      "Adult Contemporary"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Murray Head",
+    "title": "Never Even Thought - Remastered 2017",
+    "bpm": 142,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "INXS",
+    "title": "Never Tear Us Apart",
+    "bpm": 97,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The Moody Blues",
+    "title": "Nights In White Satin",
+    "bpm": 157,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Noir Désir",
+    "title": "No No No",
+    "bpm": 128,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Queens of the Stone Age",
+    "title": "No One Knows",
+    "bpm": 170,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "No One Is Innocent",
+    "title": "Nomenklatura",
+    "bpm": 184,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "K's Choice",
+    "title": "Not an Addict",
+    "bpm": 83,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Neil Young",
+    "title": "Old Man",
+    "bpm": 144,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "country",
+      "folk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Noir Désir",
+    "title": "One Trip One Noise",
+    "bpm": 78,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "U2",
+    "title": "Ordinary Love - Extraordinary Mix",
+    "bpm": 125,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "College Rock",
+      "Adult Alternative",
+      "Alternative",
+      "Arena Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Black Sabbath",
+    "title": "Paranoid",
+    "bpm": 163,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Radiohead",
+    "title": "Paranoid Android",
+    "bpm": 164,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Birdy",
+    "title": "People Help the People",
+    "bpm": 73,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Nirvana",
+    "title": "Polly - Remastered 2021",
+    "bpm": 121,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Nada Surf",
+    "title": "Popular",
+    "bpm": 95,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "George Michael",
+    "title": "Praying for Time - Remastered",
+    "bpm": 128,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Soft Rock",
+      "Adult Contemporary",
+      "Dance",
+      "Pop/Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "The Offspring",
+    "title": "Pretty Fly (For A White Guy)",
+    "bpm": 143,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Moriarty",
+    "title": "Private Lily - Alternative Version",
+    "bpm": 108,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "country",
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Placebo",
+    "title": "Pure Morning",
+    "bpm": 81,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Imagine Dragons, Kendrick Lamar",
+    "title": "Radioactive",
+    "bpm": 140,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "Alternative Pop",
+      "Alternative Rock",
+      "Children's Music",
+      "Electropop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Astonvilla",
+    "title": "Raisonne",
+    "bpm": 161,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rock",
+      "world"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Asaf Avidan",
+    "title": "Reckoning Song - Live Session",
+    "bpm": 132,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Minimal / Deep Tech",
+      "Chillwave",
+      "Club",
+      "Dance Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "No One Is Innocent",
+    "title": "revolution.com",
+    "bpm": 130,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Neil Young",
+    "title": "Rockin' in the Free World",
+    "bpm": 132,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "country",
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The Rolling Stones",
+    "title": "Ruby Tuesday",
+    "bpm": 105,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Benny Benassi, The Biz",
+    "title": "Satisfaction - Isak Original Extended",
+    "bpm": 130,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Supertramp",
+    "title": "School",
+    "bpm": 90,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "The Offspring",
+    "title": "Self Esteem",
+    "bpm": 105,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Sam Fender",
+    "title": "Seventeen Going Under",
+    "bpm": 162,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "David Guetta, Skylar Grey",
+    "title": "Shot Me Down (feat. Skylar Grey) - Radio Edit",
+    "bpm": 192,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Jean-Louis Murat",
+    "title": "Si je devais manquer de toi - 2019 Remaster",
+    "bpm": 112,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Travis",
+    "title": "Side",
+    "bpm": 91,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Harry Styles",
+    "title": "Sign of the Times",
+    "bpm": 120,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Hollywood",
+      "Surf Crush",
+      "American Pop",
+      "Happy Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Lynyrd Skynyrd",
+    "title": "Simple Man",
+    "bpm": 120,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "country",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Blur",
+    "title": "Song 2 - 2012 Remaster",
+    "bpm": 130,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "Britpop",
+      "Indie Rock",
+      "Alternative Rock",
+      "Blokecore"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Placebo",
+    "title": "Special K",
+    "bpm": 159,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Randy Crawford",
+    "title": "Street Life",
+    "bpm": 107,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Radiohead",
+    "title": "Street Spirit (Fade Out)",
+    "bpm": 138,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Gorillaz, Bobby Womack, Mos Def",
+    "title": "Stylo (feat. Mos Def and Bobby Womack)",
+    "bpm": 100,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "hip hop",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Måneskin",
+    "title": "SUPERMODEL",
+    "bpm": 121,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Rock",
+      "Alternative",
+      "Dance",
+      "Electronic"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Oasis",
+    "title": "Supersonic",
+    "bpm": 104,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Britpop",
+      "Alternative",
+      "Rock",
+      "Indie Rock",
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Stevie Wonder",
+    "title": "Superstition",
+    "bpm": 101,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The Rolling Stones",
+    "title": "Sympathy For The Devil - 50th Anniversary Edition",
+    "bpm": 116,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "DeLaurentis",
+    "title": "The Angel",
+    "bpm": 124,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Placebo",
+    "title": "The Bitter End",
+    "bpm": 186,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Noir Désir",
+    "title": "The Chameleon",
+    "bpm": 112,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "So Friday",
+    "title": "The Enemy",
+    "bpm": 90,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Noir Désir",
+    "title": "The Holy Economic War",
+    "bpm": 140,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Måneskin",
+    "title": "THE LONELIEST",
+    "bpm": 130,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Rock",
+      "Alternative",
+      "Dance",
+      "Electronic"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Metallica",
+    "title": "The Unforgiven",
+    "bpm": 139,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Bruce Hornsby and the Range",
+    "title": "The Way It Is",
+    "bpm": 111,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Sinéad O'Connor",
+    "title": "This Is a Rebel Song",
+    "bpm": 138,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "pop",
+      "reggae",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Pink Floyd",
+    "title": "Time - 2011 Remastered Version",
+    "bpm": 127,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The Rolling Stones",
+    "title": "Under My Thumb",
+    "bpm": 127,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Sam Smith, Kim Petras, Nova Twins",
+    "title": "Unholy (feat. Kim Petras) - Nova Twins Remix",
+    "bpm": 131,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "r&b",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Townes Van Zandt",
+    "title": "Waiting Around to Die",
+    "bpm": 90,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "country",
+      "folk"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Foreigner",
+    "title": "Waiting for a Girl like You",
+    "bpm": 202,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Yael Naim",
+    "title": "Watching You",
+    "bpm": 77,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "KALEO",
+    "title": "Way down We Go",
+    "bpm": 163,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Crowded House",
+    "title": "Weather With You",
+    "bpm": 94,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Scarlet Pleasure",
+    "title": "What A Life",
+    "bpm": 114,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Puggy",
+    "title": "When You Know",
+    "bpm": 130,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Nick Cave & The Bad Seeds, Kylie Minogue",
+    "title": "Where the Wild Roses Grow - 2011 - Remaster",
+    "bpm": 155,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "The Rolling Stones",
+    "title": "Wild Horses - Acoustic Version",
+    "bpm": 148,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "SAULT",
+    "title": "Wildfires",
+    "bpm": 114,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Birdy",
+    "title": "Wings",
+    "bpm": 83,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Razorlight",
+    "title": "Wire To Wire",
+    "bpm": 117,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Tears For Fears, Oleta Adams",
+    "title": "Woman In Chains",
+    "bpm": 160,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Green Day",
+    "title": "Working Class Hero",
+    "bpm": 109,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Guns N' Roses",
+    "title": "You Could Be Mine",
+    "bpm": 151,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Bee Gees",
+    "title": "You Should Be Dancing",
+    "bpm": 123,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Surf Crush",
+      "Dance Pop",
+      "Disco",
+      "Nu Disco"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Moriarty",
+    "title": "Za Milena J.",
+    "bpm": 124,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "country",
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Cutting Crew",
+    "title": "(I Just) Died In Your Arms",
+    "bpm": 125,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
   }
 ]
