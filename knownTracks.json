@@ -941,7 +941,7 @@
     "artist": "The Weather Girls",
     "album": "Double Tons of Fun",
     "year": "1993",
-    "bpm": 137,
+    "bpm": 136,
     "key": "4B",
     "danceability": 0.61,
     "acousticness": 0.01,
@@ -48082,6 +48082,51 @@
       "Pop Latino",
       "Worldwide",
       "Dance Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "PSY",
+    "title": "Gangnam Style (강남스타일)",
+    "bpm": 132,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "03UrZgTINDqvnUMbbIMhql",
+    "album": "Gangnam Style (강남스타일)",
+    "year": "2012",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736cfc57e5358c5e39e79bccbd",
+    "popularity": 73,
+    "danceability": 0.727,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Rock",
+      "K Pop",
+      "Worldwide",
+      "Dance"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "GIMS, Vianney",
+    "title": "La même",
+    "bpm": 122,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "1Y4FUedllg2jNVA5BRIwEc",
+    "album": "Ceinture noire",
+    "year": "2018",
+    "image": "https://i.scdn.co/image/ab67616d0000b27353b00338631509f18fb3c48a",
+    "genres": [
+      "French Pop",
+      "Pop",
+      "Hip Hop/Rap",
+      "Dance / Pop",
+      "Chanson"
     ],
     "genresSource": "songstats"
   }
