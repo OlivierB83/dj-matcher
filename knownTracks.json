@@ -59051,5 +59051,159 @@
       "Electronic"
     ],
     "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Robin Thicke, T.I., Pharrell Williams",
+    "title": "Blurred Lines",
+    "bpm": 120,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0n4bITAu0Y0nigrz3MFJMb",
+    "album": "Blurred Lines (Deluxe)",
+    "year": "2013",
+    "image": "https://i.scdn.co/image/ab67616d0000b273bf4733171d920f2a62b24713",
+    "popularity": 73,
+    "danceability": 0.853,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "pop",
+      "r&b",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "M. Pokora",
+    "title": "Cette année là",
+    "bpm": 121,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3J1AeLD3spKebSJuOgodP1",
+    "album": "My Way",
+    "year": "2022",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fd4f70f3b8e37a3f09ecd28e",
+    "popularity": 42,
+    "danceability": 0.787,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Kungs, Robin Schulz",
+    "title": "Clap Your Hands - Robin Schulz Remix",
+    "bpm": 126,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "62H1Yg0iemQaGaDfNMgMiU",
+    "album": "Clap Your Hands (Robin Schulz Remix)",
+    "year": "2022",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732e6c53797b8791ff9acc9526",
+    "popularity": 38,
+    "danceability": 0.707,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Angèle, Damso",
+    "title": "Démons",
+    "bpm": 83,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3gAEAmxdP1GIjgQ3Zud2mE",
+    "album": "Nonante-Cinq",
+    "year": "2021",
+    "image": "https://i.scdn.co/image/ab67616d0000b27392dc99b0795e0b8471780217",
+    "popularity": 58,
+    "danceability": 0.657,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "French Pop",
+      "Chanson",
+      "Pop",
+      "Belpop",
+      "Variete Francaise"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Ofenbach, Ella Henderson",
+    "title": "Hurricane",
+    "bpm": 126,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3P3i2ratUjex3HJEF8aAVi",
+    "album": "I",
+    "year": "2022",
+    "image": "https://i.scdn.co/image/ab67616d0000b273335092e5a1317f2ee9d701d7",
+    "popularity": 64,
+    "danceability": 0.56,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "House",
+      "Electronic",
+      "Dance",
+      "Happy Dance",
+      "Electropop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Ray Dalton",
+    "title": "In My Bones",
+    "bpm": 97,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6yHVyMdC08djbP86mdkP3G",
+    "album": "In My Bones",
+    "year": "2020",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a1c204c401e519a65252fdb5",
+    "popularity": 50,
+    "danceability": 0.636,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Dance Pop",
+      "Electropop",
+      "Pop Rock"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Kungs",
+    "title": "Lipstick",
+    "bpm": 126,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "5vaOdnTldKw74qWjezLfRO",
+    "album": "Lipstick",
+    "year": "2021",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734bd1695f471be0182bea83d2",
+    "popularity": 48,
+    "danceability": 0.777,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "cached:getsongbpm"
   }
 ]
