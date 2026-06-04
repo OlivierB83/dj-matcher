@@ -48168,5 +48168,211 @@
       "Lullaby"
     ],
     "genresSource": "songstats"
+  },
+  {
+    "artist": "Star Academy",
+    "title": "Au bout de mes rêves",
+    "bpm": 135,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0gtCHxyATWVLvcUhq8eL2f",
+    "album": "Au bout de mes rêves",
+    "year": "2023",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d3d48d78efb39a805e98ef8a",
+    "popularity": 37,
+    "danceability": 0.746,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "French Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Purple Disco Machine, Eyelar",
+    "title": "Dopamine",
+    "bpm": 118,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "5JBtWpLoGO62gb5vax505b",
+    "album": "Exotica",
+    "year": "2021",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f8358e838064832a3e78fc75",
+    "genres": [
+      "Dance",
+      "Dance / Pop",
+      "Electropop",
+      "Disco House",
+      "Happy Dance"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Ofenbach, Quarterhead, Norma Jean Martine",
+    "title": "Head Shoulders Knees & Toes (feat. Norma Jean Martine)",
+    "bpm": 125,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2RRpaU7jFVcwo23pthdnBv",
+    "album": "I",
+    "year": "2022",
+    "image": "https://i.scdn.co/image/ab67616d0000b273335092e5a1317f2ee9d701d7",
+    "popularity": 68,
+    "danceability": 0.798,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Electronic",
+      "Dance",
+      "House",
+      "Dance / Pop",
+      "Dance Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "David fils de Momone, Nerod",
+    "title": "J'ai mangé un croissant et maintenant il est absent",
+    "bpm": 74,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6GfyXQCIeuJk8YRZ0rwj7f",
+    "album": "Grand Gourmand",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734410532059f67ff9f515dde3",
+    "genres": [
+      "Alternative",
+      "Indie Pop",
+      "Chanson",
+      "Children's Music",
+      "Lullaby"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "La Pig chenilliste",
+    "title": "La Chenille Synchro (La Cheu-Cheu)",
+    "bpm": 135,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "7tOKLFOf8RW3ttYXFS8xeM",
+    "album": "La Chenille Synchro (La Cheu-Cheu)",
+    "year": "2023",
+    "image": "https://i.scdn.co/image/ab67616d0000b27395d5399e78b26f7945000f9f",
+    "popularity": 46,
+    "danceability": 0.75,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "French Pop",
+      "Comedy",
+      "Holiday",
+      "Chanson",
+      "Children's Music"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Ciné Folies",
+    "title": "Le monde en fête - Rabbi Jacob - Danse de la joie",
+    "bpm": 86,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3YbW5aKVvLdC27dpI2eFzt",
+    "album": "Le tour du monde en 60 tubes",
+    "year": "2014",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734f0081b9800c916c8c5f48d4",
+    "popularity": 0,
+    "danceability": 0.4,
+    "danceabilitySource": "reccobeats"
+  },
+  {
+    "artist": "DaPoule",
+    "title": "Le sanglier",
+    "bpm": 134,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4AEHAp2MItoq5imMKJZbbS",
+    "album": "Le sanglier",
+    "year": "2020",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731b02eeb86f711a1284d704cf",
+    "popularity": 42,
+    "danceability": 0.702,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Electronic"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Star Academy",
+    "title": "Mourir demain (Axel & Helena)",
+    "bpm": 136,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2vUITv6WrMXa11AgRRJYwv",
+    "album": "L'album de la promo 2023",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b921479d4340d09e6c8ed4ef",
+    "popularity": 32,
+    "danceability": 0.751,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "French Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Star Academy",
+    "title": "Ne partez pas sans moi",
+    "bpm": 77,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "07l0ACRAa7GxsTCkL14ID8",
+    "album": "Ne partez pas sans moi",
+    "year": "2022",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c1bc0fa61ab571115aaea4a2",
+    "genres": [
+      "French Pop",
+      "Chanson",
+      "Children's Music"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "DJ Antoine, Timati, Kalenna",
+    "title": "Welcome to St. Tropez - DJ Antoine vs. Mad Mark Radio Edit",
+    "bpm": 125,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "5RnV1VyekJFY636bhm2HQr",
+    "album": "Welcome To St. Tropez",
+    "year": "2011",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e0c429ed97a7529eb05784c2",
+    "genres": [
+      "Dance",
+      "House",
+      "Progressive House",
+      "Dance / Pop",
+      "Dance / Electro Pop"
+    ],
+    "genresSource": "songstats"
   }
 ]
