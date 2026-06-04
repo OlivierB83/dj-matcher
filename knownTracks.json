@@ -11,7 +11,23 @@
     "bpm": 123,
     "key": "10B",
     "bpmSource": "djay_pro_ax",
-    "keySource": "djay_pro_ax"
+    "keySource": "djay_pro_ax",
+    "_idx": 1,
+    "spotifyId": "2Uy6EhQXAYkXA6MohPgjpV",
+    "album": "One More Time",
+    "year": "2000",
+    "image": "https://i.scdn.co/image/ab67616d0000b27338e5c88261ac859cee792916",
+    "genres": [
+      "Electronic",
+      "Dance",
+      "Electronica",
+      "House",
+      "Pop"
+    ],
+    "genresSource": "songstats",
+    "danceability": 0.648,
+    "danceabilitySource": "reccobeats",
+    "popularity": 54
   },
   {
     "artist": "Stardust",
@@ -838,7 +854,7 @@
     "album": "Songs From the Big Chair",
     "year": "1985",
     "bpm": 112,
-    "key": "D",
+    "key": "10B",
     "danceability": 0.64,
     "acousticness": 0.38,
     "genres": [
@@ -849,7 +865,9 @@
     "country": "GB",
     "mbid": "7c7f9c94-dee8-4903-892b-6cf44652e2de",
     "uri": "https://getsongbpm.com/song/everybody-wants-to-rule-the-world/rXL8L",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Il suffira d'un signe",
@@ -1126,8 +1144,8 @@
     "artist": "Kool & The Gang",
     "album": "Emergency",
     "year": "1984",
-    "bpm": 117,
-    "key": "Bm",
+    "bpm": 118,
+    "key": "10B",
     "danceability": 0.84,
     "acousticness": 0.01,
     "genres": [
@@ -1140,7 +1158,9 @@
     "country": "US",
     "mbid": "2469950a-f0ca-425a-bfbc-baf55ea3afde",
     "uri": "https://getsongbpm.com/song/fresh/5RrlBZ",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Born in the U.S.A.",
@@ -1992,7 +2012,7 @@
     "album": "MoveMeant",
     "year": "2011",
     "bpm": 105,
-    "key": "Cm",
+    "key": "5B",
     "danceability": 0.72,
     "acousticness": 0.05,
     "genres": [
@@ -2001,7 +2021,9 @@
     "country": "SE",
     "mbid": "257f84f9-a920-40cd-a810-3e48c57d275d",
     "uri": "https://getsongbpm.com/song/bumpy-ride/lOZyOJ",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Basique",
@@ -3646,28 +3668,6 @@
     "keySource": "djay_pro_ax"
   },
   {
-    "title": "Toutes les nuits",
-    "artist": "Colonel Reyel",
-    "album": "Au rapport",
-    "year": "2011",
-    "bpm": 95,
-    "key": "F",
-    "danceability": 0.662,
-    "acousticness": 0.07,
-    "genres": [
-      "pop"
-    ],
-    "country": "FR",
-    "mbid": "0f23f6cd-6ffc-46dc-8c43-8f9c0d0ddaa7",
-    "uri": "https://getsongbpm.com/song/toutes-les-nuits/lOZO9r",
-    "spotifyId": "67xHQe7ugrdXKsbjxMymCk",
-    "isrc": "FR2PY1100500",
-    "image": "https://i.scdn.co/image/ab67616d000048519a1f1215b30e91bbf842a1e6",
-    "source": "getsongbpm",
-    "danceabilitySource": "reccobeats",
-    "popularity": 56
-  },
-  {
     "title": "Medellín",
     "artist": "Niska",
     "album": "Commando",
@@ -4220,30 +4220,6 @@
     "keySource": "djay_pro"
   },
   {
-    "title": "Smooth Operator",
-    "artist": "Sade",
-    "album": "Diamond Life",
-    "year": "1984",
-    "bpm": 117,
-    "key": "Dm",
-    "danceability": 0.794,
-    "acousticness": 0.08,
-    "genres": [
-      "jazz",
-      "pop",
-      "soul"
-    ],
-    "country": "GB",
-    "mbid": "67930b3e-e00b-469f-8c74-fd69f20522ec",
-    "uri": "https://getsongbpm.com/song/smooth-operator/yr2kR",
-    "spotifyId": "7pLuEMFougkSHXrPBtNxTR",
-    "isrc": "GBBBM8400006",
-    "image": "https://i.scdn.co/image/ab67616d00004851ad27e16c5f844ea1ad6797cd",
-    "source": "getsongbpm",
-    "danceabilitySource": "reccobeats",
-    "popularity": 58
-  },
-  {
     "title": "Talking in Your Sleep",
     "artist": "The Romantics",
     "album": "In Heat",
@@ -4562,8 +4538,8 @@
     "artist": "Pitbull",
     "album": "Rebelution",
     "year": "2009",
-    "bpm": 123,
-    "key": "Bm",
+    "bpm": 126,
+    "key": "10B",
     "danceability": 0.851,
     "acousticness": 0.01,
     "genres": [
@@ -4581,7 +4557,9 @@
     "image": "https://i.scdn.co/image/ab67616d0000485117db13c5730433ca2f0088e0",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 70
+    "popularity": 70,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "On the Floor",
@@ -4691,8 +4669,8 @@
     "artist": "BB Brunes",
     "album": "Long courrier",
     "year": "2012",
-    "bpm": 119,
-    "key": "G#",
+    "bpm": 120,
+    "key": "5B",
     "danceability": 0.711,
     "acousticness": 0.01,
     "genres": [],
@@ -4704,7 +4682,9 @@
     "image": "https://i.scdn.co/image/ab67616d000048519e9f0346e5078746677a724a",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 58
+    "popularity": 58,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Hey oh (radio edit)",
@@ -4712,7 +4692,7 @@
     "album": "Tragédie",
     "year": "2003",
     "bpm": 95,
-    "key": "G#m",
+    "key": "1B",
     "danceability": 0.93,
     "acousticness": 0.01,
     "genres": [
@@ -4729,7 +4709,9 @@
     "image": "https://i.scdn.co/image/ab67616d000048518f272f6d6af70eeaceaae96c",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 57
+    "popularity": 57,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "DJ",
@@ -4737,7 +4719,7 @@
     "album": "Brut de femme",
     "year": "2003",
     "bpm": 123,
-    "key": "E",
+    "key": "12B",
     "danceability": 0.916,
     "acousticness": 0.15,
     "genres": [
@@ -4751,7 +4733,9 @@
     "image": "https://i.scdn.co/image/ab67616d000048511a5947210285a4e0a95becfb",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 53
+    "popularity": 53,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Say My Name",
@@ -4759,7 +4743,7 @@
     "album": "The Writing's on the Wall",
     "year": "1999",
     "bpm": 138,
-    "key": "Cm",
+    "key": "5B",
     "danceability": 0.713,
     "acousticness": 0.28,
     "genres": [
@@ -4776,7 +4760,9 @@
     "image": "https://i.scdn.co/image/ab67616d000048513718df75b57340c1947747e8",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 76
+    "popularity": 76,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Game Over",
@@ -4987,8 +4973,8 @@
     "artist": "Kanye West",
     "album": "Graduation",
     "year": "2007",
-    "bpm": 103,
-    "key": "A#m",
+    "bpm": 104,
+    "key": "2B",
     "danceability": 0.63,
     "acousticness": 0.01,
     "genres": [
@@ -5004,7 +4990,9 @@
     "spotifyId": "4fzsfWzRhPawzqhX8Qt9F3",
     "isrc": "USUM70741299",
     "image": "https://i.scdn.co/image/ab67616d000048519bbd79106e510d13a9a5ec33",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Gasolina",
@@ -5215,8 +5203,8 @@
     "artist": "Shy'm",
     "album": "Caméléon",
     "year": "2012",
-    "bpm": 127,
-    "key": "C#",
+    "bpm": 128,
+    "key": "2B",
     "danceability": 0.64,
     "acousticness": 0.01,
     "genres": [],
@@ -5226,7 +5214,9 @@
     "spotifyId": "0XKTCQiiJpW9GfQa9eh4Wi",
     "isrc": "FRZ041200141",
     "image": "https://i.scdn.co/image/ab67616d0000485138e5d937f65fd1cb15d686ee",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Medley: Celebration, Ladies Night, Get Down on It",
@@ -5259,8 +5249,8 @@
     "artist": "Iyaz",
     "album": "Replay",
     "year": "2010",
-    "bpm": 92,
-    "key": "A",
+    "bpm": 91,
+    "key": "11B",
     "danceability": 0.706,
     "acousticness": 0.18,
     "genres": [
@@ -5275,7 +5265,9 @@
     "image": "https://i.scdn.co/image/ab67616d00004851ae7012fce99c2b2345b54f30",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 78
+    "popularity": 78,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Hello",
@@ -5304,8 +5296,8 @@
     "artist": "King África",
     "album": "La bomba",
     "year": "2000",
-    "bpm": 135,
-    "key": "m",
+    "bpm": 100,
+    "key": "2B",
     "danceability": 0,
     "acousticness": 0,
     "genres": [
@@ -5318,7 +5310,9 @@
     "spotifyId": "5UmGJS0jd1r52OjnNvVHvU",
     "isrc": "FR2X41558844",
     "image": "https://i.scdn.co/image/ab67616d000048510f97b0b1a39cef7216c669dc",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Rich Girl",
@@ -5376,8 +5370,8 @@
     "artist": "Fanny J",
     "album": "Vous les hommes",
     "year": "2007",
-    "bpm": 163,
-    "key": "G",
+    "bpm": 164,
+    "key": "9B",
     "danceability": 0.569,
     "acousticness": 0.41,
     "genres": [],
@@ -5389,7 +5383,9 @@
     "image": "https://i.scdn.co/image/ab67616d0000485143661e847b055d899cf66b8a",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 58
+    "popularity": 58,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Sexy and I Know It",
@@ -5439,7 +5435,7 @@
     "album": "Nâdiya",
     "year": "2006",
     "bpm": 102,
-    "key": "Fm",
+    "key": "4B",
     "danceability": 0.701,
     "acousticness": 0.1,
     "genres": [
@@ -5454,7 +5450,9 @@
     "image": "https://i.scdn.co/image/ab67616d000048515f6407d08f031834626aa60a",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 38
+    "popularity": 38,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Just Dance",
@@ -5680,8 +5678,8 @@
     "artist": "Jamelia",
     "album": "Thank You",
     "year": "2003",
-    "bpm": 112,
-    "key": "C#",
+    "bpm": 110,
+    "key": "2B",
     "danceability": 0.801,
     "acousticness": 0.05,
     "genres": [
@@ -5697,15 +5695,17 @@
     "image": "https://i.scdn.co/image/ab67616d00004851ac27b4f5d1ad74f433274cd5",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 66
+    "popularity": 66,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "French Cancan",
     "artist": "Inna Modja",
     "album": "Love Revolution",
     "year": "2011",
-    "bpm": 134,
-    "key": "Fm",
+    "bpm": 135,
+    "key": "5B",
     "danceability": 0.68,
     "acousticness": 0.02,
     "genres": [
@@ -5718,7 +5718,9 @@
     "spotifyId": "0VjXdkUtVGj0J91l75cFoO",
     "isrc": "FRZ041100176",
     "image": "https://i.scdn.co/image/ab67616d00004851f28596f503c87c5042835e42",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Move Your Feet",
@@ -5752,8 +5754,8 @@
     "artist": "Fatal Bazooka",
     "album": "T'as vu",
     "year": "2007",
-    "bpm": 116,
-    "key": "Bm",
+    "bpm": 117,
+    "key": "10B",
     "danceability": 0.807,
     "acousticness": 0.17,
     "genres": [
@@ -5770,7 +5772,9 @@
     "image": "https://i.scdn.co/image/ab67616d00004851f607fd527d2dee688c2eb344",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 44
+    "popularity": 44,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "1 Thing",
@@ -5778,7 +5782,7 @@
     "album": "Because I Love It",
     "year": "2007",
     "bpm": 130,
-    "key": "A#m",
+    "key": "2B",
     "danceability": 0.612,
     "acousticness": 0.12,
     "genres": [
@@ -5794,9 +5798,10 @@
     "isrc": "USSM10500100",
     "image": "https://i.scdn.co/image/ab67616d0000485115dd2fc9aa1109bbe1456916",
     "source": "getsongbpm",
-    "bpmSource": "reccobeats",
+    "bpmSource": "djay_pro_ax",
     "danceabilitySource": "reccobeats",
-    "popularity": 64
+    "popularity": 64,
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Men in Black",
@@ -5937,8 +5942,8 @@
     "artist": "Cascada",
     "album": "Everytime We Touch",
     "year": "2006",
-    "bpm": 144,
-    "key": "G#",
+    "bpm": 142,
+    "key": "4B",
     "danceability": 0.644,
     "acousticness": 0.01,
     "genres": [
@@ -5953,7 +5958,9 @@
     "image": "https://i.scdn.co/image/ab67616d000048513ae27066e90476b7bb3082d4",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 50
+    "popularity": 50,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "September",
@@ -6014,8 +6021,8 @@
     "artist": "One Direction",
     "album": "Up All Night",
     "year": "2011",
-    "bpm": 123,
-    "key": "E",
+    "bpm": 125,
+    "key": "12B",
     "danceability": 0.726,
     "acousticness": 0.01,
     "genres": [
@@ -6029,7 +6036,9 @@
     "image": "https://i.scdn.co/image/ab67616d000048514a5584795dc73860653a9a3e",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 82
+    "popularity": 82,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Around the World",
@@ -6063,8 +6072,8 @@
     "artist": "Inna",
     "album": "I Am the Club Rocker",
     "year": "2011",
-    "bpm": 127,
-    "key": "Gm",
+    "bpm": 128,
+    "key": "4B",
     "danceability": 0.803,
     "acousticness": 0.08,
     "genres": [
@@ -6078,7 +6087,9 @@
     "image": "https://i.scdn.co/image/ab67616d00004851464f14f7c511222dc6c95b97",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 61
+    "popularity": 61,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Amazing",
@@ -6086,7 +6097,7 @@
     "album": "Hot",
     "year": "2008",
     "bpm": 130,
-    "key": "G#m",
+    "key": "2B",
     "danceability": 0.697,
     "acousticness": 0.44,
     "genres": [
@@ -6100,7 +6111,9 @@
     "image": "https://i.scdn.co/image/ab67616d00004851497e791a71b496fa4ddbc363",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 62
+    "popularity": 62,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Aka Aleo",
@@ -6108,7 +6121,7 @@
     "album": "Ça va être ta fête",
     "year": "2014",
     "bpm": 84,
-    "key": "G",
+    "key": "9B",
     "danceability": 0.53,
     "acousticness": 0.5,
     "genres": [],
@@ -6120,7 +6133,9 @@
     "image": "https://i.scdn.co/image/ab67616d000048512e3e47e0f2852bee98494a5c",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 33
+    "popularity": 33,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Les sardines",
@@ -6175,8 +6190,8 @@
     "artist": "Bruno Mars",
     "album": "Doo-Wops & Hooligans",
     "year": "2010",
-    "bpm": 72,
-    "key": "F",
+    "bpm": 145,
+    "key": "7B",
     "danceability": 0.62,
     "acousticness": 0.34,
     "genres": [
@@ -6191,7 +6206,9 @@
     "spotifyId": "6SKwQghsR8AISlxhcwyA9R",
     "isrc": "USAT21001887",
     "image": "https://i.scdn.co/image/ab67616d000048518a9eb5a1f701d1d367a5ea10",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Drunk in Love",
@@ -6274,7 +6291,7 @@
     "album": "Loose",
     "year": "2006",
     "bpm": 117,
-    "key": "C#",
+    "key": "4B",
     "danceability": 0.871,
     "acousticness": 0.05,
     "genres": [
@@ -6290,7 +6307,9 @@
     "image": "https://i.scdn.co/image/ab67616d00004851a6f439c8957170652f9410e2",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 79
+    "popularity": 79,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "American Boy",
@@ -6322,7 +6341,7 @@
     "album": "Mes fantaisies",
     "year": "2006",
     "bpm": 90,
-    "key": "D#m",
+    "key": "2B",
     "danceability": 0.72,
     "acousticness": 0.35,
     "genres": [],
@@ -6334,15 +6353,17 @@
     "image": "https://i.scdn.co/image/ab67616d00004851e9c2aacabe00e5ddf9e9cb5a",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 48
+    "popularity": 48,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Love Is Wicked",
     "artist": "Brick & Lace",
     "album": "Love Is Wicked",
     "year": "2007",
-    "bpm": 99,
-    "key": "C#",
+    "bpm": 100,
+    "key": "4B",
     "danceability": 0.793,
     "acousticness": 0.01,
     "genres": [
@@ -6360,7 +6381,9 @@
     "image": "https://i.scdn.co/image/ab67616d00004851b01ed5dbf5b87e471cdba08f",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 55
+    "popularity": 55,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "No Stress",
@@ -42498,8 +42521,8 @@
   {
     "artist": "David Guetta, Kid Cudi",
     "title": "Memories (feat. Kid Cudi)",
-    "bpm": 127,
-    "key": "4B",
+    "bpm": 130,
+    "key": "3B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
@@ -44750,7 +44773,7 @@
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
-    "_idx": 2383,
+    "_idx": 2221,
     "spotifyId": "1P37gwlsx2ghfr8tGzJsRE",
     "album": "En observation",
     "year": "2009",
@@ -44765,7 +44788,8 @@
     "danceability": 0.658,
     "danceabilitySource": "reccobeats",
     "popularity": 49,
-    "isrc": "FR89P0904100"
+    "isrc": "FR89P0904100",
+    "genresSource": "songstats"
   },
   {
     "artist": "Enur, Natasja",
@@ -45976,6 +46000,1560 @@
       "Edm",
       "Electro",
       "Electronica"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Magic System",
+    "title": "Ambiance à l'africaine",
+    "bpm": 132,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "21laPESsH4dri1JmqKUQ6X",
+    "album": "Touté kalé",
+    "year": "2011",
+    "image": "https://i.scdn.co/image/ab67616d0000b273014e0aff333afc705e70ba39",
+    "popularity": 50,
+    "danceability": 0.851,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Estelle, Kanye West",
+    "title": "American Boy",
+    "bpm": 118,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6etwirSInfuJrSOlogS6Sh",
+    "album": "Shine",
+    "year": "2008",
+    "image": "https://i.scdn.co/image/ab67616d0000b27398dc3e242a818007dd67b7c5",
+    "popularity": 77,
+    "danceability": 0.693,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "R&B/Soul",
+      "R&B",
+      "Rap",
+      "Dance Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Black Eyed Peas",
+    "title": "Boom Boom Pow",
+    "bpm": 130,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3oDFtOhcN08qeDPAK6MEQG",
+    "album": "THE E.N.D. (THE ENERGY NEVER DIES) [Deluxe Version]",
+    "year": "2009",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730bd44f5ff9ecc99f7770acc5",
+    "popularity": 68,
+    "danceability": 0.866,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "electronic",
+      "funk",
+      "hip hop",
+      "pop",
+      "rap",
+      "rock",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "La Mer",
+    "title": "Boom, Boom, Boom, Boom (My Room Mix)",
+    "bpm": 139,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "46op6tcmjpj9UWVO3aNKbF",
+    "album": "Ibiza Party Alarm (All in One 2013)",
+    "year": "2013",
+    "image": "https://i.scdn.co/image/ab67616d0000b273626242861d2daa5ae48bd12a",
+    "popularity": 22,
+    "danceability": 0.781,
+    "danceabilitySource": "reccobeats"
+  },
+  {
+    "artist": "Discobitch",
+    "title": "C'est beau la bourgeoisie - Radio Edit",
+    "bpm": 128,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "22OZbdiOvRdocdyafcGAgI",
+    "album": "C'est beau la bourgeoisie (Radio Edit)",
+    "year": "2008",
+    "image": "https://i.scdn.co/image/ab67616d0000b273aefb45a6e8a68685b3b3a025",
+    "popularity": 57,
+    "danceability": 0.624,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "French Pop",
+      "Dance / Electro Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Zaho",
+    "title": "C'est chelou",
+    "bpm": 95,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4Kv8cUBMewJaiAUgFWg9v2",
+    "album": "Dima",
+    "year": "2008",
+    "image": "https://i.scdn.co/image/ab67616d0000b27310341dc12f9b6e0397ecb252",
+    "popularity": 55,
+    "danceability": 0.857,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "hip hop",
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Magic System, Soprano",
+    "title": "Chérie Coco - feat. Soprano",
+    "bpm": 128,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6zUOTErlhzIGzCg9cQz7SU",
+    "album": "Touté kalé",
+    "year": "2011",
+    "image": "https://i.scdn.co/image/ab67616d0000b273014e0aff333afc705e70ba39",
+    "popularity": 48,
+    "danceability": 0.834,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Worldwide",
+      "Pop",
+      "Chanson",
+      "Children's Music",
+      "Dance"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Gnarls Barkley, CeeLo Green, Danger Mouse",
+    "title": "Crazy",
+    "bpm": 112,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "1vxw6aYJls2oq3gW0DujAo",
+    "album": "St. Elsewhere",
+    "year": "2007",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ceb0b3423d21e3da43c58b0b",
+    "popularity": 74,
+    "danceability": 0.866,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Rap",
+      "Rock",
+      "Adult Alternative",
+      "Alternative",
+      "Soul"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Rod Stewart",
+    "title": "Da Ya Think I'm Sexy? - 2008 Remaster",
+    "bpm": 112,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2MRPFJIOChJbwNGKc9a77H",
+    "album": "Some Guys Have All the Luck",
+    "year": "2008",
+    "image": "https://i.scdn.co/image/ab67616d0000b273af5437d890d1a41486e0a322",
+    "popularity": 40,
+    "danceability": 0.724,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Rock",
+      "Soft Rock",
+      "Pop",
+      "Soul",
+      "Arena Rock"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Kid Cudi, Crookers",
+    "title": "Day 'N' Nite - Crookers Remix",
+    "bpm": 130,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "34sGnIHB3ZthMvHpNX1i7e",
+    "album": "Man On The Moon: The End Of Day (Int'l Version)",
+    "year": "2009",
+    "image": "https://i.scdn.co/image/ab67616d0000b273713f297a7bdc1d48971062b2",
+    "popularity": 63,
+    "danceability": 0.757,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Pop",
+      "Hip Hop/Rap",
+      "Hip Hop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Colonel Reyel, Krys",
+    "title": "Dis-moi oui",
+    "bpm": 130,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0t5rHqAzA16vJCR9yWhuuh",
+    "album": "Au rapport (Édition Collector)",
+    "year": "2011",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739a1f1215b30e91bbf842a1e6",
+    "popularity": 42,
+    "danceability": 0.814,
+    "danceabilitySource": "reccobeats"
+  },
+  {
+    "artist": "The Pussycat Dolls, Busta Rhymes",
+    "title": "Don't Cha",
+    "bpm": 120,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0BxfFnk0YzONqvmrkO0QrB",
+    "album": "PCD",
+    "year": "2005",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735d9edaa7b844f929a5b2973e",
+    "popularity": 71,
+    "danceability": 0.875,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Electronic",
+      "House",
+      "Rap"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Black Eyed Peas",
+    "title": "Don’t Stop The Party",
+    "bpm": 128,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "61s24wRVyG7NP9m7EjdDKL",
+    "album": "The Beginning",
+    "year": "2010",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739efc623f9c64c8efb583b186",
+    "popularity": 60,
+    "danceability": 0.869,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Rap",
+      "Electronic",
+      "Hip Hop/Rap"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Pitbull, TJR",
+    "title": "Don't Stop the Party (feat. TJR)",
+    "bpm": 127,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3Tu7uWBecS6GsLsL8UONKn",
+    "album": "Global Warming: Meltdown (Deluxe Version)",
+    "year": "2012",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732ffc2c580b6595a3e675a730",
+    "popularity": 65,
+    "danceability": 0.722,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Latin",
+      "Hip Hop/Rap",
+      "Latin Rap"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Beyoncé, JAŸ-Z",
+    "title": "Drunk in Love (feat. JAY-Z)",
+    "bpm": 140,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6jG2YzhxptolDzLHTGLt7S",
+    "album": "BEYONCÉ [Platinum Edition]",
+    "year": "2014",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730d1d6e9325275f104f8e33f3",
+    "popularity": 69,
+    "danceability": 0.583,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Contemporary R&B",
+      "Hip Hop/Rap",
+      "R&B/Soul"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Logobi GT, BB Model",
+    "title": "Elle danse sexy",
+    "bpm": 140,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "7uX6JDdlxi7MabJ1LgdgqD",
+    "album": "Elle danse sexy",
+    "year": "2010",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c014b347704b6b0850613270",
+    "popularity": 40,
+    "danceability": 0.61,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "French Pop",
+      "Worldwide"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "M. Pokora, Lady Sweety",
+    "title": "Elle me contrôle",
+    "bpm": 107,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "27kV1kvGUacbiRpf1VsQWe",
+    "album": "M. Pokora",
+    "year": "2004",
+    "image": "https://i.scdn.co/image/ab67616d0000b273025790b56a0364730ffe8cd4",
+    "genres": [
+      "Hip Hop/Rap",
+      "Chanson",
+      "R&B"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "DJ Assad, Papi Sanchez, Luyanna",
+    "title": "Enamorame (Yeah Baby) - Latino Version",
+    "bpm": 127,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6YDFaClmbYmP9a6APByobv",
+    "album": "Enamorame (Yeah Baby) (feat. Papi Sanchez, Luyanna) [Latino Version - Tropical Family]",
+    "year": "2013",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c24bd49c40d686a25956bd2a",
+    "popularity": 37,
+    "danceability": 0.879,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Nâdiya, Smartzee",
+    "title": "Et c'est parti... (feat. Smartzee)",
+    "bpm": 98,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "1zwJikF2MYUwqcVnqtGxVj",
+    "album": "16/9",
+    "year": "2004",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ac5cf7cc8d97bb2520a8a84e",
+    "popularity": 48,
+    "danceability": 0.761,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "French Pop",
+      "Worldwide",
+      "R&B/Soul",
+      "Alternative Rap",
+      "Hip Hop/Rap"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Tribal King",
+    "title": "Façon sex - Remastered 2021",
+    "bpm": 120,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6iFQDgIXrLvVnnGSMhhRMF",
+    "album": "Welcome (Remastered 2021)",
+    "year": "2021",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c16006b79d1fa9fca8a03930",
+    "popularity": 38,
+    "danceability": 0.79,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "French Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "DJ Abdel, Mister You, Francisco",
+    "title": "Funk You",
+    "bpm": 113,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0FmsL3jrOkfGUEVoYl4tkc",
+    "album": "Evolution 2011",
+    "year": "2011",
+    "image": "https://i.scdn.co/image/ab67616d0000b27308bfa8c784f56761ab5026ff",
+    "genres": [
+      "Hip Hop/Rap"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Vitaa, GIMS",
+    "title": "Game Over",
+    "bpm": 120,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3H6BhXkgqutUJlfcw55iCN",
+    "album": "Ici Et Maintenant",
+    "year": "2013",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739471be202a77231d7bb009bc",
+    "popularity": 61,
+    "danceability": 0.855,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "R&B/Soul",
+      "French Pop",
+      "Rock"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Bingo Players, Far East Movement",
+    "title": "Get Up (Rattle) [feat. Far East Movement] - Vocal Edit",
+    "bpm": 128,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3wLPRjw2XQpmowqXUXb3UF",
+    "album": "Get Up (Rattle) [feat. Far East Movement]",
+    "year": "2012",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730da223957380116b05807975",
+    "popularity": 72,
+    "danceability": 0.801,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "House",
+      "Rock",
+      "Dance / Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Shaggy, Brian & Tony Gold",
+    "title": "Hey Sexy Lady",
+    "bpm": 102,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4u8IPU322yG7mNrqv89GGL",
+    "album": "Lucky Day",
+    "year": "2002",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739791e400bf42ca4130a11ae9",
+    "popularity": 65,
+    "danceability": 0.957,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Reggae",
+      "Dance",
+      "Electronic",
+      "Modern Dancehall"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Pitbull, Nicole Scherzinger",
+    "title": "Hotel Room Service (feat. Nicole Scherzinger) - Remix",
+    "bpm": 126,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4lxE7lFNmTmL7SVGAzxDnw",
+    "album": "Pitbull Starring In Rebelution",
+    "year": "2009",
+    "image": "https://i.scdn.co/image/ab67616d0000b27326d73ab8423a350faa5d395a",
+    "popularity": 43,
+    "danceability": 0.78,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Hip Hop/Rap",
+      "Trap / Future Bass"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Black Eyed Peas",
+    "title": "I Gotta Feeling - Edit",
+    "bpm": 128,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0MYLzCswPtYON4yYWmB4dx",
+    "album": "I Gotta Feeling (International Version)",
+    "year": "2009",
+    "image": "https://i.scdn.co/image/ab67616d0000b273cd3dba6563c32902795992fb",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Rock",
+      "Rap",
+      "Electronic"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Alicia Keys",
+    "title": "If I Ain't Got You",
+    "bpm": 118,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3XVBdLihbNbxUwZosxcGuJ",
+    "album": "The Diary Of Alicia Keys",
+    "year": "2003",
+    "image": "https://i.scdn.co/image/ab67616d0000b27356ff19308ebeb48e2ba6094b",
+    "popularity": 79,
+    "danceability": 0.609,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "pop",
+      "r&b",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Guru Josh Project, Klaas",
+    "title": "Infinity 2008 - Klaas Vocal Edit",
+    "bpm": 128,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3aQz0z86zrKjd1mcZlonxE",
+    "album": "Infinity 2008",
+    "year": "2008",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736500b68b5138f81d895654b5",
+    "popularity": 73,
+    "danceability": 0.498,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Pop",
+      "Electro House",
+      "Progressive House"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Pitbull, Chris Brown",
+    "title": "International Love (feat. Chris Brown)",
+    "bpm": 120,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "62zFEHfAYl5kdHYOivj4BC",
+    "album": "Planet Pit (Deluxe Version)",
+    "year": "2011",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731dc7483a9fcfce54822a2f19",
+    "popularity": 78,
+    "danceability": 0.67,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Hip Hop/Rap",
+      "Latin",
+      "Dance / Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Fatal Bazooka",
+    "title": "J'aime trop ton boule",
+    "bpm": 124,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6BoeuER1ayo4b3wfegsfO5",
+    "album": "T'as vu",
+    "year": "2007",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a10f04a890380c59ca20e195",
+    "genres": [
+      "hip hop",
+      "pop",
+      "punk",
+      "rap"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "A.R. Rahman, The Pussycat Dolls, Nicole Scherzinger",
+    "title": "Jai Ho! (You Are My Destiny)",
+    "bpm": 136,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "7Kpqjspw4Y7HrvItIRcBiW",
+    "album": "Jai Ho! (You Are My Destiny)",
+    "year": "2009",
+    "image": "https://i.scdn.co/image/ab67616d0000b27339bb12f14680bbfcaee0fd5d",
+    "popularity": 61,
+    "danceability": 0.657,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Rock",
+      "Dance",
+      "Electronic",
+      "R&B/Soul"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Black Eyed Peas",
+    "title": "Just Can’t Get Enough",
+    "bpm": 94,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3JA9Jsuxr4xgHXEawAdCp4",
+    "album": "The Beginning",
+    "year": "2010",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739efc623f9c64c8efb583b186",
+    "popularity": 76,
+    "danceability": 0.659,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Rap",
+      "Electronic",
+      "Rock"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Kool & The Gang",
+    "title": "Ladies Night",
+    "bpm": 112,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2uKJxjqcFu2Pr2CEsGGYJa",
+    "album": "Ladies' Night",
+    "year": "1979",
+    "image": "https://i.scdn.co/image/ab67616d0000b27369c9183efed4fe011115f737",
+    "popularity": 56,
+    "danceability": 0.657,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "funk",
+      "jazz",
+      "pop",
+      "rock",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Collectif Métissé",
+    "title": "Laisse tomber tes problèmes - Radio Edit",
+    "bpm": 128,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0D5KD7xcOzo4FWYr1pwVDS",
+    "album": "Destination Soleil (Nouvelle Edition)",
+    "year": "2011",
+    "image": "https://i.scdn.co/image/ab67616d0000b27396e4fc4bda786a1cba6ae39a",
+    "popularity": 44,
+    "danceability": 0.813,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "French Pop",
+      "Pop",
+      "Electronic",
+      "Rock"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Collectif Métissé",
+    "title": "Laisse-toi aller bébé - Radio Mix",
+    "bpm": 128,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "5a4682OVr9kqvXRlxVKlYb",
+    "album": "Collectif Metissé",
+    "year": "2009",
+    "image": "https://i.scdn.co/image/ab67616d0000b273136215f35e6e27750841e85d",
+    "genres": [
+      "Dance",
+      "French Pop",
+      "Electronic",
+      "Rock",
+      "Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Keyshia Cole, Diddy",
+    "title": "Last Night",
+    "bpm": 121,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "5gfPJ45gpn3ThswDyeW0Qc",
+    "album": "Press Play",
+    "year": "2006",
+    "image": "https://i.scdn.co/image/ab67616d0000b27360c99c564024a5432e81eb5f",
+    "popularity": 60,
+    "genres": [
+      "Contemporary R&B",
+      "Pop",
+      "Hip Hop/Rap",
+      "R&B/Soul",
+      "Hip Hop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Black Eyed Peas",
+    "title": "Let's Get It Started - Spike Mix",
+    "bpm": 105,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4hfIVhq0F0zFUcrbecsYmo",
+    "album": "Elephunk",
+    "year": "2003",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735db09bde92cc685403d7068f",
+    "popularity": 71,
+    "danceability": 0.783,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Trance",
+      "Electronic",
+      "House",
+      "Hip Hop/Rap"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Black Eyed Peas",
+    "title": "Let's Get Retarded",
+    "bpm": 105,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "1KyFULLp7chYR7DrBCUDs0",
+    "album": "Let's Get Retarded",
+    "year": "2013",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b0006499a5efd411161274bf",
+    "popularity": 2,
+    "danceability": 0.789,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "electronic",
+      "funk",
+      "hip hop",
+      "pop",
+      "rap",
+      "rock",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Will Smith",
+    "title": "Men In Black - From \"Men In Black\" Soundtrack",
+    "bpm": 108,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2FK7fxjzQEXD7Z32HSF0Hl",
+    "album": "Big Willie Style",
+    "year": "1997",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ddf2f9edabd166c60047e3c4",
+    "popularity": 61,
+    "danceability": 0.801,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Soundtrack",
+      "Hip Hop/Rap",
+      "Hip Hop",
+      "R&B/Soul"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Alizée",
+    "title": "Moi... Lolita",
+    "bpm": 108,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6e0LjNPkRqxIAlmmdjWSV8",
+    "album": "Gourmandises",
+    "year": "2000",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734325b1cea7f26a4edaa17de3",
+    "popularity": 62,
+    "danceability": 0.628,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Laurent Wolf, Eric Carter",
+    "title": "No Stress",
+    "bpm": 130,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4UMPPga9jtAqvZSKjxeJ29",
+    "album": "No Stress",
+    "year": "2008",
+    "image": "https://i.scdn.co/image/ab67616d0000b273db88b8865c0c54bac64fe3f1",
+    "genres": [
+      "Dance",
+      "House",
+      "Electronic",
+      "Trance",
+      "Rock"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Youssoupha, Noémie",
+    "title": "On se connaît",
+    "bpm": 96,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "18m3o2kmvnYJn2cCOZ4LD9",
+    "album": "On se connaît",
+    "year": "2012",
+    "image": "https://i.scdn.co/image/ab67616d0000b27346236111f268c7326aa63f24",
+    "popularity": 62,
+    "danceability": 0.839,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Hip Hop/Rap",
+      "French Pop",
+      "Hip Hop",
+      "Chanson",
+      "Rap"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Facteur X",
+    "title": "Pom Pom Pom",
+    "bpm": 120,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6lmxFKHbcdmlGyEoZLqPYY",
+    "album": "Le bon, la brute et le truand",
+    "year": "2013",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736250a0cd1f985f5149a8a281",
+    "popularity": 40,
+    "danceability": 0.868,
+    "danceabilitySource": "reccobeats"
+  },
+  {
+    "artist": "Keen' V",
+    "title": "Prince charmant",
+    "bpm": 130,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "190bU2hiwo925TmptMkj59",
+    "album": "Carpe Diem",
+    "year": "2010",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737f380720ffdcca0f22fec657",
+    "popularity": 37,
+    "danceability": 0.733,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Chanson"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Chris Brown, Juelz Santana",
+    "title": "Run It! (feat. Juelz Santana)",
+    "bpm": 101,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "7xYnUQigPoIDAMPVK79NEq",
+    "album": "Chris Brown (Expanded Edition)",
+    "year": "2005",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f9685817281327d5fecb244e",
+    "popularity": 74,
+    "danceability": 0.846,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "R&B/Soul",
+      "Pop",
+      "Nu Disco / Disco",
+      "Trap / Future Bass",
+      "Club"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Kat Deluna, Busta Rhymes",
+    "title": "Run The Show (feat. Busta Rhymes)",
+    "bpm": 105,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0FYUTxJZvvOVLopuhusqYC",
+    "album": "9 Lives",
+    "year": "2007",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737119da71f9144567d4d7b572",
+    "popularity": 51,
+    "danceability": 0.75,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Contemporary R&B",
+      "Dance",
+      "Latin",
+      "Pop Latino",
+      "R&B/Soul"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "David Guetta, Aliaune \"Akon\" Thiam",
+    "title": "Sexy Bitch (feat. Akon) - Extended",
+    "bpm": 130,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6xlgLRzZNTaeYmiwpB8HMi",
+    "album": "One Love (Club Version)",
+    "year": "2009",
+    "image": "https://i.scdn.co/image/ab67616d0000b273530f41ffd5a9bf22943d1be8",
+    "popularity": 49,
+    "danceability": 0.963,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Electronica",
+      "Electronic",
+      "Mainstage",
+      "Dance",
+      "Dance Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Tragédie",
+    "title": "Sexy pour moi! - Mix 2",
+    "bpm": 105,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "5H0ZfIuXw3qEXn2E1EasWX",
+    "album": "Tragédie (Édition Deluxe)",
+    "year": "2003",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738f272f6d6af70eeaceaae96c",
+    "popularity": 50,
+    "danceability": 0.903,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "France",
+      "R&B/Soul",
+      "Worldwide",
+      "Chanson",
+      "R&B"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Black Eyed Peas",
+    "title": "Shut Up",
+    "bpm": 113,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0KxU9wjCedUxSGdjuFdBDu",
+    "album": "Elephunk",
+    "year": "2003",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735db09bde92cc685403d7068f",
+    "popularity": 68,
+    "danceability": 0.805,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "electronic",
+      "funk",
+      "hip hop",
+      "pop",
+      "rap",
+      "rock",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Akon, Eminem",
+    "title": "Smack That",
+    "bpm": 119,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2kQuhkFX7uSVepCD3h29g5",
+    "album": "Konvicted",
+    "year": "2006",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d9bcf5565005950b353bc9cf",
+    "popularity": 82,
+    "danceability": 0.939,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Hip Hop/Rap",
+      "R&B/Soul",
+      "House",
+      "R&B"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Sade",
+    "title": "Smooth Operator",
+    "bpm": 119,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "28XDE6yXI6Bp4U3nLSGqzp",
+    "album": "The Ultimate Collection",
+    "year": "2011",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fc221d8a9119a2d1ab41c8b1",
+    "popularity": 59,
+    "danceability": 0.688,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "R&B/Soul",
+      "Vocal",
+      "Vocal Pop",
+      "Adult Contemporary"
+    ],
+    "genresSource": "songstats",
+    "_idx": 2359,
+    "isrc": "GBBBM8400006"
+  },
+  {
+    "artist": "Ocean Drive, DJ Oriska",
+    "title": "Some People (ton désir) (feat. DJ Oriska) - Radio Edit",
+    "bpm": 130,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2YOTWRGu8Y1u46i0cGL6gg",
+    "album": "With the Sunshine",
+    "year": "2009",
+    "image": "https://i.scdn.co/image/ab67616d0000b27374843a3c11be84b6fb6e3088",
+    "popularity": 36,
+    "danceability": 0.602,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Dance / Electro Pop",
+      "Electro",
+      "Tecktonik"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "D.J.F., Curre",
+    "title": "Street Player 2021 - Radio Edit",
+    "bpm": 130,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "07VytlABdnHKmZsr1hYdj5",
+    "album": "Street Player 2021 (Radio Edit)",
+    "year": "2021",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c6b798ae0ee1a15dc527cb2e",
+    "popularity": 40,
+    "danceability": 0.77,
+    "danceabilitySource": "reccobeats"
+  },
+  {
+    "artist": "Paul Cless",
+    "title": "Suavemente",
+    "bpm": 120,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2M4EnIW3uVMIktIgjZGdiH",
+    "album": "Suavemente",
+    "year": "2005",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736c238ed52fc1cd40114e1ed9",
+    "popularity": 39,
+    "danceability": 0.762,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Hip Hop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Logobi GT",
+    "title": "Sucré salé",
+    "bpm": 120,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "1ctrOYzncETmOhbYfUdPC8",
+    "album": "Sucré salé (Junior Caldera Remix 2014) - Single",
+    "year": "2014",
+    "image": "https://i.scdn.co/image/ab67616d0000b273783ee6756b5126be9047a620",
+    "popularity": 38,
+    "danceability": 0.771,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "French Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Mozart Opera Rock",
+    "title": "Tatoue moi",
+    "bpm": 123,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4ZRY58aEy2TsixskDcEOIJ",
+    "album": "Mozart l'Opera Rock (standard)",
+    "year": "2009",
+    "image": "https://i.scdn.co/image/ab67616d0000b27368d6410417679f9397ac07c8",
+    "popularity": 50,
+    "danceability": 0.606,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "French Pop",
+      "Musicals",
+      "Soundtrack",
+      "Rock",
+      "Worldwide"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Eminem, Rihanna",
+    "title": "The Monster",
+    "bpm": 110,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "48RrDBpOSSl1aLVCalGl5C",
+    "album": "The Marshall Mathers LP2",
+    "year": "2013",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733c65085a58aae2cccd892cbe",
+    "popularity": 78,
+    "danceability": 0.781,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Rap",
+      "Hip Hop/Rap",
+      "Hardcore Rap",
+      "Spoken Word",
+      "Hip Hop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Gwen Stefani, Akon",
+    "title": "The Sweet Escape",
+    "bpm": 120,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "07K4GcCDSTiXUF5ssyTRUM",
+    "album": "The Sweet Escape",
+    "year": "2006",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ed29b3ed6596d0bb0df132e1",
+    "popularity": 69,
+    "danceability": 0.756,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Rock",
+      "Electronic",
+      "Adult Alternative"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Black Eyed Peas",
+    "title": "The Time (Dirty Bit)",
+    "bpm": 128,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "7vWFaMq63AwkFDhS2OAg5u",
+    "album": "The Beginning (Deluxe)",
+    "year": "2010",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734cb6f9960e9b5bce7e1babc0",
+    "popularity": 69,
+    "danceability": 0.816,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "electronic",
+      "funk",
+      "hip hop",
+      "pop",
+      "rap",
+      "rock",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Colonel Reyel",
+    "title": "Toutes les nuits",
+    "bpm": 95,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "67xHQe7ugrdXKsbjxMymCk",
+    "album": "Au rapport (Édition Collector)",
+    "year": "2011",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739a1f1215b30e91bbf842a1e6",
+    "popularity": 56,
+    "danceability": 0.662,
+    "danceabilitySource": "reccobeats",
+    "_idx": 2368,
+    "genres": [
+      "pop"
+    ],
+    "isrc": "FR2PY1100500"
+  },
+  {
+    "artist": "Larusso",
+    "title": "Tu m'oublieras",
+    "bpm": 111,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "616O2jmafiModH0RgonGqf",
+    "album": "Simplement",
+    "year": "1999",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b3198c6ee5eca87d8e649152",
+    "popularity": 56,
+    "danceability": 0.755,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "French Pop",
+      "Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Rihanna, JAŸ-Z",
+    "title": "Umbrella - Radio Edit",
+    "bpm": 174,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "113v1MA9MTShy98uCz37nO",
+    "album": "Umbrella",
+    "year": "2007",
+    "image": "https://i.scdn.co/image/ab67616d0000b27314bd90935ed5a2ac6c662373",
+    "popularity": 53,
+    "danceability": 0.596,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "R&B/Soul",
+      "Hip Hop/Rap",
+      "Soul",
+      "R&B"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Loona",
+    "title": "Vamos a la Playa",
+    "bpm": 131,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2Tk5B1h58lJRsrivGg1jaE",
+    "album": "Stars",
+    "year": "2020",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d0008ca23cd2e0b7f2dce88f",
+    "popularity": 65,
+    "danceability": 0.698,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Pop",
+      "Caribbean",
+      "Latin"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Big Ali, Wati-B",
+    "title": "WatiBigali (feat. Wati B)",
+    "bpm": 128,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0kxhMpPFHO7GIoEqQLvsTV",
+    "album": "WatiBigali (feat. Wati B)",
+    "year": "2012",
+    "image": "https://i.scdn.co/image/ab67616d0000b27320cf89db09a87a348ff37f89",
+    "popularity": 46,
+    "danceability": 0.74,
+    "danceabilitySource": "reccobeats"
+  },
+  {
+    "artist": "Fireball",
+    "title": "What I Want - Radio Club Mix Radio Edit",
+    "bpm": 128,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6xd0z1HL0AYozX9g5SSSIs",
+    "album": "What I Want Is You",
+    "year": "2026",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730a683b3705e1a416a142b863",
+    "genres": [
+      "Dance",
+      "Afro House",
+      "Pop / Dance",
+      "Club",
+      "Dance Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Kat Deluna, Elephant Man",
+    "title": "Whine Up (feat. Elephant Man) - English Version",
+    "bpm": 125,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6Avndj1UPQLwR2qqzDwZBc",
+    "album": "9 Lives",
+    "year": "2007",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737119da71f9144567d4d7b572",
+    "popularity": 61,
+    "danceability": 0.817,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Pop",
+      "R&B/Soul",
+      "Contemporary R&B",
+      "Latin"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "David Guetta, Rihanna",
+    "title": "Who's That Chick ? (feat. Rihanna) - Single Version",
+    "bpm": 128,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "7AGK8ekSavI8oatFnacIAd",
+    "album": "One More Love (Spotify Sampler)",
+    "year": "2010",
+    "image": "https://i.scdn.co/image/ab67616d0000b27338943a4b4532e8c20e100369",
+    "popularity": 43,
+    "danceability": 0.672,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Pop",
+      "Electronic",
+      "House",
+      "Rock"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Eve",
+    "title": "Who's That Girl?",
+    "bpm": 96,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "3uVE5vLKkigiWBOQEgmdDk",
+    "album": "Scorpion",
+    "year": "2001",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730a825fea8b9095572e5130ef",
+    "popularity": 65,
+    "danceability": 0.77,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Rap",
+      "Contemporary R&B",
+      "R&B/Soul",
+      "Hip Hop/Rap",
+      "Rock"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "David Guetta, Cedric Gervais, Chris Willis",
+    "title": "Would I Lie to You - Radio Edit",
+    "bpm": 124,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4PdJSsESm34djLfBde9Pr2",
+    "album": "Would I Lie to You",
+    "year": "2016",
+    "image": "https://i.scdn.co/image/ab67616d0000b27300c25b727e26b9f36e01a236",
+    "popularity": 61,
+    "danceability": 0.671,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Dance / Pop",
+      "Club",
+      "Dance Pop",
+      "Edm"
     ],
     "genresSource": "songstats"
   }
