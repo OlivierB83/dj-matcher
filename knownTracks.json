@@ -643,7 +643,7 @@
     "artist": "Cyndi Lauper",
     "album": "She's So Unusual",
     "year": "1983",
-    "bpm": 121,
+    "bpm": 120,
     "key": "2B",
     "danceability": 0.71,
     "acousticness": 0.22,
@@ -4892,7 +4892,7 @@
     "artist": "Destiny's Child",
     "album": "The Writing's on the Wall",
     "year": "1999",
-    "bpm": 67,
+    "bpm": 138,
     "key": "5B",
     "danceability": 0.713,
     "acousticness": 0.28,
@@ -6093,7 +6093,7 @@
     "artist": "Earth, Wind & Fire",
     "album": "The Essential Earth, Wind, & Fire",
     "year": "2001",
-    "bpm": 126,
+    "bpm": 127,
     "key": "11B",
     "danceability": 0.697,
     "acousticness": 0.17,
@@ -16393,7 +16393,7 @@
     "isrc": "USSM19803320",
     "image": "https://i.scdn.co/image/ab67616d00004851e74fe3e17166fb970f9e84cc",
     "bpm": 174,
-    "key": "11B",
+    "key": "6B",
     "danceability": 0.564,
     "energy": 0.895,
     "valence": 0.494,
@@ -39412,7 +39412,7 @@
     "isrc": "USRC12202650",
     "image": "https://i.scdn.co/image/ab67616d00004851ddb936ba2d182b6973003709",
     "bpm": 129,
-    "key": "C",
+    "key": "8B",
     "danceability": 0.931,
     "energy": 0.401,
     "valence": 0.613,
@@ -39427,7 +39427,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 69
+    "popularity": 69,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Bang Bang (The Ballad Of Amy Fisher)",
@@ -89238,6 +89240,179 @@
       "Dance",
       "Disco",
       "Musicals"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Niska",
+    "title": "Adriano",
+    "bpm": 155,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "TR3NACRIA, Kickbait",
+    "title": "Am I Wrong",
+    "bpm": 125,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Dance / Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Dancing Green Alien",
+    "title": "Danza Kuduro",
+    "bpm": 124,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "GIMS",
+    "title": "Est-ce que tu m'aimes ? - Pilule bleue",
+    "bpm": 120,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Chanson",
+      "Dance",
+      "Children's Music",
+      "French Music"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Calvin Harris, Pharrell Williams, Katy Perry, Big Sean",
+    "title": "Feels (feat. Pharrell Williams, Katy Perry & Big Sean)",
+    "bpm": 101,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Purple Disco Machine, Moss Kena, The Knocks",
+    "title": "Fireworks (feat. Moss Kena & The Knocks)",
+    "bpm": 118,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "House",
+      "Dance",
+      "Electronic",
+      "Dance Pop",
+      "Disco House"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Nej, KeBlack",
+    "title": "La Var (feat. KeBlack)",
+    "bpm": 93,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Lacrim",
+    "title": "No lo sé",
+    "bpm": 125,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Sigala, Jaxomy, Ilan Kidron",
+    "title": "Riptide (feat. Ilan Kidron)",
+    "bpm": 122,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Dance / Pop",
+      "Afro House",
+      "Dance Pop",
+      "Pop Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "R2",
+    "title": "RUINART",
+    "bpm": 91,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Boney M., R3HAB",
+    "title": "Sunny",
+    "bpm": 127,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "David Guetta, Hypaton, Europe",
+    "title": "The Final Countdown 2025",
+    "bpm": 128,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Jain, Solomun",
+    "title": "Tout le monde est fou",
+    "bpm": 124,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Pop",
+      "Edm",
+      "Electronica",
+      "Happy Dance"
     ],
     "genresSource": "cached:songstats"
   }
