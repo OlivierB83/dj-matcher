@@ -78211,5 +78211,919 @@
       "rap"
     ],
     "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Dubdogz, Stromae",
+    "title": "Alors On Danse - Dubdogz Remix",
+    "bpm": 123,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "AFROJACK, Sia, David Guetta",
+    "title": "Awake Tonight",
+    "bpm": 128,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Dance / Pop",
+      "Edm",
+      "Electronica",
+      "Club"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "FISHER, bbyclose",
+    "title": "Blackberries",
+    "bpm": 130,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "DJ Kuba, Neitan, Bounce Inc.",
+    "title": "Blade",
+    "bpm": 136,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "IMM PROJECT, Marie Fischer",
+    "title": "BOOM BOOM BOOM",
+    "bpm": 125,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Pop",
+      "Club",
+      "Dance Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Ely Oaks, LAVINIA",
+    "title": "Borderline",
+    "bpm": 154,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Hypertechno",
+      "Electro",
+      "House",
+      "Rave"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Euphoria Trance",
+    "title": "Calling You (A Message From Love City)",
+    "bpm": 137,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Mondello'G, 3rd Wall, CERES",
+    "title": "Delirious (French Version)",
+    "bpm": 150,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "KAAZE",
+    "title": "Destination Calabria",
+    "bpm": 135,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "James Hype",
+    "title": "Don't Wake Me Up",
+    "bpm": 130,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Matt Sassari, SIDEPIECE",
+    "title": "Elektro",
+    "bpm": 129,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "House",
+      "Dance",
+      "Edm",
+      "Club",
+      "Dance Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Gindo, Zouchy, Dorian Kai",
+    "title": "Every Breath You Take - Stranger Mix Dance",
+    "bpm": 130,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Upsilone, Astrid James",
+    "title": "Everytime We Touch",
+    "bpm": 142,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Gabry Ponte, Greg Taro",
+    "title": "Exotica",
+    "bpm": 130,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Dance / Pop",
+      "Edm",
+      "Electro"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "TELYKAST, Moa Lisa",
+    "title": "Feel Again",
+    "bpm": 130,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Kato Jimenez, Aitor Galan, Jia Miles",
+    "title": "Freed From Desire",
+    "bpm": 128,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "John Summit, Sub Focus, Julia Church",
+    "title": "Go Back (feat. Julia Church)",
+    "bpm": 136,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "House",
+      "Electronic",
+      "Bass",
+      "Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast, David Guetta",
+    "title": "Golden - David Guetta REM/X",
+    "bpm": 128,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "David Guetta, Tones And I, Teddy Swims",
+    "title": "Gone Gone Gone (Done Done Done) [feat. Teddy Swims] - David Guetta Remix",
+    "bpm": 131,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The Chemical Brothers, ARTBAT",
+    "title": "Hey Boy Hey Girl - ARTBAT Remix",
+    "bpm": 126,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Nathan Dawe, Joel Corry, SACHA",
+    "title": "HIGHER",
+    "bpm": 138,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "House",
+      "Pop",
+      "Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Ethan Nartim, justbea",
+    "title": "Hot N Cold - Dance Mix",
+    "bpm": 128,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Scooter, Giuseppe Ottaviani",
+    "title": "Hyper Hyper",
+    "bpm": 130,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Bebe Rexha",
+    "title": "Hysteria",
+    "bpm": 145,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Electronic",
+      "Pop",
+      "Dance",
+      "Dance Pop",
+      "Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Tiësto, Oaks",
+    "title": "I Follow Rivers",
+    "bpm": 128,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Sonny Wern, Still Loud, Daddy Yankee",
+    "title": "I Like To Move It (Muévelo) [with Daddy Yankee]",
+    "bpm": 160,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Marie Fischer",
+    "title": "I Need Your Love",
+    "bpm": 126,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "LUNAE",
+    "title": "In My Dreams",
+    "bpm": 139,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Eira Bergström",
+    "title": "In My Dreams",
+    "bpm": 140,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Matway",
+    "title": "Is It Love",
+    "bpm": 135,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Tiësto, Rose Ringed",
+    "title": "Lethal Industry (Rose Ringed Remix)",
+    "bpm": 135,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "John Summit, Inéz",
+    "title": "light years (feat. Inéz)",
+    "bpm": 138,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "House",
+      "Electronic",
+      "Bass",
+      "Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Jax Jones, Azteck, Norma Jean Martine",
+    "title": "Love The Way You Lie (feat. Norma Jean Martine)",
+    "bpm": 145,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Dance Pop",
+      "Edm",
+      "House",
+      "Pop Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "MORTEN, David Guetta",
+    "title": "Lucky",
+    "bpm": 128,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "jazz",
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "IMM PROJECT, Marie Fischer, Dorian Kai",
+    "title": "Mamma Mia",
+    "bpm": 125,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Pop",
+      "Club",
+      "Dance Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Alan Walker",
+    "title": "Me, Myself and The Night",
+    "bpm": 143,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Ofenbach",
+    "title": "Miles Away",
+    "bpm": 135,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "House",
+      "Electronic",
+      "Dance",
+      "Happy Dance",
+      "Electropop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Oliver Tree, Robin Schulz",
+    "title": "Miss You",
+    "bpm": 145,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Don Diablo, felix jaehn",
+    "title": "Monster",
+    "bpm": 145,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Sound Of Legend",
+    "title": "Moonlight Shadow",
+    "bpm": 140,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Electro",
+      "Motivation"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Kris Kross Amsterdam, EYLR",
+    "title": "Mr. Lie To Me",
+    "bpm": 126,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Pop",
+      "Dance Pop",
+      "Electronica",
+      "Happy Dance"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Global Deejays, DJ Taylor & Flow, Hi:Fi",
+    "title": "No Good (Start the Dance)",
+    "bpm": 136,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "ALTÉGO",
+    "title": "Now That I'm Gone",
+    "bpm": 146,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Lucas & Steve, LAWRENT, Izzy Bizu",
+    "title": "Oh My Lord",
+    "bpm": 128,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Klaas",
+    "title": "Ok Without You 2026",
+    "bpm": 135,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Nathan Dawe, Shayan",
+    "title": "Over You",
+    "bpm": 130,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "House",
+      "Pop",
+      "Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Bodyshakers",
+    "title": "Put Your Hands Up",
+    "bpm": 140,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "IMM PROJECT, Marie Fischer, Gindo",
+    "title": "Rom Pe Lo",
+    "bpm": 125,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Pop",
+      "Club",
+      "Dance Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Oliver Heldens, Julia Church",
+    "title": "Ruins",
+    "bpm": 137,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Pop",
+      "Dance / Electro Pop",
+      "Dance / Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "John Summit, Rohaan",
+    "title": "SATA",
+    "bpm": 140,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "House",
+      "Electronic",
+      "Bass",
+      "Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Jennifer Lopez, David Guetta",
+    "title": "Save Me Tonight",
+    "bpm": 126,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "latin",
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Marshmello, Ellie Goulding, AVAION",
+    "title": "Save My Love (with Ellie Goulding & AVAION)",
+    "bpm": 135,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "DJ Valdi, Elijah King",
+    "title": "Say You'll Never",
+    "bpm": 125,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Armin van Buuren, SACHA",
+    "title": "Set Me Free",
+    "bpm": 143,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "John Summit, Devault, Julia Church",
+    "title": "SHADES OF BLUE",
+    "bpm": 130,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "House",
+      "Electronic",
+      "Bass",
+      "Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Gotye, FISHER, Chris Lake, Kimbra, Sante Sansone",
+    "title": "Somebody (2024)",
+    "bpm": 130,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "DJ Valdi, Eva Marti, Marian Dacal",
+    "title": "Streamline (In My Head)",
+    "bpm": 128,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Alesso, Becky Hill",
+    "title": "Surrender",
+    "bpm": 140,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "House",
+      "Edm",
+      "Pop Edm",
+      "Dance Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Perfect Pitch, Rocco",
+    "title": "Sweet Dreams",
+    "bpm": 135,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "LARETTO, Lucy Lush",
+    "title": "Tanta Envidia Alrededor",
+    "bpm": 126,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Gindo, Zouchy, Dorian Kai",
+    "title": "Tarzan Boy - Stranger Mix Dance",
+    "bpm": 156,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Clean Bandit, Tiësto, Leony",
+    "title": "Tell Me Where U Go (feat. Leony) - Tiësto VIP Mix",
+    "bpm": 142,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Tess Kok",
+    "title": "Ten Miles",
+    "bpm": 125,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Taylor Swift, Loud Luxury",
+    "title": "The Fate of Ophelia - Loud Luxury Remix",
+    "bpm": 130,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "country",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Justė, Jaxstyle, Jon",
+    "title": "Turn The Lights Off",
+    "bpm": 138,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Cheat Codes, salem ilese",
+    "title": "TYSM",
+    "bpm": 130,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Jaden Bojsen, David Guetta",
+    "title": "Upside Down",
+    "bpm": 128,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "House",
+      "Dance / Pop",
+      "Club"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Matway, June",
+    "title": "Walking Away (Infinity)",
+    "bpm": 135,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "IMM PROJECT, Marie Fischer, TOCHIMON",
+    "title": "When You Smile",
+    "bpm": 125,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Pop",
+      "Club",
+      "Dance Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Gabry Ponte, Sam Harper",
+    "title": "Words",
+    "bpm": 136,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Dance / Pop",
+      "Edm",
+      "Electro"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Dimitri Vegas & Like Mike, W&W, Marnik, Dimitri Vegas",
+    "title": "YEAH",
+    "bpm": 145,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "House",
+      "Dance / Electro Pop",
+      "Dance / Pop",
+      "Club"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Gindo, Zouchy, IMM PROJECT",
+    "title": "You Spin Me Round - Stranger Mix Dance",
+    "bpm": 132,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Gindo, Zouchy, Berlín Techno King",
+    "title": "(I Just) Died In Your Arms - Stranger Mix Dance",
+    "bpm": 152,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "LAVINIA, Ely Oaks",
+    "title": "7 in the club",
+    "bpm": 152,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Dance / Pop"
+    ],
+    "genresSource": "cached:songstats"
   }
 ]
