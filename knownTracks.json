@@ -953,7 +953,7 @@
     "artist": "The Weather Girls",
     "album": "Double Tons of Fun",
     "year": "1993",
-    "bpm": 137,
+    "bpm": 136,
     "key": "4B",
     "danceability": 0.61,
     "acousticness": 0.01,
@@ -87518,5 +87518,19 @@
       "soul"
     ],
     "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Stromae",
+    "title": "Papaoutai",
+    "bpm": 116,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "hip hop"
+    ],
+    "genresSource": "cached:getsongbpm"
   }
 ]
