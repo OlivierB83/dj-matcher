@@ -18,8 +18,14 @@ const API = import.meta.env.VITE_API_URL || "http://localhost:3001";
 const MAX_SUGGESTIONS = 50;
 const FAVORITE_RANKING_BOOST = 25;
 
+// Aligned with VIRAL_THRESHOLD in TrackCard.jsx so a track that the
+// "Populaires" filter shows is exactly a track that wears the buzz badge.
+const POPULARITY_THRESHOLD = 75;
+
 const STORAGE_HIDDEN = "djmatcher.hidden";
 const STORAGE_FAVORITES = "djmatcher.favorites";
+const STORAGE_FILTER_POPULAR = "djmatcher.filter.popular";
+const STORAGE_FILTER_FAVORITES = "djmatcher.filter.favoritesOnly";
 
 import { canonicalKey } from "../track-identity.js";
 
@@ -156,6 +162,24 @@ function loadStoredSet(storageKey) {
     return new Set(raw ? JSON.parse(raw) : []);
   } catch {
     return new Set();
+  }
+}
+
+function loadStoredBool(storageKey) {
+  if (typeof window === "undefined") return false;
+  try {
+    return window.localStorage.getItem(storageKey) === "1";
+  } catch {
+    return false;
+  }
+}
+
+function persistBool(storageKey, value) {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.setItem(storageKey, value ? "1" : "0");
+  } catch {
+    /* ignore quota errors */
   }
 }
 
@@ -369,6 +393,12 @@ export default function App() {
   const [favorites, setFavorites] = useState(() => loadStoredSet(STORAGE_FAVORITES));
   const [activeFamilies, setActiveFamilies] = useState(() => new Set());
   const [filtersCollapsed, setFiltersCollapsed] = useState(true);
+  const [showPopularOnly, setShowPopularOnly] = useState(() =>
+    loadStoredBool(STORAGE_FILTER_POPULAR)
+  );
+  const [showFavoritesOnly, setShowFavoritesOnly] = useState(() =>
+    loadStoredBool(STORAGE_FILTER_FAVORITES)
+  );
   const [view, setView] = useState("main");
   const [history, setHistory] = useState([]);
 
@@ -632,15 +662,40 @@ export default function App() {
     return counts;
   }, [allScored, hidden]);
 
-  const suggestions = useMemo(() => {
-    const filtered = allScored.filter((t) => {
+  // Counts shown on the chips. We compute them against the family-filtered
+  // list (so toggling a family also updates the popular/favorites counts),
+  // but BEFORE the popular/favorites filter — otherwise the count would
+  // always equal the suggestions length once the chip is active.
+  const familyFilteredScored = useMemo(() => {
+    return allScored.filter((t) => {
       if (hidden.has(t.trackKey)) return false;
       if (activeFamilies.size === 0) return true;
       return t.families.some((f) => activeFamilies.has(f));
     });
+  }, [allScored, activeFamilies, hidden]);
+
+  const popularCount = useMemo(
+    () => familyFilteredScored.filter((t) => (t.popularity ?? -1) >= POPULARITY_THRESHOLD).length,
+    [familyFilteredScored]
+  );
+  const favoritesCount = useMemo(
+    () => familyFilteredScored.filter((t) => t.isFavorite).length,
+    [familyFilteredScored]
+  );
+
+  const suggestions = useMemo(() => {
+    // OR semantics: if both toggles are on, show tracks that are popular
+    // OR favorite. If only one is on, that one alone applies. If neither
+    // is on, no extra filter (same as before).
+    const filtered = familyFilteredScored.filter((t) => {
+      if (!showPopularOnly && !showFavoritesOnly) return true;
+      const popOk = showPopularOnly && (t.popularity ?? -1) >= POPULARITY_THRESHOLD;
+      const favOk = showFavoritesOnly && t.isFavorite;
+      return popOk || favOk;
+    });
 
     return filtered.slice(0, MAX_SUGGESTIONS);
-  }, [allScored, activeFamilies, hidden]);
+  }, [familyFilteredScored, showPopularOnly, showFavoritesOnly]);
 
   // After a favorite toggle, the re-ranked suggestions render AND framer-motion
   // animates the card to its new position (~300ms). We wait for that to settle,
@@ -875,6 +930,35 @@ export default function App() {
                 : "Masquer les filtres"
             }
           />
+
+          <div className="filter-chips filter-chips-top">
+            <button
+              className={`chip${showFavoritesOnly ? " is-active" : ""}`}
+              onClick={() =>
+                setShowFavoritesOnly((v) => {
+                  const next = !v;
+                  persistBool(STORAGE_FILTER_FAVORITES, next);
+                  return next;
+                })
+              }
+              title="N'afficher que les favoris"
+            >
+              ★ Favoris <span className="chip-count">({favoritesCount})</span>
+            </button>
+            <button
+              className={`chip${showPopularOnly ? " is-active" : ""}`}
+              onClick={() =>
+                setShowPopularOnly((v) => {
+                  const next = !v;
+                  persistBool(STORAGE_FILTER_POPULAR, next);
+                  return next;
+                })
+              }
+              title={`N'afficher que les titres avec popularité Spotify ≥ ${POPULARITY_THRESHOLD}`}
+            >
+              🔥 Populaires <span className="chip-count">({popularCount})</span>
+            </button>
+          </div>
 
           {!filtersCollapsed && allFamilyIds.length > 0 && (
             <div className="filter-chips">

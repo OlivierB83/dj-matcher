@@ -318,6 +318,17 @@
   border-radius: var(--radius-md);
 }
 
+/* Always-visible top row with the Populaires + Favoris quick filters.
+   Same chip styling, but a tighter container that sits flush under the
+   SuggestionsHeader without the panel framing. */
+.filter-chips-top {
+  margin-top: calc(-1 * var(--space-sm));
+  padding: 0 0 var(--space-sm) 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+}
+
 .chip {
   background: transparent;
   border: 1px solid var(--border-strong);
