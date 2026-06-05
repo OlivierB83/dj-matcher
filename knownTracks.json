@@ -439,7 +439,7 @@
     "artist": "Taylor Swift",
     "album": "1989",
     "year": "2014",
-    "bpm": 160,
+    "bpm": 80,
     "key": "9B",
     "danceability": 0.65,
     "acousticness": 0.06,
@@ -79750,5 +79750,35 @@
       "rock"
     ],
     "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "M. Pokora",
+    "title": "Cette année-là",
+    "bpm": 121,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Clara Luciani",
+    "title": "Le reste",
+    "bpm": 113,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "French Pop",
+      "Chanson",
+      "Variete Francaise",
+      "French Music",
+      "Varit Franaise"
+    ],
+    "genresSource": "cached:songstats"
   }
 ]
