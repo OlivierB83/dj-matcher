@@ -84846,5 +84846,498 @@
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Procol Harum",
+    "title": "A Whiter Shade of Pale - Original Single Version",
+    "bpm": 150,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Oasis",
+    "title": "Acquiesce - Remastered",
+    "bpm": 112,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Britpop",
+      "Alternative",
+      "Rock",
+      "Indie Rock",
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Ramones",
+    "title": "Baby, I Love You",
+    "bpm": 108,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "FINNEAS",
+    "title": "Can't Wait To Be Dead",
+    "bpm": 100,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Oasis",
+    "title": "Cast No Shadow - Remastered",
+    "bpm": 158,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Britpop",
+      "Alternative",
+      "Rock",
+      "Indie Rock",
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Supergrass",
+    "title": "Caught By the Fuzz",
+    "bpm": 162,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The Cardigans",
+    "title": "Communication",
+    "bpm": 126,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Noel Gallagher's High Flying Birds",
+    "title": "Dead In The Water - Live At RTÉ 2FM Studios, Dublin",
+    "bpm": 179,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Oasis",
+    "title": "Don't Go Away",
+    "bpm": 81,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Britpop",
+      "Alternative",
+      "Rock",
+      "Indie Rock",
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Oasis",
+    "title": "Fade Away - Remastered",
+    "bpm": 73,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Britpop",
+      "Alternative",
+      "Rock",
+      "Indie Rock",
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Elton John",
+    "title": "Goodbye Yellow Brick Road - Remastered 2014",
+    "bpm": 121,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Syd Barrett",
+    "title": "Here I Go",
+    "bpm": 129,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Noah Cyrus",
+    "title": "I Got So High That I Saw Jesus",
+    "bpm": 140,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Alternative Pop",
+      "Electropop",
+      "Pop Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "The Walters",
+    "title": "I Love You So",
+    "bpm": 76,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Oasis",
+    "title": "I'm Outta Time",
+    "bpm": 77,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Britpop",
+      "Alternative",
+      "Rock",
+      "Indie Rock",
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "The Cure",
+    "title": "In Between Days",
+    "bpm": 143,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Nick Cave & The Bad Seeds",
+    "title": "Into My Arms - 2011 Remastered Version",
+    "bpm": 94,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Inhaler",
+    "title": "Is She My Girl? - Demo",
+    "bpm": 200,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Tears For Fears",
+    "title": "Mad World",
+    "bpm": 119,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Band of Horses",
+    "title": "No One's Gonna Love You",
+    "bpm": 149,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "Rock",
+      "Indie Rock",
+      "Winter",
+      "Horo"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Nick Drake",
+    "title": "Place To Be",
+    "bpm": 84,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Public Image Ltd.",
+    "title": "Rise",
+    "bpm": 86,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Oasis",
+    "title": "Songbird",
+    "bpm": 135,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Britpop",
+      "Alternative",
+      "Rock",
+      "Indie Rock",
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Leonard Cohen",
+    "title": "Suzanne",
+    "bpm": 133,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "folk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "The Velvet Underground",
+    "title": "Sweet Jane",
+    "bpm": 105,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Talking Heads",
+    "title": "Take Me to the River",
+    "bpm": 100,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Neil Young",
+    "title": "Tell Me Why",
+    "bpm": 81,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "country",
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The Jam",
+    "title": "That's Entertainment",
+    "bpm": 142,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Oasis",
+    "title": "The Masterplan - Remastered",
+    "bpm": 74,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Britpop",
+      "Alternative",
+      "Rock",
+      "Indie Rock",
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Yusuf / Cat Stevens",
+    "title": "The Wind",
+    "bpm": 116,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Soft Rock",
+      "Pop",
+      "Rock",
+      "Adult Contemporary",
+      "Arena Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Inhaler",
+    "title": "There's No Other Place",
+    "bpm": 180,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Soko",
+    "title": "We Might Be Dead By Tomorrow",
+    "bpm": 144,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Inhaler",
+    "title": "When It Breaks",
+    "bpm": 146,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "The Sound",
+    "title": "Where the Love Is",
+    "bpm": 133,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Sean Nicholas Savage",
+    "title": "Years From Tonight",
+    "bpm": 165,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Television",
+    "title": "1880 Or So",
+    "bpm": 135,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
   }
 ]
