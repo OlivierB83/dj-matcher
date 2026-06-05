@@ -46,8 +46,8 @@
   {
     "title": "Blue Monday",
     "artist": "New Order",
-    "bpm": 128,
-    "key": "Dm",
+    "bpm": 130,
+    "key": "7B",
     "genres": [
       "electronic",
       "pop",
@@ -55,7 +55,9 @@
     ],
     "country": "GB",
     "uri": "https://getsongbpm.com/song/blue-monday/DRqkK",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Sweet Dreams (Are Made of This)",
@@ -12109,7 +12111,7 @@
     "album": "Non-Stop Erotic Cabaret",
     "year": "1981",
     "bpm": 144,
-    "key": "6B",
+    "key": "9B",
     "danceability": 0.5,
     "acousticness": 0.44,
     "genres": [
@@ -91078,6 +91080,302 @@
     "keySource": "djay_pro_ax",
     "genres": [
       "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Alphaville",
+    "title": "Big in Japan - Best Of",
+    "bpm": 98,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Limahl",
+    "title": "Never Ending Story",
+    "bpm": 121,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Billy Idol",
+    "title": "White Wedding - Parts 1 And 2 - Shotgun Mix; 2001 Remastered Version",
+    "bpm": 147,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Blondie",
+    "title": "Heart Of Glass - 12\" Version",
+    "bpm": 115,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Disco",
+      "New Wave",
+      "Pop",
+      "Pop/Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Spandau Ballet",
+    "title": "True",
+    "bpm": 97,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Visage",
+    "title": "Fade To Grey - 12\" Version",
+    "bpm": 113,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Generation X",
+    "title": "Dancing With Myself - EP Version",
+    "bpm": 177,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Alphaville",
+    "title": "Sounds Like a Melody - 2019 Remaster",
+    "bpm": 97,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Heaven 17",
+    "title": "Let Me Go - 12'' Extended Version",
+    "bpm": 107,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Visage",
+    "title": "Fade To Grey",
+    "bpm": 112,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Blondie",
+    "title": "Heart Of Glass - Special Mix",
+    "bpm": 114,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Disco",
+      "New Wave",
+      "Pop",
+      "Pop/Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Supertramp",
+    "title": "Goodbye Stranger - Remastered 2010",
+    "bpm": 125,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Alphaville",
+    "title": "Forever Young - 2019 Remaster",
+    "bpm": 137,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "The Cure",
+    "title": "Lullaby - Remastered",
+    "bpm": 94,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Tears For Fears",
+    "title": "Advice For The Young At Heart",
+    "bpm": 122,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Crowded House",
+    "title": "Don't Dream It's Over",
+    "bpm": 81,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Simple Minds",
+    "title": "Someone Somewhere (In Summertime)",
+    "bpm": 99,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Depeche Mode",
+    "title": "Precious",
+    "bpm": 105,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Bronski Beat",
+    "title": "Why ?",
+    "bpm": 138,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Alphaville",
+    "title": "A Victory of Love - 2019 Remaster",
+    "bpm": 119,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Alphaville",
+    "title": "Big in Japan - 2019 Remaster",
+    "bpm": 98,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Roxy Music",
+    "title": "Jealous Guy",
+    "bpm": 78,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Al Corley",
+    "title": "Square Rooms",
+    "bpm": 124,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Simple Minds",
+    "title": "Alive And Kicking",
+    "bpm": 103,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
       "rock"
     ],
     "genresSource": "cached:getsongbpm"
