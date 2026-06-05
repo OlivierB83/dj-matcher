@@ -85339,5 +85339,475 @@
       "rock"
     ],
     "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Shakira, Beéle",
+    "title": "ALGO TÚ",
+    "bpm": 120,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "latin",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Rambo goyard",
+    "title": "B.M.S (by my side)",
+    "bpm": 154,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Dominic Fike",
+    "title": "Babydoll",
+    "bpm": 168,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Vitaa",
+    "title": "Ça fait mal",
+    "bpm": 160,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Meryl, Eva",
+    "title": "Coco Chanel",
+    "bpm": 100,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Zaho, MC Solaar",
+    "title": "Comme Caroline (feat. MC Solaar)",
+    "bpm": 99,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Dr. Yaro",
+    "title": "Confirmé",
+    "bpm": 93,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "African",
+      "Afro Beat",
+      "Afro Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Shakira, Burna Boy",
+    "title": "Dai Dai",
+    "bpm": 116,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "latin",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Julien Lieb, OTTA",
+    "title": "Dis-moi où (feat. OTTA)",
+    "bpm": 143,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Tame Impala, JENNIE",
+    "title": "Dracula - JENNIE Remix",
+    "bpm": 115,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "House",
+      "Dance",
+      "Electronic",
+      "Edm",
+      "Electro"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Miley Cyrus",
+    "title": "Dream As One - from Avatar: Fire and Ash",
+    "bpm": 135,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Fitness & Workout",
+      "Rock",
+      "Teen Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Myles Smith, Niall Horan",
+    "title": "Drive Safe",
+    "bpm": 118,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Singer/Songwriter",
+      "Pop",
+      "Stomp And Holler",
+      "Folk Pop",
+      "Happy Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "RnBoi",
+    "title": "ELLE VOULAIT",
+    "bpm": 83,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Alex Warren",
+    "title": "FEVER DREAM",
+    "bpm": 108,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Latin",
+      "Urbano Latino",
+      "Folk Pop",
+      "Singer Songwriter"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Tayc",
+    "title": "GIRLFRIEND",
+    "bpm": 95,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Afrobeat",
+      "Afrobeats",
+      "Afropop",
+      "French Classical"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Bruno Mars",
+    "title": "I Just Might",
+    "bpm": 103,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "r&b",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Elliott",
+    "title": "La Camisa Negra",
+    "bpm": 196,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Jeck, Carla",
+    "title": "La recette",
+    "bpm": 116,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Theodora",
+    "title": "Miss Kitoko",
+    "bpm": 154,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Fast",
+      "French Music",
+      "Pop Urbaine",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Naïka",
+    "title": "ONE TRACK MIND",
+    "bpm": 91,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Mauvais djo",
+    "title": "Pilé",
+    "bpm": 130,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "PLK",
+    "title": "Pocahontas",
+    "bpm": 124,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "French Hip Hop",
+      "French Rap",
+      "Pop Urbaine",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "M. Pokora",
+    "title": "Quand même",
+    "bpm": 147,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Dave, Tems",
+    "title": "Raindance (feat. Tems)",
+    "bpm": 142,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Gambi",
+    "title": "RENÉ CAOVILLA",
+    "bpm": 96,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "France",
+      "Hip Hop/Rap",
+      "Worldwide",
+      "Hip Hop",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Sound Of Legend",
+    "title": "San Francisco",
+    "bpm": 130,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Electro",
+      "Motivation"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Temper City",
+    "title": "Self Aware",
+    "bpm": 162,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "PLK, Theodora",
+    "title": "Sex Model",
+    "bpm": 82,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "French Hip Hop",
+      "French Rap",
+      "Pop Urbaine",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Aya Nakamura, La Rvfleuze",
+    "title": "Sexy Nana",
+    "bpm": 148,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "R&B/Soul",
+      "R&B"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Oria",
+    "title": "Soirée mondaine",
+    "bpm": 75,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "GIMS",
+    "title": "Soleil",
+    "bpm": 130,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Chanson",
+      "Dance",
+      "Children's Music",
+      "French Music"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "GIMS, Maes",
+    "title": "T'avais raison",
+    "bpm": 130,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Chanson",
+      "Dance",
+      "Children's Music",
+      "French Music"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Blasterjaxx",
+    "title": "Unfaithful",
+    "bpm": 148,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Angèle, Justice",
+    "title": "What You Want",
+    "bpm": 171,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "French Pop",
+      "Chanson",
+      "Pop",
+      "Belpop",
+      "Variete Francaise"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Disney, Shakira",
+    "title": "Zoo - De \"Zootopie 2\"",
+    "bpm": 129,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   }
 ]
