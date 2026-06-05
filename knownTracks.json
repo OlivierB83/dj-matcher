@@ -89560,5 +89560,181 @@
       "rock"
     ],
     "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Oasis",
+    "title": "D'You Know What I Mean?",
+    "bpm": 80,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Britpop",
+      "Alternative",
+      "Rock",
+      "Indie Rock",
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Lower Than Atlantis",
+    "title": "English Kids in America",
+    "bpm": 141,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Noel Gallagher's High Flying Birds",
+    "title": "Everybody´s On The Run",
+    "bpm": 170,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Mallory Knox",
+    "title": "Getaway",
+    "bpm": 151,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Best Coast",
+    "title": "Heaven Sent",
+    "bpm": 100,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Nothing But Thieves",
+    "title": "Itch - Single Version",
+    "bpm": 150,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "Alternative Rock",
+      "Emo",
+      "Garage Rock",
+      "Indie"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Noel Gallagher's High Flying Birds",
+    "title": "Lock All The Doors",
+    "bpm": 148,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Gates",
+    "title": "Low",
+    "bpm": 146,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Wolf Alice",
+    "title": "Moaning Lisa Smile",
+    "bpm": 98,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative Indie",
+      "Autumn",
+      "Indie"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "The Smashing Pumpkins",
+    "title": "One and All",
+    "bpm": 120,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Courtney Barnett",
+    "title": "Pedestrian at Best",
+    "bpm": 136,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "Australian Indie",
+      "Rock",
+      "Indie Rock",
+      "Adult Alternative"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Pearl Jam",
+    "title": "Sirens",
+    "bpm": 155,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Adult Alternative",
+      "Grunge",
+      "Chill Rock",
+      "Chillout Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Princess Chelsea",
+    "title": "The Cigarette Duet",
+    "bpm": 105,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Drenge",
+    "title": "We Can Do What We Want",
+    "bpm": 95,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   }
 ]
