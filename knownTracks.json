@@ -4253,7 +4253,7 @@
     "artist": "Michael Sembello",
     "album": "Bossa Nova Hotel",
     "year": "1983",
-    "bpm": 159,
+    "bpm": 158,
     "key": "2B",
     "danceability": 0.605,
     "acousticness": 0.06,
@@ -11950,7 +11950,7 @@
     "artist": "Chumbawamba",
     "album": "Tubthumper",
     "year": "1997",
-    "bpm": 104,
+    "bpm": 101,
     "key": "10B",
     "danceability": 0.348,
     "acousticness": 0.12,
@@ -12293,7 +12293,7 @@
     "artist": "The Jackson 5",
     "album": "Diana Ross Presents the Jackson 5",
     "year": "1969",
-    "bpm": 197,
+    "bpm": 98,
     "key": "4B",
     "danceability": 0.66,
     "acousticness": 0.49,
@@ -13673,7 +13673,7 @@
     "spotifyId": "53NWOfQXdEmbHqg5FGeXlG",
     "isrc": "USRC18203285",
     "image": "https://i.scdn.co/image/ab67616d00004851db56ceff816b668b7b6f04ff",
-    "bpm": 184,
+    "bpm": 92,
     "key": "6B",
     "danceability": 0.683,
     "acousticness": 0.11,
@@ -90724,5 +90724,14 @@
       "90s Hip Hop"
     ],
     "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "",
+    "title": "Tiësto, Tate McRae",
+    "bpm": 120,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   }
 ]
