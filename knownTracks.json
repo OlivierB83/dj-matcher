@@ -89444,5 +89444,121 @@
       "reggae"
     ],
     "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Sinclair",
+    "title": "Ailleurs",
+    "bpm": 136,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "rock",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Björk",
+    "title": "Big Time Sensuality",
+    "bpm": 119,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Mademoiselle K",
+    "title": "Jalouse",
+    "bpm": 136,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Anaïs",
+    "title": "Malheureux",
+    "bpm": 176,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Paris Combo",
+    "title": "Pourquoi Les Vaches ?",
+    "bpm": 100,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Thomas Fersen, Philippe Tessier du Gros",
+    "title": "Que l'on est bête",
+    "bpm": 127,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "jazz"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "René Aubry",
+    "title": "Stick Man's Journey",
+    "bpm": 124,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Ed Sheeran",
+    "title": "Thinking out Loud",
+    "bpm": 79,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Les Rita Mitsouko",
+    "title": "Y'a D'la Haine",
+    "bpm": 131,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
   }
 ]
