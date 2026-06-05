@@ -63304,8 +63304,8 @@
   {
     "artist": "Guns N' Roses",
     "title": "Sweet Child O' Mine",
-    "bpm": 126,
-    "key": "3B",
+    "bpm": 134,
+    "key": "2B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
@@ -82944,5 +82944,278 @@
       "rock"
     ],
     "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Michel Berger",
+    "title": "À quoi je rêve",
+    "bpm": 104,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "French Pop",
+      "Pop",
+      "Worldwide",
+      "Rock",
+      "Europe"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Body Count",
+    "title": "Body Count's in the House",
+    "bpm": 97,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "punk",
+      "rap",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Fauve",
+    "title": "COCK MUSIC SMART MUSIC / RAG #1",
+    "bpm": 116,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Louane",
+    "title": "En chantant",
+    "bpm": 110,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "French Pop",
+      "Chanson",
+      "French Music",
+      "L.A. Pop",
+      "Varit Franaise"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "The Duckworth Lewis Method",
+    "title": "Gentlemen and Players",
+    "bpm": 204,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "U2",
+    "title": "I Will Follow - Live From Paris",
+    "bpm": 142,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "College Rock",
+      "Adult Alternative",
+      "Alternative",
+      "Arena Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Michel Fugain & Le Big Bazar",
+    "title": "Les gentils, les méchants - Fugain & le Big Bazar n°2",
+    "bpm": 101,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "French Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Coldplay",
+    "title": "Magic",
+    "bpm": 93,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Hole",
+    "title": "Malibu",
+    "bpm": 122,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Benjamin Biolay, Vanessa Paradis",
+    "title": "Profite",
+    "bpm": 148,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Icona Pop",
+    "title": "Ready for the Weekend",
+    "bpm": 127,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Franz Ferdinand",
+    "title": "Right Action",
+    "bpm": 120,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Fauve",
+    "title": "SAINTE ANNE",
+    "bpm": 100,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Fabulous Trobadors",
+    "title": "Si tu te fais",
+    "bpm": 107,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "rock",
+      "world"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Queen",
+    "title": "The Show Must Go On - Remastered 2011",
+    "bpm": 84,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Pop",
+      "Classic Rock",
+      "Pop Rock",
+      "Rock And Roll"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Marco Di Marzio",
+    "title": "Till There Was You",
+    "bpm": 83,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "The Shoes, ANTHONIN TERNANT, SebastiAn",
+    "title": "Time To Dance - SebastiAn Remix",
+    "bpm": 122,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Dire Straits",
+    "title": "Tunnel Of Love - Live At Hammersmith Odeon, London/1983",
+    "bpm": 144,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The Kinks",
+    "title": "Waterloo Sunset - Stereo Mix",
+    "bpm": 108,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Icona Pop",
+    "title": "We Got the World",
+    "bpm": 128,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Natalia Kills",
+    "title": "Wonderland",
+    "bpm": 117,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
   }
 ]
