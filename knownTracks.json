@@ -3898,7 +3898,7 @@
     "artist": "Rita Ora",
     "album": "Phoenix",
     "year": "2018",
-    "bpm": 96,
+    "bpm": 94,
     "key": "6B",
     "danceability": 0.54,
     "acousticness": 0.29,
@@ -89415,5 +89415,34 @@
       "Happy Dance"
     ],
     "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Wiley, Stefflon Don, Sean Paul, IDRIS",
+    "title": "Boasty (feat. Idris Elba)",
+    "bpm": 103,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "hip hop",
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Major Lazer, Quavo, Travis Scott, Camila Cabello",
+    "title": "Know No Better",
+    "bpm": 119,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "reggae"
+    ],
+    "genresSource": "cached:getsongbpm"
   }
 ]
