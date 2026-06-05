@@ -79125,5 +79125,630 @@
       "Dance / Pop"
     ],
     "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Robin Schulz, Wes",
+    "title": "Alane",
+    "bpm": 124,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The Him, Robby East, Sarah de Warren",
+    "title": "Babylonia (feat. Sarah De Warren)",
+    "bpm": 126,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Ed Sheeran, MEDUZA",
+    "title": "Bad Habits - MEDUZA Remix",
+    "bpm": 126,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Le Pedre, Jonh Wadies",
+    "title": "Bang Bang - French Edit",
+    "bpm": 124,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Kendji Girac, Soolking, Naps, Soprano",
+    "title": "Bebeto - Remix",
+    "bpm": 111,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "French Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Were-vana",
+    "title": "Casanova",
+    "bpm": 97,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Tryo, McFly et Carlito",
+    "title": "Désolé pour hier soir XXV - Remix 2020",
+    "bpm": 110,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Reggae",
+      "French Pop",
+      "Adult Alternative",
+      "Jazz",
+      "Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Soprano",
+    "title": "Dingue",
+    "bpm": 161,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Shakira",
+    "title": "Don't Wait Up",
+    "bpm": 119,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "latin",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Tujamo, Lukas Vane",
+    "title": "Drop It",
+    "bpm": 126,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Electro",
+      "Club",
+      "Electronica"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Dynoro, Outwork, Mr. Gee",
+    "title": "Elektro (feat. Mr. Gee)",
+    "bpm": 127,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Perle Lama",
+    "title": "Emmène-Moi Avec Toi",
+    "bpm": 172,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "world"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Mephisto",
+    "title": "Forever Mine",
+    "bpm": 126,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "BACKFLASH, Basti Woods",
+    "title": "Gone (Take on Me)",
+    "bpm": 128,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Imanbek, Goodboys",
+    "title": "Goodbye",
+    "bpm": 125,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "House",
+      "Electronica",
+      "Slap House",
+      "Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "DJ MAES, C4BASS, Colombian Beat",
+    "title": "Goza",
+    "bpm": 128,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Alok, THRDL!FE",
+    "title": "Hear Me Tonight",
+    "bpm": 126,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Soundtrack",
+      "Baddie",
+      "Bbe"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "DJ Idsa, Big Ali & Cheb Akil",
+    "title": "Hit The Rai Floor (feat. Big Ali & Cheb Akil)",
+    "bpm": 126,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Wender, DJ Ross, Aira, Alessandro Viale",
+    "title": "I Just Wanna Say, Ti Amo - DJ Ross & Alessandro Viale Remix",
+    "bpm": 126,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Keen' V",
+    "title": "Je garde le sourire",
+    "bpm": 124,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Chanson"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "GIMS",
+    "title": "JUSQU'ICI TOUT VA BIEN",
+    "bpm": 123,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Chanson",
+      "Dance",
+      "Children's Music",
+      "French Music"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Keanu Silva, Don Diablo",
+    "title": "King of My Castle - Don Diablo Edit",
+    "bpm": 125,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Dance / Pop",
+      "Electro",
+      "Future House",
+      "Scandipop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Ava Max, MOTi",
+    "title": "Kings & Queens - MOTi Remix",
+    "bpm": 126,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Dance",
+      "American Pop",
+      "Dance Pop",
+      "Halloween"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Kool Kat, ILIRA",
+    "title": "Ladida (My Heart Goes Boom)",
+    "bpm": 126,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Santté",
+    "title": "Love Nwantiti - Guaracha remix",
+    "bpm": 128,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Steve Aoki, Willy William, Sfera Ebbasta, Sean Paul, El Alfa, Play-N-Skillz",
+    "title": "Mambo (feat. Sean Paul, El Alfa, Sfera Ebbasta & Play-N-Skillz)",
+    "bpm": 128,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Hip Hop/Rap",
+      "Hip Hop",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "HVME",
+    "title": "Money On My Mind",
+    "bpm": 122,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Electronica",
+      "Edm",
+      "Club"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "RIDSA",
+    "title": "Olé",
+    "bpm": 125,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "French Pop",
+      "Hip Hop/Rap",
+      "Rap",
+      "Chanson"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Keen' V",
+    "title": "Outété",
+    "bpm": 115,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Chanson"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "MEDUZA, Dermot Kennedy",
+    "title": "Paradise (feat. Dermot Kennedy)",
+    "bpm": 124,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Deep House",
+      "Edm",
+      "Pop Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Willy William",
+    "title": "Pata Pata",
+    "bpm": 125,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Morgan Nagoya",
+    "title": "Phoenix",
+    "bpm": 126,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "GIMS, Vitaa",
+    "title": "PRENDS MA MAIN",
+    "bpm": 101,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Chanson",
+      "Dance",
+      "Children's Music",
+      "French Music"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Karl Wine, Kybba, Tribal Kush, Young F",
+    "title": "Ram Pam",
+    "bpm": 97,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Clara Luciani",
+    "title": "Respire encore",
+    "bpm": 116,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "French Pop",
+      "Chanson",
+      "Variete Francaise",
+      "French Music",
+      "Varit Franaise"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Sandeville, Robin S",
+    "title": "Show Me Love",
+    "bpm": 124,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Alan Walker, Imanbek",
+    "title": "Sweet Dreams",
+    "bpm": 125,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Keen' V",
+    "title": "Tahiti",
+    "bpm": 121,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Chanson"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "MEDUZA, Hozier",
+    "title": "Tell It To My Heart",
+    "bpm": 124,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Deep House",
+      "Edm",
+      "Pop Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Daddy K, Namto, Big Ali",
+    "title": "The Anthem",
+    "bpm": 125,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Matoma, Brando",
+    "title": "The Bender (with Brando)",
+    "bpm": 125,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Carmen",
+    "title": "Time To Move",
+    "bpm": 128,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Black Eyed Peas, Nicky Jam, Tyga, J. Rey Soul",
+    "title": "VIDA LOCA",
+    "bpm": 128,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Latin",
+      "Dance Pop",
+      "Pop Rap",
+      "Dance"
+    ],
+    "genresSource": "cached:djay_pro"
+  },
+  {
+    "artist": "Ofenbach, Lagique",
+    "title": "Wasted Love (feat. Lagique)",
+    "bpm": 122,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "House",
+      "Electronic",
+      "Dance",
+      "Happy Dance",
+      "Electropop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Jürgen Paape",
+    "title": "We Love",
+    "bpm": 124,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Shouse",
+    "title": "Won't Forget You (Edit)",
+    "bpm": 127,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Electronic",
+      "Dance",
+      "House",
+      "Electronica",
+      "Electro"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "GIMS",
+    "title": "YOLO",
+    "bpm": 91,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Chanson",
+      "Dance",
+      "Children's Music",
+      "French Music"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Indochine, Christine and the Queens",
+    "title": "3SEX",
+    "bpm": 138,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
   }
 ]
