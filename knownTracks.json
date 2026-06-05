@@ -91379,5 +91379,40 @@
       "rock"
     ],
     "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Matmatah",
+    "title": "L'apologie",
+    "bpm": 124,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Matmatah",
+    "title": "Lambé An Dro",
+    "bpm": 120,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Les Glochos",
+    "title": "Rien à fout'",
+    "bpm": 140,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   }
 ]
