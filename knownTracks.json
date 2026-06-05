@@ -36411,7 +36411,7 @@
     "isrc": "USSM12308065",
     "image": "https://i.scdn.co/image/ab67616d000048512a182fb516812ea67edde2b8",
     "bpm": 143,
-    "key": "F#",
+    "key": "3B",
     "danceability": 0.482,
     "energy": 0.757,
     "valence": 0.12,
@@ -36426,7 +36426,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 87
+    "popularity": 87,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Pink + White",
@@ -36436,8 +36438,8 @@
     "spotifyId": "3xKsf9qdS1CyvXSMEid6g8",
     "isrc": "QZ5C81600003",
     "image": "https://i.scdn.co/image/ab67616d00004851c5649add07ed3720be9d5526",
-    "bpm": 158,
-    "key": "A",
+    "bpm": 160,
+    "key": "12B",
     "danceability": 0.545,
     "acousticness": 0.67,
     "genres": [
@@ -36451,7 +36453,9 @@
     "uri": "https://getsongbpm.com/song/pink-plus-white/57GQOB",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 86
+    "popularity": 86,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "BLUE",
@@ -36462,7 +36466,7 @@
     "isrc": "USUM72401996",
     "image": "https://i.scdn.co/image/ab67616d0000485171d62ea7ea8a5be92d3c1f62",
     "bpm": 142,
-    "key": "G",
+    "key": "9B",
     "danceability": 0.349,
     "energy": 0.337,
     "valence": 0.0365,
@@ -36477,7 +36481,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 81
+    "popularity": 81,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "the boy is mine",
@@ -36488,7 +36494,7 @@
     "isrc": "USUM72317268",
     "image": "https://i.scdn.co/image/ab67616d000048518b58d20f1b77295730db15b4",
     "bpm": 98,
-    "key": "G",
+    "key": "6B",
     "danceability": 0.795,
     "energy": 0.63,
     "valence": 0.447,
@@ -36503,7 +36509,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 81
+    "popularity": 81,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Be My Baby",
@@ -36536,8 +36544,8 @@
     "spotifyId": "75u9uswC5UMdtv4SQ3xSYf",
     "isrc": "USCM51400402",
     "image": "https://i.scdn.co/image/ab67616d0000485105d647d0e976e7fb2460492e",
-    "bpm": 129,
-    "key": "C#m",
+    "bpm": 128,
+    "key": "12B",
     "danceability": 0.655,
     "acousticness": 0.01,
     "genres": [
@@ -36551,7 +36559,9 @@
     "uri": "https://getsongbpm.com/song/the-night-is-still-young/nx3PjY",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 67
+    "popularity": 67,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Truth Hurts",
@@ -36589,8 +36599,8 @@
     "spotifyId": "1dGr1c8CrMLDpV6mPbImSI",
     "isrc": "USUG11901473",
     "image": "https://i.scdn.co/image/ab67616d00004851e787cffec20aa2a396a61647",
-    "bpm": 136,
-    "key": "G",
+    "bpm": 69,
+    "key": "9B",
     "danceability": 0.359,
     "acousticness": 0.5,
     "genres": [
@@ -36602,7 +36612,9 @@
     "uri": "https://getsongbpm.com/song/lover/nRDkol",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 83
+    "popularity": 83,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Ivy",
@@ -36613,7 +36625,7 @@
     "isrc": "QZ5C81600002",
     "image": "https://i.scdn.co/image/ab67616d00004851c5649add07ed3720be9d5526",
     "bpm": 116,
-    "key": "Am",
+    "key": "7B",
     "danceability": 0.575,
     "acousticness": 0.79,
     "genres": [
@@ -36627,7 +36639,9 @@
     "uri": "https://getsongbpm.com/song/ivy/460QN1",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 83
+    "popularity": 83,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "White Ferrari",
@@ -36664,8 +36678,8 @@
     "spotifyId": "34xTFwjPQ1dC6uJmleno7x",
     "isrc": "QZ5C81600016",
     "image": "https://i.scdn.co/image/ab67616d00004851c5649add07ed3720be9d5526",
-    "bpm": 109,
-    "key": "C#",
+    "bpm": 110,
+    "key": "3B",
     "danceability": 0.399,
     "acousticness": 0.94,
     "genres": [
@@ -36679,7 +36693,9 @@
     "uri": "https://getsongbpm.com/song/godspeed/pZ58J2",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 77
+    "popularity": 77,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Pink Matter",
@@ -36714,8 +36730,8 @@
     "spotifyId": "0jcw8cJf3TNMZN0BXlueML",
     "isrc": "GBARL2300802",
     "image": "https://i.scdn.co/image/ab67616d00004851864f946221840eced94a2243",
-    "bpm": 105,
-    "key": "A#",
+    "bpm": 210,
+    "key": "4B",
     "danceability": 0.64,
     "energy": 0.679,
     "valence": 0.682,
@@ -36730,7 +36746,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 75
+    "popularity": 75,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Tell Ur Girlfriend",
@@ -36741,7 +36759,7 @@
     "isrc": "QZZ4J2400019",
     "image": "https://i.scdn.co/image/ab67616d0000485160c2aae8589af374dc039b1e",
     "bpm": 135,
-    "key": "G",
+    "key": "9B",
     "danceability": 0.867,
     "energy": 0.741,
     "valence": 0.618,
@@ -36756,7 +36774,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 67
+    "popularity": 67,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "White Mustang",
@@ -36766,8 +36786,8 @@
     "spotifyId": "6eygbzyL6hY8jFQTARDuo9",
     "isrc": "GBUM71702622",
     "image": "https://i.scdn.co/image/ab67616d0000485195e2fd1accb339fa14878190",
-    "bpm": 114,
-    "key": "F#m",
+    "bpm": 115,
+    "key": "12B",
     "danceability": 0.658,
     "acousticness": 0.46,
     "genres": [
@@ -36778,7 +36798,9 @@
     "uri": "https://getsongbpm.com/song/white-mustang/LZoP5X",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 77
+    "popularity": 77,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "See You Again (feat. Kali Uchis)",
@@ -36868,7 +36890,7 @@
     "isrc": "GBUM71403184",
     "image": "https://i.scdn.co/image/ab67616d000048517e98a30f3a9af0fb35771ae1",
     "bpm": 92,
-    "key": "A#",
+    "key": "6B",
     "danceability": 0.746,
     "energy": 0.486,
     "valence": 0.417,
@@ -36883,7 +36905,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 78
+    "popularity": 78,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Champagne Coast",
@@ -36893,8 +36917,8 @@
     "spotifyId": "0AIpGG5dxEgnAymhdJRSZ0",
     "isrc": "GBCEL1100251",
     "image": "https://i.scdn.co/image/ab67616d000048516e423caed017991e802f8ee1",
-    "bpm": 122,
-    "key": "A",
+    "bpm": 123,
+    "key": "11B",
     "danceability": 0.813,
     "acousticness": 0.03,
     "genres": [
@@ -36908,7 +36932,9 @@
     "uri": "https://getsongbpm.com/song/champagne-coast/2R65ZK",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 72
+    "popularity": 72,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Tumblr Girls (feat. Christoph Andersson)",
@@ -36919,7 +36945,7 @@
     "isrc": "USRC11400750",
     "image": "https://i.scdn.co/image/ab67616d00004851bdfe4efd674482cf5ac88c99",
     "bpm": 122,
-    "key": "G#",
+    "key": "4B",
     "danceability": 0.49,
     "energy": 0.373,
     "valence": 0.346,
@@ -36934,7 +36960,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 76
+    "popularity": 76,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "You’re Gonna Go Far",
@@ -36945,7 +36973,7 @@
     "isrc": "USUM72307687",
     "image": "https://i.scdn.co/image/ab67616d0000485165a472d8326d4571bf725422",
     "bpm": 170,
-    "key": "G",
+    "key": "9B",
     "danceability": 0.586,
     "energy": 0.358,
     "valence": 0.365,
@@ -36960,7 +36988,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 80
+    "popularity": 80,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "28",
@@ -36970,8 +37000,8 @@
     "spotifyId": "5iJKGpnFfvbjZJeAtwXfCj",
     "isrc": "USWB12402693",
     "image": "https://i.scdn.co/image/ab67616d00004851647ad18a07e9e939e399e5a1",
-    "bpm": 81,
-    "key": "G",
+    "bpm": 92,
+    "key": "9B",
     "danceability": 0.492,
     "energy": 0.519,
     "valence": 0.435,
@@ -36982,7 +37012,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 77
+    "popularity": 77,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Someone New",
@@ -36992,8 +37024,8 @@
     "spotifyId": "22sS7JkzeVeq4vOPCB6Fbj",
     "isrc": "IEACJ1400143",
     "image": "https://i.scdn.co/image/ab67616d000048517a9bf5f82e32d33d4503fe7b",
-    "bpm": 91,
-    "key": "G",
+    "bpm": 184,
+    "key": "9B",
     "danceability": 0.44,
     "acousticness": 0.43,
     "genres": [
@@ -37007,7 +37039,9 @@
     "uri": "https://getsongbpm.com/song/someone-new/zvywO2",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 71
+    "popularity": 71,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "St. Chroma (feat. Daniel Caesar)",
@@ -37041,7 +37075,7 @@
     "isrc": "USUG12401775",
     "image": "https://i.scdn.co/image/ab67616d000048514ba1c73e08db2c003a78e148",
     "bpm": 122,
-    "key": "F#",
+    "key": "2B",
     "danceability": 0.586,
     "energy": 0.72,
     "valence": 0.302,
@@ -37056,7 +37090,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 82
+    "popularity": 82,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "WILDFLOWER",
@@ -37067,7 +37103,7 @@
     "isrc": "USUM72401993",
     "image": "https://i.scdn.co/image/ab67616d0000485171d62ea7ea8a5be92d3c1f62",
     "bpm": 148,
-    "key": "F#",
+    "key": "11B",
     "danceability": 0.467,
     "energy": 0.247,
     "valence": 0.126,
@@ -37082,7 +37118,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 92
+    "popularity": 92,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Physical",
@@ -37092,8 +37130,8 @@
     "spotifyId": "3AzjcOeAmA57TIOr9zF1ZW",
     "isrc": "GBAHT1901298",
     "image": "https://i.scdn.co/image/ab67616d00004851c88bae7846e62a8ba59ee0bd",
-    "bpm": 144,
-    "key": "C",
+    "bpm": 147,
+    "key": "8B",
     "danceability": 0.647,
     "acousticness": 0.02,
     "genres": [
@@ -37104,7 +37142,9 @@
     "uri": "https://getsongbpm.com/song/physical/2832vj",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 72
+    "popularity": 72,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "NEED ME",
@@ -37114,8 +37154,8 @@
     "spotifyId": "2M0Mh2R2GPAOAVYnXVjSFR",
     "isrc": "USA2P2420373",
     "image": "https://i.scdn.co/image/ab67616d0000485122b3912eb10d348a19680022",
-    "bpm": 129,
-    "key": "G#",
+    "bpm": 64,
+    "key": "4B",
     "danceability": 0.313,
     "energy": 0.362,
     "valence": 0.127,
@@ -37130,7 +37170,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 53
+    "popularity": 53,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "One More Shot",
@@ -37193,7 +37235,7 @@
     "isrc": "USA2P2434273",
     "image": "https://i.scdn.co/image/ab67616d00004851d3c5ae3175c0a64c9d88ca5a",
     "bpm": 95,
-    "key": "D#",
+    "key": "2B",
     "danceability": 0.572,
     "energy": 0.359,
     "valence": 0.288,
@@ -37208,7 +37250,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 72
+    "popularity": 72,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Nobody Gets Me",
@@ -37218,8 +37262,8 @@
     "spotifyId": "5Y35SjAfXjjG0sFQ3KOxmm",
     "isrc": "USRC12204598",
     "image": "https://i.scdn.co/image/ab67616d00004851bc18bdade69ec5ef0bb25b17",
-    "bpm": 100,
-    "key": "G",
+    "bpm": 150,
+    "key": "10B",
     "danceability": 0.358,
     "energy": 0.284,
     "valence": 0.276,
@@ -37234,7 +37278,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 85
+    "popularity": 85,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "BACK TO BLONDE",
@@ -37244,8 +37290,8 @@
     "spotifyId": "2tKqI6dJIxUlFyVUwrSR08",
     "isrc": "USA2P2450125",
     "image": "https://i.scdn.co/image/ab67616d000048514d9878db07cd8db9cfbcaa9c",
-    "bpm": 93,
-    "key": "C",
+    "bpm": 94,
+    "key": "5B",
     "danceability": 0.421,
     "energy": 0.442,
     "valence": 0.37,
@@ -37260,7 +37306,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 58
+    "popularity": 58,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Lost",
@@ -37297,8 +37345,8 @@
     "spotifyId": "6jbYpRPTEFl1HFKHk1IC0m",
     "isrc": "USQX92405794",
     "image": "https://i.scdn.co/image/ab67616d00004851084a94988541c2402615d014",
-    "bpm": 96,
-    "key": "E",
+    "bpm": 97,
+    "key": "11B",
     "danceability": 0.392,
     "energy": 0.555,
     "valence": 0.191,
@@ -37313,7 +37361,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 90
+    "popularity": 90,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Novacane",
@@ -37324,7 +37374,7 @@
     "isrc": "USUM71107257",
     "image": "https://i.scdn.co/image/ab67616d0000485159a428dc7ef8e0c12b0fe18a",
     "bpm": 94,
-    "key": "D#",
+    "key": "2B",
     "danceability": 0.762,
     "energy": 0.508,
     "valence": 0.37,
@@ -37339,7 +37389,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 80
+    "popularity": 80,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Almost Is Never Enough",
@@ -37400,7 +37452,7 @@
     "isrc": "IEACJ2300028",
     "image": "https://i.scdn.co/image/ab67616d000048511ad3a7703a6a36677f91541f",
     "bpm": 130,
-    "key": "C#",
+    "key": "12B",
     "danceability": 0.509,
     "energy": 0.493,
     "valence": 0.0616,
@@ -37412,7 +37464,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 64
+    "popularity": 64,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Almost (Sweet Music)",
@@ -37422,8 +37476,8 @@
     "spotifyId": "7uttm8Iurm5uK67Vr9G2Sp",
     "isrc": "IEACJ1800127",
     "image": "https://i.scdn.co/image/ab67616d00004851299e8e9983e2b0455e5e8505",
-    "bpm": 88,
-    "key": "G",
+    "bpm": 90,
+    "key": "9B",
     "danceability": 0.523,
     "acousticness": 0.03,
     "genres": [
@@ -37437,7 +37491,9 @@
     "uri": "https://getsongbpm.com/song/almost-sweet-music/LZKpgA",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 67
+    "popularity": 67,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Kiss It Better",
@@ -37448,7 +37504,7 @@
     "isrc": "QM5FT1600115",
     "image": "https://i.scdn.co/image/ab67616d000048516be9bac15995f089579074de",
     "bpm": 95,
-    "key": "D#m",
+    "key": "2B",
     "danceability": 0.616,
     "acousticness": 0.28,
     "genres": [
@@ -37463,7 +37519,9 @@
     "uri": "https://getsongbpm.com/song/kiss-it-better/46Ko0V",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 77
+    "popularity": 77,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "EARFQUAKE",
@@ -37474,7 +37532,7 @@
     "isrc": "USQX91901111",
     "image": "https://i.scdn.co/image/ab67616d0000485130a635de2bb0caa4e26f6abb",
     "bpm": 80,
-    "key": "A",
+    "key": "7B",
     "danceability": 0.554,
     "acousticness": 0.23,
     "genres": [
@@ -37486,7 +37544,9 @@
     "uri": "https://getsongbpm.com/song/earfquake/lRZQ8r",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 81
+    "popularity": 81,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Everyday",
@@ -37570,8 +37630,8 @@
     "spotifyId": "5oO3drDxtziYU2H1X23ZIp",
     "isrc": "QM5FT1600120",
     "image": "https://i.scdn.co/image/ab67616d000048516be9bac15995f089579074de",
-    "bpm": 86,
-    "key": "F",
+    "bpm": 172,
+    "key": "9B",
     "danceability": 0.509,
     "acousticness": 0.08,
     "genres": [
@@ -37586,7 +37646,9 @@
     "uri": "https://getsongbpm.com/song/love-on-the-brain/jYJm4P",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 83
+    "popularity": 83,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Bad Religion",
@@ -37596,8 +37658,8 @@
     "spotifyId": "2pMPWE7PJH1PizfgGRMnR9",
     "isrc": "USUM71207189",
     "image": "https://i.scdn.co/image/ab67616d000048517aede4855f6d0d738012e2e5",
-    "bpm": 81,
-    "key": "A",
+    "bpm": 83,
+    "key": "11B",
     "danceability": 0.359,
     "acousticness": 0.78,
     "genres": [
@@ -37611,7 +37673,9 @@
     "uri": "https://getsongbpm.com/song/bad-religion/wm86lm",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 72
+    "popularity": 72,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "It's ok I'm ok",
@@ -37622,7 +37686,7 @@
     "isrc": "USRC12402692",
     "image": "https://i.scdn.co/image/ab67616d0000485167ebf169a597e5febf6c42b4",
     "bpm": 115,
-    "key": "C#",
+    "key": "12B",
     "danceability": 0.754,
     "energy": 0.53,
     "valence": 0.374,
@@ -37637,7 +37701,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 82
+    "popularity": 82,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Congratulations (feat. Bilal)",
@@ -37699,7 +37765,7 @@
     "isrc": "USQX91100801",
     "image": "https://i.scdn.co/image/ab67616d0000485199da48a530f6ca2ef86da3cc",
     "bpm": 93,
-    "key": "Dm",
+    "key": "8B",
     "danceability": 0.831,
     "acousticness": 0.06,
     "genres": [
@@ -37711,7 +37777,9 @@
     "uri": "https://getsongbpm.com/song/work-out/98RPWz",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 79
+    "popularity": 79,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Money Trees",
@@ -37744,7 +37812,7 @@
     "isrc": "USSM12309164",
     "image": "https://i.scdn.co/image/ab67616d000048511e146244cf70b7aab703c057",
     "bpm": 172,
-    "key": "D",
+    "key": "10B",
     "danceability": 0.625,
     "energy": 0.733,
     "valence": 0.244,
@@ -37759,7 +37827,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 81
+    "popularity": 81,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Out thë way",
@@ -37770,7 +37840,7 @@
     "isrc": "USUM72217063",
     "image": "https://i.scdn.co/image/ab67616d000048517aee5b36a3a60ca926bc429b",
     "bpm": 128,
-    "key": "E",
+    "key": "8B",
     "danceability": 0.763,
     "energy": 0.617,
     "valence": 0.811,
@@ -37785,7 +37855,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 74
+    "popularity": 74,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "BURR",
@@ -37795,8 +37867,8 @@
     "spotifyId": "0TLuRPNABhCmoRDTwaMKK9",
     "isrc": "AUGBT2485746",
     "image": "https://i.scdn.co/image/ab67616d0000485155d46bd90e5a5ee74b1def8b",
-    "bpm": 150,
-    "key": "B",
+    "bpm": 75,
+    "key": "2B",
     "danceability": 0.7,
     "energy": 0.76,
     "valence": 0.383,
@@ -37808,7 +37880,9 @@
       "Electronica",
       "Rap"
     ],
-    "source": "songstats"
+    "source": "songstats",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "misses",
@@ -37819,7 +37893,7 @@
     "isrc": "USQX92401826",
     "image": "https://i.scdn.co/image/ab67616d000048510297fb98f81fc0b611fcf71d",
     "bpm": 120,
-    "key": "D",
+    "key": "10B",
     "danceability": 0.578,
     "energy": 0.509,
     "valence": 0.586,
@@ -37831,7 +37905,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 77
+    "popularity": 77,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "ILUV",
@@ -37842,7 +37918,7 @@
     "isrc": "USUM72401630",
     "image": "https://i.scdn.co/image/ab67616d000048519567b80f50a5b9f0178ae993",
     "bpm": 128,
-    "key": "C",
+    "key": "8B",
     "danceability": 0.758,
     "energy": 0.575,
     "valence": 0.39,
@@ -37857,7 +37933,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 71
+    "popularity": 71,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "505",
@@ -37868,7 +37946,7 @@
     "isrc": "GBCEL0700074",
     "image": "https://i.scdn.co/image/ab67616d00004851b1f8da74f225fa1225cdface",
     "bpm": 140,
-    "key": "C",
+    "key": "9B",
     "danceability": 0.526,
     "acousticness": 0.01,
     "genres": [
@@ -37878,9 +37956,10 @@
     "mbid": "ada7a83c-e3e1-40f1-93f9-3e73dbc9298a",
     "uri": "https://getsongbpm.com/song/505/jRNQNl",
     "source": "getsongbpm",
-    "bpmSource": "reccobeats",
+    "bpmSource": "djay_pro_ax",
     "danceabilitySource": "reccobeats",
-    "popularity": 84
+    "popularity": 84,
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Whatta Man",
@@ -37916,8 +37995,8 @@
     "spotifyId": "07VBqWH6NG8L2ad3l84UKk",
     "isrc": "USSM11506390",
     "image": "https://i.scdn.co/image/ab67616d000048515260c62db020e5861a51556d",
-    "bpm": 94,
-    "key": "Gm",
+    "bpm": 95,
+    "key": "6B",
     "danceability": 0.353,
     "acousticness": 0.01,
     "genres": [],
@@ -37926,7 +38005,9 @@
     "uri": "https://getsongbpm.com/song/rpointipointppoint-2-my-youth/J8862y",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 62
+    "popularity": 62,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Why'd You Only Call Me When You're High?",
@@ -37961,7 +38042,7 @@
     "isrc": "GBKPL1778015",
     "image": "https://i.scdn.co/image/ab67616d00004851263886a4992c39704c601409",
     "bpm": 172,
-    "key": "F#",
+    "key": "2B",
     "danceability": 0.603,
     "energy": 0.784,
     "valence": 0.769,
@@ -37971,7 +38052,9 @@
       "Alternative",
       "R&B/Soul"
     ],
-    "source": "songstats"
+    "source": "songstats",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Freak",
@@ -37982,7 +38065,7 @@
     "isrc": "USRC12002580",
     "image": "https://i.scdn.co/image/ab67616d00004851ce9e7a5d6ce63facaa824665",
     "bpm": 117,
-    "key": "G",
+    "key": "9B",
     "danceability": 0.688,
     "energy": 0.716,
     "valence": 0.373,
@@ -37993,7 +38076,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 68
+    "popularity": 68,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "God is a woman",
@@ -38003,8 +38088,8 @@
     "spotifyId": "5OCJzvD7sykQEKHH7qAC3C",
     "isrc": "USUM71808574",
     "image": "https://i.scdn.co/image/ab67616d00004851c3af0c2355c24ed7023cd394",
-    "bpm": 144,
-    "key": "A#",
+    "bpm": 145,
+    "key": "2B",
     "danceability": 0.602,
     "acousticness": 0.03,
     "genres": [
@@ -38016,7 +38101,9 @@
     "uri": "https://getsongbpm.com/song/god-is-a-woman/pZJmmm",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 75
+    "popularity": 75,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Bad Habit",
@@ -38027,7 +38114,7 @@
     "isrc": "USRC12201440",
     "image": "https://i.scdn.co/image/ab67616d000048516938311000a0e494a26986e5",
     "bpm": 169,
-    "key": "C#",
+    "key": "4B",
     "danceability": 0.686,
     "energy": 0.494,
     "valence": 0.7,
@@ -38042,7 +38129,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 81
+    "popularity": 81,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Kill Bill",
@@ -38053,7 +38142,7 @@
     "isrc": "USRC12204584",
     "image": "https://i.scdn.co/image/ab67616d00004851c5276ed6cb0287df8d9be07f",
     "bpm": 89,
-    "key": "G#",
+    "key": "5B",
     "danceability": 0.644,
     "energy": 0.735,
     "valence": 0.418,
@@ -38068,7 +38157,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 86
+    "popularity": 86,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Shut up My Moms Calling",
@@ -38129,7 +38220,7 @@
     "isrc": "USRC12103605",
     "image": "https://i.scdn.co/image/ab67616d000048511b6bb9e28020fa9999808dfe",
     "bpm": 107,
-    "key": "G",
+    "key": "6B",
     "danceability": 0.535,
     "energy": 0.417,
     "valence": 0.376,
@@ -38144,7 +38235,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 65
+    "popularity": 65,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "NEW MAGIC WAND",
@@ -38154,8 +38247,8 @@
     "spotifyId": "0fv2KH6hac06J86hBUTcSf",
     "isrc": "USQX91901115",
     "image": "https://i.scdn.co/image/ab67616d0000485130a635de2bb0caa4e26f6abb",
-    "bpm": 140,
-    "key": "Fm",
+    "bpm": 139,
+    "key": "8B",
     "danceability": 0.621,
     "acousticness": 0.1,
     "genres": [
@@ -38167,7 +38260,9 @@
     "uri": "https://getsongbpm.com/song/new-magic-wand/pZ4w9N",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 78
+    "popularity": 78,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Glory Box",
@@ -38177,8 +38272,8 @@
     "spotifyId": "3Ty7OTBNSigGEpeW2PqcsC",
     "isrc": "GBAQT9400066",
     "image": "https://i.scdn.co/image/ab67616d00004851dc20397b139223620af148f6",
-    "bpm": 118,
-    "key": "C#",
+    "bpm": 120,
+    "key": "2B",
     "danceability": 0.51,
     "acousticness": 0.23,
     "genres": [
@@ -38189,7 +38284,9 @@
     "uri": "https://getsongbpm.com/song/glory-box/n54qp",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 73
+    "popularity": 73,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "LOVE. FEAT. ZACARI.",
@@ -38222,7 +38319,7 @@
     "isrc": "USQX92405785",
     "image": "https://i.scdn.co/image/ab67616d00004851084a94988541c2402615d014",
     "bpm": 82,
-    "key": "C#",
+    "key": "12B",
     "danceability": 0.38,
     "energy": 0.784,
     "valence": 0.418,
@@ -38235,7 +38332,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 77
+    "popularity": 77,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "The Spins",
@@ -38269,7 +38368,7 @@
     "isrc": "TCACB1494225",
     "image": "https://i.scdn.co/image/ab67616d00004851cda50b9cf82b2a495dbc8fc4",
     "bpm": 110,
-    "key": "Bm",
+    "key": "10B",
     "danceability": 0.64,
     "acousticness": 0.28,
     "genres": [
@@ -38278,7 +38377,9 @@
     "country": "US",
     "mbid": "773bc0c0-a4ae-45a9-b71d-356174b67c08",
     "uri": "https://getsongbpm.com/song/bout-it/D1nnOY",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "DENIAL IS A RIVER",
@@ -38289,7 +38390,7 @@
     "isrc": "USUG12405664",
     "image": "https://i.scdn.co/image/ab67616d00004851b245099fe26319344ddf6054",
     "bpm": 93,
-    "key": "F#",
+    "key": "11B",
     "danceability": 0.825,
     "energy": 0.644,
     "valence": 0.622,
@@ -38304,7 +38405,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 85
+    "popularity": 85,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "2 hands",
@@ -38315,7 +38418,7 @@
     "isrc": "USRC12403001",
     "image": "https://i.scdn.co/image/ab67616d000048513b53b3afd0c28613b964769e",
     "bpm": 104,
-    "key": "C#",
+    "key": "3B",
     "danceability": 0.608,
     "energy": 0.782,
     "valence": 0.583,
@@ -38330,7 +38433,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 80
+    "popularity": 80,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "prove it",
@@ -38388,8 +38493,8 @@
     "spotifyId": "3sNVsP50132BTNlImLx70i",
     "isrc": "USUM71307523",
     "image": "https://i.scdn.co/image/ab67616d000048511dacfbc31cc873d132958af9",
-    "bpm": 76,
-    "key": "C#",
+    "bpm": 149,
+    "key": "2B",
     "danceability": 0.367,
     "acousticness": 0.14,
     "genres": [
@@ -38404,7 +38509,9 @@
     "uri": "https://getsongbpm.com/song/bound-2/QnJA20",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 80
+    "popularity": 80,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Lay Me Down",
@@ -38415,7 +38522,7 @@
     "isrc": "GBUM71308839",
     "image": "https://i.scdn.co/image/ab67616d00004851b11bdc91cb9ac6b14f5c1dae",
     "bpm": 119,
-    "key": "E",
+    "key": "12B",
     "danceability": 0.418,
     "acousticness": 0.92,
     "genres": [
@@ -38427,9 +38534,10 @@
     "mbid": "5a85c140-dcf9-4dd2-b2c8-aff0471549f3",
     "uri": "https://getsongbpm.com/song/lay-me-down/WLvY5J",
     "source": "getsongbpm",
-    "bpmSource": "reccobeats",
+    "bpmSource": "djay_pro_ax",
     "danceabilitySource": "reccobeats",
-    "popularity": 69
+    "popularity": 69,
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "thank u, next",
@@ -38439,8 +38547,8 @@
     "spotifyId": "3e9HZxeyfWwjeyPAMmWSSQ",
     "isrc": "USUM71819361",
     "image": "https://i.scdn.co/image/ab67616d0000485156ac7b86e090f307e218e9c8",
-    "bpm": 108,
-    "key": "C#",
+    "bpm": 107,
+    "key": "3B",
     "danceability": 0.72,
     "acousticness": 0.29,
     "genres": [
@@ -38452,7 +38560,9 @@
     "uri": "https://getsongbpm.com/song/thank-u-next/WPY0MJ",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 79
+    "popularity": 79,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Oscar Winning Tears.",
@@ -38487,7 +38597,7 @@
     "isrc": "USUG12408495",
     "image": "https://i.scdn.co/image/ab67616d00004851e2a0a166493a2bde5480a420",
     "bpm": 82,
-    "key": "A",
+    "key": "7B",
     "danceability": 0.761,
     "energy": 0.501,
     "valence": 0.502,
@@ -38499,7 +38609,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 82
+    "popularity": 82,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Can't Tell Me Nothing",
@@ -38509,8 +38621,8 @@
     "spotifyId": "0mEdbdeRFQwBhN4xfyIeUM",
     "isrc": "USUM70739239",
     "image": "https://i.scdn.co/image/ab67616d0000485126f7f19c7f0381e56156c94a",
-    "bpm": 81,
-    "key": "Fm",
+    "bpm": 80,
+    "key": "5B",
     "danceability": 0.587,
     "acousticness": 0.02,
     "genres": [
@@ -38525,7 +38637,9 @@
     "uri": "https://getsongbpm.com/song/can-t-tell-me-nothing/2kpQzJ",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 79
+    "popularity": 79,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Timeless (feat Playboi Carti)",
@@ -38562,7 +38676,7 @@
     "isrc": "USRC12400216",
     "image": "https://i.scdn.co/image/ab67616d0000485116fdde9f6b5606419ca9b7ca",
     "bpm": 89,
-    "key": "C#",
+    "key": "4B",
     "danceability": 0.557,
     "energy": 0.577,
     "valence": 0.328,
@@ -38577,7 +38691,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 81
+    "popularity": 81,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Garden Shed (feat. Estelle)",
@@ -38588,7 +38704,7 @@
     "isrc": "USQX91701278",
     "image": "https://i.scdn.co/image/ab67616d000048518940ac99f49e44f59e6f7fb3",
     "bpm": 113,
-    "key": "D",
+    "key": "7B",
     "danceability": 0.423,
     "energy": 0.456,
     "valence": 0.148,
@@ -38599,7 +38715,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 64
+    "popularity": 64,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Father Time (feat. Sampha)",
@@ -38610,7 +38728,7 @@
     "isrc": "USUM72208968",
     "image": "https://i.scdn.co/image/ab67616d000048512e02117d76426a08ac7c174f",
     "bpm": 153,
-    "key": "A#",
+    "key": "2B",
     "danceability": 0.514,
     "energy": 0.779,
     "valence": 0.517,
@@ -38622,7 +38740,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 69
+    "popularity": 69,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Pyramids",
@@ -38633,7 +38753,7 @@
     "isrc": "USUM71207185",
     "image": "https://i.scdn.co/image/ab67616d000048517aede4855f6d0d738012e2e5",
     "bpm": 108,
-    "key": "Fm",
+    "key": "4B",
     "danceability": 0.4,
     "acousticness": 0.02,
     "genres": [
@@ -38646,9 +38766,10 @@
     "mbid": "e520459c-dff4-491d-a6e4-c97be35e0044",
     "uri": "https://getsongbpm.com/song/pyramids/pQ6Wqr",
     "source": "getsongbpm",
-    "bpmSource": "reccobeats",
+    "bpmSource": "djay_pro_ax",
     "danceabilitySource": "reccobeats",
-    "popularity": 77
+    "popularity": 77,
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "heart pt. 6",
@@ -38659,7 +38780,7 @@
     "isrc": "USUG12408502",
     "image": "https://i.scdn.co/image/ab67616d00004851e2a0a166493a2bde5480a420",
     "bpm": 81,
-    "key": "A",
+    "key": "11B",
     "danceability": 0.704,
     "energy": 0.647,
     "valence": 0.585,
@@ -38671,7 +38792,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 80
+    "popularity": 80,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Poetic Justice",
@@ -38732,7 +38855,7 @@
     "isrc": "USJI10800160",
     "image": "https://i.scdn.co/image/ab67616d00004851d5a8395b0d80b8c48a5d851c",
     "bpm": 81,
-    "key": "A",
+    "key": "11B",
     "danceability": 0.684,
     "acousticness": 0.03,
     "genres": [
@@ -38745,7 +38868,9 @@
     "uri": "https://getsongbpm.com/song/sure-thing/zKWNQ7",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 84
+    "popularity": 84,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Stargirl Interlude",
@@ -38779,7 +38904,7 @@
     "isrc": "GBUM71903147",
     "image": "https://i.scdn.co/image/ab67616d00004851879e9318cb9f4e05ee552ac9",
     "bpm": 92,
-    "key": "F#m",
+    "key": "10B",
     "danceability": 0.294,
     "acousticness": 0.84,
     "genres": [
@@ -38789,9 +38914,10 @@
     "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
     "uri": "https://getsongbpm.com/song/cinnamon-girl/nR208p",
     "source": "getsongbpm",
-    "bpmSource": "reccobeats",
+    "bpmSource": "djay_pro_ax",
     "danceabilitySource": "reccobeats",
-    "popularity": 82
+    "popularity": 82,
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "THE GREATEST",
@@ -38802,7 +38928,7 @@
     "isrc": "USUM72401992",
     "image": "https://i.scdn.co/image/ab67616d0000485171d62ea7ea8a5be92d3c1f62",
     "bpm": 128,
-    "key": "G",
+    "key": "9B",
     "danceability": 0.407,
     "energy": 0.192,
     "valence": 0.159,
@@ -38817,7 +38943,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 81
+    "popularity": 81,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "The Cut That Always Bleeds",
@@ -38828,7 +38956,7 @@
     "isrc": "USUM71924260",
     "image": "https://i.scdn.co/image/ab67616d0000485188e3cda6d29b2552d4d6bc43",
     "bpm": 136,
-    "key": "C",
+    "key": "8B",
     "danceability": 0.489,
     "acousticness": 0.59,
     "genres": [],
@@ -38837,7 +38965,9 @@
     "uri": "https://getsongbpm.com/song/the-cut-that-always-bleeds/k2zVV5",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 82
+    "popularity": 82,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Talk That Talk",
@@ -38874,7 +39004,7 @@
     "isrc": "QZANL1751842",
     "image": "https://i.scdn.co/image/ab67616d0000485173862007fbff72fcdddcf6bc",
     "bpm": 85,
-    "key": "A",
+    "key": "11B",
     "danceability": 0.69,
     "energy": 0.454,
     "valence": 0.351,
@@ -38889,7 +39019,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 71
+    "popularity": 71,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Rules",
@@ -38899,8 +39031,8 @@
     "spotifyId": "1TMWcbxL5YF8rKsFHv5hAP",
     "isrc": "USRC11902867",
     "image": "https://i.scdn.co/image/ab67616d00004851d0bbfea6226b5c3707de92ed",
-    "bpm": 144,
-    "key": "G",
+    "bpm": 72,
+    "key": "9B",
     "danceability": 0.651,
     "acousticness": 0.18,
     "genres": [
@@ -38914,7 +39046,9 @@
     "uri": "https://getsongbpm.com/song/rules/OgWW1G",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 70
+    "popularity": 70,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "deja vu",
@@ -38924,8 +39058,8 @@
     "spotifyId": "6HU7h9RYOaPRFeh0R3UeAr",
     "isrc": "USUG12101240",
     "image": "https://i.scdn.co/image/ab67616d00004851a91c10fe9472d9bd89802e5a",
-    "bpm": 90,
-    "key": "D",
+    "bpm": 181,
+    "key": "11B",
     "danceability": 0.442,
     "energy": 0.612,
     "valence": 0.178,
@@ -38940,7 +39074,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 82
+    "popularity": 82,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "because i liked a boy",
@@ -38951,7 +39087,7 @@
     "isrc": "USUM72210695",
     "image": "https://i.scdn.co/image/ab67616d00004851700f7bf79c9f063ad0362bdf",
     "bpm": 147,
-    "key": "B",
+    "key": "1B",
     "danceability": 0.386,
     "energy": 0.592,
     "valence": 0.161,
@@ -38966,7 +39102,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 79
+    "popularity": 79,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Not Like Us",
@@ -39081,8 +39219,8 @@
     "spotifyId": "7cioKB5CHVzk09SOtTyn0T",
     "isrc": "USSM11307799",
     "image": "https://i.scdn.co/image/ab67616d000048510d1d6e9325275f104f8e33f3",
-    "bpm": 134,
-    "key": "C#m",
+    "bpm": 67,
+    "key": "1B",
     "danceability": 0.313,
     "acousticness": 0.11,
     "genres": [
@@ -39092,9 +39230,10 @@
     "mbid": "859d0860-d480-4efd-970c-c05d5f1776b8",
     "uri": "https://getsongbpm.com/song/haunted/6Xm0y7",
     "source": "getsongbpm",
-    "bpmSource": "reccobeats",
+    "bpmSource": "djay_pro_ax",
     "danceabilitySource": "reccobeats",
-    "popularity": 71
+    "popularity": 71,
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Again (feat. XXXTENTACION)",
@@ -39105,7 +39244,7 @@
     "isrc": "QM33K1700076",
     "image": "https://i.scdn.co/image/ab67616d0000485149af7d5bfd29ae589a99e1cd",
     "bpm": 120,
-    "key": "A",
+    "key": "8B",
     "danceability": 0.664,
     "energy": 0.738,
     "valence": 0.203,
@@ -39119,7 +39258,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 80
+    "popularity": 80,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "NEW DROP",
@@ -39130,7 +39271,7 @@
     "isrc": "USAT22405399",
     "image": "https://i.scdn.co/image/ab67616d00004851b5050e0d58c704da6bb519e1",
     "bpm": 120,
-    "key": "E",
+    "key": "9B",
     "danceability": 0.757,
     "energy": 0.628,
     "valence": 0.321,
@@ -39145,7 +39286,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 84
+    "popularity": 84,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Leave Me Lonely",
@@ -39179,7 +39322,7 @@
     "isrc": "USUG12405665",
     "image": "https://i.scdn.co/image/ab67616d00004851b245099fe26319344ddf6054",
     "bpm": 91,
-    "key": "G#",
+    "key": "6B",
     "danceability": 0.819,
     "energy": 0.691,
     "valence": 0.706,
@@ -39194,7 +39337,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 76
+    "popularity": 76,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Ordinary",
@@ -39261,7 +39406,7 @@
     "isrc": "USUG12500409",
     "image": "https://i.scdn.co/image/ab67616d00004851b50168e8cd8fd1c991f9a462",
     "bpm": 93,
-    "key": "C#",
+    "key": "6B",
     "danceability": 0.75,
     "energy": 0.75,
     "valence": 0.678,
@@ -39276,7 +39421,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 77
+    "popularity": 77,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Moon River",
@@ -39287,7 +39434,7 @@
     "isrc": "QM24S1802611",
     "image": "https://i.scdn.co/image/ab67616d000048516566b46cd24c5f2d0561ee7a",
     "bpm": 77,
-    "key": "C",
+    "key": "8B",
     "danceability": 0.24,
     "energy": 0.116,
     "valence": 0.0937,
@@ -39301,7 +39448,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 74
+    "popularity": 74,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Can't Wait",
@@ -39311,8 +39460,8 @@
     "spotifyId": "4oZ3lR8qidZYTz07FpDiO6",
     "isrc": "USRC12302185",
     "image": "https://i.scdn.co/image/ab67616d00004851425c31a1dfbe3f62daf1413b",
-    "bpm": 78,
-    "key": "F#",
+    "bpm": 81,
+    "key": "12B",
     "danceability": 0.472,
     "energy": 0.79,
     "valence": 0.815,
@@ -39327,7 +39476,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 41
+    "popularity": 41,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "DNA.",
@@ -39337,8 +39488,8 @@
     "spotifyId": "6HZILIRieu8S0iqY8kIKhj",
     "isrc": "USUM71703079",
     "image": "https://i.scdn.co/image/ab67616d000048518b52c6b9bc4e43d873869699",
-    "bpm": 72,
-    "key": "C#",
+    "bpm": 140,
+    "key": "10B",
     "danceability": 0.638,
     "acousticness": 0.01,
     "genres": [
@@ -39349,7 +39500,9 @@
     "uri": "https://getsongbpm.com/song/dnapoint/EqjBJm",
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
-    "popularity": 77
+    "popularity": 77,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Sundress",
@@ -39360,7 +39513,7 @@
     "isrc": "USRC11803252",
     "image": "https://i.scdn.co/image/ab67616d000048511ae967e4a02c7a39eb3c189b",
     "bpm": 125,
-    "key": "F#",
+    "key": "3B",
     "danceability": 0.721,
     "energy": 0.707,
     "valence": 0.743,
@@ -39375,7 +39528,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 81
+    "popularity": 81,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Worst Way",
@@ -39385,8 +39540,8 @@
     "spotifyId": "1osfLqL6L2iQsirRf83ded",
     "isrc": "QZRD92404862",
     "image": "https://i.scdn.co/image/ab67616d000048513e3cacc30688b39ffed26334",
-    "bpm": 99,
-    "key": "B",
+    "bpm": 198,
+    "key": "1B",
     "danceability": 0.366,
     "energy": 0.492,
     "valence": 0.349,
@@ -39401,7 +39556,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 77
+    "popularity": 77,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "ANXIETY (feat. Doechii)",
@@ -39440,7 +39597,7 @@
     "isrc": "USQX92403840",
     "image": "https://i.scdn.co/image/ab67616d00004851300f0e9e23f537650b51e631",
     "bpm": 118,
-    "key": "F",
+    "key": "5B",
     "danceability": 0.873,
     "energy": 0.633,
     "valence": 0.454,
@@ -39451,7 +39608,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 51
+    "popularity": 51,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Somethin' 'Bout A Woman",
@@ -39462,7 +39621,7 @@
     "isrc": "QZRD92406327",
     "image": "https://i.scdn.co/image/ab67616d0000485133b20d50bce3dca3d58f1627",
     "bpm": 107,
-    "key": "F",
+    "key": "6B",
     "danceability": 0.71,
     "energy": 0.797,
     "valence": 0.478,
@@ -39477,7 +39636,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 0
+    "popularity": 0,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Rein Me In (with Olivia Dean)",
@@ -39511,8 +39672,8 @@
     "spotifyId": "71Yj5Bi9UeadflACsEvkdT",
     "isrc": "USUM71602095",
     "image": "https://i.scdn.co/image/ab67616d00004851358e3c8b0be69fd2f143129e",
-    "bpm": 103,
-    "key": "E",
+    "bpm": 104,
+    "key": "10B",
     "danceability": 0.606,
     "energy": 0.128,
     "valence": 0.219,
@@ -39527,7 +39688,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 17
+    "popularity": 17,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Sinner",
@@ -39538,7 +39701,7 @@
     "isrc": "USHR12448928",
     "image": "https://i.scdn.co/image/ab67616d000048512a05081a7e1d10481bf9bdac",
     "bpm": 174,
-    "key": "E",
+    "key": "10B",
     "danceability": 0.586,
     "energy": 0.707,
     "valence": 0.186,
@@ -39553,7 +39716,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 49
+    "popularity": 49,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Bistro",
@@ -39588,7 +39753,7 @@
     "isrc": "USUYG1202498",
     "image": "https://i.scdn.co/image/ab67616d00004851fcd3724fba954e6104e4530d",
     "bpm": 82,
-    "key": "C#",
+    "key": "5B",
     "danceability": 0.529,
     "energy": 0.669,
     "valence": 0.797,
@@ -39603,7 +39768,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 56
+    "popularity": 56,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Consideration",
@@ -90133,5 +90300,429 @@
       "pop"
     ],
     "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Kendrick Lamar, SZA",
+    "title": "All The Stars (with SZA) - From \"Black Panther: The Album\"",
+    "bpm": 97,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "African",
+      "Amapiano",
+      "Gqom",
+      "Hip Hop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Ariana Grande, Nathan Sykes",
+    "title": "Almost Is Never Enough",
+    "bpm": 81,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Ariana Grande, Cashmere Cat",
+    "title": "Be My Baby",
+    "bpm": 145,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Madvillain, Madlib, MF DOOM",
+    "title": "Bistro",
+    "bpm": 85,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Mac Miller, Bilal",
+    "title": "Congratulations (feat. Bilal)",
+    "bpm": 58,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Rihanna, SZA",
+    "title": "Consideration",
+    "bpm": 145,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "r&b",
+      "reggae",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Ariana Grande, Future",
+    "title": "Everyday",
+    "bpm": 131,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Ariana Grande, Macy Gray",
+    "title": "Leave Me Lonely",
+    "bpm": 91,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Kendrick Lamar, Zacari",
+    "title": "LOVE. FEAT. ZACARI.",
+    "bpm": 126,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "African",
+      "Amapiano",
+      "Gqom",
+      "Hip Hop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "KIRBY",
+    "title": "Loved by You",
+    "bpm": 79,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "R&B/Soul",
+      "Blues",
+      "Country Blues",
+      "Easy Listening",
+      "Jazz Blues"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Kendrick Lamar, Rihanna",
+    "title": "LOYALTY. FEAT. RIHANNA.",
+    "bpm": 111,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "African",
+      "Amapiano",
+      "Gqom",
+      "Hip Hop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Kendrick Lamar, Jay Rock",
+    "title": "Money Trees",
+    "bpm": 72,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "African",
+      "Amapiano",
+      "Gqom",
+      "Hip Hop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Cil",
+    "title": "One More Shot",
+    "bpm": 110,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Breakup",
+      "Chill Pop",
+      "Healing",
+      "Viennese Waltz"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "SZA, Travis Scott",
+    "title": "Open Arms (feat. Travis Scott)",
+    "bpm": 78,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Dance Pop",
+      "R&B",
+      "Bubblegum Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "RAYE",
+    "title": "Oscar Winning Tears.",
+    "bpm": 142,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "House",
+      "Electronic",
+      "Dance",
+      "Fitness & Workout",
+      "Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Kendrick Lamar, AZ Chike",
+    "title": "peekaboo (feat. azchike)",
+    "bpm": 100,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "African",
+      "Amapiano",
+      "Gqom",
+      "Hip Hop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Frank Ocean, André 3000",
+    "title": "Pink Matter",
+    "bpm": 177,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "r&b",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Kendrick Lamar, Drake",
+    "title": "Poetic Justice",
+    "bpm": 136,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "African",
+      "Amapiano",
+      "Gqom",
+      "Hip Hop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "21 Savage, Summer Walker",
+    "title": "prove it",
+    "bpm": 134,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Hip Hop/Rap",
+      "Hip Hop",
+      "Pop Rap",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Tyler, The Creator, Daniel Caesar",
+    "title": "St. Chroma (feat. Daniel Caesar)",
+    "bpm": 150,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Rap",
+      "Hip Hop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "The Weeknd, Lana Del Rey",
+    "title": "Stargirl Interlude",
+    "bpm": 90,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Steve Lacy",
+    "title": "Static",
+    "bpm": 79,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "R&B/Soul"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Rihanna, Mikky Ekko",
+    "title": "Stay",
+    "bpm": 112,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "r&b",
+      "reggae",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "creamy, pretence, 11:11 Music Group",
+    "title": "sure thing",
+    "bpm": 162,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Charli xcx, Ariana Grande",
+    "title": "Sympathy is a knife featuring ariana grande",
+    "bpm": 135,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "House",
+      "Dance",
+      "Club",
+      "Dance Pop",
+      "Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Rihanna, JAŸ-Z",
+    "title": "Talk That Talk",
+    "bpm": 84,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "r&b",
+      "reggae",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Salt-N-Pepa, En Vogue",
+    "title": "Whatta Man",
+    "bpm": 173,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Hip Hop/Rap",
+      "R&B/Soul",
+      "90s Hip Hop"
+    ],
+    "genresSource": "cached:songstats"
   }
 ]
