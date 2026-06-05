@@ -439,7 +439,7 @@
     "artist": "Taylor Swift",
     "album": "1989",
     "year": "2014",
-    "bpm": 80,
+    "bpm": 160,
     "key": "9B",
     "danceability": 0.65,
     "acousticness": 0.06,
@@ -451,8 +451,8 @@
     "mbid": "20244d07-534f-4eff-b4d4-930878889970",
     "uri": "https://getsongbpm.com/song/shake-it-off/BNZ6QW",
     "source": "getsongbpm",
-    "bpmSource": "djay_pro",
-    "keySource": "djay_pro"
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Dancing In The Dark (Mix Cut)",
@@ -4892,7 +4892,7 @@
     "artist": "Destiny's Child",
     "album": "The Writing's on the Wall",
     "year": "1999",
-    "bpm": 138,
+    "bpm": 67,
     "key": "5B",
     "danceability": 0.713,
     "acousticness": 0.28,
@@ -77921,5 +77921,295 @@
       "Crank Wave"
     ],
     "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Ed Sheeran",
+    "title": "Azizam",
+    "bpm": 128,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0sCvjs8IVBhxXVhg7jQemt",
+    "album": "Play",
+    "year": "2025",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b07c28bb3192bdfb585fb438",
+    "popularity": 73,
+    "danceability": 0.537,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Bormin’",
+    "title": "Break Your Heart",
+    "bpm": 129,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "1wrVWI9VExFCUFl8c4cWKI",
+    "album": "Break Your Heart",
+    "year": "2025",
+    "image": "https://i.scdn.co/image/ab67616d0000b27399011b584cbe86c0ce3d412d",
+    "genres": [
+      "Dance",
+      "Dance / Pop",
+      "Club",
+      "Dance Pop",
+      "Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "TRIANGLE DES BERMUDES, MC YOSHI, Mauvais djo, Kokosvoice",
+    "title": "Charger",
+    "bpm": 128,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "1mvzvLW9nFujgS2VNKnToJ",
+    "album": "Franchement !",
+    "year": "2025",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738c3ef4b93cdfc38c008fd874",
+    "popularity": 59,
+    "danceability": 0.754,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "African",
+      "Afro Beat",
+      "Afrobeats",
+      "Chanson",
+      "Club"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "Charlotte Cardin",
+    "title": "Feel Good",
+    "bpm": 111,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "1pqKCnjkTBcAX6NyzSDahf",
+    "album": "99 Nights (Edition Deluxe)",
+    "year": "2023",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732a7fb621eb13a4ce7b142aa5",
+    "genres": [
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "K.Maro, W.A.N.O",
+    "title": "Femme Like U - Tribute 2024 Remix by W.A.N.O",
+    "bpm": 124,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "460UoN0rxBQkCy9gzIcSpd",
+    "album": "Femme Like U (20th Anniversary Tribute)",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b27307c32c0578d87a3de41358fa",
+    "popularity": 63,
+    "danceability": 0.659,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Hip Hop/Rap",
+      "French Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Miley Cyrus",
+    "title": "Flowers",
+    "bpm": 118,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "7DSAEUvxU8FajXtRloy8M0",
+    "album": "Endless Summer Vacation",
+    "year": "2023",
+    "image": "https://i.scdn.co/image/ab67616d0000b27366fd0917f38d472c8576754e",
+    "popularity": 86,
+    "danceability": 0.706,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Fitness & Workout",
+      "Rock",
+      "Teen Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Shakira, Ed Sheeran, Beéle",
+    "title": "Hips Don't Lie - Spotify Anniversary Version",
+    "bpm": 100,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "2oaGtVSJwivQkslaiDXOTr",
+    "album": "Spotify Anniversary | Oral Fixation (20th) and Pies Descalzos (30th) LIVE",
+    "year": "2025",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d5c717a748b40b026290622f",
+    "popularity": 53,
+    "danceability": 0.731,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "electronic",
+      "latin",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Sound Of Legend",
+    "title": "I'm Still Standing",
+    "bpm": 150,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0bpV9MqymT1j2vBgfs234Y",
+    "album": "I'm Still Standing",
+    "year": "2025",
+    "image": "https://i.scdn.co/image/ab67616d0000b27399c9e35a0c6c2531060a20c3",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Electro",
+      "Motivation"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Jaden Bojsen, David Guetta, Sami Brielle",
+    "title": "Let's Go",
+    "bpm": 129,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "6Qr4ufjYXdEd0KNFd7sJxx",
+    "album": "Let's Go",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734ca5a25396f69be24fabfd42",
+    "popularity": 75,
+    "danceability": 0.679,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "House",
+      "Dance / Pop",
+      "Club"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Helena",
+    "title": "Mauvais Garçon",
+    "bpm": 97,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0doFYnqgcStWu1Emh8DTVo",
+    "album": "Hélé",
+    "year": "2025",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739dff5b5fc6eb9fac50278c12",
+    "popularity": 60,
+    "danceability": 0.705,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "KeBlack, Guy2Bezbar",
+    "title": "Melrose Place",
+    "bpm": 121,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "0TYTQ9vAJM0q4qT1mzDeFq",
+    "album": "Melrose Place",
+    "year": "2025",
+    "image": "https://i.scdn.co/image/ab67616d0000b27322c502b1b253b4c4771fbaad",
+    "popularity": 63,
+    "danceability": 0.603,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "French Pop",
+      "Chanson",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Dr. Yaro",
+    "title": "Minimum ça",
+    "bpm": 115,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "spotifyId": "4mNttG8qiVh4BKrMUrUhCI",
+    "album": "Minimum ça",
+    "year": "2024",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e2b4a9e1813e0ed20ca0e145",
+    "popularity": 79,
+    "danceability": 0.748,
+    "danceabilitySource": "reccobeats",
+    "genres": [
+      "African",
+      "Afro Beat",
+      "Afro Pop"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "SANTA",
+    "title": "Recommence-moi",
+    "bpm": 107,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "French Pop",
+      "Chanson",
+      "Variete Francaise",
+      "Varit Franaise"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Doja Cat",
+    "title": "Woman",
+    "bpm": 108,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "r&b",
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
   }
 ]
