@@ -1386,7 +1386,7 @@
     "artist": "The Outfield",
     "album": "Play Deep",
     "year": "1985",
-    "bpm": 130,
+    "bpm": 129,
     "key": "12B",
     "danceability": 0.56,
     "acousticness": 0.11,
@@ -13701,12 +13701,14 @@
     "spotifyId": "3mwvKOyMmG77zZRunnxp9E",
     "isrc": "USGF19562907",
     "image": "https://i.scdn.co/image/ab67616d00004851345536847e60f622ee0eae96",
-    "bpm": 122,
-    "key": "G#",
+    "bpm": 121,
+    "key": "4B",
     "source": "getsongbpm",
     "danceability": 0.556,
     "danceabilitySource": "reccobeats",
-    "popularity": 74
+    "popularity": 74,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Turquoise Boy",
@@ -63304,8 +63306,8 @@
   {
     "artist": "Guns N' Roses",
     "title": "Sweet Child O' Mine",
-    "bpm": 134,
-    "key": "2B",
+    "bpm": 126,
+    "key": "3B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
@@ -72147,7 +72149,7 @@
   {
     "artist": "The Rolling Stones",
     "title": "Paint It, Black",
-    "bpm": 159,
+    "bpm": 160,
     "key": "8B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
@@ -73129,8 +73131,8 @@
   {
     "artist": "The Police",
     "title": "Roxanne",
-    "bpm": 134,
-    "key": "6B",
+    "bpm": 132,
+    "key": "7B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
@@ -81127,7 +81129,7 @@
   {
     "artist": "Wolfmother",
     "title": "Woman",
-    "bpm": 113,
+    "bpm": 151,
     "key": "11B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
@@ -82198,7 +82200,7 @@
   {
     "artist": "Red Hot Chili Peppers",
     "title": "Under the Bridge",
-    "bpm": 84,
+    "bpm": 85,
     "key": "12B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
@@ -83217,5 +83219,1632 @@
       "pop"
     ],
     "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Guns N' Roses",
+    "title": "ABSUЯD",
+    "bpm": 142,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Jimi Hendrix",
+    "title": "All Along the Watchtower",
+    "bpm": 113,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Three Days Grace",
+    "title": "Animal I Have Become",
+    "bpm": 122,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Alternative Metal",
+      "Alternative Rock",
+      "Emo",
+      "Garage"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Avril Lavigne",
+    "title": "Bite Me",
+    "bpm": 170,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Ram Jam",
+    "title": "Black Betty",
+    "bpm": 118,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Greta Van Fleet",
+    "title": "Black Smoke Rising",
+    "bpm": 100,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "SVICIDVL, Alex Tena",
+    "title": "BLAKK BRIDE!!",
+    "bpm": 150,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Ramones",
+    "title": "Blitzkrieg Bop - 2016 Remaster",
+    "bpm": 177,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Steppenwolf",
+    "title": "Born To Be Wild",
+    "bpm": 146,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "The Vices",
+    "title": "Boy",
+    "bpm": 92,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Limp Bizkit",
+    "title": "Break Stuff",
+    "bpm": 109,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "alt-J",
+    "title": "Breezeblocks",
+    "bpm": 75,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Liam Gallagher",
+    "title": "C’mon You Know",
+    "bpm": 105,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Highly Suspect",
+    "title": "Canals",
+    "bpm": 160,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Alternative",
+      "Alternative Rock",
+      "Blues Rock",
+      "Garage"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Donald Dean",
+    "title": "Castaway",
+    "bpm": 161,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Eric Clapton",
+    "title": "Cocaine",
+    "bpm": 105,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Limp Bizkit",
+    "title": "Dad Vibes",
+    "bpm": 95,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "GROUPLOVE",
+    "title": "Deleter",
+    "bpm": 160,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Limp Bizkit",
+    "title": "Dirty Rotten Bizkit",
+    "bpm": 97,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Mammoth",
+    "title": "Don’t Back Down",
+    "bpm": 140,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Aerosmith",
+    "title": "Dream On",
+    "bpm": 159,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Tame Impala",
+    "title": "Elephant",
+    "bpm": 123,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "House",
+      "Dance",
+      "Electronic",
+      "Edm",
+      "Electro"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Sum 41",
+    "title": "Fat Lip",
+    "bpm": 196,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The White Stripes",
+    "title": "Fell In Love With a Girl",
+    "bpm": 89,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Fury in Few",
+    "title": "Figuremeout",
+    "bpm": 166,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Creedence Clearwater Revival",
+    "title": "Fortunate Son",
+    "bpm": 133,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "folk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Surf Curse",
+    "title": "Freaks",
+    "bpm": 180,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Fury in Few",
+    "title": "Generation Xtra Special",
+    "bpm": 152,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "T. Rex",
+    "title": "Get It On",
+    "bpm": 127,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "ZZ Top",
+    "title": "Gimme All Your Lovin'",
+    "bpm": 120,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Autos Jaquet",
+    "title": "Give Me the Keys",
+    "bpm": 110,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Oh, Hush!, Dear Avalyn",
+    "title": "Gold Blood",
+    "bpm": 80,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Cold War Kids",
+    "title": "Hang Me Up To Dry",
+    "bpm": 93,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Des Rocs",
+    "title": "Hanging by a Thread",
+    "bpm": 94,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "The Strokes",
+    "title": "Hard To Explain",
+    "bpm": 82,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Greta Van Fleet",
+    "title": "Heat Above",
+    "bpm": 139,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Tom Morello, Bruce Springsteen, Eddie Vedder",
+    "title": "Highway to Hell (feat. Bruce Springsteen & Eddie Vedder)",
+    "bpm": 116,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Greta Van Fleet",
+    "title": "Highway Tune",
+    "bpm": 124,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Tom Morello, grandson",
+    "title": "Hold The Line (feat. grandson)",
+    "bpm": 160,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Eagles",
+    "title": "Hotel California - 2013 Remaster",
+    "bpm": 147,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Elvis Presley",
+    "title": "Hound Dog",
+    "bpm": 176,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rockabilly",
+      "Pop",
+      "Soundtrack",
+      "Dance",
+      "Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "The Beach Boys",
+    "title": "I Get Around (Mono)",
+    "bpm": 144,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Ramones",
+    "title": "I Wanna Be Sedated - Remastered",
+    "bpm": 163,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Måneskin",
+    "title": "I WANNA BE YOUR SLAVE",
+    "bpm": 133,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Rock",
+      "Alternative",
+      "Dance",
+      "Electronic"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Twisted Sister",
+    "title": "I Wanna Rock",
+    "bpm": 106,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "KISS",
+    "title": "I Was Made For Lovin' You",
+    "bpm": 128,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Smash Mouth",
+    "title": "I'm A Believer",
+    "bpm": 82,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The White Stripes",
+    "title": "Icky Thump",
+    "bpm": 94,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Led Zeppelin",
+    "title": "Immigrant Song - 1990 Remaster",
+    "bpm": 113,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Solemn Sorrow",
+    "title": "Is It Not Enough?",
+    "bpm": 154,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Pearl Jam",
+    "title": "Just Breathe",
+    "bpm": 108,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Adult Alternative",
+      "Grunge",
+      "Chill Rock",
+      "Chillout Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Papa Roach",
+    "title": "Kill The Noise",
+    "bpm": 95,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Metal",
+      "Alternative",
+      "Alternative Metal",
+      "Nu Metal"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Arctic Monkeys",
+    "title": "Knee Socks",
+    "bpm": 98,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "ZZ Top",
+    "title": "La Grange - 2005 Remaster",
+    "bpm": 162,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Tom Morello, Bring Me The Horizon",
+    "title": "Let’s Get The Party Started (feat. Bring Me The Horizon)",
+    "bpm": 176,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Greta Van Fleet",
+    "title": "Light My Love",
+    "bpm": 134,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Nirvana",
+    "title": "Lithium",
+    "bpm": 123,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The Doobie Brothers",
+    "title": "Long Train Runnin'",
+    "bpm": 117,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "rock",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "mgk, Kellin Quinn",
+    "title": "love race (feat. Kellin Quinn)",
+    "bpm": 96,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Pop Rock",
+      "Americana",
+      "Alternative Pop",
+      "Alternative Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Foo Fighters",
+    "title": "Making A Fire",
+    "bpm": 91,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Alternative Rock",
+      "Garage",
+      "Garage Rock",
+      "Grunge"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Yeah Yeah Yeahs",
+    "title": "Maps",
+    "bpm": 120,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Pop",
+      "Alternative",
+      "Indie Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Low Gear",
+    "title": "Mexican Radio",
+    "bpm": 82,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Foo Fighters",
+    "title": "Monkey Wrench",
+    "bpm": 174,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Alternative Rock",
+      "Garage",
+      "Garage Rock",
+      "Grunge"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "mgk, blackbear",
+    "title": "my ex's best friend (with blackbear)",
+    "bpm": 125,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Pop Rock",
+      "Americana",
+      "Alternative Pop",
+      "Alternative Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Highly Suspect",
+    "title": "My Name Is Human",
+    "bpm": 140,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Alternative",
+      "Alternative Rock",
+      "Blues Rock",
+      "Garage"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Studio 90",
+    "title": "My Superstition",
+    "bpm": 114,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Liquido",
+    "title": "Narcotic - Radio Edit",
+    "bpm": 102,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Asking Alexandria",
+    "title": "Never Gonna Learn",
+    "bpm": 105,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Royal Blood",
+    "title": "Oblivion",
+    "bpm": 112,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Roy Orbison",
+    "title": "Oh, Pretty Woman",
+    "bpm": 127,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "country",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "J.T. Larsen",
+    "title": "Old Loud Beat Down Train",
+    "bpm": 74,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Bob Seger",
+    "title": "Old Time Rock & Roll",
+    "bpm": 124,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "country",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Chapell",
+    "title": "On the Rooftop",
+    "bpm": 168,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "McFly",
+    "title": "One For The Radio",
+    "bpm": 135,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Allatoona Houseboat",
+    "title": "Paperclips",
+    "bpm": 121,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Huddy",
+    "title": "Partycrasher",
+    "bpm": 166,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Lady Gun",
+    "title": "Phatty Blues",
+    "bpm": 109,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Dirty Heads, Travis Barker, The Interrupters, Aimee Interrupter",
+    "title": "Rage (feat. Travis Barker and Aimee Interrupter of The Interrupters)",
+    "bpm": 160,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "ANGELSHARKX",
+    "title": "RED LIGHT GAMBLER",
+    "bpm": 82,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "The Doors",
+    "title": "Riders on the Storm",
+    "bpm": 104,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "KISS",
+    "title": "Rock And Roll All Nite",
+    "bpm": 145,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Gary Glitter",
+    "title": "Rock And Roll Part II",
+    "bpm": 129,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Elton John",
+    "title": "Rocket Man (I Think It's Going To Be A Long, Long Time)",
+    "bpm": 137,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The Snuts",
+    "title": "Seasons",
+    "bpm": 148,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "AC/DC",
+    "title": "Shot In The Dark",
+    "bpm": 114,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Jack Kays, Travis Barker",
+    "title": "SIDEWAYS (with Travis Barker)",
+    "bpm": 90,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Cage The Elephant",
+    "title": "Skin and Bones",
+    "bpm": 160,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "Rock",
+      "Indie",
+      "Indie Rock",
+      "Modern Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "The Killers",
+    "title": "Smile Like You Mean It",
+    "bpm": 125,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Dominick Muzio",
+    "title": "So Close, So Far",
+    "bpm": 90,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "All Time Low",
+    "title": "Some Kind Of Disaster",
+    "bpm": 90,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "The Killers",
+    "title": "Somebody Told Me",
+    "bpm": 138,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Phoenix Pain",
+    "title": "Sorry Love",
+    "bpm": 159,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Viagra Boys",
+    "title": "Sports",
+    "bpm": 129,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Punk",
+      "Alternative",
+      "Rock",
+      "Crank Wave",
+      "Modern Punk"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Led Zeppelin",
+    "title": "Stairway to Heaven - Remaster",
+    "bpm": 85,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Paramore",
+    "title": "Still into You",
+    "bpm": 136,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Nathaniel Rateliff & The Night Sweats",
+    "title": "Survivor",
+    "bpm": 98,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Aerosmith",
+    "title": "Sweet Emotion",
+    "bpm": 99,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Lynyrd Skynyrd",
+    "title": "Sweet Home Alabama",
+    "bpm": 98,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "country",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "WILLOW, Travis Barker",
+    "title": "t r a n s p a r e n t s o u l feat. Travis Barker",
+    "bpm": 90,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Jazz",
+      "Pop",
+      "Alternative Pop",
+      "Bubblegum Pop",
+      "Indie"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Jack White",
+    "title": "Taking Me Back",
+    "bpm": 117,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "The Strokes",
+    "title": "The Adults Are Talking",
+    "bpm": 83,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Simple Plan",
+    "title": "The Antidote",
+    "bpm": 152,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Kings of Leon",
+    "title": "The Bandit",
+    "bpm": 145,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Americana",
+      "Country"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Steve Miller Band",
+    "title": "The Joker",
+    "bpm": 83,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Foo Fighters",
+    "title": "The Line",
+    "bpm": 136,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Alternative Rock",
+      "Garage",
+      "Garage Rock",
+      "Grunge"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Nirvana",
+    "title": "The Man Who Sold The World - Live",
+    "bpm": 115,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Iggy Pop",
+    "title": "The Passenger",
+    "bpm": 135,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Frank Turner",
+    "title": "The Way I Tend To Be",
+    "bpm": 86,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Iron Maiden",
+    "title": "The Writing on the Wall",
+    "bpm": 90,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Metal",
+      "Hard Rock",
+      "Heavy Metal",
+      "Rock And Roll"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Red Hot Chili Peppers",
+    "title": "These Are the Ways",
+    "bpm": 128,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Alternative",
+      "Pop",
+      "Alternative Rock",
+      "Funk Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "jxdn",
+    "title": "THINK ABOUT ME",
+    "bpm": 142,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "Pop",
+      "Pop Punk",
+      "Pop Rock",
+      "Punk Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Three Days Grace",
+    "title": "Time of Dying",
+    "bpm": 198,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Alternative Metal",
+      "Alternative Rock",
+      "Emo",
+      "Garage"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "The Strokes",
+    "title": "Under Cover of Darkness",
+    "bpm": 200,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Two Door Cinema Club",
+    "title": "Undercover Martyn",
+    "bpm": 160,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Alternative",
+      "Fast Fashion",
+      "Indie Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "DADABE",
+    "title": "Wake up",
+    "bpm": 148,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Aerosmith",
+    "title": "Walk This Way",
+    "bpm": 109,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Des Rocs",
+    "title": "Wayne",
+    "bpm": 150,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "GROUPLOVE",
+    "title": "Ways to Go",
+    "bpm": 101,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Greta Van Fleet",
+    "title": "When The Curtain Falls",
+    "bpm": 96,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Bad Marriage",
+    "title": "Who's Ready to Rock?",
+    "bpm": 178,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Led Zeppelin",
+    "title": "Whole Lotta Love - 1990 Remaster",
+    "bpm": 90,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "The Struts, Tom Morello",
+    "title": "Wild Child (with Tom Morello)",
+    "bpm": 156,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Pink Floyd",
+    "title": "Wish You Were Here - 2011 Remaster",
+    "bpm": 122,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "AC/DC",
+    "title": "Witch's Spell",
+    "bpm": 120,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Scarlett Saint",
+    "title": "Your Love Is Just a Lie",
+    "bpm": 110,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Blue Öyster Cult",
+    "title": "(Don't Fear) The Reaper",
+    "bpm": 141,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "The Rolling Stones",
+    "title": "(I Can't Get No) Satisfaction - Mono Version / Remastered 2002",
+    "bpm": 136,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Roxiny",
+    "title": "9 Months",
+    "bpm": 126,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Huddy",
+    "title": "21st Century Vampire",
+    "bpm": 174,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   }
 ]
