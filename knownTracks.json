@@ -6172,7 +6172,7 @@
     "album": "Homework",
     "year": "1997",
     "bpm": 121,
-    "key": "10B",
+    "key": "9B",
     "danceability": 0.956,
     "acousticness": 0.01,
     "genres": [
@@ -34540,7 +34540,7 @@
     "spotifyId": "3mKsNBHEJQvMQNAsRnuAf3",
     "isrc": "GBCPZ9900007",
     "image": "https://i.scdn.co/image/ab67616d00004851af40610f775826fa87137a93",
-    "bpm": 128,
+    "bpm": 127,
     "key": "9B",
     "danceability": 0.739,
     "energy": 0.988,
@@ -43371,7 +43371,7 @@
   {
     "artist": "The Supermen Lovers, Mani Hoffman",
     "title": "Starlight - Radio Edit",
-    "bpm": 128,
+    "bpm": 127,
     "key": "8B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
@@ -44594,7 +44594,7 @@
   {
     "artist": "Starsailor",
     "title": "Four to the Floor - Thin White Duke Mix; Short Version",
-    "bpm": 93,
+    "bpm": 123,
     "key": "12B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
