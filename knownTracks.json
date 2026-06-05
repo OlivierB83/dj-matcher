@@ -13142,8 +13142,10 @@
     "title": "Animals",
     "artist": "Martin Garrix",
     "bpm": 128,
-    "key": "7B",
-    "source": "djay_pro"
+    "key": "4B",
+    "source": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "33 Max Verstappen",
@@ -13677,7 +13679,7 @@
     "spotifyId": "53NWOfQXdEmbHqg5FGeXlG",
     "isrc": "USRC18203285",
     "image": "https://i.scdn.co/image/ab67616d00004851db56ceff816b668b7b6f04ff",
-    "bpm": 92,
+    "bpm": 184,
     "key": "6B",
     "danceability": 0.683,
     "acousticness": 0.11,
@@ -16010,7 +16012,7 @@
     "spotifyId": "0vLwL4xuJ3s7SeaCdvMqkY",
     "isrc": "USCH38900008",
     "image": "https://i.scdn.co/image/ab67616d000048518cf86a9be38868f1d73cdb58",
-    "bpm": 142,
+    "bpm": 143,
     "key": "7B",
     "danceability": 0.551,
     "energy": 0.628,
@@ -35283,7 +35285,7 @@
     "isrc": "FRY689300741",
     "image": "https://i.scdn.co/image/ab67616d0000485153f32a34fd92654dc8c1ebf6",
     "bpm": 103,
-    "key": "A#",
+    "key": "9B",
     "danceability": 0.84,
     "energy": 0.522,
     "valence": 0.51,
@@ -35298,7 +35300,9 @@
     ],
     "source": "songstats",
     "danceabilitySource": "reccobeats",
-    "popularity": 19
+    "popularity": 19,
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Dieu m'a donné la Foi",
@@ -44430,7 +44434,7 @@
   {
     "artist": "Kim Wilde",
     "title": "Kids in America",
-    "bpm": 160,
+    "bpm": 80,
     "key": "10B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
@@ -92838,5 +92842,651 @@
       "pop"
     ],
     "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "La Bouche",
+    "title": "Be My Lover",
+    "bpm": 135,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "SNAP!",
+    "title": "Rhythm Is a Dancer - 7\" Edit",
+    "bpm": 124,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Yanns",
+    "title": "Clic clic pan pan",
+    "bpm": 132,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Eminem",
+    "title": "Without Me",
+    "bpm": 112,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "rap",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Ice Mc",
+    "title": "Think About the Way",
+    "bpm": 133,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rap",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Dr. Alban",
+    "title": "Let the Beat Go On - Short Version",
+    "bpm": 136,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "LIZOT, Emelie Cyréus",
+    "title": "Weekend (feat. Emelie Cyréus)",
+    "bpm": 124,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Edm",
+      "Electro",
+      "Slap House",
+      "Club"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Wamdue Project, Roy Malone",
+    "title": "King of My Castle - Roy Malone's King Radio Edit",
+    "bpm": 127,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Carlprit, Michael Mind Project",
+    "title": "Fiesta - Michael Mind Project Radio Edit",
+    "bpm": 128,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Shaka Ponk",
+    "title": "I'm Picky",
+    "bpm": 115,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "funk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Spice, Sean Paul, Shaggy",
+    "title": "Go Down Deh (feat. Sean Paul & Shaggy)",
+    "bpm": 90,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Eiffel 65, Gabry Ponte",
+    "title": "Blue (Da Ba Dee) - Gabry Ponte Video Edit",
+    "bpm": 128,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Enrique Iglesias, Descemer Bueno, Zion & Lennox",
+    "title": "SUBEME LA RADIO",
+    "bpm": 91,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Latin",
+      "Pop Latino",
+      "Reggaeton",
+      "Pachanga"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Benny Benassi, The Biz",
+    "title": "Satisfaction - Uk Radio Edit",
+    "bpm": 130,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "DJ Antoine, Aloe Blacc, Mad Mark, INFINITY",
+    "title": "Where Do I Go - DJ Antoine & Mad Mark 2k24 Mix",
+    "bpm": 128,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "House",
+      "Progressive House",
+      "Dance / Pop",
+      "Dance / Electro Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Mary J. Blige",
+    "title": "Family Affair",
+    "bpm": 93,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "r&b",
+      "rap",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Jawsh 685, Jason Derulo",
+    "title": "Savage Love (Laxed - Siren Beat)",
+    "bpm": 150,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Soolking, Niska",
+    "title": "Balader",
+    "bpm": 130,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "French Hip Hop",
+      "French Music",
+      "French Pop",
+      "Pop Urbaine"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Shakira",
+    "title": "Objection (Tango)",
+    "bpm": 179,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "latin",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Shaggy",
+    "title": "Boombastic",
+    "bpm": 158,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "rap",
+      "reggae"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Sean Paul, Sia",
+    "title": "Dynamite",
+    "bpm": 101,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "rap",
+      "reggae"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Jason Derulo, Nuka",
+    "title": "Love Not War (The Tampa Beat)",
+    "bpm": 98,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "50 Cent",
+    "title": "In Da Club",
+    "bpm": 90,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "rap"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Rilès",
+    "title": "THANK GOD",
+    "bpm": 141,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Eminem",
+    "title": "The Real Slim Shady",
+    "bpm": 105,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "rap",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Macklemore",
+    "title": "And We Danced (feat. Ziggy Stardust)",
+    "bpm": 125,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Shaggy, Rik Rok",
+    "title": "It Wasn't Me",
+    "bpm": 95,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "rap",
+      "reggae"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Mr. President",
+    "title": "Coco Jamboo",
+    "bpm": 100,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "O-Zone",
+    "title": "Dragostea din tei",
+    "bpm": 130,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Las Ketchup",
+    "title": "The Ketchup Song (Aserejé) - Spanglish Version",
+    "bpm": 185,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "BB Brunes",
+    "title": "Dis-moi",
+    "bpm": 130,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "La Douche",
+    "title": "Dancing in Heaven",
+    "bpm": 137,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Dr. Alban",
+    "title": "It's My Life",
+    "bpm": 129,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rap"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Magic System, Bob Sinclar",
+    "title": "Premier Gaou - Original Radio Edit",
+    "bpm": 119,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "world"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Kaoma",
+    "title": "Lambada - Original Version 1989",
+    "bpm": 119,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Spiller, Purple Disco Machine, Lorenz Rhode, Sophie Ellis-Bextor",
+    "title": "Groovejet (If This Ain't Love) [feat. Sophie Ellis-Bextor] - Purple Disco Machine & Lorenz Rhode Remix",
+    "bpm": 123,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Paradisio",
+    "title": "Bailando",
+    "bpm": 133,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Glockenbach, Joel Corry, Tenchi, ClockClock",
+    "title": "YEAH (feat. ClockClock)",
+    "bpm": 124,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "David Guetta, Chris Willis, Fred Riesterer, Joachim Garraud",
+    "title": "Love Is Gone - Fred Riester & Joachim Garraud Radio Edit Remix",
+    "bpm": 128,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Jamiroquai",
+    "title": "Cosmic Girl - Remastered 2013",
+    "bpm": 120,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "funk",
+      "jazz",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "ItaloBrothers",
+    "title": "Stamp On The Ground",
+    "bpm": 150,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Captain Hollywood Project",
+    "title": "More And More - Single Version",
+    "bpm": 126,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Remady",
+    "title": "No Superstar - Radio Edit",
+    "bpm": 128,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Gigi D'Agostino",
+    "title": "Bla Bla Bla (Radio Cut)",
+    "bpm": 133,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Pop",
+      "Jungle/Drum'n'bass",
+      "Electro House"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Muttonheads, Eden Martin",
+    "title": "Trust You Again - Edit",
+    "bpm": 128,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Aventura, Don Omar",
+    "title": "Ella Y Yo - Featuring Don Omar",
+    "bpm": 176,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "latin",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "TAL",
+    "title": "Le Sens de la vie",
+    "bpm": 119,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "r&b"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Kevin Lyttle",
+    "title": "Turn Me On",
+    "bpm": 106,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rap",
+      "reggae"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Fly Project",
+    "title": "Musica",
+    "bpm": 128,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Electronica",
+      "Children's Music",
+      "Club"
+    ],
+    "genresSource": "cached:djay_pro_ax"
+  },
+  {
+    "artist": "Baby K, Giusy Ferreri",
+    "title": "Roma - Bangkok (feat. Giusy Ferreri)",
+    "bpm": 100,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   }
 ]
