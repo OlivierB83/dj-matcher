@@ -60140,7 +60140,7 @@
   {
     "artist": "Snow Patrol",
     "title": "Chasing Cars - Live In Toronto",
-    "bpm": 106,
+    "bpm": 104,
     "key": "11B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
@@ -82198,7 +82198,7 @@
   {
     "artist": "Red Hot Chili Peppers",
     "title": "Under the Bridge",
-    "bpm": 85,
+    "bpm": 84,
     "key": "12B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
@@ -82304,6 +82304,643 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Mad Season",
+    "title": "All Alone",
+    "bpm": 141,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "The Rolling Stones",
+    "title": "Angie - Remastered 2005",
+    "bpm": 139,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Pearl Jam",
+    "title": "Better Man",
+    "bpm": 125,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Adult Alternative",
+      "Grunge",
+      "Chill Rock",
+      "Chillout Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Queen",
+    "title": "Bohemian Rhapsody - Remastered 2011",
+    "bpm": 142,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Pop",
+      "Classic Rock",
+      "Pop Rock",
+      "Rock And Roll"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Dire Straits",
+    "title": "Brothers In Arms",
+    "bpm": 79,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Guns N' Roses",
+    "title": "Civil War",
+    "bpm": 140,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Counting Crows",
+    "title": "Colorblind",
+    "bpm": 108,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Pearl Jam",
+    "title": "Crazy Mary - Remastered",
+    "bpm": 137,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Adult Alternative",
+      "Grunge",
+      "Chill Rock",
+      "Chillout Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Of Monsters and Men",
+    "title": "Dirty Paws",
+    "bpm": 112,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Guns N' Roses",
+    "title": "Don't Cry",
+    "bpm": 124,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Alice In Chains",
+    "title": "Don't Follow",
+    "bpm": 116,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Alice In Chains",
+    "title": "Down in a Hole",
+    "bpm": 97,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Radiohead",
+    "title": "Fake Plastic Trees",
+    "bpm": 74,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Of Monsters and Men",
+    "title": "From Finner",
+    "bpm": 96,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Eddie Vedder",
+    "title": "Guaranteed",
+    "bpm": 101,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Sigur Rós",
+    "title": "Hoppípolla",
+    "bpm": 140,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "Ambient",
+      "Atmospheric",
+      "Post Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Radiohead",
+    "title": "How to Disappear Completely",
+    "bpm": 102,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Red Hot Chili Peppers",
+    "title": "I Could Have Lied",
+    "bpm": 141,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Alternative",
+      "Pop",
+      "Alternative Rock",
+      "Funk Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Peter Breiner, Peter Breiner Symphonic Pop Orchestra",
+    "title": "Imagine",
+    "bpm": 83,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Black Label Society",
+    "title": "In This River",
+    "bpm": 83,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Pearl Jam",
+    "title": "Indifference - Remastered",
+    "bpm": 97,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Adult Alternative",
+      "Grunge",
+      "Chill Rock",
+      "Chillout Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Of Monsters and Men",
+    "title": "King And Lionheart",
+    "bpm": 127,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Alternative",
+      "Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Alain Bashung",
+    "title": "La nuit je mens",
+    "bpm": 147,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Linkin Park",
+    "title": "Leave Out All The Rest",
+    "bpm": 80,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "punk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Jeff Buckley",
+    "title": "Lover, You Should've Come Over",
+    "bpm": 120,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Mother Love Bone",
+    "title": "Man Of Golden Words",
+    "bpm": 140,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "The Smashing Pumpkins",
+    "title": "Mayonaise - 2011 Remaster",
+    "bpm": 146,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Jeff Buckley",
+    "title": "Mojo Pin",
+    "bpm": 67,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Red Hot Chili Peppers",
+    "title": "My Friends",
+    "bpm": 82,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Alternative",
+      "Pop",
+      "Alternative Rock",
+      "Funk Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Alice In Chains",
+    "title": "Nutshell",
+    "bpm": 136,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Pearl Jam",
+    "title": "Oceans",
+    "bpm": 113,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Adult Alternative",
+      "Grunge",
+      "Chill Rock",
+      "Chillout Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Radiohead",
+    "title": "Pyramid Song",
+    "bpm": 73,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Alice In Chains",
+    "title": "Rooster",
+    "bpm": 143,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Temple Of The Dog",
+    "title": "Say Hello 2 Heaven",
+    "bpm": 148,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "The Smashing Pumpkins",
+    "title": "Soma - 2011 Remaster",
+    "bpm": 133,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Oasis",
+    "title": "Talk Tonight",
+    "bpm": 85,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Britpop",
+      "Alternative",
+      "Rock",
+      "Indie Rock",
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Massive Attack, Elizabeth Fraser",
+    "title": "Teardrop",
+    "bpm": 77,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Will And The People",
+    "title": "The Game",
+    "bpm": 95,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Coldplay",
+    "title": "The Scientist",
+    "bpm": 146,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Coldplay",
+    "title": "Trouble",
+    "bpm": 140,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Mad Season",
+    "title": "Wake Up",
+    "bpm": 85,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Ben Harper",
+    "title": "Walk Away",
+    "bpm": 140,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "folk",
+      "funk",
+      "reggae",
+      "rock",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "U2",
+    "title": "With Or Without You",
+    "bpm": 110,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "College Rock",
+      "Adult Alternative",
+      "Alternative",
+      "Arena Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Stone Sour",
+    "title": "Zzyzx Rd. - Pop Mix",
+    "bpm": 80,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "heavy metal",
       "rock"
     ],
     "genresSource": "cached:getsongbpm"
