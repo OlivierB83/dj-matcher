@@ -3150,8 +3150,8 @@
     "artist": "Sean Paul",
     "album": "Tomahawk Technique",
     "year": "2012",
-    "bpm": 92,
-    "key": "Gm",
+    "bpm": 184,
+    "key": "6B",
     "danceability": 0.61,
     "acousticness": 0.09,
     "genres": [
@@ -3166,7 +3166,9 @@
     "spotifyId": "21ugcKQyclYBZvzmCXsZ9x",
     "isrc": "USAT21101550",
     "image": "https://i.scdn.co/image/ab67616d000048515b666e0626dc94f3ac5d14c0",
-    "source": "getsongbpm"
+    "source": "getsongbpm",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "MIA",
@@ -92259,5 +92261,582 @@
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Nico & Vinz",
+    "title": "Am I Wrong",
+    "bpm": 120,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Dance / Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Dua Lipa, Angèle",
+    "title": "Fever",
+    "bpm": 115,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Madonna, Sabrina Carpenter",
+    "title": "Bring Your Love",
+    "bpm": 121,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "CKay",
+    "title": "love nwantiti (ah ah ah)",
+    "bpm": 93,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Gym Class Heroes, Adam Levine",
+    "title": "Stereo Hearts (feat. Adam Levine)",
+    "bpm": 90,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "rap",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Wiz Khalifa, Empire Of The Sun",
+    "title": "The Thrill",
+    "bpm": 127,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Jason Derulo",
+    "title": "Whatcha Say",
+    "bpm": 144,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "fun., Janelle Monáe",
+    "title": "We Are Young (feat. Janelle Monáe)",
+    "bpm": 184,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Charlotte Cardin",
+    "title": "The Way We Touch",
+    "bpm": 109,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Snoop Dogg, Wiz Khalifa, Bruno Mars",
+    "title": "Young, Wild & Free (feat. Bruno Mars)",
+    "bpm": 95,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Vance Joy",
+    "title": "Riptide",
+    "bpm": 102,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Charlie Puth",
+    "title": "Attention",
+    "bpm": 100,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Myke Towers, Quevedo",
+    "title": "SOLEAO",
+    "bpm": 104,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Bruno Mars",
+    "title": "Treasure",
+    "bpm": 116,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "r&b",
+      "soul"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Danny Ocean, Sech",
+    "title": "Priti",
+    "bpm": 122,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Jason Derulo, 2 Chainz",
+    "title": "Talk Dirty (feat. 2 Chainz)",
+    "bpm": 100,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Léa Zelia, Edward Maya, Adryano",
+    "title": "Plus L'Time (Stereo Love)",
+    "bpm": 127,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Sean Paul, Zaho",
+    "title": "Hold My Hand (feat. Zaho)",
+    "bpm": 174,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "rap",
+      "reggae"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Sofía Reyes, Jason Derulo, De La Ghetto",
+    "title": "1, 2, 3 (feat. Jason Derulo & De La Ghetto)",
+    "bpm": 95,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "David Guetta, Kim Petras",
+    "title": "When We Were Young (The Logical Song)",
+    "bpm": 140,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Trinix, Blvk H3ro",
+    "title": "Hotstepper",
+    "bpm": 120,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Tropical House",
+      "Electro",
+      "House"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Alok, Alan Walker, KIDDO",
+    "title": "Headlights (feat. KIDDO)",
+    "bpm": 100,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Dance",
+      "Soundtrack",
+      "Baddie",
+      "Bbe"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Charli xcx",
+    "title": "Break the Rules",
+    "bpm": 124,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "House",
+      "Dance",
+      "Club",
+      "Dance Pop",
+      "Edm"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Henri PFR, Sadie Rose Van",
+    "title": "Last Night (feat. Sadie Rose Van)",
+    "bpm": 124,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Ava Max",
+    "title": "EveryTime I Cry",
+    "bpm": 127,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Pop",
+      "Dance",
+      "American Pop",
+      "Dance Pop",
+      "Halloween"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "FDVM",
+    "title": "A Girl Like You",
+    "bpm": 126,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Dance Pop",
+      "Electronic",
+      "Motivation"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Dua Lipa",
+    "title": "New Rules",
+    "bpm": 116,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Ed Sheeran",
+    "title": "Shivers",
+    "bpm": 141,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Gabry Ponte, LUM!X, Daddy DJ",
+    "title": "We Could Be Together (feat. Daddy DJ)",
+    "bpm": 126,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Dance / Pop",
+      "Edm",
+      "Electro"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "",
+    "title": "Tiësto, Tate McRae",
+    "bpm": 120,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Jason Derulo",
+    "title": "Acapulco",
+    "bpm": 122,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Ofenbach",
+    "title": "Be Mine",
+    "bpm": 123,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "House",
+      "Electronic",
+      "Dance",
+      "Happy Dance",
+      "Electropop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Shouse, Robin Schulz",
+    "title": "Love Tonight (Robin Schulz Remix)",
+    "bpm": 123,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Electronic",
+      "Dance",
+      "House",
+      "Electronica",
+      "Electro"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "David Guetta, Sia",
+    "title": "Flames",
+    "bpm": 94,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Coldplay, BTS",
+    "title": "My Universe",
+    "bpm": 105,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Ofenbach, salem ilese",
+    "title": "feelings don't lie",
+    "bpm": 100,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "House",
+      "Electronic",
+      "Dance",
+      "Happy Dance",
+      "Electropop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Dua Lipa",
+    "title": "Love Again",
+    "bpm": 116,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Marshmello, Anne-Marie",
+    "title": "FRIENDS",
+    "bpm": 96,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Dance Fruits Music, DMNDS, dnvn, Lunis, Lujavo",
+    "title": "Calabria (feat. Lunis & Lujavo)",
+    "bpm": 124,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "David Guetta, Sia",
+    "title": "Let's Love",
+    "bpm": 93,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Sia, David Guetta",
+    "title": "Floating Through Space",
+    "bpm": 105,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Edm",
+      "Dance Pop",
+      "Electronic",
+      "Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Henri PFR, FDVM, PollyAnna",
+    "title": "Wanna Be Loved (feat. PollyAnna)",
+    "bpm": 126,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "David Guetta, Chris Willis",
+    "title": "Love Is Gone",
+    "bpm": 128,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
   }
 ]
