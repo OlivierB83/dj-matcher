@@ -90733,5 +90733,353 @@
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Laurent Voulzy, Naomi Greene",
+    "title": "Amazing grace - Live",
+    "bpm": 76,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "French Pop",
+      "Chanson",
+      "Classic French Pop",
+      "Varit Franaise",
+      "French Classical"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Ar Re Yaouank",
+    "title": "Breizh Positive",
+    "bpm": 105,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "jazz"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Alan Stivell, Laurent Voulzy",
+    "title": "Brian Boru",
+    "bpm": 76,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "world"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Soldat Louis",
+    "title": "C'est un pays",
+    "bpm": 132,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Worldwide",
+      "French Pop",
+      "Adult Alternative",
+      "Rock",
+      "Singer/Songwriter"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Tri Yann",
+    "title": "Dans la lune au fond de l'eau",
+    "bpm": 106,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Le Bagad de Lann-Bihoué",
+    "title": "Every Teardrop Is a Waterfall",
+    "bpm": 120,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Denez Prigent, Lisa Gerrard",
+    "title": "Gortoz A Ran - From \"Black Hawk Down\"",
+    "bpm": 67,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Dan Ar Braz",
+    "title": "Green Lands",
+    "bpm": 88,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Tri Yann",
+    "title": "Guerre, guerre, vente, vent",
+    "bpm": 113,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Alan Stivell",
+    "title": "Ian Morrisson Reel",
+    "bpm": 119,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "world"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Tri Yann",
+    "title": "Kerfank 1870",
+    "bpm": 106,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Gilles Servat",
+    "title": "La Blanche Hermine",
+    "bpm": 121,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Tri Yann",
+    "title": "La ville que j'ai tant aimée",
+    "bpm": 120,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Louis Capart",
+    "title": "La ville que j'ai tant aimée",
+    "bpm": 74,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Tri Yann",
+    "title": "Le renard",
+    "bpm": 96,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Tri Yann",
+    "title": "Les filles des forges",
+    "bpm": 154,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Cécile Corbel",
+    "title": "Marie Jeanne Gabrielle",
+    "bpm": 86,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Louis Capart",
+    "title": "Marie-Jeanne-Gabrielle",
+    "bpm": 85,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Bagad de Lann Bihoué",
+    "title": "Mazurka",
+    "bpm": 174,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Lúnasa",
+    "title": "Morning Nightcap",
+    "bpm": 112,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "world"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Tri Yann",
+    "title": "Pelot d'Hennebont",
+    "bpm": 105,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Spailpin",
+    "title": "Scarce O'Tatties",
+    "bpm": 131,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Tri Yann",
+    "title": "Si mort à mors",
+    "bpm": 133,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Tri Yann, Gwennyn",
+    "title": "Son ar chistr",
+    "bpm": 122,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Capercaillie",
+    "title": "The Jura Wedding Reels",
+    "bpm": 111,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "new age",
+      "world"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Alan Stivell",
+    "title": "Tri Martolod",
+    "bpm": 102,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "world"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Tri Yann",
+    "title": "Tri martolod / Gourfenn",
+    "bpm": 104,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
   }
 ]
