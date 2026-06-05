@@ -147,25 +147,50 @@ guard let window = usableWindow() else {
 let winTitle = axString(window, kAXTitleAttribute) ?? "(sans titre)"
 FileHandle.standardError.write(Data("→ fenêtre cible : \"\(winTitle)\" — scan des AXTable…\n".utf8))
 
-// Find all tables; keep the biggest by row count (= the library table).
+// Find all tables. The library track table has ~9 cells per row (cover,
+// explicit, etc., duration, title, artist, BPM, key, album). The
+// left-hand-side playlist sidebar is also exposed as an AXTable but its
+// rows only have ~1-2 cells (playlist name, optional count). So a "row
+// count wins" heuristic picks the wrong table when the active playlist
+// is shorter than the sidebar — pick the table where the average row
+// has the most cells instead.
 let tables = descendants(window, withRole: kAXTableRole)
 FileHandle.standardError.write(Data("→ \(tables.count) AXTable(s) détectée(s)\n".utf8))
 
+let MIN_CELLS_PER_TRACK_ROW = 5   // sidebar rows have ≤ 2; track rows have ≥ 9
+
 var bestTable: AXUIElement?
+var bestScore = -1
 var bestRowCount = 0
 for (i, tbl) in tables.enumerated() {
     let rows = tableRows(tbl)
-    FileHandle.standardError.write(Data("   table[\(i)] : \(rows.count) lignes\n".utf8))
-    if rows.count > bestRowCount {
+    // Sample the first up-to-3 non-empty rows to estimate cell width
+    var avgCells = 0
+    var sampled = 0
+    for r in rows.prefix(3) {
+        let cellCount = rowCells(r).count
+        if cellCount > 0 {
+            avgCells += cellCount
+            sampled += 1
+        }
+    }
+    let avg = sampled > 0 ? avgCells / sampled : 0
+    FileHandle.standardError.write(Data("   table[\(i)] : \(rows.count) lignes · ~\(avg) cellules/row\n".utf8))
+
+    // Only consider tables whose rows look like track rows. Among those,
+    // keep the biggest by row count (= the library / playlist track list).
+    if avg >= MIN_CELLS_PER_TRACK_ROW && rows.count > bestRowCount {
         bestRowCount = rows.count
+        bestScore = avg
         bestTable = tbl
     }
 }
 
 guard let table = bestTable, bestRowCount > 0 else {
-    FileHandle.standardError.write(Data("❌ Aucune table avec des lignes trouvée\n".utf8))
+    FileHandle.standardError.write(Data("❌ Aucune table de morceaux trouvée. La playlist sélectionnée est peut-être vide, ou tu n'es pas sur une vue tableau (essaie le mode liste avec les colonnes Titre / Artiste / BPM / Clé visibles).\n".utf8))
     exit(4)
 }
+FileHandle.standardError.write(Data("→ table retenue : \(bestRowCount) lignes (~\(bestScore) cellules/row)\n".utf8))
 
 let rows = tableRows(table)
 FileHandle.standardError.write(Data("→ \(rows.count) lignes dans la table principale\n".utf8))
