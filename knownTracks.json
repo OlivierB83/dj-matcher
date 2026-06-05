@@ -42832,8 +42832,8 @@
   {
     "artist": "David Guetta, Kid Cudi",
     "title": "Memories (feat. Kid Cudi)",
-    "bpm": 127,
-    "key": "4B",
+    "bpm": 130,
+    "key": "3B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
@@ -47515,7 +47515,7 @@
   {
     "artist": "Logobi GT",
     "title": "Sucré salé",
-    "bpm": 128,
+    "bpm": 120,
     "key": "1B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
@@ -78153,7 +78153,7 @@
     "artist": "TRIANGLE DES BERMUDES, MC YOSHI, Mauvais djo, Kokosvoice",
     "title": "Charger",
     "bpm": 128,
-    "key": "9B",
+    "key": "12B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
@@ -91411,6 +91411,851 @@
     "title": "Rien à fout'",
     "bpm": 140,
     "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "RnBoi",
+    "title": "MON BÉBÉ",
+    "bpm": 114,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Franglish, KeBlack",
+    "title": "Génération impolie",
+    "bpm": 127,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "RK, Genezio",
+    "title": "VIANO",
+    "bpm": 102,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "GIMS, L2B",
+    "title": "BLOQUÉ",
+    "bpm": 126,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Chanson",
+      "Dance",
+      "Children's Music",
+      "French Music"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "GP Explorer, GIMS, La Mano 1.9, SCH",
+    "title": "Un monde à l'autre",
+    "bpm": 120,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Soolking, L2B",
+    "title": "Tour du monde",
+    "bpm": 126,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "French Hip Hop",
+      "French Music",
+      "French Pop",
+      "Pop Urbaine"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Jul",
+    "title": "Nostalgique",
+    "bpm": 130,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Lisko",
+    "title": "Bourré",
+    "bpm": 152,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Cheu-B, Ghost Killer Track, SDM",
+    "title": "Catalina",
+    "bpm": 126,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Gambino, Jul",
+    "title": "Rihanna",
+    "bpm": 131,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "French Pop",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Jul, Naza, SALIMA CHICA",
+    "title": "Je suis love",
+    "bpm": 127,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "GIMS",
+    "title": "Bonbon",
+    "bpm": 124,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Chanson",
+      "Dance",
+      "Children's Music",
+      "French Music"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "SHIFUMI",
+    "title": "Regarde Moi",
+    "bpm": 120,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Colonel Reyel, Dj Ian",
+    "title": "Dans la peau",
+    "bpm": 102,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:djay_pro_ax"
+  },
+  {
+    "artist": "Noémie, LIMO",
+    "title": "INSENSIBLE",
+    "bpm": 200,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "CHAKA",
+    "title": "CHOO",
+    "bpm": 136,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Le Bast, Elams",
+    "title": "Mifa",
+    "bpm": 128,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Palomía",
+    "title": "DJ",
+    "bpm": 122,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Theodora",
+    "title": "FASHION DESIGNA",
+    "bpm": 112,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Fast",
+      "French Music",
+      "Pop Urbaine",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "ZR, RZ",
+    "title": "ICE CREAM",
+    "bpm": 122,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Joé Dwèt Filé",
+    "title": "4 Kampé",
+    "bpm": 184,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "R&B/Soul"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Wensly",
+    "title": "CHOKOLA",
+    "bpm": 168,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Heuss L'enfoiré, Werenoi",
+    "title": "Mélanine",
+    "bpm": 130,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "DJ Dem's, Saf'Curtis",
+    "title": "À la Claire Fontaine (Pool Party) - Radio Edit",
+    "bpm": 104,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Aya Nakamura, Joé Dwèt Filé",
+    "title": "Baddies",
+    "bpm": 160,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "R&B/Soul",
+      "R&B"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "1D1R, Vacra",
+    "title": "Balade",
+    "bpm": 120,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "ATHEN",
+    "title": "Noche",
+    "bpm": 152,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Werenoi, GIMS",
+    "title": "Piano",
+    "bpm": 130,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "KeBlack",
+    "title": "Mood",
+    "bpm": 127,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "French Pop",
+      "Chanson",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "ATHEN",
+    "title": "Condamné",
+    "bpm": 139,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "SDM",
+    "title": "Bolide allemand",
+    "bpm": 132,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Lagess, Yanishi",
+    "title": "Elle veut du Shatta",
+    "bpm": 103,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Sainte Anouk",
+    "title": "Festen",
+    "bpm": 120,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Heuss L'enfoiré, Gazo",
+    "title": "Saiyan",
+    "bpm": 125,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "ABM, Armando",
+    "title": "RAGEUX",
+    "bpm": 117,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "KeBlack",
+    "title": "Aucune attache",
+    "bpm": 93,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "French Pop",
+      "Chanson",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Booba, SDM",
+    "title": "Dolce Camara",
+    "bpm": 112,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Sudyla",
+    "title": "LELELE",
+    "bpm": 118,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Zainoss",
+    "title": "Elle Danse",
+    "bpm": 87,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Favé, Gazo",
+    "title": "Flashback",
+    "bpm": 142,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "JHR",
+    "title": "TIC TAC",
+    "bpm": 118,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Loïc Emboulé, YSN",
+    "title": "Trop bien pour moi",
+    "bpm": 93,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Inaia",
+    "title": "RUN & HIDE",
+    "bpm": 102,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "ABM",
+    "title": "Bolingo",
+    "bpm": 120,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "AZONA, DJ Wall",
+    "title": "PIRATA",
+    "bpm": 101,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Franglish, Tory Lanez",
+    "title": "My Salsa",
+    "bpm": 99,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "GOCCO LOSSA",
+    "title": "BALMAIN",
+    "bpm": 93,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Damso, Kalash",
+    "title": "Alpha",
+    "bpm": 102,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Chris",
+    "title": "J'suis dans le truc (Remix)",
+    "bpm": 114,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Carbonne",
+    "title": "Imagine",
+    "bpm": 118,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Moonshakerz",
+    "title": "APPELEZ",
+    "bpm": 128,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Naps, Ninho, Gazo",
+    "title": "C'est carré le S",
+    "bpm": 135,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "French Hip Hop",
+      "Rap",
+      "French Music",
+      "Rap Marseille"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Dab Rozer",
+    "title": "LIDL",
+    "bpm": 132,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Vacra, PLK",
+    "title": "Confidences",
+    "bpm": 93,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "ADB, Troy",
+    "title": "Nienza",
+    "bpm": 141,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Ninho, Niska",
+    "title": "Coco",
+    "bpm": 111,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "France",
+      "Hip Hop/Rap",
+      "Worldwide",
+      "French Hip Hop",
+      "French Music"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "KeBlack, Franglish",
+    "title": "Boucan (feat. Franglish)",
+    "bpm": 128,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "French Pop",
+      "Chanson",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Rolio, Kilimandjaro",
+    "title": "Amour",
+    "bpm": 85,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Laura B, Teufti",
+    "title": "Silences",
+    "bpm": 98,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "GIMS",
+    "title": "NINAO",
+    "bpm": 123,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Chanson",
+      "Dance",
+      "Children's Music",
+      "French Music"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Zola, Koba LaD",
+    "title": "Temps en temps",
+    "bpm": 128,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rap",
+      "Hip Hop/Rap",
+      "Hip Hop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "LEA ELKA",
+    "title": "DDB (Douée, Drôle, Bonne)",
+    "bpm": 118,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "VEN1",
+    "title": "Hakayet",
+    "bpm": 139,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Aya Nakamura",
+    "title": "Chimiyé",
+    "bpm": 102,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "R&B/Soul",
+      "R&B"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "AfroWide, Kidd9, Wino",
+    "title": "Délia - RADIO EDIT",
+    "bpm": 126,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "GIMS, KeBlack",
+    "title": "TOUCHÉ",
+    "bpm": 119,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Chanson",
+      "Dance",
+      "Children's Music",
+      "French Music"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "GIMS, R2",
+    "title": "INCOGNITO",
+    "bpm": 130,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Chanson",
+      "Dance",
+      "Children's Music",
+      "French Music"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Bilouki",
+    "title": "Tchébé 2x",
+    "bpm": 126,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "GIMS",
+    "title": "DO YOU LOVE ME ?",
+    "bpm": 101,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Chanson",
+      "Dance",
+      "Children's Music",
+      "French Music"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Jul",
+    "title": "Par intérêt",
+    "bpm": 137,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Meryl, Theodora",
+    "title": "Paparazzi",
+    "bpm": 100,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Ninho, Tiakola",
+    "title": "LES DIAMANTS DE BOKASSA",
+    "bpm": 153,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "France",
+      "Hip Hop/Rap",
+      "Worldwide",
+      "French Hip Hop",
+      "French Music"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Trinix, Mari Froes",
+    "title": "Vaitimbora",
+    "bpm": 96,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Tropical House",
+      "Electro",
+      "House"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Chily",
+    "title": "Rebanav 126bpm",
+    "bpm": 126,
+    "key": "8B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax"
