@@ -207,6 +207,32 @@ async function main() {
     parsed.push({ title: r.title, artist: r.artist, bpm: r.bpm, key: r.key });
   }
 
+  // Hard guard: if a clear majority of the rows have a BPM but NO key,
+  // the Clé column is almost certainly hidden in djay's table view. We
+  // abort BEFORE showing the bilan / touching the catalog so the user
+  // doesn't notice 20 minutes later that a whole playlist was rejected
+  // silently. The check requires at least 3 rows to avoid false positives
+  // on tiny ad-hoc tests.
+  const totalRecognised = parsed.length + rejected["no-bpm"] + rejected["no-key"] + rejected["no-title"];
+  const bpmFoundNoKey = rejected["no-key"];
+  if (totalRecognised >= 3 && bpmFoundNoKey > parsed.length && bpmFoundNoKey >= 3) {
+    console.error("");
+    console.error("⛔ Import bloqué — la colonne 'Clé' semble cachée dans djay Pro.");
+    console.error("");
+    console.error(`   ${bpmFoundNoKey} ligne(s) sur ${totalRecognised} ont un BPM mais aucune clé Camelot.`);
+    console.error(`   (rows OK avec BPM + clé : ${parsed.length})`);
+    console.error("");
+    console.error("   ⇢ Dans djay : clic-droit sur l'en-tête d'une colonne (par ex. \"BPM\")");
+    console.error("     puis coche \"Clé\" dans le menu.");
+    console.error("   ⇢ Vérifie que la vue affiche : Durée | Titre | Artiste | BPM | Clé");
+    console.error("   ⇢ Relance ./djay-import-all.sh");
+    console.error("");
+    console.error("   (Si tu importes intentionnellement des titres Spotify streaming");
+    console.error("    qui n'ont pas de clé djay, ce blocage n'est pas adapté — dis-le moi.)");
+    console.error("");
+    process.exit(65);
+  }
+
   // Dedup the djay rows themselves by canonical key so we don't try to
   // import "Ça m'énerve" AND "Ça m'énerve - Radio Edit" as separate
   // candidates when djay's library shows both. Last wins.
