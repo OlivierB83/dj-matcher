@@ -1531,8 +1531,8 @@
     "artist": "Les Rita Mitsouko",
     "album": "Rita Mitsouko",
     "year": "1984",
-    "bpm": 127,
-    "key": "9B",
+    "bpm": 128,
+    "key": "11B",
     "danceability": 0.78,
     "acousticness": 0.15,
     "genres": [
@@ -1544,8 +1544,8 @@
     "mbid": "0bfe360b-4abf-4750-962c-981cc5bfc4cf",
     "uri": "https://getsongbpm.com/song/marcia-baila/0RQ1y",
     "source": "getsongbpm",
-    "bpmSource": "djay_pro",
-    "keySource": "djay_pro"
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Qu'est-ce que t'es belle",
@@ -2026,7 +2026,7 @@
     "artist": "Claude François",
     "album": "Magnolias for Ever",
     "year": "1977",
-    "bpm": 126,
+    "bpm": 127,
     "key": "10B",
     "danceability": 0.68,
     "acousticness": 0.01,
@@ -7128,7 +7128,7 @@
     "artist": "Jean Schultheis",
     "album": "Confidence pour confidence",
     "year": "2002",
-    "bpm": 112,
+    "bpm": 114,
     "key": "4B",
     "danceability": 0.741,
     "acousticness": 0.26,
@@ -7142,8 +7142,8 @@
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
     "popularity": 55,
-    "bpmSource": "djay_pro",
-    "keySource": "djay_pro"
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Miss Maggie",
@@ -7300,7 +7300,7 @@
     "artist": "Indochine",
     "album": "3",
     "year": "1985",
-    "bpm": 137,
+    "bpm": 138,
     "key": "7B",
     "danceability": 0.74,
     "acousticness": 0.01,
@@ -7317,8 +7317,8 @@
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
     "popularity": 56,
-    "bpmSource": "djay_pro",
-    "keySource": "djay_pro",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
     "_idx": 341
   },
   {
@@ -8171,7 +8171,7 @@
     "artist": "Lio",
     "album": "Lio",
     "year": "1980",
-    "bpm": 78,
+    "bpm": 156,
     "key": "9B",
     "danceability": 0.677,
     "acousticness": 0.07,
@@ -8188,8 +8188,8 @@
     "source": "getsongbpm",
     "danceabilitySource": "reccobeats",
     "popularity": 37,
-    "bpmSource": "djay_pro",
-    "keySource": "djay_pro"
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "La Rockeuse de diamants",
@@ -8246,7 +8246,7 @@
     "artist": "Jean-Pierre Mader",
     "album": "Macumba",
     "year": "1985",
-    "bpm": 129,
+    "bpm": 131,
     "key": "9B",
     "danceability": 0.857,
     "acousticness": 0.04,
@@ -88280,5 +88280,466 @@
       "pop"
     ],
     "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Khaled",
+    "title": "Aicha - Version Mixte",
+    "bpm": 170,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Sabrina",
+    "title": "Boys - Summertime Love",
+    "bpm": 120,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "La Compagnie Créole",
+    "title": "C'est bon pour le moral",
+    "bpm": 114,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "latin",
+      "pop",
+      "world"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Claude François",
+    "title": "Cette année-là",
+    "bpm": 110,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Claude François",
+    "title": "Chanson populaire (Ça s'en va et ça revient)",
+    "bpm": 171,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Véronique Sanson",
+    "title": "Chanson sur ma drôle de vie",
+    "bpm": 98,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Claude François",
+    "title": "Comme d'habitude",
+    "bpm": 85,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Philippe Lavil",
+    "title": "Elle préfère l'amour en mer",
+    "bpm": 87,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Bill Baxter",
+    "title": "Embrasse moi idiot - .",
+    "bpm": 89,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Charles Aznavour",
+    "title": "Emmenez-moi",
+    "bpm": 79,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "jazz",
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Calogero",
+    "title": "En apesanteur",
+    "bpm": 140,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Julie Pietri",
+    "title": "Eve lève toi",
+    "bpm": 102,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Julie Pietri",
+    "title": "Eve lève-toi",
+    "bpm": 199,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Calogero, Passi",
+    "title": "Face à la mer",
+    "bpm": 186,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Il Etait Une Fois",
+    "title": "J'ai encore rêvé d'elle",
+    "bpm": 95,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Charles Aznavour",
+    "title": "Je m'voyais déjà",
+    "bpm": 130,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "jazz",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Daniel Balavoine",
+    "title": "Je ne suis pas un héros",
+    "bpm": 129,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Michel Sardou",
+    "title": "La java de Broadway",
+    "bpm": 138,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "jazz",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Michel Sardou",
+    "title": "La maladie d'amour",
+    "bpm": 137,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "jazz",
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Michel Polnareff",
+    "title": "La poupée qui fait non",
+    "bpm": 125,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Manau",
+    "title": "La tribu de Dana",
+    "bpm": 94,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "hip hop",
+      "rap"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Pierre Groscolas",
+    "title": "Lady Lay",
+    "bpm": 125,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Daniel Balavoine",
+    "title": "Le chanteur",
+    "bpm": 125,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Claude François",
+    "title": "Le lundi au soleil",
+    "bpm": 151,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Nino Ferrer",
+    "title": "Le sud",
+    "bpm": 90,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Sabine Paturel",
+    "title": "Les bêtises - Version originale 1986",
+    "bpm": 118,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Christophe",
+    "title": "Les mots bleus",
+    "bpm": 138,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Julien Clerc",
+    "title": "Ma préférence",
+    "bpm": 98,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Claude François",
+    "title": "Magnolias for Ever",
+    "bpm": 137,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Daniel Balavoine",
+    "title": "Mon fils ma bataille",
+    "bpm": 115,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Dalida",
+    "title": "Monday Tuesday ... Laissez moi danser",
+    "bpm": 134,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Téléphone",
+    "title": "New York avec toi - Remasterisé en 2006",
+    "bpm": 162,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Chanson",
+      "Pop Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Dalida, Alain Delon",
+    "title": "Paroles paroles",
+    "bpm": 125,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Eddy Mitchell",
+    "title": "Pas de boogie woogie",
+    "bpm": 88,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "blues",
+      "country",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Michel Delpech",
+    "title": "Pour un flirt",
+    "bpm": 85,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Daniel Balavoine",
+    "title": "Tous les cris les S.O.S.",
+    "bpm": 176,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Téléphone",
+    "title": "Un autre monde - Remasterisé en 2015",
+    "bpm": 142,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Chanson",
+      "Pop Rock"
+    ],
+    "genresSource": "cached:songstats"
   }
 ]
