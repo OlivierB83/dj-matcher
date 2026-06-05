@@ -4253,7 +4253,7 @@
     "artist": "Michael Sembello",
     "album": "Bossa Nova Hotel",
     "year": "1983",
-    "bpm": 158,
+    "bpm": 159,
     "key": "2B",
     "danceability": 0.605,
     "acousticness": 0.06,
@@ -32503,7 +32503,7 @@
     "spotifyId": "5XMT0AjgaDznasVZFSNrP5",
     "isrc": "FR9KQ2000560",
     "image": "https://i.scdn.co/image/ab67616d00004851be0b9627d24d21ecf0fe95bb",
-    "bpm": 94,
+    "bpm": 95,
     "key": "2B",
     "danceability": 0.461,
     "energy": 0.697,
@@ -32916,7 +32916,7 @@
     "isrc": "DKEW50600101",
     "image": "https://i.scdn.co/image/ab67616d000048512cd87a2384b4c5781bc4f36e",
     "bpm": 126,
-    "key": "E",
+    "key": "3B",
     "danceability": 0.891,
     "energy": 0.559,
     "valence": 0.468,
@@ -32929,7 +32929,9 @@
       "Electronic",
       "Baile Funk"
     ],
-    "source": "songstats"
+    "source": "songstats",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Le Jerk",
@@ -44163,7 +44165,7 @@
   {
     "artist": "Kool & The Gang",
     "title": "Celebration",
-    "bpm": 121,
+    "bpm": 122,
     "key": "4B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
@@ -79778,6 +79780,210 @@
       "Variete Francaise",
       "French Music",
       "Varit Franaise"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Alonzo",
+    "title": "Binta",
+    "bpm": 116,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "French Hip Hop",
+      "French Music",
+      "Marseille Hip Hop",
+      "Pop Urbaine"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "F4ST",
+    "title": "Blue",
+    "bpm": 123,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Khaled",
+    "title": "C’est la vie",
+    "bpm": 130,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Lacrim, GIMS",
+    "title": "Ce soir ne sors pas",
+    "bpm": 115,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Les tubes du nouvel an",
+    "title": "Ces soirées-là",
+    "bpm": 105,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "JAŸ-Z, Alicia Keys",
+    "title": "Empire State Of Mind",
+    "bpm": 174,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "DJ Twilight",
+    "title": "Everybody Dance Now",
+    "bpm": 128,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Lipps Inc.",
+    "title": "Funkytown",
+    "bpm": 123,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "LUM!X, Gabry Ponte",
+    "title": "Monster",
+    "bpm": 128,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Robin Schulz, James Blunt, Ofenbach",
+    "title": "OK - Ofenbach Remix",
+    "bpm": 123,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Grits, TobyMac",
+    "title": "Ooh Ahh (My Life Be Like) (feat. Toby Mac)",
+    "bpm": 99,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rap",
+      "Hip Hop",
+      "Hip Hop/Rap",
+      "Alternative Rap",
+      "Christian"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Fatal Bazooka, Yelle et Christelle",
+    "title": "Parle à ma main (feat. Yelle et Christelle)",
+    "bpm": 124,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "punk",
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Kid Cudi, MGMT, Ratatat, Steve Aoki",
+    "title": "Pursuit Of Happiness - Extended Steve Aoki Remix",
+    "bpm": 128,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Pop",
+      "Urbano Latino",
+      "Latin",
+      "Electro"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Clean Bandit, Anne-Marie, Sean Paul",
+    "title": "Rockabye (feat. Sean Paul & Anne-Marie)",
+    "bpm": 102,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Mike Williams",
+    "title": "The Beat",
+    "bpm": 128,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Armin van Buuren",
+    "title": "Turn It Up",
+    "bpm": 138,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Jax Jones, RAYE",
+    "title": "You Don't Know Me",
+    "bpm": 124,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Dance Pop",
+      "Edm",
+      "House",
+      "Pop Edm"
     ],
     "genresSource": "cached:songstats"
   }
