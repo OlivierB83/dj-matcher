@@ -643,7 +643,7 @@
     "artist": "Cyndi Lauper",
     "album": "She's So Unusual",
     "year": "1983",
-    "bpm": 120,
+    "bpm": 121,
     "key": "2B",
     "danceability": 0.71,
     "acousticness": 0.22,
@@ -1674,7 +1674,7 @@
     "artist": "Images",
     "album": "L'Album d'Images",
     "year": "1987",
-    "bpm": 118,
+    "bpm": 119,
     "key": "9B",
     "danceability": 0.69,
     "acousticness": 0.02,
@@ -1686,8 +1686,8 @@
     "mbid": "7ceb7a1f-22fe-4ec6-9cb5-285b104f9cb5",
     "uri": "https://getsongbpm.com/song/les-demons-de-minuit-version-longue/mBqzr",
     "source": "getsongbpm",
-    "bpmSource": "djay_pro",
-    "keySource": "djay_pro"
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "Nuit de folie",
@@ -6093,7 +6093,7 @@
     "artist": "Earth, Wind & Fire",
     "album": "The Essential Earth, Wind, & Fire",
     "year": "2001",
-    "bpm": 127,
+    "bpm": 126,
     "key": "11B",
     "danceability": 0.697,
     "acousticness": 0.17,
@@ -31013,7 +31013,7 @@
     "isrc": "FR4E40500380",
     "image": "https://i.scdn.co/image/ab67616d00004851b455cd4374adeb19ebc22c84",
     "bpm": 128,
-    "key": "F",
+    "key": "6B",
     "danceability": 0.893,
     "energy": 0.793,
     "valence": 0.909,
@@ -31026,8 +31026,8 @@
     "danceabilitySource": "reccobeats",
     "popularity": 70,
     "_idx": 1401,
-    "bpmSource": "songstats",
-    "keySource": "songstats"
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
   },
   {
     "title": "La kiffance",
@@ -35634,7 +35634,7 @@
     "spotifyId": "5jkFvD4UJrmdoezzT1FRoP",
     "isrc": "DED167800008",
     "image": "https://i.scdn.co/image/ab67616d000048519e77d65619f80436b5cc9d12",
-    "bpm": 126,
+    "bpm": 127,
     "key": "10B",
     "danceability": 0.639,
     "acousticness": 0.29,
@@ -88565,7 +88565,7 @@
   {
     "artist": "Claude François",
     "title": "Le lundi au soleil",
-    "bpm": 151,
+    "bpm": 150,
     "key": "7B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
@@ -88739,6 +88739,505 @@
       "Rock",
       "Chanson",
       "Pop Rock"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Keen' V",
+    "title": "A l'horizontale",
+    "bpm": 132,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Chanson"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Superbus",
+    "title": "Apprends Moi",
+    "bpm": 125,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "W&W, Dimitri Vegas & Like Mike",
+    "title": "Arcade (Radio Edit)",
+    "bpm": 128,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Soprano",
+    "title": "Barman",
+    "bpm": 172,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Claude François",
+    "title": "Belles belles belles",
+    "bpm": 94,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Peter et Sloane",
+    "title": "Besoin de rien envie de toi",
+    "bpm": 120,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Tujamo, Taio Cruz",
+    "title": "Booty Bounce",
+    "bpm": 128,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Electro",
+      "Club",
+      "Electronica"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Yannick",
+    "title": "Ces soirées là - Edit Radio",
+    "bpm": 105,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Génération 80",
+    "title": "Comme Un Ouragan",
+    "bpm": 121,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Jennifer Lopez, Pitbull",
+    "title": "Dance Again (feat. Pitbull)",
+    "bpm": 128,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "latin",
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Gad Elmaleh, LiMa Project",
+    "title": "Danse de la joie - Lalala",
+    "bpm": 128,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Daniel Balavoine",
+    "title": "Dieu que c'est beau",
+    "bpm": 120,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Keen' V",
+    "title": "Dis-moi oui (Marina)",
+    "bpm": 108,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Chanson"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Dillon Francis, DJ Snake",
+    "title": "Get Low",
+    "bpm": 101,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "C2C, Derek Martin",
+    "title": "Happy",
+    "bpm": 120,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "hip hop",
+      "jazz"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Queen",
+    "title": "I Want To Break Free - Remastered 2011",
+    "bpm": 109,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rock",
+      "Pop",
+      "Classic Rock",
+      "Pop Rock",
+      "Rock And Roll"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Ritchie Valens",
+    "title": "La Bamba - Single Version",
+    "bpm": 75,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Tri Yann",
+    "title": "La Jument De Michao",
+    "bpm": 106,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "folk",
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Black M, Dr. Beriz",
+    "title": "La légende Black (feat. Dr. Beriz)",
+    "bpm": 81,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Wazoo",
+    "title": "La manivelle",
+    "bpm": 134,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rock"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Keen' V, Lorelei B",
+    "title": "La Vie devant nous (feat. Lorelei B.)",
+    "bpm": 128,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Chanson"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Gold",
+    "title": "Laissez-Nous Chanter",
+    "bpm": 122,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "funk",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Soprano",
+    "title": "Le Diable ne s'habille plus en Prada",
+    "bpm": 120,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Alphonse Brown",
+    "title": "Le Frunkp",
+    "bpm": 110,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Claude François",
+    "title": "Le Jouet Extraordinaire",
+    "bpm": 89,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Keen' V",
+    "title": "Le Temps passe ...",
+    "bpm": 75,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Chanson"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Opus",
+    "title": "Live Is Life (Digitally Remastered) - Single Version",
+    "bpm": 95,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Kendji Girac",
+    "title": "Me Quemo",
+    "bpm": 120,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "French Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Black M",
+    "title": "On s'fait du mal",
+    "bpm": 126,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Shakira, Pitbull",
+    "title": "Rabiosa",
+    "bpm": 133,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "latin",
+      "pop",
+      "rock"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "MIKA",
+    "title": "Relax, Take It Easy",
+    "bpm": 122,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Keen' V",
+    "title": "Saltimbanque",
+    "bpm": 106,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Chanson"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Mis-Teeq",
+    "title": "Scandalous - U.S. Radio Edit",
+    "bpm": 100,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Claude François",
+    "title": "Si j'avais un marteau",
+    "bpm": 90,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Strollad",
+    "title": "St Malo",
+    "bpm": 174,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Kassav'",
+    "title": "Syé Bwa",
+    "bpm": 131,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "latin",
+      "pop",
+      "world"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Stromae",
+    "title": "Ta fête",
+    "bpm": 128,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "hip hop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Magic System",
+    "title": "Un Gaou A Oran",
+    "bpm": 128,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "world"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Keen' V",
+    "title": "Un monde meilleur",
+    "bpm": 128,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Chanson"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Irene Cara",
+    "title": "What A Feeling",
+    "bpm": 122,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Soundtrack",
+      "Dance",
+      "Disco",
+      "Musicals"
     ],
     "genresSource": "cached:songstats"
   }
