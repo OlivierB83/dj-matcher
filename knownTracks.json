@@ -2814,7 +2814,7 @@
     "artist": "Panic! at the Disco",
     "album": "Pray for the Wicked",
     "year": "2018",
-    "bpm": 164,
+    "bpm": 82,
     "key": "7B",
     "danceability": 0.519,
     "acousticness": 0.2,
@@ -52873,7 +52873,7 @@
     "artist": "Dj Leska, Naza, Vegedream",
     "title": "Enfumé",
     "bpm": 98,
-    "key": "4B",
+    "key": "6B",
     "source": "djay_pro_ax",
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
@@ -87530,6 +87530,754 @@
     "genres": [
       "electronic",
       "hip hop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "MHD",
+    "title": "Afro Trap Pt. 4 (Fais le mouv)",
+    "bpm": 127,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Afrobeats",
+      "Rap",
+      "Trap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "MHD",
+    "title": "Afro Trap Pt. 5 (Ngatie Abedi)",
+    "bpm": 128,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Afrobeats",
+      "Rap",
+      "Trap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "MHD",
+    "title": "Afro Trap Pt. 7 (La puissance)",
+    "bpm": 120,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Afrobeats",
+      "Rap",
+      "Trap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "MHD",
+    "title": "Afro Trap Pt. 9 (Faut les wet)",
+    "bpm": 114,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Afrobeats",
+      "Rap",
+      "Trap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "MHD",
+    "title": "Afro Trap Pt. 10 (Moula Gang)",
+    "bpm": 130,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Afrobeats",
+      "Rap",
+      "Trap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Rim'K, Ninho",
+    "title": "Air Max",
+    "bpm": 142,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rap",
+      "Hip Hop/Rap",
+      "Electronic",
+      "French Pop",
+      "Hip Hop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Major Lazer, Showtek",
+    "title": "Believer",
+    "bpm": 145,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "reggae"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Dadju",
+    "title": "Bob Marley",
+    "bpm": 90,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Abou Debeing, Dadju",
+    "title": "C'est pas bon",
+    "bpm": 85,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Columbine",
+    "title": "C'est pas grave",
+    "bpm": 100,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "hip hop",
+      "rap"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Macklemore & Ryan Lewis, Ray Dalton",
+    "title": "Can't Hold Us (feat. Ray Dalton)",
+    "bpm": 146,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Lorenzo",
+    "title": "Carton rouge",
+    "bpm": 99,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Lartiste",
+    "title": "Catchu Catchu",
+    "bpm": 116,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Colonel Reyel",
+    "title": "Celui - Radio edit",
+    "bpm": 93,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:djay_pro_ax"
+  },
+  {
+    "artist": "Tubes Décennies",
+    "title": "Ces soirées-là",
+    "bpm": 105,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Niska",
+    "title": "Chasse à l'homme",
+    "bpm": 156,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Niska",
+    "title": "Commando",
+    "bpm": 140,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Sexion d'Assaut",
+    "title": "Désolé",
+    "bpm": 100,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Leck, Aymoune",
+    "title": "Elle aime trop ça",
+    "bpm": 127,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "ZEG P, Hamza, SCH",
+    "title": "FADE UP",
+    "bpm": 130,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Alonzo, MHD",
+    "title": "Feu d'artifice",
+    "bpm": 128,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "French Hip Hop",
+      "French Music",
+      "Marseille Hip Hop",
+      "Pop Urbaine"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Timal, Gazo",
+    "title": "Filtré",
+    "bpm": 130,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Lorenzo",
+    "title": "Fume à fond",
+    "bpm": 75,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Marnik, Smack",
+    "title": "Gam Gam",
+    "bpm": 138,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Hip Hop",
+      "Hip Hop/Rap",
+      "Dance / Pop",
+      "Dance / Electro Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Gambi",
+    "title": "HÉ OH",
+    "bpm": 105,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "France",
+      "Hip Hop/Rap",
+      "Worldwide",
+      "Hip Hop",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Lee Mashup, Stone Warley",
+    "title": "Hum Connection - Radio Mix",
+    "bpm": 112,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Ed Sheeran & Justin Bieber, Justin Bieber",
+    "title": "I Don't Care (with Justin Bieber)",
+    "bpm": 102,
+    "key": "2B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Keen' V, SAP",
+    "title": "J'aimerais trop (feat. SAP)",
+    "bpm": 130,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Chanson"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Niska",
+    "title": "J'suis dans l'baye",
+    "bpm": 150,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "MC Fioti",
+    "title": "Joga O Bum Bum Tam Tam",
+    "bpm": 132,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Hip Hop/Rap",
+      "Baile Funk",
+      "Brazilian",
+      "Club"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Zaho, MHD",
+    "title": "Laissez-les kouma (feat. MHD)",
+    "bpm": 120,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "r&b"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Ciara",
+    "title": "Level Up",
+    "bpm": 153,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "r&b",
+      "rap",
+      "soul"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "DJ Snake, J Balvin, Tyga",
+    "title": "Loco Contigo (with J. Balvin & Tyga)",
+    "bpm": 96,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Dance / Pop",
+      "Trap / Future Bass",
+      "Dance Pop",
+      "Electropop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "DJ Antoine, The Beatshakers",
+    "title": "Ma chérie 2k12 - DJ Antoine Vs Mad Mark 2k12 Radio Edit",
+    "bpm": 128,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "House",
+      "Progressive House",
+      "Dance / Pop",
+      "Dance / Electro Pop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "DJ Snake",
+    "title": "Magenta Riddim",
+    "bpm": 102,
+    "key": "4B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Dance / Pop",
+      "Trap / Future Bass",
+      "Dance Pop",
+      "Electropop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Niska, Rako, Brigi, Trafiquinte, Madrane",
+    "title": "Matuidi Charo (PSG)",
+    "bpm": 136,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Magic System, Khaled",
+    "title": "Même pas fatigué - feat. Khaled",
+    "bpm": 127,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "world"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "DJ Sem, Marwa Loud",
+    "title": "Mi Corazón",
+    "bpm": 106,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "DJ Snake, Bipolar Sunshine",
+    "title": "Middle",
+    "bpm": 105,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Dance / Pop",
+      "Trap / Future Bass",
+      "Dance Pop",
+      "Electropop"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Black M",
+    "title": "Mme Pavoshko",
+    "bpm": 115,
+    "key": "10B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "pop",
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Siboy, Benash, Damso",
+    "title": "Mobali",
+    "bpm": 123,
+    "key": "7B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Niska",
+    "title": "Mustapha Jefferson",
+    "bpm": 124,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Kalash, Damso",
+    "title": "Mwaka Moon",
+    "bpm": 155,
+    "key": "12B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop",
+      "rap"
+    ],
+    "genresSource": "getsongbpm"
+  },
+  {
+    "artist": "Gradur, MHD, Alonzo, Nyda",
+    "title": "Oblah",
+    "bpm": 124,
+    "key": "11B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Rap",
+      "Hip Hop/Rap",
+      "Hip Hop",
+      "Trap / Future Bass"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Drake, Wizkid, Kyla",
+    "title": "One Dance",
+    "bpm": 104,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Hip Hop",
+      "American Hip Hop",
+      "American Trap",
+      "Clean Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "La Synesia, DJ McFly",
+    "title": "P*teuh !! - Radio Edit",
+    "bpm": 98,
+    "key": "9B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "Gambi",
+    "title": "PETETE",
+    "bpm": 156,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "France",
+      "Hip Hop/Rap",
+      "Worldwide",
+      "Hip Hop",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Kid Cudi, MGMT, Ratatat",
+    "title": "Pursuit Of Happiness - Extended Steve Aoki Remix (Explicit)",
+    "bpm": 128,
+    "key": "8B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Dance",
+      "Pop",
+      "Urbano Latino",
+      "Latin",
+      "Electro"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Niska",
+    "title": "Salé",
+    "bpm": 142,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "rap"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Collectif Métissé",
+    "title": "Sexy Lady",
+    "bpm": 128,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "pop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "Kaaris",
+    "title": "Tchoin",
+    "bpm": 180,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax"
+  },
+  {
+    "artist": "OBOY",
+    "title": "TDB",
+    "bpm": 140,
+    "key": "6B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Rap"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "Macklemore & Ryan Lewis, Wanz",
+    "title": "Thrift Shop (feat. Wanz)",
+    "bpm": 95,
+    "key": "1B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "hip hop"
+    ],
+    "genresSource": "cached:getsongbpm"
+  },
+  {
+    "artist": "GIMS, Dadju",
+    "title": "Tu ne le vois pas (feat. Dadju)",
+    "bpm": 104,
+    "key": "3B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "Hip Hop/Rap",
+      "Chanson",
+      "Dance",
+      "Children's Music",
+      "French Music"
+    ],
+    "genresSource": "cached:songstats"
+  },
+  {
+    "artist": "David Guetta, Nicki Minaj, Flo Rida",
+    "title": "Where Them Girls At (feat. Nicki Minaj & Flo Rida)",
+    "bpm": 130,
+    "key": "5B",
+    "source": "djay_pro_ax",
+    "bpmSource": "djay_pro_ax",
+    "keySource": "djay_pro_ax",
+    "genres": [
+      "electronic",
+      "pop"
     ],
     "genresSource": "cached:getsongbpm"
   }
