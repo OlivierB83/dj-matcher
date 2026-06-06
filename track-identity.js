@@ -73,6 +73,23 @@ export function stripTrunc(text) {
   return String(text || "").replace(/\s*[.…]{1,}$/u, "").trim();
 }
 
+/** Convert trailing parenthesised version metadata to dash notation so the
+ *  rest of the pipeline can handle it. Spotify and Shazam often phrase
+ *  the same song two different ways:
+ *    "Prayer In C (Robin Schulz Remix - Radio Edit)"   ← Shazam
+ *    "Prayer In C - Robin Schulz Remix - Radio Edit"   ← djay / catalogue
+ *  We trigger only when the parens content contains a clear version
+ *  marker (remix / edit / version / remaster / extended mix / etc.), so
+ *  legitimate parenthesised titles like "How I Feel (Am I Wrong)" stay
+ *  untouched. Live / acoustic / instrumental are intentionally NOT
+ *  triggers — for DJ matching those are genuinely different cuts. */
+export function unparenthesizeVersionMeta(text) {
+  return String(text || "").replace(
+    /\s*\(([^)]*(?:remix|edit|version|remaster|extended\s+mix|original\s+mix|radio\s+mix)[^)]*)\)\s*$/i,
+    " - $1"
+  );
+}
+
 /** Accent / case / punctuation strip. Preserves word order so that
  *  prefix matching still works (we don't kill "radio edit" suffixes
  *  here — coreTitle does that). */
@@ -108,7 +125,11 @@ export function coreTitle(title) {
 
 /** The thing two records share when they're "the same song". */
 export function canonicalKey(artist, title) {
-  return normalize(artist) + "|" + normalize(coreTitle(stripTrunc(title)));
+  return (
+    normalize(artist) +
+    "|" +
+    normalize(coreTitle(stripTrunc(unparenthesizeVersionMeta(title))))
+  );
 }
 
 /** "Major Lazer, Justin Bieber, MØ" → "Major Lazer". The split delimiters

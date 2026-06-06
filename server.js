@@ -2,7 +2,13 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import fs from "fs";
-import { canonicalKey, primaryArtist } from "./track-identity.js";
+import {
+  canonicalKey,
+  primaryArtist,
+  coreTitle,
+  stripTrunc,
+  unparenthesizeVersionMeta,
+} from "./track-identity.js";
 import { scoreTrack, computeCompat } from "./scoring.js";
 
 dotenv.config();
@@ -116,6 +122,53 @@ function normalize(text) {
     .replace(/[^\p{L}\p{N}\s]/gu, "")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+// Token-level helpers used by the /api/suggestions fuzzy seed lookup.
+// Unlike normalize() above, tokensOf KEEPS the parenthesised content
+// and tokenises everything, so "Prayer In C (Robin Schulz Remix - Radio
+// Edit)" and "Prayer In C - Robin Schulz Remix - Radio Edit" produce
+// the same token set.
+function tokensOf(text) {
+  return String(text || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\s]/gu, " ")
+    .split(/\s+/)
+    .filter((x) => x.length > 0);
+}
+
+// Returns true iff the artist token sets of two records look like the
+// same group. Either set has to be a non-trivial (>= 2 tokens) subset
+// of the other \u2014 guards against accidental matches on common single
+// words like "DJ", "the", or "feat".
+function artistTokensCompatible(a, b) {
+  const small = a.size <= b.size ? a : b;
+  const large = a.size <= b.size ? b : a;
+  if (small.size < 2) return false;
+  for (const x of small) if (!large.has(x)) return false;
+  return true;
+}
+
+// Title tokens after stripping cosmetic version metadata (Radio Edit,
+// (Robin Schulz Remix - Radio Edit), etc.) \u2014 so "Fade Out Lines (Radio
+// Edit)" and "Fade Out Lines - The Avener Rework" can be compared on
+// their core "Fade Out Lines" content. Catalog-side titles that retain
+// a named remix ("- Robin Schulz Remix") keep those tokens.
+function titleTokensCanon(title) {
+  return new Set(tokensOf(coreTitle(stripTrunc(unparenthesizeVersionMeta(title)))));
+}
+
+// Same subset-in-either-direction logic as artistTokensCompatible but
+// for titles. Min 2 tokens to avoid one-word matches like "Hello"
+// pulling in every "Hello (Live)" / "Hello (Demo)" variant.
+function titleTokensCompatible(a, b) {
+  const small = a.size <= b.size ? a : b;
+  const large = a.size <= b.size ? b : a;
+  if (small.size < 2) return false;
+  for (const x of small) if (!large.has(x)) return false;
+  return true;
 }
 
 async function getSpotifyAppToken() {
@@ -308,16 +361,26 @@ app.get("/api/suggestions", (req, res) => {
   const normTitle = normalize(rawTitle);
 
   // Seed lookup, progressively fuzzier.
-  //   1. Canonical key (suffix-stripped: "- Radio Edit", "(feat. X)", etc.
-  //      Handles djay/Spotify catalog matches.)
-  //   2. Exact normalised compare (server.js's normalize strips parens,
-  //      feat, version cues; same logic /api/enrich uses.)
-  //   3. Primary artist + normalised title. Built for ShazamKit, which
+  //   1. Canonical key — strips "- Radio Edit", "(feat. X)", and
+  //      "(Robin Schulz Remix - Radio Edit)"-style parens via
+  //      unparenthesizeVersionMeta. Covers most djay/Spotify aligned
+  //      catalog matches.
+  //   2. Exact normalised compare — server.js's normalize strips parens,
+  //      feat, version cues; same logic /api/enrich uses.
+  //   3. Primary artist + normalised title — built for ShazamKit, which
   //      returns "Jungeli, Imen Es & Alonzo — Petit génie (feat. ...)"
-  //      while the catalog stores "Jungeli, Imen Es, Alonzo, Lossa,
-  //      Abou Debeing — Petit génie" — strings differ but the primary
-  //      artist + the song title agree, and that's enough to match.
+  //      while the catalog stores all collaborators in the artist field.
+  //   4. Token-set comparison — same idea as #3 but tolerates "and" vs
+  //      "&" and varying numbers of collaborators. Built for the
+  //      "Lilly Wood & The Prick — Prayer In C (Robin Schulz Remix - Radio
+  //      Edit)" case vs catalog "Lilly Wood and The Prick, Robin Schulz —
+  //      Prayer In C - Robin Schulz Remix - Radio Edit". Title tokens
+  //      must be equal; artist tokens must be a non-trivial (>=2 tokens)
+  //      subset in either direction.
   const seedPrimary = normalize(primaryArtist(rawArtist));
+  const seedTitleCanon = titleTokensCanon(rawTitle);
+  const seedArtistTokens = new Set(tokensOf(rawArtist));
+
   let current =
     tracks.find((t) => canonicalKey(t.artist, t.title) === seedCanon) ||
     tracks.find(
@@ -328,7 +391,13 @@ app.get("/api/suggestions", (req, res) => {
       (t) =>
         normalize(primaryArtist(t.artist)) === seedPrimary &&
         normalize(t.title) === normTitle
-    );
+    ) ||
+    tracks.find((t) => {
+      const catTitleCanon = titleTokensCanon(t.title);
+      if (!titleTokensCompatible(catTitleCanon, seedTitleCanon)) return false;
+      const catArtistTokens = new Set(tokensOf(t.artist));
+      return artistTokensCompatible(seedArtistTokens, catArtistTokens);
+    });
 
   if (!current) {
     return res.status(404).json({
