@@ -60,13 +60,17 @@ function mergeGroup(entries) {
   const ranked = entries.slice().sort((a, b) => sourceRank(b) - sourceRank(a));
   const authority = ranked[0];
 
+  // Strip the bookkeeping _idx (catalog position injected before this
+  // call) — it must not end up persisted in knownTracks.json.
+  // eslint-disable-next-line no-unused-vars
+  const { _idx: _ignoredAuthorityIdx, ...authorityClean } = authority;
   const merged = {
-    ...authority,
-    bpm: authority.bpm,
-    key: authority.key,
-    bpmSource: authority.bpmSource || authority.source,
-    keySource: authority.keySource || authority.source,
-    source: authority.source,
+    ...authorityClean,
+    bpm: authorityClean.bpm,
+    key: authorityClean.key,
+    bpmSource: authorityClean.bpmSource || authorityClean.source,
+    keySource: authorityClean.keySource || authorityClean.source,
+    source: authorityClean.source,
   };
 
   const FILLABLE = [

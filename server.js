@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import fs from "fs";
 import { canonicalKey } from "./track-identity.js";
+import { scoreTrack, computeCompat } from "./scoring.js";
 
 dotenv.config();
 
@@ -259,6 +260,103 @@ app.get("/api/enrich", async (req, res) => {
     found: false,
     source: "none",
     message: "Titre absent du catalogue local",
+  });
+});
+
+/**
+ * GET /api/suggestions?artist=X&title=Y[&limit=10]
+ *
+ * Built for the iOS app: pass any (artist, title) — typically what
+ * ShazamKit just recognised — and get back the scored top-N
+ * compatible tracks from the local catalog, identical to what the web
+ * UI would compute. The shared scoring.js means the iOS results match
+ * the web results to the point.
+ *
+ * Response shape:
+ *   { found: true,
+ *     current: { ...the catalog entry that matched the seed... },
+ *     suggestions: [
+ *       { ...catalog entry, score, camelot, compat: { bpm, key, style, dance } }
+ *     ]
+ *   }
+ *
+ * Seed lookup uses canonicalKey first (suffix-stripped, so "X — Y" and
+ * "X — Y - Radio Edit" land on the same catalog entry), then a plain
+ * normalised compare as a fallback. Identical priority order to
+ * /api/enrich.
+ *
+ * Candidates with no BPM or no key are excluded — they can't be scored
+ * meaningfully. The seed itself is also excluded from its own
+ * suggestion list.
+ */
+app.get("/api/suggestions", (req, res) => {
+  const rawArtist = req.query.artist || "";
+  const rawTitle = req.query.title || "";
+
+  if (!rawArtist || !rawTitle) {
+    return res.status(400).json({
+      found: false,
+      message: "Paramètres requis : artist et title",
+    });
+  }
+
+  const limit = Math.max(1, Math.min(50, parseInt(req.query.limit || "10", 10) || 10));
+  const tracks = readKnownTracks();
+
+  const seedCanon = canonicalKey(rawArtist, rawTitle);
+  const normArtist = normalize(rawArtist);
+  const normTitle = normalize(rawTitle);
+
+  let current =
+    tracks.find((t) => canonicalKey(t.artist, t.title) === seedCanon) ||
+    tracks.find(
+      (t) =>
+        normalize(t.artist) === normArtist && normalize(t.title) === normTitle
+    );
+
+  if (!current) {
+    return res.status(404).json({
+      found: false,
+      message: `Aucune entrée catalogue pour "${rawArtist} — ${rawTitle}".`,
+    });
+  }
+
+  if (!current.bpm || !current.key) {
+    return res.status(422).json({
+      found: false,
+      message: `Le titre "${current.artist} — ${current.title}" existe au catalogue mais n'a pas de BPM/clé enrichis.`,
+    });
+  }
+
+  const currentCanon = canonicalKey(current.artist, current.title);
+
+  // Internal bookkeeping fields that should never leak to clients.
+  // `_idx` slipped into ~100 catalog entries from an old dedup bug; we
+  // strip it defensively here so the iOS app gets a clean payload
+  // regardless of catalog cleanliness.
+  function publicEntry(entry) {
+    // eslint-disable-next-line no-unused-vars
+    const { _idx: _ignored, ...rest } = entry;
+    return rest;
+  }
+
+  const scored = tracks
+    .filter((t) => t.bpm && t.key)
+    .filter((t) => canonicalKey(t.artist, t.title) !== currentCanon)
+    .map((t) => {
+      const s = scoreTrack(current, t);
+      return {
+        ...publicEntry(s),
+        compat: computeCompat(current, t),
+      };
+    })
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit);
+
+  res.json({
+    found: true,
+    current: publicEntry(current),
+    suggestions: scored,
   });
 });
 
