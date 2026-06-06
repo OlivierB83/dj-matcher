@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import fs from "fs";
-import { canonicalKey } from "./track-identity.js";
+import { canonicalKey, primaryArtist } from "./track-identity.js";
 import { scoreTrack, computeCompat } from "./scoring.js";
 
 dotenv.config();
@@ -307,11 +307,27 @@ app.get("/api/suggestions", (req, res) => {
   const normArtist = normalize(rawArtist);
   const normTitle = normalize(rawTitle);
 
+  // Seed lookup, progressively fuzzier.
+  //   1. Canonical key (suffix-stripped: "- Radio Edit", "(feat. X)", etc.
+  //      Handles djay/Spotify catalog matches.)
+  //   2. Exact normalised compare (server.js's normalize strips parens,
+  //      feat, version cues; same logic /api/enrich uses.)
+  //   3. Primary artist + normalised title. Built for ShazamKit, which
+  //      returns "Jungeli, Imen Es & Alonzo — Petit génie (feat. ...)"
+  //      while the catalog stores "Jungeli, Imen Es, Alonzo, Lossa,
+  //      Abou Debeing — Petit génie" — strings differ but the primary
+  //      artist + the song title agree, and that's enough to match.
+  const seedPrimary = normalize(primaryArtist(rawArtist));
   let current =
     tracks.find((t) => canonicalKey(t.artist, t.title) === seedCanon) ||
     tracks.find(
       (t) =>
         normalize(t.artist) === normArtist && normalize(t.title) === normTitle
+    ) ||
+    tracks.find(
+      (t) =>
+        normalize(primaryArtist(t.artist)) === seedPrimary &&
+        normalize(t.title) === normTitle
     );
 
   if (!current) {

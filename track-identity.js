@@ -57,6 +57,15 @@ const SUFFIX_PATTERNS = [
   /\s*\(single version\)$/i,
   /\s*\(album version\)$/i,
   /\s*\(remastered( \d{4})?\)$/i,
+  // Featuring metadata. Shazam returns "Petit génie (feat. Abou Debeing &
+  // Lossa)" while our catalog often stores just "Petit génie" with the
+  // featured artists folded into the artist field. Strip so both sides
+  // collapse to the same canonical title.
+  /\s*\(feat\.?\s+[^)]+\)$/i,
+  /\s*\(ft\.?\s+[^)]+\)$/i,
+  /\s*\(with\s+[^)]+\)$/i,
+  /\s+feat\.?\s+.+$/i,
+  /\s+ft\.?\s+.+$/i,
 ];
 
 /** djay column-truncation marker, e.g. "Ça m'éner…" or "Ça m'éner...". */
