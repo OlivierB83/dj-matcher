@@ -169,6 +169,30 @@ async function getsongbpmGenres(artist, title) {
 // stripping genre data from our access tier. So it's no longer worth
 // the round-trip. We jump straight from getsongbpm to Songstats.)
 
+// ReccoBeats key codes: pitch class 0-11 (C=0, …, B=11) + mode (0=minor,
+// 1=major). Converted to Camelot Wheel notation (1A-12B). Same mapping
+// Mixed In Key uses. Used by buildNewTrack so iOS "Ajouter au catalogue"
+// gets an immediately-usable Camelot key.
+const RECCOBEATS_KEY_TO_CAMELOT = {
+  "0_1": "8B",  "0_0": "5A",
+  "1_1": "3B",  "1_0": "12A",
+  "2_1": "10B", "2_0": "7A",
+  "3_1": "5B",  "3_0": "2A",
+  "4_1": "12B", "4_0": "9A",
+  "5_1": "7B",  "5_0": "4A",
+  "6_1": "2B",  "6_0": "11A",
+  "7_1": "9B",  "7_0": "6A",
+  "8_1": "4B",  "8_0": "1A",
+  "9_1": "11B", "9_0": "8A",
+  "10_1": "6B", "10_0": "3A",
+  "11_1": "1B", "11_0": "10A",
+};
+
+function reccobeatsKeyToCamelot(key, mode) {
+  if (key == null || mode == null || key < 0 || key > 11) return null;
+  return RECCOBEATS_KEY_TO_CAMELOT[`${key}_${mode}`] || null;
+}
+
 async function songstatsGenres(track) {
   if (!SONGSTATS_API_KEY || !track.spotifyId) return null;
   // Log BEFORE the call so even network failures count (Songstats bills
@@ -184,6 +208,86 @@ async function songstatsGenres(track) {
   if (!r.ok) return null;
   const data = await r.json();
   return data.track_info?.genres?.length ? data.track_info.genres : null;
+}
+
+/**
+ * Build a brand-new catalog entry from just (artist, title). Used by
+ * /api/add-track when the iOS app surfaces a Shazam match that isn't in
+ * the catalogue yet. Difference vs enrichTrack: we have NO BPM/key going
+ * in, so we use ReccoBeats audio-features to source them. Returns null
+ * if Spotify can't find the track at all (we need its spotifyId for the
+ * downstream ReccoBeats lookups) OR if no BPM/key could be resolved
+ * (without those the entry is useless for matching).
+ */
+export async function buildNewTrack(artist, title) {
+  const token = await getSpotifyToken();
+  if (!token) return null;
+
+  // 1. Spotify search — must hit for the rest of the cascade to work
+  const sp = await spotifySearchTrack(token, artist, title);
+  if (!sp?.id) return null;
+
+  const entry = {
+    artist,                                            // preserve caller string
+    title,                                             // (Shazam-style phrasing)
+    spotifyId: sp.id,
+    album: sp.album?.name || null,
+    year: sp.album?.release_date?.slice(0, 4) || null,
+    image: sp.album?.images?.[0]?.url || null,
+    source: "ios_added",
+  };
+
+  // 2. ReccoBeats: popularity, danceability, BPM, key
+  try {
+    const lookup = await reccobeatsLookup(sp.id);
+    if (lookup) {
+      if (lookup.popularity != null) entry.popularity = lookup.popularity;
+      const feat = await reccobeatsAudioFeatures(lookup.rbId);
+      if (feat) {
+        if (feat.tempo) {
+          entry.bpm = Math.round(feat.tempo);
+          entry.bpmSource = "reccobeats";
+        }
+        if (feat.key != null && feat.mode != null) {
+          const cam = reccobeatsKeyToCamelot(feat.key, feat.mode);
+          if (cam) {
+            entry.key = cam;
+            entry.keySource = "reccobeats";
+          }
+        }
+        if (feat.danceability != null) {
+          entry.danceability = feat.danceability;
+          entry.danceabilitySource = "reccobeats";
+        }
+      }
+    }
+  } catch { /* best-effort */ }
+
+  // 3. Genres: getsongbpm first, songstats fallback
+  try {
+    const g = await getsongbpmGenres(artist, title);
+    if (g?.length) {
+      entry.genres = g;
+      entry.genresSource = "getsongbpm";
+    }
+  } catch {
+    // best-effort
+  }
+  if (!entry.genres?.length && entry.spotifyId) {
+    try {
+      const g = await songstatsGenres(entry);
+      if (g?.length) {
+        entry.genres = g;
+        entry.genresSource = "songstats";
+      }
+    } catch {
+      // best-effort
+    }
+  }
+
+  // Required for scoring : without BPM + key the entry can't seed anything
+  if (!entry.bpm || !entry.key) return null;
+  return entry;
 }
 
 /**

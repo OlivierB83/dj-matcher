@@ -10,6 +10,7 @@ import {
   unparenthesizeVersionMeta,
 } from "./track-identity.js";
 import { scoreTrack, computeCompat } from "./scoring.js";
+import { buildNewTrack } from "./djay-enrich.js";
 
 dotenv.config();
 
@@ -415,16 +416,6 @@ app.get("/api/suggestions", (req, res) => {
 
   const currentCanon = canonicalKey(current.artist, current.title);
 
-  // Internal bookkeeping fields that should never leak to clients.
-  // `_idx` slipped into ~100 catalog entries from an old dedup bug; we
-  // strip it defensively here so the iOS app gets a clean payload
-  // regardless of catalog cleanliness.
-  function publicEntry(entry) {
-    // eslint-disable-next-line no-unused-vars
-    const { _idx: _ignored, ...rest } = entry;
-    return rest;
-  }
-
   const scored = tracks
     .filter((t) => t.bpm && t.key)
     .filter((t) => canonicalKey(t.artist, t.title) !== currentCanon)
@@ -444,6 +435,123 @@ app.get("/api/suggestions", (req, res) => {
     suggestions: scored,
   });
 });
+
+/**
+ * POST /api/add-track  body: { artist, title }
+ *
+ * Built for the iOS app: when ShazamKit recognises a track that's not in
+ * the catalogue, the user can tap "Ajouter au catalogue" to enrich and
+ * persist it on the fly. Cascade is in djay-enrich.js#buildNewTrack:
+ *   Spotify search → spotifyId, album, year, image
+ *   ReccoBeats     → popularity, danceability, BPM, Camelot key
+ *   getsongbpm     → genres
+ *   songstats      → genres fallback
+ *
+ * Returns the same shape as /api/suggestions so iOS can transition
+ * directly to the result screen in a single round-trip.
+ *
+ * 200 found: { current, suggestions: [...] }
+ * 409 already in catalog       — returns the existing entry as `current`
+ * 422 not enough metadata      — Spotify miss, or no BPM/key resolvable
+ *
+ * Persistence caveat: writes to knownTracks.json on the Render instance.
+ * That filesystem survives between requests but is wiped on every
+ * redeploy. To make adds truly persistent we'd need a Postgres or an
+ * auto-commit-to-GitHub flow — noted but not implemented yet.
+ */
+app.post("/api/add-track", async (req, res) => {
+  const rawArtist = req.body?.artist || "";
+  const rawTitle = req.body?.title || "";
+  if (!rawArtist || !rawTitle) {
+    return res.status(400).json({
+      found: false,
+      message: "Paramètres requis : artist, title",
+    });
+  }
+
+  const tracks = readKnownTracks();
+  const seedCanon = canonicalKey(rawArtist, rawTitle);
+
+  // If already in catalog (the canonical / fuzzy lookups in /api/suggestions
+  // would have caught it normally — but we double-check here in case the
+  // iOS app misroutes), just return the existing entry + suggestions.
+  const existing = tracks.find(
+    (t) => canonicalKey(t.artist, t.title) === seedCanon
+  );
+  if (existing) {
+    if (!existing.bpm || !existing.key) {
+      return res.status(422).json({
+        found: false,
+        message: `"${existing.artist} — ${existing.title}" est déjà au catalogue mais sans BPM/clé enrichis.`,
+      });
+    }
+    const sugg = scoreAndPickSuggestions(tracks, existing, 30);
+    return res.status(200).json({
+      found: true,
+      alreadyExisted: true,
+      current: publicEntry(existing),
+      suggestions: sugg,
+    });
+  }
+
+  let entry;
+  try {
+    entry = await buildNewTrack(rawArtist, rawTitle);
+  } catch (e) {
+    return res.status(500).json({
+      found: false,
+      message: `Erreur d'enrichissement : ${e.message}`,
+    });
+  }
+
+  if (!entry) {
+    return res.status(422).json({
+      found: false,
+      message: `Impossible d'enrichir ce titre (Spotify n'a pas trouvé ou aucune source n'a remonté BPM + clé).`,
+    });
+  }
+
+  tracks.push(entry);
+  try {
+    fs.writeFileSync(DB_FILE, JSON.stringify(tracks, null, 2));
+  } catch (e) {
+    return res.status(500).json({
+      found: false,
+      message: `Erreur d'écriture catalogue : ${e.message}`,
+    });
+  }
+
+  const sugg = scoreAndPickSuggestions(tracks, entry, 30);
+  res.status(200).json({
+    found: true,
+    alreadyExisted: false,
+    current: publicEntry(entry),
+    suggestions: sugg,
+  });
+});
+
+// Strip internal bookkeeping fields (e.g. `_idx` that leaked into ~100
+// catalog entries from an old dedup bug) before responding to clients.
+function publicEntry(entry) {
+  // eslint-disable-next-line no-unused-vars
+  const { _idx: _ignored, ...rest } = entry;
+  return rest;
+}
+
+// Helper extracted so /api/add-track can scaffold its response the same
+// way /api/suggestions does.
+function scoreAndPickSuggestions(tracks, current, limit) {
+  const currentCanon = canonicalKey(current.artist, current.title);
+  return tracks
+    .filter((t) => t.bpm && t.key)
+    .filter((t) => canonicalKey(t.artist, t.title) !== currentCanon)
+    .map((t) => {
+      const s = scoreTrack(current, t);
+      return { ...publicEntry(s), compat: computeCompat(current, t) };
+    })
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit);
+}
 
 app.get("/api/import-playlist/:playlistId", async (req, res) => {
   const userToken = await getSpotifyUserToken();
