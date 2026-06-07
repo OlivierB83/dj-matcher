@@ -7,7 +7,8 @@
     "spotifyId": "69kOkLUCkxIZYexIgSG8rq",
     "album": "Random Access Memories",
     "year": "2013",
-    "image": "https://i.scdn.co/image/ab67616d000048519b9b36b0e22870b9f542d937"
+    "image": "https://i.scdn.co/image/ab67616d000048519b9b36b0e22870b9f542d937",
+    "popularity": 72
   },
   {
     "artist": "Daft Punk",
@@ -41,7 +42,8 @@
     "spotifyId": "303ccTay2FiDTZ9fZ2AdBt",
     "album": "Music Sounds Better With You",
     "year": "1998",
-    "image": "https://i.scdn.co/image/ab67616d00004851b98afa12c212cbbda4f1799b"
+    "image": "https://i.scdn.co/image/ab67616d00004851b98afa12c212cbbda4f1799b",
+    "popularity": 69
   },
   {
     "artist": "Prince",
@@ -53,7 +55,8 @@
     "spotifyId": "1uvyZBs4IZYRebHIB1747m",
     "album": "Purple Rain",
     "year": "1984",
-    "image": "https://i.scdn.co/image/ab67616d000048518a2ce3f148f57584269c3782"
+    "image": "https://i.scdn.co/image/ab67616d000048518a2ce3f148f57584269c3782",
+    "popularity": 72
   },
   {
     "title": "Blue Monday",
@@ -73,7 +76,8 @@
     "spotifyId": "6hHc7Pks7wtBIW8Z6A0iFq",
     "album": "Substance",
     "year": "1987",
-    "image": "https://i.scdn.co/image/ab67616d000048513c182241fcd86aeca2c68a63"
+    "image": "https://i.scdn.co/image/ab67616d000048513c182241fcd86aeca2c68a63",
+    "popularity": 70
   },
   {
     "title": "Sweet Dreams (Are Made of This)",
@@ -91,7 +95,8 @@
     "spotifyId": "1TfqLAPs4K3s2rJMoCokcS",
     "album": "Sweet Dreams (Are Made Of This)",
     "year": "1983",
-    "image": "https://i.scdn.co/image/ab67616d00004851b3994c94dfb241923664bb4d"
+    "image": "https://i.scdn.co/image/ab67616d00004851b3994c94dfb241923664bb4d",
+    "popularity": 82
   },
   {
     "title": "Don't Stop the Music",
@@ -116,7 +121,8 @@
     "bpmSource": "djay_pro",
     "keySource": "djay_pro",
     "spotifyId": "0ByMNEPAPpOR5H69DVrTNy",
-    "image": "https://i.scdn.co/image/ab67616d00004851f9f27162ab1ed45b8d7a7e98"
+    "image": "https://i.scdn.co/image/ab67616d00004851f9f27162ab1ed45b8d7a7e98",
+    "popularity": 80
   },
   {
     "title": "Danza kuduro",
@@ -161,7 +167,8 @@
     "uri": "https://getsongbpm.com/song/we-found-love/kZRkMJ",
     "source": "getsongbpm",
     "spotifyId": "0U10zFw4GlBacOy9VDGfGL",
-    "image": "https://i.scdn.co/image/ab67616d000048511c5eacf6965d328c2c795cef"
+    "image": "https://i.scdn.co/image/ab67616d000048511c5eacf6965d328c2c795cef",
+    "popularity": 76
   },
   {
     "title": "Freed From Desire (Slow version)",
@@ -185,7 +192,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "1KiWU9ufjFN1CHhbvWkZMi",
-    "image": "https://i.scdn.co/image/ab67616d0000485182d43c836792c8b41dc0ad8c"
+    "image": "https://i.scdn.co/image/ab67616d0000485182d43c836792c8b41dc0ad8c",
+    "popularity": 20
   },
   {
     "title": "Blinding Lights",
@@ -207,7 +215,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "0VjIjW4GlUZAMYd2vXMi3b",
-    "image": "https://i.scdn.co/image/ab67616d000048518863bc11d2aa12b54f5aeb36"
+    "image": "https://i.scdn.co/image/ab67616d000048518863bc11d2aa12b54f5aeb36",
+    "popularity": 87
   },
   {
     "title": "24K Magic",
@@ -231,7 +240,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "6b8Be6ljOzmkOmFslEb23P",
-    "image": "https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5"
+    "image": "https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5",
+    "popularity": 81
   },
   {
     "title": "Cotton Eye Joe",
@@ -255,7 +265,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "06hsdMbBxWGqBO0TV0Zrkf",
-    "image": "https://i.scdn.co/image/ab67616d000048518833534681a0a01c668c4115"
+    "image": "https://i.scdn.co/image/ab67616d000048518833534681a0a01c668c4115",
+    "popularity": 72
   },
   {
     "title": "Nightcall",
@@ -274,7 +285,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "0U0ldCRmgCqhVvD6ksG63j",
-    "image": "https://i.scdn.co/image/ab67616d00004851d6d8c2eaa1f9031b62f7a3f7"
+    "image": "https://i.scdn.co/image/ab67616d00004851d6d8c2eaa1f9031b62f7a3f7",
+    "popularity": 72
   },
   {
     "title": "Rock Your Body",
@@ -299,7 +311,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "1AWQoqb9bSvzTjaLralEkT",
-    "image": "https://i.scdn.co/image/ab67616d00004851346a5742374ab4cf9ed32dee"
+    "image": "https://i.scdn.co/image/ab67616d00004851346a5742374ab4cf9ed32dee",
+    "popularity": 78
   },
   {
     "title": "Only Girl (In the World)",
@@ -324,7 +337,8 @@
     "bpmSource": "djay_pro",
     "keySource": "djay_pro",
     "spotifyId": "0AH6WMe3OlAlUb5miXt2FQ",
-    "image": "https://i.scdn.co/image/ab67616d000048512ed326786e4c61c6b1dbf222"
+    "image": "https://i.scdn.co/image/ab67616d000048512ed326786e4c61c6b1dbf222",
+    "popularity": 70
   },
   {
     "title": "Mi Gente",
@@ -365,7 +379,8 @@
     "bpmSource": "djay_pro",
     "keySource": "djay_pro",
     "spotifyId": "7J1uxwnxfQLu4APicE5Rnj",
-    "image": "https://i.scdn.co/image/ab67616d0000485132a7d87248d1b75463483df5"
+    "image": "https://i.scdn.co/image/ab67616d0000485132a7d87248d1b75463483df5",
+    "popularity": 81
   },
   {
     "title": "Back in Black",
@@ -387,7 +402,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "08mG3Y1vljYA6bvDt4Wqkj",
-    "image": "https://i.scdn.co/image/ab67616d00004851ff191d7fbdb5a13eaf84132b"
+    "image": "https://i.scdn.co/image/ab67616d00004851ff191d7fbdb5a13eaf84132b",
+    "popularity": 82
   },
   {
     "title": "Les Sunlights des tropiques",
@@ -430,7 +446,8 @@
     "uri": "https://getsongbpm.com/song/obsesion/Y6vqxO",
     "source": "getsongbpm",
     "spotifyId": "65H6t1WQBim6q93yM8fEwn",
-    "image": "https://i.scdn.co/image/ab67616d00004851e1afa83bd73aa80c0ff0ee34"
+    "image": "https://i.scdn.co/image/ab67616d00004851e1afa83bd73aa80c0ff0ee34",
+    "popularity": 76
   },
   {
     "title": "Andalouse",
@@ -468,7 +485,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "2Fxmhks0bxGSBdJ92vM42m",
-    "image": "https://i.scdn.co/image/ab67616d0000485150a3147b4edd7701a876c6ce"
+    "image": "https://i.scdn.co/image/ab67616d0000485150a3147b4edd7701a876c6ce",
+    "popularity": 80
   },
   {
     "title": "Murder on the Dancefloor",
@@ -490,7 +508,8 @@
     "bpmSource": "djay_pro",
     "keySource": "djay_pro",
     "spotifyId": "4tKGFmENO69tZR9ahgZu48",
-    "image": "https://i.scdn.co/image/ab67616d00004851b736151ed1c04f2d41d5f69e"
+    "image": "https://i.scdn.co/image/ab67616d00004851b736151ed1c04f2d41d5f69e",
+    "popularity": 80
   },
   {
     "title": "Shake It Off",
@@ -512,7 +531,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "0cqRj7pUJDkTCEsJkx8snD",
-    "image": "https://i.scdn.co/image/ab67616d0000485152b2a3824413eefe9e33817a"
+    "image": "https://i.scdn.co/image/ab67616d0000485152b2a3824413eefe9e33817a",
+    "popularity": 78
   },
   {
     "title": "Dancing In The Dark (Mix Cut)",
@@ -556,7 +576,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "6FofVmsYAs2FNeOdzQJnnW",
-    "image": "https://i.scdn.co/image/ab67616d0000485192da2abc6b4f1149df5a336b"
+    "image": "https://i.scdn.co/image/ab67616d0000485192da2abc6b4f1149df5a336b",
+    "popularity": 57
   },
   {
     "title": "Africa",
@@ -578,7 +599,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "2374M0fQpWi3dLnB54qaLX",
-    "image": "https://i.scdn.co/image/ab67616d00004851ebd6d20c0082524244ef83df"
+    "image": "https://i.scdn.co/image/ab67616d00004851ebd6d20c0082524244ef83df",
+    "popularity": 84
   },
   {
     "title": "The Final Countdown",
@@ -600,7 +622,8 @@
     "bpmSource": "djay_pro",
     "keySource": "djay_pro",
     "spotifyId": "3MrRksHupTVEQ7YbA0FsZK",
-    "image": "https://i.scdn.co/image/ab67616d00004851f5e30500f0eec7d92b159eae"
+    "image": "https://i.scdn.co/image/ab67616d00004851f5e30500f0eec7d92b159eae",
+    "popularity": 75
   },
   {
     "title": "I Wanna Dance With Somebody (Who Loves Me)",
@@ -623,7 +646,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "2tUBqZG2AbRi7Q0BIrVrEj",
-    "image": "https://i.scdn.co/image/ab67616d00004851a520a167a62d5548cdb53101"
+    "image": "https://i.scdn.co/image/ab67616d00004851a520a167a62d5548cdb53101",
+    "popularity": 80
   },
   {
     "title": "Total Eclipse of the Heart",
@@ -645,7 +669,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "7wuJGgpTNzbUyn26IOY6rj",
-    "image": "https://i.scdn.co/image/ab67616d000048518cefe8e2f2cfd63ce073fa96"
+    "image": "https://i.scdn.co/image/ab67616d000048518cefe8e2f2cfd63ce073fa96",
+    "popularity": 79
   },
   {
     "title": "Sirius",
@@ -668,7 +693,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "0hSs4vOZo1OkRiAOoLafrT",
-    "image": "https://i.scdn.co/image/ab67616d000048518c5a6302666a7f69a8ded468"
+    "image": "https://i.scdn.co/image/ab67616d000048518c5a6302666a7f69a8ded468",
+    "popularity": 61
   },
   {
     "title": "Still Loving You",
@@ -690,7 +716,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "0RdUX4WE0fO30VnlUbDVL6",
-    "image": "https://i.scdn.co/image/ab67616d000048519f2023d391c3bd4acf4d51c6"
+    "image": "https://i.scdn.co/image/ab67616d000048519f2023d391c3bd4acf4d51c6",
+    "popularity": 70
   },
   {
     "title": "Reggae Night",
@@ -712,7 +739,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "1OE5bn5HUmCqTLNpo13ya3",
-    "image": "https://i.scdn.co/image/ab67616d0000485101676d2605aa96da23c059b4"
+    "image": "https://i.scdn.co/image/ab67616d0000485101676d2605aa96da23c059b4",
+    "popularity": 50
   },
   {
     "title": "Girls Just Want to Have Fun",
@@ -734,7 +762,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "4y1LsJpmMti1PfRQV9AWWe",
-    "image": "https://i.scdn.co/image/ab67616d00004851ce023ce7dfdd5199bcdfd5a1"
+    "image": "https://i.scdn.co/image/ab67616d00004851ce023ce7dfdd5199bcdfd5a1",
+    "popularity": 79
   },
   {
     "title": "Wake Me Up Before You Go-Go",
@@ -756,7 +785,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "0ikz6tENMONtK6qGkOrU3c",
-    "image": "https://i.scdn.co/image/ab67616d00004851a2fc41b0dd6ce4f0d16a4c46"
+    "image": "https://i.scdn.co/image/ab67616d00004851a2fc41b0dd6ce4f0d16a4c46",
+    "popularity": 78
   },
   {
     "title": "Antisocial",
@@ -780,7 +810,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "1jO4l4FhDK46ccYxBlSf4h",
-    "image": "https://i.scdn.co/image/ab67616d00004851883ef56c4d7df36bfd02ef80"
+    "image": "https://i.scdn.co/image/ab67616d00004851883ef56c4d7df36bfd02ef80",
+    "popularity": 47
   },
   {
     "title": "Smalltown Boy",
@@ -802,7 +833,8 @@
     "bpmSource": "djay_pro",
     "keySource": "djay_pro",
     "spotifyId": "5vmRQ3zELMLUQPo2FLQ76x",
-    "image": "https://i.scdn.co/image/ab67616d000048512ec4aea38b44eba9756767fa"
+    "image": "https://i.scdn.co/image/ab67616d000048512ec4aea38b44eba9756767fa",
+    "popularity": 79
   },
   {
     "title": "99 Luftballons",
@@ -825,7 +857,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "2IJftBfq7pJ43tfnOR0RB3",
-    "image": "https://i.scdn.co/image/ab67616d000048517e51ffd6a2e8f77ffd56bb8f"
+    "image": "https://i.scdn.co/image/ab67616d000048517e51ffd6a2e8f77ffd56bb8f",
+    "popularity": 73
   },
   {
     "title": "Beat It",
@@ -849,7 +882,8 @@
     "bpmSource": "djay_pro",
     "keySource": "djay_pro",
     "spotifyId": "3BovdzfaX4jb5KFQwoPfAw",
-    "image": "https://i.scdn.co/image/ab67616d0000485132a7d87248d1b75463483df5"
+    "image": "https://i.scdn.co/image/ab67616d0000485132a7d87248d1b75463483df5",
+    "popularity": 78
   },
   {
     "title": "Eye of the Tiger",
@@ -871,7 +905,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "2HHtWyy5CgaQbC7XSoOb0e",
-    "image": "https://i.scdn.co/image/ab67616d000048514e2755e7a96ec5e062c76aac"
+    "image": "https://i.scdn.co/image/ab67616d000048514e2755e7a96ec5e062c76aac",
+    "popularity": 77
   },
   {
     "title": "Too Shy",
@@ -892,7 +927,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "6WEBIVqiEsevfgJefTyuQQ",
-    "image": "https://i.scdn.co/image/ab67616d00004851858f93b738db08c4e500bd30"
+    "image": "https://i.scdn.co/image/ab67616d00004851858f93b738db08c4e500bd30",
+    "popularity": 58
   },
   {
     "title": "Let's Groove",
@@ -917,7 +953,8 @@
     "bpmSource": "djay_pro",
     "keySource": "djay_pro",
     "spotifyId": "3koCCeSaVUyrRo3N2gHrd8",
-    "image": "https://i.scdn.co/image/ab67616d00004851e691caf11b86a3729899a304"
+    "image": "https://i.scdn.co/image/ab67616d00004851e691caf11b86a3729899a304",
+    "popularity": 74
   },
   {
     "title": "Take on Me",
@@ -940,7 +977,8 @@
     "bpmSource": "djay_pro",
     "keySource": "djay_pro",
     "spotifyId": "2WfaOiMkCvy7F5fcp2zZ8L",
-    "image": "https://i.scdn.co/image/ab67616d00004851e8dd4db47e7177c63b0b7d53"
+    "image": "https://i.scdn.co/image/ab67616d00004851e8dd4db47e7177c63b0b7d53",
+    "popularity": 83
   },
   {
     "title": "Running Up That Hill (A Deal With God)",
@@ -962,7 +1000,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "1PtQJZVZIdWIYdARpZRDFO",
-    "image": "https://i.scdn.co/image/ab67616d00004851ad08f4b38efbff0c0da0f252"
+    "image": "https://i.scdn.co/image/ab67616d00004851ad08f4b38efbff0c0da0f252",
+    "popularity": 78
   },
   {
     "title": "Everybody Wants to Rule the World",
@@ -985,7 +1024,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "4RvWPyQ5RL0ao9LPZeSouE",
-    "image": "https://i.scdn.co/image/ab67616d0000485122463d6939fec9e17b2a6235"
+    "image": "https://i.scdn.co/image/ab67616d0000485122463d6939fec9e17b2a6235",
+    "popularity": 85
   },
   {
     "title": "Il suffira d'un signe",
@@ -1007,7 +1047,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "0xt1kT5tYW6BkwqGdOyUbA",
-    "image": "https://i.scdn.co/image/ab67616d000048513081e4a2cac810e9cdf8a886"
+    "image": "https://i.scdn.co/image/ab67616d000048513081e4a2cac810e9cdf8a886",
+    "popularity": 46
   },
   {
     "title": "Sexual Healing",
@@ -1032,7 +1073,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "3VZmChrnVW8JK6ano4gSED",
-    "image": "https://i.scdn.co/image/ab67616d0000485146e859872ed30a898160aeb2"
+    "image": "https://i.scdn.co/image/ab67616d0000485146e859872ed30a898160aeb2",
+    "popularity": 73
   },
   {
     "title": "Je te donne",
@@ -1052,7 +1094,8 @@
     "uri": "https://getsongbpm.com/song/je-te-donne/L8On0v",
     "source": "getsongbpm",
     "spotifyId": "55mXuPsEm6aboDIM68RM74",
-    "image": "https://i.scdn.co/image/ab67616d00004851faabb26835b3326341ded4a7"
+    "image": "https://i.scdn.co/image/ab67616d00004851faabb26835b3326341ded4a7",
+    "popularity": 57
   },
   {
     "title": "It's Raining Men (New Version '93)",
@@ -1075,7 +1118,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "10PrptvRPuzNrbE0i2ZC6o",
-    "image": "https://i.scdn.co/image/ab67616d00004851246100b794f06995c9867c8f"
+    "image": "https://i.scdn.co/image/ab67616d00004851246100b794f06995c9867c8f",
+    "popularity": 18
   },
   {
     "title": "Cheri Cheri Lady (new version)",
@@ -1097,7 +1141,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "2vbJUtO8SZ0nZn5qwRAo3v",
-    "image": "https://i.scdn.co/image/ab67616d00004851dfc101f29525207c58e1ac8f"
+    "image": "https://i.scdn.co/image/ab67616d00004851dfc101f29525207c58e1ac8f",
+    "popularity": 53
   },
   {
     "title": "Just Can't Get Enough (Schizo mix)",
@@ -1120,7 +1165,8 @@
     "bpmSource": "djay_pro",
     "keySource": "djay_pro",
     "spotifyId": "2A35YdnOHsNX9YsyYq5Vx6",
-    "image": "https://i.scdn.co/image/ab67616d0000485188ffe8c41647856e6fa5e1ab"
+    "image": "https://i.scdn.co/image/ab67616d0000485188ffe8c41647856e6fa5e1ab",
+    "popularity": 38
   },
   {
     "title": "Caribbean Queen (No More Love on the Run)",
@@ -1144,7 +1190,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "4JEylZNW8SbO4zUyfVrpb7",
-    "image": "https://i.scdn.co/image/ab67616d0000485199ee23dac7128cb5754f593c"
+    "image": "https://i.scdn.co/image/ab67616d0000485199ee23dac7128cb5754f593c",
+    "popularity": 69
   },
   {
     "title": "Elle a les yeux revolver",
@@ -1166,7 +1213,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "1fU9wVDi3yZrawv1Rc4vcS",
-    "image": "https://i.scdn.co/image/ab67616d00004851060b57fc4508ac71bf0fc55c"
+    "image": "https://i.scdn.co/image/ab67616d00004851060b57fc4508ac71bf0fc55c",
+    "popularity": 57
   },
   {
     "title": "Eye in the Sky",
@@ -1189,7 +1237,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "2sIbHjfJ3nbMXNz4w03fWv",
-    "image": "https://i.scdn.co/image/ab67616d000048518c5a6302666a7f69a8ded468"
+    "image": "https://i.scdn.co/image/ab67616d000048518c5a6302666a7f69a8ded468",
+    "popularity": 70
   },
   {
     "title": "Beds Are Burning - Remastered",
@@ -1211,7 +1260,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "1CtAzw53AIXKjAemxy4b1j",
-    "image": "https://i.scdn.co/image/ab67616d000048510dd350beeb5ac73672ad6e80"
+    "image": "https://i.scdn.co/image/ab67616d000048510dd350beeb5ac73672ad6e80",
+    "popularity": 69
   },
   {
     "title": "Una storia importante",
@@ -1233,7 +1283,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "17v4BXFKtbYmJFPqBgpGla",
-    "image": "https://i.scdn.co/image/ab67616d00004851dbb3075bb098af7974b845dd"
+    "image": "https://i.scdn.co/image/ab67616d00004851dbb3075bb098af7974b845dd",
+    "popularity": 41
   },
   {
     "title": "The Promise You Made",
@@ -1257,7 +1308,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "1bWrJnsvHCo8vsXWaatWIs",
-    "image": "https://i.scdn.co/image/ab67616d000048515fe6b83dd436ea678be3048a"
+    "image": "https://i.scdn.co/image/ab67616d000048515fe6b83dd436ea678be3048a",
+    "popularity": 54
   },
   {
     "title": "Time After Time",
@@ -1279,7 +1331,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "7o9uu2GDtVDr9nsR7ZRN73",
-    "image": "https://i.scdn.co/image/ab67616d00004851ce023ce7dfdd5199bcdfd5a1"
+    "image": "https://i.scdn.co/image/ab67616d00004851ce023ce7dfdd5199bcdfd5a1",
+    "popularity": 78
   },
   {
     "title": "Girl You Know It's True",
@@ -1301,7 +1354,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "0C7dYeCLF6ukChtW64UNge",
-    "image": "https://i.scdn.co/image/ab67616d00004851ece39be98348e2f4dbead00a"
+    "image": "https://i.scdn.co/image/ab67616d00004851ece39be98348e2f4dbead00a",
+    "popularity": 59
   },
   {
     "title": "Fresh",
@@ -1326,7 +1380,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "1mMYaXpT65iZDtvfRA9EkE",
-    "image": "https://i.scdn.co/image/ab67616d000048510afe71cef9e2f4db5ebfcc82"
+    "image": "https://i.scdn.co/image/ab67616d000048510afe71cef9e2f4db5ebfcc82",
+    "popularity": 64
   },
   {
     "title": "Born in the U.S.A.",
@@ -1349,7 +1404,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "0dOg1ySSI7NkpAe89Zo0b9",
-    "image": "https://i.scdn.co/image/ab67616d00004851a43a6482e327d623bb0c0f77"
+    "image": "https://i.scdn.co/image/ab67616d00004851a43a6482e327d623bb0c0f77",
+    "popularity": 71
   },
   {
     "title": "Material Girl",
@@ -1372,7 +1428,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "7bkyXSi4GtVfD7itZRUR3e",
-    "image": "https://i.scdn.co/image/ab67616d0000485199d424b0873a9a714279a9f3"
+    "image": "https://i.scdn.co/image/ab67616d0000485199d424b0873a9a714279a9f3",
+    "popularity": 60
   },
   {
     "title": "Easy Lover",
@@ -1395,7 +1452,8 @@
     "uri": "https://getsongbpm.com/song/easy-lover/VPPlvX",
     "source": "getsongbpm",
     "spotifyId": "7INi4pMPG4IE0Smx5y4KVf",
-    "image": "https://i.scdn.co/image/ab67616d00004851d05d00a34eee4d09ec104298"
+    "image": "https://i.scdn.co/image/ab67616d00004851d05d00a34eee4d09ec104298",
+    "popularity": 64
   },
   {
     "title": "Dr. Beat",
@@ -1417,7 +1475,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "0qmNhKL1zNSJcE19XXXT5q",
-    "image": "https://i.scdn.co/image/ab67616d00004851c11ba22833aff69b6fd2585f"
+    "image": "https://i.scdn.co/image/ab67616d00004851c11ba22833aff69b6fd2585f",
+    "popularity": 46
   },
   {
     "title": "I'm Still Standing",
@@ -1439,7 +1498,8 @@
     "bpmSource": "djay_pro",
     "keySource": "djay_pro",
     "spotifyId": "1jDJFeK9x3OZboIAHsY9k2",
-    "image": "https://i.scdn.co/image/ab67616d00004851eb11e2abccdca41f39ad3b89"
+    "image": "https://i.scdn.co/image/ab67616d00004851eb11e2abccdca41f39ad3b89",
+    "popularity": 82
   },
   {
     "title": "Walk Like an Egyptian",
@@ -1461,7 +1521,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "1Jwc3ODLQxtbnS8M9TflSP",
-    "image": "https://i.scdn.co/image/ab67616d00004851fed4a89ebe66064c67f2f4ea"
+    "image": "https://i.scdn.co/image/ab67616d00004851fed4a89ebe66064c67f2f4ea",
+    "popularity": 61
   },
   {
     "title": "Never Gonna Give You Up",
@@ -1482,7 +1543,8 @@
     "bpmSource": "djay_pro",
     "keySource": "djay_pro",
     "spotifyId": "4PTG3Z6ehGkBFwjybzWkR8",
-    "image": "https://i.scdn.co/image/ab67616d0000485115ebbedaacef61af244262a8"
+    "image": "https://i.scdn.co/image/ab67616d0000485115ebbedaacef61af244262a8",
+    "popularity": 78
   },
   {
     "title": "Last Christmas",
@@ -1504,7 +1566,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "2FRnf9qhLbvw8fu4IBXx78",
-    "image": "https://i.scdn.co/image/ab67616d00004851f2d2adaa21ad616df6241e7d"
+    "image": "https://i.scdn.co/image/ab67616d00004851f2d2adaa21ad616df6241e7d",
+    "popularity": 87
   },
   {
     "title": "This Is The Day",
@@ -1527,7 +1590,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "3FjYAj4hg5KiXpVAMjpLKq",
-    "image": "https://i.scdn.co/image/ab67616d000048511bbff7a308778b39fc8c08ba"
+    "image": "https://i.scdn.co/image/ab67616d000048511bbff7a308778b39fc8c08ba",
+    "popularity": 54
   },
   {
     "title": "Your Love",
@@ -1549,7 +1613,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "5dRQUolXAVX3BbCiIxmSsf",
-    "image": "https://i.scdn.co/image/ab67616d0000485101ed248b4ac01c868e688322"
+    "image": "https://i.scdn.co/image/ab67616d0000485101ed248b4ac01c868e688322",
+    "popularity": 73
   },
   {
     "title": "Tribute (Right On)",
@@ -1575,7 +1640,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "7E98uFyqUZmTBPGeTz32Ja",
-    "image": "https://i.scdn.co/image/ab67616d00004851ed56c0c612609f45f257f64f"
+    "image": "https://i.scdn.co/image/ab67616d00004851ed56c0c612609f45f257f64f",
+    "popularity": 41
   },
   {
     "title": "Don't Stop Believin'",
@@ -1597,7 +1663,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "77NNZQSqzLNqh2A9JhLRkg",
-    "image": "https://i.scdn.co/image/ab67616d000048510f6ce5c138493ac768d9afc8"
+    "image": "https://i.scdn.co/image/ab67616d000048510f6ce5c138493ac768d9afc8",
+    "popularity": 72
   },
   {
     "title": "Don't Go",
@@ -1619,7 +1686,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "098JUtp63d1Hsge11VuoD2",
-    "image": "https://i.scdn.co/image/ab67616d000048519d6e136c3a0298fb0c53abea"
+    "image": "https://i.scdn.co/image/ab67616d000048519d6e136c3a0298fb0c53abea",
+    "popularity": 63
   },
   {
     "title": "The Cold Song",
@@ -1641,7 +1709,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "17n7O0A3B86m0wepImtEIu",
-    "image": "https://i.scdn.co/image/ab67616d00004851cd97aa1ef0df21e1dcd35cb0"
+    "image": "https://i.scdn.co/image/ab67616d00004851cd97aa1ef0df21e1dcd35cb0",
+    "popularity": 35
   },
   {
     "title": "Uptown Girl",
@@ -1663,7 +1732,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "5zA8vzDGqPl2AzZkEYQGKh",
-    "image": "https://i.scdn.co/image/ab67616d0000485129c68eb2726f08eca5ba8613"
+    "image": "https://i.scdn.co/image/ab67616d0000485129c68eb2726f08eca5ba8613",
+    "popularity": 82
   },
   {
     "title": "Down Under",
@@ -1709,7 +1779,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "43THPstJP6RXLMd7ryXyNf",
-    "image": "https://i.scdn.co/image/ab67616d00004851cac6eb41ca7a0ceac153e68d"
+    "image": "https://i.scdn.co/image/ab67616d00004851cac6eb41ca7a0ceac153e68d",
+    "popularity": 55
   },
   {
     "title": "Qu'est-ce que t'es belle",
@@ -1729,7 +1800,8 @@
     "uri": "https://getsongbpm.com/song/qu-est-ce-que-t-es-belle/KrxpmY",
     "source": "getsongbpm",
     "spotifyId": "10TTBIrjnZL5nGjLVtBVuA",
-    "image": "https://i.scdn.co/image/ab67616d0000485165f706d02b06ccc5c7fb6e77"
+    "image": "https://i.scdn.co/image/ab67616d0000485165f706d02b06ccc5c7fb6e77",
+    "popularity": 33
   },
   {
     "title": "El muchacho de los ojos tristes",
@@ -1752,7 +1824,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "3gqYxzuwt40Q1bLflovbsI",
-    "image": "https://i.scdn.co/image/ab67616d0000485175c898063f96b83c35142065"
+    "image": "https://i.scdn.co/image/ab67616d0000485175c898063f96b83c35142065",
+    "popularity": 46
   },
   {
     "title": "Need You Tonight",
@@ -1774,7 +1847,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "3h04eZTnmFLRMjZajbrp2R",
-    "image": "https://i.scdn.co/image/ab67616d00004851dac4efc0ebdfd9d92f127129"
+    "image": "https://i.scdn.co/image/ab67616d00004851dac4efc0ebdfd9d92f127129",
+    "popularity": 72
   },
   {
     "title": "Fotonovela (Chapter 1) - Remasterizado",
@@ -1822,7 +1896,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "20RHWjtCLr7ODGQEItdZXg",
-    "image": "https://i.scdn.co/image/ab67616d000048517b8420ca49fa8270c3cdd7c9"
+    "image": "https://i.scdn.co/image/ab67616d000048517b8420ca49fa8270c3cdd7c9",
+    "popularity": 55
   },
   {
     "title": "Magic in the Air",
@@ -1841,7 +1916,8 @@
     "uri": "https://getsongbpm.com/song/magic-in-the-air/yo5NGw",
     "source": "getsongbpm",
     "spotifyId": "3s6ltUrI93LBKU8taezsLn",
-    "image": "https://i.scdn.co/image/ab67616d00004851e2c130193d338ac38c24322d"
+    "image": "https://i.scdn.co/image/ab67616d00004851e2c130193d338ac38c24322d",
+    "popularity": 67
   },
   {
     "title": "Les Démons de minuit (version longue)",
@@ -1863,7 +1939,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "43vyhb09Br6VAHlkIHCc4V",
-    "image": "https://i.scdn.co/image/ab67616d000048518a72a4697d1e5561fbdc104d"
+    "image": "https://i.scdn.co/image/ab67616d000048518a72a4697d1e5561fbdc104d",
+    "popularity": 17
   },
   {
     "title": "Nuit de folie",
@@ -1884,7 +1961,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "1vBXixLz7cVLLTdR4Xe8aL",
-    "image": "https://i.scdn.co/image/ab67616d00004851ebd8cd8cec924a4a4eb2dfea"
+    "image": "https://i.scdn.co/image/ab67616d00004851ebd8cd8cec924a4a4eb2dfea",
+    "popularity": 56
   },
   {
     "title": "Chocolat (feat. Awa Imani)",
@@ -1903,7 +1981,8 @@
     "uri": "https://getsongbpm.com/song/chocolat-featpoint-awa-imani/r21oWK",
     "source": "getsongbpm",
     "spotifyId": "4fwtP5khM1iEoa6BP1QQsX",
-    "image": "https://i.scdn.co/image/ab67616d00004851c7bdde88d4149feeaf12e02b"
+    "image": "https://i.scdn.co/image/ab67616d00004851c7bdde88d4149feeaf12e02b",
+    "popularity": 60
   },
   {
     "title": "Thrift Shop",
@@ -1922,7 +2001,8 @@
     "uri": "https://getsongbpm.com/song/thrift-shop/2vlkZK",
     "source": "getsongbpm",
     "spotifyId": "7bYZBVrnRfqeaPbhRyEvK3",
-    "image": "https://i.scdn.co/image/ab67616d00004851938f1c0cc7d36a671ed226a7"
+    "image": "https://i.scdn.co/image/ab67616d00004851938f1c0cc7d36a671ed226a7",
+    "popularity": 64
   },
   {
     "title": "Réseaux",
@@ -1943,7 +2023,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "0HKNlsZ0zFlSqUqWj1nVVG",
-    "image": "https://i.scdn.co/image/ab67616d00004851c623dfdb1ae0129541d4e2d3"
+    "image": "https://i.scdn.co/image/ab67616d00004851c623dfdb1ae0129541d4e2d3",
+    "popularity": 63
   },
   {
     "title": "Ça plane pour moi",
@@ -1966,7 +2047,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "4sf4Lq52b2iCoAgpge7a9g",
-    "image": "https://i.scdn.co/image/ab67616d000048517e10f86e4f1f376ff2b26e15"
+    "image": "https://i.scdn.co/image/ab67616d000048517e10f86e4f1f376ff2b26e15",
+    "popularity": 63
   },
   {
     "title": "Logobitombo",
@@ -1985,7 +2067,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "5L3i9murWmBM62XVDV9JDk",
-    "image": "https://i.scdn.co/image/ab67616d00004851270f79d9ec89f36f6b5060eb"
+    "image": "https://i.scdn.co/image/ab67616d00004851270f79d9ec89f36f6b5060eb",
+    "popularity": 44
   },
   {
     "title": "Mafiosa (feat. Caroliina)",
@@ -2004,7 +2087,8 @@
     "uri": "https://getsongbpm.com/song/mafiosa-featpoint-caroliina/gplDDZ",
     "source": "getsongbpm",
     "spotifyId": "0WxiQqTcK3ZErx2mMWgtm6",
-    "image": "https://i.scdn.co/image/ab67616d0000485184828b32b1041d272c6a31b3"
+    "image": "https://i.scdn.co/image/ab67616d0000485184828b32b1041d272c6a31b3",
+    "popularity": 61
   },
   {
     "title": "Ma direction",
@@ -2026,7 +2110,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "6tFJdAZGXGsHTdMKmc1NjR",
-    "image": "https://i.scdn.co/image/ab67616d0000485181e6951f23e0a64449c9e975"
+    "image": "https://i.scdn.co/image/ab67616d0000485181e6951f23e0a64449c9e975",
+    "popularity": 58
   },
   {
     "title": "Fallait Pas",
@@ -2045,7 +2130,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "3VopW4TAhthIq3N4mAXwhY",
-    "image": "https://i.scdn.co/image/ab67616d00004851ba3ad7241f4694bb278b5852"
+    "image": "https://i.scdn.co/image/ab67616d00004851ba3ad7241f4694bb278b5852",
+    "popularity": 54
   },
   {
     "title": "Comportement",
@@ -2064,7 +2150,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "2nOZaGwMYt07nXtIeYbEiu",
-    "image": "https://i.scdn.co/image/ab67616d00004851d46bd7cfa437851c2eb13e86"
+    "image": "https://i.scdn.co/image/ab67616d00004851d46bd7cfa437851c2eb13e86",
+    "popularity": 56
   },
   {
     "title": "Chuis bo !",
@@ -2086,7 +2173,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "0SNDzKQtOyVULvtVkpTBDX",
-    "image": "https://i.scdn.co/image/ab67616d00004851c3ee642e6bce4916db3c6359"
+    "image": "https://i.scdn.co/image/ab67616d00004851c3ee642e6bce4916db3c6359",
+    "popularity": 54
   },
   {
     "title": "Chérie Coco",
@@ -2105,7 +2193,8 @@
     "uri": "https://getsongbpm.com/song/cherie-coco/pg47MN",
     "source": "getsongbpm",
     "spotifyId": "6zUOTErlhzIGzCg9cQz7SU",
-    "image": "https://i.scdn.co/image/ab67616d00004851014e0aff333afc705e70ba39"
+    "image": "https://i.scdn.co/image/ab67616d00004851014e0aff333afc705e70ba39",
+    "popularity": 48
   },
   {
     "title": "Les filles adorent",
@@ -2127,7 +2216,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "2lFO4LKJPmsiYzqEQn3Gt6",
-    "image": "https://i.scdn.co/image/ab67616d0000485140243d1ac6397980f7abefda"
+    "image": "https://i.scdn.co/image/ab67616d0000485140243d1ac6397980f7abefda",
+    "popularity": 44
   },
   {
     "title": "Djadja",
@@ -2146,7 +2236,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "7sKDftgGirHWTVFMtJoDoh",
-    "image": "https://i.scdn.co/image/ab67616d0000485156feea19a0436ec52a9217c9"
+    "image": "https://i.scdn.co/image/ab67616d0000485156feea19a0436ec52a9217c9",
+    "popularity": 68
   },
   {
     "title": "Laisse tomber tes problèmes - Remix 2019",
@@ -2165,7 +2256,8 @@
     "uri": "https://getsongbpm.com/song/laisse-tomber-tes-problemes-remix-2019/Z8Aj3R",
     "source": "getsongbpm",
     "spotifyId": "3Xjm1X45Uxr5dQ8l0U9BsJ",
-    "image": "https://i.scdn.co/image/ab67616d000048516bedf402046c4fbf5cdfb85e"
+    "image": "https://i.scdn.co/image/ab67616d000048516bedf402046c4fbf5cdfb85e",
+    "popularity": 1
   },
   {
     "title": "Macarena",
@@ -2187,7 +2279,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "6mhw2fEPH4fMF0wolNm96e",
-    "image": "https://i.scdn.co/image/ab67616d00004851b32c683cba9d35640c19ef21"
+    "image": "https://i.scdn.co/image/ab67616d00004851b32c683cba9d35640c19ef21",
+    "popularity": 63
   },
   {
     "title": "Waka Waka (esto es África) (K-mix, Spanish version)",
@@ -2231,7 +2324,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "4u2dQmcZaFAu0fKXGmIf96",
-    "image": "https://i.scdn.co/image/ab67616d00004851d17e32344f48ecd46b0a4c60"
+    "image": "https://i.scdn.co/image/ab67616d00004851d17e32344f48ecd46b0a4c60",
+    "popularity": 48
   },
   {
     "title": "Alexandrie Alexandra",
@@ -2275,7 +2369,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "0HPD5WQqrq7wPWR7P7Dw1i",
-    "image": "https://i.scdn.co/image/ab67616d0000485197c7b770b28ffeed164f4d0e"
+    "image": "https://i.scdn.co/image/ab67616d0000485197c7b770b28ffeed164f4d0e",
+    "popularity": 82
   },
   {
     "title": "Zumba He Zumba Ha",
@@ -2294,7 +2389,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "00PhRxMpNWMaIgGLrYeSEB",
-    "image": "https://i.scdn.co/image/ab67616d00004851d0dba39fcd90783ab915c446"
+    "image": "https://i.scdn.co/image/ab67616d00004851d0dba39fcd90783ab915c446",
+    "popularity": 47
   },
   {
     "title": "Bumpy Ride",
@@ -2315,7 +2411,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "71R6zJsrF3ffc3TBFHfivX",
-    "image": "https://i.scdn.co/image/ab67616d000048513cfcf82ef4d0685f4e4e95a5"
+    "image": "https://i.scdn.co/image/ab67616d000048513cfcf82ef4d0685f4e4e95a5",
+    "popularity": 68
   },
   {
     "title": "Basique",
@@ -2334,7 +2431,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "45T3Ee5uw32XI2X1VNsJqn",
-    "image": "https://i.scdn.co/image/ab67616d000048517e41808b163893160ccf414b"
+    "image": "https://i.scdn.co/image/ab67616d000048517e41808b163893160ccf414b",
+    "popularity": 46
   },
   {
     "title": "Hangover",
@@ -2357,7 +2455,8 @@
     "uri": "https://getsongbpm.com/song/hangover/9QLKZ8",
     "source": "getsongbpm",
     "spotifyId": "5pmL3RzOy3IvGFaSDi4hZL",
-    "image": "https://i.scdn.co/image/ab67616d0000485127656009177a4273a62c758a"
+    "image": "https://i.scdn.co/image/ab67616d0000485127656009177a4273a62c758a",
+    "popularity": 70
   },
   {
     "title": "Polygame",
@@ -2376,7 +2475,8 @@
     "uri": "https://getsongbpm.com/song/polygame/5Q6VWx",
     "source": "getsongbpm",
     "spotifyId": "4yQ8ULhg5gjvgp3E0tygDp",
-    "image": "https://i.scdn.co/image/ab67616d00004851e1eeafc290892d0ce3185a05"
+    "image": "https://i.scdn.co/image/ab67616d00004851e1eeafc290892d0ce3185a05",
+    "popularity": 44
   },
   {
     "title": "Rockabye (feat. Sean Paul & Anne-Marie)",
@@ -2395,7 +2495,8 @@
     "uri": "https://getsongbpm.com/song/rockabye-featpoint-sean-paul-and-anne-marie/79QR7r",
     "source": "getsongbpm",
     "spotifyId": "2hrUO4drrO63i7FYbCLBl2",
-    "image": "https://i.scdn.co/image/ab67616d000048515c66e925d8fe4c92ebfb49ed"
+    "image": "https://i.scdn.co/image/ab67616d000048515c66e925d8fe4c92ebfb49ed",
+    "popularity": 72
   },
   {
     "title": "Shape of You",
@@ -2416,7 +2517,8 @@
     "bpmSource": "djay_pro",
     "keySource": "djay_pro",
     "spotifyId": "7qiZfU4dY1lWllzX7mPBI3",
-    "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96"
+    "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
+    "popularity": 85
   },
   {
     "title": "Mama",
@@ -2433,7 +2535,8 @@
     "uri": "https://getsongbpm.com/song/mama/r2zN8w",
     "source": "getsongbpm",
     "spotifyId": "7jEyX4bqaCSdMN4D4JNnVj",
-    "image": "https://i.scdn.co/image/ab67616d000048515b6bcc59c3562a6f362344c6"
+    "image": "https://i.scdn.co/image/ab67616d000048515b6bcc59c3562a6f362344c6",
+    "popularity": 71
   },
   {
     "title": "Glorious (feat. Skylar Grey)",
@@ -2454,7 +2557,8 @@
     "uri": "https://getsongbpm.com/song/glorious-featpoint-skylar-grey/x6DXWJ",
     "source": "getsongbpm",
     "spotifyId": "0CokSRCu5hZgPxcZBaEzVE",
-    "image": "https://i.scdn.co/image/ab67616d000048512e94b668c60b06deb1c3a05c"
+    "image": "https://i.scdn.co/image/ab67616d000048512e94b668c60b06deb1c3a05c",
+    "popularity": 75
   },
   {
     "title": "MMM",
@@ -2473,7 +2577,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "0Jl9rd0LX2xrZFPEpRYWAT",
-    "image": "https://i.scdn.co/image/ab67616d00004851a1eb0c251dcc1c175752607e"
+    "image": "https://i.scdn.co/image/ab67616d00004851a1eb0c251dcc1c175752607e",
+    "popularity": 53
   },
   {
     "title": "Havana",
@@ -2490,7 +2595,8 @@
     "uri": "https://getsongbpm.com/song/havana/6W3NNz",
     "source": "getsongbpm",
     "spotifyId": "1rfofaqEpACxVEHIZBJe6W",
-    "image": "https://i.scdn.co/image/ab67616d00004851652c9f55dfbf3cfe1800daea"
+    "image": "https://i.scdn.co/image/ab67616d00004851652c9f55dfbf3cfe1800daea",
+    "popularity": 80
   },
   {
     "title": "Sac à dos",
@@ -2509,7 +2615,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "6WzuBQg8YcvHrargJhHeS2",
-    "image": "https://i.scdn.co/image/ab67616d00004851a1eb0c251dcc1c175752607e"
+    "image": "https://i.scdn.co/image/ab67616d00004851a1eb0c251dcc1c175752607e",
+    "popularity": 44
   },
   {
     "title": "Get Busy",
@@ -2533,7 +2640,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "6bK9BH9Ts8Gj5JFvnQkzak",
-    "image": "https://i.scdn.co/image/ab67616d00004851b85a43ff52cecb0ab0a49677"
+    "image": "https://i.scdn.co/image/ab67616d00004851b85a43ff52cecb0ab0a49677",
+    "popularity": 74
   },
   {
     "title": "Échame La Culpa",
@@ -2553,7 +2661,8 @@
     "uri": "https://getsongbpm.com/song/echame-la-culpa/EqzgZN",
     "source": "getsongbpm",
     "spotifyId": "0mlAOSILGRys2IbvyOT5VJ",
-    "image": "https://i.scdn.co/image/ab67616d00004851ef0d4234e1a645740f77d59c"
+    "image": "https://i.scdn.co/image/ab67616d00004851ef0d4234e1a645740f77d59c",
+    "popularity": 71
   },
   {
     "title": "Vai et viens",
@@ -2574,7 +2683,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "6dAx0jUY9lnXEtBiK7e2ZZ",
-    "image": "https://i.scdn.co/image/ab67616d0000485184828b32b1041d272c6a31b3"
+    "image": "https://i.scdn.co/image/ab67616d0000485184828b32b1041d272c6a31b3",
+    "popularity": 58
   },
   {
     "title": "Mad Love",
@@ -2596,7 +2706,8 @@
     "uri": "https://getsongbpm.com/song/mad-love/qQK7Nk",
     "source": "getsongbpm",
     "spotifyId": "4dSoDnmR9opAQ8KxUc9SbC",
-    "image": "https://i.scdn.co/image/ab67616d000048512d564195ed3dd7b70d64862c"
+    "image": "https://i.scdn.co/image/ab67616d000048512d564195ed3dd7b70d64862c",
+    "popularity": 62
   },
   {
     "title": "Solo (feat. Demi Lovato)",
@@ -2615,7 +2726,8 @@
     "uri": "https://getsongbpm.com/song/solo-featpoint-demi-lovato/6WPQ7l",
     "source": "getsongbpm",
     "spotifyId": "6kPJZM97LwdG9QIsT7khp6",
-    "image": "https://i.scdn.co/image/ab67616d0000485167eda217860e86c43481a5cb"
+    "image": "https://i.scdn.co/image/ab67616d0000485167eda217860e86c43481a5cb",
+    "popularity": 66
   },
   {
     "title": "Blah Blah Blah (Mix Cut)",
@@ -2636,7 +2748,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "1eO31EahFMG32QJq23wHwq",
-    "image": "https://i.scdn.co/image/ab67616d00004851f67839017c1671f6ce492069"
+    "image": "https://i.scdn.co/image/ab67616d00004851f67839017c1671f6ce492069",
+    "popularity": 16
   },
   {
     "title": "Taki Taki (feat. Selena Gomez, Ozuna & Cardi B)",
@@ -2653,7 +2766,8 @@
     "uri": "https://getsongbpm.com/song/taki-taki-featpoint-selena-gomez-ozuna-and-cardi-b/08wm6v",
     "source": "getsongbpm",
     "spotifyId": "4w8niZpiMy6qz1mntFA5uM",
-    "image": "https://i.scdn.co/image/ab67616d00004851e105c410a7b390c61a58cbf8"
+    "image": "https://i.scdn.co/image/ab67616d00004851e105c410a7b390c61a58cbf8",
+    "popularity": 70
   },
   {
     "title": "Pookie",
@@ -2672,7 +2786,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "2QpUWi6VSNOt2WyH5FIeLD",
-    "image": "https://i.scdn.co/image/ab67616d0000485156feea19a0436ec52a9217c9"
+    "image": "https://i.scdn.co/image/ab67616d0000485156feea19a0436ec52a9217c9",
+    "popularity": 62
   },
   {
     "title": "Sucette (feat. Niska)",
@@ -2689,7 +2804,8 @@
     "uri": "https://getsongbpm.com/song/sucette-featpoint-niska/A6vXvl",
     "source": "getsongbpm",
     "spotifyId": "3qHs2PoiJMPvdxgyRSvqAl",
-    "image": "https://i.scdn.co/image/ab67616d0000485156feea19a0436ec52a9217c9"
+    "image": "https://i.scdn.co/image/ab67616d0000485156feea19a0436ec52a9217c9",
+    "popularity": 50
   },
   {
     "title": "Zoum (feat. Niska)",
@@ -2709,7 +2825,8 @@
     "uri": "https://getsongbpm.com/song/zoum-featpoint-niska/mqDgz9",
     "source": "getsongbpm",
     "spotifyId": "1ALK7oqxMr5yonp9ZfTWH5",
-    "image": "https://i.scdn.co/image/ab67616d00004851ef427499519942ecd7812a13"
+    "image": "https://i.scdn.co/image/ab67616d00004851ef427499519942ecd7812a13",
+    "popularity": 43
   },
   {
     "title": "La dot",
@@ -2728,7 +2845,8 @@
     "bpmSource": "djay_pro_ax",
     "keySource": "djay_pro_ax",
     "spotifyId": "3aRgAfrt6aQW8IimLq2aVG",
-    "image": "https://i.scdn.co/image/ab67616d0000485156feea19a0436ec52a9217c9"
+    "image": "https://i.scdn.co/image/ab67616d0000485156feea19a0436ec52a9217c9",
+    "popularity": 54
   },
   {
     "title": "Give Me Everything",
@@ -2751,7 +2869,8 @@
     "uri": "https://getsongbpm.com/song/give-me-everything/qYAzO7",
     "source": "getsongbpm",
     "spotifyId": "4QNpBfC0zvjKqPJcyqBy9W",
-    "image": "https://i.scdn.co/image/ab67616d000048511dc7483a9fcfce54822a2f19"
+    "image": "https://i.scdn.co/image/ab67616d000048511dc7483a9fcfce54822a2f19",
+    "popularity": 84
   },
   {
     "title": "Treading Water",
@@ -12918,7 +13037,8 @@
     "keySource": "djay_pro",
     "spotifyId": "780be5fB7823aHG06mwTat",
     "year": "2020",
-    "image": "https://i.scdn.co/image/ab67616d00004851fc7ce3acfa2e8c2479bcf621"
+    "image": "https://i.scdn.co/image/ab67616d00004851fc7ce3acfa2e8c2479bcf621",
+    "popularity": 72
   },
   {
     "title": "Danza Kuduro",
@@ -12957,7 +13077,8 @@
     "keySource": "djay_pro_ax",
     "spotifyId": "47EiUVwUp4C9fGccaPuUCS",
     "year": "2020",
-    "image": "https://i.scdn.co/image/ab67616d0000485134c8199b0b3b3fb42b8a98a8"
+    "image": "https://i.scdn.co/image/ab67616d0000485134c8199b0b3b3fb42b8a98a8",
+    "popularity": 76
   },
   {
     "title": "Goosebumps - Remix",
@@ -12970,7 +13091,8 @@
     "keySource": "djay_pro",
     "spotifyId": "5uEYRdEIh9Bo4fpjDd4Na9",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d00004851261927ea4874e8f375ad27ce"
+    "image": "https://i.scdn.co/image/ab67616d00004851261927ea4874e8f375ad27ce",
+    "popularity": 72
   },
   {
     "title": "Overdrive (feat. Norma Jean Martine)",
@@ -12983,7 +13105,8 @@
     "keySource": "djay_pro",
     "spotifyId": "3bK1zVFBKIzYjmptmI4NsJ",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d000048511f61826b7733a2071e54ce48"
+    "image": "https://i.scdn.co/image/ab67616d000048511f61826b7733a2071e54ce48",
+    "popularity": 80
   },
   {
     "title": "DESPECHÁ",
@@ -12996,7 +13119,8 @@
     "keySource": "djay_pro_ax",
     "spotifyId": "5ildQOEKmJuWGl2vRkFdYc",
     "year": "2022",
-    "image": "https://i.scdn.co/image/ab67616d00004851938660520f09a1bae2ed4699"
+    "image": "https://i.scdn.co/image/ab67616d00004851938660520f09a1bae2ed4699",
+    "popularity": 71
   },
   {
     "title": "Jerusalema (feat. Nomcebo Zikode)",
@@ -13009,7 +13133,8 @@
     "keySource": "djay_pro_ax",
     "spotifyId": "2MlOUXmcofMackX3bxfSwi",
     "year": "2020",
-    "image": "https://i.scdn.co/image/ab67616d000048515206b258d1a6f0689577fe58"
+    "image": "https://i.scdn.co/image/ab67616d000048515206b258d1a6f0689577fe58",
+    "popularity": 68
   },
   {
     "title": "GIRL LIKE ME",
@@ -13045,7 +13170,8 @@
     "keySource": "djay_pro_ax",
     "spotifyId": "0vbtURX4qv1l7besfwmnD8",
     "year": "2016",
-    "image": "https://i.scdn.co/image/ab67616d000048511db27fa11dbafa67857da8f3"
+    "image": "https://i.scdn.co/image/ab67616d000048511db27fa11dbafa67857da8f3",
+    "popularity": 79
   },
   {
     "title": "Pepas",
@@ -13058,7 +13184,8 @@
     "keySource": "djay_pro",
     "spotifyId": "5fwSHlTEWpluwOM0Sxnh5k",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d000048513e3957dcca26c5f4ecf015ad"
+    "image": "https://i.scdn.co/image/ab67616d000048513e3957dcca26c5f4ecf015ad",
+    "popularity": 76
   },
   {
     "title": "How I Feel (Am I Wrong)",
@@ -13071,7 +13198,8 @@
     "keySource": "djay_pro_ax",
     "spotifyId": "1fidCEsYlaVE3pHwKCvpFZ",
     "year": "2014",
-    "image": "https://i.scdn.co/image/ab67616d00004851eb3c078694b007169dab4a4f"
+    "image": "https://i.scdn.co/image/ab67616d00004851eb3c078694b007169dab4a4f",
+    "popularity": 75
   },
   {
     "title": "A Un Paso De La Luna",
@@ -13109,7 +13237,8 @@
     "keySource": "djay_pro",
     "spotifyId": "1A8j067qyiNwQnZT0bzUpZ",
     "year": "2016",
-    "image": "https://i.scdn.co/image/ab67616d00004851af72d0856c5527dc97f3ea08"
+    "image": "https://i.scdn.co/image/ab67616d00004851af72d0856c5527dc97f3ea08",
+    "popularity": 76
   },
   {
     "title": "Goodbye (feat. Lyse) - Radio Edit",
@@ -13122,7 +13251,8 @@
     "keySource": "djay_pro",
     "spotifyId": "28LzmRnsiidhiBBUvdi6Aj",
     "year": "2015",
-    "image": "https://i.scdn.co/image/ab67616d000048513d158890ab769eb69c01a207"
+    "image": "https://i.scdn.co/image/ab67616d000048513d158890ab769eb69c01a207",
+    "popularity": 56
   },
   {
     "title": "Trompeta",
@@ -13135,7 +13265,8 @@
     "keySource": "djay_pro",
     "spotifyId": "1xyz2xqqpnhT3k1ApFPu6S",
     "year": "2022",
-    "image": "https://i.scdn.co/image/ab67616d000048518b3fd22747b5e4f366ea857a"
+    "image": "https://i.scdn.co/image/ab67616d000048518b3fd22747b5e4f366ea857a",
+    "popularity": 52
   },
   {
     "title": "One Kiss (with Dua Lipa)",
@@ -13148,7 +13279,8 @@
     "keySource": "djay_pro_ax",
     "spotifyId": "7ef4DlsgrMEH11cDZd32M6",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d00004851d09f96d82310d4d77c14c108"
+    "image": "https://i.scdn.co/image/ab67616d00004851d09f96d82310d4d77c14c108",
+    "popularity": 78
   },
   {
     "title": "Get Lucky",
@@ -13159,7 +13291,8 @@
     "spotifyId": "69kOkLUCkxIZYexIgSG8rq",
     "album": "Random Access Memories",
     "year": "2013",
-    "image": "https://i.scdn.co/image/ab67616d000048519b9b36b0e22870b9f542d937"
+    "image": "https://i.scdn.co/image/ab67616d000048519b9b36b0e22870b9f542d937",
+    "popularity": 72
   },
   {
     "title": "greedy",
@@ -13172,7 +13305,8 @@
     "spotifyId": "3rUGC1vUpkDG9CZFHMur1t",
     "album": "greedy",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d000048515f677b5d3b81f08badd0775b"
+    "image": "https://i.scdn.co/image/ab67616d000048515f677b5d3b81f08badd0775b",
+    "popularity": 85
   },
   {
     "title": "La Mamá de la Mamá",
@@ -13185,7 +13319,8 @@
     "spotifyId": "4zTSSrtsaVVjT3RZKQ1Gqn",
     "album": "SAGITARIO",
     "year": "2022",
-    "image": "https://i.scdn.co/image/ab67616d000048513242fdd0d5f5c1dfe49ce924"
+    "image": "https://i.scdn.co/image/ab67616d000048513242fdd0d5f5c1dfe49ce924",
+    "popularity": 71
   },
   {
     "title": "Y Que Fue?",
@@ -13198,7 +13333,8 @@
     "spotifyId": "5UcVIU1tsbN7ZsOSpR8AFD",
     "album": "Y Que Fue?",
     "year": "2020",
-    "image": "https://i.scdn.co/image/ab67616d00004851f84ac9a57d80efd18e42fa72"
+    "image": "https://i.scdn.co/image/ab67616d00004851f84ac9a57d80efd18e42fa72",
+    "popularity": 68
   },
   {
     "title": "I Follow Rivers - The Magician Remix",
@@ -13232,7 +13368,8 @@
     "spotifyId": "0azC730Exh71aQlOt9Zj3y",
     "album": "This Is What You Came For",
     "year": "2016",
-    "image": "https://i.scdn.co/image/ab67616d000048512b0b6b4b5f493dbccacd0de4"
+    "image": "https://i.scdn.co/image/ab67616d000048512b0b6b4b5f493dbccacd0de4",
+    "popularity": 76
   },
   {
     "title": "End of Beginning",
@@ -13245,7 +13382,8 @@
     "spotifyId": "3qhlB30KknSejmIvZZLjOD",
     "album": "DECIDE",
     "year": "2022",
-    "image": "https://i.scdn.co/image/ab67616d00004851fddfffec51b4580acae727c1"
+    "image": "https://i.scdn.co/image/ab67616d00004851fddfffec51b4580acae727c1",
+    "popularity": 88
   },
   {
     "title": "Shut Up And Drive",
@@ -13256,7 +13394,8 @@
     "spotifyId": "4Tn2llBm1g0UlWctmgPL8Z",
     "album": "Good Girl Gone Bad: Reloaded",
     "year": "2008",
-    "image": "https://i.scdn.co/image/ab67616d00004851f9f27162ab1ed45b8d7a7e98"
+    "image": "https://i.scdn.co/image/ab67616d00004851f9f27162ab1ed45b8d7a7e98",
+    "popularity": 68
   },
   {
     "title": "BREAK MY SOUL",
@@ -13269,7 +13408,8 @@
     "spotifyId": "5pyoxDZ1PX0KxBxiRVxA4U",
     "album": "RENAISSANCE",
     "year": "2022",
-    "image": "https://i.scdn.co/image/ab67616d0000485169a3c061676c2020adfe8315"
+    "image": "https://i.scdn.co/image/ab67616d0000485169a3c061676c2020adfe8315",
+    "popularity": 66
   },
   {
     "title": "Garden Of Eden",
@@ -13282,7 +13422,8 @@
     "spotifyId": "4mUR5Tv0CvJtpmnUtzeIgd",
     "album": "MAYHEM",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851b0860cf0a98e09663c82290c"
+    "image": "https://i.scdn.co/image/ab67616d00004851b0860cf0a98e09663c82290c",
+    "popularity": 86
   },
   {
     "title": "S&M",
@@ -13295,7 +13436,8 @@
     "spotifyId": "0C4ejWmOTMv8vuYj85mf8m",
     "album": "Loud",
     "year": "2010",
-    "image": "https://i.scdn.co/image/ab67616d000048512ed326786e4c61c6b1dbf222"
+    "image": "https://i.scdn.co/image/ab67616d000048512ed326786e4c61c6b1dbf222",
+    "popularity": 70
   },
   {
     "title": "Aperture",
@@ -13306,7 +13448,8 @@
     "spotifyId": "45Z3m6yazmAi4jZuW0tzW0",
     "album": "Aperture",
     "year": "2026",
-    "image": "https://i.scdn.co/image/ab67616d000048516b10b937d94f055f8890cb62"
+    "image": "https://i.scdn.co/image/ab67616d000048516b10b937d94f055f8890cb62",
+    "popularity": 92
   },
   {
     "title": "Stateside",
@@ -13317,7 +13460,8 @@
     "spotifyId": "1DwscornXpj8fmOmYVlqZt",
     "album": "Fancy Some More?",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851684ecc5bc1b724d0106ad694"
+    "image": "https://i.scdn.co/image/ab67616d00004851684ecc5bc1b724d0106ad694",
+    "popularity": 35
   },
   {
     "title": "SexyBack",
@@ -13328,7 +13472,8 @@
     "spotifyId": "0O45fw2L5vsWpdsOdXwNAR",
     "album": "FutureSex/LoveSounds",
     "year": "2006",
-    "image": "https://i.scdn.co/image/ab67616d00004851c6ba98fd3f3b396a6c6f7091"
+    "image": "https://i.scdn.co/image/ab67616d00004851c6ba98fd3f3b396a6c6f7091",
+    "popularity": 79
   },
   {
     "title": "Don't Start Now",
@@ -13341,7 +13486,8 @@
     "spotifyId": "3PfIrDoz19wz7qK7tYeu62",
     "album": "Future Nostalgia",
     "year": "2020",
-    "image": "https://i.scdn.co/image/ab67616d00004851c88bae7846e62a8ba59ee0bd"
+    "image": "https://i.scdn.co/image/ab67616d00004851c88bae7846e62a8ba59ee0bd",
+    "popularity": 79
   },
   {
     "title": "One Kiss",
@@ -13352,7 +13498,8 @@
     "spotifyId": "7ef4DlsgrMEH11cDZd32M6",
     "album": "One Kiss (with Dua Lipa)",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d00004851d09f96d82310d4d77c14c108"
+    "image": "https://i.scdn.co/image/ab67616d00004851d09f96d82310d4d77c14c108",
+    "popularity": 78
   },
   {
     "title": "Dirty Cash (Money Talks)",
@@ -13363,7 +13510,8 @@
     "spotifyId": "2VyvDGdcVY04cNYou9MFVX",
     "album": "Dirty Cash (Money Talks)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d00004851388a49c048fd9f67e338c3c6"
+    "image": "https://i.scdn.co/image/ab67616d00004851388a49c048fd9f67e338c3c6",
+    "popularity": 81
   },
   {
     "title": "Heads Will Roll - A-Trak Remix",
@@ -13389,7 +13537,8 @@
     "spotifyId": "5TbzAWWc5eJaANpA9kfGCd",
     "album": "Tribute",
     "year": "2013",
-    "image": "https://i.scdn.co/image/ab67616d00004851b38d10a0f9eabec693d8f96e"
+    "image": "https://i.scdn.co/image/ab67616d00004851b38d10a0f9eabec693d8f96e",
+    "popularity": 75
   },
   {
     "title": "Outside",
@@ -13400,7 +13549,8 @@
     "spotifyId": "7MmG8p0F9N3C4AXdK6o6Eb",
     "album": "Motion",
     "year": "2014",
-    "image": "https://i.scdn.co/image/ab67616d000048518fba5806a323efd272677c4d"
+    "image": "https://i.scdn.co/image/ab67616d000048518fba5806a323efd272677c4d",
+    "popularity": 81
   },
   {
     "title": "Break Free",
@@ -13424,7 +13574,8 @@
     "spotifyId": "4ZnkygoWLzcGbQYCm3lkae",
     "album": "Something To Give Each Other",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d0000485167103283a4eb57578a428252"
+    "image": "https://i.scdn.co/image/ab67616d0000485167103283a4eb57578a428252",
+    "popularity": 76
   },
   {
     "title": "Lean On",
@@ -13448,7 +13599,8 @@
     "spotifyId": "4Oun2ylbjFKMPTiaSbbCih",
     "album": "WAP (feat. Megan Thee Stallion)",
     "year": "2020",
-    "image": "https://i.scdn.co/image/ab67616d00004851a761e55b720a0778f2170dc9"
+    "image": "https://i.scdn.co/image/ab67616d00004851a761e55b720a0778f2170dc9",
+    "popularity": 74
   },
   {
     "title": "I Like To Move It",
@@ -13459,7 +13611,8 @@
     "spotifyId": "4bAFo6r2ODMDoqM5YHV2gM",
     "album": "Madagascar: Escape 2 Africa (Music From The Motion Picture)",
     "year": "2008",
-    "image": "https://i.scdn.co/image/ab67616d000048514fa16ce4d3cf85624dd4dd30"
+    "image": "https://i.scdn.co/image/ab67616d000048514fa16ce4d3cf85624dd4dd30",
+    "popularity": 69
   },
   {
     "title": "Memories (Extended)",
@@ -13470,7 +13623,8 @@
     "spotifyId": "3mVXDesOrTDitI8Uvog77C",
     "album": "One Love (Club Version)",
     "year": "2009",
-    "image": "https://i.scdn.co/image/ab67616d00004851530f41ffd5a9bf22943d1be8"
+    "image": "https://i.scdn.co/image/ab67616d00004851530f41ffd5a9bf22943d1be8",
+    "popularity": 46
   },
   {
     "title": "Cake By The Ocean",
@@ -13483,7 +13637,8 @@
     "spotifyId": "76hfruVvmfQbw0eYn1nmeC",
     "album": "DNCE",
     "year": "2016",
-    "image": "https://i.scdn.co/image/ab67616d000048518d0a75346badc30c8b845be9"
+    "image": "https://i.scdn.co/image/ab67616d000048518d0a75346badc30c8b845be9",
+    "popularity": 79
   },
   {
     "title": "Uptown Funk",
@@ -13494,7 +13649,8 @@
     "spotifyId": "32OlwWuMpZ6b0aN2RZOeMS",
     "album": "Uptown Special",
     "year": "2015",
-    "image": "https://i.scdn.co/image/ab67616d000048519860171ddfee17f77a570cf6"
+    "image": "https://i.scdn.co/image/ab67616d000048519860171ddfee17f77a570cf6",
+    "popularity": 84
   },
   {
     "title": "Amores Como el Nuestro",
@@ -13505,7 +13661,8 @@
     "spotifyId": "3dUOVExxPh0nmE6DtYVWIE",
     "album": "Cuenta Conmigo",
     "year": "1992",
-    "image": "https://i.scdn.co/image/ab67616d0000485110a9f305f4826ba8ce8bfaa0"
+    "image": "https://i.scdn.co/image/ab67616d0000485110a9f305f4826ba8ce8bfaa0",
+    "popularity": 55
   },
   {
     "title": "Baile Inolvidable",
@@ -13518,7 +13675,8 @@
     "spotifyId": "2lTm559tuIvatlT1u0JYG2",
     "album": "DeBÍ TiRAR MáS FOToS",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851bbd45c8d36e0e045ef640411"
+    "image": "https://i.scdn.co/image/ab67616d00004851bbd45c8d36e0e045ef640411",
+    "popularity": 95
   },
   {
     "title": "The Weekend",
@@ -13554,7 +13712,8 @@
     "spotifyId": "2qjDNbgLzfBpCvDwfw11Qg",
     "album": "One Love",
     "year": "1992",
-    "image": "https://i.scdn.co/image/ab67616d000048515178550d49f1779f612b711f"
+    "image": "https://i.scdn.co/image/ab67616d000048515178550d49f1779f612b711f",
+    "popularity": 68
   },
   {
     "title": "Let's Get Loud",
@@ -13567,7 +13726,8 @@
     "spotifyId": "6kQz6t5z1FK4uohPh8Kd73",
     "album": "On The 6",
     "year": "1999",
-    "image": "https://i.scdn.co/image/ab67616d000048519f8872d948b2f5ec7b7c830b"
+    "image": "https://i.scdn.co/image/ab67616d000048519f8872d948b2f5ec7b7c830b",
+    "popularity": 68
   },
   {
     "title": "Animals",
@@ -13580,7 +13740,8 @@
     "spotifyId": "0A9mHc7oYUoCECqByV8cQR",
     "album": "Animals",
     "year": "2013",
-    "image": "https://i.scdn.co/image/ab67616d000048516abad6915a2216dc18e7e3a7"
+    "image": "https://i.scdn.co/image/ab67616d000048516abad6915a2216dc18e7e3a7",
+    "popularity": 68
   },
   {
     "title": "33 Max Verstappen",
@@ -13591,7 +13752,8 @@
     "spotifyId": "4nKRZAONxGgcKCMin730Ai",
     "album": "33 Max Verstappen",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d0000485104d9f288ce2368d96acf306a"
+    "image": "https://i.scdn.co/image/ab67616d0000485104d9f288ce2368d96acf306a",
+    "popularity": 62
   },
   {
     "title": "See You Again",
@@ -13602,7 +13764,8 @@
     "spotifyId": "7KA4W4McWYRpgf0fWsJZWB",
     "album": "Flower Boy",
     "year": "2017",
-    "image": "https://i.scdn.co/image/ab67616d000048518940ac99f49e44f59e6f7fb3"
+    "image": "https://i.scdn.co/image/ab67616d000048518940ac99f49e44f59e6f7fb3",
+    "popularity": 89
   },
   {
     "title": "No Lie",
@@ -13615,7 +13778,8 @@
     "spotifyId": "48QmG1dfvMuYLxMPt7KSRA",
     "album": "Mad Love The Prequel",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d000048512d564195ed3dd7b70d64862c"
+    "image": "https://i.scdn.co/image/ab67616d000048512d564195ed3dd7b70d64862c",
+    "popularity": 80
   },
   {
     "title": "Satisfaction",
@@ -13626,7 +13790,8 @@
     "spotifyId": "0lwyzp7GppQxv0Eu6wRkUo",
     "album": "Satisfaction",
     "year": "2022",
-    "image": "https://i.scdn.co/image/ab67616d00004851774f38d20ea492970bbd7ad9"
+    "image": "https://i.scdn.co/image/ab67616d00004851774f38d20ea492970bbd7ad9",
+    "popularity": 68
   },
   {
     "title": "Rock That Body",
@@ -13639,7 +13804,8 @@
     "spotifyId": "2WQ09wqQBIOor7Q0VpIDBK",
     "album": "THE E.N.D. (THE ENERGY NEVER DIES) [Deluxe Version]",
     "year": "2009",
-    "image": "https://i.scdn.co/image/ab67616d000048510bd44f5ff9ecc99f7770acc5"
+    "image": "https://i.scdn.co/image/ab67616d000048510bd44f5ff9ecc99f7770acc5",
+    "popularity": 57
   },
   {
     "title": "Kids",
@@ -13650,7 +13816,8 @@
     "spotifyId": "1jJci4qxiYcOHhQR247rEU",
     "album": "Oracular Spectacular",
     "year": "2007",
-    "image": "https://i.scdn.co/image/ab67616d00004851abdf7749aeb5229dbf305f03"
+    "image": "https://i.scdn.co/image/ab67616d00004851abdf7749aeb5229dbf305f03",
+    "popularity": 78
   },
   {
     "title": "The Spins",
@@ -13672,7 +13839,8 @@
     "spotifyId": "1hu2s7qkm5bo03eODpRQO3",
     "album": "Thriller",
     "year": "1982",
-    "image": "https://i.scdn.co/image/ab67616d0000485132a7d87248d1b75463483df5"
+    "image": "https://i.scdn.co/image/ab67616d0000485132a7d87248d1b75463483df5",
+    "popularity": 61
   },
   {
     "title": "Misery",
@@ -13698,7 +13866,8 @@
     "spotifyId": "6J5kc12BW5HuP3d7C3vvx8",
     "album": "DeBÍ TiRAR MáS FOToS",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851bbd45c8d36e0e045ef640411"
+    "image": "https://i.scdn.co/image/ab67616d00004851bbd45c8d36e0e045ef640411",
+    "popularity": 91
   },
   {
     "title": "Femininomenon",
@@ -13709,7 +13878,8 @@
     "spotifyId": "53IRnAWx13PYmoVYtemUBS",
     "album": "The Rise and Fall of a Midwest Princess",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d0000485196fa88fb1789be437d5cb4b6"
+    "image": "https://i.scdn.co/image/ab67616d0000485196fa88fb1789be437d5cb4b6",
+    "popularity": 78
   },
   {
     "title": "Von dutch",
@@ -13722,7 +13892,8 @@
     "spotifyId": "3Y1EvIgEVw51XtgNEgpz5c",
     "album": "BRAT",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d00004851f88b43d15fd14e9525338b59"
+    "image": "https://i.scdn.co/image/ab67616d00004851f88b43d15fd14e9525338b59",
+    "popularity": 74
   },
   {
     "title": "Money Pull Up",
@@ -13748,7 +13919,8 @@
     "spotifyId": "6gR9K14ED3UuhVIu4t9LTk",
     "album": "Ran Out",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851aea1d64afd33362ce90788c3"
+    "image": "https://i.scdn.co/image/ab67616d00004851aea1d64afd33362ce90788c3",
+    "popularity": 56
   },
   {
     "title": "Alors la zone",
@@ -13761,7 +13933,8 @@
     "spotifyId": "3JuVcIgT9s0uvbmuQCyClB",
     "album": "Alors la zone",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d000048512ddee8131b5843b1d328d78c"
+    "image": "https://i.scdn.co/image/ab67616d000048512ddee8131b5843b1d328d78c",
+    "popularity": 46
   },
   {
     "title": "Breakin' Dishes",
@@ -40395,7 +40568,8 @@
     "spotifyId": "1Fw8VCVNNmbwJAR76dlCrS",
     "album": "Nothing Lasts Forever",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d00004851ae21adb43bf35e27df8f21bf"
+    "image": "https://i.scdn.co/image/ab67616d00004851ae21adb43bf35e27df8f21bf",
+    "popularity": 11
   },
   {
     "title": "Have You Ever Needed...",
@@ -40406,7 +40580,8 @@
     "spotifyId": "0nf9RjoFTcOzTIXtmzhRuH",
     "album": "Adrenalize (Deluxe)",
     "year": "1992",
-    "image": "https://i.scdn.co/image/ab67616d000048513061b8dbb3c061b853b8e799"
+    "image": "https://i.scdn.co/image/ab67616d000048513061b8dbb3c061b853b8e799",
+    "popularity": 50
   },
   {
     "title": "Midnight Song (Live) -...",
@@ -40428,7 +40603,8 @@
     "spotifyId": "6K4t31amVTZDgR3sKmwUJJ",
     "album": "Currents",
     "year": "2015",
-    "image": "https://i.scdn.co/image/ab67616d000048519e1cfc756886ac782e363d79"
+    "image": "https://i.scdn.co/image/ab67616d000048519e1cfc756886ac782e363d79",
+    "popularity": 83
   },
   {
     "artist": "- Robin Sc...",
@@ -40454,7 +40630,8 @@
     "spotifyId": "47EiUVwUp4C9fGccaPuUCS",
     "album": "DÁKITI",
     "year": "2020",
-    "image": "https://i.scdn.co/image/ab67616d0000485134c8199b0b3b3fb42b8a98a8"
+    "image": "https://i.scdn.co/image/ab67616d0000485134c8199b0b3b3fb42b8a98a8",
+    "popularity": 76
   },
   {
     "artist": "H",
@@ -40480,7 +40657,8 @@
     "spotifyId": "2MlOUXmcofMackX3bxfSwi",
     "album": "Jerusalema",
     "year": "2020",
-    "image": "https://i.scdn.co/image/ab67616d000048515206b258d1a6f0689577fe58"
+    "image": "https://i.scdn.co/image/ab67616d000048515206b258d1a6f0689577fe58",
+    "popularity": 68
   },
   {
     "artist": "GIRL LIKE ME",
@@ -40506,7 +40684,8 @@
     "spotifyId": "0vbtURX4qv1l7besfwmnD8",
     "album": "At Night, Alone.",
     "year": "2016",
-    "image": "https://i.scdn.co/image/ab67616d000048511db27fa11dbafa67857da8f3"
+    "image": "https://i.scdn.co/image/ab67616d000048511db27fa11dbafa67857da8f3",
+    "popularity": 79
   },
   {
     "artist": "Ana Mena, Rocco Hunt",
@@ -40519,7 +40698,8 @@
     "spotifyId": "6EQR7Y5vVZFiPD0RUECIDv",
     "album": "A Un Paso De La Luna (Remix)",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d00004851bfbac3edc26d6540a5432a48"
+    "image": "https://i.scdn.co/image/ab67616d00004851bfbac3edc26d6540a5432a48",
+    "popularity": 54
   },
   {
     "artist": "Lean On (feat.",
@@ -40532,7 +40712,8 @@
     "spotifyId": "1a050GKPJ0pAmMZWmq71n9",
     "album": "Inmortal Masek",
     "year": "2014",
-    "image": "https://i.scdn.co/image/ab67616d0000485123b5ec36b5bc32e001dc7cfb"
+    "image": "https://i.scdn.co/image/ab67616d0000485123b5ec36b5bc32e001dc7cfb",
+    "popularity": 29
   },
   {
     "artist": "Majestic, Boney M.",
@@ -40545,7 +40726,8 @@
     "spotifyId": "0b18g3G5spr4ZCkz7Y6Q0Q",
     "album": "Rasputin",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d00004851f05cf0af79d057704dc994f4"
+    "image": "https://i.scdn.co/image/ab67616d00004851f05cf0af79d057704dc994f4",
+    "popularity": 78
   },
   {
     "artist": "David Guetta, Kelly Rowland",
@@ -40558,7 +40740,8 @@
     "spotifyId": "0GWGZA5mxo9nHuSyrj70uo",
     "album": "One More Love",
     "year": "2010",
-    "image": "https://i.scdn.co/image/ab67616d000048511813115ff10c5f5ae028321d"
+    "image": "https://i.scdn.co/image/ab67616d000048511813115ff10c5f5ae028321d",
+    "popularity": 72
   },
   {
     "artist": "Changes - Radio Mix",
@@ -40571,7 +40754,8 @@
     "spotifyId": "2SdMEke7JCBEo8t60iyw2r",
     "album": "Changes",
     "year": "2013",
-    "image": "https://i.scdn.co/image/ab67616d000048519b484ba06fc7f37e59bd1871"
+    "image": "https://i.scdn.co/image/ab67616d000048519b484ba06fc7f37e59bd1871",
+    "popularity": 62
   },
   {
     "artist": "Riton, Nightcrawlers, Mufasa & Hyp...",
@@ -40584,7 +40768,8 @@
     "spotifyId": "4cG7HUWYHBV6R6tHn1gxrl",
     "album": "Friday (feat. Mufasa & Hypeman) [Dopamine Re-Edit]",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d00004851815cb538fd7821595b2bc8c5"
+    "image": "https://i.scdn.co/image/ab67616d00004851815cb538fd7821595b2bc8c5",
+    "popularity": 75
   },
   {
     "artist": "Zerb, Sofiya Nzau",
@@ -40597,7 +40782,8 @@
     "spotifyId": "5KTZgG84bKFGm53lhLtTqc",
     "album": "SURRENDER",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d000048516640a8cb89268b6816d7b03f"
+    "image": "https://i.scdn.co/image/ab67616d000048516640a8cb89268b6816d7b03f",
+    "popularity": 73
   },
   {
     "artist": "R3HAB, INNA, Sash!",
@@ -40610,7 +40796,8 @@
     "spotifyId": "6pb5DtlAeG95dNQLHiArRU",
     "album": "Rock My Body (with INNA & Sash!)",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d0000485109450c53b5bdb07a3be0b6ff"
+    "image": "https://i.scdn.co/image/ab67616d0000485109450c53b5bdb07a3be0b6ff",
+    "popularity": 73
   },
   {
     "artist": "Lana Del Rey, Cedric Gervais",
@@ -40649,7 +40836,8 @@
     "spotifyId": "6h5PAsRni4IRlxWr6uDPTP",
     "album": "More Than You Know",
     "year": "2017",
-    "image": "https://i.scdn.co/image/ab67616d00004851fba6de0b38b0168d480b1a27"
+    "image": "https://i.scdn.co/image/ab67616d00004851fba6de0b38b0168d480b1a27",
+    "popularity": 77
   },
   {
     "artist": "Disturbed, CYRIL",
@@ -40662,7 +40850,8 @@
     "spotifyId": "1LY3GhF0zxIVgbYEQjCbUO",
     "album": "The Sound of Silence (CYRIL Remix)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048513b4f7ee095821f15a7d78127"
+    "image": "https://i.scdn.co/image/ab67616d000048513b4f7ee095821f15a7d78127",
+    "popularity": 81
   },
   {
     "artist": "David Guetta, Bebe Rexha",
@@ -40675,7 +40864,8 @@
     "spotifyId": "4uUG5RXrOk84mYEfFvj3cK",
     "album": "I'm Good (Blue)",
     "year": "2022",
-    "image": "https://i.scdn.co/image/ab67616d00004851f24c7321eabddffc3829676b"
+    "image": "https://i.scdn.co/image/ab67616d00004851f24c7321eabddffc3829676b",
+    "popularity": 84
   },
   {
     "artist": "Going Hi Home",
@@ -40688,7 +40878,8 @@
     "spotifyId": "0xfMlIW8lS40qvpsUw1l0X",
     "album": "Never Going Home",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d00004851620940a157773439590c4486"
+    "image": "https://i.scdn.co/image/ab67616d00004851620940a157773439590c4486",
+    "popularity": 62
   },
   {
     "artist": "Some Kind Of Kiss",
@@ -40701,7 +40892,8 @@
     "spotifyId": "2xsRIYRAC0mXttKR4sZscl",
     "album": "Some Kind Of Kiss",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d000048512c9bc8e7a833aaf89526d1f5"
+    "image": "https://i.scdn.co/image/ab67616d000048512c9bc8e7a833aaf89526d1f5",
+    "popularity": 51
   },
   {
     "artist": "Mr. Probz, Robin Schulz",
@@ -40714,7 +40906,8 @@
     "spotifyId": "1HFfMOxCAT4GAwaPfCdmUs",
     "album": "Waves (Robin Schulz Radio Edit)",
     "year": "2014",
-    "image": "https://i.scdn.co/image/ab67616d0000485120062cf8da0f580e9118b487"
+    "image": "https://i.scdn.co/image/ab67616d0000485120062cf8da0f580e9118b487",
+    "popularity": 76
   },
   {
     "artist": "Aventura, Judy Santos",
@@ -40727,7 +40920,8 @@
     "spotifyId": "7pIyJGaGkXr6xCBnF8E86P",
     "album": "We Broke The Rules",
     "year": "2002",
-    "image": "https://i.scdn.co/image/ab67616d00004851e1afa83bd73aa80c0ff0ee34"
+    "image": "https://i.scdn.co/image/ab67616d00004851e1afa83bd73aa80c0ff0ee34",
+    "popularity": 33
   },
   {
     "artist": "Imanbek, BYOR",
@@ -40740,7 +40934,8 @@
     "spotifyId": "7fZBQnc0zXwVybgCIrQQil",
     "album": "Belly Dancer",
     "year": "2022",
-    "image": "https://i.scdn.co/image/ab67616d0000485167eab79381b5a7bb19fc1df9"
+    "image": "https://i.scdn.co/image/ab67616d0000485167eab79381b5a7bb19fc1df9",
+    "popularity": 76
   },
   {
     "artist": "(It t",
@@ -40766,7 +40961,8 @@
     "spotifyId": "2prnn41CblB8B4yWACDljP",
     "album": "Love Tonight (David Guetta Remix)",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d0000485128eec1bed4fe754299ea1e96"
+    "image": "https://i.scdn.co/image/ab67616d0000485128eec1bed4fe754299ea1e96",
+    "popularity": 74
   },
   {
     "artist": "GB",
@@ -40779,7 +40975,8 @@
     "spotifyId": "2NcvQ8N9ugSMforAJT0A4Y",
     "album": "En Attendant Pour Le Peuple...",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048514762de169386b6bc2b8cbd4e"
+    "image": "https://i.scdn.co/image/ab67616d000048514762de169386b6bc2b8cbd4e",
+    "popularity": 65
   },
   {
     "artist": "Stefy De Cicco, Shibui, Andrea Zell...",
@@ -40792,7 +40989,8 @@
     "spotifyId": "79DFRI318iJU1hvZnPzA4K",
     "album": "Superstar",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d000048512c45eef0024f85d32053f40b"
+    "image": "https://i.scdn.co/image/ab67616d000048512c45eef0024f85d32053f40b",
+    "popularity": 50
   },
   {
     "artist": "Purple Disco Machine, Kungs, Julia...",
@@ -40805,7 +41003,8 @@
     "spotifyId": "6BjG4NirMgJfC6QAvbfBNG",
     "album": "Paradise",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048511c022ff0dbcd7861152d9dd2"
+    "image": "https://i.scdn.co/image/ab67616d000048511c022ff0dbcd7861152d9dd2",
+    "popularity": 66
   },
   {
     "artist": "Polo & Pan",
@@ -40818,7 +41017,8 @@
     "spotifyId": "7FOQQJNvfC7x8yO6DQBSFO",
     "album": "Cyclorama",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d00004851aaf57ed3bbc2e6df325c1cd2"
+    "image": "https://i.scdn.co/image/ab67616d00004851aaf57ed3bbc2e6df325c1cd2",
+    "popularity": 51
   },
   {
     "artist": "Stumblin' In",
@@ -40831,7 +41031,8 @@
     "spotifyId": "0h3Xy4V4apMraB5NuM8U7Z",
     "album": "Stumblin' In",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d000048512f04dbbb4ecb78e04f8d09ae"
+    "image": "https://i.scdn.co/image/ab67616d000048512f04dbbb4ecb78e04f8d09ae",
+    "popularity": 83
   },
   {
     "artist": "Macklemore, Ryan Lewis, Macklem...",
@@ -40844,7 +41045,8 @@
     "spotifyId": "1ydmhnyDOWr5y0s7Vvdw5i",
     "album": "The Heist (Deluxe Edition)",
     "year": "2012",
-    "image": "https://i.scdn.co/image/ab67616d00004851938f1c0cc7d36a671ed226a7"
+    "image": "https://i.scdn.co/image/ab67616d00004851938f1c0cc7d36a671ed226a7",
+    "popularity": 62
   },
   {
     "artist": "Gala, Molella, Phil Jay",
@@ -40857,7 +41059,8 @@
     "spotifyId": "3u5N55tHf7hXATSQrjBh2q",
     "album": "Come Into My Life (The Album)",
     "year": "1997",
-    "image": "https://i.scdn.co/image/ab67616d0000485182d43c836792c8b41dc0ad8c"
+    "image": "https://i.scdn.co/image/ab67616d0000485182d43c836792c8b41dc0ad8c",
+    "popularity": 75
   },
   {
     "artist": "Alexandra Stan",
@@ -40870,7 +41073,8 @@
     "spotifyId": "3LWDPEXEaLBRGNLbdcbwBR",
     "album": "Saxobeats",
     "year": "2011",
-    "image": "https://i.scdn.co/image/ab67616d00004851b787b5b057751c4d5bb5de54"
+    "image": "https://i.scdn.co/image/ab67616d00004851b787b5b057751c4d5bb5de54",
+    "popularity": 74
   },
   {
     "artist": "Cruz, Flo Rida",
@@ -40883,7 +41087,8 @@
     "spotifyId": "5pmL3RzOy3IvGFaSDi4hZL",
     "album": "TY.O (International Version)",
     "year": "2011",
-    "image": "https://i.scdn.co/image/ab67616d0000485127656009177a4273a62c758a"
+    "image": "https://i.scdn.co/image/ab67616d0000485127656009177a4273a62c758a",
+    "popularity": 70
   },
   {
     "artist": "DJ Antoine, Paolo Ortelli, Jay",
@@ -40909,7 +41114,8 @@
     "spotifyId": "3igbfkHq3s5wGMvC8iAscj",
     "album": "PARISIENNE",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d0000485193db7b33b63de6dc99a131ee"
+    "image": "https://i.scdn.co/image/ab67616d0000485193db7b33b63de6dc99a131ee",
+    "popularity": 75
   },
   {
     "artist": "KAROL",
@@ -40922,7 +41128,8 @@
     "spotifyId": "6WatFBLVB0x077xWeoVc2k",
     "album": "Si Antes Te Hubiera Conocido",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d00004851491678beaffcefac517a699e"
+    "image": "https://i.scdn.co/image/ab67616d00004851491678beaffcefac517a699e",
+    "popularity": 92
   },
   {
     "artist": "DJ Snake, Selena Gomez, Ozuna, C...",
@@ -40935,7 +41142,8 @@
     "spotifyId": "4w8niZpiMy6qz1mntFA5uM",
     "album": "Taki Taki (with Selena Gomez, Ozuna & Cardi B)",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d00004851e105c410a7b390c61a58cbf8"
+    "image": "https://i.scdn.co/image/ab67616d00004851e105c410a7b390c61a58cbf8",
+    "popularity": 70
   },
   {
     "artist": "will.i.am, Britney Spears",
@@ -40948,7 +41156,8 @@
     "spotifyId": "2iJuuzV8P9Yz0VSurttIV5",
     "album": "#willpower",
     "year": "2013",
-    "image": "https://i.scdn.co/image/ab67616d00004851e6082141bd7c86ae9f11ea26"
+    "image": "https://i.scdn.co/image/ab67616d00004851e6082141bd7c86ae9f11ea26",
+    "popularity": 76
   },
   {
     "artist": "Jennifer Lopez, Pitbull",
@@ -40961,7 +41170,8 @@
     "spotifyId": "0Oe49j06Bjrxs8PltuVeaW",
     "album": "On The Floor",
     "year": "2011",
-    "image": "https://i.scdn.co/image/ab67616d000048515c7fdd07d99c156401073aaa"
+    "image": "https://i.scdn.co/image/ab67616d000048515c7fdd07d99c156401073aaa",
+    "popularity": 72
   },
   {
     "artist": "J Balvin, Willy William",
@@ -40987,7 +41197,8 @@
     "spotifyId": "7fLzbEOBOae9lUnOwr7Tse",
     "album": "One More Love",
     "year": "2010",
-    "image": "https://i.scdn.co/image/ab67616d000048511813115ff10c5f5ae028321d"
+    "image": "https://i.scdn.co/image/ab67616d000048511813115ff10c5f5ae028321d",
+    "popularity": 77
   },
   {
     "artist": "| Gotta Feeling",
@@ -41000,7 +41211,8 @@
     "spotifyId": "4kLLWz7srcuLKA7Et40PQR",
     "album": "THE E.N.D. (THE ENERGY NEVER DIES) [Deluxe Version]",
     "year": "2009",
-    "image": "https://i.scdn.co/image/ab67616d000048510bd44f5ff9ecc99f7770acc5"
+    "image": "https://i.scdn.co/image/ab67616d000048510bd44f5ff9ecc99f7770acc5",
+    "popularity": 80
   },
   {
     "artist": "Bebe Rexha, Faithless",
@@ -41013,7 +41225,8 @@
     "spotifyId": "2Lb9ww5vZAnveWnrFQfAKR",
     "album": "New Religion",
     "year": "2026",
-    "image": "https://i.scdn.co/image/ab67616d000048511b032b989cb6d28908bde1c6"
+    "image": "https://i.scdn.co/image/ab67616d000048511b032b989cb6d28908bde1c6",
+    "popularity": 0
   },
   {
     "artist": "|",
@@ -41026,7 +41239,8 @@
     "spotifyId": "7BKLCZ1jbUBVqRi2FVlTVw",
     "album": "Closer",
     "year": "2016",
-    "image": "https://i.scdn.co/image/ab67616d00004851495ce6da9aeb159e94eaa453"
+    "image": "https://i.scdn.co/image/ab67616d00004851495ce6da9aeb159e94eaa453",
+    "popularity": 85
   },
   {
     "artist": "Sevdaliza, Pabllo Vittar, Yseult",
@@ -41039,7 +41253,8 @@
     "spotifyId": "5496lks6V3fh1mZAB6IAap",
     "album": "Alibi (with Pabllo Vittar & Yseult)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048514ee35e37bc21fe929a4d3605"
+    "image": "https://i.scdn.co/image/ab67616d000048514ee35e37bc21fe929a4d3605",
+    "popularity": 82
   },
   {
     "artist": "GIMS, Theodora",
@@ -41052,7 +41267,8 @@
     "spotifyId": "5UpupDvr2w93ccnEmmhS5q",
     "album": "SPA",
     "year": "2026",
-    "image": "https://i.scdn.co/image/ab67616d000048518ce0ef2ca4bcf46eba239a62"
+    "image": "https://i.scdn.co/image/ab67616d000048518ce0ef2ca4bcf46eba239a62",
+    "popularity": 76
   },
   {
     "artist": "Give Me Everything (fe...",
@@ -41078,7 +41294,8 @@
     "spotifyId": "5jrdCoLpJSvHHorevXBATy",
     "album": "PRISM (Deluxe)",
     "year": "2013",
-    "image": "https://i.scdn.co/image/ab67616d0000485147f930accd8ac01686401fa2"
+    "image": "https://i.scdn.co/image/ab67616d0000485147f930accd8ac01686401fa2",
+    "popularity": 73
   },
   {
     "artist": "24K Magic",
@@ -41091,7 +41308,8 @@
     "spotifyId": "6b8Be6ljOzmkOmFslEb23P",
     "album": "24K Magic",
     "year": "2016",
-    "image": "https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5"
+    "image": "https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5",
+    "popularity": 81
   },
   {
     "artist": "=] Together",
@@ -41104,7 +41322,8 @@
     "spotifyId": "3XJQz97R6A7bXn8awvFknM",
     "album": "Together",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851faf20f271a2243df4aaafc7a"
+    "image": "https://i.scdn.co/image/ab67616d00004851faf20f271a2243df4aaafc7a",
+    "popularity": 67
   },
   {
     "artist": "Joe le taxi",
@@ -41117,7 +41336,8 @@
     "spotifyId": "7nZCg1jgmXIjSBRifWkmaJ",
     "album": "M & J",
     "year": "1987",
-    "image": "https://i.scdn.co/image/ab67616d00004851248848a7d703ca2e3acb6068"
+    "image": "https://i.scdn.co/image/ab67616d00004851248848a7d703ca2e3acb6068",
+    "popularity": 57
   },
   {
     "artist": "Cargo - 2024 remaster",
@@ -41130,7 +41350,8 @@
     "spotifyId": "5RmwDzLJ9p9bNpNhN0QVKb",
     "album": "Cargo - EP (2024 Remaster)",
     "year": "1983",
-    "image": "https://i.scdn.co/image/ab67616d000048519cd620234c85a315024ca33a"
+    "image": "https://i.scdn.co/image/ab67616d000048519cd620234c85a315024ca33a",
+    "popularity": 33
   },
   {
     "artist": "Duel au",
@@ -41156,7 +41377,8 @@
     "spotifyId": "3GfUHAoOSGy3hhEaTU34WV",
     "album": "Paris, France (Remasterisé en 2004)",
     "year": "1980",
-    "image": "https://i.scdn.co/image/ab67616d0000485136b3cc1f1e3e0a06916bc2ba"
+    "image": "https://i.scdn.co/image/ab67616d0000485136b3cc1f1e3e0a06916bc2ba",
+    "popularity": 58
   },
   {
     "artist": "La groupie du pianiste...",
@@ -41182,7 +41404,8 @@
     "spotifyId": "2hSSHgViCLNwV5TozS0otN",
     "album": "Mise au point (Edition Deluxe)",
     "year": "1983",
-    "image": "https://i.scdn.co/image/ab67616d00004851f1083d939304d6c1204e5da0"
+    "image": "https://i.scdn.co/image/ab67616d00004851f1083d939304d6c1204e5da0",
+    "popularity": 45
   },
   {
     "artist": "Si j'étais un homme",
@@ -41195,7 +41418,8 @@
     "spotifyId": "4nP10ZXkRMi9msBSfsktob",
     "album": "Karma",
     "year": "2017",
-    "image": "https://i.scdn.co/image/ab67616d00004851b7f2759198d727ac12abf703"
+    "image": "https://i.scdn.co/image/ab67616d00004851b7f2759198d727ac12abf703",
+    "popularity": 46
   },
   {
     "artist": "Vivien Savage",
@@ -41208,7 +41432,8 @@
     "spotifyId": "7jeK414Hj68dYeLzEUVGe8",
     "album": "EP La P'tite Lady",
     "year": "2009",
-    "image": "https://i.scdn.co/image/ab67616d0000485150d7d7d1c53de1b384f0ce40"
+    "image": "https://i.scdn.co/image/ab67616d0000485150d7d7d1c53de1b384f0ce40",
+    "popularity": 36
   },
   {
     "artist": "Je te donne",
@@ -41221,7 +41446,8 @@
     "spotifyId": "55mXuPsEm6aboDIM68RM74",
     "album": "Non homologué",
     "year": "1985",
-    "image": "https://i.scdn.co/image/ab67616d00004851faabb26835b3326341ded4a7"
+    "image": "https://i.scdn.co/image/ab67616d00004851faabb26835b3326341ded4a7",
+    "popularity": 57
   },
   {
     "artist": "Cookie Dingler",
@@ -41273,7 +41499,8 @@
     "spotifyId": "2dgbgBcWg5iKQ0jmChAb3l",
     "album": "C'est la ouate",
     "year": "1987",
-    "image": "https://i.scdn.co/image/ab67616d0000485127dcbf8209a6f5f4f0a68d5e"
+    "image": "https://i.scdn.co/image/ab67616d0000485127dcbf8209a6f5f4f0a68d5e",
+    "popularity": 42
   },
   {
     "artist": "Julie Pietri",
@@ -41299,7 +41526,8 @@
     "spotifyId": "2DaAogJhLRyVqvpazcVXj7",
     "album": "Il Est Libre Max",
     "year": "1997",
-    "image": "https://i.scdn.co/image/ab67616d00004851df7bad7376cdd2651a1ee723"
+    "image": "https://i.scdn.co/image/ab67616d00004851df7bad7376cdd2651a1ee723",
+    "popularity": 43
   },
   {
     "artist": "Elle a les yeux revolver",
@@ -41312,7 +41540,8 @@
     "spotifyId": "1fU9wVDi3yZrawv1Rc4vcS",
     "album": "Marc Lavoine",
     "year": "1985",
-    "image": "https://i.scdn.co/image/ab67616d00004851060b57fc4508ac71bf0fc55c"
+    "image": "https://i.scdn.co/image/ab67616d00004851060b57fc4508ac71bf0fc55c",
+    "popularity": 57
   },
   {
     "artist": "Quand la musique est...",
@@ -41325,7 +41554,8 @@
     "spotifyId": "0Wh6e5EkmQseBGVeJqzC9X",
     "album": "Quand la musique est bonne",
     "year": "1982",
-    "image": "https://i.scdn.co/image/ab67616d000048516b2847cc0ee2671d82426eac"
+    "image": "https://i.scdn.co/image/ab67616d000048516b2847cc0ee2671d82426eac",
+    "popularity": 59
   },
   {
     "artist": "Diego libre dans sa tét...",
@@ -41338,7 +41568,8 @@
     "spotifyId": "2UblQgNIosduLwH79BNfB8",
     "album": "Johnny",
     "year": "2019",
-    "image": "https://i.scdn.co/image/ab67616d00004851a03fc16d73c316e4c0ee03b7"
+    "image": "https://i.scdn.co/image/ab67616d00004851a03fc16d73c316e4c0ee03b7",
+    "popularity": 49
   },
   {
     "artist": "En l'an 2001",
@@ -41351,7 +41582,8 @@
     "spotifyId": "4Lv1Xqqu5vvl3jjiyhGn4j",
     "album": "Le Meilleur De",
     "year": "1997",
-    "image": "https://i.scdn.co/image/ab67616d000048513a924523a064469c0e19625e"
+    "image": "https://i.scdn.co/image/ab67616d000048513a924523a064469c0e19625e",
+    "popularity": 42
   },
   {
     "artist": "Call Me",
@@ -41364,7 +41596,8 @@
     "spotifyId": "4Mp0gqjE6eqY8LT4UZPTZq",
     "album": "Me Llueven (Extenden Version)",
     "year": "2017",
-    "image": "https://i.scdn.co/image/ab67616d000048511a538f3ac2cf6a891034829a"
+    "image": "https://i.scdn.co/image/ab67616d000048511a538f3ac2cf6a891034829a",
+    "popularity": 37
   },
   {
     "artist": "Easy Lover",
@@ -41377,7 +41610,8 @@
     "spotifyId": "7INi4pMPG4IE0Smx5y4KVf",
     "album": "Chinese Wall",
     "year": "1985",
-    "image": "https://i.scdn.co/image/ab67616d00004851d05d00a34eee4d09ec104298"
+    "image": "https://i.scdn.co/image/ab67616d00004851d05d00a34eee4d09ec104298",
+    "popularity": 64
   },
   {
     "artist": "Daryl Hall & John Oates",
@@ -41390,7 +41624,8 @@
     "spotifyId": "7j74lucZ59vqN67Ipe2ZcY",
     "album": "H2O",
     "year": "1982",
-    "image": "https://i.scdn.co/image/ab67616d00004851cfe4163cbb6d12f3ec15898e"
+    "image": "https://i.scdn.co/image/ab67616d00004851cfe4163cbb6d12f3ec15898e",
+    "popularity": 80
   },
   {
     "artist": "Soft Cell",
@@ -41403,7 +41638,8 @@
     "spotifyId": "7iN2AiwBr3FKuloMzDjIQO",
     "album": "Non-Stop Erotic Cabaret",
     "year": "1981",
-    "image": "https://i.scdn.co/image/ab67616d00004851c25f1af712bb95fed52ed422"
+    "image": "https://i.scdn.co/image/ab67616d00004851c25f1af712bb95fed52ed422",
+    "popularity": 4
   },
   {
     "artist": "It",
@@ -41416,7 +41652,8 @@
     "spotifyId": "0Qc78jjiHk3vIQdHffFyIG",
     "album": "5SOS5",
     "year": "2022",
-    "image": "https://i.scdn.co/image/ab67616d00004851e5b926c0a2cff846b48bf315"
+    "image": "https://i.scdn.co/image/ab67616d00004851e5b926c0a2cff846b48bf315",
+    "popularity": 48
   },
   {
     "artist": "Paul McCartney, Michael Jackson",
@@ -41429,7 +41666,8 @@
     "spotifyId": "2iwhqrveOYC8XLB7GZm63G",
     "album": "All The Best (UK Version)",
     "year": "1987",
-    "image": "https://i.scdn.co/image/ab67616d0000485154c5b44fb18030a3385c7b88"
+    "image": "https://i.scdn.co/image/ab67616d0000485154c5b44fb18030a3385c7b88",
+    "popularity": 53
   },
   {
     "artist": "Orchestral Manoeuvres In The Dark",
@@ -41442,7 +41680,8 @@
     "spotifyId": "3NYCaxkggl0Hh8vQptSUvV",
     "album": "Organisation",
     "year": "1980",
-    "image": "https://i.scdn.co/image/ab67616d00004851a3bc94f95c99c3ad2f40740a"
+    "image": "https://i.scdn.co/image/ab67616d00004851a3bc94f95c99c3ad2f40740a",
+    "popularity": 66
   },
   {
     "artist": "Should | Stay or Shoul...",
@@ -41455,7 +41694,8 @@
     "spotifyId": "48D3xCNgLY84OuVg2bonlw",
     "album": "Should I Stay Or Should I Go (试问谁没错)",
     "year": "2020",
-    "image": "https://i.scdn.co/image/ab67616d00004851e39d261a1a41c637ec21e63b"
+    "image": "https://i.scdn.co/image/ab67616d00004851e39d261a1a41c637ec21e63b",
+    "popularity": 2
   },
   {
     "artist": "Huey Lewis & The News",
@@ -41468,7 +41708,8 @@
     "spotifyId": "2olVm1lHicpveMAo4AUDRB",
     "album": "Greatest Hits: Huey Lewis And The News",
     "year": "2006",
-    "image": "https://i.scdn.co/image/ab67616d000048515306ed42ae78f317258c51bb"
+    "image": "https://i.scdn.co/image/ab67616d000048515306ed42ae78f317258c51bb",
+    "popularity": 73
   },
   {
     "artist": "Nena",
@@ -41481,7 +41722,8 @@
     "spotifyId": "2IJftBfq7pJ43tfnOR0RB3",
     "album": "Nena",
     "year": "1983",
-    "image": "https://i.scdn.co/image/ab67616d000048517e51ffd6a2e8f77ffd56bb8f"
+    "image": "https://i.scdn.co/image/ab67616d000048517e51ffd6a2e8f77ffd56bb8f",
+    "popularity": 73
   },
   {
     "artist": "Part-Time Lover",
@@ -41494,7 +41736,8 @@
     "spotifyId": "0Dm43YLUlGdePpSbI1ct8h",
     "album": "In Square Circle",
     "year": "1985",
-    "image": "https://i.scdn.co/image/ab67616d00004851ed0ddbe4b2590f448e9845be"
+    "image": "https://i.scdn.co/image/ab67616d00004851ed0ddbe4b2590f448e9845be",
+    "popularity": 69
   },
   {
     "artist": "Olivia Newton-John",
@@ -41520,7 +41763,8 @@
     "spotifyId": "2K22nUTdyr48JDwI5t906t",
     "album": "Welcome To The Pleasuredome",
     "year": "1984",
-    "image": "https://i.scdn.co/image/ab67616d00004851275774501f737e10d92adaca"
+    "image": "https://i.scdn.co/image/ab67616d00004851275774501f737e10d92adaca",
+    "popularity": 69
   },
   {
     "artist": "Don't Go",
@@ -41546,7 +41790,8 @@
     "spotifyId": "3FnP3j1TyiTwbJb5AR2ynT",
     "album": "Purple Rain (Deluxe Expanded Edition)",
     "year": "2017",
-    "image": "https://i.scdn.co/image/ab67616d00004851e2829416e5011fb749cc3fde"
+    "image": "https://i.scdn.co/image/ab67616d00004851e2829416e5011fb749cc3fde",
+    "popularity": 44
   },
   {
     "artist": "Take My Breath Away -…",
@@ -41559,7 +41804,8 @@
     "spotifyId": "15MJ5NThPjj6xhPcts8MiY",
     "album": "Top Gun - Motion Picture Soundtrack (Special Expanded Edition)",
     "year": "1999",
-    "image": "https://i.scdn.co/image/ab67616d00004851b8f8d696810d68ce774e3a2f"
+    "image": "https://i.scdn.co/image/ab67616d00004851b8f8d696810d68ce774e3a2f",
+    "popularity": 71
   },
   {
     "artist": "Eurythmics, Annie Lennox, Dave Ste...",
@@ -41572,7 +41818,8 @@
     "spotifyId": "1TfqLAPs4K3s2rJMoCokcS",
     "album": "Sweet Dreams (Are Made Of This)",
     "year": "1983",
-    "image": "https://i.scdn.co/image/ab67616d00004851b3994c94dfb241923664bb4d"
+    "image": "https://i.scdn.co/image/ab67616d00004851b3994c94dfb241923664bb4d",
+    "popularity": 82
   },
   {
     "artist": "Whitney Houston",
@@ -41585,7 +41832,8 @@
     "spotifyId": "2tUBqZG2AbRi7Q0BIrVrEj",
     "album": "Whitney",
     "year": "1987",
-    "image": "https://i.scdn.co/image/ab67616d00004851a520a167a62d5548cdb53101"
+    "image": "https://i.scdn.co/image/ab67616d00004851a520a167a62d5548cdb53101",
+    "popularity": 80
   },
   {
     "artist": "Queen",
@@ -41598,7 +41846,8 @@
     "spotifyId": "7iAqvWLgZzXvH38lA06QZg",
     "album": "Bohemian Rhapsody (The Original Soundtrack)",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d00004851e8b066f70c206551210d902b"
+    "image": "https://i.scdn.co/image/ab67616d00004851e8b066f70c206551210d902b",
+    "popularity": 69
   },
   {
     "artist": "F.R. David",
@@ -41611,7 +41860,8 @@
     "spotifyId": "1HPJOoIVdUPuaebxzMrVaD",
     "album": "Words",
     "year": "1983",
-    "image": "https://i.scdn.co/image/ab67616d000048514742af6d5c9eae5f7f63ee5e"
+    "image": "https://i.scdn.co/image/ab67616d000048514742af6d5c9eae5f7f63ee5e",
+    "popularity": 73
   },
   {
     "artist": "Miami Sound Machine, Gloria Estefan",
@@ -41624,7 +41874,8 @@
     "spotifyId": "3FdHgoJbH3DXNtGLh56pFu",
     "album": "Primitive Love",
     "year": "1985",
-    "image": "https://i.scdn.co/image/ab67616d00004851b543da62e4ba434db59813d7"
+    "image": "https://i.scdn.co/image/ab67616d00004851b543da62e4ba434db59813d7",
+    "popularity": 62
   },
   {
     "artist": "Girls Just Want to Hav...",
@@ -41637,7 +41888,8 @@
     "spotifyId": "4y1LsJpmMti1PfRQV9AWWe",
     "album": "She's So Unusual",
     "year": "1983",
-    "image": "https://i.scdn.co/image/ab67616d00004851ce023ce7dfdd5199bcdfd5a1"
+    "image": "https://i.scdn.co/image/ab67616d00004851ce023ce7dfdd5199bcdfd5a1",
+    "popularity": 79
   },
   {
     "artist": "Harden My Heart",
@@ -41650,7 +41902,8 @@
     "spotifyId": "3CSLUIrI2KPMulHR5bh17O",
     "album": "Quarterflash",
     "year": "1981",
-    "image": "https://i.scdn.co/image/ab67616d0000485147a69991d05f42d80594a61f"
+    "image": "https://i.scdn.co/image/ab67616d0000485147a69991d05f42d80594a61f",
+    "popularity": 53
   },
   {
     "artist": "Get Down Saturday Ni...",
@@ -41663,7 +41916,8 @@
     "spotifyId": "4kTS0Ioxdm6uSGmFNvhnGQ",
     "album": "Saturday Night (Expanded Edition)",
     "year": "1983",
-    "image": "https://i.scdn.co/image/ab67616d0000485130a57e2d9be973cedab286f0"
+    "image": "https://i.scdn.co/image/ab67616d0000485130a57e2d9be973cedab286f0",
+    "popularity": 49
   },
   {
     "artist": "Bibi Flash",
@@ -41676,7 +41930,8 @@
     "spotifyId": "5JAGMln9Bd4xrHkjS4jMf2",
     "album": "Best of Bibi Flash Collector (Le meilleur des années 80)",
     "year": "2011",
-    "image": "https://i.scdn.co/image/ab67616d0000485191cf20761878b9aebc2cb967"
+    "image": "https://i.scdn.co/image/ab67616d0000485191cf20761878b9aebc2cb967",
+    "popularity": 46
   },
   {
     "artist": "Lessons In Love",
@@ -41689,7 +41944,8 @@
     "spotifyId": "4Y51P1v7Lgbfgx1sahHJAW",
     "album": "Running In The Family (Deluxe Edition)",
     "year": "1987",
-    "image": "https://i.scdn.co/image/ab67616d00004851afa18f59c79022b17e39999b"
+    "image": "https://i.scdn.co/image/ab67616d00004851afa18f59c79022b17e39999b",
+    "popularity": 42
   },
   {
     "artist": "Kool & The Gang",
@@ -41702,7 +41958,8 @@
     "spotifyId": "2je56j0xuoTi1gYkLLMlJU",
     "album": "Collected",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d000048517f29399efc7ee01e8c56936d"
+    "image": "https://i.scdn.co/image/ab67616d000048517f29399efc7ee01e8c56936d",
+    "popularity": 68
   },
   {
     "artist": "You",
@@ -41715,7 +41972,8 @@
     "spotifyId": "0RdUX4WE0fO30VnlUbDVL6",
     "album": "Comeblack",
     "year": "2011",
-    "image": "https://i.scdn.co/image/ab67616d000048519f2023d391c3bd4acf4d51c6"
+    "image": "https://i.scdn.co/image/ab67616d000048519f2023d391c3bd4acf4d51c6",
+    "popularity": 70
   },
   {
     "artist": "Irene Cara",
@@ -41728,7 +41986,8 @@
     "spotifyId": "3cbV252akVZInSvJk7jAYX",
     "album": "What a Feelin'",
     "year": "1983",
-    "image": "https://i.scdn.co/image/ab67616d000048512ff76b4da68f018b4735ee59"
+    "image": "https://i.scdn.co/image/ab67616d000048512ff76b4da68f018b4735ee59",
+    "popularity": 75
   },
   {
     "artist": "Bleu comme toi - Singl...",
@@ -41741,7 +42000,8 @@
     "spotifyId": "0RX7zew3vhJLHJKK9LBcAd",
     "album": "Bleu Comme Toi",
     "year": "1988",
-    "image": "https://i.scdn.co/image/ab67616d000048515b1976a2258a48a9c8513e78"
+    "image": "https://i.scdn.co/image/ab67616d000048515b1976a2258a48a9c8513e78",
+    "popularity": 36
   },
   {
     "artist": "L' L'amour a a la la plage pl",
@@ -41767,7 +42027,8 @@
     "spotifyId": "5nlwajOutaUfiSayarrZTy",
     "album": "Wanted",
     "year": "1988",
-    "image": "https://i.scdn.co/image/ab67616d00004851f7fa8747a8e5f4d4da56e610"
+    "image": "https://i.scdn.co/image/ab67616d00004851f7fa8747a8e5f4d4da56e610",
+    "popularity": 52
   },
   {
     "artist": "Myléne Farmer",
@@ -41780,7 +42041,8 @@
     "spotifyId": "4lKQlYJdzLPKBc0XEDBdrq",
     "album": "Sans contrefaçon",
     "year": "1987",
-    "image": "https://i.scdn.co/image/ab67616d000048512acd4097c9006abc7b05c66b"
+    "image": "https://i.scdn.co/image/ab67616d000048512acd4097c9006abc7b05c66b",
+    "popularity": 50
   },
   {
     "artist": "Mylène Farmer",
@@ -41819,7 +42081,8 @@
     "spotifyId": "2pXzTDfEoA19Fqhtl08Hiw",
     "album": "Best of Début de Soirée (Le meilleur des années 80)",
     "year": "2011",
-    "image": "https://i.scdn.co/image/ab67616d000048517e7e16d043dea11ab6f70e2a"
+    "image": "https://i.scdn.co/image/ab67616d000048517e7e16d043dea11ab6f70e2a",
+    "popularity": 46
   },
   {
     "artist": "Libertine",
@@ -41845,7 +42108,8 @@
     "spotifyId": "3qd96R8vwARMzD8uBSNui5",
     "album": "Irresistible Princess",
     "year": "2019",
-    "image": "https://i.scdn.co/image/ab67616d0000485154420d99742d5baf5b633254"
+    "image": "https://i.scdn.co/image/ab67616d0000485154420d99742d5baf5b633254",
+    "popularity": 27
   },
   {
     "artist": "Corynne Charby",
@@ -41871,7 +42135,8 @@
     "spotifyId": "0cmnNdd2F7XwYHybvnSWtV",
     "album": "I AM WOMAN - Catherine Lara",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d0000485138905474dfabaa739fcdbeec"
+    "image": "https://i.scdn.co/image/ab67616d0000485138905474dfabaa739fcdbeec",
+    "popularity": 27
   },
   {
     "artist": "Ça c'est vraiment toi",
@@ -41884,7 +42149,8 @@
     "spotifyId": "7p5Na4GvFzP6M7i1ti2YRJ",
     "album": "Dure limite (Remasterisé en 2015)",
     "year": "1982",
-    "image": "https://i.scdn.co/image/ab67616d0000485166d63e400881e134337ead54"
+    "image": "https://i.scdn.co/image/ab67616d0000485166d63e400881e134337ead54",
+    "popularity": 55
   },
   {
     "artist": "RAYE, David Guetta, Hypaton",
@@ -41897,7 +42163,8 @@
     "spotifyId": "0vYSTV1Lye2Z2zktF6P39C",
     "album": "WHERE IS MY HUSBAND! (Remix)",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d000048512baa745a54eb2b504f782b3d"
+    "image": "https://i.scdn.co/image/ab67616d000048512baa745a54eb2b504f782b3d",
+    "popularity": 76
   },
   {
     "artist": "Fred again.., Skepta, PlaqueBoyMax",
@@ -41910,7 +42177,8 @@
     "spotifyId": "1lbNgoJ5iMrMluCyhI4OQP",
     "album": "Victory Lap",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851bf705b821b031cefe91d7b90"
+    "image": "https://i.scdn.co/image/ab67616d00004851bf705b821b031cefe91d7b90",
+    "popularity": 83
   },
   {
     "artist": "Sophie Ellis-Bextor, PNAU",
@@ -41923,7 +42191,8 @@
     "spotifyId": "2Rhh3ZhukJfTKoBVzIYTaf",
     "album": "Murder On The Dancefloor (PNAU Remix)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048512da597884497215cf9889cc0"
+    "image": "https://i.scdn.co/image/ab67616d000048512da597884497215cf9889cc0",
+    "popularity": 61
   },
   {
     "artist": "cassö, RAYE, D-Block Europe",
@@ -41936,7 +42205,8 @@
     "spotifyId": "59NraMJsLaMCVtwXTSia8i",
     "album": "Prada",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d00004851e4b7dccdfd54375ded9ccc5c"
+    "image": "https://i.scdn.co/image/ab67616d00004851e4b7dccdfd54375ded9ccc5c",
+    "popularity": 82
   },
   {
     "artist": "Clean Bandit, Zara Larsson",
@@ -41949,7 +42219,8 @@
     "spotifyId": "1x5sYLZiu9r5E43kMlt9f8",
     "album": "Symphony (feat. Zara Larsson)",
     "year": "2017",
-    "image": "https://i.scdn.co/image/ab67616d000048515b1130d050c4cd2295999d85"
+    "image": "https://i.scdn.co/image/ab67616d000048515b1130d050c4cd2295999d85",
+    "popularity": 73
   },
   {
     "artist": "John Summit, HAYLA",
@@ -41962,7 +42233,8 @@
     "spotifyId": "4qDpLaFGf5ampf2DXD2TMA",
     "album": "Where You Are",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d0000485136b6992af3531fb34813327c"
+    "image": "https://i.scdn.co/image/ab67616d0000485136b6992af3531fb34813327c",
+    "popularity": 69
   },
   {
     "artist": "Delerium, Sarah McLachlan, John Summit",
@@ -41988,7 +42260,8 @@
     "spotifyId": "4aSyYc1rWc2KhTknSfpx9H",
     "album": "Sleepyhead 2025",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d000048515296bca0bc703a9076bcdf40"
+    "image": "https://i.scdn.co/image/ab67616d000048515296bca0bc703a9076bcdf40",
+    "popularity": 67
   },
   {
     "artist": "Taylor Swift, Chris Lake",
@@ -42001,7 +42274,8 @@
     "spotifyId": "0ttGLmxI0mAkMblE6iRm2S",
     "album": "Opalite (Chris Lake Remix)",
     "year": "2026",
-    "image": "https://i.scdn.co/image/ab67616d00004851156ba090375f53d5c8fac5c3"
+    "image": "https://i.scdn.co/image/ab67616d00004851156ba090375f53d5c8fac5c3",
+    "popularity": 63
   },
   {
     "artist": "Matt Sassari, HUGEL, Sonique",
@@ -42014,7 +42288,8 @@
     "spotifyId": "7xFy1kfgGWJWTpx1vSHBLi",
     "album": "It Feels So Good",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d00004851aa7df9183be7f3bb8c8ad4bc"
+    "image": "https://i.scdn.co/image/ab67616d00004851aa7df9183be7f3bb8c8ad4bc",
+    "popularity": 76
   },
   {
     "artist": "Alok, Łaszewo, A$AP Rocky",
@@ -42040,7 +42315,8 @@
     "spotifyId": "0GYx8Q9iS05CRe9kyzwAIL",
     "album": "Still Into You",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048519bbf276a1558319e41f825b0"
+    "image": "https://i.scdn.co/image/ab67616d000048519bbf276a1558319e41f825b0",
+    "popularity": 77
   },
   {
     "artist": "FISHER, Tones And I",
@@ -42053,7 +42329,8 @@
     "spotifyId": "44wR4NqR75eJMETxrz59Sr",
     "album": "Favour",
     "year": "2026",
-    "image": "https://i.scdn.co/image/ab67616d000048519b21cf1b6d3cd85926d994e1"
+    "image": "https://i.scdn.co/image/ab67616d000048519b21cf1b6d3cd85926d994e1",
+    "popularity": 69
   },
   {
     "artist": "PAWSA, The Adventures Of Stevie V",
@@ -42066,7 +42343,8 @@
     "spotifyId": "2VyvDGdcVY04cNYou9MFVX",
     "album": "Dirty Cash (Money Talks)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d00004851388a49c048fd9f67e338c3c6"
+    "image": "https://i.scdn.co/image/ab67616d00004851388a49c048fd9f67e338c3c6",
+    "popularity": 81
   },
   {
     "artist": "Sonny Fodera, Jazzy, D.O.D",
@@ -42079,7 +42357,8 @@
     "spotifyId": "3wo3d0I5H8KjkwGvnz8WbB",
     "album": "Somedays",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d00004851f8774d4a527638c325d940e5"
+    "image": "https://i.scdn.co/image/ab67616d00004851f8774d4a527638c325d940e5",
+    "popularity": 79
   },
   {
     "artist": "Mau P",
@@ -42092,7 +42371,8 @@
     "spotifyId": "7lDGg8CFySbkKUrjgzcLlY",
     "album": "The Less I Know The Better",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851303a1513c854d0271cf11fe0"
+    "image": "https://i.scdn.co/image/ab67616d00004851303a1513c854d0271cf11fe0",
+    "popularity": 75
   },
   {
     "artist": "The Chemical Brothers, Chris Lake",
@@ -42118,7 +42398,8 @@
     "spotifyId": "1XhItJSBxL5yKh0V0ymg6D",
     "album": "That's When You Know",
     "year": "2026",
-    "image": "https://i.scdn.co/image/ab67616d00004851aa1c7abe19b13470c62cd213"
+    "image": "https://i.scdn.co/image/ab67616d00004851aa1c7abe19b13470c62cd213",
+    "popularity": 35
   },
   {
     "artist": "CID, Taylr Renee",
@@ -42131,7 +42412,8 @@
     "spotifyId": "6Ar3apWGoJLPZ3zy6Eb94F",
     "album": "Fancy $hit",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851a22ea6d36b945ad500b8bf58"
+    "image": "https://i.scdn.co/image/ab67616d00004851a22ea6d36b945ad500b8bf58",
+    "popularity": 62
   },
   {
     "artist": "Badger, Natasha Bedingfield",
@@ -42144,7 +42426,8 @@
     "spotifyId": "7leW1Dmvs9A4oDh9i5Qwpz",
     "album": "These Words",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d0000485100f75805e619ec91836d28f9"
+    "image": "https://i.scdn.co/image/ab67616d0000485100f75805e619ec91836d28f9",
+    "popularity": 74
   },
   {
     "artist": "MOLIY, Silent Addy, Skillibeng, Shenseea",
@@ -42157,7 +42440,8 @@
     "spotifyId": "0QCIpQV3twfqo9kh0t8Zza",
     "album": "Shake It To The Max (FLY) (Remix)",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d000048510069ee4e37f913fb1653b389"
+    "image": "https://i.scdn.co/image/ab67616d000048510069ee4e37f913fb1653b389",
+    "popularity": 9
   },
   {
     "artist": "HAYLA, Nelly Furtado",
@@ -42170,7 +42454,8 @@
     "spotifyId": "0OSKN4D9kXEunDf89augTt",
     "album": "FADED",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d000048514121e0426e67db4193af06a3"
+    "image": "https://i.scdn.co/image/ab67616d000048514121e0426e67db4193af06a3",
+    "popularity": 63
   },
   {
     "artist": "John Summit, The Chainsmokers, Ilsey",
@@ -42196,7 +42481,8 @@
     "spotifyId": "3GiORO0zRwRT3g9CCklzkQ",
     "album": "It's That Time (FISHER Remix)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d0000485131f60a0ce2b1c6588d80877d"
+    "image": "https://i.scdn.co/image/ab67616d0000485131f60a0ce2b1c6588d80877d",
+    "popularity": 72
   },
   {
     "artist": "Bob Sinclar, FISHER, Steve Edwards",
@@ -42209,7 +42495,8 @@
     "spotifyId": "6kTwzV93qpcovlRPmBOXmn",
     "album": "World Hold On (Children Of The Sky) [FISHER Rework]",
     "year": "2022",
-    "image": "https://i.scdn.co/image/ab67616d00004851a03a119d2adb25e05b6042c3"
+    "image": "https://i.scdn.co/image/ab67616d00004851a03a119d2adb25e05b6042c3",
+    "popularity": 76
   },
   {
     "artist": "BL3SS, CamrinWatsin, bbyclose",
@@ -42222,7 +42509,8 @@
     "spotifyId": "2A1aS3mwuGuX2yk1bgxOvA",
     "album": "Kisses (feat. bbyclose)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d00004851232a4dce4425693c25950e72"
+    "image": "https://i.scdn.co/image/ab67616d00004851232a4dce4425693c25950e72",
+    "popularity": 82
   },
   {
     "artist": "James Hype, Sam Harper, Bobby Harvey",
@@ -42235,7 +42523,8 @@
     "spotifyId": "1OcV53oesLQw3VTW9I3uD3",
     "album": "Waterfalls (feat. Sam Harper & Bobby Harvey)",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851f60d7f051679fab1ecb2a381"
+    "image": "https://i.scdn.co/image/ab67616d00004851f60d7f051679fab1ecb2a381",
+    "popularity": 77
   },
   {
     "artist": "Dimitri Vegas & Like Mike, Tiësto, Dido, W&W, Dimitri Vegas, Like Mike",
@@ -42248,7 +42537,8 @@
     "spotifyId": "09CnYHiZ5jGT1wr1TXJ9Zt",
     "album": "Thank You (Not So Bad)",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d000048510aa08f8923434aab06e43b37"
+    "image": "https://i.scdn.co/image/ab67616d000048510aa08f8923434aab06e43b37",
+    "popularity": 82
   },
   {
     "artist": "Tiësto, Odd Mob, Goodboys",
@@ -42261,7 +42551,8 @@
     "spotifyId": "20kaCbdgkJRUPniPVZgsoR",
     "album": "Won’t Be Possible",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851a5e65bba96a04173da67b961"
+    "image": "https://i.scdn.co/image/ab67616d00004851a5e65bba96a04173da67b961",
+    "popularity": 0
   },
   {
     "artist": "Adam Port, Stryv, Keinemusik, Orso, Malachiii",
@@ -42274,7 +42565,8 @@
     "spotifyId": "1BJJbSX6muJVF2AK7uH1x4",
     "album": "Move",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d00004851a959d221820e650bee1ca487"
+    "image": "https://i.scdn.co/image/ab67616d00004851a959d221820e650bee1ca487",
+    "popularity": 84
   },
   {
     "artist": "BENNETT",
@@ -42287,7 +42579,8 @@
     "spotifyId": "31nfdEooLEq7dn3UMcIeB5",
     "album": "Vois sur ton chemin (Techno Mix)",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d000048511c4b40593176f9b7b7be23b8"
+    "image": "https://i.scdn.co/image/ab67616d000048511c4b40593176f9b7b7be23b8",
+    "popularity": 79
   },
   {
     "artist": "Pete Tong, Ultra Naté, LP Giobbi, Jules Buckley",
@@ -42300,7 +42593,8 @@
     "spotifyId": "1Jv5SF45pxopNs7TXn8hAQ",
     "album": "Free (Do What U Want) (feat. Jules Buckley)",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d00004851394b8ef4705b5cf0e8a780a9"
+    "image": "https://i.scdn.co/image/ab67616d00004851394b8ef4705b5cf0e8a780a9",
+    "popularity": 38
   },
   {
     "artist": "Dom Dolla, Puretone",
@@ -42313,7 +42607,8 @@
     "spotifyId": "0umvGSFCXSyrHGcXKwsvCg",
     "album": "Addicted To Bass (Dom Dolla Relapse)",
     "year": "2026",
-    "image": "https://i.scdn.co/image/ab67616d000048519e9abd136b9738c76eb0d624"
+    "image": "https://i.scdn.co/image/ab67616d000048519e9abd136b9738c76eb0d624",
+    "popularity": 40
   },
   {
     "artist": "Chris Lorenzo, Kah-Lo",
@@ -42339,7 +42634,8 @@
     "spotifyId": "3flWoQdYrWyqUsHbURIJby",
     "album": "Stephanie (HNTR Remix)",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d0000485164b2ade316c56aecde5beb94"
+    "image": "https://i.scdn.co/image/ab67616d0000485164b2ade316c56aecde5beb94",
+    "popularity": 71
   },
   {
     "artist": "Odd Mob, OMNOM, HYPERBEAM",
@@ -42352,7 +42648,8 @@
     "spotifyId": "7JHkJ5mDS868b5j5h67cwL",
     "album": "Coming Up (It’s Dare)",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851129dee088ba982b52fd6d904"
+    "image": "https://i.scdn.co/image/ab67616d00004851129dee088ba982b52fd6d904",
+    "popularity": 64
   },
   {
     "artist": "The Outfield, Diplo",
@@ -42365,7 +42662,8 @@
     "spotifyId": "4R3BIyY00WxYVZOmgrFp1Y",
     "album": "Your Love (Diplo Remix)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048519f0b3ddaa8899d7a29b6fd50"
+    "image": "https://i.scdn.co/image/ab67616d000048519f0b3ddaa8899d7a29b6fd50",
+    "popularity": 61
   },
   {
     "artist": "LP Giobbi, blythe",
@@ -42391,7 +42689,8 @@
     "spotifyId": "6XIh9BtczdxO7HRQwrIPti",
     "album": "I Don't Trust A Soul",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d000048515cc721849a7d82cef3b194e3"
+    "image": "https://i.scdn.co/image/ab67616d000048515cc721849a7d82cef3b194e3",
+    "popularity": 60
   },
   {
     "artist": "Max Dean, Luke Dean, Locky",
@@ -42430,7 +42729,8 @@
     "spotifyId": "7tZSQgFyzWAAtsb7OUUDbn",
     "album": "Sunny",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851f9bc9871d89fb7bf3a876c62"
+    "image": "https://i.scdn.co/image/ab67616d00004851f9bc9871d89fb7bf3a876c62",
+    "popularity": 61
   },
   {
     "artist": "Eliza Rose, The Trip",
@@ -42456,7 +42756,8 @@
     "spotifyId": "7dHtHyIsxcDzgeFWLxfW4q",
     "album": "Girls MIA",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851f046cf205159787b15721bf8"
+    "image": "https://i.scdn.co/image/ab67616d00004851f046cf205159787b15721bf8",
+    "popularity": 62
   },
   {
     "artist": "Chloé Caillet, Luke Alessi, Jocelyn Brown",
@@ -42469,7 +42770,8 @@
     "spotifyId": "4fErrQvOX1LPDIPFDFI4eM",
     "album": "The One (feat. Jocelyn Brown)",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851affa8b90a4f5305fd4829080"
+    "image": "https://i.scdn.co/image/ab67616d00004851affa8b90a4f5305fd4829080",
+    "popularity": 62
   },
   {
     "artist": "Rossi., Jazzy",
@@ -42508,7 +42810,8 @@
     "spotifyId": "4tMr7Bik0z8R6nAOz3FPQ1",
     "album": "Back To The Groove",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851b2c18e15c82b7c81825433da"
+    "image": "https://i.scdn.co/image/ab67616d00004851b2c18e15c82b7c81825433da",
+    "popularity": 62
   },
   {
     "artist": "CYRIL, Kelland, Nate Dogg",
@@ -42534,7 +42837,8 @@
     "spotifyId": "4jSrN7kXdQUmbVxJe5x6Xg",
     "album": "Makina Time",
     "year": "2026",
-    "image": "https://i.scdn.co/image/ab67616d000048519960bd6ef598fe5537e902ca"
+    "image": "https://i.scdn.co/image/ab67616d000048519960bd6ef598fe5537e902ca",
+    "popularity": 68
   },
   {
     "artist": "Vinter",
@@ -42560,7 +42864,8 @@
     "spotifyId": "7IoTUnyyvbMEY2UuE2Tmsx",
     "album": "Make Believe",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d000048519f693c64e797c9f3c67d3989"
+    "image": "https://i.scdn.co/image/ab67616d000048519f693c64e797c9f3c67d3989",
+    "popularity": 63
   },
   {
     "artist": "Odd Mob, OMNOM, HYPERBEAM",
@@ -42586,7 +42891,8 @@
     "spotifyId": "4YmsnZcxHEGEqHB3K0vdt0",
     "album": "TYCOON",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851712be553f73989a1b7607674"
+    "image": "https://i.scdn.co/image/ab67616d00004851712be553f73989a1b7607674",
+    "popularity": 69
   },
   {
     "artist": "Josh Baker, Silva Bumpa, Paige Cavell",
@@ -42599,7 +42905,8 @@
     "spotifyId": "2libVw5xnVwelZ69K47bDz",
     "album": "Feel This Way",
     "year": "2026",
-    "image": "https://i.scdn.co/image/ab67616d000048518a579aaccdd1ddc043d0a404"
+    "image": "https://i.scdn.co/image/ab67616d000048518a579aaccdd1ddc043d0a404",
+    "popularity": 65
   },
   {
     "artist": "JENNIE, Peggy Gou",
@@ -42612,7 +42919,8 @@
     "spotifyId": "41JiYRL2Ahnbjy0WRExDge",
     "album": "like JENNIE",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851244a9c144cd1d39ae1416d98"
+    "image": "https://i.scdn.co/image/ab67616d00004851244a9c144cd1d39ae1416d98",
+    "popularity": 70
   },
   {
     "artist": "Fred again.., Sammy Virji, Reggie",
@@ -42625,7 +42933,8 @@
     "spotifyId": "0Y2QAFRdkzrNAJDPJ5lATF",
     "album": "Talk of the Town",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851230ac2e6b2aed68a8f8373fe"
+    "image": "https://i.scdn.co/image/ab67616d00004851230ac2e6b2aed68a8f8373fe",
+    "popularity": 80
   },
   {
     "artist": "Calvin Harris, Kasabian",
@@ -42638,7 +42947,8 @@
     "spotifyId": "7Dev2VJdJKwIIUdj3lcQl9",
     "album": "Release The Pressure",
     "year": "2026",
-    "image": "https://i.scdn.co/image/ab67616d000048515874ccdaca65c8efc100b29f"
+    "image": "https://i.scdn.co/image/ab67616d000048515874ccdaca65c8efc100b29f",
+    "popularity": 0
   },
   {
     "artist": "Kato, Jon",
@@ -42651,7 +42961,8 @@
     "spotifyId": "7apywiCuMzvSZIa0SKeH99",
     "album": "Turn The Lights Off",
     "year": "2010",
-    "image": "https://i.scdn.co/image/ab67616d00004851b709bed32c87dadd3163d892"
+    "image": "https://i.scdn.co/image/ab67616d00004851b709bed32c87dadd3163d892",
+    "popularity": 34
   },
   {
     "artist": "Max Dean, Luke Dean",
@@ -42664,7 +42975,8 @@
     "spotifyId": "1aBVDx9VjyLEk8rz8pezru",
     "album": "The Finest EP",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d000048513064de3d5356fd4e033c1462"
+    "image": "https://i.scdn.co/image/ab67616d000048513064de3d5356fd4e033c1462",
+    "popularity": 63
   },
   {
     "artist": "Silva Bumpa, MC DT",
@@ -42677,7 +42989,8 @@
     "spotifyId": "4bdbgZDx6LkHTNyy5PZW9h",
     "album": "Doin' It feat. MC DT",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851a3d4df607bd07da632b82827"
+    "image": "https://i.scdn.co/image/ab67616d00004851a3d4df607bd07da632b82827",
+    "popularity": 63
   },
   {
     "artist": "Ian Asher, Olly Alexander (Years & Years)",
@@ -42690,7 +43003,8 @@
     "spotifyId": "4sMR8fuTzbUyzB0asxifV0",
     "album": "Desire",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d000048511b63ef5d0e5bf964cf33cb9e"
+    "image": "https://i.scdn.co/image/ab67616d000048511b63ef5d0e5bf964cf33cb9e",
+    "popularity": 79
   },
   {
     "artist": "Kygo, Khalid, Gryffin",
@@ -42703,7 +43017,8 @@
     "spotifyId": "5ObyGDxNWH0Uuuk3NvC5r8",
     "album": "Save My Love",
     "year": "2026",
-    "image": "https://i.scdn.co/image/ab67616d00004851124a6d221e2a68ee6ac2b020"
+    "image": "https://i.scdn.co/image/ab67616d00004851124a6d221e2a68ee6ac2b020",
+    "popularity": 76
   },
   {
     "artist": "Bob Marley & The Wailers, LP Giobbi",
@@ -42716,7 +43031,8 @@
     "spotifyId": "6IAu19Ylpuu6PRhU0x4wff",
     "album": "Could You Be Loved (with LP Giobbi)",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d0000485132a2c1a0e548ac4234692650"
+    "image": "https://i.scdn.co/image/ab67616d0000485132a2c1a0e548ac4234692650",
+    "popularity": 61
   },
   {
     "artist": "Maesic, Marshall Jefferson, Salomé Das",
@@ -42729,7 +43045,8 @@
     "spotifyId": "6sgYrldk8IdtSERq4eGZj1",
     "album": "Life Is Simple (Move Your Body) [Feat Salomé Das]",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851a0c738dd4107549fa5f7dae9"
+    "image": "https://i.scdn.co/image/ab67616d00004851a0c738dd4107549fa5f7dae9",
+    "popularity": 67
   },
   {
     "artist": "WizTheMc, bees & honey",
@@ -42742,7 +43059,8 @@
     "spotifyId": "5ITV0zqzjOYfFWpW0xBmRa",
     "album": "Show Me Love",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851f67307349b14986af73d4fa0"
+    "image": "https://i.scdn.co/image/ab67616d00004851f67307349b14986af73d4fa0",
+    "popularity": 87
   },
   {
     "artist": "Jazzy, KILIMANJARO",
@@ -42755,7 +43073,8 @@
     "spotifyId": "0dgdDB39uUoC8WICmTE2U8",
     "album": "No Bad Vibes",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d00004851c195aebc0781b8aa9969398f"
+    "image": "https://i.scdn.co/image/ab67616d00004851c195aebc0781b8aa9969398f",
+    "popularity": 74
   },
   {
     "artist": "Vanco, AYA",
@@ -42768,7 +43087,8 @@
     "spotifyId": "01WFjqzUwrD4nfSQsHMVNm",
     "album": "Ma Tnsani (Yalla Habibi)",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d0000485103d4c17644f9b6c062752c71"
+    "image": "https://i.scdn.co/image/ab67616d0000485103d4c17644f9b6c062752c71",
+    "popularity": 38
   },
   {
     "artist": "RAYE",
@@ -42781,7 +43101,8 @@
     "spotifyId": "55lijDD6OAjLFFUHU9tcDm",
     "album": "WHERE IS MY HUSBAND!",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d000048516ac3c7938191585c53c8180d"
+    "image": "https://i.scdn.co/image/ab67616d000048516ac3c7938191585c53c8180d",
+    "popularity": 91
   },
   {
     "artist": "Sabrina Carpenter",
@@ -42794,7 +43115,8 @@
     "spotifyId": "42UBPzRMh5yyz0EDPr6fr1",
     "album": "Manchild",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851062c6573009fdebd43de443b"
+    "image": "https://i.scdn.co/image/ab67616d00004851062c6573009fdebd43de443b",
+    "popularity": 87
   },
   {
     "artist": "Taylor Swift",
@@ -42807,7 +43129,8 @@
     "spotifyId": "3yWuTOYDztXjZxdE2cIRUa",
     "album": "The Life of a Showgirl",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851d7812467811a7da6e6a44902"
+    "image": "https://i.scdn.co/image/ab67616d00004851d7812467811a7da6e6a44902",
+    "popularity": 95
   },
   {
     "artist": "Charli xcx",
@@ -42820,7 +43143,8 @@
     "spotifyId": "19RybK6XDbAVpcdxSbZL1o",
     "album": "BRAT",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d00004851f88b43d15fd14e9525338b59"
+    "image": "https://i.scdn.co/image/ab67616d00004851f88b43d15fd14e9525338b59",
+    "popularity": 81
   },
   {
     "artist": "PinkPantheress",
@@ -42833,7 +43157,8 @@
     "spotifyId": "1WmBVbFmLt0w6zPP37TeCG",
     "album": "Fancy That",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d000048512a6a5bd7ec690d91a384245d"
+    "image": "https://i.scdn.co/image/ab67616d000048512a6a5bd7ec690d91a384245d",
+    "popularity": 0
   },
   {
     "artist": "Icona Pop, Charli xcx",
@@ -42859,7 +43184,8 @@
     "spotifyId": "2oxtQ84p1j5GmyzmD50Lq0",
     "album": "Love. Angel. Music. Baby.",
     "year": "2004",
-    "image": "https://i.scdn.co/image/ab67616d00004851f049fc9322f0c93646cdcc77"
+    "image": "https://i.scdn.co/image/ab67616d00004851f049fc9322f0c93646cdcc77",
+    "popularity": 68
   },
   {
     "artist": "Nelly Furtado, Timbaland",
@@ -42872,7 +43198,8 @@
     "spotifyId": "2gam98EZKrF9XuOkU13ApN",
     "album": "Loose",
     "year": "2006",
-    "image": "https://i.scdn.co/image/ab67616d00004851a6f439c8957170652f9410e2"
+    "image": "https://i.scdn.co/image/ab67616d00004851a6f439c8957170652f9410e2",
+    "popularity": 83
   },
   {
     "artist": "Fergie, Ludacris",
@@ -42898,7 +43225,8 @@
     "spotifyId": "5N3hjp1WNayUPZrA8kJmJP",
     "album": "Please Please Please",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d00004851de84adf0e48248ea2d769c3e"
+    "image": "https://i.scdn.co/image/ab67616d00004851de84adf0e48248ea2d769c3e",
+    "popularity": 84
   },
   {
     "artist": "Daft Punk, Pharrell Williams, Nile Rodgers",
@@ -42911,7 +43239,8 @@
     "spotifyId": "2Foc5Q5nqNiosCNqttzHof",
     "album": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
     "year": "2013",
-    "image": "https://i.scdn.co/image/ab67616d0000485119a88dd5c7118e87d7b1619e"
+    "image": "https://i.scdn.co/image/ab67616d0000485119a88dd5c7118e87d7b1619e",
+    "popularity": 77
   },
   {
     "artist": "Tate McRae, F1 The Album",
@@ -42924,7 +43253,8 @@
     "spotifyId": "2yWlGEgEfPot0lv3OAjuG3",
     "album": "Just Keep Watching (From F1® The Movie)",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851a23d1b3449fb415346735a08"
+    "image": "https://i.scdn.co/image/ab67616d00004851a23d1b3449fb415346735a08",
+    "popularity": 90
   },
   {
     "artist": "Beyoncé, JAŸ-Z",
@@ -42937,7 +43267,8 @@
     "spotifyId": "5IVuqXILoxVWvWEPm82Jxr",
     "album": "Dangerously In Love",
     "year": "2003",
-    "image": "https://i.scdn.co/image/ab67616d0000485145680a4a57c97894490a01c1"
+    "image": "https://i.scdn.co/image/ab67616d0000485145680a4a57c97894490a01c1",
+    "popularity": 77
   },
   {
     "artist": "The Weeknd, Ariana Grande",
@@ -42950,7 +43281,8 @@
     "spotifyId": "37BZB0z9T8Xu7U3e65qxFy",
     "album": "Save Your Tears (Remix)",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d00004851c6af5ffa661a365b77df6ef6"
+    "image": "https://i.scdn.co/image/ab67616d00004851c6af5ffa661a365b77df6ef6",
+    "popularity": 76
   },
   {
     "artist": "Doja Cat, SZA",
@@ -42963,7 +43295,8 @@
     "spotifyId": "3DarAbFujv6eYNliUTyqtz",
     "album": "Planet Her",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d0000485114b7b2a920a41166d53ddd49"
+    "image": "https://i.scdn.co/image/ab67616d0000485114b7b2a920a41166d53ddd49",
+    "popularity": 80
   },
   {
     "artist": "Sam Smith, Normani",
@@ -42976,7 +43309,8 @@
     "spotifyId": "6Qs4SXO9dwPj5GKvVOv8Ki",
     "album": "Dancing With A Stranger (with Normani)",
     "year": "2019",
-    "image": "https://i.scdn.co/image/ab67616d000048513b52eca47232bedfbb5e9443"
+    "image": "https://i.scdn.co/image/ab67616d000048513b52eca47232bedfbb5e9443",
+    "popularity": 70
   },
   {
     "artist": "Miley Cyrus",
@@ -42989,7 +43323,8 @@
     "spotifyId": "3E7dfMvvCLUddWissuqMwr",
     "album": "The Time Of Our Lives (International Version)",
     "year": "2009",
-    "image": "https://i.scdn.co/image/ab67616d000048514ea6653890e297d53e93e3e0"
+    "image": "https://i.scdn.co/image/ab67616d000048514ea6653890e297d53e93e3e0",
+    "popularity": 79
   },
   {
     "artist": "Flo Rida, Sia",
@@ -43002,7 +43337,8 @@
     "spotifyId": "1NpW5kyvO4XrNJ3rnfcNy3",
     "album": "Wild Ones",
     "year": "2012",
-    "image": "https://i.scdn.co/image/ab67616d0000485115785fa4f22f8c50902b3a42"
+    "image": "https://i.scdn.co/image/ab67616d0000485115785fa4f22f8c50902b3a42",
+    "popularity": 76
   },
   {
     "artist": "Kygo, Whitney Houston",
@@ -43015,7 +43351,8 @@
     "spotifyId": "6oJ6le65B3SEqPwMRNXWjY",
     "album": "Higher Love",
     "year": "2019",
-    "image": "https://i.scdn.co/image/ab67616d000048517c8977a0ad3a3a0627be9ed7"
+    "image": "https://i.scdn.co/image/ab67616d000048517c8977a0ad3a3a0627be9ed7",
+    "popularity": 70
   },
   {
     "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",
@@ -43028,7 +43365,8 @@
     "spotifyId": "5Cp75TUMrHF6c8xbhdligS",
     "album": "Golden (from the Netflix film KPop Demon Hunters)",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851333392a83a4514ae635ed982"
+    "image": "https://i.scdn.co/image/ab67616d00004851333392a83a4514ae635ed982",
+    "popularity": 81
   },
   {
     "artist": "Mark Ronson, Bruno Mars",
@@ -43041,7 +43379,8 @@
     "spotifyId": "32OlwWuMpZ6b0aN2RZOeMS",
     "album": "Uptown Special",
     "year": "2015",
-    "image": "https://i.scdn.co/image/ab67616d000048519860171ddfee17f77a570cf6"
+    "image": "https://i.scdn.co/image/ab67616d000048519860171ddfee17f77a570cf6",
+    "popularity": 84
   },
   {
     "artist": "Jessie J, Ariana Grande, Nicki Minaj",
@@ -43054,7 +43393,8 @@
     "spotifyId": "0puf9yIluy9W0vpMEUoAnN",
     "album": "Sweet Talker (Deluxe Version)",
     "year": "2014",
-    "image": "https://i.scdn.co/image/ab67616d00004851930f686fe89425c7b6bf9a7d"
+    "image": "https://i.scdn.co/image/ab67616d00004851930f686fe89425c7b6bf9a7d",
+    "popularity": 78
   },
   {
     "artist": "Kygo, Selena Gomez",
@@ -43067,7 +43407,8 @@
     "spotifyId": "3eR23VReFzcdmS7TYCrhCe",
     "album": "It Ain't Me (with Selena Gomez)",
     "year": "2017",
-    "image": "https://i.scdn.co/image/ab67616d0000485141f289940f2e6a0d51988d77"
+    "image": "https://i.scdn.co/image/ab67616d0000485141f289940f2e6a0d51988d77",
+    "popularity": 76
   },
   {
     "artist": "Tyla",
@@ -43080,7 +43421,8 @@
     "spotifyId": "5aIVCx5tnk0ntmdiinnYvw",
     "album": "Water",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d00004851d20231861e86a6f74ef2393e"
+    "image": "https://i.scdn.co/image/ab67616d00004851d20231861e86a6f74ef2393e",
+    "popularity": 84
   },
   {
     "artist": "Post Malone, Swae Lee",
@@ -43093,7 +43435,8 @@
     "spotifyId": "3KkXRkHbMCARz0aVfEt68P",
     "album": "Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d00004851e2e352d89826aef6dbd5ff8f"
+    "image": "https://i.scdn.co/image/ab67616d00004851e2e352d89826aef6dbd5ff8f",
+    "popularity": 79
   },
   {
     "artist": "Justin Bieber, Nicki Minaj",
@@ -43106,7 +43449,8 @@
     "spotifyId": "190jyVPHYjAqEaOGmMzdyk",
     "album": "Believe (Deluxe Edition)",
     "year": "2012",
-    "image": "https://i.scdn.co/image/ab67616d000048516c20c4638a558132ba95bc39"
+    "image": "https://i.scdn.co/image/ab67616d000048516c20c4638a558132ba95bc39",
+    "popularity": 76
   },
   {
     "artist": "USHER, Lil Jon, Ludacris",
@@ -43119,7 +43463,8 @@
     "spotifyId": "5rb9QrpfcKFHM1EUbSIurX",
     "album": "Confessions (Expanded Edition)",
     "year": "2004",
-    "image": "https://i.scdn.co/image/ab67616d00004851365b3fb800c19f7ff72602da"
+    "image": "https://i.scdn.co/image/ab67616d00004851365b3fb800c19f7ff72602da",
+    "popularity": 83
   },
   {
     "artist": "Zedd, Maren Morris, Grey",
@@ -43132,7 +43477,8 @@
     "spotifyId": "09IStsImFySgyp0pIQdqAc",
     "album": "The Middle",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d00004851fbe22d168a743b782a5e856a"
+    "image": "https://i.scdn.co/image/ab67616d00004851fbe22d168a743b782a5e856a",
+    "popularity": 76
   },
   {
     "artist": "Nicki Minaj",
@@ -43145,7 +43491,8 @@
     "spotifyId": "3hlksXnvbKogFdPbpO9vel",
     "album": "Pink Friday (Complete Edition)",
     "year": "2010",
-    "image": "https://i.scdn.co/image/ab67616d00004851aa7d2641af0fa4c1f76fafbf"
+    "image": "https://i.scdn.co/image/ab67616d00004851aa7d2641af0fa4c1f76fafbf",
+    "popularity": 77
   },
   {
     "artist": "Coolio, L.V.",
@@ -43158,7 +43505,8 @@
     "spotifyId": "1DIXPcTDzTj8ZMHt3PDt8p",
     "album": "Gangsta's Paradise",
     "year": "1995",
-    "image": "https://i.scdn.co/image/ab67616d000048517438996f6fe67c59d75d4e43"
+    "image": "https://i.scdn.co/image/ab67616d000048517438996f6fe67c59d75d4e43",
+    "popularity": 84
   },
   {
     "artist": "Post Malone, Mark Morrison, Sickick",
@@ -43171,7 +43519,8 @@
     "spotifyId": "6Ole34qqbgkZ60IyrcVm7e",
     "album": "Cooped Up / Return Of The Mack",
     "year": "2022",
-    "image": "https://i.scdn.co/image/ab67616d00004851ab9f26db4d9b84e4159743b4"
+    "image": "https://i.scdn.co/image/ab67616d00004851ab9f26db4d9b84e4159743b4",
+    "popularity": 67
   },
   {
     "artist": "Travis Scott, CHASE B",
@@ -43184,7 +43533,8 @@
     "spotifyId": "6sFriHsWdq31GcaHdgFHoY",
     "album": "FE!N (CHASE B REMIX)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048514f5b352052edf8d4204d9666"
+    "image": "https://i.scdn.co/image/ab67616d000048514f5b352052edf8d4204d9666",
+    "popularity": 53
   },
   {
     "artist": "Ely Oaks, LAVINIA",
@@ -43197,7 +43547,8 @@
     "spotifyId": "1VDfvBUMwL3m1Sd9dMorR4",
     "album": "Money Made Me A Savage (Calabria)",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d0000485112df7bd7b33a99fad1c2b861"
+    "image": "https://i.scdn.co/image/ab67616d0000485112df7bd7b33a99fad1c2b861",
+    "popularity": 55
   },
   {
     "artist": "Drake, Central Cee",
@@ -43210,7 +43561,8 @@
     "spotifyId": "5FMyXeZ0reYloRTiCkPprT",
     "album": "Which One",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d000048518028a7b8c9fce086d4a47ba7"
+    "image": "https://i.scdn.co/image/ab67616d000048518028a7b8c9fce086d4a47ba7",
+    "popularity": 88
   },
   {
     "artist": "WizTheMc, bees & honey, Tyla",
@@ -43223,7 +43575,8 @@
     "spotifyId": "22YkP95GjCfXkWKyU5k1zZ",
     "album": "Show Me Love (with Tyla)",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d000048510f0047bf025ef4edab5bf6c6"
+    "image": "https://i.scdn.co/image/ab67616d000048510f0047bf025ef4edab5bf6c6",
+    "popularity": 81
   },
   {
     "artist": "Doechii, JT",
@@ -43236,7 +43589,8 @@
     "spotifyId": "2xaaJcmvMOmpDbTwlWnjFh",
     "album": "Alter Ego (with JT)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048516a3a721d2d9bf4f02bc362c2"
+    "image": "https://i.scdn.co/image/ab67616d000048516a3a721d2d9bf4f02bc362c2",
+    "popularity": 72
   },
   {
     "artist": "Charli xcx, Billie Eilish",
@@ -43249,7 +43603,8 @@
     "spotifyId": "0IsIY8pfu1yaGkPUD7pkDx",
     "album": "Brat and it’s completely different but also still brat",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048518ac99f88ebc09b1f1637dc00"
+    "image": "https://i.scdn.co/image/ab67616d000048518ac99f88ebc09b1f1637dc00",
+    "popularity": 80
   },
   {
     "artist": "Flume, kai",
@@ -43275,7 +43630,8 @@
     "spotifyId": "44MuEHdlociG8KjhPhOVw5",
     "album": "Tension (Deluxe)",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d0000485197382c8f649a621b96bbb819"
+    "image": "https://i.scdn.co/image/ab67616d0000485197382c8f649a621b96bbb819",
+    "popularity": 67
   },
   {
     "artist": "Fred again.., The Blessed Madonna",
@@ -43301,7 +43657,8 @@
     "spotifyId": "7CwWhMGWICOl2ICwbk3QTE",
     "album": "Brat and it’s completely different but also still brat",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048518ac99f88ebc09b1f1637dc00"
+    "image": "https://i.scdn.co/image/ab67616d000048518ac99f88ebc09b1f1637dc00",
+    "popularity": 69
   },
   {
     "artist": "Bad Bunny",
@@ -43314,7 +43671,8 @@
     "spotifyId": "3sK8wGT43QFpWrvNQsrQya",
     "album": "DeBÍ TiRAR MáS FOToS",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851bbd45c8d36e0e045ef640411"
+    "image": "https://i.scdn.co/image/ab67616d00004851bbd45c8d36e0e045ef640411",
+    "popularity": 97
   },
   {
     "artist": "Don Toliver, Doja Cat, F1 The Album",
@@ -43327,7 +43685,8 @@
     "spotifyId": "02BcXEH1zJYbXSabPtNlKf",
     "album": "Lose My Mind (feat. Doja Cat) [From F1® The Movie]",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851d4c0243b55cdf7394323e710"
+    "image": "https://i.scdn.co/image/ab67616d00004851d4c0243b55cdf7394323e710",
+    "popularity": 77
   },
   {
     "artist": "Tove Lo, SG Lewis",
@@ -43340,7 +43699,8 @@
     "spotifyId": "3Du9k9oZz7DJCMZviju2lD",
     "album": "HEAT",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048517de2b9727e4016ab9ddbe4d5"
+    "image": "https://i.scdn.co/image/ab67616d000048517de2b9727e4016ab9ddbe4d5",
+    "popularity": 64
   },
   {
     "artist": "Lady Gaga, Ariana Grande",
@@ -43353,7 +43713,8 @@
     "spotifyId": "7ju97lgwC2rKQ6wwsf9no9",
     "album": "Chromatica",
     "year": "2020",
-    "image": "https://i.scdn.co/image/ab67616d000048516040effba89b9b00a6f6743a"
+    "image": "https://i.scdn.co/image/ab67616d000048516040effba89b9b00a6f6743a",
+    "popularity": 70
   },
   {
     "artist": "Doja Cat",
@@ -43366,7 +43727,8 @@
     "spotifyId": "0hquQWY3xvYqN4qtiquniF",
     "album": "Vegas (From the Original Motion Picture Soundtrack ELVIS)",
     "year": "2022",
-    "image": "https://i.scdn.co/image/ab67616d00004851f8cd2bc3196512605244cd5c"
+    "image": "https://i.scdn.co/image/ab67616d00004851f8cd2bc3196512605244cd5c",
+    "popularity": 71
   },
   {
     "artist": "The Chainsmokers, Coldplay",
@@ -43379,7 +43741,8 @@
     "spotifyId": "1dNIEtp7AY3oDAKCGg2XkH",
     "album": "Something Just Like This",
     "year": "2017",
-    "image": "https://i.scdn.co/image/ab67616d00004851f79b7f08426e2899a832d3e6"
+    "image": "https://i.scdn.co/image/ab67616d00004851f79b7f08426e2899a832d3e6",
+    "popularity": 69
   },
   {
     "artist": "Jamie xx, Robyn",
@@ -43392,7 +43755,8 @@
     "spotifyId": "0pMj03SiaZ9bkFlXQWNhtZ",
     "album": "In Waves",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d0000485114b5583615b195556a3882ac"
+    "image": "https://i.scdn.co/image/ab67616d0000485114b5583615b195556a3882ac",
+    "popularity": 57
   },
   {
     "artist": "",
@@ -43414,7 +43778,8 @@
     "spotifyId": "5aIVCx5tnk0ntmdiinnYvw",
     "album": "Water",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d00004851d20231861e86a6f74ef2393e"
+    "image": "https://i.scdn.co/image/ab67616d00004851d20231861e86a6f74ef2393e",
+    "popularity": 84
   },
   {
     "artist": "BUNT., Nate Traveller",
@@ -43427,7 +43792,8 @@
     "spotifyId": "2lWc1iJlz2NVcStV5fbtPG",
     "album": "Clouds",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d000048510daa27f59cb727dfcad75a59"
+    "image": "https://i.scdn.co/image/ab67616d000048510daa27f59cb727dfcad75a59",
+    "popularity": 66
   },
   {
     "artist": "Bee Gees, SG Lewis",
@@ -43440,7 +43806,8 @@
     "spotifyId": "0L3XCv9i9IHs8cJEVhsJ3J",
     "album": "More Than A Woman (SG's Paradise Edit)",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d00004851bd8e2af160f4664d666c4132"
+    "image": "https://i.scdn.co/image/ab67616d00004851bd8e2af160f4664d666c4132",
+    "popularity": 63
   },
   {
     "artist": "Mark Ronson, Miley Cyrus",
@@ -43466,7 +43833,8 @@
     "spotifyId": "6twQJ2KMwNzODCY0HzXP2E",
     "album": "Treehouse",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d00004851d4038a256debc3335eb5f542"
+    "image": "https://i.scdn.co/image/ab67616d00004851d4038a256debc3335eb5f542",
+    "popularity": 54
   },
   {
     "artist": "Clean Bandit, Jess Glynne",
@@ -43479,7 +43847,8 @@
     "spotifyId": "61dCUoMCg28qEBzrW6htYM",
     "album": "New Eyes",
     "year": "2014",
-    "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e"
+    "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
+    "popularity": 73
   },
   {
     "artist": "Elton John, Dua Lipa, PNAU",
@@ -43492,7 +43861,8 @@
     "spotifyId": "6zSpb8dQRaw0M1dK8PBwQz",
     "album": "Cold Heart (PNAU Remix)",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d000048519f5cce8304c42d3a5463fd23"
+    "image": "https://i.scdn.co/image/ab67616d000048519f5cce8304c42d3a5463fd23",
+    "popularity": 79
   },
   {
     "artist": "Chrystal, NOTION",
@@ -43505,7 +43875,8 @@
     "spotifyId": "2FAZskT9yRjp2Oow9szJD8",
     "album": "The Days (NOTION Remix)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048519041b9965925059507fb44af"
+    "image": "https://i.scdn.co/image/ab67616d000048519041b9965925059507fb44af",
+    "popularity": 89
   },
   {
     "artist": "Zedd, Foxes",
@@ -43518,7 +43889,8 @@
     "spotifyId": "60wwxj6Dd9NJlirf84wr2c",
     "album": "Clarity",
     "year": "2012",
-    "image": "https://i.scdn.co/image/ab67616d00004851941dd3b3343d9cb9329d37bf"
+    "image": "https://i.scdn.co/image/ab67616d00004851941dd3b3343d9cb9329d37bf",
+    "popularity": 74
   },
   {
     "artist": "Calvin Harris, Ellie Goulding",
@@ -43531,7 +43903,8 @@
     "spotifyId": "05SBRd4fXgn8FX7bf8BCAE",
     "album": "18 Months",
     "year": "2012",
-    "image": "https://i.scdn.co/image/ab67616d00004851dcef905cb144d4867119850b"
+    "image": "https://i.scdn.co/image/ab67616d00004851dcef905cb144d4867119850b",
+    "popularity": 70
   },
   {
     "artist": "Swedish House Mafia, The Weeknd",
@@ -43544,7 +43917,8 @@
     "spotifyId": "7kfOEMJBJwdCYqyJeEnNhr",
     "album": "Moth To A Flame",
     "year": "2022",
-    "image": "https://i.scdn.co/image/ab67616d00004851d82b40be0627a65b2d557847"
+    "image": "https://i.scdn.co/image/ab67616d00004851d82b40be0627a65b2d557847",
+    "popularity": 71
   },
   {
     "artist": "Dua Lipa, DaBaby",
@@ -43557,7 +43931,8 @@
     "spotifyId": "39LLxExYz6ewLAcYrzQQyP",
     "album": "Future Nostalgia",
     "year": "2020",
-    "image": "https://i.scdn.co/image/ab67616d00004851c88bae7846e62a8ba59ee0bd"
+    "image": "https://i.scdn.co/image/ab67616d00004851c88bae7846e62a8ba59ee0bd",
+    "popularity": 74
   },
   {
     "artist": "Kygo, Parson James",
@@ -43570,7 +43945,8 @@
     "spotifyId": "5masKPHeAOVNgxdLebIcK7",
     "album": "Cloud Nine",
     "year": "2016",
-    "image": "https://i.scdn.co/image/ab67616d000048517247979b8bc6027bf97043ef"
+    "image": "https://i.scdn.co/image/ab67616d000048517247979b8bc6027bf97043ef",
+    "popularity": 77
   },
   {
     "artist": "Regard, Troye Sivan, Tate McRae",
@@ -43583,7 +43959,8 @@
     "spotifyId": "2cc8Sw1OnCuA5bV8nqWqpE",
     "album": "You",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d00004851cfbf7181b0e571049465d2d5"
+    "image": "https://i.scdn.co/image/ab67616d00004851cfbf7181b0e571049465d2d5",
+    "popularity": 69
   },
   {
     "artist": "Calvin Harris, Ellie Goulding",
@@ -43596,7 +43973,8 @@
     "spotifyId": "7MmG8p0F9N3C4AXdK6o6Eb",
     "album": "Motion",
     "year": "2014",
-    "image": "https://i.scdn.co/image/ab67616d000048518fba5806a323efd272677c4d"
+    "image": "https://i.scdn.co/image/ab67616d000048518fba5806a323efd272677c4d",
+    "popularity": 81
   },
   {
     "artist": "Far East Movement, The Cataracs, DEV",
@@ -43609,7 +43987,8 @@
     "spotifyId": "5AyL2kgLtTWEu3qO3B9SqK",
     "album": "Free Wired",
     "year": "2010",
-    "image": "https://i.scdn.co/image/ab67616d00004851fc7cbacf9d506c92aa7d7720"
+    "image": "https://i.scdn.co/image/ab67616d00004851fc7cbacf9d506c92aa7d7720",
+    "popularity": 73
   },
   {
     "artist": "HUGEL, Topic, Arash, Daecolm",
@@ -43622,7 +44001,8 @@
     "spotifyId": "5nPbKG04fhLkIAjcPFaZq7",
     "album": "I Adore You (feat. Daecolm)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d0000485105005dc483e9f8a73ccc6d3d"
+    "image": "https://i.scdn.co/image/ab67616d0000485105005dc483e9f8a73ccc6d3d",
+    "popularity": 83
   },
   {
     "artist": "NEIKED, Dyo",
@@ -43635,7 +44015,8 @@
     "spotifyId": "5fKBwqSTuCbnJlCOpeRa3o",
     "album": "Sexual",
     "year": "2016",
-    "image": "https://i.scdn.co/image/ab67616d00004851810706724bf310ae6630e82d"
+    "image": "https://i.scdn.co/image/ab67616d00004851810706724bf310ae6630e82d",
+    "popularity": 60
   },
   {
     "artist": "Calum Scott, Tiësto",
@@ -43648,7 +44029,8 @@
     "spotifyId": "2EHVjRFRSsXQaHAsys74Us",
     "album": "Only Human (Deluxe)",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d00004851f2d671c22b70e01b78a618a8"
+    "image": "https://i.scdn.co/image/ab67616d00004851f2d671c22b70e01b78a618a8",
+    "popularity": 62
   },
   {
     "artist": "Loud Luxury, Brando",
@@ -43661,7 +44043,8 @@
     "spotifyId": "21RzyxY3EFaxVy6K4RqaU9",
     "album": "Body",
     "year": "2017",
-    "image": "https://i.scdn.co/image/ab67616d00004851af5e185b80d374b0c6beb10f"
+    "image": "https://i.scdn.co/image/ab67616d00004851af5e185b80d374b0c6beb10f",
+    "popularity": 76
   },
   {
     "artist": "David Guetta, OneRepublic",
@@ -43674,7 +44057,8 @@
     "spotifyId": "331l3xABO0HMr1Kkyh2LZq",
     "album": "I Don't Wanna Wait",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048517ce51d1a9049162e7e2fcf60"
+    "image": "https://i.scdn.co/image/ab67616d000048517ce51d1a9049162e7e2fcf60",
+    "popularity": 84
   },
   {
     "artist": "Kygo, Ava Max",
@@ -43687,7 +44071,8 @@
     "spotifyId": "0LMwmV37RCmBO2so0szAFs",
     "album": "Whatever",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048514d914470ab899815f103f5cc"
+    "image": "https://i.scdn.co/image/ab67616d000048514d914470ab899815f103f5cc",
+    "popularity": 77
   },
   {
     "artist": "Teddy Swims, CYRIL",
@@ -43700,7 +44085,8 @@
     "spotifyId": "6VD3T09spn64tjPcBih64P",
     "album": "The Door (CYRIL Remix)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048511c28de2d4540c806ffbf3915"
+    "image": "https://i.scdn.co/image/ab67616d000048511c28de2d4540c806ffbf3915",
+    "popularity": 76
   },
   {
     "artist": "Clean Bandit, Demi Lovato",
@@ -43713,7 +44099,8 @@
     "spotifyId": "6kPJZM97LwdG9QIsT7khp6",
     "album": "Solo (feat. Demi Lovato)",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d0000485167eda217860e86c43481a5cb"
+    "image": "https://i.scdn.co/image/ab67616d0000485167eda217860e86c43481a5cb",
+    "popularity": 66
   },
   {
     "artist": "Edward Maya, Vika Jigulina",
@@ -43726,7 +44113,8 @@
     "spotifyId": "2Xf4RoFpi7n06ppsGKbxiq",
     "album": "Stereo Love",
     "year": "2009",
-    "image": "https://i.scdn.co/image/ab67616d0000485171dd74dac2936148cfb590fd"
+    "image": "https://i.scdn.co/image/ab67616d0000485171dd74dac2936148cfb590fd",
+    "popularity": 67
   },
   {
     "artist": "DJ Snake, Justin Bieber",
@@ -43739,7 +44127,8 @@
     "spotifyId": "0lYBSQXN6rCTvUZvg9S0lU",
     "album": "Encore",
     "year": "2016",
-    "image": "https://i.scdn.co/image/ab67616d00004851212d776c31027c511f0ee3bc"
+    "image": "https://i.scdn.co/image/ab67616d00004851212d776c31027c511f0ee3bc",
+    "popularity": 84
   },
   {
     "artist": "Tiësto, Ava Max",
@@ -43752,7 +44141,8 @@
     "spotifyId": "18asYwWugKjjsihZ0YvRxO",
     "album": "The Motto",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d00004851e7e3a94817ee58ed2502408f"
+    "image": "https://i.scdn.co/image/ab67616d00004851e7e3a94817ee58ed2502408f",
+    "popularity": 72
   },
   {
     "artist": "Martin Garrix, Dua Lipa",
@@ -43765,7 +44155,8 @@
     "spotifyId": "3ebXMykcMXOcLeJ9xZ17XH",
     "album": "Scared to Be Lonely",
     "year": "2017",
-    "image": "https://i.scdn.co/image/ab67616d000048516a1cba0e39d52540add955c6"
+    "image": "https://i.scdn.co/image/ab67616d000048516a1cba0e39d52540add955c6",
+    "popularity": 78
   },
   {
     "artist": "NEIKED, Mae Muller, Polo G",
@@ -43778,7 +44169,8 @@
     "spotifyId": "6f5ExP43esnvdKPddwKXJH",
     "album": "Better Days (NEIKED x Mae Muller x Polo G)",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d000048516b742298f7f36717855c4caf"
+    "image": "https://i.scdn.co/image/ab67616d000048516b742298f7f36717855c4caf",
+    "popularity": 68
   },
   {
     "artist": "Marshmello, CHVRCHES",
@@ -43791,7 +44183,8 @@
     "spotifyId": "2jpKZFnBk98Ud3EoZiBOTf",
     "album": "Here With Me",
     "year": "2019",
-    "image": "https://i.scdn.co/image/ab67616d00004851112639a71195d291216ee2b2"
+    "image": "https://i.scdn.co/image/ab67616d00004851112639a71195d291216ee2b2",
+    "popularity": 72
   },
   {
     "artist": "SAINt JHN, Imanbek",
@@ -43804,7 +44197,8 @@
     "spotifyId": "24Yi9hE78yPEbZ4kxyoXAI",
     "album": "Roses (Imanbek Remix)",
     "year": "2019",
-    "image": "https://i.scdn.co/image/ab67616d00004851b340b496cb7c38d727ff40be"
+    "image": "https://i.scdn.co/image/ab67616d00004851b340b496cb7c38d727ff40be",
+    "popularity": 75
   },
   {
     "artist": "Sigala, Bryn Christopher",
@@ -43817,7 +44211,8 @@
     "spotifyId": "1qp0ptMXNg9hqLH8sk7cc2",
     "album": "Brighter Days",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d000048515e637584b3a504d501357557"
+    "image": "https://i.scdn.co/image/ab67616d000048515e637584b3a504d501357557",
+    "popularity": 59
   },
   {
     "artist": "Martin Garrix, Bebe Rexha",
@@ -43830,7 +44225,8 @@
     "spotifyId": "23L5CiUhw2jV1OIMwthR3S",
     "album": "In the Name of Love",
     "year": "2016",
-    "image": "https://i.scdn.co/image/ab67616d00004851b3d48927d5a423bdbdb20166"
+    "image": "https://i.scdn.co/image/ab67616d00004851b3d48927d5a423bdbdb20166",
+    "popularity": 76
   },
   {
     "artist": "Tiësto, Dzeko, Preme, Post Malone",
@@ -43843,7 +44239,8 @@
     "spotifyId": "4kWO6O1BUXcZmaxitpVUwp",
     "album": "Jackie Chan",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d000048518c5e26c45a7703cf16f509f7"
+    "image": "https://i.scdn.co/image/ab67616d000048518c5e26c45a7703cf16f509f7",
+    "popularity": 66
   },
   {
     "artist": "MEDUZA, Becky Hill, Goodboys",
@@ -43856,7 +44253,8 @@
     "spotifyId": "7CHi4DtfK4heMlQaudCuHK",
     "album": "Lose Control",
     "year": "2019",
-    "image": "https://i.scdn.co/image/ab67616d00004851d43c59e52d6a8032a4e27fc4"
+    "image": "https://i.scdn.co/image/ab67616d00004851d43c59e52d6a8032a4e27fc4",
+    "popularity": 68
   },
   {
     "artist": "ACRAZE, Cherish",
@@ -43869,7 +44267,8 @@
     "spotifyId": "7cyGxmLnHWlwt41cr2RZzG",
     "album": "Do It To It",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d00004851c27049bea82998ef0467c9b3"
+    "image": "https://i.scdn.co/image/ab67616d00004851c27049bea82998ef0467c9b3",
+    "popularity": 72
   },
   {
     "artist": "The Blessed Madonna, Clementine Douglas",
@@ -43882,7 +44281,8 @@
     "spotifyId": "1TcF5F10EN17vraisG1gQv",
     "album": "Happier (feat. Clementine Douglas)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048517692f174ded40d69ce104ef9"
+    "image": "https://i.scdn.co/image/ab67616d000048517692f174ded40d69ce104ef9",
+    "popularity": 65
   },
   {
     "artist": "Shouse, David Guetta",
@@ -43895,7 +44295,8 @@
     "spotifyId": "2prnn41CblB8B4yWACDljP",
     "album": "Love Tonight (David Guetta Remix)",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d0000485128eec1bed4fe754299ea1e96"
+    "image": "https://i.scdn.co/image/ab67616d0000485128eec1bed4fe754299ea1e96",
+    "popularity": 74
   },
   {
     "artist": "Jonas Blue, JP Cooper",
@@ -43908,7 +44309,8 @@
     "spotifyId": "3P3pw6C19j31Rnzgo3JG7o",
     "album": "Blue",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d000048515b6bcc59c3562a6f362344c6"
+    "image": "https://i.scdn.co/image/ab67616d000048515b6bcc59c3562a6f362344c6",
+    "popularity": 75
   },
   {
     "artist": "Hailee Steinfeld, Alesso, Florida Georgia Line, WATT",
@@ -43921,7 +44323,8 @@
     "spotifyId": "5Gu0PDLN4YJeW75PpBSg9p",
     "album": "Let Me Go (with Alesso, Florida Georgia Line & watt)",
     "year": "2017",
-    "image": "https://i.scdn.co/image/ab67616d00004851523eb48df1fa22b6d450833e"
+    "image": "https://i.scdn.co/image/ab67616d00004851523eb48df1fa22b6d450833e",
+    "popularity": 70
   },
   {
     "artist": "Clean Bandit, Mabel, 24kGoldn",
@@ -43934,7 +44337,8 @@
     "spotifyId": "27u7t9d7ZQoyjsCROHuZJ3",
     "album": "Tick Tock (feat. 24kGoldn)",
     "year": "2020",
-    "image": "https://i.scdn.co/image/ab67616d00004851383f65cc77e0e713d065a046"
+    "image": "https://i.scdn.co/image/ab67616d00004851383f65cc77e0e713d065a046",
+    "popularity": 63
   },
   {
     "artist": "The Chainsmokers, Kelsea Ballerini",
@@ -43947,7 +44351,8 @@
     "spotifyId": "4NBTZtAt1F13VvlSKe6KTl",
     "album": "Sick Boy",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d000048518e26bf4293c9da7a6439607b"
+    "image": "https://i.scdn.co/image/ab67616d000048518e26bf4293c9da7a6439607b",
+    "popularity": 69
   },
   {
     "artist": "Galantis, David Guetta, Little Mix",
@@ -43960,7 +44365,8 @@
     "spotifyId": "5K6Ssv4Z3zRvxt0P6EKUAP",
     "album": "Heartbreak Anthem (with David Guetta & Little Mix)",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d00004851e94040bb09049cf4ed12a7a6"
+    "image": "https://i.scdn.co/image/ab67616d00004851e94040bb09049cf4ed12a7a6",
+    "popularity": 67
   },
   {
     "artist": "MEDUZA, Goodboys",
@@ -43973,7 +44379,8 @@
     "spotifyId": "1DFD5Fotzgn6yYXkYsKiGs",
     "album": "Piece Of Your Heart",
     "year": "2019",
-    "image": "https://i.scdn.co/image/ab67616d00004851ead13021d0f2957958081f28"
+    "image": "https://i.scdn.co/image/ab67616d00004851ead13021d0f2957958081f28",
+    "popularity": 67
   },
   {
     "artist": "ATB, Topic, A7S",
@@ -43986,7 +44393,8 @@
     "spotifyId": "5YaskwnGDZFDRipaqzbwQx",
     "album": "Your Love (9PM)",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d00004851f1462ebfec5f96421f44dcd3"
+    "image": "https://i.scdn.co/image/ab67616d00004851f1462ebfec5f96421f44dcd3",
+    "popularity": 73
   },
   {
     "artist": "Tiësto, Jonas Blue, Rita Ora",
@@ -43999,7 +44407,8 @@
     "spotifyId": "3M9Apu4OZfylLTFKvgEtKa",
     "album": "Ritual",
     "year": "2019",
-    "image": "https://i.scdn.co/image/ab67616d00004851211bcd4f50464c15d7c7f111"
+    "image": "https://i.scdn.co/image/ab67616d00004851211bcd4f50464c15d7c7f111",
+    "popularity": 59
   },
   {
     "artist": "Alesso, Nate Smith",
@@ -44012,7 +44421,8 @@
     "spotifyId": "3MBJxg2sT7CAdqYcdU8C5K",
     "album": "I Like It (with Nate Smith)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d00004851d06f31b4562e43b93058256c"
+    "image": "https://i.scdn.co/image/ab67616d00004851d06f31b4562e43b93058256c",
+    "popularity": 74
   },
   {
     "artist": "Tiësto, Matthew Koma",
@@ -44025,7 +44435,8 @@
     "spotifyId": "77OuOZhDxJSQLYnNIpX2AG",
     "album": "A Town Called Paradise",
     "year": "2014",
-    "image": "https://i.scdn.co/image/ab67616d000048514ca8d06b996fb365b62d3d9c"
+    "image": "https://i.scdn.co/image/ab67616d000048514ca8d06b996fb365b62d3d9c",
+    "popularity": 59
   },
   {
     "artist": "Jonas Blue, Jack & Jack",
@@ -44038,7 +44449,8 @@
     "spotifyId": "5ZSl6gDoV6bPPxzmLeneV9",
     "album": "Blue",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d000048515b6bcc59c3562a6f362344c6"
+    "image": "https://i.scdn.co/image/ab67616d000048515b6bcc59c3562a6f362344c6",
+    "popularity": 69
   },
   {
     "artist": "Alan Walker, Ava Max",
@@ -44051,7 +44463,8 @@
     "spotifyId": "0bMbDctzMmTyK2j74j3nF3",
     "album": "Alone, Pt. II",
     "year": "2019",
-    "image": "https://i.scdn.co/image/ab67616d00004851513b53948060f023ab88a855"
+    "image": "https://i.scdn.co/image/ab67616d00004851513b53948060f023ab88a855",
+    "popularity": 67
   },
   {
     "artist": "Jax Jones, Calum Scott",
@@ -44077,7 +44490,8 @@
     "spotifyId": "62LJFaYihsdVrrkgUOJC05",
     "album": "Parade - Music from the Motion Picture Under the Cherry Moon",
     "year": "1986",
-    "image": "https://i.scdn.co/image/ab67616d0000485123cc0f0a925845a3de4aca38"
+    "image": "https://i.scdn.co/image/ab67616d0000485123cc0f0a925845a3de4aca38",
+    "popularity": 71
   },
   {
     "artist": "Philip Bailey, Phil Collins",
@@ -44090,7 +44504,8 @@
     "spotifyId": "7INi4pMPG4IE0Smx5y4KVf",
     "album": "Chinese Wall",
     "year": "1985",
-    "image": "https://i.scdn.co/image/ab67616d00004851d05d00a34eee4d09ec104298"
+    "image": "https://i.scdn.co/image/ab67616d00004851d05d00a34eee4d09ec104298",
+    "popularity": 64
   },
   {
     "artist": "Elton John, Kiki Dee",
@@ -44103,7 +44518,8 @@
     "spotifyId": "7HW5WIw7ZgZORCzUxv5gW5",
     "album": "Rock Of The Westies",
     "year": "1975",
-    "image": "https://i.scdn.co/image/ab67616d0000485142a15a4fe15a8a88ab728d5b"
+    "image": "https://i.scdn.co/image/ab67616d0000485142a15a4fe15a8a88ab728d5b",
+    "popularity": 78
   },
   {
     "artist": "The Jacksons",
@@ -44116,7 +44532,8 @@
     "spotifyId": "3qI94hINNNeb4S7xQi18lS",
     "album": "Destiny",
     "year": "1978",
-    "image": "https://i.scdn.co/image/ab67616d000048519daf7b461a827acbbb0e4971"
+    "image": "https://i.scdn.co/image/ab67616d000048519daf7b461a827acbbb0e4971",
+    "popularity": 69
   },
   {
     "artist": "CHIC",
@@ -44129,7 +44546,8 @@
     "spotifyId": "7Kszjzps0xbQXyo1pO4KfE",
     "album": "C'est Chic (2018 Remaster)",
     "year": "1978",
-    "image": "https://i.scdn.co/image/ab67616d00004851e37d5190acaf635f06cfcc4b"
+    "image": "https://i.scdn.co/image/ab67616d00004851e37d5190acaf635f06cfcc4b",
+    "popularity": 64
   },
   {
     "artist": "Earth, Wind & Fire, The Emotions",
@@ -44142,7 +44560,8 @@
     "spotifyId": "6ztstiyZL6FXzh4aG46ZPD",
     "album": "I Am",
     "year": "1979",
-    "image": "https://i.scdn.co/image/ab67616d000048518b2238ebc2b233ba73b8c4ca"
+    "image": "https://i.scdn.co/image/ab67616d000048518b2238ebc2b233ba73b8c4ca",
+    "popularity": 75
   },
   {
     "artist": "Everything But The Girl",
@@ -44155,7 +44574,8 @@
     "spotifyId": "1IsvXZXAV9EBC4hBKW6yDN",
     "album": "Like The Deserts Miss The Rain",
     "year": "2002",
-    "image": "https://i.scdn.co/image/ab67616d000048516cf12136d266b6d906069694"
+    "image": "https://i.scdn.co/image/ab67616d000048516cf12136d266b6d906069694",
+    "popularity": 58
   },
   {
     "artist": "The Pointer Sisters",
@@ -44168,7 +44588,8 @@
     "spotifyId": "1kIu9zpYtWjgrLlsactlna",
     "album": "Break Out (1983 Version - Expanded Edition)",
     "year": "1983",
-    "image": "https://i.scdn.co/image/ab67616d000048512df339142f0f0090b54b3546"
+    "image": "https://i.scdn.co/image/ab67616d000048512df339142f0f0090b54b3546",
+    "popularity": 61
   },
   {
     "artist": "Blackstreet, Dr. Dre, Queen Pen",
@@ -44181,7 +44602,8 @@
     "spotifyId": "6MdqqkQ8sSC0WB4i8PyRuQ",
     "album": "Another Level",
     "year": "1996",
-    "image": "https://i.scdn.co/image/ab67616d0000485103ca37157b9ceefbe8fe225b"
+    "image": "https://i.scdn.co/image/ab67616d0000485103ca37157b9ceefbe8fe225b",
+    "popularity": 76
   },
   {
     "artist": "KC & The Sunshine Band",
@@ -44194,7 +44616,8 @@
     "spotifyId": "3yDhZq8f17SmumVmEyCaRN",
     "album": "All In a Night's Work (Expanded Version)",
     "year": "2016",
-    "image": "https://i.scdn.co/image/ab67616d00004851ed1e6f4480313f95ac380159"
+    "image": "https://i.scdn.co/image/ab67616d00004851ed1e6f4480313f95ac380159",
+    "popularity": 67
   },
   {
     "artist": "House Of Pain",
@@ -44207,7 +44630,8 @@
     "spotifyId": "7L93GESzq43UkKUt5FsOCq",
     "album": "House of Pain (Fine Malt Lyrics) [30 Years] [Deluxe Edition]",
     "year": "2022",
-    "image": "https://i.scdn.co/image/ab67616d0000485179606c79fde418c0bc458abb"
+    "image": "https://i.scdn.co/image/ab67616d0000485179606c79fde418c0bc458abb",
+    "popularity": 74
   },
   {
     "artist": "Eurythmics, Annie Lennox, Dave Stewart",
@@ -44220,7 +44644,8 @@
     "spotifyId": "1TfqLAPs4K3s2rJMoCokcS",
     "album": "Sweet Dreams (Are Made Of This)",
     "year": "1983",
-    "image": "https://i.scdn.co/image/ab67616d00004851b3994c94dfb241923664bb4d"
+    "image": "https://i.scdn.co/image/ab67616d00004851b3994c94dfb241923664bb4d",
+    "popularity": 82
   },
   {
     "artist": "Christina Aguilera, Lil' Kim, Mýa, P!nk",
@@ -44233,7 +44658,8 @@
     "spotifyId": "7GbqE3MlkKosIaCvf50JRK",
     "album": "Moulin Rouge",
     "year": "2001",
-    "image": "https://i.scdn.co/image/ab67616d00004851e6e0891de00a924b0f186d0c"
+    "image": "https://i.scdn.co/image/ab67616d00004851e6e0891de00a924b0f186d0c",
+    "popularity": 62
   },
   {
     "artist": "David Bowie, Mick Jagger",
@@ -44271,7 +44697,8 @@
     "spotifyId": "6W7ztLBiRzBN46ZaPAcQ0F",
     "album": "Dirty Dancing (Original Motion Picture Soundtrack)",
     "year": "1987",
-    "image": "https://i.scdn.co/image/ab67616d00004851ac19c6552524d207aac1277b"
+    "image": "https://i.scdn.co/image/ab67616d00004851ac19c6552524d207aac1277b",
+    "popularity": 65
   },
   {
     "artist": "KC & The Sunshine Band",
@@ -44284,7 +44711,8 @@
     "spotifyId": "3PR79C1jVvLLLmgdyHkXl3",
     "album": "KC & the Sunshine Band",
     "year": "1975",
-    "image": "https://i.scdn.co/image/ab67616d0000485190298163e25342e58d153899"
+    "image": "https://i.scdn.co/image/ab67616d0000485190298163e25342e58d153899",
+    "popularity": 60
   },
   {
     "artist": "Madonna, Justin Timberlake, Timbaland",
@@ -44297,7 +44725,8 @@
     "spotifyId": "1dDNz8h95Gsu0W4QdxVVln",
     "album": "Hard Candy",
     "year": "2008",
-    "image": "https://i.scdn.co/image/ab67616d000048510254cb69386bd62f83f90c6b"
+    "image": "https://i.scdn.co/image/ab67616d000048510254cb69386bd62f83f90c6b",
+    "popularity": 56
   },
   {
     "artist": "Disclosure, Sam Smith",
@@ -44310,7 +44739,8 @@
     "spotifyId": "51ODNNDZm21HU7wI7cccRr",
     "album": "Settle (Special Edition)",
     "year": "2013",
-    "image": "https://i.scdn.co/image/ab67616d00004851786201dca187d2b0c956c24b"
+    "image": "https://i.scdn.co/image/ab67616d00004851786201dca187d2b0c956c24b",
+    "popularity": 80
   },
   {
     "artist": "Salt-N-Pepa",
@@ -44323,7 +44753,8 @@
     "spotifyId": "6sT9MWlJManry3EQwf4V80",
     "album": "Hot, Cool & Vicious",
     "year": "1986",
-    "image": "https://i.scdn.co/image/ab67616d00004851a90317b8d96c0b3f5e9c5e3d"
+    "image": "https://i.scdn.co/image/ab67616d00004851a90317b8d96c0b3f5e9c5e3d",
+    "popularity": 66
   },
   {
     "artist": "Major Lazer, MØ, DJ Snake",
@@ -44349,7 +44780,8 @@
     "spotifyId": "0GWGZA5mxo9nHuSyrj70uo",
     "album": "One More Love",
     "year": "2010",
-    "image": "https://i.scdn.co/image/ab67616d000048511813115ff10c5f5ae028321d"
+    "image": "https://i.scdn.co/image/ab67616d000048511813115ff10c5f5ae028321d",
+    "popularity": 72
   },
   {
     "artist": "Faul & Wad, PNAU",
@@ -44362,7 +44794,8 @@
     "spotifyId": "2SdMEke7JCBEo8t60iyw2r",
     "album": "Changes",
     "year": "2013",
-    "image": "https://i.scdn.co/image/ab67616d000048519b484ba06fc7f37e59bd1871"
+    "image": "https://i.scdn.co/image/ab67616d000048519b484ba06fc7f37e59bd1871",
+    "popularity": 62
   },
   {
     "artist": "Klingande",
@@ -44398,7 +44831,8 @@
     "spotifyId": "4cG7HUWYHBV6R6tHn1gxrl",
     "album": "Friday (feat. Mufasa & Hypeman) [Dopamine Re-Edit]",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d00004851815cb538fd7821595b2bc8c5"
+    "image": "https://i.scdn.co/image/ab67616d00004851815cb538fd7821595b2bc8c5",
+    "popularity": 75
   },
   {
     "artist": "Lana Del Rey, Cedric Gervais",
@@ -44411,7 +44845,8 @@
     "spotifyId": "6PUIzlqotEmPuBfjbwYWOB",
     "album": "Summertime Sadness (Lana Del Rey Vs. Cedric Gervais) [Cedric Gervais Remix]",
     "year": "2013",
-    "image": "https://i.scdn.co/image/ab67616d00004851f8cdf8e85bc179a475d581ba"
+    "image": "https://i.scdn.co/image/ab67616d00004851f8cdf8e85bc179a475d581ba",
+    "popularity": 72
   },
   {
     "artist": "Major Lazer, J Balvin, El Alfa, Diplo",
@@ -44437,7 +44872,8 @@
     "spotifyId": "6h5PAsRni4IRlxWr6uDPTP",
     "album": "More Than You Know",
     "year": "2017",
-    "image": "https://i.scdn.co/image/ab67616d00004851fba6de0b38b0168d480b1a27"
+    "image": "https://i.scdn.co/image/ab67616d00004851fba6de0b38b0168d480b1a27",
+    "popularity": 77
   },
   {
     "artist": "Disturbed, CYRIL",
@@ -44450,7 +44886,8 @@
     "spotifyId": "1LY3GhF0zxIVgbYEQjCbUO",
     "album": "The Sound of Silence (CYRIL Remix)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048513b4f7ee095821f15a7d78127"
+    "image": "https://i.scdn.co/image/ab67616d000048513b4f7ee095821f15a7d78127",
+    "popularity": 81
   },
   {
     "artist": "Kungs",
@@ -44463,7 +44900,8 @@
     "spotifyId": "0xfMlIW8lS40qvpsUw1l0X",
     "album": "Never Going Home",
     "year": "2021",
-    "image": "https://i.scdn.co/image/ab67616d00004851620940a157773439590c4486"
+    "image": "https://i.scdn.co/image/ab67616d00004851620940a157773439590c4486",
+    "popularity": 62
   },
   {
     "artist": "Mr. Probz, Robin Schulz",
@@ -44476,7 +44914,8 @@
     "spotifyId": "1HFfMOxCAT4GAwaPfCdmUs",
     "album": "Waves (Robin Schulz Radio Edit)",
     "year": "2014",
-    "image": "https://i.scdn.co/image/ab67616d0000485120062cf8da0f580e9118b487"
+    "image": "https://i.scdn.co/image/ab67616d0000485120062cf8da0f580e9118b487",
+    "popularity": 76
   },
   {
     "artist": "Aventura, Judy Santos",
@@ -44489,7 +44928,8 @@
     "spotifyId": "65H6t1WQBim6q93yM8fEwn",
     "album": "We Broke The Rules",
     "year": "2002",
-    "image": "https://i.scdn.co/image/ab67616d00004851e1afa83bd73aa80c0ff0ee34"
+    "image": "https://i.scdn.co/image/ab67616d00004851e1afa83bd73aa80c0ff0ee34",
+    "popularity": 76
   },
   {
     "artist": "Peggy Gou",
@@ -44515,7 +44955,8 @@
     "spotifyId": "1eldTykrnkEBLX41bk5eMw",
     "album": "Petit génie",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d000048517b6ae17633cbb6f9c1b5d4ac"
+    "image": "https://i.scdn.co/image/ab67616d000048517b6ae17633cbb6f9c1b5d4ac",
+    "popularity": 67
   },
   {
     "artist": "Stefy De Cicco, Shibui, Andrea Zelletta",
@@ -44528,7 +44969,8 @@
     "spotifyId": "79DFRI318iJU1hvZnPzA4K",
     "album": "Superstar",
     "year": "2023",
-    "image": "https://i.scdn.co/image/ab67616d000048512c45eef0024f85d32053f40b"
+    "image": "https://i.scdn.co/image/ab67616d000048512c45eef0024f85d32053f40b",
+    "popularity": 50
   },
   {
     "artist": "Purple Disco Machine, Kungs, Julian Perretta",
@@ -44541,7 +44983,8 @@
     "spotifyId": "6BjG4NirMgJfC6QAvbfBNG",
     "album": "Paradise",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048511c022ff0dbcd7861152d9dd2"
+    "image": "https://i.scdn.co/image/ab67616d000048511c022ff0dbcd7861152d9dd2",
+    "popularity": 66
   },
   {
     "artist": "Macklemore, Ryan Lewis, Macklemore & Ryan Lewis, Ray Dalton",
@@ -44554,7 +44997,8 @@
     "spotifyId": "1ydmhnyDOWr5y0s7Vvdw5i",
     "album": "The Heist (Deluxe Edition)",
     "year": "2012",
-    "image": "https://i.scdn.co/image/ab67616d00004851938f1c0cc7d36a671ed226a7"
+    "image": "https://i.scdn.co/image/ab67616d00004851938f1c0cc7d36a671ed226a7",
+    "popularity": 62
   },
   {
     "artist": "Alexandra Stan",
@@ -44567,7 +45011,8 @@
     "spotifyId": "3LWDPEXEaLBRGNLbdcbwBR",
     "album": "Saxobeats",
     "year": "2011",
-    "image": "https://i.scdn.co/image/ab67616d00004851b787b5b057751c4d5bb5de54"
+    "image": "https://i.scdn.co/image/ab67616d00004851b787b5b057751c4d5bb5de54",
+    "popularity": 74
   },
   {
     "artist": "Taio Cruz, Flo Rida",
@@ -44580,7 +45025,8 @@
     "spotifyId": "5pmL3RzOy3IvGFaSDi4hZL",
     "album": "TY.O (International Version)",
     "year": "2011",
-    "image": "https://i.scdn.co/image/ab67616d0000485127656009177a4273a62c758a"
+    "image": "https://i.scdn.co/image/ab67616d0000485127656009177a4273a62c758a",
+    "popularity": 70
   },
   {
     "artist": "DJ Antoine, Paolo Ortelli, Jay C",
@@ -44606,7 +45052,8 @@
     "spotifyId": "4w8niZpiMy6qz1mntFA5uM",
     "album": "Taki Taki (with Selena Gomez, Ozuna & Cardi B)",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d00004851e105c410a7b390c61a58cbf8"
+    "image": "https://i.scdn.co/image/ab67616d00004851e105c410a7b390c61a58cbf8",
+    "popularity": 70
   },
   {
     "artist": "Jennifer Lopez, Pitbull",
@@ -44619,7 +45066,8 @@
     "spotifyId": "0Oe49j06Bjrxs8PltuVeaW",
     "album": "On The Floor",
     "year": "2011",
-    "image": "https://i.scdn.co/image/ab67616d000048515c7fdd07d99c156401073aaa"
+    "image": "https://i.scdn.co/image/ab67616d000048515c7fdd07d99c156401073aaa",
+    "popularity": 72
   },
   {
     "artist": "Shakira, El Cata",
@@ -44632,7 +45080,8 @@
     "spotifyId": "42k1KeBehAd83lrGt1okiC",
     "album": "Sale el Sol",
     "year": "2010",
-    "image": "https://i.scdn.co/image/ab67616d000048514214ddc9e33e76de6a8ee888"
+    "image": "https://i.scdn.co/image/ab67616d000048514214ddc9e33e76de6a8ee888",
+    "popularity": 70
   },
   {
     "artist": "David Guetta, Kid Cudi",
@@ -44670,7 +45119,8 @@
     "spotifyId": "4kLLWz7srcuLKA7Et40PQR",
     "album": "THE E.N.D. (THE ENERGY NEVER DIES) [Deluxe Version]",
     "year": "2009",
-    "image": "https://i.scdn.co/image/ab67616d000048510bd44f5ff9ecc99f7770acc5"
+    "image": "https://i.scdn.co/image/ab67616d000048510bd44f5ff9ecc99f7770acc5",
+    "popularity": 80
   },
   {
     "artist": "Madcon, Ray Dalton",
@@ -44719,7 +45169,8 @@
     "spotifyId": "26tmbdSmurR8Ff5h5xLkvQ",
     "album": "Intoxicated (Edit)",
     "year": "2014",
-    "image": "https://i.scdn.co/image/ab67616d0000485157196cdf6a49b13d6d22d21e"
+    "image": "https://i.scdn.co/image/ab67616d0000485157196cdf6a49b13d6d22d21e",
+    "popularity": 60
   },
   {
     "artist": "Timbaland, Keri Hilson, D.O.E.",
@@ -44732,7 +45183,8 @@
     "spotifyId": "2bLqfJjuC5syrsgDsZfGmn",
     "album": "Shock Value",
     "year": "2007",
-    "image": "https://i.scdn.co/image/ab67616d000048514ed674ab91bdc566534f9285"
+    "image": "https://i.scdn.co/image/ab67616d000048514ed674ab91bdc566534f9285",
+    "popularity": 81
   },
   {
     "artist": "Sevdaliza, Pabllo Vittar, Yseult",
@@ -44745,7 +45197,8 @@
     "spotifyId": "5496lks6V3fh1mZAB6IAap",
     "album": "Alibi (with Pabllo Vittar & Yseult)",
     "year": "2024",
-    "image": "https://i.scdn.co/image/ab67616d000048514ee35e37bc21fe929a4d3605"
+    "image": "https://i.scdn.co/image/ab67616d000048514ee35e37bc21fe929a4d3605",
+    "popularity": 82
   },
   {
     "artist": "Pitbull, AFROJACK, Ne-Yo, Nayer",
@@ -44758,7 +45211,8 @@
     "spotifyId": "4QNpBfC0zvjKqPJcyqBy9W",
     "album": "Planet Pit (Deluxe Version)",
     "year": "2011",
-    "image": "https://i.scdn.co/image/ab67616d000048511dc7483a9fcfce54822a2f19"
+    "image": "https://i.scdn.co/image/ab67616d000048511dc7483a9fcfce54822a2f19",
+    "popularity": 84
   },
   {
     "artist": "Nicky Jam, J Balvin",
@@ -44771,7 +45225,8 @@
     "spotifyId": "6JjPBQfI2Y8nIjnm65X6Pw",
     "album": "X (feat. Maluma & Ozuna) [Remix]",
     "year": "2018",
-    "image": "https://i.scdn.co/image/ab67616d000048514b1734e4d48786063992ce04"
+    "image": "https://i.scdn.co/image/ab67616d000048514b1734e4d48786063992ce04",
+    "popularity": 77
   },
   {
     "artist": "David Guetta, Hypaton, Bonnie Tyler",
@@ -44784,7 +45239,8 @@
     "spotifyId": "3XJQz97R6A7bXn8awvFknM",
     "album": "Together",
     "year": "2025",
-    "image": "https://i.scdn.co/image/ab67616d00004851faf20f271a2243df4aaafc7a"
+    "image": "https://i.scdn.co/image/ab67616d00004851faf20f271a2243df4aaafc7a",
+    "popularity": 67
   },
   {
     "artist": "Jean Schultheis",
@@ -44797,7 +45253,8 @@
     "spotifyId": "6qfjUmIxPluNISxBgJfvM3",
     "album": "Abracadabra",
     "year": "1981",
-    "image": "https://i.scdn.co/image/ab67616d0000485196af7918a4952aef500f934c"
+    "image": "https://i.scdn.co/image/ab67616d0000485196af7918a4952aef500f934c",
+    "popularity": 55
   },
   {
     "artist": "Jean-Jacques Goldman, Michael Jones",
@@ -44810,7 +45267,8 @@
     "spotifyId": "55mXuPsEm6aboDIM68RM74",
     "album": "Non homologué",
     "year": "1985",
-    "image": "https://i.scdn.co/image/ab67616d00004851faabb26835b3326341ded4a7"
+    "image": "https://i.scdn.co/image/ab67616d00004851faabb26835b3326341ded4a7",
+    "popularity": 57
   },
   {
     "artist": "Elsa Lunghini",
@@ -44823,7 +45281,8 @@
     "spotifyId": "6JCIbXPH5LIawW4NRLvYE8",
     "album": "L'essentiel",
     "year": "1997",
-    "image": "https://i.scdn.co/image/ab67616d00004851b48a0f52cda0d9e9ce02fc71"
+    "image": "https://i.scdn.co/image/ab67616d00004851b48a0f52cda0d9e9ce02fc71",
+    "popularity": 49
   },
   {
     "artist": "Caroline Loeb",
@@ -44836,7 +45295,8 @@
     "spotifyId": "2dgbgBcWg5iKQ0jmChAb3l",
     "album": "C'est la ouate",
     "year": "1987",
-    "image": "https://i.scdn.co/image/ab67616d0000485127dcbf8209a6f5f4f0a68d5e"
+    "image": "https://i.scdn.co/image/ab67616d0000485127dcbf8209a6f5f4f0a68d5e",
+    "popularity": 42
   },
   {
     "artist": "Étienne Daho",
@@ -44849,7 +45309,8 @@
     "spotifyId": "5DlrHsAjvzsR1z4vOLZPN3",
     "album": "Tombé pour la France",
     "year": "1985",
-    "image": "https://i.scdn.co/image/ab67616d00004851448974de5d90322392045596"
+    "image": "https://i.scdn.co/image/ab67616d00004851448974de5d90322392045596",
+    "popularity": 17
   },
   {
     "artist": "Véronique Sanson",
@@ -44863,7 +45324,8 @@
     "spotifyId": "06eAEuEGhQMGjj75H6Ipga",
     "album": "Sanson comme ils l'imaginent",
     "year": "1995",
-    "image": "https://i.scdn.co/image/ab67616d00004851062dbc007bba54ca732f2404"
+    "image": "https://i.scdn.co/image/ab67616d00004851062dbc007bba54ca732f2404",
+    "popularity": 23
   },
   {
     "artist": "Orchestral Manoeuvres In The Dark",
@@ -44883,7 +45345,8 @@
     ],
     "danceability": 0.56,
     "spotifyId": "7bJSbd2Upa4iYVHlbRKEJm",
-    "image": "https://i.scdn.co/image/ab67616d0000485146c913077ad733cf423eab13"
+    "image": "https://i.scdn.co/image/ab67616d0000485146c913077ad733cf423eab13",
+    "popularity": 52
   },
   {
     "artist": "Huey Lewis & The News",
@@ -44896,7 +45359,8 @@
     "spotifyId": "2olVm1lHicpveMAo4AUDRB",
     "album": "Greatest Hits: Huey Lewis And The News",
     "year": "2006",
-    "image": "https://i.scdn.co/image/ab67616d000048515306ed42ae78f317258c51bb"
+    "image": "https://i.scdn.co/image/ab67616d000048515306ed42ae78f317258c51bb",
+    "popularity": 73
   },
   {
     "artist": "Olivia Newton-John",
@@ -44929,7 +45393,8 @@
     "spotifyId": "3FnP3j1TyiTwbJb5AR2ynT",
     "album": "Purple Rain (Deluxe Expanded Edition)",
     "year": "2017",
-    "image": "https://i.scdn.co/image/ab67616d00004851e2829416e5011fb749cc3fde"
+    "image": "https://i.scdn.co/image/ab67616d00004851e2829416e5011fb749cc3fde",
+    "popularity": 44
   },
   {
     "artist": "Queen",
@@ -44942,7 +45407,8 @@
     "spotifyId": "2AkmdLbVKS1steeZdy8H1l",
     "album": "The Works (Deluxe Edition 2011 Remaster)",
     "year": "1984",
-    "image": "https://i.scdn.co/image/ab67616d00004851d1e7c0e1bf0980298428a1ae"
+    "image": "https://i.scdn.co/image/ab67616d00004851d1e7c0e1bf0980298428a1ae",
+    "popularity": 71
   },
   {
     "artist": "F.R. David",
@@ -44955,7 +45421,8 @@
     "spotifyId": "1HPJOoIVdUPuaebxzMrVaD",
     "album": "Words",
     "year": "1983",
-    "image": "https://i.scdn.co/image/ab67616d000048514742af6d5c9eae5f7f63ee5e"
+    "image": "https://i.scdn.co/image/ab67616d000048514742af6d5c9eae5f7f63ee5e",
+    "popularity": 73
   },
   {
     "artist": "Queen",
@@ -44974,7 +45441,8 @@
     ],
     "danceability": 0.96,
     "spotifyId": "5vdp5UmvTsnMEMESIF2Ym7",
-    "image": "https://i.scdn.co/image/ab67616d00004851056e90910cbaf5c5b892aeba"
+    "image": "https://i.scdn.co/image/ab67616d00004851056e90910cbaf5c5b892aeba",
+    "popularity": 80
   },
   {
     "artist": "Oliver Cheatham",
@@ -44987,7 +45455,8 @@
     "spotifyId": "4kTS0Ioxdm6uSGmFNvhnGQ",
     "album": "Saturday Night (Expanded Edition)",
     "year": "1983",
-    "image": "https://i.scdn.co/image/ab67616d0000485130a57e2d9be973cedab286f0"
+    "image": "https://i.scdn.co/image/ab67616d0000485130a57e2d9be973cedab286f0",
+    "popularity": 49
   },
   {
     "artist": "Bibi Flash",
@@ -45000,7 +45469,8 @@
     "spotifyId": "5JAGMln9Bd4xrHkjS4jMf2",
     "album": "Best of Bibi Flash Collector (Le meilleur des années 80)",
     "year": "2011",
-    "image": "https://i.scdn.co/image/ab67616d0000485191cf20761878b9aebc2cb967"
+    "image": "https://i.scdn.co/image/ab67616d0000485191cf20761878b9aebc2cb967",
+    "popularity": 46
   },
   {
     "artist": "Kool & The Gang",
@@ -45038,7 +45508,8 @@
     "spotifyId": "3cbV252akVZInSvJk7jAYX",
     "album": "What a Feelin'",
     "year": "1983",
-    "image": "https://i.scdn.co/image/ab67616d000048512ff76b4da68f018b4735ee59"
+    "image": "https://i.scdn.co/image/ab67616d000048512ff76b4da68f018b4735ee59",
+    "popularity": 75
   },
   {
     "artist": "Mylène Farmer",
@@ -45064,7 +45535,8 @@
     "spotifyId": "4ePsPRmL0aXbgCY2BwOBGZ",
     "album": "Les démons de minuit - EP",
     "year": "2016",
-    "image": "https://i.scdn.co/image/ab67616d00004851cd41406ae91323f53ac032ff"
+    "image": "https://i.scdn.co/image/ab67616d00004851cd41406ae91323f53ac032ff",
+    "popularity": 46
   },
   {
     "artist": "Début De Soirée",
@@ -45077,7 +45549,8 @@
     "spotifyId": "2pXzTDfEoA19Fqhtl08Hiw",
     "album": "Best of Début de Soirée (Le meilleur des années 80)",
     "year": "2011",
-    "image": "https://i.scdn.co/image/ab67616d000048517e7e16d043dea11ab6f70e2a"
+    "image": "https://i.scdn.co/image/ab67616d000048517e7e16d043dea11ab6f70e2a",
+    "popularity": 46
   },
   {
     "artist": "Jean-Luc Lahaye",
@@ -45129,7 +45602,8 @@
     "spotifyId": "5TpIQ1tVlPnm4SHObswUU6",
     "album": "Chacun fait (C'qui lui plait)",
     "year": "1981",
-    "image": "https://i.scdn.co/image/ab67616d00004851fa9137141ff7fe5fe30dc72d"
+    "image": "https://i.scdn.co/image/ab67616d00004851fa9137141ff7fe5fe30dc72d",
+    "popularity": 49
   },
   {
     "artist": "Luna Parker",
@@ -45142,7 +45616,8 @@
     "spotifyId": "41OT0gmF3Ku5BAo06uoKvN",
     "album": "Felin Pour L'Autre",
     "year": "1988",
-    "image": "https://i.scdn.co/image/ab67616d00004851cfe5be62d98a14dc37d64de2"
+    "image": "https://i.scdn.co/image/ab67616d00004851cfe5be62d98a14dc37d64de2",
+    "popularity": 39
   },
   {
     "artist": "Bibi Flash",
@@ -45155,7 +45630,8 @@
     "spotifyId": "5JAGMln9Bd4xrHkjS4jMf2",
     "album": "Best of Bibi Flash Collector (Le meilleur des années 80)",
     "year": "2011",
-    "image": "https://i.scdn.co/image/ab67616d0000485191cf20761878b9aebc2cb967"
+    "image": "https://i.scdn.co/image/ab67616d0000485191cf20761878b9aebc2cb967",
+    "popularity": 46
   },
   {
     "artist": "Soldat Louis",
@@ -45194,7 +45670,8 @@
     "spotifyId": "4sutLmjkVKRN6pOAMo2joC",
     "album": "The Best Of Suzanne Vega - Tried And True",
     "year": "1998",
-    "image": "https://i.scdn.co/image/ab67616d00004851d87668810cd3f6d77285c9ca"
+    "image": "https://i.scdn.co/image/ab67616d00004851d87668810cd3f6d77285c9ca",
+    "popularity": 61
   },
   {
     "artist": "Justice, Simian",
@@ -45207,7 +45684,8 @@
     "spotifyId": "5f5RzlEgheGXEsYAvmYil8",
     "album": "We Are Your Friends",
     "year": "2006",
-    "image": "https://i.scdn.co/image/ab67616d00004851a5a8684c9dcf31fef2d11e92"
+    "image": "https://i.scdn.co/image/ab67616d00004851a5a8684c9dcf31fef2d11e92",
+    "popularity": 57
   },
   {
     "artist": "Underworld",
@@ -45245,7 +45723,8 @@
     "spotifyId": "0whmIaItqkT8e5PVuPyhvT",
     "album": "Perfect (Exceeder)",
     "year": "2007",
-    "image": "https://i.scdn.co/image/ab67616d0000485156f172b6281ca7791cf0993c"
+    "image": "https://i.scdn.co/image/ab67616d0000485156f172b6281ca7791cf0993c",
+    "popularity": 67
   },
   {
     "artist": "Moloko, Boris Dlugosch, Michael Lange",
@@ -45258,7 +45737,8 @@
     "spotifyId": "4O0LwyuV3U18Hg5AxILDlI",
     "album": "Sing It Back",
     "year": "1998",
-    "image": "https://i.scdn.co/image/ab67616d00004851d4f00c1ac90480a02fa6b73f"
+    "image": "https://i.scdn.co/image/ab67616d00004851d4f00c1ac90480a02fa6b73f",
+    "popularity": 64
   },
   {
     "artist": "Crystal Waters",
@@ -45271,7 +45751,8 @@
     "spotifyId": "4UJ1AKSbXAbPlPVFe66wK7",
     "album": "Music For Girls Night Out",
     "year": "2007",
-    "image": "https://i.scdn.co/image/ab67616d00004851880ff2adba869a22ec08e04a"
+    "image": "https://i.scdn.co/image/ab67616d00004851880ff2adba869a22ec08e04a",
+    "popularity": 57
   },
   {
     "artist": "Calvin Harris, Florence Welch",
@@ -45284,7 +45765,8 @@
     "spotifyId": "24LS4lQShWyixJ0ZrJXfJ5",
     "album": "18 Months",
     "year": "2012",
-    "image": "https://i.scdn.co/image/ab67616d00004851dcef905cb144d4867119850b"
+    "image": "https://i.scdn.co/image/ab67616d00004851dcef905cb144d4867119850b",
+    "popularity": 74
   },
   {
     "artist": "Stardust, Benjamin Diamond, Alan Braxe, Thomas Bangalter",
@@ -45297,7 +45779,8 @@
     "spotifyId": "1mv4lh1rW1K6xhxhJmEezy",
     "album": "Music Sounds Better With You",
     "year": "1998",
-    "image": "https://i.scdn.co/image/ab67616d00004851b98afa12c212cbbda4f1799b"
+    "image": "https://i.scdn.co/image/ab67616d00004851b98afa12c212cbbda4f1799b",
+    "popularity": 73
   },
   {
     "artist": "Eric Prydz",
@@ -45310,7 +45793,8 @@
     "spotifyId": "1xNcBAoUw8Hz6LqK2jt4Ff",
     "album": "Call on Me (Radio Mix)",
     "year": "2004",
-    "image": "https://i.scdn.co/image/ab67616d000048511cd65e046a28cef435feff21"
+    "image": "https://i.scdn.co/image/ab67616d000048511cd65e046a28cef435feff21",
+    "popularity": 72
   },
   {
     "artist": "Florence + The Machine, Calvin Harris",
