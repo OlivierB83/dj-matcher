@@ -21,6 +21,7 @@
 import "dotenv/config";
 import fs from "fs";
 import { normalize, primaryArtist } from "./track-identity.js";
+import { toCamelot } from "./scoring.js";
 
 const CID = process.env.SPOTIFY_CLIENT_ID;
 const CSECRET = process.env.SPOTIFY_CLIENT_SECRET;
@@ -114,13 +115,45 @@ export function buildArtistGenresCache(catalog) {
 async function spotifySearchTrack(token, artist, title) {
   const cleanArtist = cleanForQuery(artist);
   const cleanTitle = cleanForQuery(title);
-  // Two-shot: structured query first, then plain text if that misses.
-  for (const q of [
+  const primary = primaryArtist(cleanArtist);
+  // Five-shot cascade : Spotify's strict track:/artist: syntax often misses
+  // on obscure indie tracks even when they exist. Free-text queries find
+  // a lot more, and we then pick the item whose artist matches our input
+  // primary artist (normalised). Title alone is the last resort.
+  const queries = [
     `track:"${cleanTitle}" artist:"${cleanArtist}"`,
+    primary && primary !== cleanArtist ? `track:"${cleanTitle}" artist:"${primary}"` : null,
     `${cleanTitle} ${cleanArtist}`,
-  ]) {
+    primary && primary !== cleanArtist ? `${cleanTitle} ${primary}` : null,
+    cleanTitle,
+  ].filter(Boolean);
+
+  const targetPrimary = normalize(primary);
+  const targetArtist = normalize(cleanArtist);
+
+  for (const q of queries) {
     const r = await fetch(
-      `https://api.spotify.com/v1/search?q=${encodeURIComponent(q)}&type=track&limit=3`,
+      `https://api.spotify.com/v1/search?q=${encodeURIComponent(q)}&type=track&limit=10`,
+      { headers: { Authorization: `Bearer ${token}` } }
+    );
+    if (!r.ok) continue;
+    const data = await r.json();
+    const items = data.tracks?.items || [];
+    if (!items.length) continue;
+    // Look for an item whose first artist matches our input primary
+    // artist. Falls back to top hit so loose searches still pick *something*.
+    const best = items.find((it) => {
+      const a = normalize(it.artists?.[0]?.name || "");
+      return a === targetArtist || a === targetPrimary || a.startsWith(targetPrimary) || targetPrimary.startsWith(a);
+    });
+    if (best) return best;
+  }
+  // No item matched our artist on any query — return the top hit of the
+  // tightest still-available query as a last shot. Worst case we add a
+  // mislabeled track ; user can delete + retry.
+  for (const q of queries) {
+    const r = await fetch(
+      `https://api.spotify.com/v1/search?q=${encodeURIComponent(q)}&type=track&limit=1`,
       { headers: { Authorization: `Bearer ${token}` } }
     );
     if (!r.ok) continue;
@@ -148,9 +181,15 @@ async function reccobeatsAudioFeatures(rbId) {
 }
 
 async function getsongbpmGenres(artist, title) {
+  const hit = await getsongbpmHit(artist, title);
+  return hit?.artist?.genres?.length ? hit.artist.genres : null;
+}
+
+/** Returns the raw top hit from getsongbpm — used both for genres-only
+ *  enrichment (existing flow) and for the BPM/key fallback in
+ *  buildNewTrack when ReccoBeats had no audio-features for the track. */
+async function getsongbpmHit(artist, title) {
   if (!GETSONGBPM_API_KEY) return null;
-  // Use the primary artist — getsongbpm doesn't understand
-  // comma-separated multi-artist strings and silently returns nothing.
   const lookup = `song:${cleanForQuery(title)} artist:${primaryArtist(cleanForQuery(artist))}`;
   const url =
     `https://api.getsong.co/search/?api_key=${GETSONGBPM_API_KEY}` +
@@ -158,8 +197,13 @@ async function getsongbpmGenres(artist, title) {
   const r = await fetch(url);
   if (!r.ok) return null;
   const data = await r.json();
-  const best = (data.search || [])[0];
-  return best?.artist?.genres?.length ? best.artist.genres : null;
+  return (data.search || [])[0] || null;
+}
+
+function normalizeBpmKeep(value) {
+  const v = Number(value);
+  if (!v || isNaN(v)) return null;
+  return Math.round(v);
 }
 
 // (Spotify artist search USED to live here as a free fallback before
@@ -194,10 +238,17 @@ function reccobeatsKeyToCamelot(key, mode) {
 }
 
 async function songstatsGenres(track) {
+  const info = await songstatsFullLookup(track);
+  return info?.genres?.length ? info.genres : null;
+}
+
+/** Returns { genres, bpm, key (traditional, e.g. "Cm" / "F#") } from
+ *  Songstats. buildNewTrack uses this as last-chance fallback for BPM/key
+ *  when ReccoBeats and getsongbpm have both whiffed. PAID, so we only
+ *  reach this path when we really need to. */
+async function songstatsFullLookup(track) {
   if (!SONGSTATS_API_KEY || !track.spotifyId) return null;
-  // Log BEFORE the call so even network failures count (Songstats bills
-  // any request that left the wire). The journal entry is what feeds
-  // `node songstats-usage-report.js`.
+  // Log BEFORE the call so even network failures count.
   logSongstatsRequest(track);
   const url =
     `https://api.songstats.com/enterprise/v1/tracks/info` +
@@ -207,7 +258,15 @@ async function songstatsGenres(track) {
   });
   if (!r.ok) return null;
   const data = await r.json();
-  return data.track_info?.genres?.length ? data.track_info.genres : null;
+  const info = data.track_info || {};
+  const analysis = Object.fromEntries(
+    (data.audio_analysis || []).map((item) => [item.key, item.value])
+  );
+  return {
+    genres: info.genres || [],
+    bpm: normalizeBpmKeep(analysis.tempo),
+    keyTraditional: analysis.key || null,
+  };
 }
 
 /**
@@ -225,11 +284,14 @@ export async function buildNewTrack(artist, title) {
 
   // 1. Spotify search — must hit for the rest of the cascade to work
   const sp = await spotifySearchTrack(token, artist, title);
-  if (!sp?.id) return null;
+  if (!sp?.id) {
+    console.log(`[add-track] Spotify miss for "${artist} — ${title}"`);
+    return null;
+  }
 
   const entry = {
-    artist,                                            // preserve caller string
-    title,                                             // (Shazam-style phrasing)
+    artist,
+    title,
     spotifyId: sp.id,
     album: sp.album?.name || null,
     year: sp.album?.release_date?.slice(0, 4) || null,
@@ -237,7 +299,7 @@ export async function buildNewTrack(artist, title) {
     source: "ios_added",
   };
 
-  // 2. ReccoBeats: popularity, danceability, BPM, key
+  // 2. ReccoBeats: popularity, danceability, and BPM + key when available
   try {
     const lookup = await reccobeatsLookup(sp.id);
     if (lookup) {
@@ -263,30 +325,88 @@ export async function buildNewTrack(artist, title) {
     }
   } catch { /* best-effort */ }
 
-  // 3. Genres: getsongbpm first, songstats fallback
-  try {
-    const g = await getsongbpmGenres(artist, title);
-    if (g?.length) {
-      entry.genres = g;
-      entry.genresSource = "getsongbpm";
-    }
-  } catch {
-    // best-effort
+  // 3. Fallback BPM + key from getsongbpm if ReccoBeats missed.
+  // getsongbpm reports key in traditional notation ("Cm", "F#") and tempo
+  // as a number; we convert via toCamelot from scoring.js.
+  if (!entry.bpm || !entry.key) {
+    try {
+      const hit = await getsongbpmHit(artist, title);
+      if (hit) {
+        if (!entry.bpm && hit.tempo) {
+          const v = normalizeBpmKeep(hit.tempo);
+          if (v) {
+            entry.bpm = v;
+            entry.bpmSource = "getsongbpm";
+          }
+        }
+        if (!entry.key && hit.key_of) {
+          const cam = toCamelot(hit.key_of);
+          if (cam) {
+            entry.key = cam;
+            entry.keySource = "getsongbpm";
+          }
+        }
+        if (hit.artist?.genres?.length && !entry.genres?.length) {
+          entry.genres = hit.artist.genres;
+          entry.genresSource = "getsongbpm";
+        }
+      }
+    } catch { /* best-effort */ }
+  } else {
+    // We already have BPM + key from ReccoBeats. Just fetch genres.
+    try {
+      const g = await getsongbpmGenres(artist, title);
+      if (g?.length) {
+        entry.genres = g;
+        entry.genresSource = "getsongbpm";
+      }
+    } catch { /* best-effort */ }
   }
-  if (!entry.genres?.length && entry.spotifyId) {
+
+  // 4. Last fallback: Songstats (paid). Only if BPM or key still missing
+  // OR if genres still missing AND we have a spotifyId.
+  if (!entry.bpm || !entry.key) {
+    try {
+      const info = await songstatsFullLookup(entry);
+      if (info) {
+        if (!entry.bpm && info.bpm) {
+          entry.bpm = info.bpm;
+          entry.bpmSource = "songstats";
+        }
+        if (!entry.key && info.keyTraditional) {
+          const cam = toCamelot(info.keyTraditional);
+          if (cam) {
+            entry.key = cam;
+            entry.keySource = "songstats";
+          }
+        }
+        if (info.genres?.length && !entry.genres?.length) {
+          entry.genres = info.genres;
+          entry.genresSource = "songstats";
+        }
+      }
+    } catch { /* best-effort */ }
+  } else if (!entry.genres?.length) {
     try {
       const g = await songstatsGenres(entry);
       if (g?.length) {
         entry.genres = g;
         entry.genresSource = "songstats";
       }
-    } catch {
-      // best-effort
-    }
+    } catch { /* best-effort */ }
   }
 
-  // Required for scoring : without BPM + key the entry can't seed anything
-  if (!entry.bpm || !entry.key) return null;
+  if (!entry.bpm || !entry.key) {
+    console.log(
+      `[add-track] No BPM/key for "${artist} — ${title}" (spotify ✓ rb=${entry.bpmSource ?? "?"}/${entry.keySource ?? "?"})`
+    );
+    return null;
+  }
+
+  console.log(
+    `[add-track] OK "${artist} — ${title}" → ${entry.bpm}/${entry.key} ` +
+    `(bpm=${entry.bpmSource}, key=${entry.keySource}, genres=${entry.genresSource ?? "none"})`
+  );
   return entry;
 }
 
