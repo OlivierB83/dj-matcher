@@ -130064,5 +130064,31 @@
       "Soundtrack"
     ],
     "genresSource": "songstats"
+  },
+  {
+    "artist": "The Strokes",
+    "title": "Lonely in the Future",
+    "deezerId": 4170333152,
+    "isrc": "USRC12600729",
+    "album": "Reality Awaits",
+    "year": "2026",
+    "image": "https://cdn-images.dzcdn.net/images/cover/47378e1fa6deeac44c86a815f5b07b3d/1000x1000-000000-80-0-0.jpg",
+    "imageSource": "deezer",
+    "deezerRank": 787998,
+    "popularity": 79,
+    "popularitySource": "deezer",
+    "source": "ios_added",
+    "bpm": 100,
+    "bpmSource": "songstats",
+    "key": "6B",
+    "keySource": "songstats",
+    "genres": [
+      "Alternative",
+      "Rock",
+      "Alternative Rock",
+      "Funk Rock",
+      "Garage"
+    ],
+    "genresSource": "songstats"
   }
 ]
