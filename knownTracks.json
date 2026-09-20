@@ -111266,10 +111266,10 @@
   {
     "artist": "Guns N' Roses",
     "title": "Don't Cry",
-    "bpm": 124,
+    "bpm": 62,
     "key": "1B",
     "source": "djay_pro_ax",
-    "bpmSource": "djay_pro_ax",
+    "bpmSource": "manual",
     "keySource": "djay_pro_ax",
     "genres": [
       "heavy metal",
@@ -111285,7 +111285,9 @@
     "appleUrl": "https://music.apple.com/fr/album/dont-cry/1440896026?i=1440896173&uo=4",
     "imageSource": "itunes",
     "album": "Use Your Illusion I",
-    "year": "1991"
+    "year": "1991",
+    "bpmMeasured": 124,
+    "bpmNote": "ballade ressentie à 62, analyseurs (djay, Deezer) comptent le double"
   },
   {
     "artist": "Alice In Chains",
