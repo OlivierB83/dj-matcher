@@ -53,7 +53,8 @@ Express server. The catalog lives **in memory** via `catalog-store.js`: loaded f
 - `GET /api/local-search?q=` — substring search over `knownTracks.json`.
 - `GET /api/enrich?artist=&title=` — pure lookup in `knownTracks.json` (matches via `normalize(artist) + normalize(title)`). Never writes. Returns `{found: false, message: "Titre absent du catalogue local"}` on miss.
 - `GET /api/known-tracks` — dump of the local catalog.
-- `POST /api/add-track` `{artist, title}` — iOS "Ajouter au catalogue": `djay-enrich.js#buildNewTrack` cascade **Deezer** (deezerId, ISRC, album, year, cover, popularity) → **getsongbpm** (BPM, key, genres) → **Songstats by ISRC** (paid, last resort). Persisted through `catalog-store.js` (see above).
+- `POST /api/add-track` `{artist, title}` — iOS "Ajouter au catalogue": `djay-enrich.js#buildNewTrack` cascade **Deezer** (deezerId, ISRC, album, year, cover, popularity) → **getsongbpm** (BPM, key, genres) → **Songstats by ISRC** (paid) → **ReccoBeats** audio-features via the Spotify ids Songstats returns (no Spotify API call). Optional `bpm` / `key` in the body = manual entry by the DJ (source `manual`), used when no source knows a brand-new track. Persisted through `catalog-store.js` (see above).
+- `POST /api/track-bpm` `{artist, title, factor: 0.5 | 2}` — half-time / double-time correction from the iOS ÷2 / ×2 buttons on the current track: sets `bpmSource: "manual"` (never overwritten by the pipeline: `djay-ax-import.js` and `normalize-catalog-bpm.js` skip manual values), keeps the analyser value in `bpmMeasured`, persists via `catalog-store.patch`, and answers like `/api/suggestions` re-scored.
 - `GET /api/import-playlist/:playlistId` — offline pipeline only: paginates the Spotify playlist API and **overwrites `catalog-input.json`** with the imported tracks.
 
 ### Catalog pipeline

@@ -246,7 +246,53 @@ async function songstatsFullLookup(track) {
     genres: info.genres || [],
     bpm: normalizeBpmKeep(analysis.tempo),
     keyTraditional: analysis.key || null,
+    // Identifiants Spotify connus de Songstats : permettent d'interroger
+    // ReccoBeats (audio-features) sans aucun appel à l'API Spotify.
+    spotifyIds: (info.links || []).filter((l) => l.source === "spotify" && l.external_id).map((l) => l.external_id),
   };
+}
+
+// ReccoBeats key codes: pitch class 0-11 (C=0, …, B=11) + mode (0=minor,
+// 1=major) → Camelot (1A-12B), même correspondance que Mixed In Key.
+const RECCOBEATS_KEY_TO_CAMELOT = {
+  "0_1": "8B",  "0_0": "5A",
+  "1_1": "3B",  "1_0": "12A",
+  "2_1": "10B", "2_0": "7A",
+  "3_1": "5B",  "3_0": "2A",
+  "4_1": "12B", "4_0": "9A",
+  "5_1": "7B",  "5_0": "4A",
+  "6_1": "2B",  "6_0": "11A",
+  "7_1": "9B",  "7_0": "6A",
+  "8_1": "4B",  "8_0": "1A",
+  "9_1": "11B", "9_0": "8A",
+  "10_1": "6B", "10_0": "3A",
+  "11_1": "1B", "11_0": "10A",
+};
+
+function reccobeatsKeyToCamelot(key, mode) {
+  if (key == null || mode == null || key < 0 || key > 11) return null;
+  return RECCOBEATS_KEY_TO_CAMELOT[`${key}_${mode}`] || null;
+}
+
+/** Tempo / clé / dansabilité ReccoBeats pour un identifiant Spotify (gratuit, sans API Spotify). */
+async function reccobeatsFeaturesForSpotifyId(spotifyId) {
+  const lookup = await reccobeatsLookup(spotifyId);
+  if (!lookup?.rbId) return null;
+  const feat = await reccobeatsAudioFeatures(lookup.rbId);
+  if (!feat) return null;
+  return {
+    bpm: feat.tempo ? Math.round(feat.tempo) : null,
+    key: reccobeatsKeyToCamelot(feat.key, feat.mode),
+    danceability: feat.danceability ?? null,
+    popularity: lookup.popularity ?? null,
+  };
+}
+
+/** Valide une clé saisie ("8A", "Am", "F#") → Camelot, ou null. */
+export function parseKeyInput(raw) {
+  const v = String(raw || "").trim().toUpperCase();
+  if (/^(1[0-2]|[1-9])[AB]$/.test(v)) return v;
+  return toCamelot(String(raw || "").trim()) || null;
 }
 
 /**
@@ -255,12 +301,17 @@ async function songstatsFullLookup(track) {
  * the catalogue yet. Zéro Spotify :
  *   1. Deezer      → deezerId, isrc, album, year, cover, popularity (rang), BPM éventuel
  *   2. getsongbpm  → BPM + clé (+ genres)
- *   3. Songstats   → BPM + clé + genres, en dernier recours (payant), par ISRC
+ *   3. Songstats   → BPM + clé + genres (payant), par ISRC ; ses liens Spotify
+ *      alimentent 4.
+ *   4. ReccoBeats  → tempo + clé + dansabilité via l'identifiant Spotify
+ *      fourni par Songstats (aucun appel à l'API Spotify)
+ * `manual` = { bpm, key } saisis par le DJ dans l'app quand aucune source
+ * n'a la réponse : ils priment et évitent les appels payants.
  * Returns null if Deezer can't find the track (we need its ISRC / metadata)
  * OR if no BPM/key could be resolved (without those the entry is useless
  * for matching).
  */
-export async function buildNewTrack(artist, title) {
+export async function buildNewTrack(artist, title, manual = {}) {
   // 1. Deezer — doit trouver le morceau pour que la suite ait un sens
   let dz;
   try { dz = await findDeezerTrack(artist, title); } catch { dz = null; }
@@ -284,15 +335,19 @@ export async function buildNewTrack(artist, title) {
     source: "ios_added",
   };
 
+  // 0. Saisie manuelle du DJ : prime sur tout
+  if (manual.bpm) { entry.bpm = manual.bpm; entry.bpmSource = "manual"; }
+  if (manual.key) { entry.key = manual.key; entry.keySource = "manual"; }
+
   // 2. getsongbpm : BPM + clé (notation traditionnelle → Camelot) + genres
   try {
     const hit = await getsongbpmHit(artist, title);
     if (hit) {
-      if (hit.tempo) {
+      if (!entry.bpm && hit.tempo) {
         const v = normalizeBpmKeep(hit.tempo);
         if (v) { entry.bpm = v; entry.bpmSource = "getsongbpm"; }
       }
-      if (hit.key_of) {
+      if (!entry.key && hit.key_of) {
         const cam = toCamelot(hit.key_of);
         if (cam) { entry.key = cam; entry.keySource = "getsongbpm"; }
       }
@@ -311,6 +366,7 @@ export async function buildNewTrack(artist, title) {
 
   // 3. Songstats (payant) : uniquement s'il manque encore BPM ou clé,
   //    ou les genres — et seulement avec un ISRC.
+  let spotifyIds = [];
   if (entry.isrc && (!entry.bpm || !entry.key || !entry.genres?.length)) {
     try {
       const info = await songstatsFullLookup(entry);
@@ -324,8 +380,28 @@ export async function buildNewTrack(artist, title) {
           entry.genres = info.genres;
           entry.genresSource = "songstats";
         }
+        spotifyIds = info.spotifyIds || [];
       }
     } catch { /* best-effort */ }
+  }
+
+  // 4. ReccoBeats via les identifiants Spotify de Songstats : les titres
+  //    trop récents pour getsongbpm et sans analyse Songstats (ex. sorties
+  //    de l'été 2026) ont en général déjà leurs audio-features ici.
+  if (!entry.bpm || !entry.key) {
+    for (const sid of spotifyIds.slice(0, 3)) {
+      try {
+        const f = await reccobeatsFeaturesForSpotifyId(sid);
+        if (!f) continue;
+        if (!entry.bpm && f.bpm) { entry.bpm = f.bpm; entry.bpmSource = "reccobeats"; }
+        if (!entry.key && f.key) { entry.key = f.key; entry.keySource = "reccobeats"; }
+        if (entry.danceability == null && f.danceability != null) {
+          entry.danceability = f.danceability;
+          entry.danceabilitySource = "reccobeats";
+        }
+        if (entry.bpm && entry.key) break;
+      } catch { /* best-effort */ }
+    }
   }
 
   if (!entry.bpm || !entry.key) {

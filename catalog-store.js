@@ -37,7 +37,7 @@ const RAW_URL = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/knownTracks
 const CONTENTS_URL = `https://api.github.com/repos/${REPO}/contents/knownTracks.json`;
 
 let tracks = [];
-let pending = []; // ajouts pas encore commités sur GitHub
+let pending = []; // opérations pas encore commitées sur GitHub : { op: "add", entry } | { op: "patch", key, fields }
 let pushTimer = null;
 let pushing = false;
 const status = {
@@ -128,10 +128,24 @@ export function getStatus() {
 /** Ajoute une entrée, écrit le fichier local, programme le commit GitHub. */
 export function append(entry) {
   tracks.push(entry);
-  pending.push(entry);
+  pending.push({ op: "add", entry });
   status.count = tracks.length;
   writeLocal();
   schedulePush();
+}
+
+/**
+ * Modifie des champs d'une entrée existante (ex. correction manuelle du
+ * BPM). Même circuit de persistance que append. Renvoie l'entrée à jour.
+ */
+export function patch(index, fields) {
+  const t = tracks[index];
+  if (!t) return null;
+  tracks[index] = { ...t, ...fields };
+  pending.push({ op: "patch", key: canonicalKey(t.artist, t.title), fields });
+  writeLocal();
+  schedulePush();
+  return tracks[index];
 }
 
 function schedulePush() {
@@ -147,20 +161,31 @@ async function currentSha() {
   return j.sha;
 }
 
-/** Rejoue `added` sur `base` sans doublons (clé canonique artiste|titre). */
-function mergeAdditions(base, added) {
-  const seen = new Set(base.map((t) => canonicalKey(t.artist, t.title)));
+/** Rejoue les opérations en attente sur `base` (ajouts sans doublons, corrections par clé canonique). */
+function mergeAdditions(base, ops) {
   const out = base.slice();
-  for (const t of added) {
-    const k = canonicalKey(t.artist, t.title);
-    if (seen.has(k)) continue;
-    seen.add(k);
-    out.push(t);
+  const index = new Map(out.map((t, i) => [canonicalKey(t.artist, t.title), i]));
+  for (const o of ops) {
+    if (o.op === "add") {
+      const k = canonicalKey(o.entry.artist, o.entry.title);
+      if (index.has(k)) continue;
+      index.set(k, out.length);
+      out.push(o.entry);
+    } else if (o.op === "patch") {
+      const i = index.get(o.key);
+      if (i != null) out[i] = { ...out[i], ...o.fields };
+    }
   }
   return out;
 }
 
-/** Commit des ajouts en attente sur GitHub. Exporté pour un déclenchement manuel. */
+function describeOps(ops) {
+  const adds = ops.filter((o) => o.op === "add").length;
+  const patches = ops.filter((o) => o.op === "patch").length;
+  return [adds ? `+${adds} titre(s)` : null, patches ? `${patches} correction(s)` : null].filter(Boolean).join(", ");
+}
+
+/** Commit des opérations en attente sur GitHub. Exporté pour un déclenchement manuel. */
 export async function pushToGitHub() {
   if (!TOKEN || pushing || pending.length === 0) return getStatus();
   pushing = true;
@@ -170,7 +195,7 @@ export async function pushToGitHub() {
     let content = tracks;
     for (let attempt = 0; attempt < 3; attempt++) {
       const body = {
-        message: `[skip render] [vercel skip] catalog: +${batch.length} titre(s) ajouté(s) depuis l'app`,
+        message: `[skip render] [vercel skip] catalog: ${describeOps(batch)} depuis l'app`,
         content: Buffer.from(JSON.stringify(content, null, 2)).toString("base64"),
         sha,
         branch: BRANCH,
@@ -182,7 +207,7 @@ export async function pushToGitHub() {
         status.lastPushAt = new Date().toISOString();
         status.lastPushResult = "ok";
         pending = pending.filter((p) => !batch.includes(p));
-        console.log(`catalog-store: ${batch.length} ajout(s) commité(s) sur GitHub (${status.lastCommitSha?.slice(0, 7)})`);
+        console.log(`catalog-store: ${describeOps(batch)} commité(s) sur GitHub (${status.lastCommitSha?.slice(0, 7)})`);
         return getStatus();
       }
       if (r.status === 409 || r.status === 422) {

@@ -11,7 +11,7 @@ import {
   unparenthesizeVersionMeta,
 } from "./track-identity.js";
 import { scoreTrack, computeCompat } from "./scoring.js";
-import { buildNewTrack } from "./djay-enrich.js";
+import { buildNewTrack, parseKeyInput } from "./djay-enrich.js";
 import { searchTracks, DeezerLimited } from "./deezer.js";
 import * as catalog from "./catalog-store.js";
 
@@ -497,9 +497,16 @@ app.post("/api/add-track", async (req, res) => {
     });
   }
 
+  // Saisie manuelle optionnelle (bannière iOS quand aucune source ne répond)
+  const manual = {};
+  const manualBpm = Number(req.body?.bpm);
+  if (manualBpm >= 40 && manualBpm <= 250) manual.bpm = Math.round(manualBpm);
+  const manualKey = req.body?.key ? parseKeyInput(req.body.key) : null;
+  if (manualKey) manual.key = manualKey;
+
   let entry;
   try {
-    entry = await buildNewTrack(rawArtist, rawTitle);
+    entry = await buildNewTrack(rawArtist, rawTitle, manual);
   } catch (e) {
     return res.status(500).json({
       found: false,
@@ -522,6 +529,44 @@ app.post("/api/add-track", async (req, res) => {
     alreadyExisted: false,
     current: publicEntry(entry),
     suggestions: sugg,
+  });
+});
+
+/**
+ * POST /api/track-bpm  body: { artist, title, factor: 0.5 | 2 }
+ *
+ * Correction demi-temps / double temps par le DJ (boutons ÷2 et ×2 sur le
+ * morceau courant). Les analyseurs se trompent souvent d'un facteur 2 sur
+ * les ballades ; seule l'oreille tranche. La valeur devient `bpmSource:
+ * "manual"` (jamais écrasée par le pipeline), la mesure d'origine est
+ * conservée dans bpmMeasured, et la persistance passe par catalog-store
+ * (commit GitHub). Répond comme /api/suggestions, re-scoré avec le nouveau BPM.
+ */
+app.post("/api/track-bpm", (req, res) => {
+  const rawArtist = req.body?.artist || "";
+  const rawTitle = req.body?.title || "";
+  const factor = Number(req.body?.factor);
+  if (!rawArtist || !rawTitle || ![0.5, 2].includes(factor)) {
+    return res.status(400).json({ found: false, message: "Paramètres requis : artist, title, factor (0.5 ou 2)" });
+  }
+  const tracks = readKnownTracks();
+  const key = canonicalKey(rawArtist, rawTitle);
+  const index = tracks.findIndex((t) => canonicalKey(t.artist, t.title) === key);
+  if (index < 0) return res.status(404).json({ found: false, message: "Titre absent du catalogue" });
+  const t = tracks[index];
+  if (!t.bpm) return res.status(422).json({ found: false, message: "Ce titre n'a pas de BPM à corriger" });
+  const next = Math.round(t.bpm * factor);
+  if (next < 40 || next > 250) return res.status(422).json({ found: false, message: `BPM ${next} hors limites` });
+  const updated = catalog.patch(index, {
+    bpm: next,
+    bpmSource: "manual",
+    bpmMeasured: t.bpmMeasured ?? t.bpm,
+  });
+  console.log(`[track-bpm] "${t.artist} — ${t.title}" ${t.bpm} → ${next} (×${factor})`);
+  res.json({
+    found: true,
+    current: publicEntry(updated),
+    suggestions: scoreAndPickSuggestions(readKnownTracks(), updated, 30),
   });
 });
 
