@@ -657,9 +657,11 @@ app.get("/api/local-search", async (req, res) => {
 const PORT = process.env.PORT || 3001;
 
 loadSpotifyUserTokens();
-
-await catalog.init();
+catalog.initLocal();
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
+  // Après l'ouverture du port : la version GitHub (source de vérité, avec
+  // les ajouts poussés depuis le dernier déploiement) remplace le fichier local.
+  catalog.refreshFromGitHub().catch((e) => console.warn("refreshFromGitHub :", e.message));
 });

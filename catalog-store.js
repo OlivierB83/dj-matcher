@@ -61,7 +61,7 @@ function ghHeaders(extra = {}) {
 }
 
 async function fetchRemoteCatalog() {
-  const r = await fetch(RAW_URL, { headers: { "Cache-Control": "no-cache" } });
+  const r = await fetch(RAW_URL, { headers: { "Cache-Control": "no-cache" }, signal: AbortSignal.timeout(20_000) });
   if (!r.ok) throw new Error(`GitHub raw HTTP ${r.status}`);
   const data = await r.json();
   if (!Array.isArray(data)) throw new Error("catalogue distant illisible");
@@ -79,30 +79,40 @@ function writeLocal() {
   }
 }
 
-/** À appeler une fois au démarrage du serveur. */
-export async function init() {
-  const local = readLocal();
+/**
+ * Démarrage en deux temps pour ne jamais bloquer l'écoute HTTP (Render
+ * considère le déploiement échoué si le port n'est pas ouvert à temps) :
+ *   1. initLocal() — synchrone, charge le fichier du déploiement ;
+ *   2. refreshFromGitHub() — asynchrone, remplace par la version main si
+ *      elle est au moins aussi fournie. À lancer après app.listen().
+ */
+export function initLocal() {
+  tracks = readLocal();
+  status.source = "local";
+  status.loadedAt = new Date().toISOString();
+  status.count = tracks.length;
+  console.log(`Catalogue local chargé : ${tracks.length} titres${TOKEN ? "" : " — GITHUB_TOKEN absent, ajouts non persistés sur GitHub"}`);
+  return tracks;
+}
+
+export async function refreshFromGitHub() {
+  const local = tracks;
   try {
     const remote = await fetchRemoteCatalog();
     // La version GitHub est la source de vérité : elle contient les ajouts
     // poussés depuis le dernier déploiement. On garde la plus fournie des
     // deux par sécurité (un fichier distant tronqué ne doit pas effacer le local).
     if (remote.length >= local.length) {
-      tracks = remote;
+      tracks = pending.length ? mergeAdditions(remote, pending) : remote;
       status.source = "github";
-      if (remote.length !== local.length) writeLocal();
-    } else {
-      tracks = local;
-      status.source = "local";
+      if (tracks.length !== local.length) writeLocal();
     }
   } catch (e) {
-    console.warn("catalog-store: GitHub injoignable au démarrage, fichier local utilisé :", e.message);
-    tracks = local;
-    status.source = "local";
+    console.warn("catalog-store: GitHub injoignable au démarrage, fichier local conservé :", e.message);
   }
   status.loadedAt = new Date().toISOString();
   status.count = tracks.length;
-  console.log(`Catalogue chargé : ${tracks.length} titres (${status.source})${TOKEN ? "" : " — GITHUB_TOKEN absent, ajouts non persistés sur GitHub"}`);
+  console.log(`Catalogue : ${tracks.length} titres (${status.source})`);
   return tracks;
 }
 
@@ -131,7 +141,7 @@ function schedulePush() {
 }
 
 async function currentSha() {
-  const r = await fetch(`${CONTENTS_URL}?ref=${BRANCH}`, { headers: ghHeaders() });
+  const r = await fetch(`${CONTENTS_URL}?ref=${BRANCH}`, { headers: ghHeaders(), signal: AbortSignal.timeout(20_000) });
   if (!r.ok) throw new Error(`GitHub contents HTTP ${r.status}`);
   const j = await r.json();
   return j.sha;
@@ -165,7 +175,7 @@ export async function pushToGitHub() {
         sha,
         branch: BRANCH,
       };
-      const r = await fetch(CONTENTS_URL, { method: "PUT", headers: ghHeaders({ "Content-Type": "application/json" }), body: JSON.stringify(body) });
+      const r = await fetch(CONTENTS_URL, { method: "PUT", headers: ghHeaders({ "Content-Type": "application/json" }), body: JSON.stringify(body), signal: AbortSignal.timeout(60_000) });
       if (r.ok) {
         const j = await r.json();
         status.lastCommitSha = j.commit?.sha || null;
