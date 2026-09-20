@@ -130038,5 +130038,31 @@
     "imageSource": "itunes",
     "album": "Roma - Bangkok (feat. Giusy Ferreri) - Single",
     "year": "2015"
+  },
+  {
+    "artist": "Jamiroquai",
+    "title": "Canned Heat",
+    "deezerId": 1884719687,
+    "isrc": "GBARL0601480",
+    "album": "High Times: Singles 1992-2006",
+    "year": "2006",
+    "image": "https://cdn-images.dzcdn.net/images/cover/9591ccd45408a86dfa6e753733bb55e5/1000x1000-000000-80-0-0.jpg",
+    "imageSource": "deezer",
+    "deezerRank": 677105,
+    "popularity": 68,
+    "popularitySource": "deezer",
+    "source": "ios_added",
+    "bpm": 128,
+    "bpmSource": "songstats",
+    "key": "11B",
+    "keySource": "songstats",
+    "genres": [
+      "Dance",
+      "Pop",
+      "Electronic",
+      "Rock",
+      "Soundtrack"
+    ],
+    "genresSource": "songstats"
   }
 ]
