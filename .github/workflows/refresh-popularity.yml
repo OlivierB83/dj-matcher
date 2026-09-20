@@ -1,11 +1,15 @@
-name: Refresh Spotify popularity
+name: Refresh Deezer popularity
 
-# Re-snapshots the `popularity` field of every catalog entry via ReccoBeats
-# (which proxies Spotify's official Track endpoint). Commits the diff back
-# to main — Vercel + Render then redeploy automatically.
+# Re-snapshots the `popularity` field of every catalog entry from the Deezer
+# public API (rank 0…1 000 000 → 0…100). Spotify stopped exposing
+# popularity to development-mode apps in 2026, so Deezer is the source now.
+# Commits the diff back to main — Vercel + Render then redeploy automatically.
 #
 # Schedule: Sundays at 03:00 UTC. Also triggerable manually via the
 # "Run workflow" button in the Actions tab.
+#
+# NB: GitHub disables scheduled workflows after 60 days without repo
+# activity ("disabled_inactivity") — re-enable it from the Actions tab.
 
 on:
   schedule:
@@ -27,8 +31,8 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Run popularity refresh
-        run: node refresh-popularity.js
+      - name: Run Deezer popularity refresh
+        run: node refresh-popularity-deezer.js
 
       - name: Commit if changed
         run: |
@@ -39,5 +43,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add knownTracks.json
-          git commit -m "chore: weekly Spotify popularity refresh"
+          git commit -m "chore: weekly Deezer popularity refresh"
           git push origin main

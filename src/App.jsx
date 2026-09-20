@@ -20,7 +20,7 @@ const FAVORITE_RANKING_BOOST = 25;
 
 // Aligned with VIRAL_THRESHOLD in TrackCard.jsx so a track that the
 // "Populaires" filter shows is exactly a track that wears the buzz badge.
-const POPULARITY_THRESHOLD = 75;
+const POPULARITY_THRESHOLD = 85; // popularité Deezer (rang/10 000) : 85 ≈ 18 % du catalogue, proche des 13 % de l'ancien seuil Spotify 75
 
 const STORAGE_HIDDEN = "djmatcher.hidden";
 const STORAGE_FAVORITES = "djmatcher.favorites";
@@ -793,7 +793,7 @@ export default function App() {
                   return next;
                 })
               }
-              title={`N'afficher que les titres avec popularité Spotify ≥ ${POPULARITY_THRESHOLD}`}
+              title={`N'afficher que les titres avec popularité Deezer ≥ ${POPULARITY_THRESHOLD}`}
             >
               🔥 Populaires <span className="chip-count">({popularCount})</span>
             </button>

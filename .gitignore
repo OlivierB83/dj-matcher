@@ -34,3 +34,6 @@ knownTracks.bak.*.json
 /djay-ocr
 /djay-ax-probe
 /djay-ax-extract
+
+# cache local de résolution Deezer (refresh-popularity-deezer.js --cache-only)
+deezer-cache.json

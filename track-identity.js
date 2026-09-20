@@ -139,3 +139,35 @@ export function primaryArtist(s) {
     .split(/,| & |\bfeat\.?|\bft\.?|\bwith\b|\bvs\.?/i)[0]
     .trim();
 }
+
+/* ---------------------------------------------------------------------
+ * Validation de correspondance par jeux de tokens. Utilisé pour vérifier
+ * qu'un résultat de recherche externe (Deezer, iTunes…) est bien le même
+ * morceau que l'entrée catalogue, sans coller la pochette / le rang d'un
+ * autre titre.
+ * ------------------------------------------------------------------- */
+
+export function tokensOf(s) {
+  return new Set(normalize(s).split(" ").filter(Boolean));
+}
+
+/** true si tous les tokens du plus petit ensemble sont dans l'autre. */
+export function tokenSubset(a, b) {
+  const [small, big] = a.size <= b.size ? [a, b] : [b, a];
+  if (small.size === 0) return false;
+  for (const t of small) if (!big.has(t)) return false;
+  return true;
+}
+
+export function titleMatches(catalogTitle, otherTitle) {
+  const a = coreTitle(stripTrunc(unparenthesizeVersionMeta(catalogTitle)));
+  const b = coreTitle(stripTrunc(unparenthesizeVersionMeta(otherTitle)));
+  if (normalize(a) === normalize(b)) return true;
+  return tokenSubset(tokensOf(a), tokensOf(b));
+}
+
+export function artistMatches(catalogArtist, otherArtist) {
+  if (tokenSubset(tokensOf(catalogArtist), tokensOf(otherArtist))) return true;
+  // au moins l'artiste principal présent
+  return tokenSubset(tokensOf(primaryArtist(catalogArtist)), tokensOf(otherArtist));
+}
