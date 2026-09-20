@@ -41,6 +41,7 @@ function main() {
 
   tracks.forEach((t, i) => {
     if (t.bpm == null) return;
+    if (t.bpmSource === "manual") return; // valeur corrigée à la main, hors plage assumée (ex. 62)
     const before = Math.round(Number(t.bpm));
     const after = normalizeBpm(before);
     if (after === null) return;

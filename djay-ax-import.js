@@ -254,6 +254,12 @@ async function main() {
         alreadyMatching++;
         continue;
       }
+      // Correction manuelle (ex. ballade comptée en double temps par les
+      // analyseurs) : on ne l'écrase jamais avec la mesure djay.
+      if (m.entry.bpmSource === "manual") {
+        alreadyMatching++;
+        continue;
+      }
       updates.push({ catIndex: m.index, before, djay, catEntry: m.entry });
     } else {
       adds.push(djay);
