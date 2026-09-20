@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import compression from "compression";
 import dotenv from "dotenv";
 import fs from "fs";
 import {
@@ -11,25 +12,26 @@ import {
 } from "./track-identity.js";
 import { scoreTrack, computeCompat } from "./scoring.js";
 import { buildNewTrack } from "./djay-enrich.js";
+import { searchTracks, DeezerLimited } from "./deezer.js";
+import * as catalog from "./catalog-store.js";
 
 dotenv.config();
 
 const app = express();
 app.use(cors());
+app.use(compression()); // /api/known-tracks passe de 4 Mo à ~600 Ko
 app.use(express.json());
 
-const DB_FILE = "./knownTracks.json";
 const TOKEN_FILE = "./.spotify-token.json";
 
-let spotifyAppToken = null;
-let spotifyAppTokenExpires = 0;
 let spotifyUserToken = null;
 let spotifyUserTokenExpires = 0;
 let spotifyUserRefreshToken = null;
 
+// Le catalogue vit en mémoire (catalog-store.js) : chargé depuis GitHub au
+// démarrage, les ajouts y sont renvoyés. Plus de relecture du JSON par requête.
 function readKnownTracks() {
-  if (!fs.existsSync(DB_FILE)) return [];
-  return JSON.parse(fs.readFileSync(DB_FILE, "utf8"));
+  return catalog.getTracks();
 }
 
 function loadSpotifyUserTokens() {
@@ -172,32 +174,6 @@ function titleTokensCompatible(a, b) {
   return true;
 }
 
-async function getSpotifyAppToken() {
-  if (spotifyAppToken && Date.now() < spotifyAppTokenExpires) {
-    return spotifyAppToken;
-  }
-
-  const auth = Buffer.from(
-    `${process.env.SPOTIFY_CLIENT_ID}:${process.env.SPOTIFY_CLIENT_SECRET}`
-  ).toString("base64");
-
-  const response = await fetch("https://accounts.spotify.com/api/token", {
-    method: "POST",
-    headers: {
-      Authorization: `Basic ${auth}`,
-      "Content-Type": "application/x-www-form-urlencoded",
-    },
-    body: "grant_type=client_credentials",
-  });
-
-  const data = await response.json();
-
-  spotifyAppToken = data.access_token;
-  spotifyAppTokenExpires = Date.now() + data.expires_in * 1000 - 60000;
-
-  return spotifyAppToken;
-}
-
 app.get("/login", (req, res) => {
   const scope = "playlist-read-private playlist-read-collaborative";
 
@@ -253,23 +229,51 @@ app.get("/callback", async (req, res) => {
   `);
 });
 
+/**
+ * GET /api/search?q=
+ *
+ * Recherche externe pour la barre de recherche des apps (web + iOS),
+ * complément de /api/local-search. Source : API publique Deezer via
+ * deezer.js (cache 6 h + limiteur global). Plus aucun appel Spotify ici.
+ *
+ * Réponse : { source: "deezer", results: [ { artist, title, album, year,
+ * image, deezerId, isrc, rank, previewUrl, deezerUrl } ], limited?: true }
+ * `limited` signale que le quota partagé est atteint : les clients
+ * affichent alors le catalogue local seul, sans erreur.
+ */
 app.get("/api/search", async (req, res) => {
-  const q = req.query.q || "";
-  const token = await getSpotifyAppToken();
-
-  const response = await fetch(
-    `https://api.spotify.com/v1/search?q=${encodeURIComponent(q)}&type=track&limit=10`,
-    {
-      headers: { Authorization: `Bearer ${token}` },
+  const q = String(req.query.q || "").trim();
+  if (q.length < 2) return res.json({ source: "deezer", results: [] });
+  try {
+    const results = await searchTracks(q, 10);
+    res.json({ source: "deezer", results });
+  } catch (e) {
+    if (e instanceof DeezerLimited) {
+      return res.json({
+        source: "deezer",
+        results: [],
+        limited: true,
+        message: "Recherche externe momentanément limitée, catalogue local seulement.",
+      });
     }
-  );
-
-  const data = await response.json();
-  res.json(data);
+    console.error("Erreur /api/search :", e.message);
+    res.status(502).json({ source: "deezer", results: [], error: "Recherche externe indisponible" });
+  }
 });
 
 app.get("/api/known-tracks", (req, res) => {
   res.json(readKnownTracks());
+});
+
+/**
+ * GET /api/catalog-status[?push=1]
+ * État de la persistance : source du catalogue au démarrage, ajouts en
+ * attente de commit, résultat du dernier push GitHub. `push=1` force un
+ * commit immédiat des ajouts en attente (sinon au plus une fois par minute).
+ */
+app.get("/api/catalog-status", async (req, res) => {
+  if (req.query.push === "1") return res.json(await catalog.pushToGitHub());
+  res.json(catalog.getStatus());
 });
 
 app.get("/api/enrich", async (req, res) => {
@@ -452,12 +456,11 @@ app.get("/api/suggestions", (req, res) => {
  *
  * 200 found: { current, suggestions: [...] }
  * 409 already in catalog       — returns the existing entry as `current`
- * 422 not enough metadata      — Spotify miss, or no BPM/key resolvable
+ * 422 not enough metadata      — Deezer miss, or no BPM/key resolvable
  *
- * Persistence caveat: writes to knownTracks.json on the Render instance.
- * That filesystem survives between requests but is wiped on every
- * redeploy. To make adds truly persistent we'd need a Postgres or an
- * auto-commit-to-GitHub flow — noted but not implemented yet.
+ * Persistence: catalog-store.js appends in memory, writes the local file
+ * and commits the batch to GitHub main (debounced), so adds survive Render
+ * redeploys. Check /api/catalog-status.
  */
 app.post("/api/add-track", async (req, res) => {
   const rawArtist = req.body?.artist || "";
@@ -507,19 +510,11 @@ app.post("/api/add-track", async (req, res) => {
   if (!entry) {
     return res.status(422).json({
       found: false,
-      message: `Impossible d'enrichir ce titre (Spotify n'a pas trouvé ou aucune source n'a remonté BPM + clé).`,
+      message: `Impossible d'enrichir ce titre (Deezer ne l'a pas trouvé ou aucune source n'a remonté BPM + clé).`,
     });
   }
 
-  tracks.push(entry);
-  try {
-    fs.writeFileSync(DB_FILE, JSON.stringify(tracks, null, 2));
-  } catch (e) {
-    return res.status(500).json({
-      found: false,
-      message: `Erreur d'écriture catalogue : ${e.message}`,
-    });
-  }
+  catalog.append(entry); // mémoire + fichier local + commit GitHub différé
 
   const sugg = scoreAndPickSuggestions(tracks, entry, 30);
   res.status(200).json({
@@ -662,6 +657,8 @@ app.get("/api/local-search", async (req, res) => {
 const PORT = process.env.PORT || 3001;
 
 loadSpotifyUserTokens();
+
+await catalog.init();
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

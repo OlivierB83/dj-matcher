@@ -7,6 +7,7 @@ import {
   SuggestionsHeader,
 } from "./components/Layout";
 import { TrackCard } from "./components/TrackCard";
+import { CamelotTile } from "./components/CamelotTile";
 import { SearchResultCard } from "./components/SearchResultCard";
 
 import "./styles/tokens.css";
@@ -223,7 +224,7 @@ function pickCover(track) {
 
 export default function App() {
   const [query, setQuery] = useState("");
-  const [spotifyResults, setSpotifyResults] = useState([]);
+  const [searchResults, setSearchResults] = useState([]);
   const [knownTracks, setKnownTracks] = useState([]);
   const [current, setCurrent] = useState(null);
   const [status, setStatus] = useState("");
@@ -364,12 +365,12 @@ export default function App() {
     }
   }
 
-  async function searchSpotify() {
+  async function runSearch() {
     if (!query.trim()) return;
 
     setCurrent(null);
     setStatus("Recherche…");
-    setSpotifyResults([]);
+    setSearchResults([]);
     setAutocompleteOpen(false);
 
     try {
@@ -399,17 +400,33 @@ export default function App() {
         isLocal: true,
       }));
 
-      const spotifyRes = await fetch(
+      // Recherche externe : Deezer via le backend (plus aucun appel Spotify).
+      // Le backend renvoie { results: [...], limited?: true } — `limited`
+      // signale que le quota partagé est atteint, on reste alors en local.
+      const extRes = await fetch(
         `${API}/api/search?q=${encodeURIComponent(query)}`
       );
-      const spotifyData = await spotifyRes.json();
-      const spotifyItems = spotifyData.tracks?.items || [];
+      const extData = await extRes.json();
+      const extItems = (extData.results || []).map((r) => ({
+        id: `deezer-${r.deezerId}`,
+        name: r.title,
+        artists: [{ name: r.artist }],
+        album: {
+          name: r.album || "",
+          release_date: r.year || "",
+          images: r.image ? [{ url: r.image }] : [],
+        },
+        year: r.year || null,
+        popularity: r.rank != null ? Math.round(r.rank / 10000) : null,
+        previewUrl: r.previewUrl || null,
+        source: "deezer",
+      }));
 
       // Canonical-key dedup. Two-stage:
-      //   1. drop Spotify results whose canonical key (= same song,
+      //   1. drop Deezer results whose canonical key (= same song,
       //      ignoring "- Radio Edit", "- Extended Mix", etc.) is already
       //      represented in the local catalog
-      //   2. collapse remaining Spotify versions of the same song into
+      //   2. collapse remaining Deezer versions of the same song into
       //      one card so the UI doesn't show "Ça m'énerve" AND
       //      "Ça m'énerve - Radio Edit" side by side
       const localCanonical = new Set(
@@ -419,23 +436,23 @@ export default function App() {
       );
 
       const seenCanonical = new Set(localCanonical);
-      const spotifyFiltered = [];
-      for (const t of spotifyItems) {
+      const extFiltered = [];
+      for (const t of extItems) {
         const k = canonicalKey(t.artists?.[0]?.name || "", t.name || "");
         if (seenCanonical.has(k)) continue;
         seenCanonical.add(k);
-        spotifyFiltered.push(t);
+        extFiltered.push(t);
       }
 
-      const enrichedSpotifyItems = await Promise.all(
-        spotifyFiltered.map(enrichTrack)
-      );
+      const enrichedExtItems = await Promise.all(extFiltered.map(enrichTrack));
 
-      const mergedItems = [...localItems, ...enrichedSpotifyItems];
+      const mergedItems = [...localItems, ...enrichedExtItems];
 
-      setSpotifyResults(mergedItems);
+      setSearchResults(mergedItems);
       await loadKnownTracks();
-      setStatus(`${mergedItems.length} résultats`);
+      setStatus(
+        `${mergedItems.length} résultats${extData.limited ? " (recherche externe momentanément limitée)" : ""}`
+      );
     } catch (error) {
       console.error(error);
       setStatus("Erreur pendant la recherche.");
@@ -459,7 +476,7 @@ export default function App() {
       source: track.source,
     });
 
-    setSpotifyResults([]);
+    setSearchResults([]);
     setQuery("");
     setAutocompleteOpen(false);
   }
@@ -641,7 +658,11 @@ export default function App() {
             return (
               <div key={key} className="forgotten-row">
                 <div className="forgotten-cover">
-                  {t.image ? <img src={t.image} alt="" /> : <span>🎵</span>}
+                  {t.image ? (
+                    <img src={t.image} alt="" />
+                  ) : (
+                    <CamelotTile camelot={toCamelot(t.key)} bpm={t.bpm} />
+                  )}
                 </div>
                 <div className="forgotten-info">
                   <div className="forgotten-title">
@@ -697,7 +718,7 @@ export default function App() {
           setQuery(v);
           setAutocompleteOpen(true);
         }}
-        onSubmit={searchSpotify}
+        onSubmit={runSearch}
         autocomplete={{
           open: autocompleteOpen,
           items: autocompleteMatches,
@@ -709,13 +730,13 @@ export default function App() {
 
       {status && <div className="status-line">{status}</div>}
 
-      {spotifyResults.length > 0 && (
+      {searchResults.length > 0 && (
         <>
           <h3 style={{ margin: "0 0 12px", fontSize: 16, fontWeight: 500 }}>
-            Résultats Spotify
+            Résultats
           </h3>
           <div className="suggestions-list" style={{ marginBottom: 24 }}>
-            {spotifyResults.map((t) => {
+            {searchResults.map((t) => {
               const enriched = !!(t.bpm && t.key);
               const artist = t.artists?.[0]?.name || "";
               const tKey = trackKey(artist, t.name);

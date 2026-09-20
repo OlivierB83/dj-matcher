@@ -1,9 +1,9 @@
 import { useRef } from "react";
+import { CamelotTile } from "./CamelotTile";
 import {
   Archive,
   Search,
   Filter,
-  Disc3,
   ArrowLeft,
   Heart,
 } from "lucide-react";
@@ -122,7 +122,7 @@ export function SearchBar({
 
   return (
     <section className="search-section">
-      <label className="search-label">Recherche Spotify</label>
+      <label className="search-label">Recherche</label>
       <div className="search-row">
         <div className="search-input-wrap">
           <Search size={16} className="search-input-icon" />
@@ -185,7 +185,7 @@ export function CurrentTrack({ track, isFavorite = false, onToggleFavorite }) {
         {track.coverUrl ? (
           <img src={track.coverUrl} alt="" />
         ) : (
-          <Disc3 size={32} color="var(--brand)" />
+          <CamelotTile camelot={track.camelot} bpm={track.bpm} />
         )}
       </div>
       <div className="current-info">

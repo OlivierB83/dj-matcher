@@ -25,6 +25,8 @@ import { toCamelot } from "./scoring.js";
 
 const CID = process.env.SPOTIFY_CLIENT_ID;
 const CSECRET = process.env.SPOTIFY_CLIENT_SECRET;
+import { findTrack as findDeezerTrack } from "./deezer.js";
+
 const GETSONGBPM_API_KEY = process.env.GETSONGBPM_API_KEY;
 const SONGSTATS_API_KEY = process.env.SONGSTATS_API_KEY;
 
@@ -213,30 +215,6 @@ function normalizeBpmKeep(value) {
 // stripping genre data from our access tier. So it's no longer worth
 // the round-trip. We jump straight from getsongbpm to Songstats.)
 
-// ReccoBeats key codes: pitch class 0-11 (C=0, …, B=11) + mode (0=minor,
-// 1=major). Converted to Camelot Wheel notation (1A-12B). Same mapping
-// Mixed In Key uses. Used by buildNewTrack so iOS "Ajouter au catalogue"
-// gets an immediately-usable Camelot key.
-const RECCOBEATS_KEY_TO_CAMELOT = {
-  "0_1": "8B",  "0_0": "5A",
-  "1_1": "3B",  "1_0": "12A",
-  "2_1": "10B", "2_0": "7A",
-  "3_1": "5B",  "3_0": "2A",
-  "4_1": "12B", "4_0": "9A",
-  "5_1": "7B",  "5_0": "4A",
-  "6_1": "2B",  "6_0": "11A",
-  "7_1": "9B",  "7_0": "6A",
-  "8_1": "4B",  "8_0": "1A",
-  "9_1": "11B", "9_0": "8A",
-  "10_1": "6B", "10_0": "3A",
-  "11_1": "1B", "11_0": "10A",
-};
-
-function reccobeatsKeyToCamelot(key, mode) {
-  if (key == null || mode == null || key < 0 || key > 11) return null;
-  return RECCOBEATS_KEY_TO_CAMELOT[`${key}_${mode}`] || null;
-}
-
 async function songstatsGenres(track) {
   const info = await songstatsFullLookup(track);
   return info?.genres?.length ? info.genres : null;
@@ -247,12 +225,14 @@ async function songstatsGenres(track) {
  *  when ReccoBeats and getsongbpm have both whiffed. PAID, so we only
  *  reach this path when we really need to. */
 async function songstatsFullLookup(track) {
-  if (!SONGSTATS_API_KEY || !track.spotifyId) return null;
+  if (!SONGSTATS_API_KEY || (!track.isrc && !track.spotifyId)) return null;
   // Log BEFORE the call so even network failures count.
   logSongstatsRequest(track);
-  const url =
-    `https://api.songstats.com/enterprise/v1/tracks/info` +
-    `?spotify_track_id=${encodeURIComponent(track.spotifyId)}`;
+  // ISRC d'abord (fourni par Deezer), spotify_track_id pour les anciennes entrées.
+  const param = track.isrc
+    ? `isrc=${encodeURIComponent(track.isrc)}`
+    : `spotify_track_id=${encodeURIComponent(track.spotifyId)}`;
+  const url = `https://api.songstats.com/enterprise/v1/tracks/info?${param}`;
   const r = await fetch(url, {
     headers: { Accept: "application/json", apikey: SONGSTATS_API_KEY },
   });
@@ -272,113 +252,73 @@ async function songstatsFullLookup(track) {
 /**
  * Build a brand-new catalog entry from just (artist, title). Used by
  * /api/add-track when the iOS app surfaces a Shazam match that isn't in
- * the catalogue yet. Difference vs enrichTrack: we have NO BPM/key going
- * in, so we use ReccoBeats audio-features to source them. Returns null
- * if Spotify can't find the track at all (we need its spotifyId for the
- * downstream ReccoBeats lookups) OR if no BPM/key could be resolved
- * (without those the entry is useless for matching).
+ * the catalogue yet. Zéro Spotify :
+ *   1. Deezer      → deezerId, isrc, album, year, cover, popularity (rang), BPM éventuel
+ *   2. getsongbpm  → BPM + clé (+ genres)
+ *   3. Songstats   → BPM + clé + genres, en dernier recours (payant), par ISRC
+ * Returns null if Deezer can't find the track (we need its ISRC / metadata)
+ * OR if no BPM/key could be resolved (without those the entry is useless
+ * for matching).
  */
 export async function buildNewTrack(artist, title) {
-  const token = await getSpotifyToken();
-  if (!token) return null;
-
-  // 1. Spotify search — must hit for the rest of the cascade to work
-  const sp = await spotifySearchTrack(token, artist, title);
-  if (!sp?.id) {
-    console.log(`[add-track] Spotify miss for "${artist} — ${title}"`);
+  // 1. Deezer — doit trouver le morceau pour que la suite ait un sens
+  let dz;
+  try { dz = await findDeezerTrack(artist, title); } catch { dz = null; }
+  if (!dz) {
+    console.log(`[add-track] Deezer miss for "${artist} — ${title}"`);
     return null;
   }
 
   const entry = {
     artist,
     title,
-    spotifyId: sp.id,
-    album: sp.album?.name || null,
-    year: sp.album?.release_date?.slice(0, 4) || null,
-    image: sp.album?.images?.[0]?.url || null,
+    deezerId: dz.deezerId,
+    isrc: dz.isrc || null,
+    album: dz.album || null,
+    year: dz.year || null,
+    image: dz.image || null,
+    imageSource: dz.image ? "deezer" : undefined,
+    deezerRank: dz.rank ?? null,
+    popularity: dz.rank != null ? Math.max(0, Math.min(100, Math.round(dz.rank / 10000))) : null,
+    popularitySource: dz.rank != null ? "deezer" : undefined,
     source: "ios_added",
   };
 
-  // 2. ReccoBeats: popularity, danceability, and BPM + key when available
+  // 2. getsongbpm : BPM + clé (notation traditionnelle → Camelot) + genres
   try {
-    const lookup = await reccobeatsLookup(sp.id);
-    if (lookup) {
-      if (lookup.popularity != null) entry.popularity = lookup.popularity;
-      const feat = await reccobeatsAudioFeatures(lookup.rbId);
-      if (feat) {
-        if (feat.tempo) {
-          entry.bpm = Math.round(feat.tempo);
-          entry.bpmSource = "reccobeats";
-        }
-        if (feat.key != null && feat.mode != null) {
-          const cam = reccobeatsKeyToCamelot(feat.key, feat.mode);
-          if (cam) {
-            entry.key = cam;
-            entry.keySource = "reccobeats";
-          }
-        }
-        if (feat.danceability != null) {
-          entry.danceability = feat.danceability;
-          entry.danceabilitySource = "reccobeats";
-        }
+    const hit = await getsongbpmHit(artist, title);
+    if (hit) {
+      if (hit.tempo) {
+        const v = normalizeBpmKeep(hit.tempo);
+        if (v) { entry.bpm = v; entry.bpmSource = "getsongbpm"; }
+      }
+      if (hit.key_of) {
+        const cam = toCamelot(hit.key_of);
+        if (cam) { entry.key = cam; entry.keySource = "getsongbpm"; }
+      }
+      if (hit.artist?.genres?.length) {
+        entry.genres = hit.artist.genres;
+        entry.genresSource = "getsongbpm";
       }
     }
   } catch { /* best-effort */ }
 
-  // 3. Fallback BPM + key from getsongbpm if ReccoBeats missed.
-  // getsongbpm reports key in traditional notation ("Cm", "F#") and tempo
-  // as a number; we convert via toCamelot from scoring.js.
-  if (!entry.bpm || !entry.key) {
-    try {
-      const hit = await getsongbpmHit(artist, title);
-      if (hit) {
-        if (!entry.bpm && hit.tempo) {
-          const v = normalizeBpmKeep(hit.tempo);
-          if (v) {
-            entry.bpm = v;
-            entry.bpmSource = "getsongbpm";
-          }
-        }
-        if (!entry.key && hit.key_of) {
-          const cam = toCamelot(hit.key_of);
-          if (cam) {
-            entry.key = cam;
-            entry.keySource = "getsongbpm";
-          }
-        }
-        if (hit.artist?.genres?.length && !entry.genres?.length) {
-          entry.genres = hit.artist.genres;
-          entry.genresSource = "getsongbpm";
-        }
-      }
-    } catch { /* best-effort */ }
-  } else {
-    // We already have BPM + key from ReccoBeats. Just fetch genres.
-    try {
-      const g = await getsongbpmGenres(artist, title);
-      if (g?.length) {
-        entry.genres = g;
-        entry.genresSource = "getsongbpm";
-      }
-    } catch { /* best-effort */ }
+  // BPM Deezer en repli seulement : souvent absent (0) et moins fiable.
+  if (!entry.bpm && dz.bpm) {
+    entry.bpm = normalizeBpmKeep(dz.bpm);
+    entry.bpmSource = "deezer";
   }
 
-  // 4. Last fallback: Songstats (paid). Only if BPM or key still missing
-  // OR if genres still missing AND we have a spotifyId.
-  if (!entry.bpm || !entry.key) {
+  // 3. Songstats (payant) : uniquement s'il manque encore BPM ou clé,
+  //    ou les genres — et seulement avec un ISRC.
+  if (entry.isrc && (!entry.bpm || !entry.key || !entry.genres?.length)) {
     try {
       const info = await songstatsFullLookup(entry);
       if (info) {
-        if (!entry.bpm && info.bpm) {
-          entry.bpm = info.bpm;
-          entry.bpmSource = "songstats";
-        }
+        if (!entry.bpm && info.bpm) { entry.bpm = info.bpm; entry.bpmSource = "songstats"; }
         if (!entry.key && info.keyTraditional) {
           const cam = toCamelot(info.keyTraditional);
-          if (cam) {
-            entry.key = cam;
-            entry.keySource = "songstats";
-          }
+          if (cam) { entry.key = cam; entry.keySource = "songstats"; }
         }
         if (info.genres?.length && !entry.genres?.length) {
           entry.genres = info.genres;
@@ -386,22 +326,17 @@ export async function buildNewTrack(artist, title) {
         }
       }
     } catch { /* best-effort */ }
-  } else if (!entry.genres?.length) {
-    try {
-      const g = await songstatsGenres(entry);
-      if (g?.length) {
-        entry.genres = g;
-        entry.genresSource = "songstats";
-      }
-    } catch { /* best-effort */ }
   }
 
   if (!entry.bpm || !entry.key) {
     console.log(
-      `[add-track] No BPM/key for "${artist} — ${title}" (spotify ✓ rb=${entry.bpmSource ?? "?"}/${entry.keySource ?? "?"})`
+      `[add-track] No BPM/key for "${artist} — ${title}" (deezer ✓ bpm=${entry.bpmSource ?? "?"} key=${entry.keySource ?? "?"})`
     );
     return null;
   }
+
+  // Pas de champs undefined dans le catalogue
+  for (const k of Object.keys(entry)) if (entry[k] === undefined) delete entry[k];
 
   console.log(
     `[add-track] OK "${artist} — ${title}" → ${entry.bpm}/${entry.key} ` +
@@ -410,10 +345,6 @@ export async function buildNewTrack(artist, title) {
   return entry;
 }
 
-/**
- * Enrich a track { artist, title, bpm, key } in-place with whatever
- * metadata the cascade of sources can resolve. Returns the same object.
- */
 export async function enrichTrack(track, opts = {}) {
   const throttle = opts.throttleMs ?? 200;
   const artistGenresCache = opts.artistGenresCache;

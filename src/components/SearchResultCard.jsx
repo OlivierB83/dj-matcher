@@ -2,14 +2,15 @@ import { motion } from "framer-motion";
 import { Heart, Flame } from "lucide-react";
 import { useIsMobile } from "../hooks/useIsMobile";
 import { useCoverColor } from "../hooks/useCoverColor";
+import { CamelotTile } from "./CamelotTile";
 
 const FALLBACK_BORDER = "#7f77dd"; // DJ Matcher brand purple
-const VIRAL_THRESHOLD = 75;
+const VIRAL_THRESHOLD = 85; // popularité Deezer, aligné sur App.jsx
 
 function ViralBadge({ popularity }) {
   if (popularity == null || popularity < VIRAL_THRESHOLD) return null;
   return (
-    <span className="viral-badge" title={`Popularité Spotify : ${popularity}/100`}>
+    <span className="viral-badge" title={`Popularité Deezer : ${popularity}/100`}>
       <Flame size={12} strokeWidth={2.4} />
       {popularity}
     </span>
@@ -27,7 +28,7 @@ function Cover({ track, className }) {
       {track.coverUrl ? (
         <img src={track.coverUrl} alt="" />
       ) : (
-        <span aria-hidden>🎵</span>
+        <CamelotTile camelot={track.camelot} bpm={track.bpm} />
       )}
     </div>
   );

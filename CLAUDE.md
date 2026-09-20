@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-DJ Matcher — a tool that suggests harmonically and rhythmically compatible tracks for a DJ set. The user searches Spotify (or the local catalog), picks a "current" track, and the app ranks suggestions from a locally-enriched catalog of tracks with BPM/key/danceability/genre metadata.
+DJ Matcher — a tool that suggests harmonically and rhythmically compatible tracks for a DJ set. The user searches the local catalog (plus Deezer as an external complement), picks a "current" track, and the app ranks suggestions from a locally-enriched catalog of tracks with BPM/key/danceability/genre metadata.
+
+**No Spotify at runtime** (decided 2026-09-20, before the public iOS release): the web and iOS apps only talk to the backend, and the backend routes they use (`/api/suggestions`, `/api/local-search`, `/api/search`, `/api/add-track`, `/api/enrich`) never call Spotify. Spotify only survives in the offline playlist-import pipeline (`/login`, `/callback`, `/api/import-playlist`) and as an optional deep link in the iOS preview picker. Spotify stopped exposing `popularity` / `preview_url` to this app in 2026, so don't reintroduce it.
 
 Two halves:
 - **App** — Vite + React 19 frontend (`src/App.jsx`) + Express backend (`server.js`). Runs interactively for DJs.
@@ -38,19 +40,21 @@ Single-file React component. The matching logic lives entirely client-side:
 
 - `keyMap` / `toCamelot()` — converts musical keys (e.g. `C`, `F#m`, `Bb`) to Camelot wheel notation (e.g. `8B`, `11A`).
 - `scoreTrack(current, candidate)` — produces a 0–100 score: BPM proximity (≤40), key compatibility via Camelot (≤35), genre overlap (10), year proximity (8), danceability proximity (7). Output includes a French human-readable `reason` string.
-- `searchSpotify()` calls **both** `/api/local-search` and `/api/search`, deduplicates Spotify results that overlap the local catalog, and enriches the remaining Spotify items via `/api/enrich`. Local items are pre-enriched.
+- `runSearch()` calls **both** `/api/local-search` and `/api/search` (Deezer), deduplicates external results that overlap the local catalog (canonical key), and enriches the remaining items via `/api/enrich`. Local items are pre-enriched. If the backend answers `limited: true`, the status line says the external search is temporarily limited.
+- `components/CamelotTile.jsx` — generated fallback cover (hue from the Camelot wheel position, key + BPM text) used wherever a track has no artwork. Same formula as `CamelotTile` in the iOS app.
 - Frontend reads `VITE_API_URL` (defaults to `http://localhost:3001`).
 
 ### Backend (`server.js`)
 
-Express server, stateful in-memory only. Routes:
+Express server. The catalog lives **in memory** via `catalog-store.js`: loaded from GitHub `main` at startup (raw file, the deploy's local copy as fallback), never re-read per request; `/api/add-track` appends in memory, rewrites the local file and commits the batch to GitHub through the Contents API (debounced 60 s, commit message tagged `[skip render] [vercel skip]` so a new title doesn't trigger a redeploy; on a 409/422 conflict it reloads the remote catalog and replays pending additions). This is the free-tier persistence chosen 2026-09-20: Render's disk is ephemeral, GitHub is the source of truth. Needs `GITHUB_TOKEN` on Render (without it: local-only, dev mode). `/api/catalog-status` shows source, pending count and last push result; `?push=1` forces a commit. Responses are gzip-compressed (`compression`). Routes:
 
 - `GET /login` → `GET /callback` — Spotify OAuth (Authorization Code flow). Access + refresh tokens are persisted to `.spotify-token.json` (gitignored). On startup the server reloads them; expired access tokens are auto-refreshed via the refresh token, so `/login` only needs to be re-run if the token file is lost (e.g. cold start on an ephemeral host).
-- `GET /api/search?q=` — Spotify public search via client-credentials token (cached in `spotifyAppToken`).
+- `GET /api/search?q=` — external search via the **Deezer public API** (`deezer.js`: 6 h in-memory cache + global limiter of 40 req / 5 s, because Deezer's 50 req / 5 s quota is per IP and shared by every user behind Render). Returns `{ source: "deezer", results: [{ artist, title, album, year, image, deezerId, isrc, rank, previewUrl, deezerUrl }], limited?: true }`. Never errors on quota: `limited: true` and an empty list.
 - `GET /api/local-search?q=` — substring search over `knownTracks.json`.
 - `GET /api/enrich?artist=&title=` — pure lookup in `knownTracks.json` (matches via `normalize(artist) + normalize(title)`). Never writes. Returns `{found: false, message: "Titre absent du catalogue local"}` on miss.
 - `GET /api/known-tracks` — dump of the local catalog.
-- `GET /api/import-playlist/:playlistId` — paginates the Spotify playlist API and **overwrites `catalog-input.json`** with the imported tracks.
+- `POST /api/add-track` `{artist, title}` — iOS "Ajouter au catalogue": `djay-enrich.js#buildNewTrack` cascade **Deezer** (deezerId, ISRC, album, year, cover, popularity) → **getsongbpm** (BPM, key, genres) → **Songstats by ISRC** (paid, last resort). Persisted through `catalog-store.js` (see above).
+- `GET /api/import-playlist/:playlistId` — offline pipeline only: paginates the Spotify playlist API and **overwrites `catalog-input.json`** with the imported tracks.
 
 ### Catalog pipeline
 
@@ -65,7 +69,7 @@ Data flows: `playlists.json` → (importer hits backend) → `catalog-input.json
 
 ### Data files (canonical)
 
-- `knownTracks.json` — the catalog. Written by `catalog-builder.js` and `merge-manual-import.js` (the backend only reads it). Avoid running enrichment scripts in parallel.
+- `knownTracks.json` — the catalog. Written by `catalog-builder.js`, `merge-manual-import.js`, the migration scripts, the weekly popularity workflow, and (on Render, via GitHub commits) the backend's `/api/add-track`. Always `git pull` before running a local script that writes it, so you don't overwrite app-side additions. Avoid running enrichment scripts in parallel.
 - `catalog-input.json` — staging area between import and enrichment. Overwritten freely.
 - `playlists.json` — list of Spotify playlist IDs or URLs to import.
 - `manual-import.json` — hand-curated tracks merged via `merge-manual-import.js`.
@@ -77,6 +81,7 @@ Data flows: `playlists.json` → (importer hits backend) → `catalog-input.json
 
 - `SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET`, `SPOTIFY_REDIRECT_URI` — Spotify OAuth + client credentials. `SPOTIFY_REDIRECT_URI` differs by environment (local: `http://127.0.0.1:3001/callback`; Render: the public Render URL + `/callback`) and must be whitelisted in the Spotify app dashboard.
 - `GETSONGBPM_API_KEY`, `SONGSTATS_API_KEY` — used by the enrichment pipeline (`catalog-builder.js`).
+- `GITHUB_TOKEN` — fine-grained personal access token scoped to this repo with *Contents: read and write*; lets the Render backend commit app-side catalog additions to `main` (`catalog-store.js`). Optional `GITHUB_REPO` / `GITHUB_BRANCH` override the defaults.
 - `PORT` — backend port (default 3001).
 - `VITE_API_URL` — frontend → backend base URL (default `http://localhost:3001`; the Vercel deploy points this at the Render backend).
 

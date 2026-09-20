@@ -3,9 +3,10 @@ import { Heart, Flame } from "lucide-react";
 import { CompatBadge } from "./Badges";
 import { useIsMobile } from "../hooks/useIsMobile";
 import { useCoverColor } from "../hooks/useCoverColor";
+import { CamelotTile } from "./CamelotTile";
 
 const FALLBACK_BORDER = "#7f77dd"; // DJ Matcher brand purple
-const VIRAL_THRESHOLD = 75; // popularity 0-100 from Spotify; ≥ 75 = "buzz"
+const VIRAL_THRESHOLD = 85; // popularité Deezer 0-100 (rang/10 000) ; ≥ 85 = "buzz", aligné sur App.jsx
 
 /* ===== Shared helpers ===== */
 
@@ -73,20 +74,24 @@ function BadgeRow({ compat, onForget }) {
   );
 }
 
-/** Cover image with emoji/disc fallback. */
+/** Cover image, with a generated Camelot/BPM tile when no artwork exists. */
 function Cover({ track, className }) {
   return (
     <div className={className}>
-      {track.coverUrl ? <img src={track.coverUrl} alt="" /> : <span aria-hidden>🎵</span>}
+      {track.coverUrl ? (
+        <img src={track.coverUrl} alt="" />
+      ) : (
+        <CamelotTile camelot={track.camelot} bpm={track.bpm} />
+      )}
     </div>
   );
 }
 
-/** Small inline flame badge for tracks currently buzzing on Spotify. */
+/** Small inline flame badge for tracks currently buzzing on Deezer. */
 function ViralBadge({ popularity }) {
   if (popularity == null || popularity < VIRAL_THRESHOLD) return null;
   return (
-    <span className="viral-badge" title={`Popularité Spotify : ${popularity}/100`}>
+    <span className="viral-badge" title={`Popularité Deezer : ${popularity}/100`}>
       <Flame size={12} strokeWidth={2.4} />
       {popularity}
     </span>
@@ -122,7 +127,7 @@ function TrackCardMobile({ track, compat, featured, isFavorite, onChoose, onTogg
           {track.coverUrl ? (
             <img src={track.coverUrl} alt="" />
           ) : (
-            <span aria-hidden>🎵</span>
+            <CamelotTile camelot={track.camelot} bpm={track.bpm} />
           )}
         </div>
 
