@@ -130092,5 +130092,57 @@
       "Garage"
     ],
     "genresSource": "songstats"
+  },
+  {
+    "artist": "Slow Pulp",
+    "title": "Red Car",
+    "deezerId": 4022194821,
+    "isrc": "USEP42621005",
+    "album": "Melodie",
+    "year": "2026",
+    "image": "https://cdn-images.dzcdn.net/images/cover/845e0ea1fd1619049f23bbdb7692b253/1000x1000-000000-80-0-0.jpg",
+    "imageSource": "deezer",
+    "deezerRank": 191322,
+    "popularity": 19,
+    "popularitySource": "deezer",
+    "source": "ios_added",
+    "bpm": 155,
+    "bpmSource": "songstats",
+    "key": "9B",
+    "keySource": "songstats",
+    "genres": [
+      "Alternative",
+      "Indie",
+      "Indie Rock",
+      "Pop Rock",
+      "Rock"
+    ],
+    "genresSource": "songstats"
+  },
+  {
+    "artist": "The Beths",
+    "title": "Metal (Nik Brinkman Remix)",
+    "deezerId": 4238173392,
+    "isrc": "USEP42635001",
+    "album": "Metal (Nik Brinkman Remix)",
+    "year": "2026",
+    "image": "https://cdn-images.dzcdn.net/images/cover/120ce294cbc3321d84c8e54534b28206/1000x1000-000000-80-0-0.jpg",
+    "imageSource": "deezer",
+    "deezerRank": 100000,
+    "popularity": 10,
+    "popularitySource": "deezer",
+    "source": "ios_added",
+    "bpm": 135,
+    "bpmSource": "songstats",
+    "key": "10B",
+    "keySource": "songstats",
+    "genres": [
+      "Electronic",
+      "Alternative",
+      "Indie",
+      "Indie Pop",
+      "Indie Rock"
+    ],
+    "genresSource": "songstats"
   }
 ]
