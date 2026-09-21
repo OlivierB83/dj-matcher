@@ -130197,5 +130197,31 @@
       "Psychedelic Rock"
     ],
     "genresSource": "songstats"
+  },
+  {
+    "artist": "Charli xcx",
+    "title": "Camera",
+    "deezerId": 4168831012,
+    "isrc": "USAT22603632",
+    "album": "Music, Fashion, Film",
+    "year": "2026",
+    "image": "https://cdn-images.dzcdn.net/images/cover/3a72ff0b4250bdc6d93f381b6f095287/1000x1000-000000-80-0-0.jpg",
+    "imageSource": "deezer",
+    "deezerRank": 745809,
+    "popularity": 75,
+    "popularitySource": "deezer",
+    "source": "ios_added",
+    "bpm": 126,
+    "bpmSource": "songstats",
+    "key": "4B",
+    "keySource": "songstats",
+    "genres": [
+      "Pop",
+      "Alternative Pop",
+      "Bubblegum Pop",
+      "Dance",
+      "Dance Pop"
+    ],
+    "genresSource": "songstats"
   }
 ]
