@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DJ Matcher — Politique de confidentialité</title>
+<style>
+  body { margin: 0; padding: 32px 20px 64px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #1c1c22; background: #fafafa; }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  .date { color: #6b6b75; margin-bottom: 28px; }
+  h2 { font-size: 18px; margin: 28px 0 8px; }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 20px; }
+  a { color: #5b52d6; }
+  @media (prefers-color-scheme: dark) { body { background: #111114; color: #ececf1; } .date { color: #9a9aa6; } a { color: #a79dff; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>DJ Matcher — Politique de confidentialité</h1>
+  <p class="date">Dernière mise à jour : 21 septembre 2026</p>
+
+  <p>DJ Matcher est une application qui suggère des titres compatibles avec le morceau qu'un DJ est en train de jouer. Elle est conçue pour fonctionner sans compte utilisateur et sans collecte de données personnelles.</p>
+
+  <h2>Ce que l'application ne fait pas</h2>
+  <ul>
+    <li>Aucune création de compte, aucun identifiant personnel demandé ou stocké.</li>
+    <li>Aucun outil d'analyse d'audience, aucune publicité, aucun traceur.</li>
+    <li>Aucun enregistrement audio conservé ni transmis à DJ Matcher.</li>
+  </ul>
+
+  <h2>Microphone et reconnaissance musicale</h2>
+  <p>Avec votre autorisation, l'application écoute brièvement le son ambiant pour reconnaître le titre en cours grâce à la technologie ShazamKit d'Apple. Le son n'est jamais enregistré ni stocké : une empreinte acoustique est calculée sur l'appareil et transmise au service Shazam d'Apple, qui renvoie le titre et l'artiste. Ce traitement est régi par la <a href="https://www.apple.com/legal/privacy/">politique de confidentialité d'Apple</a>. Vous pouvez retirer l'autorisation micro à tout moment dans les Réglages d'iOS.</p>
+
+  <h2>Données envoyées à notre serveur</h2>
+  <p>Pour calculer les suggestions, l'application envoie à notre serveur le nom de l'artiste et le titre du morceau reconnu ou recherché, ainsi que le texte saisi dans la barre de recherche. Ces requêtes ne contiennent aucun identifiant de l'utilisateur ou de l'appareil et ne sont pas associées à une personne. Les journaux techniques du serveur sont conservés au plus quelques jours pour le dépannage.</p>
+  <p>Lorsqu'un titre reconnu est absent de notre catalogue, il y est ajouté (artiste, titre, tempo, tonalité, genre, pochette) afin d'améliorer les suggestions pour tous les utilisateurs. Cet ajout ne comporte aucune information sur la personne qui l'a déclenché.</p>
+
+  <h2>Favoris, titres masqués et réglages</h2>
+  <p>Vos favoris, vos titres masqués et vos préférences sont stockés sur votre appareil et, si iCloud est activé, synchronisés entre vos appareils via le stockage clé-valeur iCloud de votre propre compte Apple. DJ Matcher n'y a pas accès.</p>
+
+  <h2>Services tiers</h2>
+  <ul>
+    <li><strong>Apple ShazamKit</strong> pour la reconnaissance musicale (voir ci-dessus).</li>
+    <li><strong>Deezer</strong> : recherche de titres et métadonnées (tempo, popularité, pochettes). Les requêtes partent de notre serveur, pas de votre appareil.</li>
+    <li><strong>Pochettes</strong> : les images d'albums sont chargées depuis les serveurs d'Apple (iTunes) ou de Deezer, qui peuvent voir l'adresse IP de votre appareil comme pour toute image web.</li>
+    <li><strong>Pré-écoute</strong> : sur votre demande, l'application ouvre le service que vous avez choisi (Apple Music, Deezer, Spotify ou YouTube) dans son application ou votre navigateur ; leur politique de confidentialité s'applique alors.</li>
+  </ul>
+
+  <h2>Hébergement</h2>
+  <p>Le serveur de DJ Matcher est hébergé chez Render (États-Unis) et le catalogue chez GitHub. Aucune donnée personnelle n'y transite.</p>
+
+  <h2>Vos droits et contact</h2>
+  <p>Puisque nous ne conservons aucune donnée personnelle, il n'y a rien à consulter, corriger ou supprimer de notre côté. Pour toute question : <a href="mailto:olivierbaudet@gmail.com">olivierbaudet@gmail.com</a>.</p>
+
+  <h2>Modifications</h2>
+  <p>Cette politique peut évoluer avec l'application ; la date en haut de page indique la dernière version.</p>
+</main>
+</body>
+</html>
