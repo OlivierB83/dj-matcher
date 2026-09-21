@@ -130144,5 +130144,32 @@
       "Indie Rock"
     ],
     "genresSource": "songstats"
+  },
+  {
+    "artist": "Major Lazer",
+    "title": "RoTATe wiTh aMeRiCa FOsTeR, sKiLLiBeNg aNd bEAM (David Guetta Remix)",
+    "deezerId": 4261068261,
+    "isrc": "USZ4V2600489",
+    "album": "RoTATe wiTh aMeRiCa FOsTeR, sKiLLiBeNg aNd bEAM (David Guetta Remix)",
+    "year": "2026",
+    "image": "https://cdn-images.dzcdn.net/images/cover/08426cf10d1dd0cbd4445b37ca5668f0/1000x1000-000000-80-0-0.jpg",
+    "imageSource": "deezer",
+    "deezerRank": 776755,
+    "popularity": 78,
+    "popularitySource": "deezer",
+    "source": "ios_added",
+    "bpm": 132,
+    "bpmSource": "manual",
+    "key": "1B",
+    "keySource": "manual",
+    "genres": [
+      "Dance",
+      "Electronic",
+      "Electronica",
+      "Mainstage",
+      "Club"
+    ],
+    "genresSource": "songstats",
+    "bpmMeasured": 132
   }
 ]
