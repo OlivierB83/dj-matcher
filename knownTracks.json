@@ -130223,5 +130223,28 @@
       "Dance Pop"
     ],
     "genresSource": "songstats"
+  },
+  {
+    "artist": "SIENNA SPIRO",
+    "title": "We’re Not In Love",
+    "deezerId": 4115963481,
+    "isrc": "USUG12603504",
+    "album": "Visitor (Deluxe)",
+    "year": "2026",
+    "image": "https://cdn-images.dzcdn.net/images/cover/829561655b52dcf1525d4deb452b0986/1000x1000-000000-80-0-0.jpg",
+    "imageSource": "deezer",
+    "deezerRank": 705124,
+    "popularity": 71,
+    "popularitySource": "deezer",
+    "source": "ios_added",
+    "bpm": 63,
+    "bpmSource": "songstats",
+    "key": "8B",
+    "keySource": "songstats",
+    "genres": [
+      "Pop",
+      "Soul"
+    ],
+    "genresSource": "songstats"
   }
 ]
