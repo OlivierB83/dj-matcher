@@ -533,36 +533,52 @@ app.post("/api/add-track", async (req, res) => {
 });
 
 /**
- * POST /api/track-bpm  body: { artist, title, factor: 0.5 | 2 }
+ * POST /api/track-correct  body: { artist, title, bpm?, key? }
+ * header X-Editor-Code : code éditeur (EDITOR_CODE sur Render)
  *
- * Correction demi-temps / double temps par le DJ (boutons ÷2 et ×2 sur le
- * morceau courant). Les analyseurs se trompent souvent d'un facteur 2 sur
- * les ballades ; seule l'oreille tranche. La valeur devient `bpmSource:
- * "manual"` (jamais écrasée par le pipeline), la mesure d'origine est
- * conservée dans bpmMeasured, et la persistance passe par catalog-store
- * (commit GitHub). Répond comme /api/suggestions, re-scoré avec le nouveau BPM.
+ * Correction volontaire par un DJ autorisé (formulaire « Corriger » de
+ * l'app iOS, avec récapitulatif et confirmation). Les analyseurs se
+ * trompent souvent d'un facteur 2 sur les ballades, seule l'oreille
+ * tranche. Les champs modifiés passent en source "manual" (jamais
+ * écrasés par le pipeline), les valeurs d'origine sont conservées dans
+ * bpmMeasured / keyMeasured, et la persistance passe par catalog-store
+ * (commit GitHub). Répond comme /api/suggestions, re-scoré.
+ *
+ * Sans EDITOR_CODE configuré côté serveur : 503, corrections désactivées.
+ * Code absent ou faux : 403. Un DJ qui saisit n'importe quoi pollue toute
+ * la base, d'où le garde-fou.
  */
-app.post("/api/track-bpm", (req, res) => {
+app.post("/api/track-correct", (req, res) => {
+  const expected = process.env.EDITOR_CODE || "";
+  if (!expected) return res.status(503).json({ found: false, message: "Corrections désactivées sur ce serveur (EDITOR_CODE absent)." });
+  const given = String(req.get("X-Editor-Code") || req.body?.editorCode || "");
+  if (given !== expected) return res.status(403).json({ found: false, message: "Code éditeur invalide." });
+
   const rawArtist = req.body?.artist || "";
   const rawTitle = req.body?.title || "";
-  const factor = Number(req.body?.factor);
-  if (!rawArtist || !rawTitle || ![0.5, 2].includes(factor)) {
-    return res.status(400).json({ found: false, message: "Paramètres requis : artist, title, factor (0.5 ou 2)" });
-  }
+  if (!rawArtist || !rawTitle) return res.status(400).json({ found: false, message: "Paramètres requis : artist, title" });
   const tracks = readKnownTracks();
   const key = canonicalKey(rawArtist, rawTitle);
   const index = tracks.findIndex((t) => canonicalKey(t.artist, t.title) === key);
   if (index < 0) return res.status(404).json({ found: false, message: "Titre absent du catalogue" });
   const t = tracks[index];
-  if (!t.bpm) return res.status(422).json({ found: false, message: "Ce titre n'a pas de BPM à corriger" });
-  const next = Math.round(t.bpm * factor);
-  if (next < 40 || next > 250) return res.status(422).json({ found: false, message: `BPM ${next} hors limites` });
-  const updated = catalog.patch(index, {
-    bpm: next,
-    bpmSource: "manual",
-    bpmMeasured: t.bpmMeasured ?? t.bpm,
-  });
-  console.log(`[track-bpm] "${t.artist} — ${t.title}" ${t.bpm} → ${next} (×${factor})`);
+
+  const fields = {};
+  if (req.body?.bpm != null && req.body.bpm !== "") {
+    const bpm = Math.round(Number(req.body.bpm));
+    if (!(bpm >= 40 && bpm <= 250)) return res.status(422).json({ found: false, message: `BPM ${req.body.bpm} hors limites (40–250)` });
+    if (bpm !== t.bpm) { fields.bpm = bpm; fields.bpmSource = "manual"; fields.bpmMeasured = t.bpmMeasured ?? t.bpm ?? null; }
+  }
+  if (req.body?.key != null && String(req.body.key).trim() !== "") {
+    const cam = parseKeyInput(req.body.key);
+    if (!cam) return res.status(422).json({ found: false, message: `Clé « ${req.body.key} » non reconnue (attendu 8A, 11B, Am, F#…)` });
+    if (cam !== t.key) { fields.key = cam; fields.keySource = "manual"; fields.keyMeasured = t.keyMeasured ?? t.key ?? null; }
+  }
+  if (!Object.keys(fields).length) return res.status(422).json({ found: false, message: "Aucun changement." });
+  fields.correctedAt = new Date().toISOString();
+
+  const updated = catalog.patch(index, fields);
+  console.log(`[track-correct] "${t.artist} — ${t.title}" ${t.bpm}/${t.key} → ${updated.bpm}/${updated.key}`);
   res.json({
     found: true,
     current: publicEntry(updated),

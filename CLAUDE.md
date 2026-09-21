@@ -54,7 +54,7 @@ Express server. The catalog lives **in memory** via `catalog-store.js`: loaded f
 - `GET /api/enrich?artist=&title=` — pure lookup in `knownTracks.json` (matches via `normalize(artist) + normalize(title)`). Never writes. Returns `{found: false, message: "Titre absent du catalogue local"}` on miss.
 - `GET /api/known-tracks` — dump of the local catalog.
 - `POST /api/add-track` `{artist, title}` — iOS "Ajouter au catalogue": `djay-enrich.js#buildNewTrack` cascade **Deezer** (deezerId, ISRC, album, year, cover, popularity) → **getsongbpm** (BPM, key, genres) → **Songstats by ISRC** (paid) → **ReccoBeats** audio-features via the Spotify ids Songstats returns (no Spotify API call). Optional `bpm` / `key` in the body = manual entry by the DJ (source `manual`), used when no source knows a brand-new track. Persisted through `catalog-store.js` (see above).
-- `POST /api/track-bpm` `{artist, title, factor: 0.5 | 2}` — half-time / double-time correction from the iOS ÷2 / ×2 buttons on the current track: sets `bpmSource: "manual"` (never overwritten by the pipeline: `djay-ax-import.js` and `normalize-catalog-bpm.js` skip manual values), keeps the analyser value in `bpmMeasured`, persists via `catalog-store.patch`, and answers like `/api/suggestions` re-scored.
+- `POST /api/track-correct` `{artist, title, bpm?, key?}` + header `X-Editor-Code` — deliberate correction by an authorised DJ (iOS "Corriger" form with recap + confirmation). Gated by the `EDITOR_CODE` env var on Render (503 if unset, 403 if wrong): a careless DJ would pollute the shared catalog. Changed fields become `bpmSource` / `keySource: "manual"` (never overwritten by the pipeline: `djay-ax-import.js` and `normalize-catalog-bpm.js` skip manual values), analyser values kept in `bpmMeasured` / `keyMeasured`, `correctedAt` stamped, persisted via `catalog-store.patch`, answers like `/api/suggestions` re-scored.
 - `GET /api/import-playlist/:playlistId` — offline pipeline only: paginates the Spotify playlist API and **overwrites `catalog-input.json`** with the imported tracks.
 
 ### Catalog pipeline
@@ -83,6 +83,7 @@ Data flows: `playlists.json` → (importer hits backend) → `catalog-input.json
 - `SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET`, `SPOTIFY_REDIRECT_URI` — Spotify OAuth + client credentials. `SPOTIFY_REDIRECT_URI` differs by environment (local: `http://127.0.0.1:3001/callback`; Render: the public Render URL + `/callback`) and must be whitelisted in the Spotify app dashboard.
 - `GETSONGBPM_API_KEY`, `SONGSTATS_API_KEY` — used by the enrichment pipeline (`catalog-builder.js`).
 - `GITHUB_TOKEN` — fine-grained personal access token scoped to this repo with *Contents: read and write*; lets the Render backend commit app-side catalog additions to `main` (`catalog-store.js`). Optional `GITHUB_REPO` / `GITHUB_BRANCH` override the defaults.
+- `EDITOR_CODE` — shared secret typed once in the iOS settings by trusted DJs; required by `/api/track-correct`. Unset = corrections disabled.
 - `PORT` — backend port (default 3001).
 - `VITE_API_URL` — frontend → backend base URL (default `http://localhost:3001`; the Vercel deploy points this at the Render backend).
 
