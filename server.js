@@ -497,12 +497,21 @@ app.post("/api/add-track", async (req, res) => {
     });
   }
 
-  // Saisie manuelle optionnelle (bannière iOS quand aucune source ne répond)
+  // Saisie manuelle optionnelle (bannière iOS quand aucune source ne
+  // répond) : réservée aux profils éditeurs, comme /api/track-correct.
   const manual = {};
-  const manualBpm = Number(req.body?.bpm);
-  if (manualBpm >= 40 && manualBpm <= 250) manual.bpm = Math.round(manualBpm);
-  const manualKey = req.body?.key ? parseKeyInput(req.body.key) : null;
-  if (manualKey) manual.key = manualKey;
+  const hasManual = (req.body?.bpm != null && req.body.bpm !== "") || (req.body?.key != null && String(req.body.key).trim() !== "");
+  if (hasManual) {
+    const expected = process.env.EDITOR_CODE || "";
+    const given = String(req.get("X-Editor-Code") || "");
+    if (!expected || given !== expected) {
+      return res.status(403).json({ found: false, message: "La saisie manuelle du BPM et de la clé est réservée aux profils éditeurs." });
+    }
+    const manualBpm = Number(req.body?.bpm);
+    if (manualBpm >= 40 && manualBpm <= 250) manual.bpm = Math.round(manualBpm);
+    const manualKey = req.body?.key ? parseKeyInput(req.body.key) : null;
+    if (manualKey) manual.key = manualKey;
+  }
 
   let entry;
   try {
