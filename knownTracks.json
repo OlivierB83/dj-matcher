@@ -130171,5 +130171,31 @@
     ],
     "genresSource": "songstats",
     "bpmMeasured": 132
+  },
+  {
+    "artist": "The Beatles",
+    "title": "Norwegian Wood (This Bird Has Flown) [Second Version - Take 2]",
+    "deezerId": 4285042112,
+    "isrc": "GBUM72600393",
+    "album": "Norwegian Wood (This Bird Has Flown) (Second Version - Take 2)",
+    "year": "2026",
+    "image": "https://cdn-images.dzcdn.net/images/cover/e6b1f1fe4b354609ba357015a52c9921/1000x1000-000000-80-0-0.jpg",
+    "imageSource": "deezer",
+    "deezerRank": 440407,
+    "popularity": 44,
+    "popularitySource": "deezer",
+    "source": "ios_added",
+    "bpm": 183,
+    "bpmSource": "songstats",
+    "key": "11B",
+    "keySource": "songstats",
+    "genres": [
+      "Rock",
+      "Classic Rock",
+      "Folk Rock",
+      "Pop Rock",
+      "Psychedelic Rock"
+    ],
+    "genresSource": "songstats"
   }
 ]
