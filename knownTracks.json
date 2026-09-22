@@ -130350,5 +130350,31 @@
       "Avoidant"
     ],
     "genresSource": "songstats"
+  },
+  {
+    "artist": "Squirrel Flower",
+    "title": "I'll Go Running",
+    "deezerId": 3353627791,
+    "isrc": "US3R42551908",
+    "album": "Live at Top Note Theatre",
+    "year": "2025",
+    "image": "https://cdn-images.dzcdn.net/images/cover/2acf0cbbb7255ba37f601264150eb112/1000x1000-000000-80-0-0.jpg",
+    "imageSource": "deezer",
+    "deezerRank": 98652,
+    "popularity": 10,
+    "popularitySource": "deezer",
+    "source": "ios_added",
+    "bpm": 72,
+    "bpmSource": "songstats",
+    "key": "7B",
+    "keySource": "songstats",
+    "genres": [
+      "Alternative",
+      "Indie Folk",
+      "Indie",
+      "Indie Rock",
+      "Singer Songwriter"
+    ],
+    "genresSource": "songstats"
   }
 ]
