@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Image de partage (Open Graph / Twitter) 1200×630 → public/og.png via design/render-assets.sh.
+     Palette : src/styles/tokens.css (fond #0f1115, violet #7f77dd / #534ab7, textes #ffffff / #d5d7dd / #a3a7b0 / #6b6f78).
+     Les tuiles reprennent la formule de src/components/CamelotTile.jsx :
+     teinte = ((n − 1) × 30 + 120) mod 360 ; majeures (B) hsl(h 55% 42%) → hsl(h+40 60% 26%) ; mineures (A) 30 % / 16 %. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"
+     font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <radialGradient id="glow" cx="0.28" cy="0.12" r="0.75">
+      <stop offset="0" stop-color="#7f77dd" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#7f77dd" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dm-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7f77dd"/>
+      <stop offset="100%" stop-color="#534ab7"/>
+    </linearGradient>
+    <radialGradient id="dm-disc" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0%" stop-color="#2c2748"/>
+      <stop offset="100%" stop-color="#0e0814"/>
+    </radialGradient>
+    <radialGradient id="dm-label" cx="0.5" cy="0.45" r="0.5">
+      <stop offset="0%" stop-color="#c0b3ff"/>
+      <stop offset="100%" stop-color="#7f77dd"/>
+    </radialGradient>
+    <!-- Tuiles Camelot : 5B, 6B, 7B, 8B (majeures), 8A (mineure) -->
+    <linearGradient id="t5B" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(240, 55%, 42%)"/><stop offset="1" stop-color="hsl(280, 60%, 26%)"/></linearGradient>
+    <linearGradient id="t6B" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(270, 55%, 42%)"/><stop offset="1" stop-color="hsl(310, 60%, 26%)"/></linearGradient>
+    <linearGradient id="t7B" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(300, 55%, 42%)"/><stop offset="1" stop-color="hsl(340, 60%, 26%)"/></linearGradient>
+    <linearGradient id="t8B" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(330, 55%, 42%)"/><stop offset="1" stop-color="hsl(10, 60%, 26%)"/></linearGradient>
+    <linearGradient id="t8A" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(330, 55%, 30%)"/><stop offset="1" stop-color="hsl(10, 60%, 16%)"/></linearGradient>
+  </defs>
+
+  <!-- Fond -->
+  <rect width="1200" height="630" fill="#0f1115"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Logo (DiscPair) -->
+  <svg x="120" y="88" width="116" height="116" viewBox="0 0 100 100">
+    <rect width="100" height="100" rx="22" fill="url(#dm-bg)"/>
+    <g>
+      <circle cx="40" cy="52" r="26" fill="url(#dm-disc)" stroke="#0e0814" stroke-width="0.5"/>
+      <circle cx="40" cy="52" r="22" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.18"/>
+      <circle cx="40" cy="52" r="17" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.12"/>
+      <circle cx="40" cy="52" r="12" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.18"/>
+      <circle cx="40" cy="52" r="8" fill="url(#dm-label)"/>
+      <circle cx="40" cy="52" r="1.7" fill="#160e1e"/>
+    </g>
+    <g>
+      <circle cx="60" cy="52" r="26" fill="url(#dm-disc)" stroke="#0e0814" stroke-width="0.5"/>
+      <circle cx="60" cy="52" r="22" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.18"/>
+      <circle cx="60" cy="52" r="17" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.12"/>
+      <circle cx="60" cy="52" r="12" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.18"/>
+      <circle cx="60" cy="52" r="8" fill="url(#dm-label)"/>
+      <circle cx="60" cy="52" r="1.7" fill="#160e1e"/>
+    </g>
+  </svg>
+
+  <!-- Wordmark + accroche (copy : à éditer ici) -->
+  <text x="262" y="176" font-size="92" font-weight="800" letter-spacing="-2" fill="#ffffff">DJ Matcher</text>
+  <text x="264" y="236" font-size="38" font-weight="500" fill="#d5d7dd">Le prochain morceau qui s’enchaîne</text>
+
+  <!-- Rangée de tuiles Camelot (clé + BPM, comme CamelotTile) -->
+  <g font-weight="800" text-anchor="middle" fill="#ffffff">
+    <rect x="120" y="318" width="160" height="160" rx="28" fill="url(#t5B)"/>
+    <text x="200" y="406" font-size="58">5B</text>
+    <text x="200" y="442" font-size="21" font-weight="600" fill="rgba(255,255,255,0.78)">122 BPM</text>
+
+    <rect x="300" y="318" width="160" height="160" rx="28" fill="url(#t6B)"/>
+    <text x="380" y="406" font-size="58">6B</text>
+    <text x="380" y="442" font-size="21" font-weight="600" fill="rgba(255,255,255,0.78)">123 BPM</text>
+
+    <rect x="480" y="318" width="160" height="160" rx="28" fill="url(#t7B)"/>
+    <text x="560" y="406" font-size="58">7B</text>
+    <text x="560" y="442" font-size="21" font-weight="600" fill="rgba(255,255,255,0.78)">124 BPM</text>
+
+    <rect x="660" y="318" width="160" height="160" rx="28" fill="url(#t8B)"/>
+    <text x="740" y="406" font-size="58">8B</text>
+    <text x="740" y="442" font-size="21" font-weight="600" fill="rgba(255,255,255,0.78)">124 BPM</text>
+
+    <rect x="840" y="318" width="160" height="160" rx="28" fill="url(#t8A)"/>
+    <text x="920" y="406" font-size="58">8A</text>
+    <text x="920" y="442" font-size="21" font-weight="600" fill="rgba(255,255,255,0.78)">125 BPM</text>
+  </g>
+
+  <!-- Pied -->
+  <text x="120" y="574" font-size="24" font-weight="500" fill="#6b6f78">dj-matcher.vercel.app</text>
+  <text x="1080" y="574" font-size="24" font-weight="500" fill="#a3a7b0" text-anchor="end">Gratuit · sans compte · iOS &amp; web</text>
+</svg>

@@ -83,6 +83,30 @@
   align-items: center;
 }
 
+/* Lien discret « À propos » (→ /decouvrir) à côté du numéro de version ;
+   le padding élargit la zone tactile sans changer la hauteur du header. */
+.header-about {
+  padding: 6px 0;
+  font-family: var(--font-sans);
+  color: var(--text-dim);
+  text-decoration: underline;
+  text-decoration-color: var(--border-strong);
+  text-underline-offset: 3px;
+  transition: color 0.15s;
+}
+.header-about::before {
+  content: "·";
+  margin: 0 7px;
+  color: var(--text-faint);
+  text-decoration: none;
+  display: inline-block;
+}
+.header-about:hover,
+.header-about:focus-visible {
+  color: var(--text-secondary);
+  text-decoration-color: currentColor;
+}
+
 /* ===== Search ===== */
 .search-section { margin-bottom: var(--space-xl); }
 

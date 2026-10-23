@@ -76,7 +76,12 @@ export function Header({
         </div>
         <div>
           <div className="header-title">DJ Matcher</div>
-          <div className="header-version">v7.5</div>
+          <div className="header-version">
+            v7.5
+            <a className="header-about" href="/decouvrir">
+              À propos
+            </a>
+          </div>
         </div>
       </div>
 
