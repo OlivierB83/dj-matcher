@@ -10,7 +10,7 @@ import {
   stripTrunc,
   unparenthesizeVersionMeta,
 } from "./track-identity.js";
-import { scoreTrack, computeCompat } from "./scoring.js";
+import { scoreTrack, computeCompat, toCamelot } from "./scoring.js";
 import { buildNewTrack, parseKeyInput } from "./djay-enrich.js";
 import { searchTracks, DeezerLimited } from "./deezer.js";
 import * as catalog from "./catalog-store.js";
@@ -600,6 +600,12 @@ app.post("/api/track-correct", (req, res) => {
 function publicEntry(entry) {
   // eslint-disable-next-line no-unused-vars
   const { _idx: _ignored, ...rest } = entry;
+  // Le morceau courant n'a pas de clé Camelot calculée (les suggestions l'ont via
+  // scoreTrack) : sans elle, l'iOS affichait la clé brute (« D ») au lieu de « 10B ».
+  if (rest.key && !rest.camelot) {
+    const camelot = toCamelot(rest.key);
+    if (camelot) rest.camelot = camelot;
+  }
   return rest;
 }
 
