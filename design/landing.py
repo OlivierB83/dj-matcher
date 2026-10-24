@@ -148,7 +148,7 @@ def page(k):
 <section><h2>{e(t['ex_t'])}</h2><div class="example"><p>{t['ex_lead']}</p><div class="tracks">{ex}</div><p class="why">{e(t['ex_foot'])}</p></div></section>
 <section><h2>{e(t['who_t'])}</h2><div class="who">{who}</div></section>
 <section><h2>{e(t['shots_t'])}</h2><div class="shots">{shots}</div></section>
-<section id="video" class="is-pending"><h2>{e(t['video_t'])}</h2><!-- TODO : déposer public/demo.mp4 et retirer la classe is-pending --><video controls playsinline preload="none" poster="/screens/ecoute.png" src="/demo.mp4"></video></section>
+<section id="video"><h2>{e(t['video_t'])}</h2><video controls playsinline preload="none" poster="/screens/ecoute.png" src="/demo.mp4"></video></section>
 <section><h2>{e(t['feat_t'])}</h2><ul class="feats">{feats}</ul><div class="facts">{facts}</div></section>
 <section><h2>{e(t['faq_t'])}</h2>{faq}</section>
 </main>
