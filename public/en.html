@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DJ Matcher: what to play next</title>
+<meta name="description" content="DJ Matcher hears what&#x27;s playing and suggests the next tracks that mix well: BPM, Camelot key, style. Free, no account.">
+<link rel="canonical" href="https://dj-matcher.vercel.app/en">
+<link rel="alternate" hreflang="fr" href="https://dj-matcher.vercel.app/decouvrir"><link rel="alternate" hreflang="en" href="https://dj-matcher.vercel.app/en">
+<meta property="og:type" content="website"><meta property="og:site_name" content="DJ Matcher">
+<meta property="og:title" content="DJ Matcher: what to play next"><meta property="og:description" content="DJ Matcher hears what&#x27;s playing and suggests the next tracks that mix well: BPM, Camelot key, style. Free, no account.">
+<meta property="og:url" content="https://dj-matcher.vercel.app/en"><meta property="og:image" content="https://dj-matcher.vercel.app/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="DJ Matcher: what to play next"><meta name="twitter:description" content="DJ Matcher hears what&#x27;s playing and suggests the next tracks that mix well: BPM, Camelot key, style. Free, no account."><meta name="twitter:image" content="https://dj-matcher.vercel.app/og.png">
+<meta name="theme-color" content="#0f1115">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "DJ Matcher", "applicationCategory": "MusicApplication", "operatingSystem": "iOS 17.6+, Web", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "description": "DJ Matcher hears what's playing and suggests the next tracks that mix well: BPM, Camelot key, style. Free, no account.", "url": "https://dj-matcher.vercel.app/en", "inLanguage": "en", "author": {"@type": "Person", "name": "Olivier Baudet"}}</script>
+<style>
+:root{--bg:#0f1115;--bg2:#161922;--card:#1b1f29;--line:#2a2e39;--fg:#f4f4f7;--muted:#a3a7b0;--faint:#6b6f78;--brand:#7f77dd;--brand2:#534ab7;--ok:#4cc38a;color-scheme:dark}
+@media (prefers-color-scheme:light){:root{--bg:#f7f6fb;--bg2:#efedf8;--card:#ffffff;--line:#dedbec;--fg:#17151f;--muted:#55526a;--faint:#7c7990;--brand:#5b52d6;--brand2:#463dbb;--ok:#1b7f4b;color-scheme:light}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:var(--brand)}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:18px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px;color:var(--fg);text-decoration:none}
+.logo img{width:34px;height:34px}
+.lang{font-size:14px;color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:6px 12px}
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding-block:28px 56px}
+.hero>*{min-width:0}
+h1{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,sans-serif;font-size:clamp(34px,5.4vw,56px);line-height:1.04;letter-spacing:-.025em;margin:0 0 18px;text-wrap:balance}
+.sub{font-size:clamp(18px,2.2vw,21px);color:var(--muted);margin:0 0 28px;max-width:34ch}
+.ctas{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 22px;border-radius:14px;font-weight:600;text-decoration:none;font-size:16px}
+.btn.primary{background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff}
+.btn.secondary{border:1px solid var(--line);color:var(--fg);background:var(--card)}
+.btn[aria-disabled=true]{opacity:.55;pointer-events:none}
+.note{margin:16px 0 0;font-size:14px;color:var(--faint)}
+.phone{justify-self:center;width:min(320px,80vw);border-radius:40px;border:3px solid var(--line);overflow:hidden;box-shadow:0 30px 80px rgba(83,74,183,.35)}
+.phone img{display:block;width:100%;height:auto}
+section{padding-block:44px;border-top:1px solid var(--line)}
+h2{font-size:clamp(24px,3vw,32px);letter-spacing:-.015em;margin:0 0 22px;text-wrap:balance}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;counter-reset:s;list-style:none;padding:0;margin:0}
+.steps li{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;min-width:0}
+.steps li::before{counter-increment:s;content:counter(s);display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--brand);color:#fff;font-weight:700;margin-bottom:10px}
+.steps b,.who b{display:block;font-size:18px;margin-bottom:6px}
+.steps span,.who span{color:var(--muted);font-size:15.5px}
+.example{background:var(--bg2);border-radius:18px;padding:22px}
+.example p{margin:0 0 14px;color:var(--muted)}
+.tracks{display:grid;gap:10px}
+.track{display:grid;grid-template-columns:52px 1fr auto;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 14px}
+.tile{width:52px;height:52px;border-radius:10px;display:grid;place-items:center;color:#fff;font-weight:700;font-size:15px;line-height:1.05;text-align:center;background:linear-gradient(145deg,#a6306b,#6a281b)}
+.tile small{display:block;font-weight:500;font-size:10px;opacity:.8}
+.track .t{min-width:0}.track .t b{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.track .t span{color:var(--muted);font-size:14px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.chip{font-size:12px;font-weight:600;padding:3px 8px;border-radius:999px;background:rgba(76,195,138,.16);color:var(--ok);white-space:nowrap}
+.why{margin:14px 0 0;font-size:14.5px;color:var(--faint)}
+.who{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.who div{padding:4px 0;min-width:0}
+.shots{display:flex;gap:16px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
+.shots figure{margin:0;flex:0 0 200px;scroll-snap-align:start}
+.shots img{width:200px;height:auto;border-radius:22px;border:1px solid var(--line);display:block}
+.shots figcaption{font-size:14px;color:var(--muted);margin-top:8px;text-align:center}
+.feats{columns:2;column-gap:36px;padding-left:20px;margin:0}
+.feats li{break-inside:avoid;margin:0 0 10px;color:var(--muted)}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:28px}
+.facts div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;min-width:0}
+.facts b{display:block;font-size:30px;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.facts span{font-size:14px;color:var(--muted)}
+details{border-bottom:1px solid var(--line);padding:14px 0}
+summary{cursor:pointer;font-weight:600;font-size:17px}
+details p{color:var(--muted);margin:10px 0 0}
+#video.is-pending{display:none}
+video{width:min(360px,100%);border-radius:24px;display:block}
+footer{padding-block:32px 48px;color:var(--faint);font-size:14px;display:flex;flex-wrap:wrap;gap:8px 20px;border-top:1px solid var(--line)}
+footer a{color:var(--muted)}
+:focus-visible{outline:2px solid var(--brand);outline-offset:3px}
+@media (max-width:760px){.hero{grid-template-columns:1fr;gap:28px}.steps,.who{grid-template-columns:1fr}.feats{columns:1}.facts{grid-template-columns:repeat(2,1fr)}.track{grid-template-columns:44px 1fr}.tile{width:44px;height:44px;font-size:13px}.chips{grid-column:1/-1;justify-content:flex-start}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a class="logo" href="/en"><img src="/favicon.svg" alt="" width="34" height="34">DJ Matcher</a><a class="lang" href="/decouvrir" hreflang="fr">Français</a></header>
+<main>
+<div class="hero"><div><h1>Playing the music tonight?<br>DJ Matcher whispers what's next.</h1><p class="sub">Shazam tells you what&#x27;s playing. DJ Matcher tells you what to play next, and why.</p><div class="ctas"><a class="btn primary" href="#" aria-disabled="true" data-todo="testflight-link" title="iPhone test link coming soon">Try it on iPhone</a><a class="btn secondary" href="/">Try it in your browser</a></div><p class="note">Free · no account · no ads · no DJ skills needed</p></div>
+<div class="phone"><picture><source srcset="/screens/ecoute.webp" type="image/webp"><img src="/screens/ecoute.png" alt="It listens and suggests" width="320" height="696"></picture></div></div>
+<section><h2>How it works</h2><ol class="steps"><li><b>Hold your iPhone near the speaker</b><span>Spotify, Deezer, Apple Music, vinyl or a friend&#x27;s playlist: any source works.</span></li><li><b>The track is recognised</b><span>In a few seconds, with Apple&#x27;s music recognition. Audio is never recorded.</span></li><li><b>What&#x27;s next appears, with the why</b><span>Tracks that mix well, ranked: close BPM, compatible key, same style.</span></li></ol></section>
+<section><h2>A real example</h2><div class="example"><p>After Daft Punk's <b>One More Time</b> (123 BPM, key 10B), the app suggests, among others:</p><div class="tracks"><div class="track"><div class="tile">10B<small>123 BPM</small></div><div class="t"><b>Aerodynamic</b><span>Daft Punk</span></div><div class="chips"><span class="chip">BPM ✓</span><span class="chip">Key ✓</span><span class="chip">same tempo, same key</span></div></div><div class="track"><div class="tile">10B<small>121 BPM</small></div><div class="t"><b>Crazy In Love</b><span>Beyoncé feat. JAY-Z</span></div><div class="chips"><span class="chip">BPM ✓</span><span class="chip">Key ✓</span><span class="chip">within 2 BPM, same key</span></div></div></div><p class="why">Every suggestion carries its indicators: BPM, key, style, danceability. You see why it works and learn as you go.</p></div></section>
+<section><h2>Who it&#x27;s for</h2><div class="who"><div><b>Whoever plays the music tonight</b><span>Birthdays, a friend&#x27;s wedding, a long apéro, a bar. No mixing skills needed.</span></div><div><b>Hobby and mobile DJs</b><span>A backup brain when the floor empties or someone requests something unexpected.</span></div><div><b>Anyone learning to mix</b><span>The Camelot wheel on real songs, with an explanation for every suggestion.</span></div></div></section>
+<section><h2>Screens</h2><div class="shots"><figure><picture><source srcset="/screens/ecoute.webp" type="image/webp"><img src="/screens/ecoute.png" alt="It listens and suggests" loading="lazy" width="200" height="435"></picture><figcaption>It listens and suggests</figcaption></figure><figure><picture><source srcset="/screens/suggestions.webp" type="image/webp"><img src="/screens/suggestions.png" alt="Compatible tracks" loading="lazy" width="200" height="435"></picture><figcaption>Compatible tracks</figcaption></figure><figure><picture><source srcset="/screens/filtres.webp" type="image/webp"><img src="/screens/filtres.png" alt="Filter by style" loading="lazy" width="200" height="435"></picture><figcaption>Filter by style</figcaption></figure><figure><picture><source srcset="/screens/favori.webp" type="image/webp"><img src="/screens/favori.png" alt="Your favourites rise" loading="lazy" width="200" height="435"></picture><figcaption>Your favourites rise</figcaption></figure><figure><picture><source srcset="/screens/recherche.webp" type="image/webp"><img src="/screens/recherche.png" alt="Or type a song" loading="lazy" width="200" height="435"></picture><figcaption>Or type a song</figcaption></figure></div></section>
+<section id="video"><h2>The 40-second demo</h2><video controls playsinline preload="none" poster="/screens/ecoute.png" src="/demo.mp4"></video></section>
+<section><h2>What it does</h2><ul class="feats"><li>Auto-listen: leave the phone by the speaker and it recognises the track about every ten seconds.</li><li>A curated catalogue of about 5,000 tracks, each with BPM and key, from the 1960s to today.</li><li>Pop, dance and house, rock, French and US rap, French chanson, soul and funk, Latin, reggae.</li><li>Favourites boosted in the ranking, tracks you can hide, style and &#x27;Popular&#x27; filters.</li><li>One-tap preview in Apple Music, Spotify or Deezer.</li><li>Unknown track? Add it: its BPM and key are looked up automatically.</li><li>Favourites synced between iPhone and iPad through iCloud.</li></ul><div class="facts"><div><b>5,050</b><span>tracks with BPM and key</span></div><div><b>4</b><span>indicators per suggestion</span></div><div><b>0</b><span>accounts, ads or trackers</span></div><div><b>1</b><span>developer, in France</span></div></div></section>
+<section><h2>FAQ</h2><details><summary>Do I need to be a DJ?</summary><p>No. The app suggests, you choose. If you can make a playlist, you can use it.</p></details><details><summary>Does it work with Spotify, Deezer, vinyl?</summary><p>Yes: the iPhone listens to the room, whatever the source. Preview links open Apple Music, Spotify or Deezer.</p></details><details><summary>Does it record conversations?</summary><p>No. An acoustic fingerprint is computed on the iPhone to recognise the track, then the microphone stops. Nothing is kept.</p></details><details><summary>Android or computer?</summary><p>The web version works everywhere, with search by title (no listening). It installs like an app from Chrome on Android.</p></details><details><summary>How much is it?</summary><p>Nothing. No subscription, no ads, no account.</p></details><details><summary>What if my track isn&#x27;t in the catalogue?</summary><p>Add it from the app: its BPM and key are looked up automatically, and everyone benefits.</p></details><details><summary>Is the app in English?</summary><p>The interface is French today; the English version is on its way.</p></details></section>
+</main>
+<footer><a href="/confidentialite">Privacy</a><a href="/">Web version</a><span data-todo="contact-email">Contact : bientôt</span><span>Made in France by Olivier Baudet · 2026</span></footer>
+</div>
+</body>
+</html>

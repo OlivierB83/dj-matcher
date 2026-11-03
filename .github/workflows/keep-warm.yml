@@ -1,0 +1,18 @@
+name: Keep Render awake
+
+# Ping du backend toutes les 10 minutes entre 7 h et 1 h (heure de Paris) pour éviter
+# le démarrage à froid de l'offre gratuite Render (30 à 60 s) pendant le lancement
+# et la review App Store. Gratuit tant que le dépôt est public ; s'il passe en privé,
+# remplacer par une sonde UptimeRobot (gratuite, intervalle 5 min).
+on:
+  schedule:
+    - cron: "*/10 5-23 * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Ping backend
+        run: curl -sS -m 90 -o /dev/null -w "%{http_code} en %{time_total}s\n" https://dj-matcher.onrender.com/api/catalog-status || true
